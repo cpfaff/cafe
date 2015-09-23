@@ -1,0 +1,245 @@
+﻿<?xml version="1.0"?>
+<cas>
+  <time>
+    <temporalCoverage>
+      <!--You have a CHOICE of the next 2 items at this level-->
+      <dateTimePoint>
+        <!--You have a CHOICE of the next 2 items at this level-->
+        <datePoint>2008-09-29</datePoint>
+        <timePoint>01:18:33</timePoint>
+        <dateTimePoint>2006-08-19T19:27:14+02:00</dateTimePoint>
+      </dateTimePoint>
+      <dateTimeRange>
+        <!--1 or more repetitions:-->
+        <dateTimeItem>
+          <!--You have a CHOICE of the next 2 items at this level-->
+          <dateStart>2009-05-16</dateStart>
+          <timeStart>02:18:37+02:00</timeStart>
+          <dateEnd>2012-09-13+02:00</dateEnd>
+          <timeEnd>09:16:36</timeEnd>
+          <dateTimeStart>2010-03-18T17:05:32</dateTimeStart>
+          <dateTimeEnd>2018-12-28T20:51:14+01:00</dateTimeEnd>
+        </dateTimeItem>
+      </dateTimeRange>
+    </temporalCoverage>
+    <!--Optional:-->
+    <temporalNamespace>
+      <temporalNameRange>
+        <!--1 or more repetitions:-->
+        <temporalNameItem>
+          <temporalName>cenozoic</temporalName>
+          <temporalStandard>string</temporalStandard>
+        </temporalNameItem>
+      </temporalNameRange>
+    </temporalNamespace>
+    <!--Optional:-->
+    <temporalRaster>
+      <temporalExtent>growingSeason</temporalExtent>
+      <temporalResolution>year</temporalResolution>
+    </temporalRaster>
+  </time>
+  <space>
+    <!--Optional:-->
+    <spatialCoverage>
+      <boundingBox>
+        <boundingCoordinate>
+          <northBoundingCoordinate>90</northBoundingCoordinate>
+          <southBoundingCoordinate>90</southBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <westBoundingCoordinate>180</westBoundingCoordinate>
+        </boundingCoordinate>
+        <boundingAltitude>
+          <maxAltitude>1000.00</maxAltitude>
+          <minAltitude>1000.00</minAltitude>
+        </boundingAltitude>
+      </boundingBox>
+    </spatialCoverage>
+    <!--Optional:-->
+    <spatialNamespace>
+      <spatialNameRange>
+        <!--1 or more repetitions:-->
+        <spatialNameItem>
+          <spatialName>indonesia</spatialName>
+          <spatialType>string</spatialType>
+        </spatialNameItem>
+      </spatialNameRange>
+    </spatialNamespace>
+    <!--Optional:-->
+    <spatialRaster>
+      <spatialExtent>global</spatialExtent>
+      <spatialResolution>point</spatialResolution>
+    </spatialRaster>
+  </space>
+  <method>
+    <methodologicalCoverage>
+      <generalApproach>observationalExperiment</generalApproach>
+      <methodRange>
+        <!--1 or more repetitions:-->
+        <methodItem>
+          <!--Optional:-->
+          <methodName>string</methodName>
+        </methodItem>
+      </methodRange>
+      <controlFactorRange>
+        <!--1 or more repetitions:-->
+        <controlFactorItem>
+          <controlFactorName>tolerance</controlFactorName>
+          <controlFactorModus>covariate</controlFactorModus>
+          <controlFactorDependency>independent</controlFactorDependency>
+        </controlFactorItem>
+      </controlFactorRange>
+    </methodologicalCoverage>
+  </method>
+  <sphere>
+    <sphericalCoverage>
+      <sphereRange>
+        <!--1 or more repetitions:-->
+        <sphereItem>
+          <sphereName>hydrosphere</sphereName>
+          <!--Optional:-->
+          <subSphereRange>
+            <!--1 or more repetitions:-->
+            <subSphereItem>
+              <subSphereName>mossLayer</subSphereName>
+            </subSphereItem>
+          </subSphereRange>
+        </sphereItem>
+      </sphereRange>
+    </sphericalCoverage>
+  </sphere>
+  <biome>
+    <!--1 or more repetitions:-->
+    <biomicCoverage>
+      <biomeRange>
+        <!--1 or more repetitions:-->
+        <biomeItem>
+          <!--Optional:-->
+          <biomeName>string</biomeName>
+          <biomeType>salineWater</biomeType>
+          <biomeZone>polar</biomeZone>
+          <biomeWater>semiHumide</biomeWater>
+        </biomeItem>
+      </biomeRange>
+      <!--Optional:-->
+      <physiognomyRange>
+        <!--1 or more repetitions:-->
+        <physiognomyItem>
+          <physiognomyClass>riverSystem</physiognomyClass>
+          <physiognomyType>evergreenNeedleLeaf</physiognomyType>
+        </physiognomyItem>
+      </physiognomyRange>
+    </biomicCoverage>
+    <!--Optional:-->
+    <landUseRange>
+      <!--1 or more repetitions:-->
+      <landUseItem>
+        <landClass>natural</landClass>
+        <landUsePurpose>recreation</landUsePurpose>
+      </landUseItem>
+    </landUseRange>
+  </biome>
+  <organism>
+    <organismicCoverage>
+      <organismRange>
+        <!--1 or more repetitions:-->
+        <organismItem>
+          <!--Optional:-->
+          <domain>string</domain>
+          <!--Optional:-->
+          <kingdom>string</kingdom>
+          <!--Optional:-->
+          <phylum>string</phylum>
+          <!--Optional:-->
+          <division>string</division>
+          <!--Optional:-->
+          <class>string</class>
+          <!--Optional:-->
+          <order>string</order>
+          <!--Optional:-->
+          <family>string</family>
+          <!--Optional:-->
+          <genus>string</genus>
+          <!--Optional:-->
+          <species>string</species>
+        </organismItem>
+      </organismRange>
+      <!--Optional:-->
+      <lifeFormRange>
+        <!--1 or more repetitions:-->
+        <lifeFormItem>
+          <lifeFormClass>bacteria</lifeFormClass>
+          <lifeFormType>hydrophyte</lifeFormType>
+        </lifeFormItem>
+      </lifeFormRange>
+    </organismicCoverage>
+    <!--Optional:-->
+    <organismSizeRange>
+      <!--1 or more repetitions:-->
+      <organismSizeItem>
+        <organismSizeMinimum>1000.00</organismSizeMinimum>
+        <organismSizeMinimumUnit>deciMetre</organismSizeMinimumUnit>
+        <organismSizeMaximum>1000.00</organismSizeMaximum>
+        <organismSizeMaximumUnit>deciMetre</organismSizeMaximumUnit>
+        <organismSizeClass>mesoFlora</organismSizeClass>
+      </organismSizeItem>
+    </organismSizeRange>
+  </organism>
+  <chemical>
+    <!--Optional:-->
+    <chemicalCoverage>
+      <!--Optional:-->
+      <elementRange>
+        <!--1 or more repetitions:-->
+        <elementItem>
+          <elementName>helium</elementName>
+          <!--Optional:-->
+          <isotopeName>47Ti</isotopeName>
+        </elementItem>
+      </elementRange>
+      <!--Optional:-->
+      <compoundRange>
+        <!--1 or more repetitions:-->
+        <compoundItem>
+          <compoundName>string</compoundName>
+          <compoundClass>inorganic</compoundClass>
+          <!--Optional:-->
+          <compoundCategoryRange>
+            <!--Zero or more repetitions:-->
+            <compoundCategoryItem>
+              <compoundCategoryName>hydrogen</compoundCategoryName>
+            </compoundCategoryItem>
+          </compoundCategoryRange>
+        </compoundItem>
+      </compoundRange>
+    </chemicalCoverage>
+    <!--Optional:-->
+    <chemicalFunctionRange>
+      <!--1 or more repetitions:-->
+      <chemicalFunctionItem>
+        <!--Optional:-->
+        <chemicalFunctionName>informationCarrier</chemicalFunctionName>
+      </chemicalFunctionItem>
+    </chemicalFunctionRange>
+  </chemical>
+  <process>
+    <!--Optional:-->
+    <processCoverage>
+      <!--1 or more repetitions:-->
+      <processItem>
+        <processName>assimilation</processName>
+        <processClass>transformationProcess</processClass>
+        <processType>transition</processType>
+      </processItem>
+    </processCoverage>
+    <!--Optional:-->
+    <interactionRange>
+      <!--1 or more repetitions:-->
+      <interactionItem>
+        <interactionName>string</interactionName>
+        <interactionClass>bioticInteraction</interactionClass>
+        <!--1 or more repetitions:-->
+        <interactionPartner>string</interactionPartner>
+      </interactionItem>
+    </interactionRange>
+  </process>
+</cas>

@@ -1,0 +1,2559 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="casTohtml.xsl"?>
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" 
+    version="0.0.1" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
+
+    <xs:element name="cas">
+	<xs:complexType>
+	    <xs:sequence>
+
+		<xs:element name="time" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The time facet covers all aspects of time. It
+			    captures time as point or ranges and allows to
+			    specify a temporal granularity. 
+			</xs:documentation>
+		    </xs:annotation>
+
+		    <xs:complexType>
+			<xs:sequence>
+			    <xs:element name="temporalCoverage" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The temporal coverage module captures
+					the numeric aspects of dates in iso 8601
+					format. It allows to either specify a
+					time point or a time range.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:choice>
+					<xs:sequence>
+					    <xs:element name="dateTimePoint" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+						    <xs:documentation>
+							The dateTimePoint
+							allows to specify a
+							point in time via
+							seperate date and time
+							fields or via a
+							combined date field.
+							Both need to be conform
+							to the iso 8601
+							standard.
+						    </xs:documentation>
+						</xs:annotation>
+
+						<xs:complexType>
+						    <xs:choice>
+							<xs:sequence>
+							    <xs:element name="datePoint" type="xs:date" minOccurs="1" maxOccurs="1">
+								<xs:annotation>
+								    <xs:documentation>
+									A single date in form 
+									YYYY-MM-DD or with an offset from UTC with 
+									conform +XX:XX appende conform to
+									to iso 8601.
+								    </xs:documentation>
+								</xs:annotation>
+							    </xs:element>
+
+							    <xs:element name="timePoint" type="xs:time" minOccurs="1" maxOccurs="1">
+								<xs:annotation>
+								    <xs:documentation>
+									A single time in form 
+									HH:MM:SS or with an offset from UTC with 
+									+XX:XX appended conform to iso 8601.
+								    </xs:documentation>
+								</xs:annotation>
+							    </xs:element>
+							</xs:sequence>
+
+							<xs:sequence>
+							    <xs:element name="dateTimePoint" type="xs:dateTime" minOccurs="1" maxOccurs="1">
+								<xs:annotation>
+								    <xs:documentation>
+									A combined date-time in form 
+									YYY-MM-DDTHH:MM:SS or with offset from UTC 
+									YYY-MM-DDTHH:MM:SS+XX:XX conform
+									to iso 8601 also.
+								    </xs:documentation>
+								</xs:annotation>
+							    </xs:element>
+							</xs:sequence>
+						    </xs:choice>
+						</xs:complexType>
+					    </xs:element>
+					</xs:sequence>
+
+					<xs:sequence>
+					    <xs:element name="dateTimeRange" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+						    <xs:documentation>
+							The dateTimeRange
+							allows to specify one
+							or multiple ranges in
+							time via seperate date
+							and time fields or via
+							a combined date field.
+							Both need to be conform
+							to the iso 8601 
+							standard.
+						    </xs:documentation>
+						</xs:annotation>
+
+						<xs:complexType>
+						    <xs:sequence>
+							<xs:element name="dateTimeItem" minOccurs="1" maxOccurs="unbounded">
+							    <xs:complexType>
+								<xs:choice>
+								    <xs:sequence>
+									<xs:element name="dateStart" type="xs:date" minOccurs="1" maxOccurs="1">
+									    <xs:annotation>
+										<xs:documentation>
+										    A single date in form 
+										    YYYY-MM-DD or with an offset from UTC with 
+										    conform +XX:XX appende conform to
+										    to iso 8601.
+										</xs:documentation>
+									    </xs:annotation>
+									</xs:element>
+
+									<xs:element name="timeStart" type="xs:time" minOccurs="1" maxOccurs="1">
+									    <xs:annotation>
+										<xs:documentation>
+										    A single time in form 
+										    HH:MM:SS or with an offset from UTC with 
+										    +XX:XX appended conform to iso 8601.
+										</xs:documentation>
+									    </xs:annotation>
+									</xs:element>
+
+									<xs:element name="dateEnd" type="xs:date" minOccurs="1" maxOccurs="1">
+									    <xs:annotation>
+										<xs:documentation>
+										    A single date in form 
+										    YYYY-MM-DD or with an offset from UTC with 
+										    conform +XX:XX appende conform to
+										    to iso 8601.
+										</xs:documentation>
+									    </xs:annotation>
+									</xs:element>
+
+									<xs:element name="timeEnd" type="xs:time" minOccurs="1" maxOccurs="1">
+									    <xs:annotation>
+										<xs:documentation>
+										    A single time in form 
+										    HH:MM:SS or with an offset from UTC with 
+										    +XX:XX appended conform to iso 8601.
+										</xs:documentation>
+									    </xs:annotation>
+									</xs:element>
+								    </xs:sequence>
+
+								    <xs:sequence>
+									<xs:element name="dateTimeStart" type="xs:dateTime" minOccurs="1" maxOccurs="1">
+									    <xs:annotation>
+										<xs:documentation>
+										    A combined date-time in form 
+										    YYY-MM-DDTHH:MM:SS or with offset from UTC 
+										    YYY-MM-DDTHH:MM:SS+XX:XX conform
+										    to iso 8601 also.
+										</xs:documentation>
+									    </xs:annotation>
+									</xs:element>
+									<xs:element name="dateTimeEnd" type="xs:dateTime" minOccurs="1" maxOccurs="1">
+									    <xs:annotation>
+										<xs:documentation>
+										    A combined date-time in form 
+										    YYY-MM-DDTHH:MM:SS or with offset from UTC 
+										    YYY-MM-DDTHH:MM:SS+XX:XX conform
+										    to iso 8601 also.
+										</xs:documentation>
+									    </xs:annotation>
+									</xs:element>
+								    </xs:sequence>
+								</xs:choice>
+							    </xs:complexType>
+							</xs:element>
+						    </xs:sequence>
+						</xs:complexType>
+					    </xs:element>
+					</xs:sequence>
+				    </xs:choice>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="temporalNamespace" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The temporal namespace captures named
+					time scales like the geological ages.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="temporalNameRange" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The temporal name range allows to specify multiple items that
+						    contain an name and a reference to age scales.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="temporalNameItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The temporal name item captures one temporal name each and a specification
+								of a standard where the name comes from.
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="temporalName" type="temporalNameType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The temporal name covers names of times like for example
+									    the geological time scale (Hadean, Archean, Proterozoic,
+									    Phanerozoic)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>	
+
+								<xs:element name="temporalStandard" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The temporal standard is a reference from where the names of times
+									    comes from.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="temporalRaster" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The temporal raster allows to span a categorial grid in time with the extent being the frame 
+					and time resolution the subdivision.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="temporalExtent" type="temporalExtentType" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    Defines the extent in time in form of a category (second, minute, hour ...).
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+					<xs:element name="temporalResolution" type="temporalExtentType" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    Defines the resolution in time in form of a category (second, minute, hour ...).
+						    This should be smaller than the extent to be meaningful.
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
+
+		<xs:element name="space" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The space facet covers all localization aspects.
+			    The information ranges from location names over the
+			    specification of the country or continent down to
+			    the extent and resolution of the data.
+			</xs:documentation>
+		    </xs:annotation>
+
+		    <xs:complexType>
+			<xs:sequence>
+			    <xs:element name="spatialCoverage" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The spatial coverage deals with
+					capturing the numeirc aspects of
+					location forming a bounding box with
+					corrdinates and the extent of
+					elevation.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="boundingBox" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The bounding box is a three dimensional virtual object in space 
+						    that is made up by the four coordinates (N,E,S,W) in form of decimal 
+						    degree as well as the maximum and minimum altitude (reference sealevel).
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="boundingCoordinate" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation>
+								The bounding coordinate captures the coordinates to frame 
+								the location.
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="northBoundingCoordinate" type="northSouthBoundingCoordinateType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The north most coordinate that signifies the boundary of the data. It 
+									    has to be given in decimal degree between -90 and +90 degree. 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+								<xs:element name="southBoundingCoordinate" type="northSouthBoundingCoordinateType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The soutch most coordinate that signifies the boundary of the data. It 
+									    has to be given in decimal degree between -90 and +90 degree. 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+								<xs:element name="eastBoundingCoordinate" type="eastWestBoundingCoordinateType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The west most coordinate that signifies the boundary of the data. It 
+									    has to be given in decimal degree between -180 and +180 degree. 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="westBoundingCoordinate" type="eastWestBoundingCoordinateType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The west most coordinate that signifies the boundary of the data. It 
+									    has to be given in decimal degree between -180 and +180 degree. 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+
+						    <xs:element name="boundingAltitude" minOccurs="1" maxOccurs="1">
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="maxAltitude" type="xs:decimal" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The maximal altitude has to be given in meters above mean sealevel
+									    and fixes the top most vertical boarder of the data.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="minAltitude" type="xs:decimal" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The minimal altitude has to be given in meters above mean sealevel
+									    and fixes the most lowest vertical boarder of the data.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="spatialNamespace" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The spatial namespace captures named
+					places and the type of the references
+					e.g. Leipzig/City.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="spatialNameRange" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The spatial name range captures a range of location names and types.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="spatialNameItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The spatial name item covers a range of names and types.
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="spatialName" type="spatialNameType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The name of the location (Leipzig, Cospudener See)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="spatialType" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The type of the location (e.g. City, Lake, etc).
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="spatialRaster" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The spatial raster allows to span a categorial grid in space with the extent being the frame 
+					and time resolution the subdivision.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="spatialExtent" type="spatialExtentType" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    Defines the extent in space in form of a category (point, plot, region, continent, globa).
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+
+					<xs:element name="spatialResolution" type="spatialExtentType" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    Defines the resolution in space in form of a category (point, plot, region, continent, globa).
+						    This should be smaller than the extent to be meaningful.
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
+
+		<xs:element name="method" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The method facet covers all aspects about the
+			    methodological approach and the factors that have
+			    been modified or observed as covariates.
+			</xs:documentation>
+		    </xs:annotation>
+
+		    <xs:complexType>
+			<xs:sequence>
+
+			    <xs:element name="methodologicalCoverage" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The methodological coverage captures the methodological approach as 
+					weel at the method type.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+
+					<xs:element name="generalApproach" type="generalApproachType" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The general approach that thas been used e.g. virtual experiment, controlled experiment, 
+						    field experiment, field manipulation, mere observation.
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+
+					<xs:element name="methodRange" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The method range allows to capture multiple methods by their name.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="methodItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="methodName" type="xs:string" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The name of the method that has been used.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+
+					<xs:element name="controlFactorRange" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    This element covers the range of control factors that are
+						    involved and if the have been manipulated or just observed
+						    as covariates. 
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="controlFactorItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								This element covers the range of control factors that are
+								involved and if they have been manipulated or just observed
+								as covariates. 
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="controlFactorName" type="factorNameType" minOccurs = "1" maxOccurs = "1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The name of the control factor or variable. 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="controlFactorModus" type="factorModus" minOccurs = "1" maxOccurs = "1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The modus of the control factor or the variable (manipulated, observed)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="controlFactorDependency" type="controlFactorDependencyType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    Captures the degree of spatial dependency of the factor: independent, partial dependent, fully dependent.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<!-- <xs:complexType> -->
+								    <!-- <xs:sequence> -->
+									<!-- <xs:element name="controlFactorDependencyItem" minOccurs="1" maxOccurs="unbounded"> -->
+									    <!-- <xs:annotation> -->
+										<!-- <xs:documentation> -->
+										    <!-- The item captures the type of dependency of the factor -->
+										    <!-- </xs:documentation> -->
+										<!-- </xs:annotation> -->
+
+									    <!-- <xs:complexType> -->
+										<!-- <xs:sequence> -->
+
+										    <!-- <xs:element name="controlFactorDependencyType" type="xs:string" minOccurs="1" maxOccurs="1"> -->
+											<!-- <xs:annotation> -->
+											    <!-- <xs:documentation> -->
+												<!-- The type of dependency e.g. spatial dependency -->
+												<!-- </xs:documentation> -->
+											    <!-- </xs:annotation> -->
+											<!-- </xs:element> -->
+
+										    <!-- <xs:element name="controlFactorDependencyDegree" type="controlFactorDependencyType" minOccurs="1" maxOccurs="1"> -->
+											<!-- <xs:annotation> -->
+											    <!-- <xs:documentation> -->
+												<!-- Captures the degree of dependency: independent, partial dependent, fully dependent -->
+												<!-- </xs:documentation> -->
+											    <!-- </xs:annotation> -->
+											<!-- </xs:element> -->
+
+										    <!-- </xs:sequence> -->
+										<!-- </xs:complexType> -->
+									    <!-- </xs:element> -->
+									<!-- </xs:sequence> -->
+								    <!-- </xs:complexType> -->
+
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
+
+		<xs:element name="sphere" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The sphere module deals with aspects of localization 
+			    and thus complements the space module. It allows to 
+			    more fine granular adjust the location within 
+			    the bounding box that has been given. 
+			</xs:documentation>
+		    </xs:annotation>
+
+		    <xs:complexType>
+			<xs:sequence>
+			    <xs:element name="sphericalCoverage" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The spherical coverage allows to specify the range of spheres that
+					is involved.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="sphereRange" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The sphere range captures a range of sphere items with name and sub spheres.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="sphereItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The sphere item captures a sphere item with name and sub spheres.
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="sphereName" type="sphereNameType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The sphere item captures a sphere item with name and sub spheres.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="subSphereRange" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The sub sphere range captures a the range of sub sphere items with name.
+									</xs:documentation>
+								    </xs:annotation>
+
+								    <xs:complexType>
+									<xs:sequence>
+									    <xs:element name="subSphereItem" minOccurs="1" maxOccurs="unbounded">
+										<xs:annotation>
+										    <xs:documentation>
+											The sub sphere item captures a sphere item by name.
+										    </xs:documentation>
+										</xs:annotation>
+
+										<xs:complexType>
+										    <xs:sequence>
+											<xs:element name="subSphereName" type="subSphereName" minOccurs="1" maxOccurs="1">
+											    <xs:annotation>
+												<xs:documentation>
+												    The sub sphere name captures a sphere by name.
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+
+										    </xs:sequence>
+										</xs:complexType> 
+									    </xs:element>
+									</xs:sequence>
+								    </xs:complexType> 
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType> 
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
+
+		<xs:element name="biome" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The biome facet covers the detailed description of
+			    the biome the data originates from. The discription
+			    ranges from the name of the biome over its type and
+			    the latitudinal zonation as well as it covers the
+			    hydrological aspects describing the biome.
+			</xs:documentation>
+		    </xs:annotation>
+
+		    <xs:complexType>
+			<xs:sequence>
+			    <xs:element name="biomicCoverage" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+				    <xs:documentation>
+					The biomic coverage captures biomes by
+					name, tpye, the latitudianal zonataion 
+					and water availablility.	
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="biomeRange" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The biome range allows to add multiple biomes.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="biomeItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The biome item captures the
+								name, the tpye, the latitudianal zonataion 
+								and water availablility of a specific biome.	
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="biomeName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="biomeType" type="biomeTypeType"  minOccurs="1" maxOccurs="1">
+								    <!-- biome type is not a good word -->
+								    <xs:annotation>
+									<xs:documentation>
+									    The biome type captures the general type of the biome e.g. terrestrial,
+									    aquatic, wetland, dryland, ecotone, fresh water, brakish water, saline water
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="biomeZone" type="biomeZoneType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The biome zone caputres the latitudinal zone e.g. polar, boreal, temperate
+									    subtropical, tropical
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="biomeWater" type="biomeWaterType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The biome zone caputres the latitudinal zone e.g. polar, boreal, temperate
+									    subtropical, tropical
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+
+					<xs:element name="physiognomyRange" minOccurs="0" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The physiognomy range caputres the range of available physiognomies  
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="physiognomyItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The physiognomy item caputres a specific type of physiognomy by name and type
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="physiognomyClass" type="physiognomyClassType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The physiognomy class captures the broad classification of the physiognomy (forest, 
+									    open woodland, shrubland ...)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="physiognomyType" type="physiognomyTypeType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The physiognomy type details the classification of the physiognomy (e.g. 
+									    class: forest, type mixed).
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="landUseRange" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The land use range allows to specify the range of land uses
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="landUseItem" minOccurs="1" maxOccurs="unbounded">
+					    <xs:annotation>
+						<xs:documentation>
+						    The land use item allows to specify a specific the land with a
+						    broad classification and to give the purpose the land is used for.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="landClass" type="landClassType" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation>
+								Allows a broad classification of the land in the observation area 
+								in terms of naturality (natural, semi natural, urban).
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						    <xs:element name="landUsePurpose" type="landUsePurposeType" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation>
+								Allows to specify the purpose the land in the observation area is used 
+								for (agriculture, aquaculture, agroforestry, vegetated)
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
+
+		<xs:element name="organism" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The organism facet covers aspects of organisms
+			    description. The description ranges from life forms
+			    the size of the organisms and a taxonomical
+			    classification.
+			</xs:documentation>
+		    </xs:annotation>
+
+		    <xs:complexType>
+			<xs:sequence>
+			    <xs:element name="organismicCoverage" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The organismic coverage deals with aspects of taxonomically classified
+					organisms as well as with a characterization along life forms.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="organismRange" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The organismic range allows to specify multiple taxonomically 
+						    classified organisms.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="organismItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The organism item allows to capture a specific organisms by taxonomical 
+								classification.
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="domain" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="kingdom" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="phylum" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="division" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="class" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="order" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="family" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="genus" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="species" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+
+					<xs:element name="lifeFormRange" minOccurs="0" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The life form range allows to specify multiple types of life forms 
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="lifeFormItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The life form item allows to specify a specific life form 
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="lifeFormClass" type="lifeFormClassType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    A broad general classification of the life form (animal, plant, bacteria, virus)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="lifeFormType" type="lifeFormTypeType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    Allows further specification of the life form covering various aspects (hydrophyte, 
+									    homöotherm ...).
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="organismSizeRange" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The organism size range reflects the size of orgaisms involved in the observation.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="organismSizeItem" minOccurs="1" maxOccurs="unbounded">
+					    <xs:annotation>
+						<xs:documentation>
+						    The organism size reflects the maximum and minimum size of organism in the observation.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="organismSizeMinimum" type="nonNegativeDecimal" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation>
+								The minimum size of an organism 
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						    <xs:element name="organismSizeMinimumUnit" type="organismSizeUnitType" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation>
+								The unit of the minimum size of an organism  (pico, nano, micro, ...Metre)
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						    <xs:element name="organismSizeMaximum" type="nonNegativeDecimal" minOccurs="1" maxOccurs="1"> 
+							<xs:annotation>
+							    <xs:documentation>
+								The maximum size of an organism 
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						    <xs:element name="organismSizeMaximumUnit" type="organismSizeUnitType" minOccurs="1" maxOccurs="1"> 
+							<xs:annotation>
+							    <xs:documentation>
+								The unit of the maximum size of an organism  (pico, nano, micro, ...Metre)
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						    <xs:element name="organismSizeClass" type="organismSizeClassType" minOccurs="1" maxOccurs="1"> 
+							<xs:annotation>
+							    <xs:documentation>
+								Providesa a classification approach to the size information (micro, meso, macroFlora, microFauna ...)
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
+
+		<xs:element name="chemical" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The chemical facet covers all information about
+			    chemical elements, compounds or ions measured or
+			    involved in the dataset.
+			</xs:documentation>
+		    </xs:annotation>
+
+		    <xs:complexType>
+			<xs:sequence>
+
+			    <xs:element name="chemicalCoverage" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The chemical coverage module deals with
+					aspects of elements and compounds that
+					have been involved in the study and
+					their classification.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="elementRange" minOccurs="0" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The chemical element range allows to specify elements 
+						    that have been involved in the study.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="elementItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The chemical element item allows to specify an element
+								that has been involved in the study.
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="elementName" type="elementNameType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    Specify a chemical element by name.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="isotopeName" type="isotopeNameType" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    Specify an isotope by name.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+
+					<xs:element name="compoundRange" minOccurs="0" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The compound range allows to capture a range of chemical compound items
+						    by their name and classification.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="compoundItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The compound item allows to caputre a specific chemical compund
+								by name and classification.
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="compoundName" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    Caputures the compound name.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="compoundClass" type="compoundClassType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    Caputres the compound class (organic, inorganic)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="compoundCategoryRange" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    Allows to capture a range of categories the compound belong to 
+									</xs:documentation>
+								    </xs:annotation>
+
+								    <xs:complexType>
+									<xs:sequence>
+									    <xs:element name="compoundCategoryItem" minOccurs="0" maxOccurs="unbounded">
+										<xs:annotation>
+										    <xs:documentation>
+											The compound item captures one specific compound categorization. 
+										    </xs:documentation>
+										</xs:annotation>
+
+										<xs:complexType>
+										    <xs:sequence>
+											<xs:element name="compoundCategoryName" type="compoundCategoryType" minOccurs="1" maxOccurs="1">
+											    <xs:annotation>
+												<xs:documentation>
+												    The compound category captures one compound categorization by name (e.g. nucleobase,
+												    nucleotide, arene, alkene, alcohol)
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+										    </xs:sequence>
+										</xs:complexType>
+
+									    </xs:element>
+									</xs:sequence>
+								    </xs:complexType>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="chemicalFunctionRange" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The chemical function range allows to capture a range of chemical functions
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="chemicalFunctionItem" minOccurs="1" maxOccurs="unbounded">
+					    <xs:annotation>
+						<xs:documentation>
+						    The chemical function item allows to capture one chemical function
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="chemicalFunctionName" type="chemicalFunctionNameType" minOccurs="0" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation>
+								The chemical function name item allows to capture one chemical function (pesticide, enzyme,
+								pigment, poison)
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
+
+		<xs:element name="process" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The process facet deals with aspects about processes observed in the study. It covers the name of the 
+			    process and allows a classification of the process with process types.
+			</xs:documentation>
+		    </xs:annotation>
+
+		    <xs:complexType>
+			<xs:sequence>
+			    <xs:element name="processCoverage" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+				    <xs:documentation>
+					The process coverage deals with capturing processes and their classification.
+				    </xs:documentation>
+				</xs:annotation>
+
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="processItem" minOccurs="1" maxOccurs="unbounded">
+					    <xs:annotation>
+						<xs:documentation>
+						    The process item covers a specific process by name and classifiction.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="processName" type="processNameType" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation>
+								The process name covers a free specified process name 
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						    <xs:element name="processClass" type="processClassType" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation>
+								The process name covers the name of the process 
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						    <xs:element name="processType" type="processTypeType" minOccurs="1" maxOccurs="1"/>
+
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType> 
+			    </xs:element>
+
+			    <xs:element name="interactionRange" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="interactionItem" minOccurs="1" maxOccurs="unbounded">
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="interactionName" type="xs:string" minOccurs="1" maxOccurs="1"/>
+						    <xs:element name="interactionClass" type="interactionClassType" minOccurs="1" maxOccurs="1"/>
+						    <xs:element name="interactionPartner" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType> 
+			    </xs:element>
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
+	    </xs:sequence>
+	</xs:complexType>
+    </xs:element>
+
+    <!-- process related types -->
+
+    <xs:simpleType name="processClassType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="interactionProcess"/>
+	    <xs:enumeration value="transformationProcess"/>
+	    <xs:enumeration value="transportProcess"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="interactionClassType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="bioticInteraction"/>
+	    <xs:enumeration value="abioticInteraction"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="processTypeType">
+	<xs:restriction base="xs:string">
+	    <!-- interaction -->
+	    <xs:enumeration value="interaction"/>
+
+	    <!-- transformation -->
+	    <xs:enumeration value="removal"/>
+	    <xs:enumeration value="addition"/>
+	    <xs:enumeration value="increase"/>
+	    <xs:enumeration value="decrease"/>
+	    <xs:enumeration value="transition"/>
+	    <xs:enumeration value="conversion"/>
+
+	    <!-- transport -->
+	    <xs:enumeration value="uptake"/>
+	    <xs:enumeration value="release"/>
+	    <xs:enumeration value="exchange"/>
+	    <xs:enumeration value="movement"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="processNameType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="adaptation"/>
+	    <xs:enumeration value="speciation"/>
+	    <xs:enumeration value="extinction"/>
+	    <xs:enumeration value="birth"/>
+	    <xs:enumeration value="growth"/>
+	    <xs:enumeration value="death"/>
+	    <xs:enumeration value="migration"/>
+	    <xs:enumeration value="competition"/>
+	    <xs:enumeration value="facilitation"/>
+	    <xs:enumeration value="consumption"/>
+	    <xs:enumeration value="communication"/>
+	    <xs:enumeration value="assimilation"/>
+	    <xs:enumeration value="dissimilation"/>
+	    <xs:enumeration value="carbonCycle"/>
+	    <xs:enumeration value="nutrientCycle"/>
+	    <xs:enumeration value="waterCycle"/>
+	    <xs:enumeration value="energyExchange"/>
+	    <xs:enumeration value="demography"/>
+	    <xs:enumeration value="evolution"/>
+	    <xs:enumeration value="disruption"/>
+	    <xs:enumeration value="naturalDisturbance"/>
+	    <xs:enumeration value="landUseChange"/>
+	    <xs:enumeration value="climateChange"/>
+	    <xs:enumeration value="pollution"/>
+	    <xs:enumeration value="invasion"/>
+	    <xs:enumeration value="ersosion"/>
+	    <xs:enumeration value="deposition"/>
+	    <xs:enumeration value="succession"/>
+	    <xs:enumeration value="photosyntheses"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <!-- chemical related types -->
+
+    <xs:simpleType name="elementNameType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="hydrogen"/>
+	    <xs:enumeration value="helium"/>
+	    <xs:enumeration value="lithium"/>
+	    <xs:enumeration value="beryllium"/>
+	    <xs:enumeration value="boron"/>
+	    <xs:enumeration value="carbon"/>
+	    <xs:enumeration value="nitrogen"/>
+	    <xs:enumeration value="oxygen"/>
+	    <xs:enumeration value="fluorine"/>
+	    <xs:enumeration value="neon"/>
+	    <xs:enumeration value="sodium"/>
+	    <xs:enumeration value="magnesium"/>
+	    <xs:enumeration value="aluminium"/>
+	    <xs:enumeration value="silicon"/>
+	    <xs:enumeration value="phosphorus"/>
+	    <xs:enumeration value="sulfur"/>
+	    <xs:enumeration value="chlorine"/>
+	    <xs:enumeration value="argon"/>
+	    <xs:enumeration value="potassium"/>
+	    <xs:enumeration value="calcium"/>
+	    <xs:enumeration value="scandium"/>
+	    <xs:enumeration value="titanium"/>
+	    <xs:enumeration value="vanadium"/>
+	    <xs:enumeration value="chromium"/>
+	    <xs:enumeration value="manganese"/>
+	    <xs:enumeration value="iron"/>
+	    <xs:enumeration value="cobalt"/>
+	    <xs:enumeration value="nickel"/>
+	    <xs:enumeration value="copper"/>
+	    <xs:enumeration value="zinc"/>
+	    <xs:enumeration value="gallium"/>
+	    <xs:enumeration value="germanium"/>
+	    <xs:enumeration value="arsenic"/>
+	    <xs:enumeration value="selenium"/>
+	    <xs:enumeration value="bromine"/>
+	    <xs:enumeration value="krypton"/>
+	    <xs:enumeration value="rubidium"/>
+	    <xs:enumeration value="strontium"/>
+	    <xs:enumeration value="yttrium"/>
+	    <xs:enumeration value="zirconium"/>
+	    <xs:enumeration value="niobium"/>
+	    <xs:enumeration value="molybdenum"/>
+	    <xs:enumeration value="technetium"/>
+	    <xs:enumeration value="ruthenium"/>
+	    <xs:enumeration value="rhodium"/>
+	    <xs:enumeration value="palladium"/>
+	    <xs:enumeration value="silver"/>
+	    <xs:enumeration value="cadmium"/>
+	    <xs:enumeration value="indium"/>
+	    <xs:enumeration value="tin"/>
+	    <xs:enumeration value="antimony"/>
+	    <xs:enumeration value="tellurium"/>
+	    <xs:enumeration value="iodine"/>
+	    <xs:enumeration value="xenon"/>
+	    <xs:enumeration value="caesium"/>
+	    <xs:enumeration value="barium"/>
+	    <xs:enumeration value="lanthanum"/>
+	    <xs:enumeration value="cerium"/>
+	    <xs:enumeration value="praseodymium"/>
+	    <xs:enumeration value="neodymium"/>
+	    <xs:enumeration value="promethium"/>
+	    <xs:enumeration value="samarium"/>
+	    <xs:enumeration value="europium"/>
+	    <xs:enumeration value="gadolinium"/>
+	    <xs:enumeration value="terbium"/>
+	    <xs:enumeration value="dysprosium"/>
+	    <xs:enumeration value="holmium"/>
+	    <xs:enumeration value="erbium"/>
+	    <xs:enumeration value="thulium"/>
+	    <xs:enumeration value="ytterbium"/>
+	    <xs:enumeration value="lutetium"/>
+	    <xs:enumeration value="hafnium"/>
+	    <xs:enumeration value="tantalum"/>
+	    <xs:enumeration value="tungsten"/>
+	    <xs:enumeration value="rhenium"/>
+	    <xs:enumeration value="osmium"/>
+	    <xs:enumeration value="iridium"/>
+	    <xs:enumeration value="platinum"/>
+	    <xs:enumeration value="gold"/>
+	    <xs:enumeration value="mercury"/>
+	    <xs:enumeration value="thallium"/>
+	    <xs:enumeration value="lead"/>
+	    <xs:enumeration value="bismuth"/>
+	    <xs:enumeration value="polonium"/>
+	    <xs:enumeration value="astatine"/>
+	    <xs:enumeration value="radon"/>
+	    <xs:enumeration value="francium"/>
+	    <xs:enumeration value="radium"/>
+	    <xs:enumeration value="actinium"/>
+	    <xs:enumeration value="thorium"/>
+	    <xs:enumeration value="protactinium"/>
+	    <xs:enumeration value="uranium"/>
+	    <xs:enumeration value="neptunium"/>
+	    <xs:enumeration value="plutonium"/>
+	    <xs:enumeration value="americium"/>
+	    <xs:enumeration value="curium"/>
+	    <xs:enumeration value="berkelium"/>
+	    <xs:enumeration value="californium"/>
+	    <xs:enumeration value="einsteinium"/>
+	    <xs:enumeration value="fermium"/>
+	    <xs:enumeration value="mendelevium"/>
+	    <xs:enumeration value="nobelium"/>
+	    <xs:enumeration value="lawrencium"/>
+	    <xs:enumeration value="rutherfordium"/>
+	    <xs:enumeration value="dubnium"/>
+	    <xs:enumeration value="seaborgium"/>
+	    <xs:enumeration value="bohrium"/>
+	    <xs:enumeration value="hassium"/>
+	    <xs:enumeration value="meitnerium"/>
+	    <xs:enumeration value="darmstadtium"/>
+	    <xs:enumeration value="roentgenium"/>
+	    <xs:enumeration value="copernicium"/>
+	    <xs:enumeration value="ununtrium"/>
+	    <xs:enumeration value="flerovium"/>
+	    <xs:enumeration value="ununpentium"/>
+	    <xs:enumeration value="livermorium"/>
+	    <xs:enumeration value="ununseptium"/>
+	    <xs:enumeration value="ununoctium"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="isotopeNameType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="10B"/>
+	    <xs:enumeration value="11B"/>
+	    <xs:enumeration value="12C"/>
+	    <xs:enumeration value="13C"/>
+	    <xs:enumeration value="14C"/>
+	    <xs:enumeration value="14N"/>
+	    <xs:enumeration value="15N"/>
+	    <xs:enumeration value="16O"/>
+	    <xs:enumeration value="17O"/>
+	    <xs:enumeration value="18O"/>
+	    <xs:enumeration value="19F"/>
+	    <xs:enumeration value="1H"/>
+	    <xs:enumeration value="20Ne"/>
+	    <xs:enumeration value="21Ne"/>
+	    <xs:enumeration value="22Ne"/>
+	    <xs:enumeration value="23Na"/>
+	    <xs:enumeration value="24Mg"/>
+	    <xs:enumeration value="25Mg"/>
+	    <xs:enumeration value="26Mg"/>
+	    <xs:enumeration value="27Al"/>
+	    <xs:enumeration value="28Si"/>
+	    <xs:enumeration value="29Si"/>
+	    <xs:enumeration value="2H"/>
+	    <xs:enumeration value="30Si"/>
+	    <xs:enumeration value="31P"/>
+	    <xs:enumeration value="32S"/>
+	    <xs:enumeration value="33S"/>
+	    <xs:enumeration value="34S"/>
+	    <xs:enumeration value="35Cl"/>
+	    <xs:enumeration value="36Ar"/>
+	    <xs:enumeration value="36S"/>
+	    <xs:enumeration value="37Cl"/>
+	    <xs:enumeration value="38Ar"/>
+	    <xs:enumeration value="39K"/>
+	    <xs:enumeration value="3H"/>
+	    <xs:enumeration value="3He"/>
+	    <xs:enumeration value="40Ar"/>
+	    <xs:enumeration value="40Ca"/>
+	    <xs:enumeration value="41K"/>
+	    <xs:enumeration value="42Ca"/>
+	    <xs:enumeration value="43Ca"/>
+	    <xs:enumeration value="45Sc"/>
+	    <xs:enumeration value="46Ca"/>
+	    <xs:enumeration value="46Ti"/>
+	    <xs:enumeration value="47Ti"/>
+	    <xs:enumeration value="48Ca"/>
+	    <xs:enumeration value="48Ti"/>
+	    <xs:enumeration value="49Ti"/>
+	    <xs:enumeration value="4He"/>
+	    <xs:enumeration value="50Cr"/>
+	    <xs:enumeration value="50Ti"/>
+	    <xs:enumeration value="50V"/>
+	    <xs:enumeration value="51V"/>
+	    <xs:enumeration value="52Cr"/>
+	    <xs:enumeration value="53Cr"/>
+	    <xs:enumeration value="54Cr"/>
+	    <xs:enumeration value="54Fe"/>
+	    <xs:enumeration value="55Mn"/>
+	    <xs:enumeration value="56Fe"/>
+	    <xs:enumeration value="57Fe"/>
+	    <xs:enumeration value="58Fe"/>
+	    <xs:enumeration value="58Ni"/>
+	    <xs:enumeration value="59Co"/>
+	    <xs:enumeration value="60Ni"/>
+	    <xs:enumeration value="61Ni"/>
+	    <xs:enumeration value="62Ni"/>
+	    <xs:enumeration value="63Cu"/>
+	    <xs:enumeration value="64Ni"/>
+	    <xs:enumeration value="65Cu"/>
+	    <xs:enumeration value="6Li"/>
+	    <xs:enumeration value="7Li"/>
+	    <xs:enumeration value="9Be"/>
+	    <xs:pattern value="[A-z1-9äöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="compoundClassType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="inorganic"/>
+	    <xs:enumeration value="organic"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="compoundCategoryType">
+	<xs:restriction base="xs:string">
+	    <!-- biomolecule type -->
+	    <xs:enumeration value="nucleobase"/>
+	    <xs:enumeration value="nucleotide"/>
+	    <xs:enumeration value="nucleicAcid"/>
+	    <xs:enumeration value="aminoAcid"/>
+	    <xs:enumeration value="protein"/>
+	    <xs:enumeration value="carbohydrate"/>
+	    <xs:enumeration value="lipid"/>
+	    <xs:enumeration value="steroid"/>
+	    <xs:enumeration value="secondaryMetabolite"/>
+	    <!-- aromatic compound -->
+
+	    <xs:enumeration value="arene"/>
+	    <xs:enumeration value="aromaticlons"/>
+	    <xs:enumeration value="benzoDerivative"/>
+	    <xs:enumeration value="heterocyclic"/>
+	    <xs:enumeration value="arylHalide"/>
+
+	    <!-- aliphatic -->
+	    <xs:enumeration value="alkane"/>
+	    <xs:enumeration value="alkene"/>
+	    <xs:enumeration value="alkyne"/>
+
+	    <!-- functional group -->
+	    <xs:enumeration value="alcohol"/>
+	    <xs:enumeration value="aldehyde"/>
+	    <xs:enumeration value="ester"/>
+	    <xs:enumeration value="ether"/>
+	    <xs:enumeration value="ketone"/>
+	    <xs:enumeration value="carboxylicAcid"/>
+	    <xs:enumeration value="amine"/>
+	    <xs:enumeration value="amide"/>
+	    <xs:enumeration value="diazoniumSalt"/>
+	    <xs:enumeration value="nitroCompound"/>
+	    <xs:enumeration value="alkanthiole"/>
+	    <xs:enumeration value="sulfide"/>
+	    <xs:enumeration value="disulfide"/>
+	    <xs:enumeration value="esterOfSulfuricAcid"/>
+	    <xs:enumeration value="sulfone"/>
+	    <xs:enumeration value="sulfoxide"/>
+	    <xs:enumeration value="thionamide"/>
+	    <xs:enumeration value="thiolester"/>
+	    <xs:enumeration value="thioAcid"/>
+	    <xs:enumeration value="esterOfOrthosphoricAcid"/>
+	    <xs:enumeration value="phosphine"/>
+	    <xs:enumeration value="metallorganisc"/>
+
+	    <!-- gas -->
+	    <xs:enumeration value="ammonia"/>
+	    <xs:enumeration value="carbonoxides"/>
+	    <xs:enumeration value="hydrocarbons"/>
+	    <xs:enumeration value="hydrogen"/>
+	    <xs:enumeration value="hydrogenhalogenides"/>
+	    <xs:enumeration value="hydrogenSulfide"/>
+	    <xs:enumeration value="nitrogen"/>
+	    <xs:enumeration value="nitrogenOxides"/>
+	    <xs:enumeration value="oxygen"/>
+	    <xs:enumeration value="sulfuroxides"/>
+
+	    <!-- acid and base  -->
+	    <xs:enumeration value="hydrogenPeroxide"/>
+	    <xs:enumeration value="sodiumHydroxide"/>
+	    <xs:enumeration value="potassiumHydroxide"/>
+	    <xs:enumeration value="calciumHydroxide"/>
+	    <xs:enumeration value="magnesiumHydroxide"/>
+	    <xs:enumeration value="aluminumHydroxide"/>
+	    <xs:enumeration value="carbonicAcid"/>
+	    <xs:enumeration value="nitricAcid"/>
+	    <xs:enumeration value="nitrousAcid"/>
+	    <xs:enumeration value="hydrofluoricAcid"/>
+	    <xs:enumeration value="hydrochloricAcid"/>
+	    <xs:enumeration value="sulfuricAcid"/>
+	    <xs:enumeration value="sulfurousAcid"/>
+	    <xs:enumeration value="phosphoricAcid"/>
+	    <xs:enumeration value="phosphorousAcid"/>
+
+	    <!-- sald and mineral -->
+	    <xs:enumeration value="carbonates"/>
+	    <xs:enumeration value="halogenides"/>
+	    <xs:enumeration value="oxides"/>
+	    <xs:enumeration value="phosphates"/>
+	    <xs:enumeration value="silikates"/>
+	    <xs:enumeration value="sulfates"/>
+	    <xs:enumeration value="sulfides"/>
+
+	    <!-- metal and alloy -->
+	    <xs:enumeration value="elementaryMetal"/>
+	    <xs:enumeration value="alloyOfAluminium"/>
+	    <xs:enumeration value="alloyOfBismuth"/>
+	    <xs:enumeration value="alloyOfChromium"/>
+	    <xs:enumeration value="alloyOfCobalt"/>
+	    <xs:enumeration value="alloyOfCopper"/>
+	    <xs:enumeration value="alloyOfGallium"/>
+	    <xs:enumeration value="alloyOfGold"/>
+	    <xs:enumeration value="alloyOfIndium"/>
+	    <xs:enumeration value="alloyOfIron"/>
+	    <xs:enumeration value="alloyOfLead"/>
+	    <xs:enumeration value="alloyOfMagnesium"/>
+	    <xs:enumeration value="alloyOfMercury"/>
+	    <xs:enumeration value="alloyOfNickel"/>
+	    <xs:enumeration value="alloyOfPotassium"/>
+	    <xs:enumeration value="alloyOfPlutonium"/>
+	    <xs:enumeration value="alloyOfRareEarth"/>
+	    <xs:enumeration value="alloyOfRhodium"/>
+	    <xs:enumeration value="alloyOfScandium"/>
+	    <xs:enumeration value="alloyOfSilver"/>
+	    <xs:enumeration value="alloyOfSodium"/>
+	    <xs:enumeration value="alloyOfTitanium"/>
+	    <xs:enumeration value="alloyOfTin"/>
+	    <xs:enumeration value="alloyOfUranium"/>
+	    <xs:enumeration value="alloyOfZinc"/>
+	    <xs:enumeration value="alloyOfZirconium"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="chemicalFunctionNameType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="ethnoBotany"/>
+	    <xs:enumeration value="alkaloid"/>
+	    <xs:enumeration value="allelopathic"/>
+	    <xs:enumeration value="antibody"/>
+	    <xs:enumeration value="antifouling"/>
+	    <xs:enumeration value="assimilation"/>
+	    <xs:enumeration value="attractant"/>
+	    <xs:enumeration value="coFactor"/>
+	    <xs:enumeration value="cuticula"/>
+	    <xs:enumeration value="detergent"/>
+	    <xs:enumeration value="dietaryFiber"/>
+	    <xs:enumeration value="dissimilation"/>
+	    <xs:enumeration value="enzyme"/>
+	    <xs:enumeration value="fodder"/>
+	    <xs:enumeration value="fragment"/>
+	    <xs:enumeration value="growth"/>
+	    <xs:enumeration value="hormone"/>
+	    <xs:enumeration value="informationCarrier"/>
+	    <xs:enumeration value="inhibiting"/>
+	    <xs:enumeration value="inhibitor"/>
+	    <xs:enumeration value="interaction"/>
+	    <xs:enumeration value="manure"/>
+	    <xs:enumeration value="metabolism"/>
+	    <xs:enumeration value="metabolite"/>
+	    <xs:enumeration value="mineral"/>
+	    <xs:enumeration value="nutrient"/>
+	    <xs:enumeration value="pesticide"/>
+	    <xs:enumeration value="pheromone"/>
+	    <xs:enumeration value="phytoalexin"/>
+	    <xs:enumeration value="phytochemical"/>
+	    <xs:enumeration value="pigment"/>
+	    <xs:enumeration value="poison"/>
+	    <xs:enumeration value="precursor"/>
+	    <xs:enumeration value="protection"/>
+	    <xs:enumeration value="protection"/>
+	    <xs:enumeration value="defense"/>
+	    <xs:enumeration value="repellent"/>
+	    <xs:enumeration value="reservoir"/>
+	    <xs:enumeration value="respiration"/>
+	    <xs:enumeration value="signal"/>
+	    <xs:enumeration value="stability"/>
+	    <xs:enumeration value="stimulator"/>
+	    <xs:enumeration value="structure"/>
+	    <xs:enumeration value="supporting"/>
+	    <xs:enumeration value="surfactant"/>
+	    <xs:enumeration value="toxin"/>
+	    <xs:enumeration value="traceElement"/>
+	    <xs:enumeration value="tracer"/>
+	    <xs:enumeration value="transformation"/>
+	    <xs:enumeration value="transport"/>
+	    <xs:enumeration value="vitamin"/>
+	    <xs:enumeration value="volatile"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <!-- organism related types -->
+
+    <xs:simpleType name="organismSizeUnitType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="picoMetre"/>
+	    <xs:enumeration value="nanoMetre"/>
+	    <xs:enumeration value="microMetre"/>
+	    <xs:enumeration value="milliMetre"/>
+	    <xs:enumeration value="centiMetre"/>
+	    <xs:enumeration value="deciMetre"/>
+	    <xs:enumeration value="metre"/>
+	    <xs:enumeration value="kiloMetre"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="organismSizeClassType">
+	<xs:restriction base="xs:string">
+	    <!-- flora -->
+	    <xs:enumeration value="microFlora"/>
+	    <xs:enumeration value="mesoFlora"/>
+	    <xs:enumeration value="macroFlora"/>
+	    <!-- fauna -->
+	    <xs:enumeration value="microFauna"/>
+	    <xs:enumeration value="mesoFauna"/>
+	    <xs:enumeration value="macroFauna"/>
+	    <xs:enumeration value="megaFauna"/>
+	    <!-- mycota -->
+	    <xs:enumeration value="microMycota"/>
+	    <xs:enumeration value="macroMycota"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="lifeFormClassType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="plant"/>
+	    <xs:enumeration value="animal"/>
+	    <xs:enumeration value="mycota"/>
+	    <xs:enumeration value="microorganism"/>
+	    <xs:enumeration value="bacteria"/>
+	    <xs:enumeration value="archae"/>
+	    <xs:enumeration value="protist"/>
+	    <xs:enumeration value="virus"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="lifeFormTypeType">
+	<xs:restriction base="xs:string">
+	    <!-- plant -->
+	    <xs:enumeration value="hydrophyte"/>
+	    <xs:enumeration value="helophyte"/>
+	    <xs:enumeration value="cryophyte"/>
+	    <xs:enumeration value="hemicryophyte"/>
+	    <xs:enumeration value="chamaephyte"/>
+	    <xs:enumeration value="phanerophyte"/>
+	    <xs:enumeration value="epiphyte"/>
+
+	    <!-- animal -->
+	    <xs:enumeration value="homöotherm"/>
+	    <xs:enumeration value="heterotherm"/>
+	    <xs:enumeration value="poikilotherm"/>
+
+	    <!-- cellularity -->
+	    <xs:enumeration value="multicellular"/>
+	    <xs:enumeration value="unicellular"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <!-- biome related types -->
+
+    <xs:simpleType name="physiognomyClassType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="forest"/>
+	    <xs:enumeration value="openWoodland"/>
+	    <xs:enumeration value="shrubland"/>
+	    <xs:enumeration value="herbaceousSystem"/>
+	    <xs:enumeration value="barrenLand"/>
+	    <xs:enumeration value="lakeSystem"/>
+	    <xs:enumeration value="riverSystem"/>
+	    <xs:enumeration value="marineSystem"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="physiognomyTypeType">
+	<xs:restriction base="xs:string">
+	    <!-- forest -->
+	    <xs:enumeration value="evergreenNeedleLeaf"/>
+	    <xs:enumeration value="evergreenBroadLeaf"/>
+	    <xs:enumeration value="decidiousBroadleaf"/>
+	    <xs:enumeration value="mixed"/>
+	    <!-- open woodland -->
+	    <xs:enumeration value="savannah"/>
+	    <xs:enumeration value="woodySavannah"/>
+	    <!-- shrubland -->
+	    <xs:enumeration value="closedShrubland"/>
+	    <xs:enumeration value="openShrubland"/>
+	    <!-- herbaceous system -->
+	    <xs:enumeration value="grassland"/>
+	    <!-- barren land -->
+	    <xs:enumeration value="dessert"/>
+	    <!-- lake systems -->
+	    <xs:enumeration value="epilimnion"/>
+	    <xs:enumeration value="metalimnion"/>
+	    <xs:enumeration value="hypolimnion"/>
+	    <!-- river systems -->
+	    <xs:enumeration value="crenon"/>
+	    <xs:enumeration value="rhitron"/>
+	    <xs:enumeration value="potamon"/>
+	    <!-- marine systems -->
+	    <xs:enumeration value="littoralZone"/>
+	    <xs:enumeration value="intertidalZone"/>
+	    <xs:enumeration value="estuary"/>
+	    <xs:enumeration value="kelpForest"/>
+	    <xs:enumeration value="coralReef"/>
+	    <xs:enumeration value="oceanBank"/>
+	    <xs:enumeration value="continentalShelf"/>
+	    <xs:enumeration value="neriticZone"/>
+	    <xs:enumeration value="strait"/>
+	    <xs:enumeration value="pelagicZone"/>
+	    <xs:enumeration value="oceanicZone"/>
+	    <xs:enumeration value="seamount"/>
+	    <xs:enumeration value="hydrothermalVent"/>
+	    <xs:enumeration value="coldSeep"/>
+	    <xs:enumeration value="demersalZone"/>
+	    <xs:enumeration value="benthicZone"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="biomeWaterType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="humide"/>
+	    <xs:enumeration value="semiHumide"/>
+	    <xs:enumeration value="semiAride"/>
+	    <xs:enumeration value="aride"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="biomeTypeType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="terrestrial"/>
+	    <xs:enumeration value="ecotone"/>
+	    <xs:enumeration value="dryland"/>
+	    <xs:enumeration value="wetland"/>
+	    <xs:enumeration value="aquatic"/>
+	    <xs:enumeration value="freshWater"/>
+	    <xs:enumeration value="brackishWater"/>
+	    <xs:enumeration value="salineWater"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="biomeZoneType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="polar"/>
+	    <xs:enumeration value="boreal"/>
+	    <xs:enumeration value="temperate"/>
+	    <xs:enumeration value="subtropical"/>
+	    <xs:enumeration value="tropical"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="landClassType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="natural"/>
+	    <xs:enumeration value="semiNatural"/>
+	    <xs:enumeration value="urban"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="landUsePurposeType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="agriculture"/>
+	    <xs:enumeration value="agroforestry"/>
+	    <xs:enumeration value="aquaculture"/>
+	    <xs:enumeration value="recreation"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <!-- sphere related types -->
+
+    <xs:simpleType name="sphereNameType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="biosphere"/>
+	    <xs:enumeration value="phytosphere"/>
+	    <xs:enumeration value="zoosphere"/>
+	    <xs:enumeration value="pedosphere"/>
+	    <xs:enumeration value="hydrosphere"/>
+	    <xs:enumeration value="atmosphere"/>
+	    <xs:enumeration value="lithosphere"/>
+	    <xs:enumeration value="rhizosphere"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="subSphereName">
+	<xs:restriction base="xs:string">
+	    <!-- phytosphere -->
+	    <xs:enumeration value="emergentLayer"/>
+	    <xs:enumeration value="canopyLayer"/>
+	    <xs:enumeration value="treeLayer"/>
+	    <xs:enumeration value="understoryLayer"/>
+	    <xs:enumeration value="shrubLayer"/>
+	    <xs:enumeration value="herbAndFernLayer"/>
+	    <xs:enumeration value="mossLayer"/>
+	    <xs:enumeration value="litterLayer"/>
+
+	    <!-- pedosphere -->
+	    <xs:enumeration value="soilWithThickOrganicLayer"/>
+	    <xs:enumeration value="soilWithStrongHumanInfluence "/>
+	    <xs:enumeration value="soilWithLimitationToRootGrowth "/>
+	    <xs:enumeration value="soilDistinguishedByFeAlChemicstry "/>
+	    <xs:enumeration value="soilWithPronouncedAccumulationOfOrganicMatterInMineralTopsoil"/>
+	    <xs:enumeration value="soilWithAccumulationOfModeratelySolubleSaltsOrNonSalineSubstances"/>
+	    <xs:enumeration value="soilWithClayEnrichedSubsoil"/>
+	    <xs:enumeration value="soilWithLittleOrNoProfileOrientation"/>
+
+	    <xs:enumeration value="oHorizon"/>
+	    <xs:enumeration value="aHorizon"/>
+	    <xs:enumeration value="eHorizon"/>
+	    <xs:enumeration value="bHorizon"/>
+	    <xs:enumeration value="cHorizon"/>
+	    <xs:enumeration value="rHorizon"/>
+	    <xs:enumeration value="lHorizon"/>
+
+	    <!-- hydrosphere -->
+	    <xs:enumeration value="oceanosphere"/>
+	    <xs:enumeration value="limnosphere"/>
+	    <xs:enumeration value="frozenSoil"/>
+	    <xs:enumeration value="frozenWater"/>
+
+	    <!-- atmosphere -->
+	    <xs:enumeration value="troposphere"/>
+	    <xs:enumeration value="stratosphere"/>
+	    <xs:enumeration value="mesosphere"/>
+	    <xs:enumeration value="ionosphere"/>
+
+	    <!-- lithosphere -->
+	    <xs:enumeration value="crust"/>
+	    <xs:enumeration value="upperMantle"/>
+
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+
+    <!-- method related types -->
+
+    <xs:simpleType name="generalApproachType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="virtualExperiment">
+		<xs:annotation>
+		    <xs:documentation>
+			Computer experiments and simulation.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="controlledExperiment">
+		<xs:annotation>
+		    <xs:documentation>
+			System and factors are mostly controlled (lab experiment, greenhouse)aa.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="fieldExperiment">
+		<xs:annotation>
+		    <xs:documentation>
+			Natural system is studied but certain factors are controlled (fertilization, soil warming)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="fieldManipulation">
+		<xs:annotation>
+		    <xs:documentation>
+			Natural system with single factor manipulation.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="observationalExperiment">
+		<xs:annotation>
+		    <xs:documentation>
+			Plots are selected to span gradients and allow analyses of system behaviour.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="observation">
+		<xs:annotation>
+		    <xs:documentation>
+			Mere observations (monitoring, sensing, survey, inventory)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="factorModus">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="observed"/>
+	    <xs:enumeration value="covariate"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="factorNameType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="speciesComposition"/>
+	    <xs:enumeration value="speciesDiversity"/>
+	    <xs:enumeration value="speciesEveness"/>
+	    <xs:enumeration value="speciesRichness"/>
+	    <xs:enumeration value="occurance"/>
+	    <xs:enumeration value="livingStatus"/>
+	    <xs:enumeration value="abundance"/>
+	    <xs:enumeration value="diameter"/>
+	    <xs:enumeration value="weight"/>
+	    <xs:enumeration value="height"/>
+	    <xs:enumeration value="quantity"/>
+	    <xs:enumeration value="density"/>
+	    <xs:enumeration value="occurance"/>
+	    <xs:enumeration value="livingStatus"/>
+	    <xs:enumeration value="abundance"/>
+	    <xs:enumeration value="tolerance"/>
+	    <xs:enumeration value="functionalRichness"/>
+	    <xs:enumeration value="functionalDiversity"/>
+	    <xs:enumeration value="geneticDiversity"/>
+	    <xs:enumeration value="geneticManipulation"/>
+	    <xs:enumeration value="phylogeneticDistictness"/>
+	    <xs:enumeration value="phylogeneticDistance"/>
+	    <xs:enumeration value="phylogenticDiversity"/>
+	    <xs:enumeration value="communityStructure"/>
+	    <xs:enumeration value="CommunityDynamics"/>
+	    <xs:enumeration value="cationExchange"/>
+	    <xs:enumeration value="chemicalDiversity"/>
+	    <xs:enumeration value="chemicalComposition"/>
+	    <xs:enumeration value="chemicalActivity"/>
+	    <xs:enumeration value="nutrient"/>
+	    <xs:enumeration value="pH"/>
+	    <xs:enumeration value="xenobiotics"/>
+	    <xs:enumeration value="intensity"/>
+	    <xs:enumeration value="absorbance"/>
+	    <xs:enumeration value="reflectance"/>
+	    <xs:enumeration value="radiance"/>
+	    <xs:enumeration value="irradiance"/>
+	    <xs:enumeration value="photosynteticActiveRadiation"/>
+	    <xs:enumeration value="soilDepth"/>
+	    <xs:enumeration value="soilColour"/>
+	    <xs:enumeration value="organicMatter"/>
+	    <xs:enumeration value="moisture"/>
+	    <xs:enumeration value="structure"/>
+	    <xs:enumeration value="rootIntensity"/>
+	    <xs:enumeration value="soilBase"/>
+	    <xs:enumeration value="soilTemperature"/>
+	    <xs:enumeration value="grainSize"/>
+	    <xs:enumeration value="airTemperatur"/>
+	    <xs:enumeration value="windDirection"/>
+	    <xs:enumeration value="windSpeed"/>
+	    <xs:enumeration value="airPressure"/>
+	    <xs:enumeration value="precipitation"/>
+	    <xs:enumeration value="evaporation"/>
+	    <xs:enumeration value="groundWaterFlow"/>
+	    <xs:enumeration value="surfaceRunOff"/>
+	    <xs:enumeration value="sublimation"/>
+	    <xs:enumeration value="humitity"/>
+	    <xs:enumeration value="vapourPressure"/>
+	    <xs:enumeration value="scale"/>
+	    <xs:enumeration value="spatialContext"/>
+	    <xs:enumeration value="distance"/>
+	    <xs:enumeration value="harvest"/>
+	    <xs:enumeration value="consumption"/>
+	    <xs:enumeration value="pathogen"/>
+	    <xs:enumeration value="fire"/>
+	    <xs:enumeration value="wind"/>
+	    <xs:enumeration value="abioticStress"/>
+	    <xs:enumeration value="stressTolerance"/>
+	    <xs:enumeration value="identifications"/>
+	    <xs:enumeration value="names"/>
+	    <xs:enumeration value="elevation"/>
+	    <xs:enumeration value="inclination"/>
+	    <xs:enumeration value="exposition"/>
+	    <xs:enumeration value="aspect"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <!-- date and time related types -->
+
+    <xs:simpleType name="temporalExtentType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="second"/>
+	    <xs:enumeration value="minute"/>
+	    <xs:enumeration value="day"/>
+	    <xs:enumeration value="week"/>
+	    <xs:enumeration value="month"/>
+	    <xs:enumeration value="year"/>
+	    <xs:enumeration value="decade"/>
+	    <xs:enumeration value="century"/>
+
+	    <xs:enumeration value="spring"/>
+	    <xs:enumeration value="summer"/>
+	    <xs:enumeration value="autumn"/>
+	    <xs:enumeration value="winter"/>
+
+	    <xs:enumeration value="growingSeason"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="temporalNameType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="hadean"/>
+	    <xs:enumeration value="archean"/>
+	    <xs:enumeration value="proterozoic"/>
+	    <xs:enumeration value="paleozoic"/>
+	    <xs:enumeration value="mesozoic"/>
+	    <xs:enumeration value="cenozoic"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <!-- location related types -->
+
+    <xs:simpleType name="northSouthBoundingCoordinateType">
+	<xs:restriction base="xs:decimal">
+	    <xs:minInclusive value="-90"/>
+	    <xs:maxInclusive value="90"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="eastWestBoundingCoordinateType">
+	<xs:restriction base="xs:decimal">
+	    <xs:minInclusive value="-180"/>
+	    <xs:maxInclusive value="180"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="spatialNameType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value = "andorra"/>
+	    <xs:enumeration value = "unitedArabEmirates"/>
+	    <xs:enumeration value = "afghanistan"/>
+	    <xs:enumeration value = "antiguaandBarbuda"/>
+	    <xs:enumeration value = "anguilla"/>
+	    <xs:enumeration value = "albania"/>
+	    <xs:enumeration value = "armenia"/>
+	    <xs:enumeration value = "angola"/>
+	    <xs:enumeration value = "antarctica"/>
+	    <xs:enumeration value = "argentina"/>
+	    <xs:enumeration value = "americanSamoa"/>
+	    <xs:enumeration value = "austria"/>
+	    <xs:enumeration value = "australia"/>
+	    <xs:enumeration value = "aruba"/>
+	    <xs:enumeration value = "clandIslands"/>
+	    <xs:enumeration value = "azerbaijan"/>
+	    <xs:enumeration value = "bosniaandHerzegovina"/>
+	    <xs:enumeration value = "barbados"/>
+	    <xs:enumeration value = "bangladesh"/>
+	    <xs:enumeration value = "belgium"/>
+	    <xs:enumeration value = "burkinaFaso"/>
+	    <xs:enumeration value = "bulgaria"/>
+	    <xs:enumeration value = "bahrain"/>
+	    <xs:enumeration value = "burundi"/>
+	    <xs:enumeration value = "benin"/>
+	    <xs:enumeration value = "saintBarthélemy"/>
+	    <xs:enumeration value = "bermuda"/>
+	    <xs:enumeration value = "bruneiDarussalam"/>
+	    <xs:enumeration value = "bolivia"/>
+	    <xs:enumeration value = "caribbeanNetherlands"/>
+	    <xs:enumeration value = "brazil"/>
+	    <xs:enumeration value = "bahamas"/>
+	    <xs:enumeration value = "bhutan"/>
+	    <xs:enumeration value = "bouvetIsland"/>
+	    <xs:enumeration value = "botswana"/>
+	    <xs:enumeration value = "belarus"/>
+	    <xs:enumeration value = "belize"/>
+	    <xs:enumeration value = "canada"/>
+	    <xs:enumeration value = "cocosIslands"/>
+	    <xs:enumeration value = "democraticRepublicOfCongo"/>
+	    <xs:enumeration value = "centralAfricanRepublic"/>
+	    <xs:enumeration value = "congo"/>
+	    <xs:enumeration value = "switzerland"/>
+	    <xs:enumeration value = "cotedIvoire"/>
+	    <xs:enumeration value = "cookIslands"/>
+	    <xs:enumeration value = "chile"/>
+	    <xs:enumeration value = "cameroon"/>
+	    <xs:enumeration value = "china"/>
+	    <xs:enumeration value = "colombia"/>
+	    <xs:enumeration value = "costaRica"/>
+	    <xs:enumeration value = "cuba"/>
+	    <xs:enumeration value = "capeVerde"/>
+	    <xs:enumeration value = "curaçao"/>
+	    <xs:enumeration value = "christmasIsland"/>
+	    <xs:enumeration value = "cyprus"/>
+	    <xs:enumeration value = "czechRepublic"/>
+	    <xs:enumeration value = "germany"/>
+	    <xs:enumeration value = "djibouti"/>
+	    <xs:enumeration value = "denmark"/>
+	    <xs:enumeration value = "dominica"/>
+	    <xs:enumeration value = "dominicanRepublic"/>
+	    <xs:enumeration value = "algeria"/>
+	    <xs:enumeration value = "ecuador"/>
+	    <xs:enumeration value = "estonia"/>
+	    <xs:enumeration value = "egypt"/>
+	    <xs:enumeration value = "westernSahara"/>
+	    <xs:enumeration value = "eritrea"/>
+	    <xs:enumeration value = "spain"/>
+	    <xs:enumeration value = "ethiopia"/>
+	    <xs:enumeration value = "finland"/>
+	    <xs:enumeration value = "fiji"/>
+	    <xs:enumeration value = "falklandIslands"/>
+	    <xs:enumeration value = "federatedStatesOfMicronesia"/>
+	    <xs:enumeration value = "faroeIslands"/>
+	    <xs:enumeration value = "france"/>
+	    <xs:enumeration value = "gabon"/>
+	    <xs:enumeration value = "unitedKingdom"/>
+	    <xs:enumeration value = "grenada"/>
+	    <xs:enumeration value = "georgia"/>
+	    <xs:enumeration value = "frenchGuiana"/>
+	    <xs:enumeration value = "guernsey"/>
+	    <xs:enumeration value = "ghana"/>
+	    <xs:enumeration value = "gibraltar"/>
+	    <xs:enumeration value = "greenland"/>
+	    <xs:enumeration value = "gambia"/>
+	    <xs:enumeration value = "guinea"/>
+	    <xs:enumeration value = "guadeloupe"/>
+	    <xs:enumeration value = "equatorialGuinea"/>
+	    <xs:enumeration value = "greece"/>
+	    <xs:enumeration value = "southGeorgiaandtheSouthSandwichIslands"/>
+	    <xs:enumeration value = "guatemala"/>
+	    <xs:enumeration value = "guam"/>
+	    <xs:enumeration value = "guinea-Bissau"/>
+	    <xs:enumeration value = "guyana"/>
+	    <xs:enumeration value = "hongKong"/>
+	    <xs:enumeration value = "heardandMcDonaldIslands"/>
+	    <xs:enumeration value = "honduras"/>
+	    <xs:enumeration value = "croatia"/>
+	    <xs:enumeration value = "haiti"/>
+	    <xs:enumeration value = "hungary"/>
+	    <xs:enumeration value = "indonesia"/>
+	    <xs:enumeration value = "ireland"/>
+	    <xs:enumeration value = "israel"/>
+	    <xs:enumeration value = "isleofMan"/>
+	    <xs:enumeration value = "india"/>
+	    <xs:enumeration value = "britishIndianOceanTerritory"/>
+	    <xs:enumeration value = "iraq"/>
+	    <xs:enumeration value = "iran"/>
+	    <xs:enumeration value = "iceland"/>
+	    <xs:enumeration value = "italy"/>
+	    <xs:enumeration value = "jersey"/>
+	    <xs:enumeration value = "jamaica"/>
+	    <xs:enumeration value = "jordan"/>
+	    <xs:enumeration value = "japan"/>
+	    <xs:enumeration value = "kenya"/>
+	    <xs:enumeration value = "kyrgyzstan"/>
+	    <xs:enumeration value = "cambodia"/>
+	    <xs:enumeration value = "kiribati"/>
+	    <xs:enumeration value = "comoros"/>
+	    <xs:enumeration value = "saintKittsandNevis"/>
+	    <xs:enumeration value = "northKorea"/>
+	    <xs:enumeration value = "southKorea"/>
+	    <xs:enumeration value = "kuwait"/>
+	    <xs:enumeration value = "caymanIslands"/>
+	    <xs:enumeration value = "kazakhstan"/>
+	    <xs:enumeration value = "laoPeoplesDemocraticRepublic"/>
+	    <xs:enumeration value = "lebanon"/>
+	    <xs:enumeration value = "saintLucia"/>
+	    <xs:enumeration value = "liechtenstein"/>
+	    <xs:enumeration value = "sriLanka"/>
+	    <xs:enumeration value = "liberia"/>
+	    <xs:enumeration value = "lesotho"/>
+	    <xs:enumeration value = "lithuania"/>
+	    <xs:enumeration value = "luxembourg"/>
+	    <xs:enumeration value = "latvia"/>
+	    <xs:enumeration value = "libya"/>
+	    <xs:enumeration value = "morocco"/>
+	    <xs:enumeration value = "monaco"/>
+	    <xs:enumeration value = "moldova"/>
+	    <xs:enumeration value = "montenegro"/>
+	    <xs:enumeration value = "saintMartin"/>
+	    <xs:enumeration value = "madagascar"/>
+	    <xs:enumeration value = "marshallIslands"/>
+	    <xs:enumeration value = "macedonia"/>
+	    <xs:enumeration value = "mali"/>
+	    <xs:enumeration value = "myanmar"/>
+	    <xs:enumeration value = "mongolia"/>
+	    <xs:enumeration value = "macau"/>
+	    <xs:enumeration value = "northernMarianaIslands"/>
+	    <xs:enumeration value = "martinique"/>
+	    <xs:enumeration value = "mauritania"/>
+	    <xs:enumeration value = "montserrat"/>
+	    <xs:enumeration value = "malta"/>
+	    <xs:enumeration value = "mauritius"/>
+	    <xs:enumeration value = "maldives"/>
+	    <xs:enumeration value = "malawi"/>
+	    <xs:enumeration value = "mexico"/>
+	    <xs:enumeration value = "malaysia"/>
+	    <xs:enumeration value = "mozambique"/>
+	    <xs:enumeration value = "namibia"/>
+	    <xs:enumeration value = "newCaledonia"/>
+	    <xs:enumeration value = "niger"/>
+	    <xs:enumeration value = "norfolkIsland"/>
+	    <xs:enumeration value = "nigeria"/>
+	    <xs:enumeration value = "nicaragua"/>
+	    <xs:enumeration value = "theNetherlands"/>
+	    <xs:enumeration value = "norway"/>
+	    <xs:enumeration value = "nepal"/>
+	    <xs:enumeration value = "nauru"/>
+	    <xs:enumeration value = "niue"/>
+	    <xs:enumeration value = "newZealand"/>
+	    <xs:enumeration value = "oman"/>
+	    <xs:enumeration value = "panama"/>
+	    <xs:enumeration value = "peru"/>
+	    <xs:enumeration value = "frenchPolynesia"/>
+	    <xs:enumeration value = "papuaNewGuinea"/>
+	    <xs:enumeration value = "philippines"/>
+	    <xs:enumeration value = "pakistan"/>
+	    <xs:enumeration value = "poland"/>
+	    <xs:enumeration value = "stPierreandMiquelon"/>
+	    <xs:enumeration value = "pitcairn"/>
+	    <xs:enumeration value = "puertoRico"/>
+	    <xs:enumeration value = "StateofPalestine"/>
+	    <xs:enumeration value = "portugal"/>
+	    <xs:enumeration value = "palau"/>
+	    <xs:enumeration value = "paraguay"/>
+	    <xs:enumeration value = "qatar"/>
+	    <xs:enumeration value = "reunion"/>
+	    <xs:enumeration value = "romania"/>
+	    <xs:enumeration value = "serbia"/>
+	    <xs:enumeration value = "russianFederation"/>
+	    <xs:enumeration value = "rwanda"/>
+	    <xs:enumeration value = "saudiArabia"/>
+	    <xs:enumeration value = "solomonIslands"/>
+	    <xs:enumeration value = "seychelles"/>
+	    <xs:enumeration value = "sudan"/>
+	    <xs:enumeration value = "sweden"/>
+	    <xs:enumeration value = "singapore"/>
+	    <xs:enumeration value = "saintHelena"/>
+	    <xs:enumeration value = "slovenia"/>
+	    <xs:enumeration value = "svalbardandJanMayenIslands"/>
+	    <xs:enumeration value = "slovakia"/>
+	    <xs:enumeration value = "sierraLeone"/>
+	    <xs:enumeration value = "sanMarino"/>
+	    <xs:enumeration value = "senegal"/>
+	    <xs:enumeration value = "somalia"/>
+	    <xs:enumeration value = "surivalue"/>
+	    <xs:enumeration value = "southSudan"/>
+	    <xs:enumeration value = "saoTomeandPrincipe"/>
+	    <xs:enumeration value = "elSalvador"/>
+	    <xs:enumeration value = "sintMaarten"/>
+	    <xs:enumeration value = "syria"/>
+	    <xs:enumeration value = "swaziland"/>
+	    <xs:enumeration value = "turksandCaicosIslands"/>
+	    <xs:enumeration value = "chad"/>
+	    <xs:enumeration value = "frenchSouthernTerritories"/>
+	    <xs:enumeration value = "togo"/>
+	    <xs:enumeration value = "thailand"/>
+	    <xs:enumeration value = "tajikistan"/>
+	    <xs:enumeration value = "tokelau"/>
+	    <xs:enumeration value = "timorLeste"/>
+	    <xs:enumeration value = "turkmenistan"/>
+	    <xs:enumeration value = "tunisia"/>
+	    <xs:enumeration value = "tonga"/>
+	    <xs:enumeration value = "turkey"/>
+	    <xs:enumeration value = "trinidadandTobago"/>
+	    <xs:enumeration value = "tuvalu"/>
+	    <xs:enumeration value = "taiwan"/>
+	    <xs:enumeration value = "tanzania"/>
+	    <xs:enumeration value = "ukraine"/>
+	    <xs:enumeration value = "uganda"/>
+	    <xs:enumeration value = "unitedStatesMinorOutlyingIslands"/>
+	    <xs:enumeration value = "unitedStates"/>
+	    <xs:enumeration value = "uruguay"/>
+	    <xs:enumeration value = "uzbekistan"/>
+	    <xs:enumeration value = "vatican"/>
+	    <xs:enumeration value = "saintVincentandtheGrenadines"/>
+	    <xs:enumeration value = "venezuela"/>
+	    <xs:enumeration value = "virginIslands"/>
+	    <xs:enumeration value = "vietnam"/>
+	    <xs:enumeration value = "vanuatu"/>
+	    <xs:enumeration value = "wallisAndFutunaIslands"/>
+	    <xs:enumeration value = "samoa"/>
+	    <xs:enumeration value = "yemen"/>
+	    <xs:enumeration value = "mayotte"/>
+	    <xs:enumeration value = "southAfrica"/>
+	    <xs:enumeration value = "zimbabwe"/>
+	    <xs:enumeration value = "zambia"/>
+	    <xs:enumeration value = "africa"/>
+	    <xs:enumeration value = "asia"/>
+	    <xs:enumeration value = "europe"/>
+	    <xs:enumeration value = "northAmerica"/>
+	    <xs:enumeration value = "southAmerica"/>
+	    <xs:enumeration value = "oceania"/>
+	    <xs:enumeration value = "antarctica"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="spatialExtentType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="point">
+		<xs:annotation>
+		    <xs:documentation>
+			Defined as: m^2
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="plot">
+		<xs:annotation>
+		    <xs:documentation>
+			Defined as: 1 m^2 - 0.01 km^2
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="region">
+		<xs:annotation>
+		    <xs:documentation>
+			Defined as: 0.01 km^2 - 10.000 km^2
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="continent">
+		<xs:annotation>
+		    <xs:documentation>
+			Defined as: 10.000 km^2 - 100.000.000 km^2
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="global">
+		<xs:annotation>
+		    <xs:documentation>
+			Defined as: > 100.000.000 km^2 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="controlFactorDependencyType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="independent">
+		<xs:annotation>
+		    <xs:documentation>
+			Fully controlled lab experiment that could take place
+			anywhere.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="partially">
+		<xs:annotation>
+		    <xs:documentation>
+			Unique features of spatial context partially
+			uncontrolled, e.g. light conditions in greenhouse, open
+			top chambers.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="fully">
+		<xs:annotation>
+		    <xs:documentation>
+			Field studies.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="nonNegativeDecimal">
+	<xs:restriction base="xs:decimal">
+	    <xs:minExclusive value="0"/>
+	</xs:restriction>
+    </xs:simpleType>
+</xs:schema>
+
+<!-- <xs:element name="OrderRequest" -->
+          <!-- sawsdl:modelReference="http://www.w3.org/2002/ws/sawsdl/spec/ontology/purchaseorder#OrderRequest" -->
+          <!-- sawsdl:loweringSchemaMapping="http://www.w3.org/2002/ws/sawsdl/spec/mapping/RDFOnt2Request.xml"> -->
