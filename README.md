@@ -4,8 +4,11 @@ The repository for cas contains usecases, tools and standards for the
 annotation of ecological data. The content you find here is developed in the
 context of the DFG funded project, the German Federation For The Curation Of
 Biological data (GFBio). The repository contains an ontology as well as an xml
-schema for the annotation of data. The wiki is currently under construction to
-provide documentation.
+schema for the annotation of data.
+
+NOTE:
+
+The wiki is currently under construction to provide documentation.
 
 ### The xsd standard
 
