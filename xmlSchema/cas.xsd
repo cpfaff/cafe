@@ -9,12 +9,45 @@
     <xs:element name="cas">
 	<xs:complexType>
 	    <xs:sequence>
+		<xs:element name="physical" minOccurs="1" maxOccurs="1">
+		    <xs:complexType>
+			<xs:sequence>
+			    <xs:element name="data" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="fileName" type="xs:string" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The name of the file that is described with extension
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+					<xs:element name="filePath" type="xs:string" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The reference where to find the file along a file path.
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+					<xs:element name="fileUrl" type="xs:string" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The reference where to find the file as URL.
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+			</xs:sequence>
+		    </xs:complexType>
+		</xs:element>
 
 		<xs:element name="time" minOccurs="1" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation>
 			    The time facet covers all aspects of time. It
-			    captures time as point or ranges and allows to
+			    captures time as point or as ranges and allows to
 			    specify a temporal granularity. 
 			</xs:documentation>
 		    </xs:annotation>
@@ -229,7 +262,7 @@
 								    </xs:annotation>
 								</xs:element>	
 
-								<xs:element name="temporalStandard" type="xs:string" minOccurs="1" maxOccurs="1">
+								<xs:element name="temporalStandard" type="temporalStandardType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation>
 									    The temporal standard is a reference from where the names of times
@@ -237,6 +270,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
@@ -324,6 +358,9 @@
 							</xs:annotation>
 
 							<xs:complexType>
+							    <!-- it would be a good idea to include gps points or sub bounding boxes in the bounding box as sub category -->
+							    <!-- this would cpature granularity and extent in a more numeric way compared to the way we do it in the raster -->
+
 							    <xs:sequence>
 								<xs:element name="northBoundingCoordinate" type="northSouthBoundingCoordinateType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
@@ -359,6 +396,7 @@
 								    </xs:annotation>
 								</xs:element>
 							    </xs:sequence>
+
 							</xs:complexType>
 						    </xs:element>
 
@@ -422,6 +460,22 @@
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="spatialName" type="spatialNameType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The name of the location (Leipzig, Cospudener See)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="spatialCountryName" type="spatialNameType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The name of the location (Leipzig, Cospudener See)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="spatialContinentName" type="spatialNameType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation>
 									    The name of the location (Leipzig, Cospudener See)
@@ -502,7 +556,7 @@
 				<xs:complexType>
 				    <xs:sequence>
 
-					<xs:element name="generalApproach" type="generalApproachType" minOccurs="1" maxOccurs="1">
+					<xs:element name="methodApproach" type="methodApproachType" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation>
 						    The general approach that thas been used e.g. virtual experiment, controlled experiment, 
@@ -642,6 +696,7 @@
 
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="sphericalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation>
@@ -677,44 +732,50 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
-								<xs:element name="subSphereRange" minOccurs="0" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation>
-									    The sub sphere range captures a the range of sub sphere items with name.
-									</xs:documentation>
-								    </xs:annotation>
-
-								    <xs:complexType>
-									<xs:sequence>
-									    <xs:element name="subSphereItem" minOccurs="1" maxOccurs="unbounded">
-										<xs:annotation>
-										    <xs:documentation>
-											The sub sphere item captures a sphere item by name.
-										    </xs:documentation>
-										</xs:annotation>
-
-										<xs:complexType>
-										    <xs:sequence>
-											<xs:element name="subSphereName" type="subSphereName" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation>
-												    The sub sphere name captures a sphere by name.
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-										    </xs:sequence>
-										</xs:complexType> 
-									    </xs:element>
-									</xs:sequence>
-								    </xs:complexType> 
-								</xs:element>
 							    </xs:sequence>
 							</xs:complexType> 
 						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
+					</xs:element>
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="layerCoverage" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="layerRange" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation>
+						    The sub sphere range captures a the range of sub sphere items with name.
+						</xs:documentation>
+					    </xs:annotation>
+
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="layerItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation>
+								The sub sphere item captures a sphere item by name.
+							    </xs:documentation>
+							</xs:annotation>
+
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="layerName" type="layerNameType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The sub sphere name captures a sphere by name.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+							    </xs:sequence>
+							</xs:complexType> 
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType> 
 					</xs:element>
 				    </xs:sequence>
 				</xs:complexType>
@@ -736,7 +797,7 @@
 
 		    <xs:complexType>
 			<xs:sequence>
-			    <xs:element name="biomicCoverage" minOccurs="1" maxOccurs="unbounded">
+			    <xs:element name="biomicCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation>
 					The biomic coverage captures biomes by
@@ -938,8 +999,10 @@
 							    <xs:sequence>
 								<xs:element name="domain" type="xs:string" minOccurs="0" maxOccurs="1"/>
 								<xs:element name="kingdom" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								<xs:element name="phylum" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								<xs:element name="division" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:choice>
+								    <xs:element name="phylum" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								    <xs:element name="division" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								</xs:choice>
 								<xs:element name="class" type="xs:string" minOccurs="0" maxOccurs="1"/>
 								<xs:element name="order" type="xs:string" minOccurs="0" maxOccurs="1"/>
 								<xs:element name="family" type="xs:string" minOccurs="0" maxOccurs="1"/>
@@ -952,7 +1015,14 @@
 					    </xs:complexType>
 					</xs:element>
 
-					<xs:element name="lifeFormRange" minOccurs="0" maxOccurs="1">
+				    </xs:sequence>
+				</xs:complexType>
+			    </xs:element>
+
+			    <xs:element name="lifeFormCoverage" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+				    <xs:sequence>
+					<xs:element name="lifeFormRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation>
 						    The life form range allows to specify multiple types of life forms 
@@ -997,64 +1067,71 @@
 				</xs:complexType>
 			    </xs:element>
 
-			    <xs:element name="organismSizeRange" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-				    <xs:documentation>
-					The organism size range reflects the size of orgaisms involved in the observation.
-				    </xs:documentation>
-				</xs:annotation>
-
+			    <xs:element name="organismSizeCoverage" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
-					<xs:element name="organismSizeItem" minOccurs="1" maxOccurs="unbounded">
+
+					<xs:element name="organismSizeRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation>
-						    The organism size reflects the maximum and minimum size of organism in the observation.
+						    The organism size range reflects the size of orgaisms involved in the observation.
 						</xs:documentation>
 					    </xs:annotation>
 
 					    <xs:complexType>
 						<xs:sequence>
-						    <xs:element name="organismSizeMinimum" type="nonNegativeDecimal" minOccurs="1" maxOccurs="1">
+						    <xs:element name="organismSizeItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation>
-								The minimum size of an organism 
+								The organism size reflects the maximum and minimum size of organism in the observation.
 							    </xs:documentation>
 							</xs:annotation>
-						    </xs:element>
 
-						    <xs:element name="organismSizeMinimumUnit" type="organismSizeUnitType" minOccurs="1" maxOccurs="1">
-							<xs:annotation>
-							    <xs:documentation>
-								The unit of the minimum size of an organism  (pico, nano, micro, ...Metre)
-							    </xs:documentation>
-							</xs:annotation>
-						    </xs:element>
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="organismSizeMinimum" type="nonNegativeDecimal" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The minimum size of an organism 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
 
-						    <xs:element name="organismSizeMaximum" type="nonNegativeDecimal" minOccurs="1" maxOccurs="1"> 
-							<xs:annotation>
-							    <xs:documentation>
-								The maximum size of an organism 
-							    </xs:documentation>
-							</xs:annotation>
-						    </xs:element>
+								<xs:element name="organismSizeMinimumUnit" type="organismSizeUnitType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The unit of the minimum size of an organism  (pico, nano, micro, ...Metre)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
 
-						    <xs:element name="organismSizeMaximumUnit" type="organismSizeUnitType" minOccurs="1" maxOccurs="1"> 
-							<xs:annotation>
-							    <xs:documentation>
-								The unit of the maximum size of an organism  (pico, nano, micro, ...Metre)
-							    </xs:documentation>
-							</xs:annotation>
-						    </xs:element>
+								<xs:element name="organismSizeMaximum" type="nonNegativeDecimal" minOccurs="1" maxOccurs="1"> 
+								    <xs:annotation>
+									<xs:documentation>
+									    The maximum size of an organism 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
 
-						    <xs:element name="organismSizeClass" type="organismSizeClassType" minOccurs="1" maxOccurs="1"> 
-							<xs:annotation>
-							    <xs:documentation>
-								Providesa a classification approach to the size information (micro, meso, macroFlora, microFauna ...)
-							    </xs:documentation>
-							</xs:annotation>
-						    </xs:element>
+								<xs:element name="organismSizeMaximumUnit" type="organismSizeUnitType" minOccurs="1" maxOccurs="1"> 
+								    <xs:annotation>
+									<xs:documentation>
+									    The unit of the maximum size of an organism  (pico, nano, micro, ...Metre)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
 
+								<xs:element name="organismSizeClass" type="organismSizeClassType" minOccurs="0" maxOccurs="1"> 
+								    <xs:annotation>
+									<xs:documentation>
+									    Providesa a classification approach to the size information (micro, meso, macroFlora, microFauna ...)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
@@ -1077,7 +1154,7 @@
 		    <xs:complexType>
 			<xs:sequence>
 
-			    <xs:element name="chemicalCoverage" minOccurs="0" maxOccurs="1">
+			    <xs:element name="chemicalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation>
 					The chemical coverage module deals with
@@ -1116,8 +1193,20 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
 
-								<xs:element name="isotopeName" type="isotopeNameType" minOccurs="0" maxOccurs="1">
+					<xs:element name="isotopeRange" minOccurs="0" maxOccurs="1">
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="isotopeItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="isotopeName" type="isotopeNameType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation>
 									    Specify an isotope by name.
@@ -1176,7 +1265,7 @@
 
 								    <xs:complexType>
 									<xs:sequence>
-									    <xs:element name="compoundCategoryItem" minOccurs="0" maxOccurs="unbounded">
+									    <xs:element name="compoundCategoryItem" minOccurs="1" maxOccurs="unbounded">
 										<xs:annotation>
 										    <xs:documentation>
 											The compound item captures one specific compound categorization. 
@@ -1228,7 +1317,7 @@
 
 					    <xs:complexType>
 						<xs:sequence>
-						    <xs:element name="chemicalFunctionName" type="chemicalFunctionNameType" minOccurs="0" maxOccurs="1">
+						    <xs:element name="chemicalFunctionName" type="chemicalFunctionNameType" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation>
 								The chemical function name item allows to capture one chemical function (pesticide, enzyme,
@@ -1242,7 +1331,6 @@
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -1257,7 +1345,7 @@
 
 		    <xs:complexType>
 			<xs:sequence>
-			    <xs:element name="processCoverage" minOccurs="0" maxOccurs="1">
+			    <xs:element name="processCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation>
 					The process coverage deals with capturing processes and their classification.
@@ -1801,25 +1889,29 @@
 	    <xs:enumeration value="microFlora"/>
 	    <xs:enumeration value="mesoFlora"/>
 	    <xs:enumeration value="macroFlora"/>
+
 	    <!-- fauna -->
 	    <xs:enumeration value="microFauna"/>
 	    <xs:enumeration value="mesoFauna"/>
 	    <xs:enumeration value="macroFauna"/>
 	    <xs:enumeration value="megaFauna"/>
+
 	    <!-- mycota -->
 	    <xs:enumeration value="microMycota"/>
 	    <xs:enumeration value="macroMycota"/>
+
+	    <!-- general -->
+	    <xs:enumeration value="microOrganism"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="lifeFormClassType">
 	<xs:restriction base="xs:string">
+	    <xs:enumeration value="archae"/>
+	    <xs:enumeration value="bacteria"/>
 	    <xs:enumeration value="plant"/>
 	    <xs:enumeration value="animal"/>
-	    <xs:enumeration value="mycota"/>
-	    <xs:enumeration value="microorganism"/>
-	    <xs:enumeration value="bacteria"/>
-	    <xs:enumeration value="archae"/>
+	    <xs:enumeration value="fungi"/>
 	    <xs:enumeration value="protist"/>
 	    <xs:enumeration value="virus"/>
 	</xs:restriction>
@@ -1962,19 +2054,33 @@
 
     <xs:simpleType name="sphereNameType">
 	<xs:restriction base="xs:string">
+	    <!-- top categories -->
 	    <xs:enumeration value="biosphere"/>
-	    <xs:enumeration value="phytosphere"/>
-	    <xs:enumeration value="zoosphere"/>
-	    <xs:enumeration value="pedosphere"/>
+	    <xs:enumeration value="lithosphere"/>
 	    <xs:enumeration value="hydrosphere"/>
 	    <xs:enumeration value="atmosphere"/>
-	    <xs:enumeration value="lithosphere"/>
+	    <xs:enumeration value="pedosphere"/>
+
+	    <!-- biosphere -->
+	    <xs:enumeration value="zoosphere"/>
+	    <xs:enumeration value="phytosphere"/>
 	    <xs:enumeration value="rhizosphere"/>
+
+	    <!-- hydrosphere -->
+	    <xs:enumeration value="oceanosphere"/>
+	    <xs:enumeration value="limnosphere"/>
+	    <xs:enumeration value="cryosphere"/>
+
+	    <!-- atmosphere -->
+	    <xs:enumeration value="troposphere"/>
+	    <xs:enumeration value="stratosphere"/>
+	    <xs:enumeration value="mesosphere"/>
+	    <xs:enumeration value="ionosphere"/>
 	</xs:restriction>
     </xs:simpleType>
 
 
-    <xs:simpleType name="subSphereName">
+    <xs:simpleType name="layerNameType">
 	<xs:restriction base="xs:string">
 	    <!-- phytosphere -->
 	    <xs:enumeration value="emergentLayer"/>
@@ -2004,18 +2110,6 @@
 	    <xs:enumeration value="rHorizon"/>
 	    <xs:enumeration value="lHorizon"/>
 
-	    <!-- hydrosphere -->
-	    <xs:enumeration value="oceanosphere"/>
-	    <xs:enumeration value="limnosphere"/>
-	    <xs:enumeration value="frozenSoil"/>
-	    <xs:enumeration value="frozenWater"/>
-
-	    <!-- atmosphere -->
-	    <xs:enumeration value="troposphere"/>
-	    <xs:enumeration value="stratosphere"/>
-	    <xs:enumeration value="mesosphere"/>
-	    <xs:enumeration value="ionosphere"/>
-
 	    <!-- lithosphere -->
 	    <xs:enumeration value="crust"/>
 	    <xs:enumeration value="upperMantle"/>
@@ -2024,10 +2118,9 @@
 	</xs:restriction>
     </xs:simpleType>
 
-
     <!-- method related types -->
 
-    <xs:simpleType name="generalApproachType">
+    <xs:simpleType name="methodApproachType">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="virtualExperiment">
 		<xs:annotation>
@@ -2180,26 +2273,53 @@
 	    <xs:enumeration value="decade"/>
 	    <xs:enumeration value="century"/>
 
-	    <xs:enumeration value="spring"/>
-	    <xs:enumeration value="summer"/>
-	    <xs:enumeration value="autumn"/>
-	    <xs:enumeration value="winter"/>
+	    <!-- <xs:enumeration value="spring"/> -->
+	    <!-- <xs:enumeration value="summer"/> -->
+	    <!-- <xs:enumeration value="autumn"/> -->
+	    <!-- <xs:enumeration value="winter"/> -->
 
-	    <xs:enumeration value="growingSeason"/>
+	    <!-- <xs:enumeration value="growingSeason"/> -->
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="temporalNameType">
 	<xs:restriction base="xs:string">
+	    <!-- eon -->
+	    <xs:enumeration value="phanerozoic"/>
+
+	    <!-- era -->
 	    <xs:enumeration value="hadean"/>
 	    <xs:enumeration value="archean"/>
 	    <xs:enumeration value="proterozoic"/>
 	    <xs:enumeration value="paleozoic"/>
 	    <xs:enumeration value="mesozoic"/>
 	    <xs:enumeration value="cenozoic"/>
+
+	    <!-- period -->
+	    <xs:enumeration value="quaternary"/>
+	    <xs:enumeration value="tertiary"/>
+	    <xs:enumeration value="cretaceous"/>
+	    <xs:enumeration value="jurrasic"/>
+	    <xs:enumeration value="triassic"/>
+	    <xs:enumeration value="permian"/>
+	    <xs:enumeration value="carboniferous"/>
+	    <xs:enumeration value="devonian"/>
+	    <xs:enumeration value="silurian"/>
+	    <xs:enumeration value="ordovician"/>
+	    <xs:enumeration value="cambrian"/>
+	    <xs:enumeration value="precambrian"/>
+
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name="temporalStandardType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="geologicalTime"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
 
     <!-- location related types -->
 
@@ -2555,5 +2675,5 @@
 </xs:schema>
 
 <!-- <xs:element name="OrderRequest" -->
-          <!-- sawsdl:modelReference="http://www.w3.org/2002/ws/sawsdl/spec/ontology/purchaseorder#OrderRequest" -->
-          <!-- sawsdl:loweringSchemaMapping="http://www.w3.org/2002/ws/sawsdl/spec/mapping/RDFOnt2Request.xml"> -->
+	  <!-- sawsdl:modelReference="http://www.w3.org/2002/ws/sawsdl/spec/ontology/purchaseorder#OrderRequest" -->
+	  <!-- sawsdl:loweringSchemaMapping="http://www.w3.org/2002/ws/sawsdl/spec/mapping/RDFOnt2Request.xml"> -->
