@@ -20,7 +20,6 @@
 
 		    <xs:complexType>
 			<xs:sequence>
-			    <xs:element name="physicalType" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
 			    <xs:element name="data" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
