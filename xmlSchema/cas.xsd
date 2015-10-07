@@ -10,8 +10,17 @@
 	<xs:complexType>
 	    <xs:sequence>
 		<xs:element name="physical" minOccurs="1" maxOccurs="1">
+		    <xs:annotation>
+			<xs:documentation>
+			    The physical element captures important information on the 
+			    referenced search object that is classified using the other 
+			    elements of the schema. 
+			</xs:documentation>
+		    </xs:annotation>
+
 		    <xs:complexType>
 			<xs:sequence>
+			    <xs:element name="physicalType" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
 			    <xs:element name="data" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
