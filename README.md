@@ -1,47 +1,55 @@
-## The casual annotation system (CAS)
+## Casual Annotation System (CAS)
 
-The repository for CAS contains use cases, tools and standards for the
-annotation of ecological data. The content you find here is developed in the
-context of the DFG funded project, the German Federation For The Curation Of
-Biological data (GFBio). The repository contains an ontology as well as an XML
-schema (XSD) for the annotation of data.
+The repository contains tools and standards for the annotation of ecological
+data. The content of the repository is developed in the context of the DFG
+funded project called the German Federation For The Curation Of Biological data
+(GFBio, URL). The repository currently contains a vocabulary woven into an XML
+schema file and an ontology for the annotation of data.
 
 NOTE:
 
-The wiki is currently under construction to provide detailed documentation.
+The wiki is currently under construction to provide more detailed documentation
+and use cases.
 
 ### The xsd standard
 
-The XSD standard provides a format that can be used to annotate datasets along
-8 dimension identified to be most important in ecology. These are namely time,
-space, sphere, biome, method, process, chemical. The schema can be used as
-standalone metadata schema but can also be easily integrated into existing
-metadata schemata e.g. the Ecological Metadata Language (EML) or the Access To
-Biological collection data (ABCD). The annotation using the CAS schema can be
-then be used for an advanced facetted search in ecology to help filter for
-relevant data efficiently. For an example annotation see (WIKILINK)
+The XSD file provides a basis that can be used to annotate datasets along 8
+dimension identified to be important in ecology. These dimensions are namely
+time, space, spheres, biomes, methods, processes, chemicals. The schema can be
+used as a standalone metadata schema to capture qualitative and quantitative
+attributes of search objects in biology. The schema however can easily be
+integrated into existing metadata schemata e.g. into the Ecological Metadata
+Language (EML) or the Access To Biological collection data (ABCD) to augment
+their strong descriptive capabilities. The annotation with the schema can be
+employed to build up an advanced facetted search to help filter for relevant
+data in biology more efficiently. For an example annotation see (WIKILINK)
 
 ### The ontology
 
 The CAS ontology is an OWL ontology that follows the design pattern of the
 Extensible Observation Ontology (OBOE). It extends OBOE with concepts suitable
 to describe observations in the ecological context. The concepts that are added
-are structured hierarchically and do not add any modelling. Many of the
-concepts in the ontology contain links to ontologies modelling the concepts in
-detail providing additional links for more information. For a use case on the
-Ontology see the wiki (WIKILINK).
+to OBOE are structured hierarchically and do not add any further ontological
+modelling. Many of the concepts in the ontology contain links to existing
+ontologies of interest modelling concepts in more detail. This link thus is
+providing additional information on the concepts. For a use case of the
+ontology see the wiki (WIKILINK).
 
 NOTE:
 
 The linking to existing Ontologies is an ongoing tasks that could benefit from
-a community contributing (link to issues).
+a community contributing (see [issues](https://github.com/cpfaff/cas/issues)).
 
 ### How to contribute
 
-Contributing is simple given you have a GitHub account. You can create an issue
-[here](https://github.com/cpfaff/cas/issues/new) to start a discussion if you
-find something is missing or needs to be improved. Then we can reference the
-issues in the commit messages. Committing works as follows.
+Contributing content to the repository is simple given you have a GitHub
+account. You can read into the [issues](https://github.com/cpfaff/cas/issues)
+to get you started with existing tasks. However you can also create a
+[new](https://github.com/cpfaff/cas/issues/new) issue to discuss new ideas or
+just to tell us if something is missing or needs improvement. Issues are then
+referenced in the commit messages to track the changes and progress.
+
+Committing to the repository works as follows.
 
 1. Fork the repository
 2. Pull the forked repository to your computer
@@ -52,11 +60,13 @@ issues in the commit messages. Committing works as follows.
 
 NOTE:
 
-Be as precise as possible in your commit messages and always use present tense.
-Give it a meaningful title (max 50 chars long), then describe your changes. Be
-as verbose as you want to. Bullet points are OK as well and represent good way
-to describe your changes (use asterisk as bullet points). Reference to issues
-with discussions using #id_of_the_issue.
+Be as precise as possible in your commit messages. Please always use present
+tense. Give the commit a meaningful title (max 50 chars long). After the title
+leave an empty line and then describe your changes. Be as verbose as you want
+to in your descriptions. Bullet points can be used as well to represent your
+changes (use asterisk as bullet points '*'). Provide references to existing
+issues the commit is addressing. This is done using the hastag and the ID of
+the commit (#id_of_the_issue).
 
 ### License
 
