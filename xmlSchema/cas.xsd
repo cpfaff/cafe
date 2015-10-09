@@ -2323,7 +2323,7 @@
 
     <xs:simpleType name="temporalStandardType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="geologicalTime"/>
+	    <xs:enumeration value="geologicalTimeScale"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
