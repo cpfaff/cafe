@@ -12,6 +12,30 @@ German Federation For The Curation Of Biological data
 
 ### Contents
 
+#### The vocabulary
+
+The vocabulary has been designed along 8 dimensions essential for describing
+ecological datasets. The vocabulary adheres to the following design principles.
+
+* Parsimony
+
+That just means that we do not get to detailed in what information we ask for.
+This principle is driven by the idea that annotations are typical done manually
+fashion and potentially sometimes by someone who is not the author of the data.
+
+* Comprehensiveness
+
+The comprehensiveness stands in trade-off with the parsimony criteria. Despite
+the fact that we want to be parsimonious we also aim for a good and descriptive
+annotation schema. This means to extend the vocabulary if there is a good
+reason to do so but with the first principle in mind.
+
+* Orthogonality
+
+The orthogonality is an important criteria for the axes. This just means that
+before we are are going to add to one of the axes we first have to check if we
+could express the same with combining existing categories across the axes.
+
 #### The schema
 
 It can be used as a standalone metadata schema which captures qualitative and
