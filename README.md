@@ -1,46 +1,58 @@
-## Casual Annotation System (CAS)
+## Introduction
 
-The repository contains tools and standards for the annotation of ecological
-data. The content of the repository is developed in the context of the DFG
-funded project called the German Federation For The Curation Of Biological data
-(GFBio, URL). The repository currently contains a vocabulary woven into an XML
-schema file and an ontology for the annotation of data.
+### General
 
-NOTE:
+This repository contains a standard for the annotation of ecological data. It
+consists of a vocabulary and a XML schema. The vocabulary is designed along 8
+dimensions which are crucial to the description and thus for the discovery of
+ecological data (time, space, spheres, biomes, methods, processes, chemicals)
+The content in the repository is developed and maintained in the context of the
+German Federation For The Curation Of Biological data
+([GFBio](http://www.gfbio.org/)).
 
-The wiki is currently under construction to provide more detailed documentation
-and use cases.
+### Contents
 
-### The xsd standard
+#### The schema
 
-The XSD file provides a basis that can be used to annotate datasets along 8
-dimension identified to be important in ecology. These dimensions are namely
-time, space, spheres, biomes, methods, processes, chemicals. The schema can be
-used as a standalone metadata schema to capture qualitative and quantitative
-attributes of search objects in biology. The schema however can easily be
-integrated into existing metadata schemata e.g. into the Ecological Metadata
-Language (EML) or the Access To Biological collection data (ABCD) to augment
-their strong descriptive capabilities. The annotation with the schema can be
-employed to build up an advanced facetted search to help filter for relevant
-data in biology more efficiently. For an example annotation see (WIKILINK)
+It can be used as a standalone metadata schema which captures qualitative and
+quantitative attributes of ecological data along the 8 dimensions specified in
+the vocabulary. The schema however can also easily be imported into existing
+metadata schema like the Ecological Metadata Language (EML), the Access To
+Biological collection data (ABCD) or Darwin Core to augment their capabilities.
+The schema captures information along the 8 dimensions of the vocabulary and
+thus allows to describe ecological datasets. The annotations can then be turned
+into facets for an improved data discovery in ecology.
 
-### The ontology
+## Charter
 
-The CAS ontology is an OWL ontology that follows the design pattern of the
-Extensible Observation Ontology (OBOE). It extends OBOE with concepts suitable
-to describe observations in the ecological context. The concepts that are added
-to OBOE are structured hierarchically and do not add any further ontological
-modelling. Many of the concepts in the ontology contain links to existing
-ontologies of interest modelling concepts in more detail. This link thus is
-providing additional information on the concepts. For a use case of the
-ontology see the wiki (WIKILINK).
+### Core Members
 
-NOTE:
+* ...
 
-The linking to existing Ontologies is an ongoing tasks that could benefit from
-a community contributing (see [issues](https://github.com/cpfaff/cas/issues)).
+### Motivation
 
-### How to contribute
+Ecology more and more relies on huge amounts of data to answer questions of
+global interest on large spatial and temporal scales. An efficient data
+discovery is crucial to answer specific questions.
+
+### Goals
+
+* Community involvement
+* Open development of an annotation standard for ecology
+* Consolidate the vocabulary
+
+### Strategy
+
+* ...
+
+### Becoming involved
+
+If you want to get involved you can contact:
+
+[claas-thido.pfaff@uni-leipzig.de]
+
+
+## How to contribute (technically)
 
 Contributing content to the repository is simple given you have a GitHub
 account. You can read into the [issues](https://github.com/cpfaff/cas/issues)
