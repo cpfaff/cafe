@@ -2,6 +2,11 @@
 
 ### General
 
+Ecology has become a data intensive science in order ot answer questions of
+global interest across large spatial and temporal scales. An efficient data
+annotation and discovery is crucial to allow researchers find relevant data to
+answer specific questions more easily.
+
 This repository develops a standard for the annotation of ecological data. It
 consists of a vocabulary in form of an SKOS thesaurus and a XML schema. The
 vocabulary is designed along 8 dimensions which are crucial for the description
@@ -85,22 +90,44 @@ Helper Elements by now are lists and items.  See the example below:
 		  <locationName>Andorra</locationName>
 	  </locationItem>
 	</locationList>
-</location>
+</space>
 ```
 
 * Be semantic for better usability
 
-- Do not just name an element: List
-- Rather name it: LocationList, OrganismList, ….
+Do not do
 
-Note: This however somewhat contradicts genericallity.
+```XML
+<space>
+	<location>
+		<list>
+			<item>
+			  <locationType>country</locationType>
+			  <locationName>Andorra</locationName>
+		  </item>
+		</list>
+	</location>
+</space>
+```
+
+But rather do
+
+```XML
+<space>
+	<locationList>
+		<locationItem>
+		  <locationType>country</locationType>
+		  <locationName>Andorra</locationName>
+	  </locationItem>
+	</locationList>
+</space>
+```
 
 * Do not provide full-text fields!
 
-Full-text fields contain information which is hard to process automatically.
-We rather define clearly defined fields that either contain numeric or
-categorical values so the information that is provided can be directly
-harnessed for a facet search.
+What we aim at is clearly defined structures and fields that only contain
+clearly defined bits and pieces of information rather than full-text that could
+contain every information we need but nothing for granted.
 
 ## Charter
 
