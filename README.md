@@ -7,8 +7,9 @@ consists of a vocabulary in form of an SKOS thesaurus and a XML schema. The
 vocabulary is designed along 8 dimensions which are crucial for the description
 and thus for the discovery of ecological data. These dimensions are namely
 time, space, sphere, biome, method, process and chemicals. An annotation with
-the schema allows for a facet based efficient search of ecological data which
-speeds up the discovery of relevant data.
+the schema and the vocabulary allows for a facet based search of ecological
+data and helps to speeds up the discovery of relevant data for specific
+research questions.
 
 The contents in this repository is developed and maintained in the context of
 the German Federation for Biological data ([GFBio](http://www.gfbio.org/)).
@@ -49,20 +50,43 @@ Example:
 
 #### The schema
 
-The schema serves as information vehicle. It stores annotations for datasets
-and allows to exchange the information in a machine readable way. The schema
-allows for the implementation of a faceted search for an improve data disvoery.
+The schema provides an information storage and transport vehicle. It stores
+annotations of dataq and allows to exchange the annotation information in a
+machine readable way. The schema adheres to the following design principles.
 
-The schema adheres to the following design principles.
+* Generic
 
-* Be as generic as possible
+- Do not name fields like
 
-- Do not name fields like : Location > Country = Andorra
-- Rather do: Location > LocationType > Country ; Location > LocationName > Andorra
+```XML
+<location>
+		  <countryName>Andorra</countryName>
+</location>
+```
 
-* Provide logical helper elements
+- Rather do:
 
-Helper Elements by now are ranges and items (e.g. LocationRange, LocationItem)
+```XML
+<location>
+		  <locationType>country</locationType>
+		  <locationName>Andorra</locationName>
+</location>
+```
+
+* Provide Helper Structures
+
+Helper Elements by now are lists and items.  See the example below:
+
+```XML
+<space>
+	<locationList>
+		<locationItem>
+		  <locationType>country</locationType>
+		  <locationName>Andorra</locationName>
+	  </locationItem>
+	</locationList>
+</location>
+```
 
 * Be semantic for better usability
 
@@ -73,8 +97,10 @@ Note: This however somewhat contradicts genericallity.
 
 * Do not provide full-text fields!
 
-Rather defined clearly specified fields in a logical structure where the
-information that is provided can be harnessed for a facet search.
+Full-text fields contain information which is hard to process automatically.
+We rather define clearly defined fields that either contain numeric or
+categorical values so the information that is provided can be directly
+harnessed for a facet search.
 
 ## Charter
 
