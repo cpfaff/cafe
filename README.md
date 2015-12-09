@@ -127,6 +127,20 @@ What we aim at is clearly defined structures and fields that only contain
 clearly defined bits and pieces of information rather than full-text that could
 contain every information we need but nothing for granted.
 
+Compatibility with other schemata:
+
+|          | EML | ABCD | DwC |
+|----------|-----|------|-----|
+| Time     | x   | x    | x   |
+| Space    | x   | x    | x   |
+| Sphere   | -   | -    | -   |
+| Biome    | -   | ~    | ~   |
+| Organism | x   | x    | x   |
+| Chemical | -   | -    | -   |
+| Process  | -   | -    | -   |
+| Method   | x   | x    | x   |
+
+
 ## Charter
 
 ### Core Members
