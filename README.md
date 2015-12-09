@@ -137,25 +137,22 @@ contain every information we need but nothing for granted.
 
 ### Motivation
 
-Ecology more and more relies on huge amounts of data to answer questions of
-global interest on large spatial and temporal scales. An efficient data
-discovery is crucial to answer specific questions.
+A good data discovery is crucial to answer questions in ecology more
+efficiently. Facet search strategy are famous and spread across the internet
+used in may different applications. Facets represent a powerful tool to
+restrict a pool of data by numeric and categorical attributes which describing
+aspects of the search object.
 
 ### Goals
 
-* Community involvement
-* Open development of an annotation standard for ecology
-* Consolidate the vocabulary
-
-### Strategy
-
-* ...
+* Development of a data annotation framework for ecology
+* Community involvement for the development of the schema and the vocabulary
 
 ### Becoming involved
 
-If you want to get involved you can contact:
+If you want to get involved please contact:
 
-[claas-thido.pfaff@uni-leipzig.de]
+<claas-thido.pfaff@uni-leipzig.de>
 
 
 ## How to contribute (technically)
