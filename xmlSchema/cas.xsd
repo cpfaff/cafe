@@ -20,27 +20,27 @@
 
 		    <xs:complexType>
 			<xs:sequence>
-			    <xs:element name="data" minOccurs="0" maxOccurs="1">
+			    <xs:element name="object" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
-					<xs:element name="fileName" type="xs:string" minOccurs="1" maxOccurs="1">
+					<xs:element name="objectType" type="objectTypeType" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation>
-						    The name of the file that is described with extension
+						    The type of object described. This could be audio, image, video, dataset.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
-					<xs:element name="filePath" type="xs:string" minOccurs="1" maxOccurs="1">
+					<xs:element name="objectName" type="xs:string" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation>
-						    The reference where to find the file along a file path.
+						    The name of the object file that is described with extension
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
-					<xs:element name="fileUrl" type="xs:string" minOccurs="1" maxOccurs="1">
+					<xs:element name="objectUrl" type="xs:string" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation>
-						    The reference where to find the file as URL.
+						    The URL reference where to find the associated file.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
@@ -1417,6 +1417,18 @@
 	    </xs:sequence>
 	</xs:complexType>
     </xs:element>
+
+    <!-- physical related types -->
+
+    <xs:simpleType name="objectTypeType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="tabular"/>
+	    <xs:enumeration value="audio"/>
+	    <xs:enumeration value="video"/>
+	    <xs:enumeration value="image"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
 
     <!-- process related types -->
 
