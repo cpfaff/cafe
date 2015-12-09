@@ -78,16 +78,16 @@ machine readable way. The schema adheres to the following design principles.
 
 * Provide Helper Structures
 
-Helper Elements by now are lists and items.  See the example below:
+Helper Elements by now are ranges and items. See the example below:
 
 ```XML
 <space>
-	<locationList>
+	<locationRange>
 		<locationItem>
 		  <locationType>country</locationType>
 		  <locationName>Andorra</locationName>
 	  </locationItem>
-	</locationList>
+	</locationRange>
 </space>
 ```
 
@@ -98,12 +98,12 @@ Do not do
 ```XML
 <space>
 	<location>
-		<list>
+		<range>
 			<item>
 			  <locationType>country</locationType>
 			  <locationName>Andorra</locationName>
 		  </item>
-		</list>
+		</range>
 	</location>
 </space>
 ```
@@ -112,12 +112,12 @@ But rather do
 
 ```XML
 <space>
-	<locationList>
+	<locationRange>
 		<locationItem>
 		  <locationType>country</locationType>
 		  <locationName>Andorra</locationName>
 	  </locationItem>
-	</locationList>
+	</locationRange>
 </space>
 ```
 
