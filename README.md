@@ -4,18 +4,19 @@
 
 Ecology has become a data intensive science in order ot answer questions of
 global interest integrating data across spatial and temporal scales. An
-efficient data annotation and discovery mechanism is crucial to allow
-researchers finding relevant data more easily. This repository serves as a
-platform to develop a standard for the annotation of ecological data. It
-consists of a vocabulary in form of an SKOS thesaurus and a XML schema. The
-vocabulary is designed along 8 dimensions which are crucial for the description
-and the discovery of ecological data. These dimensions are namely time, space,
-sphere, biome, method, process and chemicals. An annotation with the schema and
-the vocabulary allows for a facet based search of ecological data and helps to
-speeds up the discovery of relevant data for specific research questions.
+efficient data annotation and discovery mechanism is crucial to support
+researchers finding relevant data to anser their questions more easily. This
+GitHub repository serves as a platform for the development of a standard that
+provides an annotation tool of ecological data. The standard consists of a
+vocabulary in form of an SKOS thesaurus and a XML schema.
 
-The contents in this repository is developed and maintained in the context of
-the German Federation for Biological data ([GFBio](http://www.gfbio.org/)).
+The vocabulary is designed along 8 broad categories of information crucial for
+the description and the discovery of ecological data. These categories or
+dimensions are namely time, space, sphere, biome, method, process and
+chemicals. The xml schema allows to capture annotations drawn from the
+vocabulary. Using the schema for the annotation allows to turn the information
+into a search facet serving as a filter which can speeds up the discovery of
+specific research data.
 
 ### Contents
 
@@ -146,6 +147,9 @@ contain every information we need but nothing for granted.
 ### Core Members
 
 * ...
+
+The contents in this repository is developed and maintained in the context of
+the German Federation for Biological data ([GFBio](http://www.gfbio.org/)).
 
 ### Motivation
 
