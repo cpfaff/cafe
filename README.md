@@ -3,9 +3,9 @@
 ### General
 
 Ecology has become a data intensive science where researchers integrate data
-across spatial and temporal scales in order ot answer questions of global
+across spatial and temporal scales in order to answer questions of global
 interest. An efficient data annotation and discovery mechanism is crucial to
-support researchers finding relevant data to anser their questions more easily.
+support researchers finding relevant data to answer their questions more easily.
 This GitHub repository serves as a platform for the development of a standard
 that provides an annotation tool of ecological data. The standard consists of a
 vocabulary in form of an SKOS thesaurus and a XML schema.
@@ -22,45 +22,44 @@ specific research data.
 
 #### The vocabulary
 
-The vocabulary has been designed along 8 dimensions essential for describing
-data in the ecological contetxt. The vocabulary adheres to the following design
-principles.
+The vocabulary has been designed in discussion with domain experts of ecology
+and adjacent fields. It is designed along 8 dimensions which are essential for
+describing data in the context of ecology. The vocabulary adheres to the
+following design principles.
 
 * Parsimony
 
-That means that we do not get to detailed in what information we ask for. This
-principle is driven by the idea that annotations are typical done in manual
-fashion and potentially by someone who is not the author of the data.
+That basically means that we do not get to detailed in terms of information we
+ask for. This principle is driven by the idea that annotations are typical done
+in manual fashion and potentially by someone who is not the author of the data
+(e.g. a data curator).
+
 
 * Comprehensiveness
 
-The comprehensiveness represents a trade-off to the parsimony criteria.
 Despite the fact that the vocabulary on one hand strifes to be parsimonious we
 also aim for a good and descriptive annotation. This basically means to extend
 the vocabulary for more detail if there is a good reason to do so but always
 keep the first principle in mind.
 
-Example:
-
 * Orthogonality
 
 The orthogonality is an important criteria for the axes of the vocabulary. This
-just means that concepts on the axes do not appear somewhere else and stand in
-their place for a certain reason. Before we are are going to add new concepts
-to one of the axes we first have to check if the vocabulary could express the
-same meaning by the combination of existing categories across the axes.
-
-Example:
+just means that concepts found on one of the axes do not appear somewhere else
+and stand in their place for a certain reason. Before a new concept is going to
+be added first we have to check if the vocabulary could express the same by a
+combination of existing concepts.
 
 #### The schema
 
-The schema provides an information storage and transport vehicle. It stores
-annotations of dataq and allows to exchange the annotation information in a
-machine readable way. The schema adheres to the following design principles.
+The schema provides an information storage and transport vehicle for the
+vocabulary. It stores annotations for search objects  allows to exchange the
+annotation in a machine readable way. The schema also adheres to some desing
+principles.
 
 * Generic
 
-- Do not name fields like
+Do not do:
 
 ```XML
 <location>
@@ -68,7 +67,7 @@ machine readable way. The schema adheres to the following design principles.
 </location>
 ```
 
-- Rather do:
+Rather do:
 
 ```XML
 <location>
@@ -94,7 +93,7 @@ Helper Elements by now are ranges and items. See the example below:
 
 * Be semantic for better usability
 
-Do not do
+Do not do:
 
 ```XML
 <space>
@@ -124,9 +123,9 @@ But rather do
 
 * Do not provide full-text fields!
 
-What we aim at is clearly defined structures and fields that only contain
-clearly defined bits and pieces of information rather than full-text that could
-contain every information we need but nothing for granted.
+We aim at generic structures and fields that only contain clearly defined bits
+and pieces of information. Full-text fields are useful in general however,
+often contain every we might need but nothing for granted, nor well structured.
 
 #### Compatibility with other schemata
 
@@ -154,14 +153,15 @@ the German Federation for Biological data ([GFBio](http://www.gfbio.org/)).
 ### Motivation
 
 A good data discovery is crucial to answer questions in ecology more
-efficiently. Facet search strategy are famous and spread across the internet
-used in may different applications. Facets represent a powerful tool to
-restrict a pool of data by numeric and categorical attributes which describing
-aspects of the search object.
+efficiently. Facet search strategies are famous and spread across the internet
+used successfully in may different applications. Facets represent a powerful
+tool to restrict a search space by certain criteria and thus allow to restrict
+a pool of data by numeric and categorical attributes for a faster discovery of
+a desired set of data.
 
 ### Goals
 
-* Development of a data annotation framework for ecology
+* Development of a simple to use data annotation framework for ecology
 * Community involvement for the development of the schema and the vocabulary
 
 ### Becoming involved
@@ -176,9 +176,11 @@ If you want to get involved please contact:
 Contributing content to the repository is simple given you have a GitHub
 account. You can read into the [issues](https://github.com/cpfaff/cas/issues)
 to get you started with existing tasks. However you can also create a
-[new](https://github.com/cpfaff/cas/issues/new) issue to discuss new ideas or
-just to tell us if something is missing or needs improvement. Issues are then
-referenced in the commit messages to track the changes and progress.
+[new](https://github.com/cpfaff/cas/issues/new) issue to discuss your ideas or
+just to give us feedback if something is missing or needs improvement.  The
+issues are then referenced in the commit messages to track the changes and the
+progress so always stay up to date with the development around certain
+discussions.
 
 Committing to the repository works as follows.
 
