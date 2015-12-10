@@ -2,12 +2,12 @@
 
 ### General
 
-Ecology has become a data intensive science in order ot answer questions of
-global interest integrating data across spatial and temporal scales. An
-efficient data annotation and discovery mechanism is crucial to support
-researchers finding relevant data to anser their questions more easily. This
-GitHub repository serves as a platform for the development of a standard that
-provides an annotation tool of ecological data. The standard consists of a
+Ecology has become a data intensive science where researchers integrate data
+across spatial and temporal scales in order ot answer questions of global
+interest. An efficient data annotation and discovery mechanism is crucial to
+support researchers finding relevant data to anser their questions more easily.
+This GitHub repository serves as a platform for the development of a standard
+that provides an annotation tool of ecological data. The standard consists of a
 vocabulary in form of an SKOS thesaurus and a XML schema.
 
 The vocabulary is designed along 8 broad categories of information crucial for
