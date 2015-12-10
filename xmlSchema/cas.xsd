@@ -114,19 +114,6 @@
 								</xs:annotation>
 							    </xs:element>
 							</xs:sequence>
-
-							<xs:sequence>
-							    <xs:element name="dateTimePoint" type="xs:dateTime" minOccurs="1" maxOccurs="1">
-								<xs:annotation>
-								    <xs:documentation>
-									A combined date-time in form 
-									YYY-MM-DDTHH:MM:SS or with offset from UTC 
-									YYY-MM-DDTHH:MM:SS+XX:XX conform
-									to iso 8601 also.
-								    </xs:documentation>
-								</xs:annotation>
-							    </xs:element>
-							</xs:sequence>
 						    </xs:choice>
 						</xs:complexType>
 					    </xs:element>
@@ -192,29 +179,6 @@
 										    A single time in form 
 										    HH:MM:SS or with an offset from UTC with 
 										    +XX:XX appended conform to iso 8601.
-										</xs:documentation>
-									    </xs:annotation>
-									</xs:element>
-								    </xs:sequence>
-
-								    <xs:sequence>
-									<xs:element name="dateTimeStart" type="xs:dateTime" minOccurs="1" maxOccurs="1">
-									    <xs:annotation>
-										<xs:documentation>
-										    A combined date-time in form 
-										    YYY-MM-DDTHH:MM:SS or with offset from UTC 
-										    YYY-MM-DDTHH:MM:SS+XX:XX conform
-										    to iso 8601 also.
-										</xs:documentation>
-									    </xs:annotation>
-									</xs:element>
-									<xs:element name="dateTimeEnd" type="xs:dateTime" minOccurs="1" maxOccurs="1">
-									    <xs:annotation>
-										<xs:documentation>
-										    A combined date-time in form 
-										    YYY-MM-DDTHH:MM:SS or with offset from UTC 
-										    YYY-MM-DDTHH:MM:SS+XX:XX conform
-										    to iso 8601 also.
 										</xs:documentation>
 									    </xs:annotation>
 									</xs:element>
