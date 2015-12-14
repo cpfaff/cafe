@@ -5,15 +5,15 @@
 Ecology has become a data intensive science where researchers integrate data
 across spatial and temporal scales in order to answer questions of global
 interest. An efficient data annotation and discovery mechanism is crucial to
-support researchers finding relevant data to answer their questions more easily.
-This GitHub repository serves as a platform for the development of a standard
-that provides an annotation tool of ecological data. The standard consists of a
-vocabulary in form of an SKOS thesaurus and a XML schema.
+support researchers finding relevant data to answer their questions more
+easily.  This GitHub repository serves as a platform for the development of a
+standard that provides an annotation tool of ecological data. The standard
+consists of a vocabulary in form of an SKOS thesaurus and a XML schema.
 
 The vocabulary is designed along 8 broad categories of information crucial for
 the description and the discovery of ecological data. These categories or
 dimensions are namely time, space, sphere, biome, method, process and
-chemicals. The xml schema allows to capture annotations drawn from the
+chemicals. The XML schema allows to capture annotations drawn from the
 vocabulary. Using the schema for the annotation allows to turn the information
 into a search facet serving as a filter which can speeds up the discovery of
 specific research data.
