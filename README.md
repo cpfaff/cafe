@@ -22,10 +22,11 @@ specific research data.
 
 #### The vocabulary
 
-The vocabulary has been designed in discussion with domain experts of ecology
-and adjacent fields. It is designed along 8 dimensions which are essential for
-describing data in the context of ecology. The vocabulary adheres to the
-following design principles.
+The [vocabulary](http://tematres.befdata.biow.uni-leipzig.de/vocab/index.php)
+has been designed in discussion with domain experts of ecology and adjacent
+fields. It is designed along 8 dimensions which are essential for describing
+data in the context of ecology. The vocabulary adheres to the following design
+principles.
 
 * Parsimony
 
@@ -127,6 +128,12 @@ We aim at generic structures and fields that only contain clearly defined bits
 and pieces of information. Full-text fields are useful in general however,
 often contain every we might need but nothing for granted, nor well structured.
 
+#### Tagging tool
+
+There is a tagging tool on its way that allows to create valid annotations
+based on the schema. You can browse the mock-ups
+[here](https://invis.io/QN59GTRRW).
+
 #### Compatibility with other schemata
 
 |          | EML | ABCD | DwC |
@@ -139,7 +146,6 @@ often contain every we might need but nothing for granted, nor well structured.
 | Chemical | -   | -    | -   |
 | Process  | -   | -    | -   |
 | Method   | x   | x    | x   |
-
 
 ## Charter
 
