@@ -214,6 +214,61 @@
 
 					    <xs:complexType>
 						<xs:sequence>
+
+						   <xs:element name="temporalNameBoundary" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="lowerBoundary" minOccurs="0" maxOccurs="unbounded">
+								    <xs:complexType>
+									<xs:sequence>
+									    <xs:element name="temporalName" type="temporalNameType" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation>
+											The temporal name covers names of times like for example
+											the geological time scale (Hadean, Archean, Proterozoic,
+											Phanerozoic)
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>	
+									    <xs:element name="temporalStandard" type="temporalStandardType" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation>
+											The temporal standard is a reference from where the names of times
+											comes from e.g. the international chronostratigraphic chart
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
+									</xs:sequence>
+								    </xs:complexType>
+								</xs:element>
+
+								<xs:element name="upperBoundary" minOccurs="0" maxOccurs="unbounded">
+								    <xs:complexType>
+									<xs:sequence>
+									    <xs:element name="temporalName" type="temporalNameType" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation>
+											The temporal name covers names of times like for example
+											the geological time scale (Hadean, Archean, Proterozoic,
+											Phanerozoic)
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>	
+									    <xs:element name="temporalStandard" type="temporalStandardType" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation>
+											The temporal standard is a reference from where the names of times
+											comes from e.g. the international chronostratigraphic chart
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
+									</xs:sequence>
+								    </xs:complexType>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element> 
+
 						    <xs:element name="temporalNameItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation>
@@ -242,29 +297,10 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
-								<xs:choice>
-								    <xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation>
-										Does this item represent the lower boundary of a range?
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>
-
-								    <xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation>
-										Does this item represent the upper boundary of a range?
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>
-								</xs:choice>
-
 							    </xs:sequence>
 							</xs:complexType>
-
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
