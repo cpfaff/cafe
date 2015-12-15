@@ -208,7 +208,7 @@
 					    <xs:annotation>
 						<xs:documentation>
 						    The temporal name range allows to specify multiple items that
-						    contain an name and a reference to age scales.
+						    contain a name and a reference to age scales.
 						</xs:documentation>
 					    </xs:annotation>
 
@@ -238,13 +238,32 @@
 								    <xs:annotation>
 									<xs:documentation>
 									    The temporal standard is a reference from where the names of times
-									    comes from.
+									    comes from e.g. the international chronostratigraphic chart
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 
+								<xs:choice>
+								    <xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation>
+										Does this item represent the lower boundary of a range?
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>
+
+								    <xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation>
+										Does this item represent the upper boundary of a range?
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>
+								</xs:choice>
+
 							    </xs:sequence>
 							</xs:complexType>
+
 						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
@@ -2299,7 +2318,7 @@
 
     <xs:simpleType name="temporalStandardType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="geologicalTimeScale"/>
+	    <xs:enumeration value="internationalChronostratigraphicChart"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
