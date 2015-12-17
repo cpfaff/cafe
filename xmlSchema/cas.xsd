@@ -591,32 +591,6 @@
 					    </xs:annotation>
 					</xs:element>
 
-					<xs:element name="methodRange" minOccurs="1" maxOccurs="1">
-					    <xs:annotation>
-						<xs:documentation>
-						    The method range allows to capture multiple methods by their name.
-						</xs:documentation>
-					    </xs:annotation>
-
-					    <xs:complexType>
-						<xs:sequence>
-						    <xs:element name="methodItem" minOccurs="1" maxOccurs="unbounded">
-							<xs:complexType>
-							    <xs:sequence>
-								<xs:element name="methodName" type="xs:string" minOccurs="0" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation>
-									    The name of the method that has been used.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-							    </xs:sequence>
-							</xs:complexType>
-						    </xs:element>
-						</xs:sequence>
-					    </xs:complexType>
-					</xs:element>
-
 					<xs:element name="controlFactorRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation>
