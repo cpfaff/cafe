@@ -971,7 +971,7 @@
 				<xs:annotation>
 				    <xs:documentation>
 					The organismic coverage deals with aspects of taxonomically classified
-					organisms as well as with a characterization along life forms.
+					organisms as well as with the characterization of life forms.
 				    </xs:documentation>
 				</xs:annotation>
 
@@ -997,24 +997,21 @@
 
 							<xs:complexType>
 							    <xs:sequence>
-								<xs:element name="domain" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								<xs:element name="kingdom" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								<xs:choice>
-								    <xs:element name="phylum" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								    <xs:element name="division" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								</xs:choice>
-								<xs:element name="class" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								<xs:element name="order" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								<xs:element name="family" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								<xs:element name="genus" type="xs:string" minOccurs="0" maxOccurs="1"/>
-								<xs:element name="species" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<xs:element name="taxonomicClassification" type="TaxonomicClassificationType" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation>
+									    The taxonomic rank name specifies the level of the taxonomic naming given
+									    in the taxonomicName field in the organism item. This can be e.g. 
+									    domain, kingdom, phylum, division, class, order, family, genus, species
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
-
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
@@ -1409,6 +1406,8 @@
 	    </xs:sequence>
 	</xs:complexType>
     </xs:element>
+
+    <!-- simple types -->
 
     <!-- physical related types -->
 
@@ -2684,7 +2683,24 @@
 	    <xs:minExclusive value="0"/>
 	</xs:restriction>
     </xs:simpleType>
+
+    <!-- complex types -->
+
+    <xs:complexType name="TaxonomicClassificationType">
+	<xs:sequence>
+	    <xs:element name="taxonRankName" type="xs:string" minOccurs="1">
+	    </xs:element>
+	    <xs:element name="taxonRankValue" type="xs:string" minOccurs="1">
+	    </xs:element>
+	    <xs:element name="commonName" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+	    </xs:element>
+	    <xs:element name="taxonomicClassification" type="TaxonomicClassificationType" minOccurs="0" maxOccurs="1">
+	    </xs:element>
+	</xs:sequence>
+    </xs:complexType>
+
 </xs:schema>
+
 
 <!-- <xs:element name="OrderRequest" -->
 	  <!-- sawsdl:modelReference="http://www.w3.org/2002/ws/sawsdl/spec/ontology/purchaseorder#OrderRequest" -->
