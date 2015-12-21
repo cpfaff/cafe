@@ -438,11 +438,27 @@
 								    </xs:annotation>
 								</xs:element>
 
+								<xs:element name="maxAltitudeUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The maximal altitude unit (e.g. meter, centimeter)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
 								<xs:element name="minAltitude" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The minimal altitude has to be given in meters above mean sealevel
 									    and fixes the most lowest vertical boarder of the data.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="minAltitudeUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The minimal altitude unit (e.g. meter, centimeter)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
