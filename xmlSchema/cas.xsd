@@ -438,6 +438,14 @@
 								    </xs:annotation>
 								</xs:element>
 
+								<xs:element name="maxAltitudeUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The maximal altitude unit (e.g. meter, centimeter)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
 								<xs:element name="minAltitude" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -446,9 +454,56 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
+								<xs:element name="minAltitudeUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The minimal altitude unit (e.g. meter, centimeter)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
+						    <xs:element name="boundingDepth" minOccurs="1" maxOccurs="1">
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="maxDepth" type="xs:decimal" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The maximal depth in case the data is located below sealevel.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="maxDepthUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The maximal depth unit (e.g. meter, centimeter)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="minDepth" type="xs:decimal" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The minimal depth in case the data is located below sealevel.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="minDepthUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The minimal depth unit (e.g. meter, centimeter)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
