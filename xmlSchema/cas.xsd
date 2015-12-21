@@ -548,22 +548,6 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="spatialCountryName" type="spatialNameType" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The name of the location (Leipzig, Cospudener See)
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
-								<xs:element name="spatialContinentName" type="spatialNameType" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The name of the location (Leipzig, Cospudener See)
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
 								<xs:element name="spatialType" type="xs:string" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
