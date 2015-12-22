@@ -423,50 +423,10 @@
 							</xs:complexType>
 						    </xs:element>
 
-						    <xs:element name="boundingAltitude" minOccurs="1" maxOccurs="1">
+						    <xs:element name="boundingElevation" minOccurs="1" maxOccurs="1">
 							<xs:complexType>
 							    <xs:sequence>
-								<xs:element name="maximumAltitude" type="xs:decimal" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The maximal altitude above mean sealevel that
-									    designates the vertical top most boarder covered.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
-								<xs:element name="maximumAltitudeUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The maximal altitude unit (e.g. meter, centimeter)
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
-								<xs:element name="minimumAltitude" type="xs:decimal" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The minimum altitude above mean sealevel that
-									    designates the vertical lowest boarder covered.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
-								<xs:element name="minimumAltitudeUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The minimal altitude unit (e.g. meter, centimeter)
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-							    </xs:sequence>
-							</xs:complexType>
-						    </xs:element>
-
-						    <xs:element name="boundingDepth" minOccurs="1" maxOccurs="1">
-							<xs:complexType>
-							    <xs:sequence>
-								<xs:element name="maximumDepth" type="xs:decimal" minOccurs="1" maxOccurs="1">
+								<xs:element name="maximumElevation" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The maximal depth in case the data is located below sealevel.
@@ -474,7 +434,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="maximumDepthUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
+								<xs:element name="maximumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The maximal depth unit (e.g. meter, centimeter)
@@ -482,7 +442,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="minimumDepth" type="xs:decimal" minOccurs="1" maxOccurs="1">
+								<xs:element name="minimumElevation" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The minimal depth in case the data is located below sealevel.
@@ -490,16 +450,25 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="minimumDepthUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
+								<xs:element name="minimumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The minimal depth unit (e.g. meter, centimeter)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
+								<xs:element name="elevationDatum" type="xs:string" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The reference datum (defaults to meanSealevel)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
