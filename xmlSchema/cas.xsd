@@ -507,21 +507,79 @@
 					<xs:element name="siteCoordinate" minOccurs="0" maxOccurs="1">
 					    <xs:complexType>
 						<xs:sequence>
-						    <xs:element name="siteCoordinateRange" minOccurs="0" maxOccurs="unbounded">
+						    <xs:element name="siteCoordinateRange" minOccurs="1" maxOccurs="unbounded">
 							<xs:complexType>
 							    <xs:sequence>
-								<xs:element name="siteCoordinateElement" minOccurs="0" maxOccurs="unbounded">
+								<xs:element name="siteCoordinateElement" minOccurs="1" maxOccurs="unbounded">
 								    <xs:complexType>
 									<xs:sequence>
-									    <xs:element name="utmCoordinate" minOccurs="0">
+									    <xs:element name="utmCoordinate" minOccurs="1" maxOccurs="1">
 										<xs:complexType>
 										    <xs:sequence>
-											<xs:element name="zone" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-											<xs:element name="subZone" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-											<xs:element name="northSouth" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-											<xs:element name="easting" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-											<xs:element name="northing" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-											<xs:element name="datum" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+											<xs:element name="zone" type="xs:integer" minOccurs="0" maxOccurs="unbounded">
+											    <xs:annotation>
+												<xs:documentation>
+												    The numerical zone corresponding to the central meridian 
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+
+											<xs:element name="subZone" type="xs:integer" minOccurs="0" maxOccurs="unbounded">
+											    <xs:annotation>
+												<xs:documentation>
+												    The subzone letter corresponding to one of the 20 north-south divisions of the
+												    UTM grid system
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+
+											<xs:element name="northSouth" type="NorthSouth" minOccurs="0" maxOccurs="unbounded">
+											    <xs:annotation>
+												<xs:documentation>
+												    The hemisphere. This can be N (North) or S (South)
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+
+											<xs:element name="easting" type="xs:decimal" minOccurs="0" maxOccurs="unbounded">
+											    <xs:annotation>
+												<xs:documentation>
+												    The distance east of the origin of the UTM zone
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+
+											<xs:element name="eastingUnit" type="xs:string" minOccurs="0" maxOccurs="unbounded">i
+											    <xs:annotation>
+												<xs:documentation>
+												    The unit of the distance of the easting (meter, kilometer)
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+
+											<xs:element name="northing" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+											    <xs:annotation>
+												<xs:documentation>
+												    The distance north of the origin of the UTM zone
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+
+											<xs:element name="northingUnit" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+											    <xs:annotation>
+												<xs:documentation>
+												    The unit of the distance of the northing (meter, kilometer)
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
+
+											<xs:element name="datum" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+											    <xs:annotation>
+												<xs:documentation>
+												    The datum e.g. wgs84
+												</xs:documentation>
+											    </xs:annotation>
+											</xs:element>
 										    </xs:sequence>
 										</xs:complexType>
 									    </xs:element>
@@ -2409,6 +2467,13 @@
 
 
     <!-- location related types -->
+
+    <xs:simpleType name="NorthSouth">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value = "N"/>
+	    <xs:enumeration value = "S"/>
+	</xs:restriction>
+    </xs:simpleType>
 
     <xs:simpleType name="northSouthBoundingCoordinateType">
 	<xs:restriction base="xs:decimal">
