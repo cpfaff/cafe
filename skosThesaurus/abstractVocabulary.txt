@@ -1,0 +1,500 @@
+Time
+	DateTimePoint
+		dateStart
+		timeStart
+	DateTimeRange
+		dateStart
+		dateEnd
+		timeStart
+		timeEnd
+	TimeRaster
+		TimeDuration
+			Second
+			Minute
+			Day
+			Week
+			Month
+			Year
+			Decade
+			Century
+		TimeResolution
+			Second
+			Minute
+			Day
+			Week
+			Month
+			Year
+			Decade
+			Century
+
+Space
+	LocationName
+		Andorra, Africa
+		...
+	LocationType
+		Country, Continent
+		...
+	BoundingBox
+	Elevation
+
+	SpatialRaster
+		SpatialExtent
+			Point
+			Plot
+			Region
+			Continent
+			Global
+		Spatial resolution
+			Point
+			Plot
+			Region
+			Continent
+			Global
+
+
+Method
+Methodological approach (cat*:
+ Virtual experiment1
+ Controlled experiment2 (experimental lab system, factors fully controlled)
+ Field experiment3 (experimental field system, factors mostly controlled)
+ Field manipulation (natural system, with single factor manipulation)
+ Observational experiment4 (plot selection creates factor gradients)
+ Observation5)
+Spatial dependency6 (cat*:  independent,  partially dependent,  fully dependent)
+
+Control factors (Experimental Manipulation EM □ / Covariate Assessment CA) (cat* Biotic (subcat*
+Biotic
+Species
+SpeciesComposition
+SpeciesDiversity
+SpeciesEveness
+SpeciesRichness
+Occurance (Presents/Absence)
+LivingStatus
+Abundance
+Individual
+Diameter
+Weight
+Height
+Quantity
+Density
+Occurance
+LivingStatus
+Abundance
+Tolerance
+Functions
+FunctionalRichness
+FunctionalDiversity
+Genetics
+GeneticDiversity
+GeneticManipulation
+Phylogenetics
+PhylogeneticDistictness
+PhylogeneticDistance
+PhylogenticDiversity
+Community
+CommunityStructure
+CommunityDynamics
+Abiotic
+Chemistry
+CationExchange
+ChemicalDiversity
+ChemicalComposition
+ChemicalActivity
+Nutrients
+pH-Value
+Xenobiotics
+Radiation
+Intensity
+Absorbance
+Reflectance
+Radiance
+Irradiance
+PhotosynteticallyActiveRadiation
+Soil
+SoilDepth
+SoilColour
+OrganicMatter
+Moisture
+Structure
+RootIntensity
+SoilBase
+SoilTemperature
+GrainSize
+Air
+AirTemperatur
+WindDirection
+WindSpeed
+AirPressure
+Water
+Precipitation
+Evaporation
+GroundWaterFlow
+SurfaceRunOff
+Sublimation
+Humitity
+VapourPressure
+Space
+Scale
+SpatialContext
+Distance
+Time
+Scale
+TemporalContext
+Age
+Frequency
+Disturbance
+Harvest
+Consumption
+Pathogen
+Fire
+Wind
+AbioticStress
+StressTolerance
+Topography
+Elevation
+Inclination == Slope
+Exposition
+Aspect
+
+Sphere
+
+Biosphere
+Phytosphere
+TreeLayer
+ShrubLayer
+HerbLayer
+MossLayer
+Rhizosphere
+Zoosphere
+Pedosphere
+SoilType
+SoilWithThickOrganicLayer
+SoilWithStrongHumanInfluence
+SoilWithLimitationToRootGrowth
+SoilDistinguishedByFeAlChemicstry
+SoilWithPronouncedAccumulationOfOrganicMatterInMineralTopsoil
+SoilWithAccumulationOfModeratelySolubleSaltsOrNonSalineSubstances
+SoilWithClayEnrichedSubsoil
+SoilWithLittleOrNoProfileOrientation
+SoilHorizon
+O
+A
+E
+B
+C
+R
+L
+
+Atmosphere
+Troposphere
+Stratosphere
+Mesosphere
+Ionosphere
+Hydrosphere
+Aquasphere
+Oceanosphere
+Limnosphere
+Cryosphere
+FrozenSoil
+FrozenWater
+TerrestrialWaterVapor
+Lithosphere
+Crust
+UpperMantle
+Biome
+	BiomeType
+Terrestrial
+PermanentWetland
+SeasonalWetland
+Dryland
+Aquatic
+Freshwater
+BrackishWater
+SalineWater
+
+Ecotone
+
+LatitudinalZone
+Polar
+Boreal
+Temperate
+Subtropical
+Tropical
+	Hydrology
+Humide
+Semihumide
+Semiaride
+Aride
+	Physiognomy
+TerrestrialPhysignomy
+Forrest
+EvergreenNeedleleaf
+EvergreenBroadleaf
+DecidiousBroadleaf
+Mixed
+OpenWoodland
+Savannah
+WoodySavannah
+Shrubland
+ClosedShrubland
+ OpenShrubland
+HerbaceousSystem
+Grassland
+BarrenLand
+Dessert
+AquaticPhysiognomy
+LakeZones
+Epilimnon
+Metalimnon
+Hypolimnon
+RiverZones
+Crenon
+Rithron
+Potamon
+MarineZones
+LittoralZone
+IntertidalZone
+Estuaries
+KelpForests
+CoralReefs
+OceanBanks
+ContinentalShelf
+NeriticZone
+Straits
+PelagicZone
+OceanicZone
+Seamounts
+HydrothermalVents
+ColdSeeps
+DemersalZone
+BenthicZone
+
+	LandUse
+Natural
+SemiNatural
+Agricultural
+Agroforestry
+Aquaculture
+Urban
+NonVegetated
+Vegetated
+
+Organism
+	OrganismName (CommonName=, ScientificName=)
+TaxonomicalClassification
+Species
+Genus
+Family
+Order
+Class
+Phylum
+Kingdom
+Domain
+	OrganismLifeForm
+PlantLifeForm
+Hydrophytes
+Helophyte
+Cryptophytes
+Hemicryptophytes
+Chamaephytes
+Phanerophytes
+Epiphytes
+AnimalLifeForm (eusozial, presozial, solitaries)
+Homöothermes
+Heterothermes
+Poikliothermes
+MicroorganismLifeForm
+Bacteria
+Archae
+Protists
+Viruses
+MycotaLifeform
+MulticellularMycota
+UnicellularMycota
+OrganismSize (nm, µm, mm, cm, m)
+MinimumSize
+MaximumSize
+SizeClasses
+FaunaSizeClasses
+MicroFauna
+MesoFauna
+MacroFauna
+MegaFauna
+FloraSizeClasses
+MicroFlora
+MesoFlora
+MacroFlora
+MycotaSizeClasses
+Micromycetes
+Macromycetes
+Chemical
+	ChemicalElement (Periodic System Of Elements)
+	ChemicalIsotope (...)
+	CompoundName
+	ChemicalCompound
+Inorganic
+MetallsAndAlloys
+ElementaryMetalls
+AlloysOfAluminium
+AlloysOfBismuth
+AlloysOfChromium
+AlloysOfCobalt
+AlloysOfCopper
+AlloyOfGallium
+AlloysOfGold
+AlloysOfIndium
+AlloysOfIron
+AlloysOfLead
+AlloysOfMagnesium
+AlloysOfMercury
+AlloysOfNickel
+AlloysOfPotassium
+AlloysOfPlutonium
+RareEarthAlloys
+AlloysOfRhodium
+AlloyOfScandium
+AlloysOfSilver
+AlloysOfSodium
+AlloysOfTitanium
+AlloysOfTin
+AlloysOfUranium
+AlloysOfZinc
+AlloysOfZirconium
+SaltsAndMinerals
+Carbonates
+Halogenides
+Oxides
+Phosphates
+Silikates
+Sulfates
+Sulfides
+AcidsAndBases
+HydrogenPeroxide
+SodiumHydroxide
+PotassiumHydroxide
+CalciumHydroxide
+MagnesiumHydroxide
+AluminumHydroxide
+CarbonicAcid
+NitricAcid
+NitrousAcid
+HydrofluoricAcid
+HydrochloricAcid
+SulfuricAcid
+SulfurousAcid
+PhosphoricAcid
+PhosphorousAcid
+Gases
+Ammonia
+Carbonoxides
+Hydrocarbons
+Hydrogen
+Hydrogenhalogenides
+HydrogenSulfide
+Nitrogen
+NitrogenOxides
+Oxygen
+Sulfuroxides
+
+
+Organic
+FunctionalGroups
+Alkoholes
+Aldehydes
+Esters
+Ethers
+Ketones
+CarboxylicAcid
+Amines
+Amides
+DiazoniumSalts
+NitroCompounds
+Alkanthioles
+Sulfides
+Disulfides
+EsterOfSulfuricAcid
+Sulfones
+Sulfoxides
+Thionamides
+Thiolesters
+ThioAcids
+EsterOfOrthosphoricAcid
+Phosphines
+Metallorganiscs
+AliphaticCompounds
+Alkanes
+Alkenes
+Alkynes
+AromaticCompounds
+Arene/Annulenes
+AromaticIons
+BenzoleDerivatives
+Heterocyclics
+ArylHalides
+Biomolecules
+Nucleobases
+Nucleotides
+NucleicAcids
+AminoAcids
+Proteins
+Carbohydrates
+Lipids
+Steroids
+SekundaryMetabolites
+Polymers
+Fullerenes
+
+Ions
+H+
+OH-
+K+
+Ca2+
+Mg2+
+NH4-
+NO2-
+NO3-
+SO32-
+SO42-
+H2PO4-
+HPO42-
+Cl-
+	ChemicalSubstanceFunction
+		Biological Role (Antibody, Enzyme, Mineral, Nutrient, … , name it)
+Process
+	ProcessName
+		(Adaptation, Speciation, Extinction, Birth, Growth, Death, Migration, Competition, 		Facilitation, Consumption, Communication, Assimilation, Dissimilation, Carbon Cycle, 		Nutrient Cycle, Water Cycle, Energy Exchange, Demography, Evolution, Ecosystem 		Process, Disruption, Forcing, Natural Disturbance, Land-Use-Change, Climate Change, 		Pollution, Invasion, Erosion, Deposition, Succession, Photosyntheses..name it!)
+
+	ProcessType
+TransportProcess
+Uptake
+Release
+Exchange
+Movement
+TransformationProcess
+Removal
+Addition
+Increase
+Decrease
+Transition
+Conversion
+
+InteractionProcess
+
+Biotic Interaction
+Animalia
+Plantae
+Protista
+Eubacteria
+Archaebacteria
+Mycota
+Viruses
+Abiotic Interaction
+Matter
+Energy
+
+	ServiceType (Ecosystem Services)
+SupportingService (name it)
+ProvisioningService (name it)
+RegulatingService (name it)
+CulturalService (name it)
