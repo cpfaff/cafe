@@ -500,10 +500,10 @@
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 					<xs:element name="siteCoordinate" minOccurs="0" maxOccurs="1">
 					    <xs:complexType>
 						<xs:sequence>
@@ -573,7 +573,7 @@
 											    </xs:annotation>
 											</xs:element>
 
-											<xs:element name="datum" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation>
 												    The datum e.g. wgs84
@@ -2470,6 +2470,14 @@
 
 
     <!-- location related types -->
+
+    <xs:simpleType name="GeodeticDatum">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value = "wgs84"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
 
     <xs:simpleType name="NorthSouth">
 	<xs:restriction base="xs:string">
