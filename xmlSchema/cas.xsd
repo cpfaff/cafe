@@ -386,7 +386,6 @@
 							<xs:complexType>
 							    <!-- it would be a good idea to include gps points or sub bounding boxes in the bounding box as sub category -->
 							    <!-- this would cpature granularity and extent in a more numeric way compared to the way we do it in the raster -->
-
 							    <xs:sequence>
 								<xs:element name="northBoundingCoordinate" type="northSouthBoundingCoordinateType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
@@ -505,6 +504,37 @@
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+					<xs:element name="siteCoordinate" minOccurs="0" maxOccurs="1">
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="siteCoordinateRange" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="siteCoordinateElement" minOccurs="0" maxOccurs="unbounded">
+								    <xs:complexType>
+									<xs:sequence>
+									    <xs:element name="utmCoordinate" minOccurs="0">
+										<xs:complexType>
+										    <xs:sequence>
+											<xs:element name="zone" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+											<xs:element name="subZone" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+											<xs:element name="northSouth" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+											<xs:element name="easting" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+											<xs:element name="northing" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+											<xs:element name="datum" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+										    </xs:sequence>
+										</xs:complexType>
+									    </xs:element>
+									 </xs:sequence>
+								     </xs:complexType>
+								</xs:element>
+							     </xs:sequence>
+							 </xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
@@ -3082,7 +3112,7 @@
 	    </xs:documentation>
 	</xs:annotation>
 	<xs:sequence>
-	    <xs:element name="genusOrMonomial" type="Monomial" minOccurs="0">
+	    <xs:element name="genusOrMonomial" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Genus or higher taxon name formed according to the code
@@ -3091,7 +3121,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
-	    <xs:element name="viralSpeciesDesignation" type="String" minOccurs="0">
+	    <xs:element name="viralSpeciesDesignation" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			The formal name of a viral species. Examples: vaccinia
