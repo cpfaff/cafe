@@ -63,18 +63,13 @@
           <eastBoundingCoordinate>180</eastBoundingCoordinate>
           <westBoundingCoordinate>180</westBoundingCoordinate>
         </boundingCoordinate>
-        <boundingAltitude>
-          <maxAltitude>1000.00</maxAltitude>
-          <maxAltitudeUnit>centimetre</maxAltitudeUnit>
-          <minAltitude>1000.00</minAltitude>
-          <minAltitudeUnit>metre</minAltitudeUnit>
-        </boundingAltitude>
-        <boundingDepth>
-          <maxDepth>1000.00</maxDepth>
-          <maxDepthUnit>picometre</maxDepthUnit>
-          <minDepth>1000.00</minDepth>
-          <minDepthUnit>nanometre</minDepthUnit>
-        </boundingDepth>
+        <boundingElevation>
+          <maximumElevation>1000.00</maximumElevation>
+          <maximumElevationUnit>centimetre</maximumElevationUnit>
+          <minimumElevation>1000.00</minimumElevation>
+          <minimumElevationUnit>metre</minimumElevationUnit>
+          <elevationDatum>string</elevationDatum>
+        </boundingElevation>
       </boundingBox>
       <!--Optional:-->
       <siteCoordinate>
@@ -92,11 +87,11 @@
               <!--Zero or more repetitions:-->
               <easting>1000.00</easting>
               <!--Zero or more repetitions:-->
-              <eastingUnit>hectometer</eastingUnit>
+              <eastingUnit>nanometre</eastingUnit>
               <!--Zero or more repetitions:-->
               <northing>string</northing>
               <!--Zero or more repetitions:-->
-              <northingUnit>kilometre</northingUnit>
+              <northingUnit>metre</northingUnit>
               <!--Zero or more repetitions:-->
               <geodeticDatum>wgs84</geodeticDatum>
             </utmCoordinate>
@@ -109,14 +104,14 @@
       <spatialNameRange>
         <!--1 or more repetitions:-->
         <spatialNameItem>
-          <spatialName>trinidadandTobago</spatialName>
+          <spatialName>puertoRico</spatialName>
           <spatialType>string</spatialType>
         </spatialNameItem>
       </spatialNameRange>
     </spatialNamespace>
     <!--Optional:-->
     <spatialRaster>
-      <spatialExtent>global</spatialExtent>
+      <spatialExtent>continent</spatialExtent>
       <spatialResolution>point</spatialResolution>
     </spatialRaster>
   </space>
@@ -126,8 +121,8 @@
       <controlFactorRange>
         <!--1 or more repetitions:-->
         <controlFactorItem>
-          <controlFactorName>soilDepth</controlFactorName>
-          <controlFactorModus>covariate</controlFactorModus>
+          <controlFactorName>scale</controlFactorName>
+          <controlFactorModus>observed</controlFactorModus>
           <controlFactorDependency>fully</controlFactorDependency>
         </controlFactorItem>
       </controlFactorRange>
@@ -138,7 +133,7 @@
       <sphereRange>
         <!--1 or more repetitions:-->
         <sphereItem>
-          <sphereName>rhizosphere</sphereName>
+          <sphereName>cryosphere</sphereName>
         </sphereItem>
       </sphereRange>
     </sphericalCoverage>
@@ -147,7 +142,7 @@
       <layerRange>
         <!--1 or more repetitions:-->
         <layerItem>
-          <layerName>soilWithPronouncedAccumulationOfOrganicMatterInMineralTopsoil</layerName>
+          <layerName>soilWithLimitationToRootGrowth</layerName>
         </layerItem>
       </layerRange>
     </layerCoverage>
@@ -159,17 +154,17 @@
         <biomeItem>
           <!--Optional:-->
           <biomeName>string</biomeName>
-          <biomeType>terrestrial</biomeType>
+          <biomeType>brackishWater</biomeType>
           <biomeZone>temperate</biomeZone>
-          <biomeWater>semiAride</biomeWater>
+          <biomeWater>humide</biomeWater>
         </biomeItem>
       </biomeRange>
       <!--Optional:-->
       <physiognomyRange>
         <!--1 or more repetitions:-->
         <physiognomyItem>
-          <physiognomyClass>forest</physiognomyClass>
-          <physiognomyType>neriticZone</physiognomyType>
+          <physiognomyClass>riverSystem</physiognomyClass>
+          <physiognomyType>littoralZone</physiognomyType>
         </physiognomyItem>
       </physiognomyRange>
     </biomicCoverage>
@@ -177,8 +172,8 @@
     <landUseRange>
       <!--1 or more repetitions:-->
       <landUseItem>
-        <landClass>urban</landClass>
-        <landUsePurpose>agriculture</landUsePurpose>
+        <landClass>natural</landClass>
+        <landUsePurpose>aquaculture</landUsePurpose>
       </landUseItem>
     </landUseRange>
   </biome>
@@ -226,7 +221,7 @@
               <!--Optional:-->
               <infraspecificEpithet>string</infraspecificEpithet>
               <!--Optional:-->
-              <rank>var.</rank>
+              <rank>subforma</rank>
               <!--Optional:-->
               <hybridFlag insertionpoint="100">string</hybridFlag>
               <!--Optional:-->
@@ -283,7 +278,7 @@
         <!--1 or more repetitions:-->
         <lifeFormItem>
           <lifeFormClass>animal</lifeFormClass>
-          <lifeFormType>hemicryophyte</lifeFormType>
+          <lifeFormType>poikilotherm</lifeFormType>
         </lifeFormItem>
       </lifeFormRange>
     </lifeFormCoverage>
@@ -293,11 +288,11 @@
         <!--1 or more repetitions:-->
         <organismSizeItem>
           <organismSizeMinimum>1000.00</organismSizeMinimum>
-          <organismSizeMinimumUnit>decametre</organismSizeMinimumUnit>
+          <organismSizeMinimumUnit>hectometer</organismSizeMinimumUnit>
           <organismSizeMaximum>1000.00</organismSizeMaximum>
-          <organismSizeMaximumUnit>nanometre</organismSizeMaximumUnit>
+          <organismSizeMaximumUnit>millimetre</organismSizeMaximumUnit>
           <!--Optional:-->
-          <organismSizeClass>macroMycota</organismSizeClass>
+          <organismSizeClass>megaFauna</organismSizeClass>
         </organismSizeItem>
       </organismSizeRange>
     </organismSizeCoverage>
@@ -308,14 +303,14 @@
       <elementRange>
         <!--1 or more repetitions:-->
         <elementItem>
-          <elementName>dysprosium</elementName>
+          <elementName>copernicium</elementName>
         </elementItem>
       </elementRange>
       <!--Optional:-->
       <isotopeRange>
         <!--1 or more repetitions:-->
         <isotopeItem>
-          <isotopeName>54Fe</isotopeName>
+          <isotopeName>41K</isotopeName>
         </isotopeItem>
       </isotopeRange>
       <!--Optional:-->
@@ -323,12 +318,12 @@
         <!--1 or more repetitions:-->
         <compoundItem>
           <compoundName>string</compoundName>
-          <compoundClass>inorganic</compoundClass>
+          <compoundClass>organic</compoundClass>
           <!--Optional:-->
           <compoundCategoryRange>
             <!--1 or more repetitions:-->
             <compoundCategoryItem>
-              <compoundCategoryName>halogenides</compoundCategoryName>
+              <compoundCategoryName>sodiumHydroxide</compoundCategoryName>
             </compoundCategoryItem>
           </compoundCategoryRange>
         </compoundItem>
@@ -338,7 +333,7 @@
     <chemicalFunctionRange>
       <!--1 or more repetitions:-->
       <chemicalFunctionItem>
-        <chemicalFunctionName>volatile</chemicalFunctionName>
+        <chemicalFunctionName>antifouling</chemicalFunctionName>
       </chemicalFunctionItem>
     </chemicalFunctionRange>
   </chemical>
@@ -346,9 +341,9 @@
     <processCoverage>
       <!--1 or more repetitions:-->
       <processItem>
-        <processName>assimilation</processName>
-        <processClass>interactionProcess</processClass>
-        <processType>conversion</processType>
+        <processName>pollution</processName>
+        <processClass>transformationProcess</processClass>
+        <processType>uptake</processType>
       </processItem>
     </processCoverage>
     <!--Optional:-->
@@ -356,7 +351,7 @@
       <!--1 or more repetitions:-->
       <interactionItem>
         <interactionName>string</interactionName>
-        <interactionClass>abioticInteraction</interactionClass>
+        <interactionClass>bioticInteraction</interactionClass>
         <!--1 or more repetitions:-->
         <interactionPartner>string</interactionPartner>
       </interactionItem>
