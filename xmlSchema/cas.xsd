@@ -435,7 +435,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="maxAltitudeUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								<xs:element name="maxAltitudeUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The maximal altitude unit (e.g. meter, centimeter)
@@ -452,7 +452,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="minAltitudeUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								<xs:element name="minAltitudeUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The minimal altitude unit (e.g. meter, centimeter)
@@ -474,7 +474,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="maxDepthUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								<xs:element name="maxDepthUnit" type="LenthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The maximal depth unit (e.g. meter, centimeter)
@@ -490,7 +490,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="minDepthUnit" type="xs:string" minOccurs="1" maxOccurs="1">
+								<xs:element name="minDepthUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The minimal depth unit (e.g. meter, centimeter)
@@ -549,7 +549,7 @@
 											    </xs:annotation>
 											</xs:element>
 
-											<xs:element name="eastingUnit" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="eastingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation>
 												    The unit of the distance of the easting (meter, kilometer)
@@ -565,7 +565,7 @@
 											    </xs:annotation>
 											</xs:element>
 
-											<xs:element name="northingUnit" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="northingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation>
 												    The unit of the distance of the northing (meter, kilometer)
@@ -1228,7 +1228,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="organismSizeMinimumUnit" type="organismSizeUnitType" minOccurs="1" maxOccurs="1">
+								<xs:element name="organismSizeMinimumUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The unit of the minimum size of an organism  (pico, nano, micro, ...Metre)
@@ -1244,7 +1244,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="organismSizeMaximumUnit" type="organismSizeUnitType" minOccurs="1" maxOccurs="1"> 
+								<xs:element name="organismSizeMaximumUnit" type="LengthUnit" minOccurs="1" maxOccurs="1"> 
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The unit of the maximum size of an organism  (pico, nano, micro, ...Metre)
@@ -2015,16 +2015,19 @@
 
     <!-- organism related types -->
 
-    <xs:simpleType name="organismSizeUnitType">
+    <xs:simpleType name="LengthUnit">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="picoMetre"/>
-	    <xs:enumeration value="nanoMetre"/>
-	    <xs:enumeration value="microMetre"/>
-	    <xs:enumeration value="milliMetre"/>
-	    <xs:enumeration value="centiMetre"/>
-	    <xs:enumeration value="deciMetre"/>
 	    <xs:enumeration value="metre"/>
-	    <xs:enumeration value="kiloMetre"/>
+	    <xs:enumeration value="picometre"/>
+	    <xs:enumeration value="nanometre"/>
+	    <xs:enumeration value="micrometre"/>
+	    <xs:enumeration value="millimetre"/>
+	    <xs:enumeration value="centimetre"/>
+	    <xs:enumeration value="decimetre"/>
+	    <xs:enumeration value="decametre"/>
+	    <xs:enumeration value="hectometer"/>
+	    <xs:enumeration value="kilometre"/>
+	    <xs:enumeration value="megameter"/>
 	</xs:restriction>
     </xs:simpleType>
 
