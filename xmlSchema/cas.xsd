@@ -474,7 +474,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="maxDepthUnit" type="LenthUnit" minOccurs="1" maxOccurs="1">
+								<xs:element name="maxDepthUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The maximal depth unit (e.g. meter, centimeter)
