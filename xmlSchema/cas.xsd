@@ -3193,10 +3193,4 @@
 	    </xs:element>
 	</xs:sequence>
 	</xs:complexType>
-
 </xs:schema>
-
-
-<!-- <xs:element name="OrderRequest" -->
-	  <!-- sawsdl:modelReference="http://www.w3.org/2002/ws/sawsdl/spec/ontology/purchaseorder#OrderRequest" -->
-	  <!-- sawsdl:loweringSchemaMapping="http://www.w3.org/2002/ws/sawsdl/spec/mapping/RDFOnt2Request.xml"> -->
