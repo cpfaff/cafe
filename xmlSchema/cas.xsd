@@ -26,21 +26,29 @@
 					<xs:element name="objectType" type="ObjectType" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The type of object described. This could be audio, image, video, dataset.
+						    The type of object referenced with this annotation. This could be audio, image,
+						    video, dataset.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
 					<xs:element name="objectName" type="xs:string" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The name of the object file that is described with extension
+						    The full filename of the object with extension
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
-					<xs:element name="objectUrl" type="xs:string" minOccurs="1" maxOccurs="1">
+					<xs:element name="objectReferenceUrl" type="xs:string" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The URL reference where to find the associated file.
+						    The URL where the referenced object can be found
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+					<xs:element name="objectDownloadUrl" type="xs:string" minOccurs="1" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation xml:lang="en">
+						    The download URL of the referenced object 
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
