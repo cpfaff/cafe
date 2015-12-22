@@ -526,7 +526,7 @@
 											    </xs:annotation>
 											</xs:element>
 
-											<xs:element name="northing" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="northing" type="xs:decimal" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation>
 												    The distance north of the origin of the UTM zone
