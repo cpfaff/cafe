@@ -89,7 +89,7 @@
               <!--Zero or more repetitions:-->
               <eastingUnit>nanometre</eastingUnit>
               <!--Zero or more repetitions:-->
-              <northing>string</northing>
+              <northing>1000.00</northing>
               <!--Zero or more repetitions:-->
               <northingUnit>metre</northingUnit>
               <!--Zero or more repetitions:-->
