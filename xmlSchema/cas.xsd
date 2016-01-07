@@ -2258,7 +2258,7 @@
 	    <xs:enumeration value="controlledExperiment">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
-			System and factors are mostly controlled (lab experiment, greenhouse)aa.
+			System and factors are mostly controlled (lab experiment, greenhouse).
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
