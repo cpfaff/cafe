@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="casTohtml.xsl"?>
+<?xml-stylesheet type="text/xsl" href="cafeTohtml.xsl"?>
 
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" 
     version="0.0.1" 
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
 
-    <xs:element name="cas">
+    <xs:element name="cafe">
 	<xs:complexType>
 	    <xs:sequence>
 		<xs:element name="physical" minOccurs="1" maxOccurs="1">
