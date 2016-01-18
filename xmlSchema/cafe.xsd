@@ -1030,7 +1030,7 @@
 
 					    <xs:complexType>
 						<xs:sequence>
-						    <xs:element name="landClass" type="LandClass" minOccurs="1" maxOccurs="1">
+						    <xs:element name="landUseClass" type="LandClass" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
 								Allows a broad classification of the land in the observation area 
