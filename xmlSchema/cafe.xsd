@@ -2403,7 +2403,7 @@
 	    <!-- <xs:enumeration value="autumn"/> -->
 	    <!-- <xs:enumeration value="winter"/> -->
 
-	    <!-- <xs:enumeration value="growingSeason"/> -->
+	    <!-- <xs:enumeration value="vegetationPeriod"/> -->
 	</xs:restriction>
     </xs:simpleType>
 
