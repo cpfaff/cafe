@@ -487,7 +487,7 @@
 						    <xs:element name="siteCoordinateRange" minOccurs="1" maxOccurs="unbounded">
 							<xs:complexType>
 							    <xs:sequence>
-								<xs:element name="siteCoordinateElement" minOccurs="1" maxOccurs="unbounded">
+								<xs:element name="siteCoordinateItem" minOccurs="1" maxOccurs="unbounded">
 								    <xs:complexType>
 									<xs:sequence>
 									    <xs:element name="utmCoordinate" minOccurs="1" maxOccurs="1">
