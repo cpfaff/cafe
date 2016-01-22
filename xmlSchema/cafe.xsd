@@ -1524,10 +1524,10 @@
 
     <xs:simpleType name="ObjectType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="tabular"/>
-	    <xs:enumeration value="audio"/>
-	    <xs:enumeration value="video"/>
-	    <xs:enumeration value="image"/>
+	    <xs:enumeration value="Table"/>
+	    <xs:enumeration value="Audio"/>
+	    <xs:enumeration value="Video"/>
+	    <xs:enumeration value="Image"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -1536,71 +1536,71 @@
 
     <xs:simpleType name="ProcessClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="interactionProcess"/>
-	    <xs:enumeration value="transformationProcess"/>
-	    <xs:enumeration value="transportProcess"/>
+	    <xs:enumeration value="Interaction Process"/>
+	    <xs:enumeration value="Transformation Process"/>
+	    <xs:enumeration value="Transport Process"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="InteractionClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="bioticInteraction"/>
-	    <xs:enumeration value="abioticInteraction"/>
+	    <xs:enumeration value="Biotic Interaction"/>
+	    <xs:enumeration value="Abiotic Interaction"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="ProcessType">
 	<xs:restriction base="xs:string">
 	    <!-- interaction -->
-	    <xs:enumeration value="interaction"/>
+	    <xs:enumeration value="Interaction"/>
 
 	    <!-- transformation -->
-	    <xs:enumeration value="removal"/>
-	    <xs:enumeration value="addition"/>
-	    <xs:enumeration value="increase"/>
-	    <xs:enumeration value="decrease"/>
-	    <xs:enumeration value="transition"/>
-	    <xs:enumeration value="conversion"/>
+	    <xs:enumeration value="Removal"/>
+	    <xs:enumeration value="Addition"/>
+	    <xs:enumeration value="Increase"/>
+	    <xs:enumeration value="Decrease"/>
+	    <xs:enumeration value="Transition"/>
+	    <xs:enumeration value="Conversion"/>
 
 	    <!-- transport -->
-	    <xs:enumeration value="uptake"/>
-	    <xs:enumeration value="release"/>
-	    <xs:enumeration value="exchange"/>
-	    <xs:enumeration value="movement"/>
+	    <xs:enumeration value="Uptake"/>
+	    <xs:enumeration value="Release"/>
+	    <xs:enumeration value="Exchange"/>
+	    <xs:enumeration value="Movement"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="ProcessName">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="adaptation"/>
-	    <xs:enumeration value="speciation"/>
-	    <xs:enumeration value="extinction"/>
-	    <xs:enumeration value="birth"/>
-	    <xs:enumeration value="growth"/>
-	    <xs:enumeration value="death"/>
-	    <xs:enumeration value="migration"/>
-	    <xs:enumeration value="competition"/>
-	    <xs:enumeration value="facilitation"/>
-	    <xs:enumeration value="consumption"/>
-	    <xs:enumeration value="communication"/>
-	    <xs:enumeration value="assimilation"/>
-	    <xs:enumeration value="dissimilation"/>
-	    <xs:enumeration value="carbonCycle"/>
-	    <xs:enumeration value="nutrientCycle"/>
-	    <xs:enumeration value="waterCycle"/>
-	    <xs:enumeration value="energyExchange"/>
-	    <xs:enumeration value="demography"/>
-	    <xs:enumeration value="evolution"/>
-	    <xs:enumeration value="disruption"/>
-	    <xs:enumeration value="naturalDisturbance"/>
-	    <xs:enumeration value="landUseChange"/>
-	    <xs:enumeration value="climateChange"/>
-	    <xs:enumeration value="pollution"/>
-	    <xs:enumeration value="invasion"/>
-	    <xs:enumeration value="ersosion"/>
-	    <xs:enumeration value="deposition"/>
-	    <xs:enumeration value="succession"/>
-	    <xs:enumeration value="photosyntheses"/>
+	    <xs:enumeration value="Adaptation"/>
+	    <xs:enumeration value="Speciation"/>
+	    <xs:enumeration value="Extinction"/>
+	    <xs:enumeration value="Birth"/>
+	    <xs:enumeration value="Growth"/>
+	    <xs:enumeration value="Death"/>
+	    <xs:enumeration value="Migration"/>
+	    <xs:enumeration value="Competition"/>
+	    <xs:enumeration value="Facilitation"/>
+	    <xs:enumeration value="Consumption"/>
+	    <xs:enumeration value="Communication"/>
+	    <xs:enumeration value="Assimilation"/>
+	    <xs:enumeration value="Dissimilation"/>
+	    <xs:enumeration value="Carbon Cycle"/>
+	    <xs:enumeration value="Nutrient Cycle"/>
+	    <xs:enumeration value="Water Cycle"/>
+	    <xs:enumeration value="Energy Exchange"/>
+	    <xs:enumeration value="Demography"/>
+	    <xs:enumeration value="Evolution"/>
+	    <xs:enumeration value="Disruption"/>
+	    <xs:enumeration value="Natural Disturbance"/>
+	    <xs:enumeration value="Land Use Change"/>
+	    <xs:enumeration value="Climate Change"/>
+	    <xs:enumeration value="Pollution"/>
+	    <xs:enumeration value="Invasion"/>
+	    <xs:enumeration value="Ersosion"/>
+	    <xs:enumeration value="Deposition"/>
+	    <xs:enumeration value="Succession"/>
+	    <xs:enumeration value="Photosyntheses"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -1609,126 +1609,126 @@
 
     <xs:simpleType name="ElementName">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="hydrogen"/>
-	    <xs:enumeration value="helium"/>
-	    <xs:enumeration value="lithium"/>
-	    <xs:enumeration value="beryllium"/>
-	    <xs:enumeration value="boron"/>
-	    <xs:enumeration value="carbon"/>
-	    <xs:enumeration value="nitrogen"/>
-	    <xs:enumeration value="oxygen"/>
-	    <xs:enumeration value="fluorine"/>
-	    <xs:enumeration value="neon"/>
-	    <xs:enumeration value="sodium"/>
-	    <xs:enumeration value="magnesium"/>
-	    <xs:enumeration value="aluminium"/>
-	    <xs:enumeration value="silicon"/>
-	    <xs:enumeration value="phosphorus"/>
-	    <xs:enumeration value="sulfur"/>
-	    <xs:enumeration value="chlorine"/>
-	    <xs:enumeration value="argon"/>
-	    <xs:enumeration value="potassium"/>
-	    <xs:enumeration value="calcium"/>
-	    <xs:enumeration value="scandium"/>
-	    <xs:enumeration value="titanium"/>
-	    <xs:enumeration value="vanadium"/>
-	    <xs:enumeration value="chromium"/>
-	    <xs:enumeration value="manganese"/>
-	    <xs:enumeration value="iron"/>
-	    <xs:enumeration value="cobalt"/>
-	    <xs:enumeration value="nickel"/>
-	    <xs:enumeration value="copper"/>
-	    <xs:enumeration value="zinc"/>
-	    <xs:enumeration value="gallium"/>
-	    <xs:enumeration value="germanium"/>
-	    <xs:enumeration value="arsenic"/>
-	    <xs:enumeration value="selenium"/>
-	    <xs:enumeration value="bromine"/>
-	    <xs:enumeration value="krypton"/>
-	    <xs:enumeration value="rubidium"/>
-	    <xs:enumeration value="strontium"/>
-	    <xs:enumeration value="yttrium"/>
-	    <xs:enumeration value="zirconium"/>
-	    <xs:enumeration value="niobium"/>
-	    <xs:enumeration value="molybdenum"/>
-	    <xs:enumeration value="technetium"/>
-	    <xs:enumeration value="ruthenium"/>
-	    <xs:enumeration value="rhodium"/>
-	    <xs:enumeration value="palladium"/>
-	    <xs:enumeration value="silver"/>
-	    <xs:enumeration value="cadmium"/>
-	    <xs:enumeration value="indium"/>
-	    <xs:enumeration value="tin"/>
-	    <xs:enumeration value="antimony"/>
-	    <xs:enumeration value="tellurium"/>
-	    <xs:enumeration value="iodine"/>
-	    <xs:enumeration value="xenon"/>
-	    <xs:enumeration value="caesium"/>
-	    <xs:enumeration value="barium"/>
-	    <xs:enumeration value="lanthanum"/>
-	    <xs:enumeration value="cerium"/>
-	    <xs:enumeration value="praseodymium"/>
-	    <xs:enumeration value="neodymium"/>
-	    <xs:enumeration value="promethium"/>
-	    <xs:enumeration value="samarium"/>
-	    <xs:enumeration value="europium"/>
-	    <xs:enumeration value="gadolinium"/>
-	    <xs:enumeration value="terbium"/>
-	    <xs:enumeration value="dysprosium"/>
-	    <xs:enumeration value="holmium"/>
-	    <xs:enumeration value="erbium"/>
-	    <xs:enumeration value="thulium"/>
-	    <xs:enumeration value="ytterbium"/>
-	    <xs:enumeration value="lutetium"/>
-	    <xs:enumeration value="hafnium"/>
-	    <xs:enumeration value="tantalum"/>
-	    <xs:enumeration value="tungsten"/>
-	    <xs:enumeration value="rhenium"/>
-	    <xs:enumeration value="osmium"/>
-	    <xs:enumeration value="iridium"/>
-	    <xs:enumeration value="platinum"/>
-	    <xs:enumeration value="gold"/>
-	    <xs:enumeration value="mercury"/>
-	    <xs:enumeration value="thallium"/>
-	    <xs:enumeration value="lead"/>
-	    <xs:enumeration value="bismuth"/>
-	    <xs:enumeration value="polonium"/>
-	    <xs:enumeration value="astatine"/>
-	    <xs:enumeration value="radon"/>
-	    <xs:enumeration value="francium"/>
-	    <xs:enumeration value="radium"/>
-	    <xs:enumeration value="actinium"/>
-	    <xs:enumeration value="thorium"/>
-	    <xs:enumeration value="protactinium"/>
-	    <xs:enumeration value="uranium"/>
-	    <xs:enumeration value="neptunium"/>
-	    <xs:enumeration value="plutonium"/>
-	    <xs:enumeration value="americium"/>
-	    <xs:enumeration value="curium"/>
-	    <xs:enumeration value="berkelium"/>
-	    <xs:enumeration value="californium"/>
-	    <xs:enumeration value="einsteinium"/>
-	    <xs:enumeration value="fermium"/>
-	    <xs:enumeration value="mendelevium"/>
-	    <xs:enumeration value="nobelium"/>
-	    <xs:enumeration value="lawrencium"/>
-	    <xs:enumeration value="rutherfordium"/>
-	    <xs:enumeration value="dubnium"/>
-	    <xs:enumeration value="seaborgium"/>
-	    <xs:enumeration value="bohrium"/>
-	    <xs:enumeration value="hassium"/>
-	    <xs:enumeration value="meitnerium"/>
-	    <xs:enumeration value="darmstadtium"/>
-	    <xs:enumeration value="roentgenium"/>
-	    <xs:enumeration value="copernicium"/>
-	    <xs:enumeration value="ununtrium"/>
-	    <xs:enumeration value="flerovium"/>
-	    <xs:enumeration value="ununpentium"/>
-	    <xs:enumeration value="livermorium"/>
-	    <xs:enumeration value="ununseptium"/>
-	    <xs:enumeration value="ununoctium"/>
+	    <xs:enumeration value="Hydrogen"/>
+	    <xs:enumeration value="Helium"/>
+	    <xs:enumeration value="Lithium"/>
+	    <xs:enumeration value="Beryllium"/>
+	    <xs:enumeration value="Boron"/>
+	    <xs:enumeration value="Carbon"/>
+	    <xs:enumeration value="Nitrogen"/>
+	    <xs:enumeration value="Oxygen"/>
+	    <xs:enumeration value="Fluorine"/>
+	    <xs:enumeration value="Neon"/>
+	    <xs:enumeration value="Sodium"/>
+	    <xs:enumeration value="Magnesium"/>
+	    <xs:enumeration value="Aluminium"/>
+	    <xs:enumeration value="Silicon"/>
+	    <xs:enumeration value="Phosphorus"/>
+	    <xs:enumeration value="Sulfur"/>
+	    <xs:enumeration value="Chlorine"/>
+	    <xs:enumeration value="Argon"/>
+	    <xs:enumeration value="Potassium"/>
+	    <xs:enumeration value="Calcium"/>
+	    <xs:enumeration value="Scandium"/>
+	    <xs:enumeration value="Titanium"/>
+	    <xs:enumeration value="Vanadium"/>
+	    <xs:enumeration value="Chromium"/>
+	    <xs:enumeration value="Manganese"/>
+	    <xs:enumeration value="Iron"/>
+	    <xs:enumeration value="Cobalt"/>
+	    <xs:enumeration value="Nickel"/>
+	    <xs:enumeration value="Copper"/>
+	    <xs:enumeration value="Zinc"/>
+	    <xs:enumeration value="Gallium"/>
+	    <xs:enumeration value="Germanium"/>
+	    <xs:enumeration value="Arsenic"/>
+	    <xs:enumeration value="Selenium"/>
+	    <xs:enumeration value="Bromine"/>
+	    <xs:enumeration value="Krypton"/>
+	    <xs:enumeration value="Rubidium"/>
+	    <xs:enumeration value="Strontium"/>
+	    <xs:enumeration value="Yttrium"/>
+	    <xs:enumeration value="Zirconium"/>
+	    <xs:enumeration value="Niobium"/>
+	    <xs:enumeration value="Molybdenum"/>
+	    <xs:enumeration value="Technetium"/>
+	    <xs:enumeration value="Ruthenium"/>
+	    <xs:enumeration value="Rhodium"/>
+	    <xs:enumeration value="Palladium"/>
+	    <xs:enumeration value="Silver"/>
+	    <xs:enumeration value="Cadmium"/>
+	    <xs:enumeration value="Indium"/>
+	    <xs:enumeration value="Tin"/>
+	    <xs:enumeration value="Antimony"/>
+	    <xs:enumeration value="Tellurium"/>
+	    <xs:enumeration value="Iodine"/>
+	    <xs:enumeration value="Xenon"/>
+	    <xs:enumeration value="Caesium"/>
+	    <xs:enumeration value="Barium"/>
+	    <xs:enumeration value="Lanthanum"/>
+	    <xs:enumeration value="Cerium"/>
+	    <xs:enumeration value="Praseodymium"/>
+	    <xs:enumeration value="Neodymium"/>
+	    <xs:enumeration value="Promethium"/>
+	    <xs:enumeration value="Samarium"/>
+	    <xs:enumeration value="Europium"/>
+	    <xs:enumeration value="Gadolinium"/>
+	    <xs:enumeration value="Terbium"/>
+	    <xs:enumeration value="Dysprosium"/>
+	    <xs:enumeration value="Holmium"/>
+	    <xs:enumeration value="Erbium"/>
+	    <xs:enumeration value="Thulium"/>
+	    <xs:enumeration value="Ytterbium"/>
+	    <xs:enumeration value="Lutetium"/>
+	    <xs:enumeration value="Hafnium"/>
+	    <xs:enumeration value="Tantalum"/>
+	    <xs:enumeration value="Tungsten"/>
+	    <xs:enumeration value="Rhenium"/>
+	    <xs:enumeration value="Osmium"/>
+	    <xs:enumeration value="Iridium"/>
+	    <xs:enumeration value="Platinum"/>
+	    <xs:enumeration value="Gold"/>
+	    <xs:enumeration value="Mercury"/>
+	    <xs:enumeration value="Thallium"/>
+	    <xs:enumeration value="Lead"/>
+	    <xs:enumeration value="Bismuth"/>
+	    <xs:enumeration value="Polonium"/>
+	    <xs:enumeration value="Astatine"/>
+	    <xs:enumeration value="Radon"/>
+	    <xs:enumeration value="Francium"/>
+	    <xs:enumeration value="Radium"/>
+	    <xs:enumeration value="Actinium"/>
+	    <xs:enumeration value="Thorium"/>
+	    <xs:enumeration value="Protactinium"/>
+	    <xs:enumeration value="Uranium"/>
+	    <xs:enumeration value="Neptunium"/>
+	    <xs:enumeration value="Plutonium"/>
+	    <xs:enumeration value="Americium"/>
+	    <xs:enumeration value="Curium"/>
+	    <xs:enumeration value="Berkelium"/>
+	    <xs:enumeration value="Californium"/>
+	    <xs:enumeration value="Einsteinium"/>
+	    <xs:enumeration value="Fermium"/>
+	    <xs:enumeration value="Mendelevium"/>
+	    <xs:enumeration value="Nobelium"/>
+	    <xs:enumeration value="Lawrencium"/>
+	    <xs:enumeration value="Rutherfordium"/>
+	    <xs:enumeration value="Dubnium"/>
+	    <xs:enumeration value="Seaborgium"/>
+	    <xs:enumeration value="Bohrium"/>
+	    <xs:enumeration value="Hassium"/>
+	    <xs:enumeration value="Meitnerium"/>
+	    <xs:enumeration value="Darmstadtium"/>
+	    <xs:enumeration value="Roentgenium"/>
+	    <xs:enumeration value="Copernicium"/>
+	    <xs:enumeration value="Ununtrium"/>
+	    <xs:enumeration value="Flerovium"/>
+	    <xs:enumeration value="Ununpentium"/>
+	    <xs:enumeration value="Livermorium"/>
+	    <xs:enumeration value="Ununseptium"/>
+	    <xs:enumeration value="Ununoctium"/>
 	</xs:restriction>
-    </xs:simpleType>
+    </xs:simpletype>
 
     <xs:simpleType name="IsotopeName">
 	<xs:restriction base="xs:string">
@@ -1810,182 +1810,182 @@
 
     <xs:simpleType name="CompoundClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="inorganic"/>
-	    <xs:enumeration value="organic"/>
+	    <xs:enumeration value="Inorganic"/>
+	    <xs:enumeration value="Organic"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="CompoundCategory">
 	<xs:restriction base="xs:string">
 	    <!-- biomolecule type -->
-	    <xs:enumeration value="nucleobase"/>
-	    <xs:enumeration value="nucleotide"/>
-	    <xs:enumeration value="nucleicAcid"/>
-	    <xs:enumeration value="aminoAcid"/>
-	    <xs:enumeration value="protein"/>
-	    <xs:enumeration value="carbohydrate"/>
-	    <xs:enumeration value="lipid"/>
-	    <xs:enumeration value="steroid"/>
-	    <xs:enumeration value="secondaryMetabolite"/>
+	    <xs:enumeration value="Nucleobase"/>
+	    <xs:enumeration value="Nucleotide"/>
+	    <xs:enumeration value="NucleicAcid"/>
+	    <xs:enumeration value="AminoAcid"/>
+	    <xs:enumeration value="Protein"/>
+	    <xs:enumeration value="Carbohydrate"/>
+	    <xs:enumeration value="Lipid"/>
+	    <xs:enumeration value="Steroid"/>
+	    <xs:enumeration value="Secondary Metabolite"/>
 	    <!-- aromatic compound -->
 
-	    <xs:enumeration value="arene"/>
-	    <xs:enumeration value="aromaticlons"/>
-	    <xs:enumeration value="benzoDerivative"/>
-	    <xs:enumeration value="heterocyclic"/>
-	    <xs:enumeration value="arylHalide"/>
+	    <xs:enumeration value="Arene"/>
+	    <xs:enumeration value="Aromaticlons"/>
+	    <xs:enumeration value="Benzo Derivative"/>
+	    <xs:enumeration value="Heterocyclic"/>
+	    <xs:enumeration value="Aryl Halide"/>
 
 	    <!-- aliphatic -->
-	    <xs:enumeration value="alkane"/>
-	    <xs:enumeration value="alkene"/>
-	    <xs:enumeration value="alkyne"/>
+	    <xs:enumeration value="Alkane"/>
+	    <xs:enumeration value="Alkene"/>
+	    <xs:enumeration value="Alkyne"/>
 
 	    <!-- functional group -->
-	    <xs:enumeration value="alcohol"/>
-	    <xs:enumeration value="aldehyde"/>
-	    <xs:enumeration value="ester"/>
-	    <xs:enumeration value="ether"/>
-	    <xs:enumeration value="ketone"/>
-	    <xs:enumeration value="carboxylicAcid"/>
-	    <xs:enumeration value="amine"/>
-	    <xs:enumeration value="amide"/>
-	    <xs:enumeration value="diazoniumSalt"/>
-	    <xs:enumeration value="nitroCompound"/>
-	    <xs:enumeration value="alkanthiole"/>
-	    <xs:enumeration value="sulfide"/>
-	    <xs:enumeration value="disulfide"/>
-	    <xs:enumeration value="esterOfSulfuricAcid"/>
-	    <xs:enumeration value="sulfone"/>
-	    <xs:enumeration value="sulfoxide"/>
-	    <xs:enumeration value="thionamide"/>
-	    <xs:enumeration value="thiolester"/>
-	    <xs:enumeration value="thioAcid"/>
-	    <xs:enumeration value="esterOfOrthosphoricAcid"/>
-	    <xs:enumeration value="phosphine"/>
-	    <xs:enumeration value="metallorganisc"/>
+	    <xs:enumeration value="Alcohol"/>
+	    <xs:enumeration value="Aldehyde"/>
+	    <xs:enumeration value="Ester"/>
+	    <xs:enumeration value="Ether"/>
+	    <xs:enumeration value="Ketone"/>
+	    <xs:enumeration value="Carboxylic Acid"/>
+	    <xs:enumeration value="Amine"/>
+	    <xs:enumeration value="Amide"/>
+	    <xs:enumeration value="Diazonium Salt"/>
+	    <xs:enumeration value="Nitro Compound"/>
+	    <xs:enumeration value="Alkanthiole"/>
+	    <xs:enumeration value="Sulfide"/>
+	    <xs:enumeration value="Disulfide"/>
+	    <xs:enumeration value="Ester of Sulfuric Acid"/>
+	    <xs:enumeration value="Sulfone"/>
+	    <xs:enumeration value="Sulfoxide"/>
+	    <xs:enumeration value="Thionamide"/>
+	    <xs:enumeration value="Thiolester"/>
+	    <xs:enumeration value="ThioAcid"/>
+	    <xs:enumeration value="Ester of Orthosphoric Acid"/>
+	    <xs:enumeration value="Phosphine"/>
+	    <xs:enumeration value="Metallorganisc"/>
 
 	    <!-- gas -->
-	    <xs:enumeration value="ammonia"/>
-	    <xs:enumeration value="carbonoxides"/>
-	    <xs:enumeration value="hydrocarbons"/>
-	    <xs:enumeration value="hydrogen"/>
-	    <xs:enumeration value="hydrogenhalogenides"/>
-	    <xs:enumeration value="hydrogenSulfide"/>
-	    <xs:enumeration value="nitrogen"/>
-	    <xs:enumeration value="nitrogenOxides"/>
-	    <xs:enumeration value="oxygen"/>
-	    <xs:enumeration value="sulfuroxides"/>
+	    <xs:enumeration value="Ammonia"/>
+	    <xs:enumeration value="Carbonoxides"/>
+	    <xs:enumeration value="Hydrocarbons"/>
+	    <xs:enumeration value="Hydrogen"/>
+	    <xs:enumeration value="Hydrogenhalogenides"/>
+	    <xs:enumeration value="Hydrogen Sulfide"/>
+	    <xs:enumeration value="Nitrogen"/>
+	    <xs:enumeration value="Nitrogen Oxides"/>
+	    <xs:enumeration value="Oxygen"/>
+	    <xs:enumeration value="Sulfuroxides"/>
 
 	    <!-- acid and base  -->
-	    <xs:enumeration value="hydrogenPeroxide"/>
-	    <xs:enumeration value="sodiumHydroxide"/>
-	    <xs:enumeration value="potassiumHydroxide"/>
-	    <xs:enumeration value="calciumHydroxide"/>
-	    <xs:enumeration value="magnesiumHydroxide"/>
-	    <xs:enumeration value="aluminumHydroxide"/>
-	    <xs:enumeration value="carbonicAcid"/>
-	    <xs:enumeration value="nitricAcid"/>
-	    <xs:enumeration value="nitrousAcid"/>
-	    <xs:enumeration value="hydrofluoricAcid"/>
-	    <xs:enumeration value="hydrochloricAcid"/>
-	    <xs:enumeration value="sulfuricAcid"/>
-	    <xs:enumeration value="sulfurousAcid"/>
-	    <xs:enumeration value="phosphoricAcid"/>
-	    <xs:enumeration value="phosphorousAcid"/>
+	    <xs:enumeration value="Hydrogen Peroxide"/>
+	    <xs:enumeration value="Sodium Hydroxide"/>
+	    <xs:enumeration value="Potassium Hydroxide"/>
+	    <xs:enumeration value="Calcium Hydroxide"/>
+	    <xs:enumeration value="Magnesium Hydroxide"/>
+	    <xs:enumeration value="Aluminum Hydroxide"/>
+	    <xs:enumeration value="Carbonic Acid"/>
+	    <xs:enumeration value="Nitric Acid"/>
+	    <xs:enumeration value="Nitrous Acid"/>
+	    <xs:enumeration value="Hydrofluoric Acid"/>
+	    <xs:enumeration value="Hydrochloric Acid"/>
+	    <xs:enumeration value="Sulfuric Acid"/>
+	    <xs:enumeration value="Sulfurous Acid"/>
+	    <xs:enumeration value="Phosphoric Acid"/>
+	    <xs:enumeration value="Phosphorous Acid"/>
 
 	    <!-- sald and mineral -->
-	    <xs:enumeration value="carbonates"/>
-	    <xs:enumeration value="halogenides"/>
-	    <xs:enumeration value="oxides"/>
-	    <xs:enumeration value="phosphates"/>
-	    <xs:enumeration value="silikates"/>
-	    <xs:enumeration value="sulfates"/>
-	    <xs:enumeration value="sulfides"/>
+	    <xs:enumeration value="Carbonates"/>
+	    <xs:enumeration value="Halogenides"/>
+	    <xs:enumeration value="Oxides"/>
+	    <xs:enumeration value="Phosphates"/>
+	    <xs:enumeration value="Silikates"/>
+	    <xs:enumeration value="Sulfates"/>
+	    <xs:enumeration value="Sulfides"/>
 
 	    <!-- metal and alloy -->
-	    <xs:enumeration value="elementaryMetal"/>
-	    <xs:enumeration value="alloyOfAluminium"/>
-	    <xs:enumeration value="alloyOfBismuth"/>
-	    <xs:enumeration value="alloyOfChromium"/>
-	    <xs:enumeration value="alloyOfCobalt"/>
-	    <xs:enumeration value="alloyOfCopper"/>
-	    <xs:enumeration value="alloyOfGallium"/>
-	    <xs:enumeration value="alloyOfGold"/>
-	    <xs:enumeration value="alloyOfIndium"/>
-	    <xs:enumeration value="alloyOfIron"/>
-	    <xs:enumeration value="alloyOfLead"/>
-	    <xs:enumeration value="alloyOfMagnesium"/>
-	    <xs:enumeration value="alloyOfMercury"/>
-	    <xs:enumeration value="alloyOfNickel"/>
-	    <xs:enumeration value="alloyOfPotassium"/>
-	    <xs:enumeration value="alloyOfPlutonium"/>
-	    <xs:enumeration value="alloyOfRareEarth"/>
-	    <xs:enumeration value="alloyOfRhodium"/>
-	    <xs:enumeration value="alloyOfScandium"/>
-	    <xs:enumeration value="alloyOfSilver"/>
-	    <xs:enumeration value="alloyOfSodium"/>
-	    <xs:enumeration value="alloyOfTitanium"/>
-	    <xs:enumeration value="alloyOfTin"/>
-	    <xs:enumeration value="alloyOfUranium"/>
-	    <xs:enumeration value="alloyOfZinc"/>
-	    <xs:enumeration value="alloyOfZirconium"/>
+	    <xs:enumeration value="Elementary Metal"/>
+	    <xs:enumeration value="Alloy Of Aluminium"/>
+	    <xs:enumeration value="Alloy Of Bismuth"/>
+	    <xs:enumeration value="Alloy Of Chromium"/>
+	    <xs:enumeration value="Alloy Of Cobalt"/>
+	    <xs:enumeration value="Alloy Of Copper"/>
+	    <xs:enumeration value="Alloy Of Gallium"/>
+	    <xs:enumeration value="Alloy Of Gold"/>
+	    <xs:enumeration value="Alloy Of Indium"/>
+	    <xs:enumeration value="Alloy Of Iron"/>
+	    <xs:enumeration value="Alloy Of Lead"/>
+	    <xs:enumeration value="Alloy Of Magnesium"/>
+	    <xs:enumeration value="Alloy Of Mercury"/>
+	    <xs:enumeration value="Alloy Of Nickel"/>
+	    <xs:enumeration value="Alloy Of Potassium"/>
+	    <xs:enumeration value="Alloy Of Plutonium"/>
+	    <xs:enumeration value="Alloy Of RareEarth"/>
+	    <xs:enumeration value="Alloy Of Rhodium"/>
+	    <xs:enumeration value="Alloy Of Scandium"/>
+	    <xs:enumeration value="Alloy Of Silver"/>
+	    <xs:enumeration value="Alloy Of Sodium"/>
+	    <xs:enumeration value="Alloy Of Titanium"/>
+	    <xs:enumeration value="Alloy Of Tin"/>
+	    <xs:enumeration value="Alloy Of Uranium"/>
+	    <xs:enumeration value="Alloy Of Zinc"/>
+	    <xs:enumeration value="Alloy Of Zirconium"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="chemicalFunctionNameType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="ethnoBotany"/>
-	    <xs:enumeration value="alkaloid"/>
-	    <xs:enumeration value="allelopathic"/>
-	    <xs:enumeration value="antibody"/>
-	    <xs:enumeration value="antifouling"/>
-	    <xs:enumeration value="assimilation"/>
-	    <xs:enumeration value="attractant"/>
-	    <xs:enumeration value="coFactor"/>
-	    <xs:enumeration value="cuticula"/>
-	    <xs:enumeration value="detergent"/>
-	    <xs:enumeration value="dietaryFiber"/>
-	    <xs:enumeration value="dissimilation"/>
-	    <xs:enumeration value="enzyme"/>
-	    <xs:enumeration value="fodder"/>
-	    <xs:enumeration value="fragment"/>
-	    <xs:enumeration value="growth"/>
-	    <xs:enumeration value="hormone"/>
-	    <xs:enumeration value="informationCarrier"/>
-	    <xs:enumeration value="inhibiting"/>
-	    <xs:enumeration value="inhibitor"/>
-	    <xs:enumeration value="interaction"/>
-	    <xs:enumeration value="manure"/>
-	    <xs:enumeration value="metabolism"/>
-	    <xs:enumeration value="metabolite"/>
-	    <xs:enumeration value="mineral"/>
-	    <xs:enumeration value="nutrient"/>
-	    <xs:enumeration value="pesticide"/>
-	    <xs:enumeration value="pheromone"/>
-	    <xs:enumeration value="phytoalexin"/>
-	    <xs:enumeration value="phytochemical"/>
-	    <xs:enumeration value="pigment"/>
-	    <xs:enumeration value="poison"/>
-	    <xs:enumeration value="precursor"/>
-	    <xs:enumeration value="protection"/>
-	    <xs:enumeration value="protection"/>
-	    <xs:enumeration value="defense"/>
-	    <xs:enumeration value="repellent"/>
-	    <xs:enumeration value="reservoir"/>
-	    <xs:enumeration value="respiration"/>
-	    <xs:enumeration value="signal"/>
-	    <xs:enumeration value="stability"/>
-	    <xs:enumeration value="stimulator"/>
-	    <xs:enumeration value="structure"/>
-	    <xs:enumeration value="supporting"/>
-	    <xs:enumeration value="surfactant"/>
-	    <xs:enumeration value="toxin"/>
-	    <xs:enumeration value="traceElement"/>
-	    <xs:enumeration value="tracer"/>
-	    <xs:enumeration value="transformation"/>
-	    <xs:enumeration value="transport"/>
-	    <xs:enumeration value="vitamin"/>
-	    <xs:enumeration value="volatile"/>
+	    <xs:enumeration value="Ethno Botany"/>
+	    <xs:enumeration value="Alkaloid"/>
+	    <xs:enumeration value="Allelopathic"/>
+	    <xs:enumeration value="Antibody"/>
+	    <xs:enumeration value="Antifouling"/>
+	    <xs:enumeration value="Assimilation"/>
+	    <xs:enumeration value="Attractant"/>
+	    <xs:enumeration value="Co Factor"/>
+	    <xs:enumeration value="Cuticula"/>
+	    <xs:enumeration value="Detergent"/>
+	    <xs:enumeration value="Dietary Fiber"/>
+	    <xs:enumeration value="Dissimilation"/>
+	    <xs:enumeration value="Enzyme"/>
+	    <xs:enumeration value="Fodder"/>
+	    <xs:enumeration value="Fragment"/>
+	    <xs:enumeration value="Growth"/>
+	    <xs:enumeration value="Hormone"/>
+	    <xs:enumeration value="Information Carrier"/>
+	    <xs:enumeration value="Inhibiting"/>
+	    <xs:enumeration value="Inhibitor"/>
+	    <xs:enumeration value="Interaction"/>
+	    <xs:enumeration value="Manure"/>
+	    <xs:enumeration value="Metabolism"/>
+	    <xs:enumeration value="Metabolite"/>
+	    <xs:enumeration value="Mineral"/>
+	    <xs:enumeration value="Nutrient"/>
+	    <xs:enumeration value="Pesticide"/>
+	    <xs:enumeration value="Pheromone"/>
+	    <xs:enumeration value="Phytoalexin"/>
+	    <xs:enumeration value="Phytochemical"/>
+	    <xs:enumeration value="Pigment"/>
+	    <xs:enumeration value="Poison"/>
+	    <xs:enumeration value="Precursor"/>
+	    <xs:enumeration value="Protection"/>
+	    <xs:enumeration value="Protection"/>
+	    <xs:enumeration value="Defense"/>
+	    <xs:enumeration value="Repellent"/>
+	    <xs:enumeration value="Reservoir"/>
+	    <xs:enumeration value="Respiration"/>
+	    <xs:enumeration value="Signal"/>
+	    <xs:enumeration value="Stability"/>
+	    <xs:enumeration value="Stimulator"/>
+	    <xs:enumeration value="Structure"/>
+	    <xs:enumeration value="Supporting"/>
+	    <xs:enumeration value="Surfactant"/>
+	    <xs:enumeration value="Toxin"/>
+	    <xs:enumeration value="Trace Element"/>
+	    <xs:enumeration value="Tracer"/>
+	    <xs:enumeration value="Transformation"/>
+	    <xs:enumeration value="Transport"/>
+	    <xs:enumeration value="Vitamin"/>
+	    <xs:enumeration value="Volatile"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -1994,73 +1994,73 @@
 
     <xs:simpleType name="LengthUnit">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="metre"/>
-	    <xs:enumeration value="picometre"/>
-	    <xs:enumeration value="nanometre"/>
-	    <xs:enumeration value="micrometre"/>
-	    <xs:enumeration value="millimetre"/>
-	    <xs:enumeration value="centimetre"/>
-	    <xs:enumeration value="decimetre"/>
-	    <xs:enumeration value="decametre"/>
-	    <xs:enumeration value="hectometer"/>
-	    <xs:enumeration value="kilometre"/>
-	    <xs:enumeration value="megameter"/>
+	    <xs:enumeration value="Metre"/>
+	    <xs:enumeration value="Picometre"/>
+	    <xs:enumeration value="Nanometre"/>
+	    <xs:enumeration value="Micrometre"/>
+	    <xs:enumeration value="Millimetre"/>
+	    <xs:enumeration value="Centimetre"/>
+	    <xs:enumeration value="Decimetre"/>
+	    <xs:enumeration value="Decametre"/>
+	    <xs:enumeration value="Hectometer"/>
+	    <xs:enumeration value="Kilometre"/>
+	    <xs:enumeration value="Megameter"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="OrganismSizeClass">
 	<xs:restriction base="xs:string">
 	    <!-- flora -->
-	    <xs:enumeration value="microFlora"/>
-	    <xs:enumeration value="mesoFlora"/>
-	    <xs:enumeration value="macroFlora"/>
+	    <xs:enumeration value="Micro Flora"/>
+	    <xs:enumeration value="Meso Flora"/>
+	    <xs:enumeration value="Macro Flora"/>
 
 	    <!-- fauna -->
-	    <xs:enumeration value="microFauna"/>
-	    <xs:enumeration value="mesoFauna"/>
-	    <xs:enumeration value="macroFauna"/>
-	    <xs:enumeration value="megaFauna"/>
+	    <xs:enumeration value="Micro Fauna"/>
+	    <xs:enumeration value="Meso Fauna"/>
+	    <xs:enumeration value="Macro Fauna"/>
+	    <xs:enumeration value="Mega Fauna"/>
 
 	    <!-- mycota -->
-	    <xs:enumeration value="microMycota"/>
-	    <xs:enumeration value="macroMycota"/>
+	    <xs:enumeration value="Micro Mycota"/>
+	    <xs:enumeration value="Macro Mycota"/>
 
 	    <!-- general -->
-	    <xs:enumeration value="microOrganism"/>
+	    <xs:enumeration value="Micro Organism"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="LifeFormClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="archae"/>
-	    <xs:enumeration value="bacteria"/>
-	    <xs:enumeration value="plant"/>
-	    <xs:enumeration value="animal"/>
-	    <xs:enumeration value="fungi"/>
-	    <xs:enumeration value="protist"/>
-	    <xs:enumeration value="virus"/>
+	    <xs:enumeration value="Archae"/>
+	    <xs:enumeration value="Bacteria"/>
+	    <xs:enumeration value="Plant"/>
+	    <xs:enumeration value="Animal"/>
+	    <xs:enumeration value="Fungi"/>
+	    <xs:enumeration value="Protist"/>
+	    <xs:enumeration value="Virus"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="LifeFormType">
 	<xs:restriction base="xs:string">
 	    <!-- plant -->
-	    <xs:enumeration value="hydrophyte"/>
-	    <xs:enumeration value="helophyte"/>
-	    <xs:enumeration value="cryophyte"/>
-	    <xs:enumeration value="hemicryophyte"/>
-	    <xs:enumeration value="chamaephyte"/>
-	    <xs:enumeration value="phanerophyte"/>
-	    <xs:enumeration value="epiphyte"/>
+	    <xs:enumeration value="Hydrophyte"/>
+	    <xs:enumeration value="Helophyte"/>
+	    <xs:enumeration value="Cryophyte"/>
+	    <xs:enumeration value="Hemicryophyte"/>
+	    <xs:enumeration value="Chamaephyte"/>
+	    <xs:enumeration value="Phanerophyte"/>
+	    <xs:enumeration value="Epiphyte"/>
 
 	    <!-- animal -->
-	    <xs:enumeration value="homöotherm"/>
-	    <xs:enumeration value="heterotherm"/>
-	    <xs:enumeration value="poikilotherm"/>
+	    <xs:enumeration value="Homöotherm"/>
+	    <xs:enumeration value="Heterotherm"/>
+	    <xs:enumeration value="Poikilotherm"/>
 
 	    <!-- cellularity -->
-	    <xs:enumeration value="multicellular"/>
-	    <xs:enumeration value="unicellular"/>
+	    <xs:enumeration value="Multicellular"/>
+	    <xs:enumeration value="Unicellular"/>
 	</xs:restriction>
     </xs:simpleType>
 
@@ -2068,109 +2068,109 @@
 
     <xs:simpleType name="PhysiognomyClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="forest"/>
-	    <xs:enumeration value="openWoodland"/>
-	    <xs:enumeration value="shrubland"/>
-	    <xs:enumeration value="herbaceousSystem"/>
-	    <xs:enumeration value="barrenLand"/>
-	    <xs:enumeration value="lakeSystem"/>
-	    <xs:enumeration value="riverSystem"/>
-	    <xs:enumeration value="marineSystem"/>
+	    <xs:enumeration value="Forest"/>
+	    <xs:enumeration value="Open Woodland"/>
+	    <xs:enumeration value="Shrubland"/>
+	    <xs:enumeration value="Herbaceous System"/>
+	    <xs:enumeration value="Barren Land"/>
+	    <xs:enumeration value="Lake System"/>
+	    <xs:enumeration value="River System"/>
+	    <xs:enumeration value="Marine System"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="PhysiognomyType">
 	<xs:restriction base="xs:string">
 	    <!-- forest -->
-	    <xs:enumeration value="evergreenNeedleLeaf"/>
-	    <xs:enumeration value="evergreenBroadLeaf"/>
-	    <xs:enumeration value="decidiousBroadleaf"/>
-	    <xs:enumeration value="mixed"/>
+	    <xs:enumeration value="Evergreen Needleleaf"/>
+	    <xs:enumeration value="Evergreen Broadleaf"/>
+	    <xs:enumeration value="Decidious Broadleaf"/>
+	    <xs:enumeration value="Mixed"/>
 	    <!-- open woodland -->
-	    <xs:enumeration value="savannah"/>
-	    <xs:enumeration value="woodySavannah"/>
+	    <xs:enumeration value="Savannah"/>
+	    <xs:enumeration value="Woody Savannah"/>
 	    <!-- shrubland -->
-	    <xs:enumeration value="closedShrubland"/>
-	    <xs:enumeration value="openShrubland"/>
+	    <xs:enumeration value="Closed Shrubland"/>
+	    <xs:enumeration value="Open Shrubland"/>
 	    <!-- herbaceous system -->
-	    <xs:enumeration value="grassland"/>
+	    <xs:enumeration value="Grassland"/>
 	    <!-- barren land -->
-	    <xs:enumeration value="dessert"/>
+	    <xs:enumeration value="Dessert"/>
 	    <!-- lake systems -->
-	    <xs:enumeration value="epilimnion"/>
-	    <xs:enumeration value="metalimnion"/>
-	    <xs:enumeration value="hypolimnion"/>
+	    <xs:enumeration value="Epilimnion"/>
+	    <xs:enumeration value="Metalimnion"/>
+	    <xs:enumeration value="Hypolimnion"/>
 	    <!-- river systems -->
-	    <xs:enumeration value="crenon"/>
-	    <xs:enumeration value="rhitron"/>
-	    <xs:enumeration value="potamon"/>
+	    <xs:enumeration value="Crenon"/>
+	    <xs:enumeration value="Rhitron"/>
+	    <xs:enumeration value="Potamon"/>
 	    <!-- marine systems -->
-	    <xs:enumeration value="littoralZone"/>
-	    <xs:enumeration value="intertidalZone"/>
-	    <xs:enumeration value="estuary"/>
-	    <xs:enumeration value="kelpForest"/>
-	    <xs:enumeration value="coralReef"/>
-	    <xs:enumeration value="oceanBank"/>
-	    <xs:enumeration value="continentalShelf"/>
-	    <xs:enumeration value="neriticZone"/>
-	    <xs:enumeration value="strait"/>
-	    <xs:enumeration value="pelagicZone"/>
-	    <xs:enumeration value="oceanicZone"/>
-	    <xs:enumeration value="seamount"/>
-	    <xs:enumeration value="hydrothermalVent"/>
-	    <xs:enumeration value="coldSeep"/>
-	    <xs:enumeration value="demersalZone"/>
-	    <xs:enumeration value="benthicZone"/>
+	    <xs:enumeration value="Littoral Zone"/>
+	    <xs:enumeration value="Intertidal Zone"/>
+	    <xs:enumeration value="Estuary"/>
+	    <xs:enumeration value="Kelp Forest"/>
+	    <xs:enumeration value="Coral Reef"/>
+	    <xs:enumeration value="Ocean Bank"/>
+	    <xs:enumeration value="Continental Shelf"/>
+	    <xs:enumeration value="Neritic Zone"/>
+	    <xs:enumeration value="Strait"/>
+	    <xs:enumeration value="Pelagic Zone"/>
+	    <xs:enumeration value="Oceanic Zone"/>
+	    <xs:enumeration value="Seamount"/>
+	    <xs:enumeration value="Hydrothermal Vent"/>
+	    <xs:enumeration value="Cold Seep"/>
+	    <xs:enumeration value="Demersal Zone"/>
+	    <xs:enumeration value="Benthic Zone"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="BiomeWater">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="humide"/>
-	    <xs:enumeration value="semiHumide"/>
-	    <xs:enumeration value="semiAride"/>
-	    <xs:enumeration value="aride"/>
+	    <xs:enumeration value="Humid"/>
+	    <xs:enumeration value="Semi Humid"/>
+	    <xs:enumeration value="Semi Arid"/>
+	    <xs:enumeration value="Arid"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="BiomeType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="terrestrial"/>
-	    <xs:enumeration value="ecotone"/>
-	    <xs:enumeration value="dryland"/>
-	    <xs:enumeration value="wetland"/>
-	    <xs:enumeration value="aquatic"/>
-	    <xs:enumeration value="freshWater"/>
-	    <xs:enumeration value="brackishWater"/>
-	    <xs:enumeration value="salineWater"/>
+	    <xs:enumeration value="Terrestrial"/>
+	    <xs:enumeration value="Aquatic"/>
+	    <xs:enumeration value="Ecotone"/>
+	    <xs:enumeration value="Dryland"/>
+	    <xs:enumeration value="Wetland"/>
+	    <xs:enumeration value="Fresh Water"/>
+	    <xs:enumeration value="Brackish Water"/>
+	    <xs:enumeration value="Saline Water"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="BiomeZone">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="polar"/>
-	    <xs:enumeration value="boreal"/>
-	    <xs:enumeration value="temperate"/>
-	    <xs:enumeration value="subtropical"/>
-	    <xs:enumeration value="tropical"/>
+	    <xs:enumeration value="Polar"/>
+	    <xs:enumeration value="Boreal"/>
+	    <xs:enumeration value="Temperate"/>
+	    <xs:enumeration value="Subtropical"/>
+	    <xs:enumeration value="Tropical"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="LandClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="natural"/>
-	    <xs:enumeration value="semiNatural"/>
-	    <xs:enumeration value="urban"/>
+	    <xs:enumeration value="Natural"/>
+	    <xs:enumeration value="Semi Natural"/>
+	    <xs:enumeration value="Urban"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="LandUsePurpose">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="agriculture"/>
-	    <xs:enumeration value="agroforestry"/>
-	    <xs:enumeration value="aquaculture"/>
-	    <xs:enumeration value="recreation"/>
+	    <xs:enumeration value="Agriculture"/>
+	    <xs:enumeration value="Agroforestry"/>
+	    <xs:enumeration value="Aquaculture"/>
+	    <xs:enumeration value="Recreation"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -2180,27 +2180,27 @@
     <xs:simpleType name="SphereName">
 	<xs:restriction base="xs:string">
 	    <!-- top categories -->
-	    <xs:enumeration value="biosphere"/>
-	    <xs:enumeration value="lithosphere"/>
-	    <xs:enumeration value="hydrosphere"/>
-	    <xs:enumeration value="atmosphere"/>
-	    <xs:enumeration value="pedosphere"/>
+	    <xs:enumeration value="Biosphere"/>
+	    <xs:enumeration value="Lithosphere"/>
+	    <xs:enumeration value="Hydrosphere"/>
+	    <xs:enumeration value="Atmosphere"/>
+	    <xs:enumeration value="Pedosphere"/>
 
 	    <!-- biosphere -->
-	    <xs:enumeration value="zoosphere"/>
-	    <xs:enumeration value="phytosphere"/>
-	    <xs:enumeration value="rhizosphere"/>
+	    <xs:enumeration value="Zoosphere"/>
+	    <xs:enumeration value="Phytosphere"/>
+	    <xs:enumeration value="Rhizosphere"/>
 
 	    <!-- hydrosphere -->
-	    <xs:enumeration value="oceanosphere"/>
-	    <xs:enumeration value="limnosphere"/>
-	    <xs:enumeration value="cryosphere"/>
+	    <xs:enumeration value="Oceanosphere"/>
+	    <xs:enumeration value="Limnosphere"/>
+	    <xs:enumeration value="Cryosphere"/>
 
 	    <!-- atmosphere -->
-	    <xs:enumeration value="troposphere"/>
-	    <xs:enumeration value="stratosphere"/>
-	    <xs:enumeration value="mesosphere"/>
-	    <xs:enumeration value="ionosphere"/>
+	    <xs:enumeration value="Troposphere"/>
+	    <xs:enumeration value="Stratosphere"/>
+	    <xs:enumeration value="Mesosphere"/>
+	    <xs:enumeration value="Ionosphere"/>
 	</xs:restriction>
     </xs:simpleType>
 
@@ -2208,36 +2208,36 @@
     <xs:simpleType name="LayerName">
 	<xs:restriction base="xs:string">
 	    <!-- phytosphere -->
-	    <xs:enumeration value="emergentLayer"/>
-	    <xs:enumeration value="canopyLayer"/>
-	    <xs:enumeration value="treeLayer"/>
-	    <xs:enumeration value="understoryLayer"/>
-	    <xs:enumeration value="shrubLayer"/>
-	    <xs:enumeration value="herbAndFernLayer"/>
-	    <xs:enumeration value="mossLayer"/>
-	    <xs:enumeration value="litterLayer"/>
+	    <xs:enumeration value="Emergent Layer"/>
+	    <xs:enumeration value="Canopy Layer"/>
+	    <xs:enumeration value="Tree Layer"/>
+	    <xs:enumeration value="Understory Layer"/>
+	    <xs:enumeration value="Shrub Layer"/>
+	    <xs:enumeration value="Herb and Fern Layer"/>
+	    <xs:enumeration value="Moss Layer"/>
+	    <xs:enumeration value="Litter Layer"/>
 
 	    <!-- pedosphere -->
-	    <xs:enumeration value="soilWithThickOrganicLayer"/>
-	    <xs:enumeration value="soilWithStrongHumanInfluence "/>
-	    <xs:enumeration value="soilWithLimitationToRootGrowth "/>
-	    <xs:enumeration value="soilDistinguishedByFeAlChemicstry "/>
-	    <xs:enumeration value="soilWithPronouncedAccumulationOfOrganicMatterInMineralTopsoil"/>
-	    <xs:enumeration value="soilWithAccumulationOfModeratelySolubleSaltsOrNonSalineSubstances"/>
-	    <xs:enumeration value="soilWithClayEnrichedSubsoil"/>
-	    <xs:enumeration value="soilWithLittleOrNoProfileOrientation"/>
+	    <xs:enumeration value="Soil With Thick Organic Layer"/>
+	    <xs:enumeration value="Soil With Strong Human Influence "/>
+	    <xs:enumeration value="Soil With Limitation to Root Growth "/>
+	    <xs:enumeration value="Soil Distinguished by Fe Al Chemicstry "/>
+	    <xs:enumeration value="Soil With Pronounced Accumulation of Organic Matter in Mineral Topsoil"/>
+	    <xs:enumeration value="Soil With Accumulation of Moderately Soluble Salts or non Saline Substances"/>
+	    <xs:enumeration value="Soil With Clay Enriched Subsoil"/>
+	    <xs:enumeration value="Soil With Little or no Profile Orientation"/>
 
-	    <xs:enumeration value="oHorizon"/>
-	    <xs:enumeration value="aHorizon"/>
-	    <xs:enumeration value="eHorizon"/>
-	    <xs:enumeration value="bHorizon"/>
-	    <xs:enumeration value="cHorizon"/>
-	    <xs:enumeration value="rHorizon"/>
-	    <xs:enumeration value="lHorizon"/>
+	    <xs:enumeration value="O Horizon"/>
+	    <xs:enumeration value="A Horizon"/>
+	    <xs:enumeration value="E Horizon"/>
+	    <xs:enumeration value="B Horizon"/>
+	    <xs:enumeration value="C Horizon"/>
+	    <xs:enumeration value="R Horizon"/>
+	    <xs:enumeration value="L Horizon"/>
 
 	    <!-- lithosphere -->
-	    <xs:enumeration value="crust"/>
-	    <xs:enumeration value="upperMantle"/>
+	    <xs:enumeration value="Crust"/>
+	    <xs:enumeration value="Upper Mantle"/>
 
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
@@ -2247,7 +2247,7 @@
 
     <xs:simpleType name="MethodApproach">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="virtualExperiment">
+	    <xs:enumeration value="Virtual Experiment">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Computer experiments and simulation.
@@ -2255,7 +2255,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="controlledExperiment">
+	    <xs:enumeration value="Controlled Experiment">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			System and factors are mostly controlled (lab experiment, greenhouse).
@@ -2263,7 +2263,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="fieldExperiment">
+	    <xs:enumeration value="Field Experiment">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Natural system is studied but certain factors are controlled (fertilization, soil warming)
@@ -2271,7 +2271,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="fieldManipulation">
+	    <xs:enumeration value="Field Manipulation">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Natural system with single factor manipulation.
@@ -2279,7 +2279,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="observationalExperiment">
+	    <xs:enumeration value="Observational Experiment">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Plots are selected to span gradients and allow analyses of system behaviour.
@@ -2287,7 +2287,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="observation">
+	    <xs:enumeration value="Observation">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Mere observations (monitoring, sensing, survey, inventory)
@@ -2300,87 +2300,87 @@
 
     <xs:simpleType name="ControlFactorModus">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="observed"/>
-	    <xs:enumeration value="covariate"/>
+	    <xs:enumeration value="Manipulated"/>
+	    <xs:enumeration value="Observed"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="FactorName">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="speciesComposition"/>
-	    <xs:enumeration value="speciesDiversity"/>
-	    <xs:enumeration value="speciesEveness"/>
-	    <xs:enumeration value="speciesRichness"/>
-	    <xs:enumeration value="occurance"/>
-	    <xs:enumeration value="livingStatus"/>
-	    <xs:enumeration value="abundance"/>
-	    <xs:enumeration value="diameter"/>
-	    <xs:enumeration value="weight"/>
-	    <xs:enumeration value="height"/>
-	    <xs:enumeration value="quantity"/>
-	    <xs:enumeration value="density"/>
-	    <xs:enumeration value="occurance"/>
-	    <xs:enumeration value="livingStatus"/>
-	    <xs:enumeration value="abundance"/>
-	    <xs:enumeration value="tolerance"/>
-	    <xs:enumeration value="functionalRichness"/>
-	    <xs:enumeration value="functionalDiversity"/>
-	    <xs:enumeration value="geneticDiversity"/>
-	    <xs:enumeration value="geneticManipulation"/>
-	    <xs:enumeration value="phylogeneticDistictness"/>
-	    <xs:enumeration value="phylogeneticDistance"/>
-	    <xs:enumeration value="phylogenticDiversity"/>
-	    <xs:enumeration value="communityStructure"/>
-	    <xs:enumeration value="CommunityDynamics"/>
-	    <xs:enumeration value="cationExchange"/>
-	    <xs:enumeration value="chemicalDiversity"/>
-	    <xs:enumeration value="chemicalComposition"/>
-	    <xs:enumeration value="chemicalActivity"/>
-	    <xs:enumeration value="nutrient"/>
-	    <xs:enumeration value="pH"/>
-	    <xs:enumeration value="xenobiotics"/>
-	    <xs:enumeration value="intensity"/>
-	    <xs:enumeration value="absorbance"/>
-	    <xs:enumeration value="reflectance"/>
-	    <xs:enumeration value="radiance"/>
-	    <xs:enumeration value="irradiance"/>
-	    <xs:enumeration value="photosynteticActiveRadiation"/>
-	    <xs:enumeration value="soilDepth"/>
-	    <xs:enumeration value="soilColour"/>
-	    <xs:enumeration value="organicMatter"/>
-	    <xs:enumeration value="moisture"/>
-	    <xs:enumeration value="structure"/>
-	    <xs:enumeration value="rootIntensity"/>
-	    <xs:enumeration value="soilBase"/>
-	    <xs:enumeration value="soilTemperature"/>
-	    <xs:enumeration value="grainSize"/>
-	    <xs:enumeration value="airTemperatur"/>
-	    <xs:enumeration value="windDirection"/>
-	    <xs:enumeration value="windSpeed"/>
-	    <xs:enumeration value="airPressure"/>
-	    <xs:enumeration value="precipitation"/>
-	    <xs:enumeration value="evaporation"/>
-	    <xs:enumeration value="groundWaterFlow"/>
-	    <xs:enumeration value="surfaceRunOff"/>
-	    <xs:enumeration value="sublimation"/>
-	    <xs:enumeration value="humitity"/>
-	    <xs:enumeration value="vapourPressure"/>
-	    <xs:enumeration value="scale"/>
-	    <xs:enumeration value="spatialContext"/>
-	    <xs:enumeration value="distance"/>
-	    <xs:enumeration value="harvest"/>
-	    <xs:enumeration value="consumption"/>
-	    <xs:enumeration value="pathogen"/>
-	    <xs:enumeration value="fire"/>
-	    <xs:enumeration value="wind"/>
-	    <xs:enumeration value="abioticStress"/>
-	    <xs:enumeration value="stressTolerance"/>
-	    <xs:enumeration value="identifications"/>
-	    <xs:enumeration value="names"/>
-	    <xs:enumeration value="elevation"/>
-	    <xs:enumeration value="inclination"/>
-	    <xs:enumeration value="exposition"/>
-	    <xs:enumeration value="aspect"/>
+	    <xs:enumeration value="Species Composition"/>
+	    <xs:enumeration value="Species Diversity"/>
+	    <xs:enumeration value="Species Eveness"/>
+	    <xs:enumeration value="Species Richness"/>
+	    <xs:enumeration value="Occurance"/>
+	    <xs:enumeration value="Living Status"/>
+	    <xs:enumeration value="Abundance"/>
+	    <xs:enumeration value="Diameter"/>
+	    <xs:enumeration value="Weight"/>
+	    <xs:enumeration value="Height"/>
+	    <xs:enumeration value="Quantity"/>
+	    <xs:enumeration value="Density"/>
+	    <xs:enumeration value="Occurance"/>
+	    <xs:enumeration value="Living Status"/>
+	    <xs:enumeration value="Abundance"/>
+	    <xs:enumeration value="Tolerance"/>
+	    <xs:enumeration value="Functional Richness"/>
+	    <xs:enumeration value="Functional Diversity"/>
+	    <xs:enumeration value="Genetic Diversity"/>
+	    <xs:enumeration value="Genetic Manipulation"/>
+	    <xs:enumeration value="Phylogenetic Distictness"/>
+	    <xs:enumeration value="Phylogenetic Distance"/>
+	    <xs:enumeration value="Phylogentic Diversity"/>
+	    <xs:enumeration value="Community Structure"/>
+	    <xs:enumeration value="community Dynamics"/>
+	    <xs:enumeration value="Cation Exchange"/>
+	    <xs:enumeration value="Chemical Diversity"/>
+	    <xs:enumeration value="Chemical Composition"/>
+	    <xs:enumeration value="Chemical Activity"/>
+	    <xs:enumeration value="Nutrient"/>
+	    <xs:enumeration value="PH"/>
+	    <xs:enumeration value="Xenobiotics"/>
+	    <xs:enumeration value="Intensity"/>
+	    <xs:enumeration value="Absorbance"/>
+	    <xs:enumeration value="Reflectance"/>
+	    <xs:enumeration value="Radiance"/>
+	    <xs:enumeration value="Irradiance"/>
+	    <xs:enumeration value="Photosyntetic Active Radiation"/>
+	    <xs:enumeration value="Soil Depth"/>
+	    <xs:enumeration value="Soil Colour"/>
+	    <xs:enumeration value="Organic Matter"/>
+	    <xs:enumeration value="Moisture"/>
+	    <xs:enumeration value="Structure"/>
+	    <xs:enumeration value="Root Intensity"/>
+	    <xs:enumeration value="Soil Base"/>
+	    <xs:enumeration value="Soil Temperature"/>
+	    <xs:enumeration value="Grain Size"/>
+	    <xs:enumeration value="Air Temperatur"/>
+	    <xs:enumeration value="Wind Direction"/>
+	    <xs:enumeration value="Wind Speed"/>
+	    <xs:enumeration value="Air Pressure"/>
+	    <xs:enumeration value="Precipitation"/>
+	    <xs:enumeration value="Evaporation"/>
+	    <xs:enumeration value="Ground Water Flow"/>
+	    <xs:enumeration value="Surface Run Off"/>
+	    <xs:enumeration value="Sublimation"/>
+	    <xs:enumeration value="Humitity"/>
+	    <xs:enumeration value="Vapour Pressure"/>
+	    <xs:enumeration value="Scale"/>
+	    <xs:enumeration value="Spatial Context"/>
+	    <xs:enumeration value="Distance"/>
+	    <xs:enumeration value="Harvest"/>
+	    <xs:enumeration value="Consumption"/>
+	    <xs:enumeration value="Pathogen"/>
+	    <xs:enumeration value="Fire"/>
+	    <xs:enumeration value="Wind"/>
+	    <xs:enumeration value="Abiotic Stress"/>
+	    <xs:enumeration value="Stress Tolerance"/>
+	    <xs:enumeration value="Identifications"/>
+	    <xs:enumeration value="Names"/>
+	    <xs:enumeration value="Elevation"/>
+	    <xs:enumeration value="Inclination"/>
+	    <xs:enumeration value="Exposition"/>
+	    <xs:enumeration value="Aspect"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -2389,14 +2389,14 @@
 
     <xs:simpleType name="TemporalClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="second"/>
-	    <xs:enumeration value="minute"/>
-	    <xs:enumeration value="day"/>
-	    <xs:enumeration value="week"/>
-	    <xs:enumeration value="month"/>
-	    <xs:enumeration value="year"/>
-	    <xs:enumeration value="decade"/>
-	    <xs:enumeration value="century"/>
+	    <xs:enumeration value="Second"/>
+	    <xs:enumeration value="Minute"/>
+	    <xs:enumeration value="Day"/>
+	    <xs:enumeration value="Week"/>
+	    <xs:enumeration value="Month"/>
+	    <xs:enumeration value="Year"/>
+	    <xs:enumeration value="Decade"/>
+	    <xs:enumeration value="Century"/>
 
 	    <!-- <xs:enumeration value="spring"/> -->
 	    <!-- <xs:enumeration value="summer"/> -->
@@ -2410,29 +2410,29 @@
     <xs:simpleType name="TemporalName">
 	<xs:restriction base="xs:string">
 	    <!-- eon -->
-	    <xs:enumeration value="phanerozoic"/>
+	    <xs:enumeration value="Phanerozoic"/>
 
 	    <!-- era -->
-	    <xs:enumeration value="hadean"/>
-	    <xs:enumeration value="archean"/>
-	    <xs:enumeration value="proterozoic"/>
-	    <xs:enumeration value="paleozoic"/>
-	    <xs:enumeration value="mesozoic"/>
-	    <xs:enumeration value="cenozoic"/>
+	    <xs:enumeration value="Hadean"/>
+	    <xs:enumeration value="Archean"/>
+	    <xs:enumeration value="Proterozoic"/>
+	    <xs:enumeration value="Paleozoic"/>
+	    <xs:enumeration value="Mesozoic"/>
+	    <xs:enumeration value="Cenozoic"/>
 
 	    <!-- period -->
-	    <xs:enumeration value="quaternary"/>
-	    <xs:enumeration value="tertiary"/>
-	    <xs:enumeration value="cretaceous"/>
-	    <xs:enumeration value="jurrasic"/>
-	    <xs:enumeration value="triassic"/>
-	    <xs:enumeration value="permian"/>
-	    <xs:enumeration value="carboniferous"/>
-	    <xs:enumeration value="devonian"/>
-	    <xs:enumeration value="silurian"/>
-	    <xs:enumeration value="ordovician"/>
-	    <xs:enumeration value="cambrian"/>
-	    <xs:enumeration value="precambrian"/>
+	    <xs:enumeration value="Quaternary"/>
+	    <xs:enumeration value="Tertiary"/>
+	    <xs:enumeration value="Cretaceous"/>
+	    <xs:enumeration value="Jurrasic"/>
+	    <xs:enumeration value="Triassic"/>
+	    <xs:enumeration value="Permian"/>
+	    <xs:enumeration value="Carboniferous"/>
+	    <xs:enumeration value="Devonian"/>
+	    <xs:enumeration value="Silurian"/>
+	    <xs:enumeration value="Ordovician"/>
+	    <xs:enumeration value="Cambrian"/>
+	    <xs:enumeration value="Precambrian"/>
 
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
@@ -2440,7 +2440,7 @@
 
     <xs:simpleType name="TemporalStandard">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="internationalChronostratigraphicChart"/>
+	    <xs:enumeration value="International Chronostratigraphic Chart"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -2740,35 +2740,35 @@
 
     <xs:simpleType name="SpatialClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="point">
+	    <xs:enumeration value="Point">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Defined as: m^2
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-	    <xs:enumeration value="plot">
+	    <xs:enumeration value="Plot">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Defined as: 1 m^2 - 0.01 km^2
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-	    <xs:enumeration value="region">
+	    <xs:enumeration value="Region">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Defined as: 0.01 km^2 - 10.000 km^2
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-	    <xs:enumeration value="continent">
+	    <xs:enumeration value="Continent">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Defined as: 10.000 km^2 - 100.000.000 km^2
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-	    <xs:enumeration value="global">
+	    <xs:enumeration value="Global">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Defined as: > 100.000.000 km^2 
@@ -2780,7 +2780,7 @@
 
     <xs:simpleType name="ControlFactorDependency">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="independent">
+	    <xs:enumeration value="Independent">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Fully controlled lab experiment that could take place
@@ -2788,7 +2788,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-	    <xs:enumeration value="partially">
+	    <xs:enumeration value="Partially">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Unique features of spatial context partially
@@ -2797,7 +2797,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-	    <xs:enumeration value="fully">
+	    <xs:enumeration value="Fully">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Field studies.
@@ -2812,8 +2812,6 @@
 	    <xs:minExclusive value="0"/>
 	</xs:restriction>
     </xs:simpleType>
-
-
     
     <xs:simpleType name="RankAbbreviation">
     <!-- cite abcd -->
