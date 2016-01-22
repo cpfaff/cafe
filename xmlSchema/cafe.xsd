@@ -588,7 +588,7 @@
 					<xs:element name="spatialNameRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The spatial name range captures a range of location names and types.
+						    The spatial name range captures a range of location names and types
 						</xs:documentation>
 					    </xs:annotation>
 
@@ -597,7 +597,7 @@
 						    <xs:element name="spatialNameItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The spatial name item covers a range of names and types.
+								The spatial name item covers a range of spatial names and spatial types
 							    </xs:documentation>
 							</xs:annotation>
 
@@ -611,10 +611,10 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="spatialType" type="xs:string" minOccurs="1" maxOccurs="1">
+								<xs:element name="spatialType" type="SpatialType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The type of the location (e.g. City, Lake, etc).
+									    The type of the location. This could be e.g. City, Lake, etc.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -2615,6 +2615,7 @@
 
     <xs:simpleType name="SpatialName">
 	<xs:restriction base="xs:string">
+	    <!-- country -->
 	    <xs:enumeration value = "Andorra"/>
 	    <xs:enumeration value = "United Arab Emirates"/>
 	    <xs:enumeration value = "Afghanistan"/>
@@ -2873,6 +2874,16 @@
 	    <xs:pattern value="[a-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpletype>
+
+    <xs:simpleType name="SpatialType">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value = "City"/>
+	    <xs:enumeration value = "Country"/>
+	    <xs:enumeration value = "Continent"/>
+	    <xs:enumeration value = "River"/>
+	    <xs:pattern value="[a-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
 
     <xs:simpleType name="SpatialClass">
 	<xs:restriction base="xs:string">
