@@ -126,7 +126,8 @@ But rather do
 
 We aim at generic structures and fields that only contain clearly defined bits
 and pieces of information. Full-text fields are useful in general however,
-often contain every we might need but nothing for granted, nor well structured.
+often contain every informattion we might need but no information is granted
+for sure here.
 
 #### Tagging tool
 
