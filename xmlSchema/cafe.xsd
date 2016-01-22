@@ -638,7 +638,7 @@
 
 				<xs:complexType>
 				    <xs:sequence>
-					<xs:element name="spatialExtent" type="SpatialClass" minOccurs="1" maxOccurs="1">
+					<xs:element name="spatialExtent" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    Defines the extent in space in form of a category (point, plot, region, continent, globa).
@@ -646,7 +646,7 @@
 					    </xs:annotation>
 					</xs:element>
 
-					<xs:element name="spatialResolution" type="SpatialClass" minOccurs="1" maxOccurs="1">
+					<xs:element name="spatialResolution" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    Defines the resolution in space in form of a category (point, plot, region, continent, globa).
@@ -2885,7 +2885,7 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="SpatialClass">
+    <xs:simpleType name="SpatialSizeClass">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Point">
 		<xs:annotation>
