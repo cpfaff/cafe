@@ -2391,12 +2391,14 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Second"/>
 	    <xs:enumeration value="Minute"/>
+	    <xs:enumeration value="Hour"/>
 	    <xs:enumeration value="Day"/>
 	    <xs:enumeration value="Week"/>
 	    <xs:enumeration value="Month"/>
 	    <xs:enumeration value="Year"/>
 	    <xs:enumeration value="Decade"/>
 	    <xs:enumeration value="Century"/>
+	    <xs:enumeration value="Millenium">
 	</xs:restriction>
     </xs:simpleType>
 
