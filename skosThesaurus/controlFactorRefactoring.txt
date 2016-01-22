@@ -1,0 +1,190 @@
+ControlFactor
+	FactorName
+		Species Composition
+		Species Diversity
+		Species Evenness
+		Species Richness
+		Occurrence
+		Living Status
+		Abundance
+		Diameter
+		Weight
+		Height
+		Quantity
+		Density
+		Occurrence
+		Living Status
+		Functional Richness
+		Functional Diversity
+		Genetic Diversity
+		Genetic Manipulation
+		Phylogenetic Distinctness
+		Phylogenetic Distance
+		Phylogenetic Diversity
+		Community Structure
+		Community Dynamics
+		Cation Exchange
+		Chemical Diversity
+		Chemical Composition
+		Chemical Activity
+		Nutrients
+		Soil pH
+		Intensity
+		Absorbance
+		Reflectance
+		Radiance
+		Irradiance
+		Photosynthetically Active Radiation
+		Soil Depth
+		Soil Colour
+		Organic Matter
+		Moisture
+		Structure
+		Root Intensity
+		Soil Base
+		Soil Temperature
+		Grain Size
+		Air Temperature
+		Wind Direction
+		Wind Speed
+		Air Pressure
+		Precipitation
+		Evaporation
+		Groundwater Flow
+		Surface Runoff
+		Sublimation
+		Humidity
+		Vapour Pressure
+		Spatial Context
+		Distance
+		Temporal Context
+		Age
+		Frequency
+		Disturbance
+		Harvest
+		Consumption
+		Pathogen
+		Fire Disturbance
+		Wind Disturbance
+		Abiotic Stress
+		Stress Tolerance
+		Elevation
+		Inclination/Slope
+		Exposition
+		Aspect
+
+	FactorClass
+		Biotic
+		Abiotic
+
+	FactorType
+		Genetic
+		Phylogenetic
+		Chemical
+		Physical
+		...
+
+	EnvironmentalDependencyOfFactor
+		Independent
+		Partially Dependent
+		Fully Dependen
+
+	CoreObject
+		Root
+		Plant
+		Soil
+		Grain
+		Water
+		Air
+		Vapour
+		Groundwater
+		Surface
+		Organic Matter
+		Temporal Context
+
+	CoreFactor
+		Acidity
+		Absorbance
+		Abundance
+		Activity
+		Age
+		Aspect
+		Base
+		Colour
+		Composition
+		Concentration
+		Consumption
+		Density
+		Depth
+		Diameter
+		Direction
+		Distance
+		Distictness
+		Disturbance
+		Diversity
+		Dynamics
+		Elevation
+		Evaporation
+		Eveness
+		Exchange
+		Exposition
+		Flow
+		Frequency
+		Function
+		Functions
+		Harvest
+		Height
+		Humitity
+		Inclination/Slope
+		Intensity
+		Irradiance
+		Moisture
+		Occurance
+		Occurance
+		Pathogen
+		Precipitation
+		Pressure
+		Quantity
+		Radiance
+		Radiation
+		Reflectance
+		Richness
+		Runoff
+		Size
+		Speed
+		Status
+		Stress
+		Structure
+		Sublimation
+		Temperature
+		Salinity
+
+
+		Topography
+		Weight
+
+		Time
+		Space
+		Wind
+		Fire
+
+	Tolerance
+
+
+	FactorModus
+		Manipulated
+		Observed
+
+	MeasuredOnLevel
+		Atom
+		Molecule
+		Cell Organelle
+		Cell
+		Tissue
+		Organ
+		Sytem Of Organs
+		Organism/Individual
+		Population/Species/Community
+		Ecosystem
+		Biome
+		Biosphere
