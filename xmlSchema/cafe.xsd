@@ -684,7 +684,7 @@
 				<xs:complexType>
 				    <xs:sequence>
 
-					<xs:element name="methodApproach" type="MethodApproach" minOccurs="1" maxOccurs="1">
+					<xs:element name="generalApproach" type="GeneralApproach" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    The general approach that thas been used e.g. virtual experiment, controlled experiment, 
@@ -2245,7 +2245,7 @@
 
     <!-- method related types -->
 
-    <xs:simpleType name="MethodApproach">
+    <xs:simpleType name="GeneralApproach">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Virtual Experiment">
 		<xs:annotation>
