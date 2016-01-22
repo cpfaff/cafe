@@ -1524,10 +1524,10 @@
 
     <xs:simpleType name="ObjectType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Table"/>
 	    <xs:enumeration value="Audio"/>
-	    <xs:enumeration value="Video"/>
 	    <xs:enumeration value="Image"/>
+	    <xs:enumeration value="Table"/>
+	    <xs:enumeration value="Video"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
