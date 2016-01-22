@@ -2397,13 +2397,6 @@
 	    <xs:enumeration value="Year"/>
 	    <xs:enumeration value="Decade"/>
 	    <xs:enumeration value="Century"/>
-
-	    <!-- <xs:enumeration value="spring"/> -->
-	    <!-- <xs:enumeration value="summer"/> -->
-	    <!-- <xs:enumeration value="autumn"/> -->
-	    <!-- <xs:enumeration value="winter"/> -->
-
-	    <!-- <xs:enumeration value="vegetationPeriod"/> -->
 	</xs:restriction>
     </xs:simpleType>
 
