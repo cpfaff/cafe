@@ -707,18 +707,18 @@
 						    <xs:element name="controlFactorItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								This element covers the range of control factors that are
-								involved and if they have been manipulated or just observed
+								This element covers the range of control factors that have 
+								been manipulated or just observed
 								as covariates. 
 							    </xs:documentation>
 							</xs:annotation>
 
 							<xs:complexType>
 							    <xs:sequence>
-								<xs:element name="controlFactorName" type="FactorName" minOccurs = "1" maxOccurs = "1">
+								<xs:element name="controlFactorName" type="ControlFactorName" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The name of the control factor or variable. 
+									    The name of the control factor that has been measured or observed 
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -726,52 +726,18 @@
 								<xs:element name="controlFactorModus" type="ControlFactorModus" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The modus of the control factor or the variable (manipulated, observed)
+									    The modus of the control factor. It can be manipulated or observed
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="controlFactorDependency" type="ControlFactorDependency" minOccurs="1" maxOccurs="1">
+								<xs:element name="controlFactorEnvironmentalDependency" type="ControlFactorEnvironmentalDependency" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    Captures the degree of spatial dependency of the factor: independent, partial dependent, fully dependent.
+									    Captures the degree of the environmental dependency of the factor: independent, partial dependent, fully dependent.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
-								<!-- <xs:complexType> -->
-								    <!-- <xs:sequence> -->
-									<!-- <xs:element name="controlFactorDependencyItem" minOccurs="1" maxOccurs="unbounded"> -->
-									    <!-- <xs:annotation> -->
-										<!-- <xs:documentation xml:lang="en"> -->
-										    <!-- The item captures the type of dependency of the factor -->
-										    <!-- </xs:documentation> -->
-										<!-- </xs:annotation> -->
-
-									    <!-- <xs:complexType> -->
-										<!-- <xs:sequence> -->
-
-										    <!-- <xs:element name="ControlFactorDependency" type="xs:string" minOccurs="1" maxOccurs="1"> -->
-											<!-- <xs:annotation> -->
-											    <!-- <xs:documentation xml:lang="en"> -->
-												<!-- The type of dependency e.g. spatial dependency -->
-												<!-- </xs:documentation> -->
-											    <!-- </xs:annotation> -->
-											<!-- </xs:element> -->
-
-										    <!-- <xs:element name="controlFactorDependencyDegree" type="ControlFactorDependency" minOccurs="1" maxOccurs="1"> -->
-											<!-- <xs:annotation> -->
-											    <!-- <xs:documentation xml:lang="en"> -->
-												<!-- Captures the degree of dependency: independent, partial dependent, fully dependent -->
-												<!-- </xs:documentation> -->
-											    <!-- </xs:annotation> -->
-											<!-- </xs:element> -->
-
-										    <!-- </xs:sequence> -->
-										<!-- </xs:complexType> -->
-									    <!-- </xs:element> -->
-									<!-- </xs:sequence> -->
-								    <!-- </xs:complexType> -->
 
 							    </xs:sequence>
 							</xs:complexType>
@@ -2305,82 +2271,80 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="FactorName">
+    <xs:simpleType name="ControlFactorName">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Species Composition"/>
-	    <xs:enumeration value="Species Diversity"/>
-	    <xs:enumeration value="Species Eveness"/>
-	    <xs:enumeration value="Species Richness"/>
-	    <xs:enumeration value="Occurance"/>
-	    <xs:enumeration value="Living Status"/>
-	    <xs:enumeration value="Abundance"/>
-	    <xs:enumeration value="Diameter"/>
-	    <xs:enumeration value="Weight"/>
-	    <xs:enumeration value="Height"/>
-	    <xs:enumeration value="Quantity"/>
-	    <xs:enumeration value="Density"/>
-	    <xs:enumeration value="Occurance"/>
-	    <xs:enumeration value="Living Status"/>
-	    <xs:enumeration value="Abundance"/>
-	    <xs:enumeration value="Tolerance"/>
-	    <xs:enumeration value="Functional Richness"/>
-	    <xs:enumeration value="Functional Diversity"/>
-	    <xs:enumeration value="Genetic Diversity"/>
-	    <xs:enumeration value="Genetic Manipulation"/>
-	    <xs:enumeration value="Phylogenetic Distictness"/>
-	    <xs:enumeration value="Phylogenetic Distance"/>
-	    <xs:enumeration value="Phylogentic Diversity"/>
-	    <xs:enumeration value="Community Structure"/>
-	    <xs:enumeration value="community Dynamics"/>
-	    <xs:enumeration value="Cation Exchange"/>
-	    <xs:enumeration value="Chemical Diversity"/>
-	    <xs:enumeration value="Chemical Composition"/>
-	    <xs:enumeration value="Chemical Activity"/>
-	    <xs:enumeration value="Nutrient"/>
-	    <xs:enumeration value="PH"/>
-	    <xs:enumeration value="Xenobiotics"/>
-	    <xs:enumeration value="Intensity"/>
-	    <xs:enumeration value="Absorbance"/>
-	    <xs:enumeration value="Reflectance"/>
-	    <xs:enumeration value="Radiance"/>
-	    <xs:enumeration value="Irradiance"/>
-	    <xs:enumeration value="Photosyntetic Active Radiation"/>
-	    <xs:enumeration value="Soil Depth"/>
-	    <xs:enumeration value="Soil Colour"/>
-	    <xs:enumeration value="Organic Matter"/>
-	    <xs:enumeration value="Moisture"/>
-	    <xs:enumeration value="Structure"/>
-	    <xs:enumeration value="Root Intensity"/>
-	    <xs:enumeration value="Soil Base"/>
-	    <xs:enumeration value="Soil Temperature"/>
-	    <xs:enumeration value="Grain Size"/>
-	    <xs:enumeration value="Air Temperatur"/>
-	    <xs:enumeration value="Wind Direction"/>
-	    <xs:enumeration value="Wind Speed"/>
-	    <xs:enumeration value="Air Pressure"/>
-	    <xs:enumeration value="Precipitation"/>
-	    <xs:enumeration value="Evaporation"/>
-	    <xs:enumeration value="Ground Water Flow"/>
-	    <xs:enumeration value="Surface Run Off"/>
-	    <xs:enumeration value="Sublimation"/>
-	    <xs:enumeration value="Humitity"/>
-	    <xs:enumeration value="Vapour Pressure"/>
-	    <xs:enumeration value="Scale"/>
-	    <xs:enumeration value="Spatial Context"/>
-	    <xs:enumeration value="Distance"/>
-	    <xs:enumeration value="Harvest"/>
-	    <xs:enumeration value="Consumption"/>
-	    <xs:enumeration value="Pathogen"/>
-	    <xs:enumeration value="Fire"/>
-	    <xs:enumeration value="Wind"/>
-	    <xs:enumeration value="Abiotic Stress"/>
-	    <xs:enumeration value="Stress Tolerance"/>
-	    <xs:enumeration value="Identifications"/>
-	    <xs:enumeration value="Names"/>
-	    <xs:enumeration value="Elevation"/>
-	    <xs:enumeration value="Inclination"/>
-	    <xs:enumeration value="Exposition"/>
-	    <xs:enumeration value="Aspect"/>
+		<xs:enumeration  value="Species Composition"/>
+		<xs:enumeration  value="Species Diversity"/>
+		<xs:enumeration  value="Species Evenness"/>
+		<xs:enumeration  value="Species Richness"/>
+		<xs:enumeration  value="Occurrence"/>
+		<xs:enumeration  value="Living Status"/>
+		<xs:enumeration  value="Abundance"/>
+		<xs:enumeration  value="Diameter"/>
+		<xs:enumeration  value="Weight"/>
+		<xs:enumeration  value="Height"/>
+		<xs:enumeration  value="Quantity"/>
+		<xs:enumeration  value="Density"/>
+		<xs:enumeration  value="Occurrence"/>
+		<xs:enumeration  value="Living Status"/>
+		<xs:enumeration  value="Functional Richness"/>
+		<xs:enumeration  value="Functional Diversity"/>
+		<xs:enumeration  value="Genetic Diversity"/>
+		<xs:enumeration  value="Genetic Manipulation"/>
+		<xs:enumeration  value="Phylogenetic Distinctness"/>
+		<xs:enumeration  value="Phylogenetic Distance"/>
+		<xs:enumeration  value="Phylogenetic Diversity"/>
+		<xs:enumeration  value="Community Structure"/>
+		<xs:enumeration  value="Community Dynamics"/>
+		<xs:enumeration  value="Cation Exchange"/>
+		<xs:enumeration  value="Chemical Diversity"/>
+		<xs:enumeration  value="Chemical Composition"/>
+		<xs:enumeration  value="Chemical Activity"/>
+		<xs:enumeration  value="Nutrients"/>
+		<xs:enumeration  value="Soil pH"/>
+		<xs:enumeration  value="Intensity"/>
+		<xs:enumeration  value="Absorbance"/>
+		<xs:enumeration  value="Reflectance"/>
+		<xs:enumeration  value="Radiance"/>
+		<xs:enumeration  value="Irradiance"/>
+		<xs:enumeration  value="Photosynthetically Active Radiation"/>
+		<xs:enumeration  value="Soil Depth"/>
+		<xs:enumeration  value="Soil Colour"/>
+		<xs:enumeration  value="Organic Matter"/>
+		<xs:enumeration  value="Moisture"/>
+		<xs:enumeration  value="Structure"/>
+		<xs:enumeration  value="Root Intensity"/>
+		<xs:enumeration  value="Soil Base"/>
+		<xs:enumeration  value="Soil Temperature"/>
+		<xs:enumeration  value="Grain Size"/>
+		<xs:enumeration  value="Air Temperature"/>
+		<xs:enumeration  value="Wind Direction"/>
+		<xs:enumeration  value="Wind Speed"/>
+		<xs:enumeration  value="Air Pressure"/>
+		<xs:enumeration  value="Precipitation"/>
+		<xs:enumeration  value="Evaporation"/>
+		<xs:enumeration  value="Groundwater Flow"/>
+		<xs:enumeration  value="Surface Runoff"/>
+		<xs:enumeration  value="Sublimation"/>
+		<xs:enumeration  value="Humidity"/>
+		<xs:enumeration  value="Vapour Pressure"/>
+		<xs:enumeration  value="Spatial Context"/>
+		<xs:enumeration  value="Distance"/>
+		<xs:enumeration  value="Temporal Context"/>
+		<xs:enumeration  value="Age"/>
+		<xs:enumeration  value="Frequency"/>
+		<xs:enumeration  value="Disturbance"/>
+		<xs:enumeration  value="Harvest"/>
+		<xs:enumeration  value="Consumption"/>
+		<xs:enumeration  value="Pathogen"/>
+		<xs:enumeration  value="Fire Disturbance"/>
+		<xs:enumeration  value="Wind Disturbance"/>
+		<xs:enumeration  value="Abiotic Stress"/>
+		<xs:enumeration  value="Stress Tolerance"/>
+		<xs:enumeration  value="Elevation"/>
+		<xs:enumeration  value="Inclination/Slope"/>
+		<xs:enumeration  value="Exposition"/>
+		<xs:enumeration  value="Aspect"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -2925,7 +2889,7 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="ControlFactorDependency">
+    <xs:simpleType name="ControlFactorEnvironmentalDependency">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Independent">
 		<xs:annotation>
