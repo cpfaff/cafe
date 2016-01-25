@@ -2078,7 +2078,9 @@
 		    <xs:documentation xml:lang="en">
 			Emergent aquatic plants (vascular and non-vascular) are
 			rooted or attacached and their leaves and stems extend
-			out of the water surface.
+			out of the water surface (Alberta conservation
+			information management system ecological community
+			tracking, modified)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2088,7 +2090,9 @@
 			Rooted or attached aquatic plants (vascular and
 			non-vascular) with uppermost leaves floating on the water
 			surface. Flowers and flowering structures may be emergent
-			above or floating on the water surface.
+			above or floating on the water surface (Alberta conservation
+			information management system ecological community
+			tracking).
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2099,7 +2103,9 @@
 			Rooted or attached aquatic plants (vascular and
 			non-vascular) with uppermost leaves submerged below the
 			water surface. Flowers and flowering structures may be
-			emergent above or floating on the water surface.
+			emergent above or floating on the water surface
+			(Alberta conservation information management system
+			ecological community tracking)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
