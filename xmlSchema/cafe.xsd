@@ -2126,6 +2126,14 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
+	    <xs:enumeration value="Aquatic Desert">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Non or sparsely vegetated
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 
 	    <!-- extension  -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
