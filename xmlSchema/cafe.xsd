@@ -2061,7 +2061,7 @@
 	    <xs:enumeration value="Evergreen Needleleaf"/>
 	    <xs:enumeration value="Evergreen Broadleaf"/>
 	    <xs:enumeration value="Decidious Broadleaf"/>
-	    <xs:enumeration value="Mixed"/>
+	    <xs:enumeration value="Mixed Forest"/>
 	    <!-- open woodland -->
 	    <xs:enumeration value="Savannah"/>
 	    <xs:enumeration value="Woody Savannah"/>
@@ -2072,32 +2072,13 @@
 	    <xs:enumeration value="Grassland"/>
 	    <!-- barren land -->
 	    <xs:enumeration value="Dessert"/>
-	    <!-- lake systems -->
-	    <xs:enumeration value="Epilimnion"/>
-	    <xs:enumeration value="Metalimnion"/>
-	    <xs:enumeration value="Hypolimnion"/>
-	    <!-- river systems -->
-	    <xs:enumeration value="Crenon"/>
-	    <xs:enumeration value="Rhitron"/>
-	    <xs:enumeration value="Potamon"/>
-	    <!-- marine systems -->
-	    <xs:enumeration value="Littoral Zone"/>
-	    <xs:enumeration value="Intertidal Zone"/>
-	    <xs:enumeration value="Estuary"/>
-	    <xs:enumeration value="Kelp Forest"/>
-	    <xs:enumeration value="Coral Reef"/>
-	    <xs:enumeration value="Ocean Bank"/>
-	    <xs:enumeration value="Continental Shelf"/>
-	    <xs:enumeration value="Neritic Zone"/>
-	    <xs:enumeration value="Strait"/>
-	    <xs:enumeration value="Pelagic Zone"/>
-	    <xs:enumeration value="Oceanic Zone"/>
-	    <xs:enumeration value="Seamount"/>
-	    <xs:enumeration value="Hydrothermal Vent"/>
-	    <xs:enumeration value="Cold Seep"/>
-	    <xs:enumeration value="Demersal Zone"/>
-	    <xs:enumeration value="Benthic Zone"/>
+	    <!-- aquatic systems -->
+	    <xs:enumeration value="Emergent Aquatic">
+	    <xs:enumeration value="Floating-leaved Aquatic">
+	    <xs:enumeration value="Submergent Aquatic">
+	    <!-- extendable  -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+
 	</xs:restriction>
     </xs:simpleType>
 
@@ -2255,6 +2236,38 @@
 	    <!-- Lithosphere Layer -->
 	    <xs:enumeration value="Crust"/>
 	    <xs:enumeration value="Upper Mantle"/>
+
+	    <!-- hydrosphere layer -->
+
+	    <!-- lake systems -->
+	    <xs:enumeration value="Epilimnion"/>
+	    <xs:enumeration value="Metalimnion"/>
+	    <xs:enumeration value="Hypolimnion"/>
+
+	    <!-- river systems -->
+	    <xs:enumeration value="Crenon"/>
+	    <xs:enumeration value="Rhitron"/>
+	    <xs:enumeration value="Potamon"/>
+
+	    <!-- marine systems -->
+	    <xs:enumeration value="Littoral Zone"/>
+	    <xs:enumeration value="Intertidal Zone"/>
+	    <xs:enumeration value="Pelagic Zone"/>
+	    <xs:enumeration value="Oceanic Zone"/>
+	    <xs:enumeration value="Demersal Zone"/>
+	    <xs:enumeration value="Benthic Zone"/>
+	    <xs:enumeration value="Neritic Zone"/>
+
+	    <xs:enumeration value="Estuary"/>
+	    <xs:enumeration value="Ocean Bank"/>
+	    <xs:enumeration value="Continental Shelf"/>
+	    <xs:enumeration value="Strait"/>
+	    <xs:enumeration value="Seamount"/>
+	    <xs:enumeration value="Hydrothermal Vent"/>
+	    <xs:enumeration value="Cold Seep"/>
+	    <xs:enumeration value="Kelp Forest"/>
+	    <xs:enumeration value="Coral Reef"/>
+	    <!-- extensible -->
 
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
