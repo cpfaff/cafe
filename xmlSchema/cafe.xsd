@@ -907,7 +907,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="biomeZone" type="BiomeZone" minOccurs="1" maxOccurs="1">
+								<xs:element name="biomeZonation" type="BiomeZoneation" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The biome zone caputres the latitudinal zone e.g. polar, boreal, temperate
@@ -2164,7 +2164,7 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="BiomeZone">
+    <xs:simpleType name="BiomeZoneation">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Polar"/>
 	    <xs:enumeration value="Boreal"/>
