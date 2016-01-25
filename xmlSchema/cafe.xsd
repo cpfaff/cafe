@@ -2002,7 +2002,6 @@
 	    <xs:enumeration value="Micro Fauna"/>
 	    <xs:enumeration value="Meso Fauna"/>
 	    <xs:enumeration value="Macro Fauna"/>
-	    <xs:enumeration value="Mega Fauna"/>
 
 	    <!-- mycota -->
 	    <xs:enumeration value="Micro Mycota"/>
@@ -2010,18 +2009,19 @@
 
 	    <!-- general -->
 	    <xs:enumeration value="Micro Organism"/>
+	    <xs:enumeration value="Meso Organism"/>
+	    <xs:enumeration value="Macro Organism"/>
+
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="LifeFormClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Archae"/>
-	    <xs:enumeration value="Bacteria"/>
-	    <xs:enumeration value="Plant"/>
-	    <xs:enumeration value="Animal"/>
-	    <xs:enumeration value="Fungi"/>
-	    <xs:enumeration value="Protist"/>
-	    <xs:enumeration value="Virus"/>
+	    <xs:enumeration value="Plant Life Form"/>
+	    <xs:enumeration value="Animal Life Form"/>
+	    <xs:enumeration value="Microorganism Life Form"/>
+	    <xs:enumeration value="Mycotal Life Form"/>
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
 
