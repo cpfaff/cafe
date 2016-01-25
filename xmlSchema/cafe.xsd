@@ -2074,8 +2074,36 @@
 	    <xs:enumeration value="Dessert"/>
 	    <!-- aquatic systems -->
 	    <xs:enumeration value="Emergent Aquatic">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Emergent aquatic plants (vascular and non-vascular) are
+			rooted or attacached and their leaves and stems extend
+			out of the water surface.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 	    <xs:enumeration value="Floating-leaved Aquatic">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Rooted or attached aquatic plants (vascular and
+			non-vascular) with uppermost leaves floating on the water
+			surface. Flowers and flowering structures may be emergent
+			above or floating on the water surface.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	    <xs:enumeration value="Submergent Aquatic">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Rooted or attached aquatic plants (vascular and
+			non-vascular) with uppermost leaves submerged below the
+			water surface. Flowers and flowering structures may be
+			emergent above or floating on the water surface.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	    <!-- extendable  -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 
