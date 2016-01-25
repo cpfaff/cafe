@@ -2117,6 +2117,16 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
+	    <xs:enumeration value="Floating Aquatic">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Non rooted or attached aquatic plants (vascular and
+			non-vascular) 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+
 	    <!-- extension  -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 
