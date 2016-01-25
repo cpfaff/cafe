@@ -896,7 +896,7 @@
 
 							<xs:complexType>
 							    <xs:sequence>
-								<xs:element name="biomeName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+								<!-- <xs:element name="biomeName" type="xs:string" minOccurs="0" maxOccurs="1"/> -->
 								<xs:element name="biomeType" type="BiomeType"  minOccurs="1" maxOccurs="1">
 								    <!-- biome type is not a good word -->
 								    <xs:annotation>
@@ -925,12 +925,11 @@
 								    </xs:annotation>
 								</xs:element>
 
-
 								<xs:element name="biomeWater" type="BiomeWater" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The biome zone caputres the latitudinal zone e.g. polar, boreal, temperate
-									    subtropical, tropical
+									    The water availablility is captured here. This can take the values 
+									    Arid, Semi Arid, Semi Humid, Humid. 
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
