@@ -307,7 +307,6 @@
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
@@ -1450,7 +1449,7 @@
 						    <xs:element name="processName" type="ProcessName" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The process name covers a free specified process name 
+								The process name fields covers the process name. 
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
@@ -1458,12 +1457,20 @@
 						    <xs:element name="processClass" type="ProcessClass" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The process name covers the name of the process 
+								The process class covers the general character of the process. It 
+								can be interaction, transformation or transport.
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
 
-						    <xs:element name="processType" type="ProcessType" minOccurs="1" maxOccurs="1"/>
+						    <xs:element name="processType" type="ProcessType" minOccurs="0" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation xml:lang="en">
+								The process type covers a more detailed classification of the process. 
+								It goes hand in hand with the process class.
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
 
 						</xs:sequence>
 					    </xs:complexType>
@@ -2110,7 +2117,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <!-- extendable  -->
+	    <!-- extension  -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 
 	</xs:restriction>
@@ -2301,8 +2308,8 @@
 	    <xs:enumeration value="Cold Seep"/>
 	    <xs:enumeration value="Kelp Forest"/>
 	    <xs:enumeration value="Coral Reef"/>
-	    <!-- extensible -->
 
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
