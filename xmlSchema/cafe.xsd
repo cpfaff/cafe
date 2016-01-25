@@ -809,31 +809,32 @@
 				</xs:complexType>
 			    </xs:element>
 
-			    <xs:element name="layerCoverage" minOccurs="0" maxOccurs="1">
+			    <xs:element name="zoneCoverage" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
-					<xs:element name="layerRange" minOccurs="1" maxOccurs="1">
+					<xs:element name="zoneRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The sub sphere range captures a the range of sub sphere items with name.
+						    The zone range captures a range of spheres, zones and layers under 
+						    the main spheres selected in the annotation.
 						</xs:documentation>
 					    </xs:annotation>
 
 					    <xs:complexType>
 						<xs:sequence>
-						    <xs:element name="layerItem" minOccurs="1" maxOccurs="unbounded">
+						    <xs:element name="zoneItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The sub sphere item captures a sphere item by name.
+								The zone item captures a sphere, zone or layer item by name.
 							    </xs:documentation>
 							</xs:annotation>
 
 							<xs:complexType>
 							    <xs:sequence>
-								<xs:element name="layerName" type="LayerName" minOccurs="1" maxOccurs="1">
+								<xs:element name="zoneName" type="ZoneName" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The sub sphere name captures a sphere by name.
+									    The zone name captures a sphere, zone or layer item by name.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -2228,7 +2229,7 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="LayerName">
+    <xs:simpleType name="ZoneName">
 	<xs:restriction base="xs:string">
 	    <!-- phytosphere -->
 	    <!-- vegetation layer -->
