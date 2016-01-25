@@ -916,6 +916,16 @@
 								    </xs:annotation>
 								</xs:element>
 
+								<xs:element name="biomeHemisphere" type="BiomeHemisphere" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    This captures the hemisphere the biome is in. This can take the 
+									    values Northern or Southern.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+
 								<xs:element name="biomeWater" type="BiomeWater" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -2120,6 +2130,13 @@
 	    <xs:enumeration value="Temperate"/>
 	    <xs:enumeration value="Subtropical"/>
 	    <xs:enumeration value="Tropical"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="BiomeHemisphere">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="Northern"/>
+	    <xs:enumeration value="Southern"/>
 	</xs:restriction>
     </xs:simpleType>
 
