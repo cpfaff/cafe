@@ -1694,7 +1694,7 @@
 	    <xs:enumeration value="Ununseptium"/>
 	    <xs:enumeration value="Ununoctium"/>
 	</xs:restriction>
-    </xs:simpletype>
+    </xs:simpleType>
 
     <xs:simpleType name="IsotopeName">
 	<xs:restriction base="xs:string">
@@ -2155,11 +2155,12 @@
 	    <!-- biosphere -->
 	    <xs:enumeration value="Zoosphere"/>
 	    <xs:enumeration value="Phytosphere"/>
-	    <xs:enumeration value="Rhizosphere"/>
 
 	    <!-- hydrosphere -->
 	    <xs:enumeration value="Oceanosphere"/>
 	    <xs:enumeration value="Limnosphere"/>
+
+	    <!-- water and frozen soil -->
 	    <xs:enumeration value="Cryosphere"/>
 
 	    <!-- atmosphere -->
@@ -2170,10 +2171,10 @@
 	</xs:restriction>
     </xs:simpleType>
 
-
     <xs:simpleType name="LayerName">
 	<xs:restriction base="xs:string">
 	    <!-- phytosphere -->
+	    <!-- vegetation layer -->
 	    <xs:enumeration value="Emergent Layer"/>
 	    <xs:enumeration value="Canopy Layer"/>
 	    <xs:enumeration value="Tree Layer"/>
@@ -2184,15 +2185,48 @@
 	    <xs:enumeration value="Litter Layer"/>
 
 	    <!-- pedosphere -->
-	    <xs:enumeration value="Soil With Thick Organic Layer"/>
-	    <xs:enumeration value="Soil With Strong Human Influence "/>
-	    <xs:enumeration value="Soil With Limitation to Root Growth "/>
-	    <xs:enumeration value="Soil Distinguished by Fe Al Chemicstry "/>
-	    <xs:enumeration value="Soil With Pronounced Accumulation of Organic Matter in Mineral Topsoil"/>
-	    <xs:enumeration value="Soil With Accumulation of Moderately Soluble Salts or non Saline Substances"/>
-	    <xs:enumeration value="Soil With Clay Enriched Subsoil"/>
-	    <xs:enumeration value="Soil With Little or no Profile Orientation"/>
 
+	    <!-- Soils with thick organic layers -->
+	    <xs:enumeration value="Histosol"/>
+	    <!-- Soils with strong human influence -->
+	    <xs:enumeration value="Anthrosol"/>
+	    <xs:enumeration value="Technosol"/>
+	    <!-- Soils with limitations to root growth -->
+	    <xs:enumeration value="Cryosol"/>
+	    <xs:enumeration value="Leptosol"/>
+	    <xs:enumeration value="Vertisol"/>
+	    <xs:enumeration value="Solonetz"/>
+	    <xs:enumeration value="Solonchak"/>
+	    <!-- Soils distinguished by Fe/Al chemistry -->
+	    <xs:enumeration value="Gleysol"/>
+	    <xs:enumeration value="Andosol"/>
+	    <xs:enumeration value="Podzol"/>
+	    <xs:enumeration value="Plinthosol"/>
+	    <xs:enumeration value="Nitisol"/>
+	    <xs:enumeration value="Ferralsol"/>
+	    <xs:enumeration value="Planosol"/>
+	    <xs:enumeration value="Stagnosol"/>
+	    <!-- Pronounced accumulation of organic matter in the mineral topsoil -->
+	    <xs:enumeration value="Chernozem"/>
+	    <xs:enumeration value="Kastanozem"/>
+	    <xs:enumeration value="Phaeozem"/>
+	    <xs:enumeration value="Umbrisol"/>
+	    <!-- Accumulation of moderately soluble salts or non-saline substances -->
+	    <xs:enumeration value="Gypsisol"/>
+	    <xs:enumeration value="Durisol"/>
+	    <xs:enumeration value="Calcisol"/>
+	    <!-- Soils with a clay-enriched subsoil -->
+	    <xs:enumeration value="Retisol"/>
+	    <xs:enumeration value="Acrisol"/>
+	    <xs:enumeration value="Lixisol"/>
+	    <xs:enumeration value="Alisol"/>
+	    <xs:enumeration value="Luvisol"/>
+	    <!-- Soils with little or no profile differentiation -->
+	    <xs:enumeration value="Arenosol"/>
+	    <xs:enumeration value="Cambisol"/>
+	    <xs:enumeration value="Fluvisol"/>
+	    <xs:enumeration value="Regosol"/>
+	    <!-- Soil Horizon -->
 	    <xs:enumeration value="O Horizon"/>
 	    <xs:enumeration value="A Horizon"/>
 	    <xs:enumeration value="E Horizon"/>
@@ -2201,7 +2235,7 @@
 	    <xs:enumeration value="R Horizon"/>
 	    <xs:enumeration value="L Horizon"/>
 
-	    <!-- lithosphere -->
+	    <!-- Lithosphere Layer -->
 	    <xs:enumeration value="Crust"/>
 	    <xs:enumeration value="Upper Mantle"/>
 
@@ -2273,78 +2307,78 @@
 
     <xs:simpleType name="ControlFactorName">
 	<xs:restriction base="xs:string">
-		<xs:enumeration  value="Species Composition"/>
-		<xs:enumeration  value="Species Diversity"/>
-		<xs:enumeration  value="Species Evenness"/>
-		<xs:enumeration  value="Species Richness"/>
-		<xs:enumeration  value="Occurrence"/>
-		<xs:enumeration  value="Living Status"/>
-		<xs:enumeration  value="Abundance"/>
-		<xs:enumeration  value="Diameter"/>
-		<xs:enumeration  value="Weight"/>
-		<xs:enumeration  value="Height"/>
-		<xs:enumeration  value="Quantity"/>
-		<xs:enumeration  value="Density"/>
-		<xs:enumeration  value="Occurrence"/>
-		<xs:enumeration  value="Living Status"/>
-		<xs:enumeration  value="Functional Richness"/>
-		<xs:enumeration  value="Functional Diversity"/>
-		<xs:enumeration  value="Genetic Diversity"/>
-		<xs:enumeration  value="Genetic Manipulation"/>
-		<xs:enumeration  value="Phylogenetic Distinctness"/>
-		<xs:enumeration  value="Phylogenetic Distance"/>
-		<xs:enumeration  value="Phylogenetic Diversity"/>
-		<xs:enumeration  value="Community Structure"/>
-		<xs:enumeration  value="Community Dynamics"/>
-		<xs:enumeration  value="Cation Exchange"/>
-		<xs:enumeration  value="Chemical Diversity"/>
-		<xs:enumeration  value="Chemical Composition"/>
-		<xs:enumeration  value="Chemical Activity"/>
-		<xs:enumeration  value="Nutrients"/>
-		<xs:enumeration  value="Soil pH"/>
-		<xs:enumeration  value="Intensity"/>
-		<xs:enumeration  value="Absorbance"/>
-		<xs:enumeration  value="Reflectance"/>
-		<xs:enumeration  value="Radiance"/>
-		<xs:enumeration  value="Irradiance"/>
-		<xs:enumeration  value="Photosynthetically Active Radiation"/>
-		<xs:enumeration  value="Soil Depth"/>
-		<xs:enumeration  value="Soil Colour"/>
-		<xs:enumeration  value="Organic Matter"/>
-		<xs:enumeration  value="Moisture"/>
-		<xs:enumeration  value="Structure"/>
-		<xs:enumeration  value="Root Intensity"/>
-		<xs:enumeration  value="Soil Base"/>
-		<xs:enumeration  value="Soil Temperature"/>
-		<xs:enumeration  value="Grain Size"/>
-		<xs:enumeration  value="Air Temperature"/>
-		<xs:enumeration  value="Wind Direction"/>
-		<xs:enumeration  value="Wind Speed"/>
-		<xs:enumeration  value="Air Pressure"/>
-		<xs:enumeration  value="Precipitation"/>
-		<xs:enumeration  value="Evaporation"/>
-		<xs:enumeration  value="Groundwater Flow"/>
-		<xs:enumeration  value="Surface Runoff"/>
-		<xs:enumeration  value="Sublimation"/>
-		<xs:enumeration  value="Humidity"/>
-		<xs:enumeration  value="Vapour Pressure"/>
-		<xs:enumeration  value="Spatial Context"/>
-		<xs:enumeration  value="Distance"/>
-		<xs:enumeration  value="Temporal Context"/>
-		<xs:enumeration  value="Age"/>
-		<xs:enumeration  value="Frequency"/>
-		<xs:enumeration  value="Disturbance"/>
-		<xs:enumeration  value="Harvest"/>
-		<xs:enumeration  value="Consumption"/>
-		<xs:enumeration  value="Pathogen"/>
-		<xs:enumeration  value="Fire Disturbance"/>
-		<xs:enumeration  value="Wind Disturbance"/>
-		<xs:enumeration  value="Abiotic Stress"/>
-		<xs:enumeration  value="Stress Tolerance"/>
-		<xs:enumeration  value="Elevation"/>
-		<xs:enumeration  value="Inclination/Slope"/>
-		<xs:enumeration  value="Exposition"/>
-		<xs:enumeration  value="Aspect"/>
+	    <xs:enumeration  value="Species Composition"/>
+	    <xs:enumeration  value="Species Diversity"/>
+	    <xs:enumeration  value="Species Evenness"/>
+	    <xs:enumeration  value="Species Richness"/>
+	    <xs:enumeration  value="Occurrence"/>
+	    <xs:enumeration  value="Living Status"/>
+	    <xs:enumeration  value="Abundance"/>
+	    <xs:enumeration  value="Diameter"/>
+	    <xs:enumeration  value="Weight"/>
+	    <xs:enumeration  value="Height"/>
+	    <xs:enumeration  value="Quantity"/>
+	    <xs:enumeration  value="Density"/>
+	    <xs:enumeration  value="Occurrence"/>
+	    <xs:enumeration  value="Living Status"/>
+	    <xs:enumeration  value="Functional Richness"/>
+	    <xs:enumeration  value="Functional Diversity"/>
+	    <xs:enumeration  value="Genetic Diversity"/>
+	    <xs:enumeration  value="Genetic Manipulation"/>
+	    <xs:enumeration  value="Phylogenetic Distinctness"/>
+	    <xs:enumeration  value="Phylogenetic Distance"/>
+	    <xs:enumeration  value="Phylogenetic Diversity"/>
+	    <xs:enumeration  value="Community Structure"/>
+	    <xs:enumeration  value="Community Dynamics"/>
+	    <xs:enumeration  value="Cation Exchange"/>
+	    <xs:enumeration  value="Chemical Diversity"/>
+	    <xs:enumeration  value="Chemical Composition"/>
+	    <xs:enumeration  value="Chemical Activity"/>
+	    <xs:enumeration  value="Nutrients"/>
+	    <xs:enumeration  value="Soil pH"/>
+	    <xs:enumeration  value="Intensity"/>
+	    <xs:enumeration  value="Absorbance"/>
+	    <xs:enumeration  value="Reflectance"/>
+	    <xs:enumeration  value="Radiance"/>
+	    <xs:enumeration  value="Irradiance"/>
+	    <xs:enumeration  value="Photosynthetically Active Radiation"/>
+	    <xs:enumeration  value="Soil Depth"/>
+	    <xs:enumeration  value="Soil Colour"/>
+	    <xs:enumeration  value="Organic Matter"/>
+	    <xs:enumeration  value="Moisture"/>
+	    <xs:enumeration  value="Structure"/>
+	    <xs:enumeration  value="Root Intensity"/>
+	    <xs:enumeration  value="Soil Base"/>
+	    <xs:enumeration  value="Soil Temperature"/>
+	    <xs:enumeration  value="Grain Size"/>
+	    <xs:enumeration  value="Air Temperature"/>
+	    <xs:enumeration  value="Wind Direction"/>
+	    <xs:enumeration  value="Wind Speed"/>
+	    <xs:enumeration  value="Air Pressure"/>
+	    <xs:enumeration  value="Precipitation"/>
+	    <xs:enumeration  value="Evaporation"/>
+	    <xs:enumeration  value="Groundwater Flow"/>
+	    <xs:enumeration  value="Surface Runoff"/>
+	    <xs:enumeration  value="Sublimation"/>
+	    <xs:enumeration  value="Humidity"/>
+	    <xs:enumeration  value="Vapour Pressure"/>
+	    <xs:enumeration  value="Spatial Context"/>
+	    <xs:enumeration  value="Distance"/>
+	    <xs:enumeration  value="Temporal Context"/>
+	    <xs:enumeration  value="Age"/>
+	    <xs:enumeration  value="Frequency"/>
+	    <xs:enumeration  value="Disturbance"/>
+	    <xs:enumeration  value="Harvest"/>
+	    <xs:enumeration  value="Consumption"/>
+	    <xs:enumeration  value="Pathogen"/>
+	    <xs:enumeration  value="Fire Disturbance"/>
+	    <xs:enumeration  value="Wind Disturbance"/>
+	    <xs:enumeration  value="Abiotic Stress"/>
+	    <xs:enumeration  value="Stress Tolerance"/>
+	    <xs:enumeration  value="Elevation"/>
+	    <xs:enumeration  value="Inclination/Slope"/>
+	    <xs:enumeration  value="Exposition"/>
+	    <xs:enumeration  value="Aspect"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -2362,7 +2396,7 @@
 	    <xs:enumeration value="Year"/>
 	    <xs:enumeration value="Decade"/>
 	    <xs:enumeration value="Century"/>
-	    <xs:enumeration value="Millenium">
+	    <xs:enumeration value="Millenium"/>
 	</xs:restriction>
     </xs:simpleType>
 
@@ -2837,7 +2871,7 @@
 	    <xs:enumeration value = "Antarctica"/>
 	    <xs:pattern value="[a-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
-    </xs:simpletype>
+    </xs:simpleType>
 
     <xs:simpleType name="SpatialType">
 	<xs:restriction base="xs:string">
@@ -2960,7 +2994,6 @@
 	    </xs:element>
 	</xs:sequence>
     </xs:complexType>
-
 
     <xs:complexType name="OrganismName">
     <!-- cite abcd -->
