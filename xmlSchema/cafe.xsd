@@ -2060,7 +2060,7 @@
 	    <!-- forest -->
 	    <xs:enumeration value="Evergreen Needleleaf"/>
 	    <xs:enumeration value="Evergreen Broadleaf"/>
-	    <xs:enumeration value="Decidious Broadleaf"/>
+	    <xs:enumeration value="Deciduous Broadleaf"/>
 	    <xs:enumeration value="Mixed Forest"/>
 	    <!-- open woodland -->
 	    <xs:enumeration value="Savannah"/>
