@@ -1,0 +1,62 @@
+Adaptation
+Speciation
+Extinction
+Birth
+Growth
+Death
+Migration
+Competition
+Facilitation
+Consumption
+Communication
+Assimilation
+Dissimilation
+Carbon Cycle
+Nutrient Cycle
+Water Cycle
+Energy Exchange
+Demography
+Evolution
+Disruption
+Natural Disturbance
+Land Use Change
+Climate Change
+Pollution
+Invasion
+Erosion
+Deposition
+Succession
+Photosyntheses
+
+
+Process Category
+	Transport Process
+		Uptake
+		Release
+		Exchange
+		Movement
+	Transformation Process
+		Removal
+		Addition
+		Increase
+		Decrease
+		Transition
+		Conversion
+	Interaction Process
+		Biotic Interaction
+		Abiotic Interaction
+	Service Process
+		Supporting Service
+		Provisioning Service
+		Regulating Service
+		Cultural Service
+
+Interaction Partners
+	Animalia
+	Plantae
+	Protista
+	Eubacteria
+	Archaebacteria
+	Mycota
+	Viruses
+

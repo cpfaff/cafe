@@ -1,0 +1,223 @@
+Author: Claas-Thido Pfaff and the Ecological Vocabulary Development Group
+	formed by members of the GFBio project.
+
+Revising Experts:
+
+* None
+
+Changelog:
+
+2015-01-15
+
+* Updates a few descriptions
+* Updates to new metadata schema
+
+Notes:
+
+2015-01-15
+
+* Needs some more descriptions, citations, links
+* Needs multiple language strings
+
+The Litosphere part has been fixed on 2015-01-15T14:17:07 and would be ready for consolidation by the
+project partners. It has been removed to the folder "for_review" DO NOT CHANGE THIS FILE!
+
+Spheres
+	o abb:
+	o syn:
+	o imp:
+	o des: Spheres represent a multidimensional space that makes up distinguishable layers of a planet
+	o std:
+	o lan:
+	o src:
+	o lit:
+	o mat:
+
+	Lithosphere
+		o abb:
+		o syn:
+		o imp:
+		o des: The lithosphere is the rigid, outermost shell of a rocky planet (WP)
+		o std:
+		o lan:
+		o src: http://bit.ly/1ua1k3L (WP), http://bit.ly/1sAMxcR (PHYGEO)
+		o lit:
+		o mat:
+
+		Lithosphere Layers
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+			Crust
+				o abb:
+				o syn:
+				o imp:
+				o des: 0 - 100 km thick, belons at least partially to the biosphere
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				Oceanic Crust
+					o abb:
+					o syn:
+					o imp:
+					o des: Oceanic crust is the part of Earth's lithosphere that surfaces in the ocean basins (WP). It is ~ 4 Km thick with a density 2.9 grams per cubic centimeter (WP, EB)
+					o des:
+					o std:
+					o lan:
+					o src: http://bit.ly/1wS2kdx (WP), http://bit.ly/1xwBhV2 (EB)
+					o lit:
+					o mat:
+
+				Continental Crust
+					o abb:
+					o syn:
+					o imp:
+					o des: The continental crust is the layer of igneous, sedimentary, and metamorphic rocks which forms the continents and the areas of shallow seabed close to their shores (WP)
+					o std:
+					o lan:
+					o src: http://bit.ly/1EA3e0B (WP), http://bit.ly/1zLAr9l (EB)
+					o lit:
+					o mat:
+
+			Mantle
+				o abb:
+				o syn:
+				o imp:
+				o des: Only the outermost parts of the mantle count to the Lithosphere (WP, I)
+				o std:
+				o lan:
+				o src: http://bit.ly/1ua1k3L (WP)
+				o lit:
+				o mat:
+
+
+		Lithosphere Biomes
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+			Endolithosphere
+				o abb:
+				o syn:
+				o imp:
+				o des: Describes the sphere of endolithic lifeforms (archaeum, bacterium, fungus, lichen, algae or amoeba). They can live in inside rock, coral, animal shells, or in the pores between mineral grains of a rock. (WP, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/14c1yNY (WP)
+				o lit:
+				o mat:
+
+		Lithosphere Minerals
+			o abb:
+			o syn:
+			o imp:
+			o des: Minerals are natural compounds formed through geological processes (EVSCIE).
+			o std:
+			o lan:
+			o src: http://bit.ly/1EA5vJ8 (EVSCIE)
+			o lit:
+			o mat:
+
+			Calaverite
+				o abb:
+				o syn:
+				o imp:
+				o des: Calaverite, or gold telluride, is an uncommon telluride of gold, a metallic mineral with the chemical formula AuTe2, with approximately 3% of the gold replaced by silver (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1KN4u4y (WP)
+				o lit:
+				o mat:
+
+			Hematite
+				o abb:
+				o syn: Haematite
+				o imp:
+				o des: Hematite [...] is the mineral of iron(III) oxide (Fe2O3) (WP, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/1KN4HEL (WP)
+				o lit:
+				o mat:
+
+			Chalcocite
+				o abb:
+				o syn:
+				o imp:
+				o des: Chalcocite, or copper(I) sulfide (Cu2S), is an [...] copper ore mineral (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1CaNKxU (WP)
+				o lit:
+				o mat:
+
+			Diamond
+				o abb:
+				o syn:
+				o imp:
+				o des: A diamond [...] is a metastable allotrope of carbon, where the carbon atoms are arranged in a variation of the face-centered cubic crystal structure called a diamond lattice (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1KN54zg (WP)
+				o lit:
+				o mat:
+
+			Graphite
+				o abb:
+				o syn:
+				o imp:
+				o des: Graphite [...] is made almost entirely of carbon atoms and is a semimetal native element mineral, and an allotrope of carbon (WP, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/1KN66v9 (WP)
+				o lit:
+				o mat:
+
+			Coal
+				o abb:
+				o syn:
+				o imp:
+				o des: Coal [...] is a combustible black or brownish-black sedimentary rock usually occurring in rock strata in layers or veins called coal beds or coal seams (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1CaPuar (WP)
+				o lit:
+				o mat:
+
+			Sphalerite
+				o abb:
+				o syn:
+				o imp:
+				o des: Sphalerite ((Zn,Fe)S) is a mineral that is the chief ore of zinc (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1KN6qtB (WP)
+				o lit:
+				o mat:
+
+			Chromite
+				o abb:
+				o syn:
+				o imp:
+				o des: Chromite is an iron chromium oxide: FeCr2O4 (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1CaPKGr
+				o lit:
+				o mat:

@@ -1,5 +1,33 @@
 ControlFactor
 	FactorName
+			Allelic Diversity
+			Population Genetic Differentiation
+			Breed and Variety diversity
+			Species Distribution
+			Population Abundance
+			Population Structure by Age or Size Class
+			Phenology
+			Body Mass
+			Natal Dispersal Distance
+			Migratory Behavior
+			Demographic Traits
+			Physiological Traits
+			Taxonomic Diversity
+			Species Interaction
+			Net Primary Production
+			Secondary Productivity
+			Nutrient Retention
+			Disturbance Regime
+
+		Genetic Composition
+		Ecosystem Structure
+		Ecosystem Function
+		Community Composition
+		Species Traits
+		Species Population
+		Habitat Structure
+		Ecosystem Fragmentation
+
 		Species Composition
 		Species Diversity
 		Species Evenness

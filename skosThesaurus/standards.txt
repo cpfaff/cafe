@@ -1,0 +1,737 @@
+Standards/Physicals
+	o abb:
+	o syn:
+	o def:
+	o des: All base and derived units used to describe numerical measurement data
+	o std:
+	o src:
+	o rev: Former Physicals,
+
+	Base Units
+		Kelvin (Temperature)
+		Second (Time)
+		Metre (Length, Defined in terms of speed of light)
+		Kilogram (Mass)
+		Candela (Luminous effect)
+		Mole (Amount of substance)
+		Ampere (Electric current)
+
+	Derived Units
+		Force
+			Newton (1 N = 1Kg m/s^2)
+		Pressure
+			Atmosphere (atm, 101.325 kPa)
+			Pascal (Pa, 1 N)
+			Torr (1 Torr = 1 mmHG)
+		Volume (m^3)
+		Area (m^2)
+		Speed (velocity, m/s)
+		Acceleration (m/s^2)
+		Density (mass density, kg/m^3)
+		Specific volume (m^3/kg)
+		Concentration (of amount of substance, mol/m^3)
+		Flux (g m-2 yr-1)
+
+		... Others
+
+			Mass in ... (milligram, gram)
+			Current density (A/m^2)
+			Magnetic field strength (A/m)
+			Luminance (cd/m^2)
+
+			Process Time Scale #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: The time scale is an essential part of the process context. It describes the
+				       the time range a process takes to develop visible impacts on actors and
+				       compartments in a described system. If no general information is available on
+				       how long the process takes to become visible in the literature the time of
+				       observation can be used as an value of thumb as this time scale already allowed
+				       to show a process.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				< Second Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Second Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Minute Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Day Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Month Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Year Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Decade Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Century Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				> Century Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+			#}}}
+
+			Process Organization Scale #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: The organization scale is an essential part of the process context. It shows
+				       the organizational focus the process is observed in. While the organizational
+				       scale ranges from galaxies over the solar system down to organism and molecular
+				       levels, ecology is focused on the intermediate levels in the organizational
+				       hierarchy.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				## to large
+				# Galaxy Scale
+				# Solar System Scale
+				# Earth Scale
+
+				# important for ecology
+
+				Biosphere Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Ecosystem Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Community Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Population Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Organism Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				## to small
+				# Organs Scale
+				# Tissues Scale
+				# Cells Scale
+				# Protoplasm Scale
+				# Molecules Scale
+			# }}}
+
+			Process Spatial Scale # {{{
+				o abb:
+				o syn:
+				o imp:
+				o des: The time scale is an essential part of the process context. It describes the
+				       two dimensional frame the process acts in. If no general information about the
+				       spatial scale of a process is available in the literature the spatial scale of
+				       a particular observation can be used instead.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				Point Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Plot Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Region Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Continent Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Global Scale # {{{
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+					# }}}
+				# }}}
+
+
+
+
+
+
+
+
+
+
+
+
+Methodological
+	o abb:
+	o syn:
+	o def:
+	o des: Describes what has been observed and the instrumentation
+	o std:
+	o src:
+
+	Observation
+		Service
+		Function
+		Abundance
+		Biomass
+		Diversity
+		States
+			o abb:
+			o syn:
+			o def:
+			o des: State of observation objects
+			o std:
+			o src:
+
+			State categories
+				presence
+				absence
+
+
+		Remote Sensing
+			o abb:
+			o syn:
+			o def:
+			o des: The gathering of information from an object or surface without direct physical contact
+			       (PHYGEO, M)
+			o std:
+			o src: http://bit.ly/1B8hajX (PHYGEO), http://bit.ly/1oKW9Gw (WP)
+
+			Aerial Photography
+				o abb:
+				o syn:
+				o def:
+				o des: Form of remote sensing that captures images of objects using photographic
+				       cameras and film from platforms in the atmosphere.
+				o std:
+				o src: http://bit.ly/1B8hajX (PHYGEO)
+		In Situ
+		Inventory
+		Monitoring
+
+		Toposequence
+			o abb:
+			o syn:
+			o def:
+			o des: Soil analysis
+			o std:
+			o src: http://bit.ly/1wSynKi (EB)
+		Chronosequence
+
+	Service
+	Function
+
+	# This has been moved over from processes as we rather caputre a methodological aspect here.
+	# We allow to say something about the overarching perspective of a dataset. Does it caputre
+	# a service or not and when yes which one is it? So we will get also a nice link of variables
+	# captured in the service context.
+
+		Services
+		       ecosystem services (WP, M).
+			Provisioning services
+				Food provision
+					Wild food
+					Seafood
+					Game
+					Crops
+					Spices
+				Raw material provision
+					Organic matter
+					Lumber
+					Skins
+					Fuel wood
+					Fodder
+					Fertilizer
+				Genetic resources
+					Crop improvement genes
+					Health care
+				Water purification
+				Mineral provision
+				Medicinal resources
+					Pharmaceuticals
+					Chemical models
+					Test and assay organisms
+				Energy
+					Hydropower
+					Biomass fuels
+				Ornamental resources
+					Fashion
+					Handicraft
+					Jewelry
+					Pets
+					Worship
+					Feathers
+					Ivory
+					Orchids
+					Butterflies
+					Aquarium fish
+					Shells
+
+			Regulating services
+				Carbon sequestration
+				Climate regulation
+				Waste decomposition and detoxification
+				Purification of water and air
+				Pest and disease control
+			Supporting services
+			Cultural services
+				Cultural
+				Spiritual and historical
+				Recreational experiences
+				Science and Education
+
+
+
+#### Collection of most important measures taken in the biospheres compartments ####
+
+Methodolgical
+	# What was measured?
+	# Is it a time series? What is the temporal resolution?
+	# Which standards have been used?
+	# Which Methods have been used?
+	# Which instruments have been used?
+	# Which disciplines are involved?
+	# Stands the methods and measure in relation to ecosystem services/processes?
+
+Disciplines
+	Soil Sciences
+		Pedology
+		Edaphology
+	Aquatic Sciences
+		Limnology
+		Oceanography
+		Marine Biology
+	...
+
+
+Measurement Object
+	Organism
+		Anatomical Entity
+			Plant Organ
+			Animal Organ
+		Behaviour Entity
+		Adaption Entity
+
+Measured Factor
+	Measured Factor Attributes
+		Absolute Values
+		Relative Values
+
+	Abiotic Factors
+		Atmospheric Factors
+			Wind Speed
+			Humidity
+			Light Intensity
+			Precipitation
+			Temperature
+
+		Hydrologic Factors
+			Water pH
+			Salinity
+			Dissolved Nutrients
+			Dissolved Oxygen
+
+		Soil Factors
+			Soil Nutrients
+			Soil Moisture
+			Soil Structure
+			Soil Temperature
+			Soil pH
+
+	Biotic Factors
+		Community Factors
+			Producers
+			Consumers
+			Detrivores
+			Decomposers
+
+		Interaction Factors
+			Competition
+			Parasitation
+			Symbiosys
+			Predation
+			Herbivorism
+			Pathogens
+
+Species Granularity Level
+	Domain Level
+	Kingdom Level
+	Phylum Level
+	Class Level
+	Order Level
+	Family Level
+	Genus Level
+	Species Level
+
+Spatial Granularity Level
+
+Intrumentalization Level
+	Methodological Background
+		Remote Sensing
+		Field Work
+	Tools
+		Laser Scanning
+		Face Recognition
+		Assessment
+		Inventory
+
+Applied Methodology
+	Diversity Gradient
+	Extinction Scenario
+
+	Treatments
+		Fertilizing
+		Cutting
+		Thinning
+		Covering
+		Mowing
+		Weeding
+
+
+
+
+Observation
+	Observation Object
+		Geologcial Fraction
+			Organic soil fraction
+			Mineral soil fraction
+			Bulk soil fraction
+			Chemical soil fraction
+			Physical soil fraction
+			Water soil fraction
+
+	Observation Object Attributes
+		Quality
+			Color
+				Red
+				Green
+				Blue
+			State
+				Solid
+				Liquid
+				Gas
+				Plasma
+				Bose-Einstein Condensate
+				Neutron-degenerate matter
+				Wet
+				Dry
+				Dead (Inanimate)
+				Alive (Animated)
+				Presence
+				Absence
+
+			Role
+				Application
+					Pesticide
+					Fuel
+					Label
+					Tracer
+				Biological
+					Poison
+					Nutrient
+
+		Quantity
+			Length
+				o abb:
+				o syn:
+				o def:
+				o des: Captured via the physical base standard Meter the length occurs in various
+				       forms
+				o std:
+				o src:
+
+
+				Size
+				Width
+				Height
+			Weight
+
+
+
+
+
+
+# The coordinate system that has been used is rather metadata This has been
+# moved over from locations. However Locations only should cover location based
+# stuff and no methodological information or metadata like the stuff below is
+
+Geographic Coordinate System
+	o abb:
+	o syn:
+	o def:
+	o des: A geographic coordinate system is a coordinate system that enables every
+	       location on the Earth to be specified by a set of numbers or letters (WP)
+	o std:
+	o src: http://bit.ly/1xM2rWa (WP)
+
+	System
+		Universal Transverse Mercator
+			o abb: (UTM)
+			o syn:
+			o def:
+			o des: The Universal Transverse Mercator conformal projection uses a 2-dimensional
+			       Cartesian coordinate system to give locations on the surface of the Earth (WP)
+			o std:
+			o src: http://bit.ly/1zjpoky (WASHINGTON-EDU), http://bit.ly/1B8cWZR (WP)
+
+	Projections
+		Mercator
+			o abb:
+			o syn:
+			o def:
+			o des: Cylindrical
+			o std:
+			o src:
+
+		Albers
+			o abb:
+			o syn:
+			o def:
+			o des: Conic
+			o std:
+			o src:
+
+		Orthographic
+			o abb:
+			o syn:
+			o def:
+			o des:
+			o std:
+			o src:
+
+		Mollweide
+			o abb:
+			o syn:
+			o def:
+			o des:
+			o std:
+			o src:
+
+		Lambert
+			o abb:
+			o syn:
+			o def:
+			o des: Planar
+			o std:
+			o src:
+
+		Robinson
+			o abb:
+			o syn:
+			o def:
+			o des: Pseudo-cylindrical
+			o std:
+			o src:
+
+		Miller
+			o abb:
+			o syn:
+			o def:
+			o des: Cylindrical
+			o std:
+			o src:
+
+	Geodetic Datums
+		o abb:
+		o syn:
+		o def:
+		o des:
+		o std:
+		o src: http://bit.ly/1wSLYkV (COLORADO-EDU), http://bit.ly/1yyH5Md (WP)
+
+		Datum Types
+			Horizontal
+			Vertical
+
+	Coordinates
+		o abb:
+		o syn:
+		o def:
+		o des:
+		o std:
+		o src:
+
+	Bounding Box
+		o abb:
+		o syn:
+		o def:
+		o des:
+		o std:
+		o src:
+
+
+
+
+
+
+
+
+
+
+
+Individual Based
+Aggregated Values
+
+
+

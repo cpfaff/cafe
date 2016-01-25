@@ -1,0 +1,3493 @@
+Title: Chemical Vocabulary Branch
+
+Authors: Claas-Thido Pfaff and the Ecological Vocabulary Development Group formed by
+         members of the GFBio project and other related collaborators like from the
+         iDiv.
+
+	#1 Workshop
+
+	* Christian Wirth (Uni Leipzig, iDiv)
+	* Mario Liebergesell (Uni Leipzig, FUN-Div)
+	* Bettina Ohse (Uni Leipzig, iDiv)
+
+	#2 Workshop
+
+	* Nicole Van Dam (iDiv)
+	* Katharina Grosser (iDiv)
+	* Alexander Weinhold (iDiv)
+	* Mario Liebergesell (Uni Leipzig, FUN-Div)
+
+Documentation:
+
+Workshops #{{{
+
+TODO:
+
+* Merge the workshop outputs
+	- Delete unnecessary detail
+
+* Work over the role system
+
+
+Documentation:
+
+#1 Workshop
+
+Participants:
+
+* Christian Wirth (Uni Leipzig, iDiv)
+* Mario Liebergesell (Uni Leipzig, FUN-Div)
+* Bettina Ohse (Uni Leipzig, iDiv)
+* Claas-Thido Pfaff (Uni Leipzig)
+
+Claas Presented 3 different levels of abstraction for the chemical vocabulary
+branch. While the first was formed by names of compounds and a few names of
+chemical classes, the second represented a bit more abstract and condensed view
+on chemicals based on chemical classes and own categories for classification.
+The last one was a highly abstract perspective onto chemical compounds using
+features of the compounds for classification (length, branching, ...).
+
+* Discussion
+
+	+ The abstract vocabulary capturing the features of chemical compounds is
+	  interesting but may be only partially useful for data annotation and discovery
+	  as it rather represents a identification key for chemical compounds. For
+	  example who does always know which length a compound has or exact structure?
+
+* Agreements
+
+	+ The abstract stuff might be to abstract as e.g. nobody will know the length of
+	  a complex carbohydrate by heart. However the general classification groups like
+	  e.g. the separation into Monomer/Polymer is still useful.
+
+	+ We agreed on the need of the category of Biochemical compounds and were
+	  browsing literature to find the most relevant concepts and sub-concepts.
+
+	+ We agreed on the importance of a stoichiometry part in the chem. vocabulary
+	  This captures the main components of compounds that are described. We have this
+	  in place with with the elemental part of the vocabulary which is filled by the
+	  periodic system of elements.
+
+	+ We agreed on that it is good to orient the vocabulary after the large groups
+	  found in the literature of chemicals
+
+
+#2 Workshop
+
+Participants:
+
+* Nicol Van Dam (iDiv)
+* Katharina Grosser (iDiv)
+* Alexander Weinhold (iDiv)
+* Mario Liebergesell (Uni Leipzig, FUN-Div)
+* Claas-Thido Pfaff (Uni Leipzig)
+
+The results from the first workshop were presented and discussed. The structure
+and the contents were found to be good but the level of detail was too high and
+thus confusing. Additionally the vocabulary often intermixes the classes with
+names of single substances. The participants were going through all the classes
+discussing and improving their contents.
+
+
+* Notes
+	+ The classification of lipids into storage and membrane lipids is a functional
+	  one. The fact of being a storage or membrane lipid is thus rather a role of the
+	  chemical compound than a classification (Removed the classification?)
+
+	+ Something is missing to denote the method the chemicals have been classified. This
+	  is something that could go into the methodological branch. However this is rather
+	  metadata isn't it?
+
+		Total phenolics (Farbtabelle)
+		Total protein (Bradford Method)
+		Cyanin (Blaufärbung, Lackmus)
+
+
+* Agreements
+
+	+ The level of detail is to high for a manual data annotation and data
+	  discovery. Thus many items of the classes have been removed from the
+	  vocabulary.
+
+	+ If ions are mentioned they should be spelled out with their common name
+	  e.g. nitrate, carbonate and not abbreviated no3-
+
+* Proposal
+
+	+ A simplified classification was proposed which is shown below
+
+	Phenolic
+		# Flavonoids
+		# Anthocyans
+		# Phenolic Acids
+	Alkaloids
+	Terpenes
+		# Monoterpen
+		# Sesquiterpen
+		# Homoterpen
+		# Diterpen
+			# Carotinoids
+			Carotinoide / Tetraterpene (C40)
+	Saponin (Flavonoids with terpen groups compound class)
+	Sulfur Containing
+		# Glucosinolate
+		# Isothiocyanate
+		# Sulfide
+	Alcohols
+	Ester
+	Steroids
+
+	.... To be removed from the vocabulary as this is to much detail
+
+		# Other major compounds
+		Secondary Metabolites
+			/* Polyphenols */ delete this one maybe
+				Flavonoids
+
+					/* Anthocyanins */ Cut of these as they are to detailed
+					/* Chalcones */
+					/* Dihydrochalcones */
+
+					/* Flavones */ nur doppelbindung anders daher nur flavonoids
+					/* Flavonols */
+					/* Flavanones */
+
+						/* Butin */
+						/* Eriodictyol */
+						/* Hesperetin */
+						/* Hesperidin */
+						/* Homoeriodictyol */
+						/* Isosakuranetin */
+						/* Naringenin */
+						/* Naringin */
+						/* Pinocembrin */
+						/* Poncirin */
+						/* Sakuranetin */
+						/* Sakuranin */
+						/* Sterubin */
+
+					/* Dihydroflavonols */
+					/* Isoflavonoids */
+
+				Lignans
+
+				Phenolic acids
+
+					/* Hydroxybenzoic acids */
+						/* Salicylic acid */
+					/* Hydroxycinnamic acids */
+					/* Hydroxyphenylacetic acids */
+					/* Hydroxyphenyllactic acids */
+					/* Hydroxyphenylpropanoic acids */
+
+				Stilbenoids
+
+				Other polyphenols
+
+					/* Alkylmethoxyphenols */ mabe cut them off
+					/* Alkylphenols */
+					/* Betacyanins */
+					/* Capsaicinoids */
+					/* Curcuminoids */
+					/* Dihydrocapsaicins */
+					/* Furanocoumarins */
+					/* Hydroxybenzaldehydes */
+					/* Hydroxybenzoketones */
+					/* Hydroxycinnamaldehydes */
+					/* Hydroxycoumarins */
+					/* Hydroxyphenylalcohols */
+					/* Hydroxyphenylpropenes */
+					/* Methoxyphenols */
+					/* Naphtoquinones */
+					/* Phenolic terpenes */
+					/* Tyrosols */
+
+			Alkaloids
+				/* Codeine */ ein stoff
+				/* Morphine */ auch
+
+
+
+	.. further roles proposed
+
+		further roles proposed
+		defense=active (not synonym with protection=passive)
+		-attractant
+		-repellant
+		-ethnobotanic use (when it comes to role for others, not the plant)
+		-antibiotic
+		-antifauling/antifawling/antifalling
+
+		-sugaresters (drüsenhaare auf solanaceaen) -> gehört zu estern
+		-trichome compound - mischung zwischen chemischem Element und morphologischer Anpasung
+		keyword: glandular
+		-könnte auch unter einen Begriff "exudates" gefasst werden (weitere exudates: latex, resin)
+
+# The version below has been fixed fixed on 2015-01-15T 10:47:57
+
+Notes:
+
+It is now moved to to the review folder as it will be reviewed on 28th January
+in a micro-semantic workshop with Nicole Van Dam at the iDiv
+
+#}}}
+
+Vocabulary:
+
+Chemical Elements #{{{
+	o abb:
+	o syn:
+	o imp:
+	o des: A chemical element is a pure chemical substance consisting of a single type of atom distinguished by its atomic number, which is the number of protons in its atomic nucleus (WP)
+	o std:
+	o lan:
+	o src: http://bit.ly/1qZ2ZcE (WP)
+	o lit:
+	o mat:
+
+	# The Big 4 Elements #{{{
+
+	Carbon
+		o abb: C
+		o syn:
+		o imp:
+		o des: Carbon [...] is a chemical element with symbol C and atomic number 6 (WP, M)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Kolenstoff
+		o src: http://bit.ly/1BW2HUZ (WP)
+		o lit:
+		o mat: CHEBI:27594
+
+	Hydrogen
+		o abb: H
+		o syn:
+		o imp:
+		o des: Hydrogen is a chemical element with chemical symbol H and atomic number 1 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Wasserstoff
+		o src: http://bit.ly/1qZ41p1 (WP)
+		o lit:
+		o mat: CHEBI:49637
+
+	Oxygen
+		o abb: O
+		o syn:
+		o imp: Photosynthesis, Respiration, Air
+		o des: Oxygen is a chemical element with symbol O and atomic number 8 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Sauerstoff
+		o src: http://bit.ly/1qZ6eRa (WP)
+		o lit:
+		o mat: CHEBI:49637
+
+	Nitrogen
+		o abb: N
+		o syn: Air
+		o imp: Macro-Nutrient, Plants
+		o des: Nitrogen is a chemical element with symbol N and atomic number 7 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Stickstoff
+		o src: http://bit.ly/1qZ6G22 (WP)
+		o lit:
+		o mat: CHEBI:25555
+
+	#}}}
+
+	# More Major Elements #{{{
+
+	Phosphorus
+		o abb: P
+		o syn:
+		o imp: Connects individual units of DNA into a chain
+		o des: Phosphorus is a chemical element with symbol P and atomic number 15 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Phosphor
+		o src: http://bit.ly/1AmJtqz (WP)
+		o lit:
+		o mat: CHEBI:28659
+
+	Sulfur
+		o abb: S
+		o syn: Sulphur
+		o imp: Forms bonds between different parts of a protein
+		o des: Sulfur [...] is a chemical element with symbol S and atomic number 16 (WP, M)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Schwefel
+		o src: http://bit.ly/1qZ75l6 (WP)
+		o lit:
+		o mat: CHEBI:26833
+
+	Sodium
+		o abb: Na
+		o syn:
+		o imp: Essential in sending electric signals in nerve cells
+		o des: Sodium [...] is a chemical element with symbol Na [...] and atomic number 11 (WP, M)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Natrium
+		o src: http://bit.ly/1AmKTkG (WP)
+		o lit:
+		o mat: CHEBI:26708
+
+	Chlorine
+		o abb: Cl
+		o syn:
+		o imp: Essential in sending electric signals in nerve cells
+		o des: Chlorine is a chemical element with symbol Cl and atomic number 17 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Chlor
+		o src: http://bit.ly/1AmLK51 (WP)
+		o lit:
+		o mat: CHEBI:23116
+
+	Potassium
+		o abb: K
+		o syn:
+		o imp: Essential in sending electric signals in nerve cells
+		o des: Potassium is a chemical element with symbol K [...] and atomic number 19 (WP, M)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Kalium
+		o src: http://bit.ly/1qZ7KD2 (WP)
+		o lit:
+		o mat: CHEBI:23116
+
+	Calcium
+		o abb: Ca
+		o syn:
+		o imp: Essential in sending electric signals in nerve cells
+		o des: Calcium is a chemical element with symbol Ca and atomic number 20 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: (K|C)alzium
+		o src: http://bit.ly/1AmMyGU (WP)
+		o lit:
+		o mat: CHEBI:22984
+
+	Magnesium
+		o abb: Mg
+		o syn:
+		o imp: Co-Factor of enzymes
+		o des: Magnesium is a chemical element with symbol Mg and atomic number 12 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Magnesium
+		o src: http://bit.ly/1qZ8c4f
+		o lit:
+		o mat: CHEBI:25107
+
+	#}}}
+
+	# Important Trace Elements #{{{
+
+	Iron
+		o abb: Fe
+		o syn:
+		o imp: Hemoglobin, Myoglobin, Cytochrome P450
+		o des: Iron is a chemical element with symbol Fe [...] and atomic number 26 (WP, M)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Eisen
+		o src: http://bit.ly/1qZ7rrU (WP)
+		o lit:
+		o mat: CHEBI:18248
+
+	Iodine
+		o abb: I
+		o syn:
+		o imp: Thyroxine (Thyroid Hormones), Thyroglobulin
+		o des: Iodine is a chemical element with symbol I and atomic number 53 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Iod
+		o src: http://bit.ly/1AmP5Rz (WP)
+		o lit:
+		o mat: CHEBI:24859
+
+	Manganese
+		o abb: Mn
+		o syn:
+		o imp: Enzymes (Oxidoreductases, Transferases, Hydrolases, Lyases, Isomerases, Ligases, Lectins, Integrins)
+		o des: Manganese is a chemical element with symbol Mn and atomic number 25 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Mangan
+		o src: http://bit.ly/1AmQSpD (WP)
+		o lit:
+		o mat: CHEBI:18291
+
+	Molybdenum
+		o abb: Mo
+		o syn:
+		o imp: Nitrogenases, Nitrogen fixation, Molybdenum cofactor
+		o des: Molybdenum is a chemical element with symbol Mo and atomic number 42 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Molybdän
+		o src: http://bit.ly/1qZ9P1O (WP)
+		o lit:
+		o mat: CHEBI:28685
+
+	Selenium
+		o abb: Se
+		o syn:
+		o imp: Forage defense, Micro-nutrient Animals
+		o des: Selenium is a chemical element with symbol Se and atomic number 34 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Selen
+		o src: http://bit.ly/1AmSpfA (WP)
+		o lit:
+		o mat: CHEBI:27568
+
+	Silicon
+		o abb: Si
+		o syn:
+		o imp: Growth (e.g. Rice), Skeletons (Diatoms, Radiolaria, Siliceous sponges), Phytoliths
+		o des: Silicon is a chemical element with symbol Si and atomic number 14 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Sili(z|c)ium
+		o src: http://bit.ly/1qZaHU6 (WP)
+		o lit:
+		o mat: CHEBI:27573
+
+	Vanadium
+		o abb: V
+		o syn:
+		o imp: Vanadoenzymes, Forage Protection (Tunicates, Ascidians), Co-Factor (Blood sugar, fat metabolism)
+		o des: Vanadium is a chemical element with symbol V and atomic number 23 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Vanadium, de-non: Vanadin
+		o src: http://bit.ly/1qZc45h (WP); http://bit.ly/1sDN1Wp (AGRIC-AB-CA-GOV)
+		o lit:
+		o mat: CHEBI:27698
+
+	Boron
+		o abb: B
+		o syn:
+		o imp: Plant growth, Integrity of cell walls (Plants)
+		o des: Boron is a chemical element with symbol B and atomic number 5 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Bor
+		o src: http://bit.ly/1qZcOaz (WP), http://bit.ly/1sDN1Wp (AGRIC-AB-CA-GOV)
+		o lit:
+		o mat: CHEBI:27560
+
+	Cobalt
+		o abb: Co
+		o syn:
+		o imp: Constituent of Cobalamin (Vitamin B12)
+		o des: Cobalt is a chemical element with symbol Co and atomic number 27 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Kobalt, de-non: Cobalt
+		o src: http://bit.ly/1qZdywa (WP); Yamada, Kazuhiro (2013)
+		o lit:
+		o mat: CHEBI:27638
+
+	Copper
+		o abb: Cu
+		o syn:
+		o imp: Respiration (Constituent of Cytrochrome-C-Oxidase), Hemocyanin (Molluscs, Crustacea), Indirect Role (Chlorophyll production)
+		o des: Copper is a chemical element with symbol Cu [...] and atomic number 29 (WP, M)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Kupfer
+		o src: http://bit.ly/1An4r8N (WP)
+		o lit:
+		o mat: CHEBI:28694
+
+	Fluorine
+		o abb: F
+		o syn:
+		o imp: Protection Herbivory (Fluoroacetate)
+		o des: Fluorine is a chemical element with symbol F and atomic number 9 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Fluor
+		o src: http://bit.ly/1qZezEw (WP)
+		o lit:
+		o mat: CHEBI:24061
+
+	Zinc
+		o abb: Zn
+		o syn: Spelter
+		o imp: Cell division, DNA synthesis, Immune function, Wound healing, Protein synthesis, Plant growth
+		o des: Zinc [...] is a chemical element with symbol Zn and atomic number 30 (WP)
+		o std: Periodic system of chemical elements (PSE)
+		o lan: de: Zink
+		o src: http://bit.ly/1An7Owg (WP)
+		o lit:
+		o mat: CHEBI:27363
+
+	#}}}
+
+	# Other Elements #{{{
+
+	Other Elements
+		o abb:
+		o syn:
+		o imp:
+		o des: This category contains all other elements from the periodic system of elements that have not been mentioned not mentioned above.
+		o std: Periodic system of chemical elements (PSE)
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+		Helium
+			o abb: He
+			o syn:
+			o imp:
+			o des: Helium is a chemical element with symbol He and atomic number 2 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan: de: Helium
+			o src: http://bit.ly/1Bu6bzC (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30217
+
+		Lithium
+			o abb: Li
+			o syn:
+			o imp:
+			o des: Lithium [...] is a chemical element with symbol Li and atomic number 3 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1E23x3H (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30145
+
+		Beryllium
+			o abb: Be
+			o syn:
+			o imp:
+			o des: Beryllium is a chemical element with symbol Be and atomic number 4 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1Bu6KJP (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30501
+
+		Neon
+			o abb: Ne
+			o syn:
+			o imp:
+			o des: Neon is a chemical element with symbol Ne and atomic number 10 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1E23NzB (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33310
+
+		Aluminium
+			o abb: Al
+			o syn: Aluminum
+			o imp:
+			o des: Aluminium [...] is a chemical element [...] with symbol Al and atomic number 13 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1Bu7nmI (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:28984
+
+		Argon
+			o abb: Ar
+			o syn:
+			o imp:
+			o des: Argon is a chemical element with symbol Ar and atomic number 18 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1E24lWe (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:49475
+
+		Scandium
+			o abb: Sc
+			o syn:
+			o imp:
+			o des: Scandium is a chemical element with symbol Sc and atomic number 21 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1Bu7MW8 (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33330
+
+		Titanium
+			o abb: Ti
+			o syn:
+			o imp:
+			o des: Titanium is a chemical element with symbol Ti and atomic number 22 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1E24zN4 (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33341
+
+		Chromium
+			o abb: Cr
+			o syn:
+			o imp:
+			o des: Chromium is a chemical element with symbol Cr and atomic number 24 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1An1MvD (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:28073
+
+		Nickel
+			o abb: Ni
+			o syn:
+			o imp:
+			o des: Nickel is a chemical element with symbol Ni and atomic number 28 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1Bu8J0A (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:28112
+
+		Gallium
+			o abb: Ga
+			o syn:
+			o imp:
+			o des: Gallium is a chemical element with symbol Ga and atomic number 31 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1E25nS2 (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33250
+
+		Germanium
+			o abb: Ge
+			o syn:
+			o imp:
+			o des: Germanium is a chemical element with symbol Ge and atomic number 32 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1Bu917Y (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30441
+
+		Arsenic
+			o abb: As
+			o syn:
+			o imp:
+			o des: Arsenic is a chemical element with symbol As and atomic number 33 (WP)
+			o std:
+			o lan: PSE
+			o src: http://bit.ly/1E25CMS (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:27563
+
+		Bromine
+			o abb: Br
+			o syn:
+			o imp:
+			o des: Bromine [...] is a chemical element with symbol Br and atomic number 35 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1zgeX4P (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:22927
+
+		Krypton
+			o abb: Kr
+			o syn:
+			o imp:
+			o des: Krypton [...] is a chemical element with symbol Kr and atomic number 36 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1Ca0jtk (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:49696
+
+		Rubidium
+			o abb: Rb
+			o syn:
+			o imp:
+			o des: Rubidium is a chemical element with symbol Rb and atomic number 37 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156c4X3 (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33322
+
+		Strontium
+			o abb: Sr
+			o syn:
+			o imp:
+			o des: Strontium [...] is a chemical element with symbol Sr and atomic number 38 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf1Scb (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33324
+
+		Yttrium
+			o abb: Y
+			o syn:
+			o imp:
+			o des: Yttrium is a chemical element with symbol Y and atomic number 39 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156cnkC (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33331
+
+		Zirconium
+			o abb: Zr
+			o syn:
+			o imp:
+			o des: Zirconium is a chemical element with symbol Zr and atomic number 40 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf24rJ (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33342
+
+		Niobium
+			o abb: Nb
+			o syn: Columbium, Cb
+			o imp:
+			o des: Niobium [...] is a chemical element with symbol Nb [...] and atomic number 41 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156cT26 (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33344
+
+		Technetium
+			o abb: Tc
+			o syn:
+			o imp:
+			o des: Technetium is a chemical element with symbol Tc and atomic number 43 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf2pLg (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33353
+
+		Ruthenium
+			o abb: Ru
+			o syn:
+			o imp:
+			o des: Ruthenium is a chemical element with symbol Ru and atomic number 44 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156delg (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30682
+
+		Rhodium
+			o abb: Rh
+			o syn:
+			o imp:
+			o des: Rhodium is a chemical element with symbol Rh and atomic number 45 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf2Hlb (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33359
+
+		Palladium
+			o abb: Pd
+			o syn:
+			o imp:
+			o des: Palladium is a chemical element with symbol Pd and atomic number 46 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156dGQu (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33363
+
+		Silver
+			o abb: Ag
+			o syn:
+			o imp:
+			o des: Silver is a chemical element with symbol Ag [...] and atomic number 47 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf34w3 (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30512
+
+		Cadmium
+			o abb: Cd
+			o syn:
+			o imp:
+			o des: Cadmium is a chemical element with symbol Cd and atomic number 48 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156dZLe (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:22977
+
+		Indium
+			o abb: In
+			o syn:
+			o imp:
+			o des: Indium is a chemical element with symbol In and atomic number 49 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf3h2o (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30430
+
+		Tin
+			o abb: Sn
+			o syn:
+			o imp:
+			o des: Tin is a chemical element with symbol Sn [...] and atomic number 50 (WP, M)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1AmX7d3 (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:27007
+
+		Antimony
+			o abb: Sb
+			o syn:
+			o imp:
+			o des: Antimony is a chemical element with symbol Sb [...] and atomic number 51 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156elBA (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30513
+
+		Tellurium
+			o abb: Te
+			o syn:
+			o imp:
+			o des: Tellurium is a chemical element with symbol Te and atomic number 52 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30452
+
+		Xenon
+			o abb: Xe
+			o syn:
+			o imp:
+			o des: Xenon is a chemical element with symbol Xe and atomic number 54 (WP)
+			o std: Periodic system of chemical elements (PSE) (WP)
+			o lan:
+			o src: http://bit.ly/1yf58nL (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:49957
+
+		Caesium
+			o abb: Cs
+			o syn: Cesium
+			o imp:
+			o des: Caesium [...] is a chemical element with symbol Cs and atomic number 55 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156gHAh (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30514
+
+		Barium
+			o abb: Ba
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:32594
+
+		Lanthanum
+			o abb: La
+			o syn:
+			o imp:
+			o des: Lanthanum is a chemical [...] element with symbol La and atomic number 57 (WP, M)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf5nPC (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33336
+			o src:
+
+		Cerium
+			o abb: Ce
+			o syn:
+			o imp:
+			o des: Cerium is a chemical element with symbol Ce and atomic number 58 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156hUHZ (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33369
+
+		Praseodymium
+			o abb: Pr
+			o syn:
+			o imp:
+			o des: Praseodymium is a chemical element with symbol Pr and atomic number 59 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf6ajC (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:49828
+
+		Neodymium
+			o abb: Nd
+			o syn:
+			o imp:
+			o des: Neodymium is a chemical element with symbol Nd and atomic number 60 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156icyz (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33372
+
+		Promethium
+			o abb: Pm
+			o syn:
+			o imp:
+			o des: Promethium, originally prometheum, is a chemical element with symbol Pm and atomic number 61 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/1yf6pLu (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33373
+
+		Samarium
+			o abb: Sm
+			o syn:
+			o imp:
+			o des: Samarium is a chemical element with symbol Sm and atomic number 62 (WP)
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src: http://bit.ly/156ip4L (WP)
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33374
+
+		Europium
+			o abb: Eu
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:32999
+
+		Gadolinium
+			o abb: Go
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33375
+
+		Terbium
+			o abb: Tb
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33376
+
+		Dysprosium
+			o abb: Dy
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33377
+
+		Holmium
+			o abb: Ho
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:49648
+
+		Erbium
+			o abb: Er
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33379
+
+		Thulium
+			o abb: Tm
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33380
+
+		Ytterbium
+			o abb: Yb
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33381
+
+		Lutetium
+			o abb: Lu
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33382
+
+		Hafnium
+			o abb: Hf
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33343
+
+
+		Tantalum
+			o abb: Ta
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33348
+
+		Tungsten
+			o abb: W
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:27998
+
+		Rhenium
+			o abb: Re
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:49882
+
+		Osmium
+			o abb: Os
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30687
+
+		Iridium
+			o abb: Ir
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:49666
+
+		Platinum
+			o abb: Pt
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33364
+
+		Gold
+			o abb: Au
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:29287
+
+		Hydrargyrum
+			o abb: Hg
+			o syn: Mercury
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:25195
+
+		Thallium
+			o abb:  Tl
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30440
+		Lead
+			o abb: Pb
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:27889
+
+		Bismuth
+			o abb: Bi
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33301
+
+		Polonium
+			o abb: Po
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33313
+
+		Astatine
+			o abb: At
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:30415
+
+		Radon
+			o abb: Rn
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33314
+
+		Francium
+			o abb: Fr
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33323
+
+		Radium
+			o abb: Ra
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33325
+
+		Actinium
+			o abb: Ac
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33337
+
+		Thorium
+			o abb: Th
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33385
+
+		Protactinium
+			o abb: Pa
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33386
+
+		Uranium
+			o abb: U
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:27214
+
+		Neptunium
+			o abb: Np
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33387
+
+		Plutonium
+			o abb: Pu
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33388
+
+		Americium
+			o abb: Am
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33389
+
+		Curium
+			o abb: Cm
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33390
+
+		Berkelium
+			o abb: Bk
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33391
+
+		Californium
+			o abb: Cf
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat:	CHEBI:33392
+
+		Einsteinium
+			o abb: Es
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33393
+
+		Fermium
+			o abb: Fm
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33394
+
+		Mendelevium
+			o abb: Md
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33395
+
+		Nobelium
+			o abb: No
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33396
+
+		Lawrencium
+			o abb: Lr
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit: Riedel/Janiak - Anoranischeh Chemie (ISBN 978-3-11-018903-2)
+			o mat: CHEBI:33397
+
+		Rutherfordium
+			o abb: Rf
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33346
+
+		Dubnium
+			o abb: Db
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33349
+
+		Seaborgium
+			o abb: Sg
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33351
+
+		Bohrium
+			o abb: Bh
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33355
+
+		Hassium
+			o abb: Hs
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33357
+
+		Meitnerium
+			o abb: Mt
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33361
+
+		Darmstadtium
+			o abb: Ds
+			o syn: Ununnilium
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33367
+
+		Roentgenium
+			o abb: Rg
+			o syn: Unununium
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33368
+
+		Ununbium
+			o abb: Uub
+			o syn:
+			o imp:
+			o des:
+			o std: Periodic system of chemical elements (PSE)
+			o lan:
+			o src:
+			o lit:
+			o mat: CHEBI:33517
+
+		#}}}
+
+#}}}
+
+Chemical Compounds #{{{
+	o abb:
+	o syn:
+	o imp:
+	o des: This caputres all sorts of chemical compounds of biological interest.
+	o std:
+	o lan:
+	o src:
+	o lit:
+	o mat:
+
+	Inorganic Compounds #{{{
+		o abb:
+		o syn:
+		o imp:
+		o des: All compounds without carbon-hydrogen bonds.
+		o std:
+		o lan:
+		o src: http://bit.ly/13bySDE (WP)
+		o lit:
+		o mat:
+
+		Carbon dioxide
+			o abb: CO2
+			o syn:
+			o imp: Source for biomass primary production
+			o des: Carbon dioxide [...] is a naturally occurring chemical compound composed of 2
+                               oxygen atoms each covalently double bonded to a single carbon atom (WP, M)
+			o std:
+			o lan: de: Kohlenstoffdioxid, de-non: Kohlendioxid
+			o src: http://bit.ly/13bxOiV (WP)
+			o lit:
+			o mat: CHEBI:16526
+
+		Water
+			o abb: DHMO, H20
+			o syn: Dihydrogen monoxide
+			o imp: Solvent required for processes of life to work
+			o des: Water is a transparent fluid which forms the world's streams, lakes, oceans and
+                               rain, and is the major constituent of the fluids of living things (WP)
+			o std:
+			o lan:
+			o src: http://bit.ly/13bySDE (WP)
+			o lit:
+			o mat: CHEBI:15377
+
+		Hydrogen sulfide
+			o abb: H2S
+			o syn:
+			o imp: Bacterial breakdown of organic matter
+			o des: Hydrogen sulfide is the chemical compound with the formula H2S. It is a
+                               colorless gas with the characteristic foul odor of rotten eggs; it is heavier
+                               than air, very poisonous, corrosive, flammable, and explosive (WP)
+			o std:
+			o lan:
+			o src: http://bit.ly/1GxIx6n (WP)
+			o lit:
+			o mat: CHEBI:16136
+	#}}}
+
+	Organic Compounds
+		o abb:
+		o syn:
+		o imp:
+		o des: All compounds with carbon-hydrogen bonds.
+		o std:
+		o lan: de: Organische Moleküle
+		o src: http://abt.cm/1z3uapk (AE)
+		o lit:
+
+		# the big 4 compounds {{{
+
+		Carbohydrates
+			o abb:
+			o syn:
+			o imp:
+			o des: A carbohydrate is a [...] biological molecule [...] consisting of
+                               carbon (C), hydrogen (H), and oxygen (O) atoms (WP, M)
+			o std:
+			o lan: de: Kohlenhydrate
+			o src: http://bit.ly/13bATzE
+			o lit:
+			o mat: CHEBI:16646
+
+			Saccharides
+				o abb:
+				o syn:
+				o imp:
+				o des: Is a carbohydrate of the general formula CnH2nOn (WP, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/1z3xSiO (WP)
+				o lit:
+
+				Mono-saccharides
+					o abb:
+					o syn:
+					o imp:
+					o des: Mono-saccharides are the most basic units of biologically important
+                                               carbohydrates. They are the simplest form of sugar and are usually colorless,
+                                               water-soluble, crystalline solids (PR-EDU)
+					o std:
+					o lan:
+					o src: http://bit.ly/1qZFtfG (PR-EDU)
+					o lit:
+					o mat: CHEBI:35381
+
+					Glucose
+						o abb:
+						o syn: D-Glucose, Dextrose, Grape sugar, Blood Sugar
+						o imp:
+						o des: Glucose [...] is a [...] mono-saccharide (WP, M)
+						o std:
+						o lan: de: Glukose
+						o src: http://bit.ly/13bCpSg (WP)
+						o lit:
+						o mat: CHEBI:17234
+
+					Fructose
+						o abb:
+						o syn: "1,3,4,5,6-Pentahydroxy-2-hexanone", Fruit sugar
+						o imp:
+						o des: Glucose [...] is a [...] mono-saccharide (WP, M)
+						o std:
+						o lan: de: Fruktose
+						o src: http://bit.ly/13bCpSg (WP)
+						o lit:
+						o mat: CHEBI:28757
+
+					Galactose
+						o abb: Gal
+						o syn:
+						o imp:
+						o des: Galactose [...] is a mono-saccharide sugar that is less sweet than glucose and
+                                                       fructose.
+						o std:
+						o lan: de: Galaktose
+						o src: http://bit.ly/13ezLeX (WP)
+						o lit:
+						o mat: CHEBI:28260
+
+					Ribose
+						o abb: Rib
+						o syn:
+						o imp: Energy and information transfer (DNA, RNA, ATP, ADP, AMP)
+						o des: Ribose is an organic compound with the formula C5H10O5.
+
+						o std:
+						o lan: de: Ribose
+						o src: http://bit.ly/13eAcWr (WP)
+						o lit:
+						o mat: CHEBI:33942
+
+				Di-saccharides
+					o abb:
+					o syn: Biose
+					o imp: Nutrition
+					o des: A di-saccharide or is the carbohydrate formed when two monosaccharides undergo
+                                               a condensation reaction (WP, M)
+					o std:
+					o lan:
+					o src: http://bit.ly/13eBJvN (WP)
+					o lit:
+					o mat: CHEBI:36233
+
+					Sucrose
+						o abb:
+						o syn: Table sugar
+						o imp: Nutrition
+						o des: It is a di-saccharide combination of the monosaccharides glucose and fructose
+                                                       with the formula C12H22O11 (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/13eCmWe (WP)
+						o lit:
+						o mat: CHEBI:17992
+
+					Lactose
+						o abb:
+						o syn:
+						o imp: Nutrition
+						o des: Lactose is a di-saccharide sugar derived from galactose and glucose that is
+                                                       found in milk (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1sIoj7s (WP)
+						o lit:
+						o mat: CHEBI:17716
+
+					Maltose
+						o abb:
+						o syn: Maltobiose, Malt sugar
+						o imp: Nutrition
+						o des: Maltose is a di-saccharide formed from two units of glucose joined with an
+                                                       alpha 1->4 bond (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/1sIoIGR (WP)
+						o lit:
+						o mat:
+
+					Cellobiose
+						o abb:
+						o syn:
+						o imp: Structure (base of cellulose)
+						o des: Cellobiose is a di-saccharide with the formula [HOCH2CHO(CHOH)3]2O. It consists
+                                                       of two glucose molecules linked by a beta(1->4) bond (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/13eG5CY (WP)
+						o lit:
+						o mat: CHEBI:17057
+
+					Trehalose
+						o abb:
+						o syn:
+						o imp: Nutrition, Blood sugar (Insects)
+						o des: Trehalose is a [...] di-saccharide between two glucose molecules linked with an
+                                                       alpha,alpha-1,1-glycosidic bond (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/1sIqB6y (WP)
+						o lit:
+						o mat:
+
+				Polysaccharides
+					o abb:
+					o syn:
+					o imp:
+					o des: Polysaccharides are polymeric carbohydrate molecules composed of long chains of
+                                               monosaccharides units bound together by glycosidic bonds (WP, M)
+					o std:
+					o lan:
+					o src: http://bit.ly/13eJge1 (WP)
+					o lit:
+					o mat: CHEBI:18154
+
+					Cellulose
+						o abb:
+						o syn:
+						o imp: Cell wall component (Plants)
+						o des: Cellulose is an organic compound with the formula (C6H10O5)n, a polysaccharide
+                                                       consisting of a linear chain of several hundred to many thousands of β(1->4)
+                                                       linked D-glucose units (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1sIrLio (WP)
+						o lit:
+						o mat:
+
+					Starch
+						o abb:
+						o syn:
+						o imp: Energy storage (Plants)
+						o des: Cellulose is an organic compound with the formula (C6H10O5)n, a poly-saccharide
+                                                       consisting of a linear chain of several hundred to many thousands of beta(1->4)
+                                                       linked D-glucose units (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/1sIrLio (WP)
+						o lit:
+						o mat: CHEBI:28017
+
+						Amylose
+							o abb:
+							o syn:
+							o imp: Energy storage (Plants)
+							o des: One possible form of starch. Unbranched molecule chain that forms a helix.
+							o std:
+							o lan:
+							o src: http://bit.ly/1sIsfVC (WP)
+							o lit:
+							o mat: CHEBI:28102
+
+						Amylopectin
+							o abb:
+							o syn:
+							o imp: Energy storage (Plants)
+							o des: One possible form of starch. Branched molecule also forming coils. It is more compact than amylose
+							o std:
+							o lan:
+							o src: http://bit.ly/13eKqpO (WP)
+							o lit:
+							o mat: CHEBI:28057
+
+					Glycogen
+						o abb:
+						o syn:
+						o imp: Energy storage (Animals)
+						o des: Glycogen is a multi branched polysaccharide of glucose that serves as a form of
+                                                       energy storage in animals and fungi (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/13eL6LS (WP)
+						o lit:
+						o mat: CHEBI:28087
+
+		Lipids
+			o abb:
+			o syn:
+			o imp: Energy storage, Structural component (Cell walls), Signal transduction
+			o des: Lipids are a group of naturally occurring molecules that include fats, waxes,
+                               sterols, fat-soluble vitamins (such as vitamins A, D, E, and K),
+                               monoglycerides, diglycerides, triglycerides, phospholipids, and others (WP)
+			o std:
+			o lan:
+			o src: http://bit.ly/1sIvAE4 (WP)
+			o lit:
+			o mat: CHEBI:18059
+
+			Membrane lipids
+				o abb:
+				o syn:
+				o imp:
+				o des: Group of lipid compounds which serve as structural, stabilizing components in cell walls
+				o std:
+				o lan:
+				o src: http://bit.ly/1sIyGYT (WP)
+				o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+
+				Phospholipids
+					o abb:
+					o syn:
+					o imp: Major cell wall component, Signal transduction
+					o des: Phospholipids are a class of lipids that are a major component of all cell
+                                               membranes as they can form lipid bilayers. Most phospholipids contain a
+                                               diglyceride, a phosphate group, and a simple organic molecule such as choline (WP)
+					o std:
+					o lan:
+					o src: http://bit.ly/1AK0pak (WP)
+					o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+					o mat: CHEBI:16247
+
+				Glycolipids
+					o abb:
+					o syn:
+					o imp: Stabilizing of cell wall
+					o des: Glycolipids are lipids with a carbohydrate attached. Their role is to provide
+                                               energy and also serve as markers for cellular recognition (WP)
+					o std:
+					o lan:
+					o src: http://bit.ly/1sIxapK (WP)
+					o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+					o mat: CHEBI:33563
+
+				Sphingolipids
+					o abb:
+					o syn: Glycosylceramides
+					o imp: Stabilizing of cell wall (protection), Signal transduction
+					o des: Sphingolipids [...] are a class of lipids containing a backbone of sphingoid
+                                               bases, a set of aliphatic amino alcohols that includes sphingosine (WP, M)
+					o std:
+					o lan:
+					o src: http://bit.ly/1sIxJzC (WP)
+					o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+					o mat: CHEBI:26739
+
+				Sterols
+					o abb:
+					o syn: Steroid alcohols
+					o imp:
+					o des: Sterols [...] are a subgroup of the steroids and an important class of organic
+                                               molecules. They occur naturally in plants, animals, and fungi, with the most
+                                               familiar type of animal sterol being cholesterol (WP, M)
+					o std:
+					o lan:
+					o src: http://bit.ly/1sIy2uv (WP)
+					o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+					o mat: CHEBI:15889
+
+					Cholesterol
+						o abb:
+						o syn:
+						o imp: Stabilizing of cell wall, Cell wall fluidity
+						o des: It is a [...] lipid molecule [...] biosynthesized by many animal cells because
+                                                       it is an essential structural component of animal cell membranes. It is
+                                                       required to maintain both membrane structural integrity and fluidity (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/1AK1UFq (WP)
+						o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+						o mat: CHEBI:16113
+
+			Storage lipids
+				o abb:
+				o syn:
+				o imp:
+				o des: Group of lipid compounds which serve as energy storage
+				o std:
+				o lan: de: Speicherlipide
+				o src: http://bit.ly/1sIyCs6 (WP)
+				o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+				o mat:
+
+				Triacylglycerol
+					o abb: TAG
+					o syn:
+					o imp:
+					o des: Ester of glycerol with three fatty acids
+					o std:
+					o lan:
+					o src: http://bit.ly/1DQ8gsE (WP)
+					o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+					o mat: CHEBI:77447
+
+		Proteins
+			o abb:
+			o syn:
+			o imp: Catalisator, DNA replication, Signal transduction
+			o des: Proteins are large biological molecules [...] consisting of one or more long
+                               chains of amino acids. Proteins perform many functions within living organisms,
+                               including catalyzing metabolic reactions, replicating DNA, responding to
+                               stimuli, and transporting molecules from one location to another (WP, M)
+			o std:
+			o lan:
+			o src: http://bit.ly/1DQ8jop (WP)
+			o lit:
+			o mat: CHEBI:36080
+
+
+		Nucleic Acids
+			o abb:
+			o syn:
+			o imp:
+			o des: Nucleic acids are [...] large biological molecules. They include DNA
+                               (deoxyribonucleic acid) and RNA (ribonucleic acid). They are made from monomers
+                               known as nucleotides (WP, M)
+			o std:
+			o lan:
+			o src: http://bit.ly/16y6JJ9 (WP)
+			o lit:
+			o mat: CHEBI:33696
+
+			DNA
+				o abb:
+				o syn:
+				o imp: Information storage
+				o des: Deoxyribonucleic acid is a molecule that encodes the genetic instructions used
+                                       in the development and functioning of all known living organisms and many
+                                       viruses (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1GxJxHA (WP)
+				o lit:
+
+			RNA
+				o abb:
+				o syn:
+				o imp: Coding, Decoding, Regulation
+				o des: Ribonucleic acid (RNA) is a polymeric molecule. It is implicated in a varied
+                                       sort of biological roles in coding, decoding, regulation, and expression of
+                                       genes (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1AlFXOQ (WP)
+				o lit:
+
+				Messenger RNA
+					o abb: mRNA
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:33699
+
+				Transfer RNA
+					o abb: tRNA
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Ribosomal RNA
+					o abb: rRNA
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+		#}}}
+
+		# Other major compounds #{{{
+
+		Secondary Metabolites
+			o abb:
+			o syn:
+			o imp:
+			o des: Secondary metabolites are organic compounds that are not directly involved in
+                               the normal growth, development, or reproduction of an organism. They fulfil
+                               other roles in an organism e.g. in the defense thus increasing the overall
+                               survivability and fecundity (WP, M)
+			o std:
+			o lan:
+			o src: http://bit.ly/1sCPLhf (WP), http://bit.ly/1sIOpqS (Phenol-Explorer)
+			o lit:
+			o mat:
+
+			Polyphenols
+				o abb:
+				o syn: Polyhydroxyphenols
+				o imp: Growth control (Auxin release), Signalling (Riping), Pigments (UV-Protection), Herbivory protection, Immune system (Phytoalexins)
+				o des: Polyphenols are [...] organic chemicals characterized by the presence of phenol
+                                       [...] structural units (WP, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/1Gxx4Ul (WP), http://bit.ly/1sIOpqS (Phenol-Explorer)
+				o lit: CHEBI:26195
+
+				Flavonoids
+					o abb:
+					o syn: Bioflavonoids
+					o imp: Pigments, Communication (Color of flowers),
+					o des: Flavonoids [...] are a class of plant secondary metabolites with two aromatic rings (WP)
+					o std:
+					o lan:
+					o src: http://bit.ly/16y38ea
+					o lit:
+					o mat: CHEBI:72544
+
+					Anthocyanins
+						o abb:
+						o syn: Anthocyans
+						o imp: Pigments (red, blue, purple)
+						o des: Anthocyanins [...] are water-soluble vacuolar pigments that may appear red,
+                                                       purple, or blue depending on the pH (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1GxCHlo (WP)
+						o lit:
+						o mat: CHEBI:38697
+
+					Chalcones
+						o abb:
+						o syn:
+						o imp: Plant pigments
+						o des: Chalcones are aromatic ketones [...] that forms the central core for a variety
+                                                       of important biological compounds like plant pigments (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1GxDvXF (WP)
+						o lit:
+						o des: CHEBI:23086
+
+					Dihydrochalcones
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src: http://bit.ly/1GxDToV (WP)
+						o lit:
+						o mat: CHEBI:71230
+
+					Flavones
+						o abb:
+						o syn:
+						o imp:
+						o des: Flavones [...] are a class of flavonoids based on the backbone of
+                                                       2-phenylchromen-4-one (2-phenyl-1-benzopyran-4-one) (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/16y9MBb (WP)
+						o lit:
+						o mat: CHEBI:24043
+
+					Flavonols
+						o abb:
+						o syn:
+						o imp: Lateral Root and Root Hair Development (Tomato, Gregory S. Maloney 2014)
+						o des: Flavonols are a class of flavonoids that have the 3-hydroxyflavone backbone
+                                                       (IUPAC name : 3-hydroxy-2-phenylchromen-4-one) (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/16yabUe (WP)
+						o lit: http://bit.ly/1GxEwiq (Tomato, Gregory S. Maloney 2014)
+						o mat: CHEBI:28802
+
+					Dihydroflavonols
+						o abb:
+						o syn:
+						o imp:
+						o des: Any hydroxyflavanone in which a hydroxy group is present on the position 3 of
+                                                       the heterocyclic ring (CHEBI)
+						o std:
+						o lan:
+						o src: http://bit.ly/1GxEMhi (CHEBI, 48039)
+						o lit:
+						o mat: CHEBI:48039
+
+					Flavanones
+						o abb:
+						o syn:
+						o imp:
+						o des: The flavanones are a type of flavonoids. They are generally glycosylated by a
+                                                       disaccharide at position seven to give flavanone glycosides (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/16yb2UE (WP)
+						o lit:
+						o mat: CHEBI:28863
+
+						Butin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:3244
+
+						Eriodictyol
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:28412
+
+						Hesperetin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:28230
+
+						Hesperidin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:28775
+
+						Homoeriodictyol
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:74960
+
+						Isosakuranetin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+						Naringenin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:50202
+
+						Naringin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:28819
+
+						Pinocembrin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:28157
+
+						Poncirin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+						Sakuranetin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:28927
+
+						Sakuranin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: CHEBI:81054
+
+						Sterubin
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+					Isoflavonoids
+						o abb:
+						o syn:
+						o imp:
+						o des: Isoflavonoids are a class of flavonoid phenolic, biologically active compounds
+                                                       (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/1GxFs6b (WP)
+						o lit:
+						o mat: CHEBI:50753
+
+				Lignans
+					o abb:
+					o syn:
+					o imp: Cell wall (Plants)
+					o des:
+					o std:
+					o lan:
+					o src: http://bit.ly/16y4iX0 (WP)
+					o lit:
+					o mat: CHEBI:25036
+
+				Phenolic acids
+					o abb:
+					o syn: Phenolcarboxylic acids
+					o imp:
+					o des: Phenolic acids [...] are aromatic acid compounds that contain a phenolic ring
+                                               and an organic carboxylic acid function (WP, M)
+					o std:
+					o lan:
+					o src: http://bit.ly/1GxyKgw (WP)
+					o lit:
+					o mat: CHEBI:26069
+
+					Hydroxybenzoic acids
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+						Salicylic acid
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+					Hydroxycinnamic acids
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxyphenylacetic acids
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxyphenyllactic acids
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxyphenylpropanoic acids
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+				Stilbenoids
+					o abb:
+					o syn:
+					o imp: Immune system (Phytoalexins)
+					o des: Stilbenoids are hydroxylated derivatives of stilbene. Stilbenoids are secondary
+                                               products of heartwood formation in trees that can act as phytoalexins (WP)
+					o std:
+					o lan:
+					o src: http://bit.ly/16y4TI4 (WP)
+					o lit:
+					o mat: CHEBI:26776
+
+				Other polyphenols
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Alkylmethoxyphenols
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Alkylphenols
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Betacyanins
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Capsaicinoids
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Curcuminoids
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Dihydrocapsaicins
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Furanocoumarins
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxybenzaldehydes
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxybenzoketones
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxycinnamaldehydes
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxycoumarins
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxyphenylalcohols
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Hydroxyphenylpropenes
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Methoxyphenols
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Naphtoquinones
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Phenolic terpenes
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Tyrosols
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+			Alkaloids
+				o abb:
+				o syn:
+				o imp:
+				o des: A wide range of biologically active secondary metabolite compounds.
+				o std:
+				o lan:
+				o src: http://bit.ly/1GxFSth (WP, DE), http://bit.ly/16yc0QV (WP, EN)
+				o lit:
+				o mat:
+
+				Codeine
+					o abb:
+					o syn:
+					o imp:
+					o des: A morphinane alkaloid found in the opium poppy, Papaver somniferum var. album; has analgesic, anti-tussive and anti-diarrhoeal properties (CHEBI)
+					o std:
+					o lan:
+					o src:
+					o lit: http://bit.ly/1CeDB38 (WP), http://bit.ly/1zmwV5F (CHEBI)
+					o mat: CHEBI:16714
+
+				Morphine
+					o abb:
+					o syn:
+					o imp:
+					o des: Morphine [...] is an opioid analgesic drug, and the main psychoactive chemical
+                                               in opium (WP, M).
+					o std:
+					o lan:
+					o src: http://bit.ly/1zmvog1 (WP)
+					o lit:
+					o mat: CHEBI:1730
+
+				Cocaine
+					o abb:
+					o syn:
+					o imp:
+					o des: A tropane alkaloid obtained from leaves of the South American shrub Erythroxylon coca (CHEBI)
+					o std:
+					o lan:
+					o src: http://bit.ly/1CeEJ6Z (CHEBI)
+					o lit:
+					o mat: CHEBI:27958
+
+				Tetrodotoxin
+					o abb:
+					o syn:
+					o imp:
+					o des: A quinazoline alkaloid that is a marine toxin isolated from fish such as puffer fish (CHEBI).
+					o std:
+					o lan:
+					o src: http://bit.ly/1zmwcBB (CHEBI)
+					o lit:
+					o mat: CHEBI:9506
+
+				Atropein
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Solanin
+					o abb:
+					o syn:
+					o imp:
+					o des: A glycoalkaloid poison found in species of the nightshade family (Solanaceae), such as the potato (Solanum tuberosum) (CHEBI).
+					o std:
+					o lan:
+					o src: http://bit.ly/1CeEoRG (CHEBI)
+					o lit:
+					o mat: CHEBI:9188
+
+			Terpenes
+				o abb:
+				o syn:
+				o imp:
+				o des: Terpenes [...] are a large and diverse class of organic compounds, produced by
+                                       a variety of plants, particularly conifers. But also by some insects such as
+                                       termites or swallowtail butterflies, which emit terpenes from their osmeteria
+                                       (WP, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/16ycEOl (WP)
+				o lit: Ulrich Lüttge Botanik, ISBN-13: 978-3527311798
+				o mat:
+
+
+				Hemiterpenes
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Monoterpenes
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Limonene
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Piinene
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+				Sesquiterpenes
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Diterpenes
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Taxol
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Aphidicolin
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+				Triterpenes
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Tetraterpenes
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Polyterpenes
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+
+			Tannin
+				o abb:
+				o syn:
+				o imp:
+				o des: A tannin is an astringent plant poly-phenolic compound that binds to and
+                                       precipitates proteins and various other organic compounds including amino acids
+                                       and alkaloids (WP, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/1wOHRoZ (WP)
+				o lit:
+				o mat:
+
+		#}}}
+
+		# soil compounds #{{{
+
+		Soil compounds
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+			Humines
+				o abb:
+				o syn:
+				o imp:
+				o des: Humins are a class of organic compounds that are insoluble in water at all
+                                       pH's (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1GxGNKs (WP)
+				o lit:
+				o mat:
+
+
+			Humic Acid
+				o abb:
+				o syn:
+				o imp:
+				o des: Humic acid is a principal component of humic substances, which are the major
+                                       organic constituents of soil (humus), peat, coal, many upland streams,
+                                       dystrophic lakes, and ocean water (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1AlGbpf (WP)
+				o lit:
+				o mat:
+
+			Fulvic Acids
+				o abb:
+				o syn:
+				o imp:
+				o des:
+				o std:
+				o lan:
+				o src: http://bit.ly/1AlGbpf (WP)
+				o lit:
+				o mat:
+
+		#}}}
+
+		# Other important compounds #{{{
+
+		Other compounds
+			Amino Acids
+				o abb:
+				o syn:
+				o imp:
+				o des: Amino acids are biologically important organic compounds composed of amine
+				       (-NH2) and carboxylic acid (-COOH) functional groups, along with a side-chain
+				       specific to each amino acid (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1zZ6z6H (WP)
+				o lit: Biochemie Werner Müller-Esterl (ISBN:3-8274-0534-3)
+				o mat:
+
+				Histidine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:27570
+
+				Isoleucine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:24898
+
+				Leucine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:25017
+
+				Lysine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Methionine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:16811
+
+				Phenylalanine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:28044
+
+				Threonine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:26986
+
+				Tryptophan
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:76121
+
+				Valine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:27266
+
+				Alanine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:16449
+
+				Arginine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:29016
+
+				Asparagine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:22653
+
+				Aspartic acid
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:22660
+
+				Cysteine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:15356
+
+				Glutamic acid
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:18237
+
+				Glutamine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:28300
+
+				Glycine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:15428
+
+				Ornithine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:18257
+
+				Proline
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:26271
+
+				Selenocysteine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:9093
+
+				Serine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:17822
+
+				Tyrosine
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:18186
+
+			Nucleobases
+				o abb:
+				o syn:
+				o imp:
+				o des: Nucleobases are nitrogen-containing biological compounds (nitrogenous bases)
+                                       found within nucleosides—the basic building blocks of deoxyribonucleic acid
+                                       (DNA) and ribonucleic acid (RNA) (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1AlGcK3 (WP)
+				o lit:
+				o mat:
+
+				Purines
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:26401
+
+					Adenosine
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: CHEBI:16335
+
+					Guanine
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: CHEBI:16235
+
+				Pyrimidines
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: CHEBI:39447
+
+					Thymidine
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: CHEBI:17748
+
+					Cytidine
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: CHEBI:17562
+
+					Uridine
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: CHEBI:16704
+
+			Peptides
+				o abb:
+				o syn:
+				o imp:
+				o des: Peptides [...] are naturally occurring biological molecules. They are short
+                                       chains of amino acid monomers linked by peptide [...] bonds (WP, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/1GxLjIE (WP)
+				o lit:
+				o mat:
+
+				Monopeptides
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Dipeptides
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Tripeptides
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Tetrapeptides
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Oligopeptide
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+		#}}}
+
+#}}}
+
+Ions #{{{
+	o abb:
+	o syn:
+	o imp:
+	o des: An ion [...] is an atom or molecule in which the total number of electrons is
+               not equal to the total number of protons, giving the atom or molecule a net
+               positive or negative electrical charge (WP, M)
+	o std:
+	o lan:
+	o src: http://bit.ly/1yf7uDl (WP)
+	o lit:
+	o mat:
+
+	H+
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	OH-
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	K+
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	Ca2+
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	Mg2+
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	NH4-
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	NO2-
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	NO3-
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	SO32-
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	SO42-
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	H2PO4-
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+	HPO42-
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+
+#}}}
+
+Role #{{{
+	o abb:
+	o syn:
+	o imp:
+	o des: The roles capture the context that chemical elements and compounds are involved in.
+	o std:
+	o lan:
+	o src:
+	o lit:
+	o mat:
+
+	Signal
+	Phytoalexin
+	Enzyme
+	Growth
+	Stimulator
+	Inhibitor
+	Nutrient
+	Hormone
+	Pheromone
+	Volatile
+	Pigment
+	Assimilation
+	Dissimilation
+	Stability
+	Protection
+	Transport
+	Poison
+	Cuticula
+	Antibody
+	Co-Factor
+	Interaction
+	Respiration
+	Metabolism
+	Transformation
+	Vitamin
+	Reservoir
+	Dietary fiber
+	Structure
+	Allelopathic
+	Supporting
+	Inhibiting
+	Mineral
+	Trace-Element
+	Application
+		Pesticide
+		Manure
+		Tracer
+		Fodder
+
+	Fragment
+	Precursor
+	Metabolite
+		Primary metabolite
+		Secondary metabolite
+
+
+
+	Attractant
+	Repellent
+
+	Protection/Defense
+	Anti-fouling (Marine, Allelopathic)
+	Toxin
+
+	Etho-botany (Traditional Medicinal Use)
+	Contents in plant parts
+		Trichom Content
+
+#}}}

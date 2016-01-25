@@ -1,0 +1,144 @@
+Organic Compound
+	Functional Group
+		Alkoholes
+		Aldehydes
+		Esters
+		Ethers
+		Ketones
+		Carboxylic Acid
+		Amines
+		Amides
+		Diazonium Salts
+		Nitro Compounds
+		Alkanthioles
+		Sulfides
+		Disulfides
+		Ester Of Sulfuric Acid
+		Sulfones
+		Sulfoxides
+		Thionamides
+		Thiolesters
+		Thio Acids
+		Ester Of Orthosphoric Acid
+		Phosphines
+		Metallorganiscs
+	Aliphatic Compound
+		Alkanes
+		Alkenes
+		Alkynes
+	Aromatic Compound
+		Arene/Annulenes
+		Aromatic Ions
+		Benzole Derivatives
+		Heterocyclics
+		Aryl Halides
+	Biomolecule Compounds
+		Nucleobases
+		Nucleotides
+		Nucleic Acids
+		Amino Acids
+		Proteins
+		Carbohydrates
+		Lipids
+		Steroids
+		Sekundary Metabolites
+	Polymer Compound
+	Fullerene Compound
+
+Inorganic
+	Metall And Alloy
+		Elementary Metalls
+		Alloys Of Aluminium
+		Alloys Of Bismuth
+		Alloys Of Chromium
+		Alloys Of Cobalt
+		Alloys Of Copper
+		Alloys Of Gallium
+		Alloys Of Gold
+		Alloys Of Indium
+		Alloys Of Iron
+		Alloys Of Lead
+		Alloys Of Magnesium
+		Alloys Of Mercury
+		Alloys Of Nickel
+		Alloys Of Potassium
+		Alloys Of Plutonium
+		Alloys Of Rare Earth
+		Alloys Of Rhodium
+		Alloys Of Scandium
+		Alloys Of Silver
+		Alloys Of Sodium
+		Alloys Of Titanium
+		Alloys Of Tin
+		Alloys Of Uranium
+		Alloys Of Zinc
+		Alloys Of Zirconium
+	Salt And Mineral
+		Carbonates
+		Halogenides
+		Oxides
+		Phosphates
+		Silikates
+		Sulfates
+		Sulfides
+	Acid And Base
+		Water
+		Hydrogen Peroxide
+		Sodium Hydroxide
+		Potassium Hydroxide
+		Calcium Hydroxide
+		Magnesium Hydroxide
+		Aluminum Hydroxide
+		Carbonic Acid
+		Nitric Acid
+		Nitrous Acid
+		Hydrofluoric Acid
+		Hydrochloric Acid
+		Sulfuric Acid
+		Sulfurous Acid
+		Phosphoric Acid
+		Phosphorous Acid
+	Gas
+		Ammonia
+		Carbonoxides
+		Hydrocarbons
+		Hydrogen
+		Hydrogenhalogenides
+		Hydrogen Sulfide
+		Nitrogen
+		Nitrogen Oxides
+		Oxygen
+		Sulfuroxides
+
+Chemical Substance Function
+	Antibody
+	Attractant
+	Cofactor
+	Detergent
+	Nutrient
+	Enzyme
+	Fragment
+	Hormone
+	Carrier
+	Inhibitor
+	Metabolite
+	Pesticide
+	Pheromone
+	Phytoalexin
+	Phytochemical
+	Pigment
+	Poison
+	Precursor
+	Repellent
+	Reservoir
+	Signal
+	Stimulator
+	Structure
+	Surfactant
+	Toxin
+	Tracer
+	Volatile
+	Trace element
+	Vitamin
+	Catalyst
+	Fertilizer

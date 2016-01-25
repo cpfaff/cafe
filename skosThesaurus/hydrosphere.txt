@@ -1,0 +1,199 @@
+Spheres
+	Hydrosphere
+		o abb:
+		o syn:
+		o def: Water, H2O
+		o des: The hydrosphere describes the combined mass of water found on, under, and over
+                       the surface of a planet in any state state of matter (WP, M).
+		o std:
+		o src: http://bit.ly/1xs4GPm (WP)
+
+		Water body
+			o abb:
+			o syn: Body of water, Waterbody
+			o def:
+			o des: A water body is any large accumulation of water on a planet's surface.
+			o std:
+			o src: http://bit.ly/1oPjSW1
+
+			Stream
+				o abb:
+				o syn:
+				o def:
+				o des: A stream is a body of water with a current, confined within a bed and stream
+                                       banks (WP).
+				o std:
+				o src: http://bit.ly/1ExvQpa (WP)
+
+				River
+					o abb:
+					o syn:
+					o def:
+					o des: A river a flowing body of water flowing towards an ocean, a lake, a sea, or
+                                               another river (WP)
+					o std:
+					o src: http://bit.ly/1qF47N0 (WP)
+
+				Canal
+					o abb:
+					o syn:
+					o def:
+					o des: Canals are human-made channels for water (WP, M)
+					o std:
+					o src: http://bit.ly/1eEEw3D (WP)
+
+			Soil moisture
+				o abb:
+				o syn:
+				o def:
+				o des:
+				o std:
+				o src:
+
+			Ground water
+				o abb:
+				o syn:
+				o def:
+				o des:
+				o std:
+				o src:
+
+			Lake
+				o abb:
+				o syn:
+				o def:
+				o des:
+				o std:
+				o src:
+
+			Ocean
+				o abb:
+				o syn:
+				o def:
+				o des:
+				o std:
+				o src:
+
+			Sea
+				o abb:
+				o syn:
+				o def: A large expanse of saline water connected with an ocean, or a large, usually
+                                       saline, lake that lacks a natural outlet (WP).
+				o des:
+				o std:
+				o src: http://bit.ly/1oPjSW1 (WP)
+
+			Pond
+				o abb:
+				o syn:
+				o def:
+				o des:
+				o std:
+				o src:
+
+			Puddles
+				o abb:
+				o syn:
+				o def:
+				o des:
+				o std:
+				o src: http://bit.ly/1xjJ22d
+
+			Wetland
+				o abb:
+				o syn:
+				o def:
+				o des:
+				o std:
+				o src:
+
+		Cryosphere
+			o abb:
+			o syn:
+			o def:
+			o des: The cryosphere is those portions of Earth's surface where water resides in solid
+			       form (WP, M)
+			o std:
+			o src: http://bit.ly/10Y0MC4 (WP)
+
+			Sea ice
+				o abb:
+				o syn:
+				o def:
+				o des:
+				o std:
+				o src:
+
+			Lake ice
+				o abb:
+				o syn:
+				o def:
+				o des: Ice in lakes forming a thin layer on the surface
+				o std:
+				o src:
+
+			River ice
+				o abb:
+				o syn:
+				o def:
+				o des: Ice in rivers forming complex chritals and thin layers
+				o std:
+				o src:
+
+			Snow cover
+				o abb:
+				o syn:
+				o def:
+				o des: The snow covering a surface
+				o std:
+				o src:
+
+			Glacier
+				o abb:
+				o syn:
+				o def:
+				o des: A glacier is a persistent body of dense ice (WP)
+				o std:
+				o src: http://bit.ly/1lo9suh (WP)
+
+			Ice cap
+				o abb:
+				o syn:
+				o def:
+				o des: An ice cap is an ice mass that covers less than 50 000 km^2 of land area
+				       (usually covering a highland area) (WP).
+				o std:
+				o src: http://bit.ly/1uoT9QJ (WP)
+
+			Ice sheet
+				o abb:
+				o syn:
+				o def:
+				o des: An ice cap is an ice mass that covers more than 50 000 km^2 of land area (WP, M)
+				o std:
+				o src: http://bit.ly/1uoT9QJ (WP)
+
+			Frozen ground
+				o abb:
+				o syn:
+				o def:
+				o des: Frozen surface layers of the continents
+				o std:
+				o src:
+
+
+		Hydrosphere Properties
+			Depth Zones
+				Epipelagic
+				Mesopelagic
+				Bathypelagic
+				Abyssopelagic
+				Hadopelagic
+			Thermal Zones
+				Epimilion
+				Metalimnion
+				Hypolimnion
+			States
+				Natural
+				Artificial
+

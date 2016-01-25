@@ -1,0 +1,104 @@
+Title: Atmospheric Vocabulary Branch
+
+Authors: Claas-Thido Pfaff and the Ecological Vocabulary Development Group formed by
+         members of the GFBio project and other related collaborators like from the
+         iDiv.
+
+Sphere
+	o abb:
+	o syn:
+	o imp:
+	o des: Spheres represent a multidimensional space that makes up distinguishable layers of a planet
+	o std:
+	o lan:
+	o src:
+	o lit:
+	o mat:
+
+	Atmosphere
+		o abb:
+		o syn:
+		o imp:
+		o des: An atmosphere is a layer of gases surrounding a planet or other material bodies
+		       of sufficient mass. It is held in place by the gravity of the body (WP)
+		o std:
+		o lan:
+		o src: http://bit.ly/1sAATib (WP)
+		o lit:
+		o mat: ENVO:01000267
+
+		Troposphere
+			o abb:
+			o syn:
+			o imp:
+			o des: The troposphere is the lowest portion of Earth's atmosphere (WP). It reaches
+			       into ~ 15 km height and is part of the biosphere
+			o std:
+			o lan:
+			o src: http://bit.ly/1u9RVt0 (WP)
+			o lit:
+			o mat:
+
+		Stratosphere
+			o abb:
+			o syn:
+			o imp:
+			o des: The stratosphere is the second layer of Earth's atmosphere, just above the
+			       troposphere, and below the mesosphere (WP). It reaches into ~ 50 km height and
+			       is part of the biosphere
+			o std:
+			o lan:
+			o src: http://bit.ly/10XTPRs (WTTU), http://bit.ly/10UnlYb (WP)
+			o lit:
+			o mat:
+
+		Mesosphere
+			o abb:
+			o syn:
+			o imp:
+
+			o des: The mesosphere is a layer of Earth's atmosphere. The mesosphere is directly
+			       above the stratosphere and below the thermosphere (UCAR-EDU). It reaches into
+				~ 80 km height.
+			o std:
+			o lan:
+			o src: http://bit.ly/1tFzcjz (UCAR-EDU), http://bit.ly/1v1Yu24 (WP)
+			o lit:
+			o mat:
+
+		Ionosphere
+			o abb:
+			o syn:
+			o imp:
+			o des: The Ionosphere comprises the thermo and the exosphere and parts of the upper
+			       mesosphere (WP). The ionosphere is ionized by solar radiation.
+			o std:
+			o lan:
+			o src: http://bit.ly/1yxOYRU (WP), http://bit.ly/1B6ADBF (WTTU), http://stanford.io/1xgDFAS (STAN-EDU)
+			o lit:
+			o mat:
+
+			Thermo sphere
+				o abb:
+				o syn:
+				o imp:
+				o des: The thermosphere is a layer of Earth's atmosphere. The thermosphere is directly
+				       above the mesosphere and below the exosphere (WTTU). It reaches into ~ 500 km height
+					and is ionized by solar radiation.
+				o std:
+				o lan:
+				o src: http://bit.ly/1EzZiNk (WTTU), http://bit.ly/1B6ClTz (WP)
+				o lit:
+				o mat:
+
+			Exosphere
+				o abb:
+				o syn:
+				o imp:
+				o des: The exosphere is the outermost layer surrounding a planetary body as he earth (WP, M). It
+					is ionized by solar radiation and only affected by low gravity
+				o std:
+				o lan:
+				o src: http://bit.ly/1xwzGi2 (WP)
+				o lit:
+				o mat:

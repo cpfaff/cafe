@@ -1,0 +1,1686 @@
+Title: Biosphere Vocabulary Facet
+
+Author: Claas-Thido Pfaff and the Ecological Vocabulary Development Group
+	formed by members of the GFBio project and other related collaborators.
+
+	#1 Workshop (05.12.2014, Terrestrial)
+	* Christian Wirth (Uni Leipzig, iDiv)
+	* Sophia Ratcliffe (Uni Leipzig, FUN-Div)
+	* Björn Reu (Uni Leipzig)
+	* Daniel Mara (Uni Leipzig)
+
+	#2 Workshop (04.02.2015, Aquatic)
+	* Ivaylo Kostadinov (ikostadi@mpi-bremen.de, Jacobs University Bremen)
+	* Pelin Yilmaz (pyilmaz@mpi-bremen.de, MPI Bremen)
+	* Pier Luigi Buttigieg (Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research)
+	* Claas-Thido Pfaff (Uni Leipzig)
+
+Notes:
+
+#1 Workshop
+
+A first draft of the terrestrial part of the biosphere vocbulary was presented
+to the participants  They discussed the contents and refined the structure and.
+
+Agreements:
+
+
+Paper:
+	* Woodward et al. (2004)
+
+
+
+#2 Workshop
+
+A first draft of the water related part of the biosphere vocabulary was
+presented to the participants. Pier suggested to use a slice of ENVO. Thus the
+participants created a mapping between the biosphere vocabulary concepts and
+ENVO
+
+Book:
+	* Freshwater Ecology (Concepts and Environmental) Longhursts Marine Biomes (Stratification)
+	* Ecological Geography Of The Sea (Book)
+
+Ontology:
+	* ENVO
+
+
+
+
+Spheres
+	o abb:
+	o syn:
+	o imp:
+	o des: Spheres represent a multidimensional space that makes up distinguishable layers of a planet
+	o std:
+	o lan:
+	o src:
+	o lit:
+	o mat:
+
+	Biosphere
+		o abb:
+		o syn: Biogeosphere, Geobiosphere, Ecosphere
+		o imp:
+		o des: The biosphere is a multidimensional space that contains all known life on
+                       earth. It intersects the pedosphere, the hydrosphere, the atmosphere and the
+                       lithosphere (WP)
+		o std:
+		o lan:
+		o src:
+		o lit: http://bit.ly/1C93TpW (WP)
+		o mat:
+
+		Biomes
+			o abb:
+			o syn:
+			o imp:
+	 		o des: Biomes [...] are climatically and geographically defined as contiguous areas
+                               with similar climatic conditions on the Earth, such as communities of plants,
+                               animals, and soil organisms (WP)
+			o std:
+			o lan:
+			o src:
+			o lit: http://bit.ly/1CzUOUV (WP), http://bit.ly/1ulT2SW (JRANK)
+			o mat: ENVO:00000428
+
+			Latitudinal Zonation
+				o abb:
+				o syn: Latitidinal climate zones
+	 			o imp:
+				o des: The Latitude provides the location north or south from the equator and is
+                                       expressed by angular measurements. Latitudes are a key factor in determining a
+                                       region's climate and we can distinguish different climatic zones along the
+                                       gradient (ELC, M)
+				o std:
+				o lan:
+				o src: http://bit.ly/1C9aOzw (ELC)
+				o lit:
+				o mat:
+
+				Polar
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src: http://bit.ly/1CzY3vC
+					o lit:
+					o mat: ENVO:01000238
+
+				Boreal
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src: http://bit.ly/1CzY3vC
+					o lit:
+					o mat:
+
+				Temperate
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src: http://bit.ly/1CzY3vC
+					o lit:
+					o mat: ENVO:01000206
+
+				Subtropical
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src: http://bit.ly/1CzY3vC
+					o lit:
+					o mat: ENVO:01000205
+
+				Tropical
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src: http://bit.ly/1CzY3vC
+					o lit:
+					o mat: ENVO:01000204
+
+			Stratifications
+				o abb:
+				o syn: Layers
+				o imp:
+				o des:
+				o std:
+				o lan:
+				o src: http://bit.ly/158ttOC (UC-EDU)
+				o lit:
+				o mat: Layers in ENVO
+
+				Forest Stratifications
+					o abb:
+					o syn:
+					o imp:
+					o des: Forest stratification refers to the different horizontal layers that occur in a
+                                               forest.
+					o std:
+					o lan:
+					o src: http://bit.ly/1Cg0uFD (ELKO)
+					o lit:
+					o mat: partially missing
+
+					Canopy Layer
+						o abb:
+						o syn:
+						o imp:
+						o des: The highest layer in a forest consisting of mature trees
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+						Emergent Layer
+							o abb:
+							o syn:
+							o imp:
+							o des: Sometimes large trees poke through the canopy layer and overgrow it. These
+							       trees are called emergents and represent the highest parts of the canopy layer
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+					Understory Layer
+						o abb:
+						o syn:
+						o imp:
+						o des: The understory layer comes directly underneath the canopy layer and is above
+                                                       the shrub layer. Typical vegetation are tree saplings and smaller shade
+                                                       tolerant trees as well as tall shrub
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: missing
+
+					Shrub Layer
+						o abb:
+						o syn:
+						o imp:
+						o des: The shrub layer comes directly underneath the understory layer. It is typically
+                                                       inhabited by small tree saplings and mature shrubs and bushes
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: missing
+
+					Herb and Fern Layer
+						o abb:
+						o syn:
+						o imp:
+						o des: The herb and fern layer comes directly beneath the shrub layer. It is typically
+                                                       inhabited by tree seedlings, herbs, ferns, grasses and weeds.
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: missing
+
+					Ground Layer/Litter Layer
+						o abb:
+						o syn:
+						o imp:
+						o des: Represents the lowest layer in a forest. It is constituted from decaying plant and
+                                                       animal matter as well as it is inhabited by fungi, mosses and lichens
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: Missing
+
+				Marine Stratifications
+					o abb:
+					o syn:
+					o imp:
+					o des: Water stratification occurs when water masses with different properties [...]
+                                               form layers that act as barriers to water mixing which (WP, M)
+					o std:
+					o lan:
+					o src: http://bit.ly/1COv9YW (WP)
+					o lit:
+					o mat:
+
+					Chemocline
+						o abb:
+						o syn:
+						o imp:
+						o des: A chemocline refers to layers in water bodies characterized by strong chemical gradients like
+						       for example in the oxygenation or salinity level (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/1yqcCCw (WP)
+						o lit:
+						o mat: Depth changes
+
+						Halocline
+							o abb:
+							o syn:
+							o imp:
+							o des:  A chemocline refers to a layer with a strong vertical salinity gradient (WP, M).
+							o std:
+							o lan:
+							o src:
+							o lit: http://bit.ly/1COzYSb (WP)
+							o mat: Salinity Gradient
+
+					Pycnocline
+						o abb:
+						o syn:
+						o imp:
+						o des: A pycnocline is a [...] layer with a strong density gradient [...] within a body of water (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/1yq8AKv (WP)
+						o lit:
+						o mat: ENVO:01000259
+
+					Thermocline
+						o abb:
+						o syn:
+						o imp:
+						o des: A thermocline (sometimes metalimnion in lakes) is a thin but distinct layer in
+                                                       a large body of fluid (e.g. water, such as an ocean or lake, or air, such as an
+                                                       atmosphere) in which temperature changes more rapidly with depth/height than it
+                                                       does in the layers above or below (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1Ca6Qqf (WP)
+						o lit:
+						o mat: ENVO:00002269
+
+				Lake Stratifications
+					o abb:
+					o syn:
+					o imp:
+					o des: The stratification layers that occur in standing bodies of water
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Epilimnion
+						o abb:
+						o syn:
+						o imp:
+						o des: The epilimnion is the top-most layer in a thermally stratified lake, occurring
+                                                       above the deeper hypolimnion. It is warmer and typically has a higher pH and
+                                                       higher dissolved oxygen concentration than the hypolimnion (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1ulSnRw (WP)
+						o lit:
+						o mat: ENVO:00002131
+
+					Metalimnion
+						o abb:
+						o syn:
+						o imp:
+						o des: The metalimnion, also called thermocline is a thin but distinct layer which is characterized by
+                                                       a large temperature gradient decrease compared to the layers above or below
+                                                       (WP, M)
+						o lan:
+						o src: http://bit.ly/1Ca6Qqf (WP)
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: Thermocline, (ENVO:00002132)
+
+					Hypolimnion
+						o abb:
+						o syn:
+						o imp:
+						o des: The hypolimnion is the dense, bottom layer of water in a thermally-stratified
+                                                       lake. It is the layer that lies below the thermocline (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1Caa5Ox (WP)
+						o lit:
+						o mat: ENVO:00002130
+
+			Terrestrial biomes
+				o abb:
+				o syn:
+				o imp:
+				o des: Terrestrial biomes [...] are climatically and geographically defined as contiguous areas
+                                       with similar climatic conditions on the Earth, such as communities of plants,
+                                       animals, and soil organisms (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/1ulT2SW
+				o lit:
+				o mat: missing: only anthropogenic
+
+				Altitudinal Zonation
+					o abb:
+					o syn:
+					o imp:
+					o des: Refers to the classification of biomes regarding their altitudinal elevation above sea level.
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Nival Zone
+						o abb:
+						o syn:
+						o imp:
+						o des: The nival zone is mainly characterized by constant snow and ice (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1CgjKTo (WP)
+						o lit:
+						o mat:
+
+					Alpine Zone
+						o abb:
+						o syn:
+						o imp:
+						o des: The alpine zone stretches between the tree line and the snowline of the nival zone (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1CgjKTo (WP)
+						o lit:
+						o mat:
+
+					Montane Zone
+						o abb:
+						o syn:
+						o imp:
+						o des: The montane zone extends from the mid altitude forests to the tree line (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1CgjKTo (WP)
+						o lit:
+						o mat:
+
+					Lowland Zone
+						o abb:
+						o syn:
+						o imp:
+						o des: The lowest layer of mountains varies distinctly across climates and is referred
+                                                       to by a wide range of names depending on the surrounding landscape (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1CgjKTo (WP)
+						o lit:
+						o mat:
+
+				Hydrological Classification
+					o abb:
+					o syn:
+					o imp:
+					o des: Humidity in the context of terrestrial biome classification
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: missing partially
+
+						Humid
+							o abb:
+							o syn:
+							o imp:
+							o des: Humid climate is characterized by a higher precipitation then a potential
+							       evapotranspiration in 10 to 12 Months/Year.
+							o std:
+							o lan:
+							o src: http://bit.ly/159p4ec (WP)
+							o lit:
+							o mat: missing
+
+						Semihumid
+							o abb:
+							o syn:
+							o imp:
+							o des: Humid climate is characterized by a higher precipitation then a potential
+							       evapotranspiration in 6 to 9 Months/Year.
+							o std:
+							o lan:
+							o src: http://bit.ly/159p4ec (WP)
+							o lit:
+							o mat:
+
+						Arid
+							o abb:
+							o syn:
+							o imp:
+							o des: Arid climate is characterized by a lower precipitation then a potential
+							       evapotranspiration in 10 to 12 Months/Year.
+							o std:
+							o lan:
+							o src: http://bit.ly/1yKM6WM (WP)
+							o lit:
+							o mat: ENVO:01000230
+
+						Semiarid
+							o abb:
+							o syn:
+							o imp:
+							o des: Semiarid climate is characterized by a lower precipitation then a potential
+							       evapotranspiration in 6 to 9 Months/Year.
+							o std:
+							o lan:
+							o src: http://bit.ly/1yKM6WM (WP)
+							o lit:
+							o mat:
+
+						Wetland classification
+							o abb:
+							o syn:
+							o imp:
+							o des: Wetlands are areas where water covers the soil, or is present either at or near
+                                                               the surface of the soil all year or for varying periods of time during the
+                                                               year, including during the growing season (EPA).
+							o std:
+							o lan:
+							o src: http://1.usa.gov/1Bh2gow (EPA)
+							o lit:
+							o mat: ENVO:00000043
+
+							Permanent Wetland
+								o abb:
+								o syn:
+								o imp:
+								o des: Permanent wetlands are areas where water permanenty covers the soil
+								o std:
+								o lan:
+								o src:
+								o lit:
+								o mat:
+
+							Seasonal wetland
+								o abb:
+								o syn:
+								o imp:
+								o des: Permanent wetlands are areas where water sometimes covers the soil
+								o std:
+								o lan:
+								o src:
+								o lit:
+								o mat:
+
+				Physiognomy Classification
+					o abb:
+					o syn:
+					o imp:
+					o des: The apparent characteristics, outward features, or appearance of ecological
+                                               communities or species (WP)
+					o std:
+					o lan:
+					o src: http://bit.ly/1CzUOUV (WP)
+					o lit: Woodward et al. (2004), http://bit.ly/1CSSrgw (IGBP-DIS Landcover)
+					o mat: Somehow mixed in the ENVO WMF biomes
+
+					Forests
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o lit: Woodward et al. (2004)
+						o lit:
+						o mat: ENVO:00000111, This is something that ENVO has in the WMF Biomes covered
+
+						Evergreen needleleaf
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands dominated by trees with a canopy cover of more than 60% and height
+                                                               exceeding 2 m. Almost all trees remain green all year. Canopy is never without
+                                                               green foliage. Woodward et al. (2004).
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat:
+
+						Evergreen broadleaf
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands dominated by trees with a canopy cover of more than 60% and height
+                                                               exceeding 2 meters. Almost all trees remain green all year. Canopy is never without
+                                                               green foliage. Woodward et al. (2004).
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat:
+
+						Deciduous needleleaf
+							o abb:
+							o syn:
+							o imp:
+	 						o des: Lands dominated by trees with a canopy cover of more than 60% and height
+                                                               exceeding 2 meters. Consists of seasonal needleleaf tree communities with an annual
+                                                               cycle of leaf-on and leaf-off periods. Woodward et al. (2004).
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat:
+
+						Deciduous broadleaf
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands dominated by trees with a canopy cover of more than 60% and height
+                                                               exceeding 2 meters. Consists of seasonal broadleaf tree communities with an
+                                                               annual cycle of leaf-on and leaf-off periods. Woodward et al. (2004).
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat:
+
+						Mixed
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands dominated by trees with a canopy cover of more than 60% and height
+                                                               exceeding 2 m. Consists of tree communities with interspersed mixtures or
+                                                               mosaics of the other four forest cover types. None of the forest types exceeds
+                                                               60% of the landscape Woodward et al. (2004).
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat:
+
+					Open Woodland
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+						Savannah
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands with herbaceous and other understorey systems, and with forest canopy
+                                                               cover between 10 and 30%. The forest cover height exceeds 2 m.
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat: ENVO:00000261
+
+						Woody Savannah
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands with herbaceous and other understorey systems, and with forest canopy
+                                                               cover of between 30 and 60%. The forest cover height exceeds 2 m.
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat:
+
+					Shrubland
+						o abb:
+						o syn: Scrubland, Scrub, Brush
+						o imp:
+						o des: Shrubland [...] is a plant community characterised by
+                                                       vegetation dominated by shrubs, often also including grasses, herbs, and
+                                                       geophytes (WP).
+						o std:
+						o lan:
+						o src: http://bit.ly/1yILcIN (WP)
+						o lit:
+						o mat: ENVO:00000300
+
+						Closed shrubland
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands with woody vegetation less than 2 m tall and with shrub canopy cover more
+                                                               than 60%. The shrub foliage can be either evergreen or deciduous.
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat:
+
+						Open shrubland
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands with woody vegetation less than 2 m tall and with shrub canopy cover
+                                                               between 10 and 60%. The shrub foliage can be either evergreen or deciduous.
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat:
+
+					Herbaceous Systems
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+						Grassland
+							o abb:
+							o syn:
+							o imp:
+							o des: Lands with herbaceous types of cover. Tree and shrub cover is less than 10%
+							o std:
+							o lan:
+							o src:
+							o lit: Woodward et al. (2004)
+							o mat: ENVO:00000106
+
+					Barren Land
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+						Desert
+							o abb:
+							o syn:
+							o imp:
+							o des: A desert is a barren area of land where little precipitation occurs and
+                                                               consequently living conditions are hostile for plant and animal life (WP)
+							o std:
+							o lan:
+							o src: http://bit.ly/1Cib4Mi (WP)
+							o lit:
+							o mat: ENVO:00000097
+
+				Land use Classification
+					o abb:
+					o syn:
+					o imp:
+					o des: Land use is the human use of land. Land use involves the management and
+                                               modification of natural environment or wilderness into built environment such
+                                               as settlements and semi-natural habitats such as arable fields, pastures, and
+                                               managed woods. It also has been defined as "the arrangements, activities and
+                                               inputs people undertake in a certain land cover type to produce, change or
+                                               maintain it" (FAO, 1997a; FAO/UNEP, 1999)
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat: partially in Anthropogenic Geographic Feature -> populated place
+
+					Natural
+						o abb:
+						o syn:
+						o imp:
+						o des: Refers to untouched (maybe protected) areas not undergoing any management
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Semi Natural
+						o abb:
+						o syn:
+						o imp:
+						o des: Refers to man made environments e.g. settlements and managed areas for crop
+						       cultivation and forest plantation.
+						o std:
+						o lan:
+						o src: http://bit.ly/1CFdzX9 (WP)
+						o lit:
+						o mat:
+
+						Agricultural
+							o abb:
+							o syn:
+							o imp:
+							o des: Refers to systems used for agricultural purposes e.g. arable land, permanent crops, managed grasslands
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+						Forest
+							o abb:
+							o syn:
+							o imp:
+							o des: Refers to manged forests or forest like systems as forest plantations
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+					Urban
+						o abb:
+						o syn:
+						o imp:
+						o des: An urban area is a location characterized by high human population density and
+						       vast human-built features in comparison to the areas surrounding it (WP)
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+						Urban Non-vegetated
+							o abb:
+							o syn:
+							o imp:
+							o des: Non vegetated urban spaces e.g. street, house
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+						Urban Vegetated
+							o abb:
+							o syn:
+							o imp:
+							o des: Vegetated urban spaces e.g. parkland, golf course, garden
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+			Aquatic Biomes
+				o abb:
+				o syn:
+				o imp:
+				o des: Aquatic biomes can be generally distinguished into two broad classes which are
+                                       freshwater and marine which differ by their content of salt.
+                                       Where fresh and salt water mixes we get brackish water which offers a
+                                       niche for specially adapted organisms. The main factors influencing the
+                                       aquatic biomes are the salinity, the tides, currents and light availability as
+                                       well as the light quality.
+				o std:
+				o lan:
+				o src: http://bit.ly/1L2LuPq (BERKLEY-EDU), http://bit.ly/1Jr8YKw (MIAMI-EDU)
+				o lit:
+				o mat: ENVO:00002030
+
+				Freshwater Biomes
+					o abb:
+					o syn:
+					o imp:
+					o des: Fresh water is naturally occurring water on the Earth's surface with a salt
+                                               concentration below 1% (WP, M)
+					o std:
+					o lan:
+					o src: http://bit.ly/1L2NW8I (WP), http://bit.ly/1L2LuPq (BERKLEY-EDU)
+					o lit:
+					o mat: ENVO:00000873
+
+					Ponds and Lakes
+						o abb:
+						o syn:
+						o imp:
+						o des: A lake is a body of fresh water that can vary in size that enclosed by land
+                                                       masses with no connection to a flowing water body e.g. streams and river or to
+                                                       the sea (WP)
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: ENVO:00000033, ENVO:00000020
+
+						Ponds and Lakes Characteristics
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+							Holomictic
+								o abb:
+								o syn:
+								o imp:
+								o des: Holomictic lakes are lakes, which, at some time during the year, have a uniform
+								       temperature and density from top to bottom, allowing the lake waters to
+								       completely mix (WP).
+								o std:
+								o lan:
+								o src: http://bit.ly/1zBOAGz (WP)
+								o lit:
+								o mat: ENVO:01000285
+
+								Monomictic
+									o abb:
+									o syn:
+									o imp:
+									o des: Monomictic lakes are holomictic lakes that mix from top to bottom during one
+									       mixing period each year (WP)
+									o std:
+									o lan:
+									o src: http://bit.ly/1JqV9f4 (WP)
+									o lit:
+									o mat: ENVO:01000288
+
+								Dimictic
+									o abb:
+									o syn:
+									o imp:
+									o des: Dimictic lakes are holomictic lakes that mix from top to bottom during two
+									       mixing periods each year (WP)
+									o std:
+									o lan:
+									o src: http://bit.ly/1zBPdjv (WP)
+									o lit:
+									o mat: ENVO:01000286
+
+								Polymictic
+									o abb:
+									o syn:
+									o imp:
+									o des: Polymictic lakes are holomictic lakes that are too shallow to develop a thermal
+									       stratification; thus, their waters can mix from top to bottom
+									       throughout the ice-free period (WP, M)
+									o std:
+									o lan:
+									o src: http://bit.ly/1JqW27o (WP)
+									o lit:
+									o mat: ENVO:01000287
+
+							Meromictic
+								o abb:
+								o syn:
+								o imp:
+								o des: A meromictic lake has layers of water that do not intermix.
+								o std:
+								o lan:
+								o src: http://bit.ly/1zBPHX1 (WP)
+								o lit:
+								o mat: ENVO:00000199
+
+							Amictic
+								o abb:
+								o syn:
+								o imp:
+								o des: Amictic lakes are perennially frozen and they exhibit an inverse cold water
+								       stratification where the temperature increases withh depth below the ice
+								       surface
+								o std:
+								o lan:
+								o src: http://bit.ly/1zBQmaU (WP)
+								o lit:
+								o mat: ENVO:01000284
+
+					Streams and Rivers
+						o abb:
+						o syn:
+						o imp:
+						o des: Streams and rivers are flowing (lotic) bodies of fresh water.
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat: ENVO:00000023, ENVO:0000002
+
+						Streams and Rivers Characteristics (Pelin asks colleague)
+							o abb:
+							o syn:
+							o imp:
+							o des:
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat:
+
+							Streams and Rivers Bed Type
+								o abb:
+								o syn:
+								o imp:
+								o des:
+								o std:
+								o lan:
+								o src:
+								o lit:
+								o mat: ENVO:00000384
+
+								Alluvial
+									o abb:
+									o syn:
+									o imp:
+									o des: An alluvial river is river in which the bed and banks are made up of mobile
+									       sediment and/or soil (WP)
+									o std:
+									o lan:
+									o src: http://bit.ly/1L2SvzK (WP)
+									o lit:
+									o mat:
+
+								Bedrock
+									o abb:
+									o syn:
+									o imp:
+									o des: A bedrock river is a river that typically has little to no alluvium mantling
+									       the bedrock over which it flows (WP)
+									o std:
+									o lan:
+									o src: http://bit.ly/1yMFwfe (WP)
+									o lit:
+									o mat:
+
+							Streams and Rivers Zonation
+								o abb:
+								o syn:
+								o imp:
+								o des:
+								o std:
+								o lan:
+								o src: http://bit.ly/1zBSG1y (WP)
+								o lit:
+								o mat:
+
+								Longitudinal Zonation
+									o abb:
+									o syn:
+									o imp:
+									o des: A zonation that is noticeable along the flowing river
+									o std:
+									o lan:
+									o src:
+									o lit:
+									o mat:
+
+									Crenon
+										o abb:
+										o syn:
+										o imp:
+										o des: The crenon is the uppermost zone of a river that is characterized by low
+										       temperatures, reduced oxygen content and slow moving water
+										o std:
+										o lan:
+										o src: http://bit.ly/1zBSG1y (WP)
+										o lit:
+										o mat:
+
+										Eucrenon
+											o abb:
+											o syn:
+											o imp:
+											o des: The eucrenon is the uppermost part of a river also called spring or boil zone.
+											       It is characterized by low temperatures, reduced oxygen content and slow moving
+											       water (WP)
+											o std:
+											o lan:
+											o src: http://bit.ly/1zBSG1y (WP)
+											o lit:
+											o mat:
+
+										Hypocrenon
+											o abb:
+											o syn:
+											o imp:
+											o des: The hypocrenon belongs to the uppermost part of the river. It is also called
+											       brook or headstream zone and is characterized by low temperatures, reduced
+											       oxygen content and slow moving water (WP)
+											o std:
+											o lan:
+											o src: http://bit.ly/1zBSG1y (WP)
+											o lit:
+											o mat:
+
+									Rhithron
+										o abb:
+										o syn:
+										o imp:
+										o des: The rhithron is the upstream portion of the river that follows the crenon. It
+										       is characterized by relatively cool temperatures, high oxygen levels, and fast,
+										       turbulent flow (WP).
+										o std:
+										o lan:
+										o src: http://bit.ly/1zBSG1y (WP)
+										o lit:
+										o mat:
+
+									Potamon
+										o abb:
+										o syn:
+										o imp:
+										o des: The potamon is the remaining downstream stretch of river. It is characterized
+										       by warmer temperatures, lower oxygen levels, slow flow and sandier bottoms (WP)
+										o std:
+										o lan:
+										o src: http://bit.ly/1zBSG1y (WP)
+										o lit:
+										o mat:
+
+				Marine Biomes
+					o abb:
+					o syn:
+					o imp:
+					o des: Marine water is naturally occurring water on the Earth's surface with a salt
+                                               concentration of 3 to 5% (WP, M)
+					o std:
+					o lan:
+					o src: http://bit.ly/1L2NW8I (WP), http://bit.ly/1L2LuPq (BERKLEY-EDU)
+					o lit:
+					o mat:
+
+					Estuary
+						o abb:
+						o syn:
+						o imp:
+						o des: An estuary is a partly enclosed coastal body of brackish water with one or more
+						       rivers or streams flowing into it, and with a free connection to the open sea (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1yMH7BC
+						o lit:
+						o mat: ENVO:01000020
+
+					Ocean
+						o abb:
+						o syn:
+						o imp:
+						o des: An ocean is a body of saline water that composes a large portion of a planet's
+						       hydrosphere. The Ocean habitat refers the whole open water (WP, M)
+						o std:
+						o lan:
+						o src: http://bit.ly/1Jr5PdI (WP)
+						o lit:
+						o mat: ENVO:01000048
+
+					Coral Reef
+						o abb:
+						o syn:
+						o imp:
+						o des: Coral reefs are diverse underwater ecosystems held together by calcium
+						       carbonate structures secreted by corals (WP)
+						o std:
+						o lan:
+						o src: http://bit.ly/1zBUfg2 (WP)
+						o lit:
+						o mat: ENVO:01000049
+
+					Marine Biome Characteristics
+						o abb:
+						o syn:
+						o imp:
+						o des: The characteristics that describe a marine biome
+						o std:
+						o lan:
+						o src:
+						o lit:
+						o mat:
+
+					Marine Biome Zonation
+							o abb:
+							o syn:
+							o imp:
+							o des: The marine zonation is based on various factors e.g. the depth, the light availability
+                                                               and distance from the shore
+							o std:
+							o lan:
+							o src:
+							o lit:
+							o mat: ENVO:01000295
+
+						Intertidal
+								o abb:
+								o syn:
+								o imp:
+								o des:
+								o std: The intertidal area is the part close to the shore that is covered by water on
+                                                                       high tides but exposed on low tides
+								o lan:
+								o src:
+								o lit:
+								o mat: ENVO:00000316
+
+						Neritic
+								o abb:
+								o syn:
+								o imp:
+								o des: Shallow water above the continental shelf with high light levels (photic)
+								o std:
+								o lan:
+								o src:
+								o lit:
+								o mat: ENVO:00000206
+
+						Oceanic
+								o abb:
+								o syn:
+								o imp:
+								o des: Deeper water that is not above the continental shelf. It has high light
+                                                                       availability in the upper regions of the water columns
+								o std:
+								o lan:
+								o src:
+								o lit:
+								o mat: ENVO:00000207
+
+						Pelagic
+								o abb:
+								o syn:
+								o imp:
+								o des: In the pelagic zone the water column contains photic and aphotic regions
+								o std:
+								o lan:
+								o src:
+								o lit:
+								o mat: ENVO:01000023
+
+								Photic Pelagic Layers
+									o abb:
+									o syn:
+									o imp:
+									o des: The upper parts of the water column that are characterized by hight light availability
+									o std:
+									o lan:
+									o src:
+									o lit:
+									o mat:
+
+									Epipelagic
+										o abb:
+										o syn:
+										o imp:
+										o des: The uppermost layer of the water column ~200m deep characterized by high light availability
+										o std:
+										o lan:
+										o src:
+										o lit:
+										o mat:
+
+								Aphotic Pelagic Layers
+									o abb:
+									o syn:
+									o imp:
+									o des: The lower parts of the water column that are characterized by low light availability
+									o std:
+									o lan:
+									o src:
+									o lit:
+									o mat:
+
+								Mesopelagic
+										o abb:
+										o syn:
+										o imp:
+										o des: The mesopelagic layer comes directly underneath the epipelagic layer, reaches to a depth of ~1000m and is characterized by low light availability
+										o std:
+										o lan:
+										o src:
+										o lit:
+										o mat: ENVO:01000036
+
+								Bathyalpelagic
+										o abb:
+										o syn:
+										o imp:
+										o des: The bathyalpelagic layer comes directly underneath the mesopelagic layer, reaches to a depth of ~4000m and is characterized by low light availability
+										o std:
+										o lan:
+										o src:
+										o lit:
+										o mat: ENVO:01000037
+
+								Abyssopelagic
+										o abb:
+										o syn:
+										o imp:
+										o des: The abyssopelagic layer comes directly underneath the bathyalpelagic layer, reaches to a depth of ~6000m and is characterized by low light availability
+										o std:
+										o lan:
+										o src:
+										o lit:
+										o mat: ENVO:01000038
+
+								Hadopelagic
+										o abb:
+										o syn:
+										o imp:
+										o des: The abyssopelagic layer comes directly underneath the abyssopelagic layer, reaches to a depth of more ~6000m and is characterized by low light availability
+										o std:
+										o lan:
+										o src:
+										o lit:
+										o mat: ENVO:01000039
+
+							Benthic Zones
+									o abb:
+									o syn:
+									o imp:
+									o des: The benthic zone is located at the bottom of a water body including the
+                                                                               sediment surface and some sub-surface layers. It can be divided into different
+                                                                               zones along the water depth
+									o std:
+									o lan:
+									o src: http://bit.ly/1BqZ4Xw (WP)
+									o lit:
+									o mat: ENVO:01000025, ENVO:01000024
+
+								Littoral
+										o abb:
+										o syn:
+										o imp:
+										o des: The littoral zone is starting from the shorelin in the spray region just above the high tide mark and extents roughly ot the edge of the continental shelf (WP, M).
+										o std:
+										o lan:
+										o src: http://bit.ly/1zMO20L (WP)
+										o lit:
+										o mat: ENVO:00000303
+
+									Supralitoral
+											o abb:
+											o syn:
+											o imp:
+											o des: The supralittoral zone, also known as the splash zone, spray zone or the
+                                                                                               supratidal zone, is the area above the spring high tide line, on coastlines and
+                                                                                               estuaries, that is regularly splashed, but not submerged by ocean water (WP)
+											o std:
+											o lan:
+											o src: http://bit.ly/1BqZz3Z (WP)
+											o lit:
+											o mat: ENVO:01000124
+
+									Eulitoral
+											o abb:
+											o syn: Intertidal Zone, Foreshore, Seashore
+											o imp:
+											o des: The intertidal zone, also known as the foreshore and seashore and sometimes
+                                                                                               referred to as the littoral zone, is the area that is above water at low tide
+                                                                                               and under water at high tide (in other words, the area between tide marks) (WP)
+											o std:
+											o lan:
+											o src: http://bit.ly/1zMOQmq (WP)
+											o lit:
+											o mat:
+
+									Sublittoral
+											o abb:
+											o syn:
+											o imp:
+											o des: The sublittoral zone starts immediately below the eulittoral zone. This zone is
+                                                                                               permanently covered with seawater and is approximately equivalent to the
+                                                                                               neritic zone (WP)
+											o std:
+											o lan:
+											o src: http://bit.ly/1zMO20L
+											o lit:
+											o mat: ENVO:01000126
+
+								Bathyal
+										o abb:
+										o syn:
+										o imp:
+										o des: The bathyal zone [...] is the part of the pelagic zone that
+                                                                                       extends from a depth of 1000 to 4000 metres below the ocean surface (WP)
+										o std:
+										o lan:
+										o src: http://bit.ly/1zMUSDA (WP)
+										o lit:
+										o mat: ENVO:01000026
+
+								Abyssal
+										o abb:
+										o syn:
+										o imp:
+										o des: The abyssal zone [...] contains the very deep benthic communities near the
+                                                                                       bottom of oceans at depths of 4,000 to 6,000 metres, this zone remains in
+                                                                                       perpetual darkness and never receives daylight (WP, M)
+										o std:
+										o lan:
+										o src: http://bit.ly/1Br3o9f (WP)
+										o lit:
+										o mat: ENVO:01000027
+
+								Hadal
+										o abb:
+										o syn: Trench Zone
+										o imp:
+										o des: The hadal zone [...] is the delineation for the deepest trenches in the ocean.
+                                                                                       This zone is found from a depth of around 6,000 metres to the bottom of the
+                                                                                       ocean. The hadal zone has a relatively low population and low diversity of
+                                                                                       marine life (WP, M)
+										o std:
+										o lan:
+										o src: http://bit.ly/1zMZo4V (WP)
+										o lit:
+										o mat: ENVO:01000028
+
+
+							Aquatic Clines
+									o abb:
+									o syn:
+									o imp:
+									o des:
+									o std:
+									o lan:
+									o src:
+									o lit:
+									o mat: ENVO:01000258
+
+								Chemocline
+										o abb:
+										o syn:
+										o imp:
+										o des: A chemocline is a cline caused by a strong, vertical chemistry gradient within
+                                                                                       a body of water (WP)
+										o std:
+										o lan:
+										o src: http://bit.ly/1yqcCCw (WP)
+										o lit:
+										o mat: ENVO:00002270
+
+									Halocline
+											o abb:
+											o syn:
+											o imp:
+											o des: In oceanography, a halocline is a subtype of chemocline caused by a strong,
+											       vertical salinity gradient within a body of water (WP)
+											o std:
+											o lan:
+											o src: http://bit.ly/1COzYSb
+											o lit:
+											o mat:
+
+								Thermocline
+										o abb:
+										o syn:
+										o imp:
+										o des: A thermocline (sometimes metalimnion in lakes) is a thin but distinct layer in
+										       a large body of fluid (e.g. water, such as an ocean or lake, or air, such as an
+										       atmosphere) in which temperature changes more rapidly with depth than it does
+										       in the layers above or below (WP)
+										o std:
+										o lan:
+										o src: http://bit.ly/1Ca6Qqf (WP)
+										o lit:
+										o mat: ENVO:00002269
+
+								Pycnocline
+										o abb:
+										o syn:
+										o imp:
+										o des: A pycnocline is the cline or layer where the density gradient is greatest
+                                                                                       within a body of water
+										o std:
+										o lan:
+										o src: http://bit.ly/1yq8AKv (WP)
+										o lit:
+										o mat: ENVO:01000259
+
+
+
+
+
+
+
+
+
+
+
+
+# Other stuff for discussion that might get included
+
+Marine or ecotones movement
+	Ocean current
+
+Continental Water
+	Lentic (Standing, Ponds and Lakes)
+	Lotic (Moving, Rivers and Streams)
+
+	o http://bit.ly/1L2Tdx9
+
+
+Chemical properties of water
+	Water pH
+	Water Salinity
+
+
+Use
+	Water-Use ...
+		Natural and Semi-Natural
+		Artificial
+		Agricultural
+		Industry (Cooling Water)
+		Watering
+		Drinking
+		Fishery
+
+
+
+
+
+
+
+
+# Documentation
+
+Marine habitat influencing factors
+
+o source http://bit.ly/1ulEYZz
+
+
+Light Penetration
+	Photic
+	Aphotic
+
+Physiognomy
+	Kelp forests
+	Coral reefs
+
+Habitats
+	Open water
+	Muddy Bottom
+	Rocky Shore (Rock and Corals)
+
+Water bodies
+	Estuaries
+
+Features of earth crust
+	Mid-Ocean ridge
+	Continental shelf
+
+	Ocean banks
+	Hydrothermal vents
+	Seamounts
+
+Aquatic Biomes
+	Littoral zone
+	Oceanic zone
+	Intertidal zone
+	Pelagic zone
+	Benthic zone
+
+	Neritic zone
+	Demersal zone
+
+	Straits
+	Cold seeps
+
+	other ...
+
+		Polar
+		Temperate shelves and sea
+		Temperate upwelling
+		Tropical upwelling
+		Tropical coral
+		Pelagic zone (trades and westerlies)
+		Benthic zone
+		Abyssal
+		Hadal (ocean trench)
+
+Processes
+	Upwelling
+	Water cycle
+
+Ecozones (Climate, Vegetation, Soil, Land Usage)
+	Palearctic (Eurasia, North Africa)
+	Nearctic (North America)
+	Afrotropic (Sub-Saharan Africa)
+	Neotropic (South America, Central America, Caribbean)
+	Australasia (Australia, New Guinea, New Zealand)
+	Indo-Malaya (India, Southeast Asia, Southern China)
+	Oceania (Polynensia, Micronesia, Fijian Islands)
+	Antarctic (Antarctica)
+
+Anthropogenic biomes
+	Settlements
+		Hamlet
+		Village
+		Town
+		City
+	Croplands
+	Rangeland
+	Forested
+
+Pycnocline
+	Isopycnal
+		Chemocline (Oxygenaion)
+			Halocline (Salinity)
+		Thermocline (Temperature)
+			Thermohaline ()
+	Wildlands
+
+Streams and Rivers Habitats (!!!)
+	Riparian Zone
+
+
+
+# Other stuff for discussion that might get included
+Marine or ecotones movement
+	Ocean current
+Continental Water
+	Lentic (Standing, Ponds and Lakes)
+	Lotic (Moving, Rivers and Streams)
+Chemical properties of water
+	Water pH
+	Water Salinity
+Use
+	Water-Use ...
+		Natural and Semi-Natural
+		Artificial
+		Agricultural
+		Industry (Cooling Water)
+		Watering
+		Drinking
+		Fishery
+# Documentation
+Marine habitat influencing factors
+o source http://bit.ly/1ulEYZz
+Light Penetration
+	Photic
+	Aphotic
+Physiognomy
+	Kelp forests
+	Coral reefs
+Habitats
+	Open water
+	Muddy Bottom
+	Rocky Shore (Rock and Corals)
+Water bodies
+	Estuaries
+
+Features of earth crust
+	Mid-Ocean ridge
+	Continental shelf
+	Ocean banks
+	Hydrothermal vents
+	Seamounts
+
+Aquatic Biomes
+	Littoral zone
+	Oceanic zone
+	Intertidal zone
+	Pelagic zone
+	Benthic zone
+	Neritic zone
+	Demersal zone
+	Straits
+	Cold seeps
+	other ...
+		Polar
+		Temperate shelves and sea
+		Temperate upwelling
+		Tropical upwelling
+		Tropical coral
+		Pelagic zone (trades and westerlies)
+		Benthic zone
+		Abyssal
+		Hadal (ocean trench)
+Processes
+	Upwelling
+	Water cycle
+
+Ecozones (Climate, Vegetation, Soil, Land Usage)
+	Palearctic (Eurasia, North Africa)
+	Nearctic (North America)
+	Afrotropic (Sub-Saharan Africa)
+	Neotropic (South America, Central America, Caribbean)
+	Australasia (Australia, New Guinea, New Zealand)
+	Indo-Malaya (India, Southeast Asia, Southern China)
+	Oceania (Polynensia, Micronesia, Fijian Islands)
+	Antarctic (Antarctica)
+
+Anthropogenic biomes
+	Settlements
+		Hamlet
+		Village
+		Town
+		City
+	Croplands
+	Rangeland
+	Forested
+Pycnocline
+	Isopycnal
+		Chemocline (Oxygenaion)
+			Halocline (Salinity)
+		Thermocline (Temperature)
+			Thermohaline ()
+	Wildlands
+Elevations
+	... Others
+		Sea level
+		Below Sea level
+Streams and Rivers Habitats (!!!)
+	Riparian Zone

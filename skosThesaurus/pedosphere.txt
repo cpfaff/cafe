@@ -1,0 +1,787 @@
+Title: The Pedosphere Branch
+
+Authors: Claas-Thido Pfaff and the Ecological Vocabulary Development Group formed by
+         members of the GFBio project and other related institutions.
+
+Experts:
+
+* Marion Schrumpf (MPI-BGC Jena) <mschrumpf@bgc-jena.mpg.de>
+* Ingo Schöning (MPI-BGC Jena) <ischoen@bgc-jena.mpg.de>
+
+Notes:
+
+The soil part has been fixed on 2015-01-15T12:23:33 and represents the
+consolidated version 0.1 of the branch that will be integrated into the GFBio
+vocabulary server.
+
+Documentation:
+
+The pedosphre branch contains soil types after the world reference base for
+soils, soil horizons ant physical as well as chemical attributes to tag data
+that contains information about the soil in a specific study.
+
+Spheres
+	o abb:
+	o syn:
+	o imp:
+	o des: Spheres represent a multidimensional space that makes up distinguishable layers of a planet
+	o std:
+	o lan:
+	o src:
+	o lit:
+	o mat:
+
+	Pedosphere
+		o abb:
+		o syn:
+		o imp:
+		o des: The pedosphere is the outermost layer on the Earth, composed of soil and subject to soil formation processes. It exists at the interface of the lithosphere, atmosphere, hydrosphere and biosphere. (WP)
+		o std:
+		o lan:
+		o src: http://bit.ly/156n7j7 (WP)
+		o lit:
+		o mat:
+
+		Soil
+			o abb:
+			o syn:
+			o des:
+			o des: The earth or ground that makes up the surface of the earth. (http://bit.ly/1xtSbUl, OED, M)
+			o std:
+			o src:
+				- http://bit.ly/1xoK62h (WP, WRB)
+				- http://bit.ly/1u5aH4H (WRB 2014, PDF)
+				- http://bit.ly/1tBQzBM (Soil Science Society of America)
+
+			Soil Types
+				o abb:
+				o syn:
+				o imp:
+				o des:
+				o std: World Reference Base for Soil Resources (WRB, FAO)
+				o lan:
+				o src: http://bit.ly/1xoK62h
+				o lit:
+				o mat:
+
+				Soils with thick organic layers
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Histosol
+						o abb: HS
+						o syn: Histosol
+						o imp:
+						o des: A histosol is a type of soil consisting primarily of organic materials (WP)
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1xtJxVG (WP)
+						o lit:
+						o mat:
+
+				Soils with strong human influence
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Anthrosol
+						o abb: AT
+						o syn: Anthrosols
+						o imp:
+						o des: Soils with long and intensive agricultural use
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1xeB9en (WP)
+						o lit:
+						o mat:
+
+					Technosol
+						o abb: TC
+						o syn: Technosol
+						o imp:
+						o des: Soils containing significant amounts of artefacts
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1ytr75M (WP)
+						o lit:
+						o mat:
+
+				Soils with limitations to root growth
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Cryosol
+						o abb: CR
+						o syn: Gelisol, Cryosols
+						o imp:
+						o des: Permafrost-affected soils
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1GKWnTX (WP)
+						o lit:
+						o mat:
+
+					Leptosol
+						o abb: LP
+						o syn: Leptosols
+						o imp:
+						o des: Thin soils or soils with many coarse fragments
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1wOeC6B (WP)
+						o lit:
+						o mat:
+
+					Vertisol
+						o abb: VR
+						o syn: Vertosol, Vertisols
+						o imp:
+						o des: Alternating wet-dry conditions, shrink-swell clays
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1xtJrxt
+						o lit:
+						o mat:
+
+					Solonetz
+						o abb: SN
+						o syn:
+						o imp:
+						o des: Soils with a high content of exchangeable Na
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1xGAVt4 (WP), http://bit.ly/1wOfA2J (EB)
+						o lit:
+						o mat:
+
+					Solonchak
+						o abb: SC
+						o syn:
+						o imp:
+						o des: High concentration of soluble salts
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1C3D5Hq (WP), http://bit.ly/1uXbPsz (EB)
+						o lit:
+						o mat:
+
+				Soils distinguished by Fe/Al chemistry
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Gleysol
+						o abb: GL
+						o syn: Gleysols
+						o imp:
+						o des: Groundwater-affected soils, underwater soils and soils in tidal areas
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1EwEkPo (WP)
+						o lit:
+						o mat:
+
+
+					Andosol
+						o abb: AN
+						o syn: Andisol, Andosols
+						o imp:
+						o des: Influenced by Iron and Aluminium processes
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/147P8q8 (WP)
+						o lit:
+						o mat:
+
+
+					Podzol
+						o abb: PZ
+						o syn: Spodosol, Podosol, Podzols
+						o imp:
+						o des: Subsoil accumulation of humus and/or oxides
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1svyghD (EB)
+						o lit:
+						o mat:
+
+					Plinthosol
+						o abb: PT
+						o syn: Plinthosols
+						o imp:
+						o des: Accumulation and redistribution of Fe
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1pLWQAh, http://bit.ly/1EokKCW
+						o lit:
+						o mat:
+
+					Nitisol
+						o abb: NT
+						o syn: Nitisols
+						o imp:
+						o des: Low-activity clay, P fixation, many Fe oxides, strongly structured
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1pLXzBz (WP), http://bit.ly/1qC6iB6 (EB)
+						o lit:
+						o mat:
+
+					Ferralsol
+						o abb: FR
+						o syn: Oxisol, Ferralsols
+						o imp:
+						o des: Dominance of kaolinite and oxides
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1u55N7A, http://bit.ly/1qC6Nef
+						o lit:
+						o mat:
+
+					Planosol
+						o abb: PL
+						o syn: Planosols
+						o imp:
+						o des: Stagnating water, abrupt textural difference
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1tXtNbn (WP), http://bit.ly/10PXTDa (EB)
+						o lit:
+						o mat:
+
+					Stagnosol
+						o abb: ST
+						o syn: Stagnosols
+						o imp:
+						o des: Stagnating water, structural difference and/or moderate textural difference
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1B0lq5a
+						o lit:
+						o mat:
+
+
+				Pronounced accumulation of organic matter in the mineral topsoil
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Chernozem
+						o abb: CH
+						o syn:
+						o imp:
+						o des: Blackish topsoil, secondary carbonates
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/14815MD (WP), http://bit.ly/1svLzhP (EB)
+						o lit:
+						o mat:
+
+					Kastanozem
+						o abb: KS
+						o syn:
+						o imp:
+						o des: Dark topsoil, secondary carbonates
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1pM7QO6 (EB)
+						o lit:
+						o mat:
+
+					Phaeozem
+						o abb: PH
+						o syn:
+						o imp:
+						o des: Dark topsoil, no secondary carbonates (unless very deep), high base status
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1oFLblz (WP), http://bit.ly/1ui5QwC (EB)
+						o lit:
+						o mat:
+
+					Umbrisol
+						o abb: UM
+						o syn:
+						o imp:
+						o des: Dark topsoil, low base status
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1syDF8D (WP), http://bit.ly/1GL8Irk (EB)
+						o lit:
+						o mat:
+
+				Accumulation of moderately soluble salts or non-saline substances
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Gypsisol
+						o abb: GY
+						o syn:
+						o imp:
+						o des: Accumulation of secondary gypsum
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/11dR1jZ (WP), http://bit.ly/1xeJIFV (EB)
+						o lit:
+						o mat:
+
+					Durisol
+						o abb: DU
+						o syn:
+						o imp:
+						o des: Accumulation of, and cementation by, secondary silica
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/11dRm6j (WP), http://bit.ly/1EwSNuA (EB)
+						o lit:
+						o mat:
+
+					Calcisol
+						o abb: CL
+						o syn:
+						o imp:
+						o des: Accumulation of secondary carbonates
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/11dRuTo (WP), http://bit.ly/1tC1X0D (EB)
+						o lit:
+						o mat:
+
+
+				Soils with a clay-enriched subsoil
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Retisol
+						o abb: RT
+						o syn: Albeluvisol
+						o imp: Retisols
+						o des: Retic properties
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/10Q5hhT (WP), http://bit.ly/1B0we31 (EB)
+						o lit:
+						o mat:
+
+					Acrisol
+						o abb: AC
+						o syn: Acrisols
+						o imp:
+						o des: Low-activity clays, low base status
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1GLbZGY (WP), http://bit.ly/1EwV49f (EB)
+						o lit:
+						o mat:
+
+					Lixisol
+						o abb: LX
+						o syn: Lixisols
+						o imp:
+						o des: Low-activity clays, high base status
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1487pDN (WP), http://bit.ly/1xtWKxP (EB)
+						o lit:
+						o mat:
+
+					Alisol
+						o abb: AL
+						o syn: Alisols
+						o imp:
+						o des: High-activity clays, low base status
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1xtWO0G (WP), http://bit.ly/11dTfzT (EB)
+						o lit:
+						o mat:
+
+					Luvisol
+						o abb: LV
+						o syn: Luvisols
+						o imp:
+						o des: High-activity clays, high base status
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/11dTomP (WP), http://bit.ly/1syIOxe (EB)
+						o lit:
+						o mat:
+
+
+				Soils with little or no profile differentiation
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					Arenosol
+						o abb: AR
+						o syn: Arenosols
+						o imp:
+						o des: Sandy soils
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1wOBgMe (WP), http://bit.ly/1xp3V9I (EB)
+						o lit:
+						o mat:
+
+					Cambisol
+						o abb: CM
+						o syn: Cambisols
+						o imp:
+						o des: Moderately developed soils
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1xtXbbu (WP), http://bit.ly/1pMebZN (EB)
+						o lit:
+						o mat:
+
+					Fluvisol
+						o abb: FL
+						o syn: Fluvisols
+						o imp:
+						o des: Soils with stratified fluviatile, marine and lacustrine sediments
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1xH1Ncr (WP), http://bit.ly/1wOBItM (EB)
+						o lit:
+						o mat:
+
+					Regosol
+						o abb: RG
+						o syn: Regosols
+						o imp:
+						o des: Soils with no significant profile development
+						o std: World Reference Base for Soil Resources (WRB)
+						o lan:
+						o src: http://bit.ly/1zJcsrk (WP), http://bit.ly/1wOBVxh (EB)
+						o lit:
+						o mat:
+
+			Soil Horizon
+				o abb:
+				o syn: Soil Layer
+				o imp:
+				o des: A soil horizon is a layer generally parallel to the soil surface, whose physical characteristics differ from the layers above and beneath (WP)
+				o std:
+				o lan:
+				o src: http://bit.ly/10Qff2M (M-EDU)
+				o lit:
+				o mat:
+
+				O Horizon
+					o abb:
+					o syn:
+					o imp:
+					o des: A surface horizon that is a mix of minerals and organic matter (leaf litter and humus). The organic matter is the dominant material in the O horizon. (M-EDU)
+					o std:
+					o lan:
+					o src: http://bit.ly/10Qff2M (M-EDU)
+					o lit:
+					o mat:
+
+				A Horizon
+					o abb:
+					o syn: Surface Horizon, Biomantle
+					o imp:
+					o des: A surface horizon that is a mix of mineral and organic matter. Unlike the O horizon, minerals are the dominant material. (M-EDU)
+					o std:
+					o lan:
+					o src: http://bit.ly/10Qff2M (M-EDU)
+					o lit:
+					o mat:
+
+				E Horizon
+					o abb:
+					o syn:
+					o imp:
+					o des: A subsurface horizon bleached in color (white or gray) due to loss of mineral coloring agents (iron and aluminum oxides) (M-EDU).
+					o std:
+					o lan:
+					o src: http://bit.ly/10Qff2M (M-EDU)
+					o lit:
+					o mat:
+
+				B Horizon
+					o abb:
+					o syn:
+					o imp:
+					o des: B horizon is typically a mineral subsurface horizon and is a zone of accumulation, called illuviation (PASS)
+					o std:
+					o lan:
+					o src: http://bit.ly/10Qff2M (M-EDU), http://bit.ly/1reKTRC (PASS)
+					o lit:
+					o mat:
+
+				C Horizon
+					o abb:
+					o syn:
+					o imp:
+					o des: Unconsolidated parent material that has undergone little soil weathering (M-EDU)
+					o std:
+					o lan:
+					o src: http://bit.ly/10Qff2M (M-EDU)
+					o lit:
+					o mat:
+
+				R Horizon
+					o abb:
+					o syn:
+					o imp:
+					o des: Hard bedrock (M-EDU)
+					o std:
+					o lan:
+					o src: http://bit.ly/10Qff2M (M-EDU)
+					o lit:
+					o mat:
+
+				P Horizon
+					o abb:
+					o syn:
+					o imp:
+					o des: These horizons also heavily organic, but are distinct from O horizons in that they form under waterlogged conditions. (WP)
+					o std:
+					o lan:
+					o src: http://bit.ly/1uXLcUm (WP)
+					o lit:
+					o mat:
+
+				L Horizon
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o des: L (Limnic) horizons or layers indicate mineral or organic material that has been deposited in water by precipitation or through the actions of aquatic organisms (WP)
+					o lan:
+					o src: http://bit.ly/1uXLcUm (WP)
+					o lit:
+					o mat:
+
+
+			Physical Properties of Soil
+				o abb:
+				o syn:
+				o imp:
+				o des: Typical physical properties important in the context of soil sciences
+				o std:
+				o lan:
+				o src: http://bit.ly/1zgXkhU (WSU-EDU)
+				o lit:
+				o mat:
+
+				Permeability
+					o abb:
+					o syn:
+					o imp:
+					o des: The rate at which water moves through the soil
+					o std:
+					o lan:
+					o src: http://bit.ly/1zgXkhU (WSU-EDU)
+					o lit:
+					o mat:
+
+				Water-Holding Capacity
+					o abb: WHC
+					o syn:
+					o imp:
+					o des: The ability of a soils micropores to hold water for plant use
+					o std:
+					o lan:
+					o src: http://bit.ly/1zgXkhU (WSU-EDU)
+					o lit:
+					o mat:
+
+				Soil Porosity
+					o abb:
+					o syn:
+					o imp:
+					o des: The porosity of the soil which is influenced by the texture, the structure, the compaction and the amount of organic matter (WS-EDU)
+					o std:
+					o lan:
+					o src: http://bit.ly/1zgXkhU (WSU-EDU)
+					o lit:
+					o mat:
+
+				Soil Texture
+					o abb:
+					o syn:
+					o imp:
+					o des: The relative proportions of sand, silt, and clay
+					o std:
+					o lan:
+					o src: http://bit.ly/1zgXkhU (WSU-EDU)
+					o lit:
+					o mat:
+
+				Soil structure
+					o abb:
+					o syn:
+					o imp:
+					o des: The arrangement of aggregates in a soil
+					o std:
+					o lan:
+					o src: http://bit.ly/1zgXkhU (WSU-EDU)
+					o lit:
+					o mat:
+
+					Platy
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src: http://bit.ly/1zgXkhU (WSU-EDU)
+						o lit:
+						o mat:
+
+					Prismatic
+						o abb:
+						o syn: Columnar
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src: http://bit.ly/1zgXkhU (WSU-EDU)
+						o lit:
+						o mat:
+
+					Blocky
+						o abb:
+						o syn:
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src: http://bit.ly/1zgXkhU (WSU-EDU)
+						o lit:
+						o mat:
+
+					Granular
+						o abb:
+						o syn: Crumb
+						o imp:
+						o des:
+						o std:
+						o lan:
+						o src: http://bit.ly/1zgXkhU (WSU-EDU)
+						o lit:
+						o mat:
+
+				Soil Compaction
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src: http://bit.ly/1zgXkhU (WSU-EDU)
+					o lit:
+					o mat:
+
+				Soil bulk density (This might be synonymous to soil compaction! Check this out)
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+			Chemical Properties of Soil
+				o abb:
+				o syn:
+				o imp:
+				o des: Typical chemical properties important in the context of soil sciences
+				o std:
+				o lan:
+				o src: http://bit.ly/1pMnB7K (WSU-EDU)
+				o lit:
+				o mat:
+
+				Soil pH
+					o abb:
+					o syn:
+					o imp:
+					o des: A measure of the acidity or alkalinity of a soil (WSU-EDU)
+					o std:
+					o lan:
+					o src: http://bit.ly/1pMnB7K (WSU-EDU)
+					o lit:
+					o mat:
+
+				Soil Salinity
+					o abb:
+					o syn:
+					o imp:
+					o des: Soil salinity is the salt content in the soil (WP)
+					o std:
+					o lan:
+					o src: http://bit.ly/1uXQRcU (WP)
+					o lit:
+					o mat:
+
+				Cation-Exchange Capacity
+					o abb: CEC
+					o syn:
+					o imp:
+					o des: CEC is a measure of the quantity of cations that can be adsorbed and held by a soil.
+					o std:
+					o lan:
+					o src: http://bit.ly/1pMnB7K (WSU-EDU)
+					o lit:
+					o mat:
+
