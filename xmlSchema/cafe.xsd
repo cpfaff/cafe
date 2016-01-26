@@ -2008,7 +2008,7 @@
 
     <xs:simpleType name="LifeFormType">
 	<xs:restriction base="xs:string">
-	    <!-- plant -->
+	    <!-- plant life form -->
 	    <xs:enumeration value="Chamaephyte">
 		<xs:annotation>
 		    <xs:documentation>
@@ -2072,7 +2072,6 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-
 	    <xs:enumeration value="Epiphytes">
 		<xs:annotation>
 		    <xs:documentation>
@@ -2106,7 +2105,6 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumberation>
-	    
 
 	    <xs:enumeration value="Phanerophyte">
 		<xs:annotation>
@@ -2118,7 +2116,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <!-- animal -->
+	    <!-- animal life form -->
 	    <xs:enumeration value="Homöotherm"/>
 	    <xs:enumeration value="Heterotherm"/>
 	    <xs:enumeration value="Poikilotherm"/>
@@ -2147,20 +2145,144 @@
     <xs:simpleType name="PhysiognomyType">
 	<xs:restriction base="xs:string">
 	    <!-- forest -->
-	    <xs:enumeration value="Evergreen Needleleaf"/>
-	    <xs:enumeration value="Evergreen Broadleaf"/>
-	    <xs:enumeration value="Deciduous Broadleaf"/>
-	    <xs:enumeration value="Mixed Forest"/>
+
+	    <xs:enumeration value="Evergreen Needleleaf">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands dominated by trees with a canopy cover of more
+			than 60% and height exceeding 2 m. Almost all trees
+			remain green all year. Canopy is never without green
+			foliage. Woodward et al. (2004). 
+		    </xs:documentation> 
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Deciduous Needleleaf">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands dominated by trees with a canopy cover of more
+			than 60% and height exceeding 2 m. Consists of seasonal
+			needleleaf tree communities with an annual cycle of
+			leaf-on and leaf-off periods. Woodward et al.
+			(2004). 
+		    </xs:documentation> 
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Evergreen Broadleaf"> 
+		<xs:annotation>
+		    <xs:documentation>
+			Lands dominated by trees with a canopy cover of more
+			than 60% and height exceeding 2 m. Almost all trees
+			remain green all year. Canopy is never without green
+			foliage. Woodward et al. (2004). 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Deciduous Broadleaf">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands dominated by trees with a canopy cover of more
+			than 60% and height exceeding 2 m. Consists of seasonal
+			broadleaf tree communities with an annual cycle of
+			leaf-on and leaf-off periods. Woodward et al. (2004).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Mixed Forest">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands dominated by trees with a canopy cover of more
+			than 60% and height exceeding 2 m. Consists of tree
+			communities with interspersed mixtures or mosaics of
+			the other four forest cover types. None of the forest
+			types exceeds 60% of the landscape. Woodward et al. (2004).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    
 	    <!-- open woodland -->
-	    <xs:enumeration value="Savannah"/>
-	    <xs:enumeration value="Woody Savannah"/>
+	    <xs:enumeration value="Savannah">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands with herbaceous and other understorey systems,
+			and with forest canopy cover between 10 and 30%. The
+			forest cover height exceeds 2 m. Woodward et al.
+			(2004).
+		    </xs:documentation>
+		</xs:annotation> 
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Woody Savannah">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands with herbaceous and other understorey systems,
+			and with forest canopy cover of between 30 and 60%. The
+			forest cover height exceeds 2 m. Woodward et al.
+			(2004).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	    <!-- shrubland -->
-	    <xs:enumeration value="Closed Shrubland"/>
-	    <xs:enumeration value="Open Shrubland"/>
+	    <xs:enumeration value="Closed Shrubland">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands with woody vegetation less than 2 m tall and with
+			shrub canopy cover more than 60%. The shrub foliage can
+			be either evergreen or deciduous. Woodward et al.
+			(2004).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Open Shrubland">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands with woody vegetation less than 2 m tall and with
+			shrub canopy cover between 10 and 60%. The shrub
+			foliage can be either evergreen or deciduous. Woodward
+			et al. (2004).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	    <!-- herbaceous system -->
-	    <xs:enumeration value="Grassland"/>
+	    <xs:enumeration value="Grassland">
+		<xs:annotation>
+		    <xs:documentation>
+			Lands with herbaceous types of cover. Tree and shrub
+			cover is less than 10%. Woodward et al. (2004).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	    <!-- barren land -->
-	    <xs:enumeration value="Dessert"/>
+	    <xs:enumeration value="Dessert">
+		<xs:annotation>
+		    <xs:documentation>
+			Deserts have been defined and classified in a number of ways,
+			generally combining total precipitation, number of days on
+			which this falls, temperature, and humidity, and sometimes
+			additional factors. For example, Phoenix, Arizona, receives
+			less than 250 mm (9.8 in) of precipitation per year, and is
+			immediately recognized as being located in a desert because of
+			its aridity-adapted plants. The North Slope of Alaska's Brooks
+			Range also receives less than 250 mm (9.8 in) of precipitation
+			per year and is often classified as a cold desert. Other
+			regions of the world have cold deserts, including areas of the
+			Himalayas and other high-altitude areas in other parts of the
+			world. Polar deserts cover much of the ice-free areas of the
+			Arctic and Antarctic. A non-technical definition is that
+			deserts are those parts of the Earth's surface that have
+			insufficient vegetation cover to support a human population
+			(https://en.wikipedia.org/wiki/Desert).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	    <!-- aquatic systems -->
 	    <xs:enumeration value="Emergent Aquatic">
 		<xs:annotation>
