@@ -2000,8 +2000,8 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Plant Life Form"/>
 	    <xs:enumeration value="Animal Life Form"/>
-	    <xs:enumeration value="Microorganism Life Form"/>
 	    <xs:enumeration value="Mycotal Life Form"/>
+	    <xs:enumeration value="Viral Life Form"/>
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
