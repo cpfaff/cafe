@@ -2412,27 +2412,140 @@
     </xs:simpleType>
 
     <xs:simpleType name="BiomeZoneation">
+	<xs:annotation>
+	    <xs:documentation>
+		 The biome latitude zones provides roughly the location north
+		 or south from the equator. Latitudes are a key factor in
+		 determining a region's climate and we can distinguish
+		 different climatic zones along the gradient
+		 http://bit.ly/1C9aOzw (ELC, M).
+	    </xs:documentation>
+	</xs:annotation>
+
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Polar"/>
-	    <xs:enumeration value="Boreal"/>
-	    <xs:enumeration value="Temperate"/>
-	    <xs:enumeration value="Subtropical"/>
-	    <xs:enumeration value="Tropical"/>
+	    <xs:enumeration value="Polar">
+		<xs:annotation>
+		    <xs:documentation>
+			The climate called polar climate is similar to a arctic climate,
+			it's regions are characterized by a lack of warm summers. Every
+			month in a polar climate has an average temperature of less than 10
+			°C (50 °F). Regions with polar climate cover more than 20% of the
+			Earth. The sun shines for long hours in the summer, and for many
+			fewer hours in the winter. A polar climate results in treeless
+			tundra, glaciers, or a permanent or semi-permanent layer of ice. It
+			has cool summers and very cold winters (WP, http://bit.ly/1OMdx7g)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Boreal">
+		<xs:annotation>
+		    <xs:documentation>
+			A boreal ecosystem is an ecosystem with a subarctic
+			climate in the Northern Hemisphere, roughly between
+			latitude 60° to 70°N. Boreal forests are also known as
+			the taiga, particularly in Europe and Asia (WP,
+			http://bit.ly/1lNzwAh)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Temperate">
+		<xs:annotation>
+		    <xs:documentation>
+			The north temperate zone extends from the Tropic of Cancer
+			(approximately 23.5° north latitude) to the Arctic Circle
+			(approximately 66.5° north latitude). The south temperate zone
+			extends from the Tropic of Capricorn (approximately 23.5°
+			south latitude) to the Antarctic Circle (at approximately
+			66.5° south latitude). (WP, http://bit.ly/20qmLLS)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Subtropical">
+		<xs:annotation>
+		    <xs:documentation>
+			The subtropics are geographic and climate zones located
+			roughly between the tropic circle of latitude (the
+			Tropic of Cancer and Tropic of Capricorn) and the 38th
+			parallel in each hemisphere (WP, http://bit.ly/1S8mImK)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Tropical">
+		<xs:annotation>
+		    <xs:documentation>
+			A tropical climate is a climate typically found within
+			the Tropics, while a few locations outside the Tropics
+			are considered to have a tropical climate. In the
+			Köppen climate classification it is a non-arid climate
+			in which all twelve months have mean temperatures of at
+			least 18 °C (64 °F). Unlike the extra-tropics, where
+			there are strong variations in day length and
+			temperature, with season, tropical temperature remains
+			relatively constant throughout the year and seasonal
+			variations are dominated by precipitation (WP,
+			http://bit.ly/1S8mImK)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="BiomeHemisphere">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Northern"/>
-	    <xs:enumeration value="Southern"/>
-	</xs:restriction>
+	<xs:annotation>
+	    <xs:documentation>
+		The hemisphere of a biome.
+	     </xs:documentation>
+	 </xs:annotation>
+
+	 <xs:restriction base="xs:string">
+	     <xs:enumeration value="Northern">
+		 <xs:annotation>
+		     <xs:documentation>
+			 The northern hemisphere. North of the equator.
+		     </xs:documentation>
+		 </xs:annotation>
+	     </xs:enumeration>
+	     
+	     <xs:enumeration value="Southern">
+		 <xs:annotation>
+		     <xs:documentation>
+			 The southern hemisphere. South of the equator.
+		     </xs:documentation>
+		 </xs:annotation>
+	     </xs:enumeration>
+	 </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="LandClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Natural"/>
-	    <xs:enumeration value="Semi Natural"/>
-	    <xs:enumeration value="Urban"/>
+	    <xs:enumeration value="Natural">
+		<xs:annotation>
+		    <xs:documentation>
+			Natural is every land that is not managed in any way. 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Semi Natural">
+		<xs:annotation>
+		    <xs:documentation>
+			Semi natural is every land that is managed or used for
+			food creating other resources.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Urban">
+		<xs:annotation>
+		    <xs:documentation>
+			Areas with human settlement.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 	</xs:restriction>
     </xs:simpleType>
 
