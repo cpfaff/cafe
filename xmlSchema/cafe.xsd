@@ -907,6 +907,17 @@
 								    </xs:annotation>
 								</xs:element>
 
+								<xs:element name="isEcotone" type="IsEcotone"  minOccurs="1" maxOccurs="1">
+								    <!-- biome type is not a good word -->
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    Allows to specify weather the biome was an ecotone or not.
+									    This can take the values True and False.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+
 								<xs:element name="biomeZonation" type="BiomeZoneation" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -2145,7 +2156,6 @@
     <xs:simpleType name="PhysiognomyType">
 	<xs:restriction base="xs:string">
 	    <!-- forest -->
-
 	    <xs:enumeration value="Evergreen Needleleaf">
 		<xs:annotation>
 		    <xs:documentation>
@@ -2333,7 +2343,7 @@
 	    <xs:enumeration value="Aquatic Desert">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
-			Non or sparsely vegetated
+			Non or sparsely vegetated areas
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2389,14 +2399,15 @@
 
     <xs:simpleType name="BiomeType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Terrestrial"/>
-	    <xs:enumeration value="Aquatic"/>
-	    <xs:enumeration value="Ecotone"/>
-	    <xs:enumeration value="Dryland"/>
-	    <xs:enumeration value="Wetland"/>
-	    <xs:enumeration value="Fresh Water"/>
-	    <xs:enumeration value="Brackish Water"/>
-	    <xs:enumeration value="Saline Water"/>
+	    <xs:enumeration value="Terrestrial Biome"/>
+	    <xs:enumeration value="Aquatic Biome"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="IsEcotone">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="True"/>
+	    <xs:enumeration value="False"/>
 	</xs:restriction>
     </xs:simpleType>
 
