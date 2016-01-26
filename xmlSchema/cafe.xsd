@@ -1351,7 +1351,7 @@
 									    <xs:element name="compoundCategoryItem" minOccurs="1" maxOccurs="unbounded">
 										<xs:annotation>
 										    <xs:documentation xml:lang="en">
-											The compound item captures one specific compound categorization. 
+											The compound category item captures one specific compound categorization. 
 										    </xs:documentation>
 										</xs:annotation>
 
@@ -1801,51 +1801,52 @@
     <xs:simpleType name="CompoundCategory">
 	<xs:restriction base="xs:string">
 	    <!-- biomolecule type -->
-	    <xs:enumeration value="Nucleobase"/>
-	    <xs:enumeration value="Nucleotide"/>
-	    <xs:enumeration value="NucleicAcid"/>
-	    <xs:enumeration value="AminoAcid"/>
-	    <xs:enumeration value="Protein"/>
-	    <xs:enumeration value="Carbohydrate"/>
-	    <xs:enumeration value="Lipid"/>
-	    <xs:enumeration value="Steroid"/>
-	    <xs:enumeration value="Secondary Metabolite"/>
-	    <!-- aromatic compound -->
+	    <xs:enumeration value="Nucleobases"/>
+	    <xs:enumeration value="Nucleotides"/>
+	    <xs:enumeration value="Nucleic Acids"/>
+	    <xs:enumeration value="Amino Acids"/>
+	    <xs:enumeration value="Proteins"/>
+	    <xs:enumeration value="Carbohydrates"/>
+	    <xs:enumeration value="Lipids"/>
+	    <xs:enumeration value="Steroids"/>
+	    <xs:enumeration value="Secondary Metabolites"/>
 
+	    <!-- aromatic compound -->
 	    <xs:enumeration value="Arene"/>
-	    <xs:enumeration value="Aromaticlons"/>
-	    <xs:enumeration value="Benzo Derivative"/>
-	    <xs:enumeration value="Heterocyclic"/>
-	    <xs:enumeration value="Aryl Halide"/>
+	    <xs:enumeration value="Annulenes"/>
+	    <xs:enumeration value="Aromatic Ions"/>
+	    <xs:enumeration value="Benzole Derivatives"/>
+	    <xs:enumeration value="Heterocyclics"/>
+	    <xs:enumeration value="Aryl Halides"/>
 
 	    <!-- aliphatic -->
-	    <xs:enumeration value="Alkane"/>
-	    <xs:enumeration value="Alkene"/>
-	    <xs:enumeration value="Alkyne"/>
+	    <xs:enumeration value="Alkanes"/>
+	    <xs:enumeration value="Alkenes "/>
+	    <xs:enumeration value="Alkynes"/>
 
 	    <!-- functional group -->
-	    <xs:enumeration value="Alcohol"/>
-	    <xs:enumeration value="Aldehyde"/>
-	    <xs:enumeration value="Ester"/>
-	    <xs:enumeration value="Ether"/>
-	    <xs:enumeration value="Ketone"/>
-	    <xs:enumeration value="Carboxylic Acid"/>
-	    <xs:enumeration value="Amine"/>
-	    <xs:enumeration value="Amide"/>
-	    <xs:enumeration value="Diazonium Salt"/>
-	    <xs:enumeration value="Nitro Compound"/>
-	    <xs:enumeration value="Alkanthiole"/>
-	    <xs:enumeration value="Sulfide"/>
-	    <xs:enumeration value="Disulfide"/>
+	    <xs:enumeration value="Alcohols"/>
+	    <xs:enumeration value="Aldehydes"/>
+	    <xs:enumeration value="Esters"/>
+	    <xs:enumeration value="Ethers"/>
+	    <xs:enumeration value="Ketones"/>
+	    <xs:enumeration value="Carboxylic Acids"/>
+	    <xs:enumeration value="Amines"/>
+	    <xs:enumeration value="Amides"/>
+	    <xs:enumeration value="Diazonium Salts"/>
+	    <xs:enumeration value="Nitro Compounds"/>
+	    <xs:enumeration value="Alkanthioles"/>
+	    <xs:enumeration value="Sulfides"/>
+	    <xs:enumeration value="Disulfides"/>
 	    <xs:enumeration value="Ester of Sulfuric Acid"/>
-	    <xs:enumeration value="Sulfone"/>
-	    <xs:enumeration value="Sulfoxide"/>
-	    <xs:enumeration value="Thionamide"/>
-	    <xs:enumeration value="Thiolester"/>
-	    <xs:enumeration value="ThioAcid"/>
+	    <xs:enumeration value="Sulfones"/>
+	    <xs:enumeration value="Sulfoxides"/>
+	    <xs:enumeration value="Thionamides"/>
+	    <xs:enumeration value="Thiolesters"/>
+	    <xs:enumeration value="Thio Acids"/>
 	    <xs:enumeration value="Ester of Orthosphoric Acid"/>
-	    <xs:enumeration value="Phosphine"/>
-	    <xs:enumeration value="Metallorganisc"/>
+	    <xs:enumeration value="Phosphines"/>
+	    <xs:enumeration value="Metallorganics"/>
 
 	    <!-- gas -->
 	    <xs:enumeration value="Ammonia"/>
@@ -1876,12 +1877,12 @@
 	    <xs:enumeration value="Phosphoric Acid"/>
 	    <xs:enumeration value="Phosphorous Acid"/>
 
-	    <!-- sald and mineral -->
+	    <!-- salt and mineral -->
 	    <xs:enumeration value="Carbonates"/>
 	    <xs:enumeration value="Halogenides"/>
 	    <xs:enumeration value="Oxides"/>
 	    <xs:enumeration value="Phosphates"/>
-	    <xs:enumeration value="Silikates"/>
+	    <xs:enumeration value="Silicates"/>
 	    <xs:enumeration value="Sulfates"/>
 	    <xs:enumeration value="Sulfides"/>
 
@@ -1902,7 +1903,7 @@
 	    <xs:enumeration value="Alloy Of Nickel"/>
 	    <xs:enumeration value="Alloy Of Potassium"/>
 	    <xs:enumeration value="Alloy Of Plutonium"/>
-	    <xs:enumeration value="Alloy Of RareEarth"/>
+	    <xs:enumeration value="Alloy Of Rare Earth"/>
 	    <xs:enumeration value="Alloy Of Rhodium"/>
 	    <xs:enumeration value="Alloy Of Scandium"/>
 	    <xs:enumeration value="Alloy Of Silver"/>
