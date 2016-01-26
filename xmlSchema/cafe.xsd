@@ -2338,19 +2338,52 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-
 	    <!-- extension  -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
-
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="BiomeWater">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Humid"/>
-	    <xs:enumeration value="Semi Humid"/>
-	    <xs:enumeration value="Semi Arid"/>
-	    <xs:enumeration value="Arid"/>
+	    <xs:enumeration value="Humid">
+		<xs:annotation>
+		    <xs:documentation>
+			Humid climate is characterized by a higher
+			precipitation then a potential evapotranspiration in 10
+			to 12 Months/Year. http://bit.ly/159p4ec (WP)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Semi Humid">
+		<xs:annotation>
+		    <xs:documentation>
+			Humid climate is characterized by a higher
+			precipitation then a potential evapotranspiration in 6
+			to 9 Months/Year. http://bit.ly/159p4ec (WP)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Semi Arid">
+		<xs:annotation>
+		    <xs:documentation>
+			Semiarid climate is characterized by a lower
+			precipitation then a potential evapotranspiration in 6
+			to 9 Months/Year. http://bit.ly/1yKM6WM (WP).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Arid">
+		<xs:annotation>
+		    <xs:documentation>
+			Arid climate is characterized by a lower precipitation
+			then a potential evapotranspiration in 10 to 12
+			Months/Year. http://bit.ly/1yKM6WM (WP).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 	</xs:restriction>
     </xs:simpleType>
 
