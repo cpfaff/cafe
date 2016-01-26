@@ -1522,6 +1522,8 @@
 	    <xs:enumeration value="Image"/>
 	    <xs:enumeration value="Table"/>
 	    <xs:enumeration value="Video"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -1595,6 +1597,8 @@
 	    <xs:enumeration value="Deposition"/>
 	    <xs:enumeration value="Succession"/>
 	    <xs:enumeration value="Photosyntheses"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -1960,6 +1964,7 @@
 	    <xs:enumeration value="Vitamin"/>
 	    <xs:enumeration value="Catalyst"/>
 	    <xs:enumeration value="Fertilizer"/>
+
 	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
@@ -2013,6 +2018,8 @@
 	    <xs:enumeration value="Animal Life Form"/>
 	    <xs:enumeration value="Mycotal Life Form"/>
 	    <xs:enumeration value="Viral Life Form"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -2555,6 +2562,8 @@
 	    <xs:enumeration value="Agroforestry"/>
 	    <xs:enumeration value="Aquaculture"/>
 	    <xs:enumeration value="Recreation"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -2829,6 +2838,7 @@
 	    <xs:enumeration  value="Inclination/Slope"/>
 	    <xs:enumeration  value="Exposition"/>
 	    <xs:enumeration  value="Aspect"/>
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -2852,172 +2862,174 @@
 
     <xs:simpleType name="TemporalName">
 	<xs:restriction base="xs:string">
-		<!-- eon -->
-		<xs:enumeration value="Phanerozoic"/>
-		<xs:enumeration value="Precambrian"/>
+	    <!-- eon -->
+	    <xs:enumeration value="Phanerozoic"/>
+	    <xs:enumeration value="Precambrian"/>
 
-		<!-- Era -->
-		<xs:enumeration value="Cenozoic"/>
-		<xs:enumeration value="Mesozoic"/>
-		<xs:enumeration value="Paleozoic"/>
-		<xs:enumeration value="Proterozoic"/>
-		<xs:enumeration value="Neoproterozoic"/>
-		<xs:enumeration value="Mesoproterozoic"/>
-		<xs:enumeration value="Paleoproterozoic"/>
-		<xs:enumeration value="Archean"/>
-		<xs:enumeration value="Neoarchean"/>
-		<xs:enumeration value="Mesoarchean"/>
-		<xs:enumeration value="Paleoarchean"/>
-		<xs:enumeration value="Eoarchean"/>
+	    <!-- Era -->
+	    <xs:enumeration value="Cenozoic"/>
+	    <xs:enumeration value="Mesozoic"/>
+	    <xs:enumeration value="Paleozoic"/>
+	    <xs:enumeration value="Proterozoic"/>
+	    <xs:enumeration value="Neoproterozoic"/>
+	    <xs:enumeration value="Mesoproterozoic"/>
+	    <xs:enumeration value="Paleoproterozoic"/>
+	    <xs:enumeration value="Archean"/>
+	    <xs:enumeration value="Neoarchean"/>
+	    <xs:enumeration value="Mesoarchean"/>
+	    <xs:enumeration value="Paleoarchean"/>
+	    <xs:enumeration value="Eoarchean"/>
 
-		<!-- Period -->
-		<xs:enumeration value="Quaternary"/>
-		<xs:enumeration value="Neogene"/>
-		<xs:enumeration value="Paleogene"/>
-		<xs:enumeration value="Cretaceous"/>
-		<xs:enumeration value="Jurassic"/>
-		<xs:enumeration value="Triassic"/>
-		<xs:enumeration value="Permian"/>
-		<xs:enumeration value="Carboniferous"/>
-		<xs:enumeration value="Devonian"/>
-		<xs:enumeration value="Silurian"/>
-		<xs:enumeration value="Ordovician"/>
-		<xs:enumeration value="Cambrian"/>
-		<xs:enumeration value="Ediacaran"/>
-		<xs:enumeration value="Cryogenian"/>
-		<xs:enumeration value="Tonian"/>
-		<xs:enumeration value="Stenian"/>
-		<xs:enumeration value="Ectasian"/>
-		<xs:enumeration value="Calymmian"/>
-		<xs:enumeration value="Statherian"/>
-		<xs:enumeration value="Orosirian"/>
-		<xs:enumeration value="Rhyacian"/>
-		<xs:enumeration value="Siderian"/>
+	    <!-- Period -->
+	    <xs:enumeration value="Quaternary"/>
+	    <xs:enumeration value="Neogene"/>
+	    <xs:enumeration value="Paleogene"/>
+	    <xs:enumeration value="Cretaceous"/>
+	    <xs:enumeration value="Jurassic"/>
+	    <xs:enumeration value="Triassic"/>
+	    <xs:enumeration value="Permian"/>
+	    <xs:enumeration value="Carboniferous"/>
+	    <xs:enumeration value="Devonian"/>
+	    <xs:enumeration value="Silurian"/>
+	    <xs:enumeration value="Ordovician"/>
+	    <xs:enumeration value="Cambrian"/>
+	    <xs:enumeration value="Ediacaran"/>
+	    <xs:enumeration value="Cryogenian"/>
+	    <xs:enumeration value="Tonian"/>
+	    <xs:enumeration value="Stenian"/>
+	    <xs:enumeration value="Ectasian"/>
+	    <xs:enumeration value="Calymmian"/>
+	    <xs:enumeration value="Statherian"/>
+	    <xs:enumeration value="Orosirian"/>
+	    <xs:enumeration value="Rhyacian"/>
+	    <xs:enumeration value="Siderian"/>
 
-		<!-- Epoch -->
-		<xs:enumeration value="Holocene"/>
-		<xs:enumeration value="Pleistocene"/>
-		<xs:enumeration value="Pilocene"/>
-		<xs:enumeration value="Miocene"/>
-		<xs:enumeration value="Oligocene"/>
-		<xs:enumeration value="Eocene"/>
-		<xs:enumeration value="Paleocene"/>
-		<xs:enumeration value="Lopingian"/>
-		<xs:enumeration value="Guadalupian"/>
-		<xs:enumeration value="Cisuralian"/>
-		<xs:enumeration value="Pennsylvanian"/>
-		<xs:enumeration value="Mississippian"/>
-		<xs:enumeration value="Pridoli"/>
-		<xs:enumeration value="Ludlow"/>
-		<xs:enumeration value="Wenlock"/>
-		<xs:enumeration value="Llandovery"/>
-		<xs:enumeration value="Furongian"/>
-		<xs:enumeration value="Terreneuvian"/>
-		<xs:enumeration value="Series 2"/>
-		<xs:enumeration value="Series 3"/>
-		<xs:enumeration value="Upper"/>
-		<xs:enumeration value="Middle"/>
-		<xs:enumeration value="Lower"/>
+	    <!-- Epoch -->
+	    <xs:enumeration value="Holocene"/>
+	    <xs:enumeration value="Pleistocene"/>
+	    <xs:enumeration value="Pilocene"/>
+	    <xs:enumeration value="Miocene"/>
+	    <xs:enumeration value="Oligocene"/>
+	    <xs:enumeration value="Eocene"/>
+	    <xs:enumeration value="Paleocene"/>
+	    <xs:enumeration value="Lopingian"/>
+	    <xs:enumeration value="Guadalupian"/>
+	    <xs:enumeration value="Cisuralian"/>
+	    <xs:enumeration value="Pennsylvanian"/>
+	    <xs:enumeration value="Mississippian"/>
+	    <xs:enumeration value="Pridoli"/>
+	    <xs:enumeration value="Ludlow"/>
+	    <xs:enumeration value="Wenlock"/>
+	    <xs:enumeration value="Llandovery"/>
+	    <xs:enumeration value="Furongian"/>
+	    <xs:enumeration value="Terreneuvian"/>
+	    <xs:enumeration value="Series 2"/>
+	    <xs:enumeration value="Series 3"/>
+	    <xs:enumeration value="Upper"/>
+	    <xs:enumeration value="Middle"/>
+	    <xs:enumeration value="Lower"/>
 
-		<!-- Age (this might be cut out in the future as it is too much detail) -->
-		<xs:enumeration value="Calabrian"/>
-		<xs:enumeration value="Gelasian"/>
-		<xs:enumeration value="Piacenzian"/>
-		<xs:enumeration value="Zanclean"/>
-		<xs:enumeration value="Messinian"/>
-		<xs:enumeration value="Tortonian"/>
-		<xs:enumeration value="Serravallian"/>
-		<xs:enumeration value="Langhian"/>
-		<xs:enumeration value="Burdigalian"/>
-		<xs:enumeration value="Aquitanian"/>
-		<xs:enumeration value="Chattian"/>
-		<xs:enumeration value="Rupelian"/>
-		<xs:enumeration value="Priabonian"/>
-		<xs:enumeration value="Bartonian"/>
-		<xs:enumeration value="Lutenian"/>
-		<xs:enumeration value="Ypresian"/>
-		<xs:enumeration value="Thanetian"/>
-		<xs:enumeration value="Selandian"/>
-		<xs:enumeration value="Danian"/>
-		<xs:enumeration value="Maastrichtian"/>
-		<xs:enumeration value="Campanian"/>
-		<xs:enumeration value="Santonian"/>
-		<xs:enumeration value="Coniacian"/>
-		<xs:enumeration value="Turonian"/>
-		<xs:enumeration value="Cenomanian"/>
-		<xs:enumeration value="Albian"/>
-		<xs:enumeration value="Aptian"/>
-		<xs:enumeration value="Barremian"/>
-		<xs:enumeration value="Hauterivian"/>
-		<xs:enumeration value="Valanginian"/>
-		<xs:enumeration value="Berriasian"/>
-		<xs:enumeration value="Tithonian"/>
-		<xs:enumeration value="Kimmeridgian"/>
-		<xs:enumeration value="Oxfordian"/>
-		<xs:enumeration value="Callovian"/>
-		<xs:enumeration value="Bathonian"/>
-		<xs:enumeration value="Bajocian"/>
-		<xs:enumeration value="Aalenian"/>
-		<xs:enumeration value="Toarcian"/>
-		<xs:enumeration value="Pliensbachain"/>
-		<xs:enumeration value="Sinemurian"/>
-		<xs:enumeration value="Hettangian"/>
-		<xs:enumeration value="Rhaetian"/>
-		<xs:enumeration value="Norian"/>
-		<xs:enumeration value="Carnian"/>
-		<xs:enumeration value="Ladinian"/>
-		<xs:enumeration value="Anisian"/>
-		<xs:enumeration value="Olenekian"/>
-		<xs:enumeration value="Induan"/>
-		<xs:enumeration value="Changhsingian"/>
-		<xs:enumeration value="Wuchiapingian"/>
-		<xs:enumeration value="Capitanian"/>
-		<xs:enumeration value="Wordian"/>
-		<xs:enumeration value="Roadian"/>
-		<xs:enumeration value="Kungurian"/>
-		<xs:enumeration value="Artinskian"/>
-		<xs:enumeration value="Sakmarian"/>
-		<xs:enumeration value="Asselian"/>
-		<xs:enumeration value="Gzhelian"/>
-		<xs:enumeration value="Kasimovian"/>
-		<xs:enumeration value="Moscovian"/>
-		<xs:enumeration value="Bashkirian"/>
-		<xs:enumeration value="Serpukhovian"/>
-		<xs:enumeration value="Visean"/>
-		<xs:enumeration value="Tournaisian"/>
-		<xs:enumeration value="Famennian"/>
-		<xs:enumeration value="Frasnian"/>
-		<xs:enumeration value="Givetian"/>
-		<xs:enumeration value="Eifelian"/>
-		<xs:enumeration value="Emsian"/>
-		<xs:enumeration value="Pragian"/>
-		<xs:enumeration value="Lochkovian"/>
-		<xs:enumeration value="Ludfordian"/>
-		<xs:enumeration value="Gorstian"/>
-		<xs:enumeration value="Homerian"/>
-		<xs:enumeration value="Sheinwoodian"/>
-		<xs:enumeration value="Telychian"/>
-		<xs:enumeration value="Aeronian"/>
-		<xs:enumeration value="Rhuddanian"/>
-		<xs:enumeration value="Hirnantian"/>
-		<xs:enumeration value="Katian"/>
-		<xs:enumeration value="Sandbian"/>
-		<xs:enumeration value="Darriwilian"/>
-		<xs:enumeration value="Dapingian"/>
-		<xs:enumeration value="Floian"/>
-		<xs:enumeration value="Tremadocian"/>
-		<xs:enumeration value="Jiangshanian"/>
-		<xs:enumeration value="Paibian"/>
-		<xs:enumeration value="Guzhangian"/>
-		<xs:enumeration value="Drumian"/>
-		<xs:enumeration value="Fortunian"/>
-		<xs:enumeration value="Stage 2"/>
-		<xs:enumeration value="Stage 3"/>
-		<xs:enumeration value="Stage 4"/>
-		<xs:enumeration value="Stage 5"/>
-		<xs:enumeration value="Stage 10"/>
-		<xs:enumeration value="Upper"/>
-		<xs:enumeration value="Middle"/>
+	    <!-- Age (this might be cut out in the future as it is too much detail) -->
+	    <xs:enumeration value="Calabrian"/>
+	    <xs:enumeration value="Gelasian"/>
+	    <xs:enumeration value="Piacenzian"/>
+	    <xs:enumeration value="Zanclean"/>
+	    <xs:enumeration value="Messinian"/>
+	    <xs:enumeration value="Tortonian"/>
+	    <xs:enumeration value="Serravallian"/>
+	    <xs:enumeration value="Langhian"/>
+	    <xs:enumeration value="Burdigalian"/>
+	    <xs:enumeration value="Aquitanian"/>
+	    <xs:enumeration value="Chattian"/>
+	    <xs:enumeration value="Rupelian"/>
+	    <xs:enumeration value="Priabonian"/>
+	    <xs:enumeration value="Bartonian"/>
+	    <xs:enumeration value="Lutenian"/>
+	    <xs:enumeration value="Ypresian"/>
+	    <xs:enumeration value="Thanetian"/>
+	    <xs:enumeration value="Selandian"/>
+	    <xs:enumeration value="Danian"/>
+	    <xs:enumeration value="Maastrichtian"/>
+	    <xs:enumeration value="Campanian"/>
+	    <xs:enumeration value="Santonian"/>
+	    <xs:enumeration value="Coniacian"/>
+	    <xs:enumeration value="Turonian"/>
+	    <xs:enumeration value="Cenomanian"/>
+	    <xs:enumeration value="Albian"/>
+	    <xs:enumeration value="Aptian"/>
+	    <xs:enumeration value="Barremian"/>
+	    <xs:enumeration value="Hauterivian"/>
+	    <xs:enumeration value="Valanginian"/>
+	    <xs:enumeration value="Berriasian"/>
+	    <xs:enumeration value="Tithonian"/>
+	    <xs:enumeration value="Kimmeridgian"/>
+	    <xs:enumeration value="Oxfordian"/>
+	    <xs:enumeration value="Callovian"/>
+	    <xs:enumeration value="Bathonian"/>
+	    <xs:enumeration value="Bajocian"/>
+	    <xs:enumeration value="Aalenian"/>
+	    <xs:enumeration value="Toarcian"/>
+	    <xs:enumeration value="Pliensbachain"/>
+	    <xs:enumeration value="Sinemurian"/>
+	    <xs:enumeration value="Hettangian"/>
+	    <xs:enumeration value="Rhaetian"/>
+	    <xs:enumeration value="Norian"/>
+	    <xs:enumeration value="Carnian"/>
+	    <xs:enumeration value="Ladinian"/>
+	    <xs:enumeration value="Anisian"/>
+	    <xs:enumeration value="Olenekian"/>
+	    <xs:enumeration value="Induan"/>
+	    <xs:enumeration value="Changhsingian"/>
+	    <xs:enumeration value="Wuchiapingian"/>
+	    <xs:enumeration value="Capitanian"/>
+	    <xs:enumeration value="Wordian"/>
+	    <xs:enumeration value="Roadian"/>
+	    <xs:enumeration value="Kungurian"/>
+	    <xs:enumeration value="Artinskian"/>
+	    <xs:enumeration value="Sakmarian"/>
+	    <xs:enumeration value="Asselian"/>
+	    <xs:enumeration value="Gzhelian"/>
+	    <xs:enumeration value="Kasimovian"/>
+	    <xs:enumeration value="Moscovian"/>
+	    <xs:enumeration value="Bashkirian"/>
+	    <xs:enumeration value="Serpukhovian"/>
+	    <xs:enumeration value="Visean"/>
+	    <xs:enumeration value="Tournaisian"/>
+	    <xs:enumeration value="Famennian"/>
+	    <xs:enumeration value="Frasnian"/>
+	    <xs:enumeration value="Givetian"/>
+	    <xs:enumeration value="Eifelian"/>
+	    <xs:enumeration value="Emsian"/>
+	    <xs:enumeration value="Pragian"/>
+	    <xs:enumeration value="Lochkovian"/>
+	    <xs:enumeration value="Ludfordian"/>
+	    <xs:enumeration value="Gorstian"/>
+	    <xs:enumeration value="Homerian"/>
+	    <xs:enumeration value="Sheinwoodian"/>
+	    <xs:enumeration value="Telychian"/>
+	    <xs:enumeration value="Aeronian"/>
+	    <xs:enumeration value="Rhuddanian"/>
+	    <xs:enumeration value="Hirnantian"/>
+	    <xs:enumeration value="Katian"/>
+	    <xs:enumeration value="Sandbian"/>
+	    <xs:enumeration value="Darriwilian"/>
+	    <xs:enumeration value="Dapingian"/>
+	    <xs:enumeration value="Floian"/>
+	    <xs:enumeration value="Tremadocian"/>
+	    <xs:enumeration value="Jiangshanian"/>
+	    <xs:enumeration value="Paibian"/>
+	    <xs:enumeration value="Guzhangian"/>
+	    <xs:enumeration value="Drumian"/>
+	    <xs:enumeration value="Fortunian"/>
+	    <xs:enumeration value="Stage 2"/>
+	    <xs:enumeration value="Stage 3"/>
+	    <xs:enumeration value="Stage 4"/>
+	    <xs:enumeration value="Stage 5"/>
+	    <xs:enumeration value="Stage 10"/>
+	    <xs:enumeration value="Upper"/>
+	    <xs:enumeration value="Middle"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -3025,6 +3037,8 @@
     <xs:simpleType name="TemporalStandard">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="International Chronostratigraphic Chart"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -3035,6 +3049,8 @@
     <xs:simpleType name="GeodeticDatum">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value = "wgs84"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -3319,6 +3335,8 @@
 	    <xs:enumeration value = "South America"/>
 	    <xs:enumeration value = "Oceania"/>
 	    <xs:enumeration value = "Antarctica"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[a-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
@@ -3329,6 +3347,8 @@
 	    <xs:enumeration value = "Country"/>
 	    <xs:enumeration value = "Continent"/>
 	    <xs:enumeration value = "River"/>
+
+	    <!-- extension -->
 	    <xs:pattern value="[a-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
