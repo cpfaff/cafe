@@ -2260,7 +2260,7 @@
 	    </xs:enumeration>
 
 	    <!-- barren land -->
-	    <xs:enumeration value="Dessert">
+	    <xs:enumeration value="Desert">
 		<xs:annotation>
 		    <xs:documentation>
 			Deserts have been defined and classified in a number of ways,
