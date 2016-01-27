@@ -220,7 +220,6 @@
 
 					    <xs:complexType>
 						<xs:sequence>
-
 						    <xs:element name="temporalNameItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -241,21 +240,25 @@
 								    </xs:annotation>
 								</xs:element>	
 
-								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    Designates if the item is the lower boundary of a time range. 
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>	
+								<xs:choice>
+								    <xs:sequence>
+									<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+									    <xs:annotation>
+										<xs:documentation xml:lang="en">
+										    Designates if the item is the lower boundary of a time range. 
+										</xs:documentation>
+									    </xs:annotation>
+									</xs:element>	
 
-								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    Designates if the item is the upper boundary of a time range. 
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>	
+									<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+									    <xs:annotation>
+										<xs:documentation xml:lang="en">
+										    Designates if the item is the upper boundary of a time range. 
+										</xs:documentation>
+									    </xs:annotation>
+									</xs:element>	
+								    </xs:sequence>
+								</xs:choice>
 
 								<xs:element name="temporalStandard" type="TemporalStandard" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
@@ -270,6 +273,7 @@
 						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
+
 					</xs:element>
 				    </xs:sequence>
 				</xs:complexType>
@@ -2010,7 +2014,7 @@
 	    <xs:enumeration value="Chamaephyte">
 		<xs:annotation>
 		    <xs:documentation>
-			Chamaephytes are woody perennials with the resting bud < 0.5 m
+			Chamaephytes are woody perennials with the resting bud below 0.5 m
 			above the ground.
 		    </xs:documentation>
 		</xs:annotation>
@@ -2102,7 +2106,7 @@
 			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
 		    </xs:documentation>
 		</xs:annotation>
-	    </xs:enumberation>
+	    </xs:enumeration>
 
 	    <xs:enumeration value="Phanerophyte">
 		<xs:annotation>
