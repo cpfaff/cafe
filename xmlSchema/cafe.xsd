@@ -12,9 +12,9 @@
 		<xs:element name="physical" minOccurs="1" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation xml:lang="en">
-			    The physical element captures important information on the
-			    referenced search object that is classified using the other
-			    elements of the schema.
+			    The physical element captures important information
+			    on the referenced search object that is classified
+			    using the other elements of the schema.
 			</xs:documentation>
 		    </xs:annotation>
 
@@ -202,8 +202,10 @@
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
 					The temporal namespace captures named
-					times like the geological ages from the
-					international chronostratigraphic chart
+					times like names for the geological
+					ages from the international
+					chronostratigraphic chart
+
 				    </xs:documentation>
 				</xs:annotation>
 				<xs:complexType>
@@ -341,8 +343,6 @@
 							    </xs:documentation>
 							</xs:annotation>
 							<xs:complexType>
-							    <!-- it would be a good idea to include gps points or sub bounding boxes in the bounding box as sub category -->
-							    <!-- this would cpature granularity and extent in a more numeric way compared to the way we do it in the raster -->
 							    <xs:sequence>
 								<xs:element name="northBoundingCoordinate" type="NorthSouthBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
@@ -385,35 +385,35 @@
 								<xs:element name="maximumElevation" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The maximal depth in case the data is located below sealevel.
+									    The maximum elevation the data has been taken from.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 								<xs:element name="maximumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The maximal depth unit (e.g. meter, centimeter)
+									    The unit of the maximum elevation (e.g. Meter, Centimeter)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 								<xs:element name="minimumElevation" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The minimal depth in case the data is located below sealevel.
+									    The minimum elevation the data has been taken from.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 								<xs:element name="minimumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The minimal depth unit (e.g. meter, centimeter)
+									    The unit of the minimum elevation (e.g. Meter, Centimeter)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-								<xs:element name="elevationDatum" type="xs:string" minOccurs="1" maxOccurs="1">
+								<xs:element name="elevationDatum" type="ElevationDatum" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The reference datum (defaults to meanSealevel)
+									    The reference datum of the elevation (defaults to Mean Sealevel)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -3036,6 +3036,15 @@
 	<xs:restriction base="xs:decimal">
 	    <xs:minInclusive value="-180"/>
 	    <xs:maxInclusive value="180"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ElevationDatum">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value = "Mean Sealevel"/>
+
+	    <!-- extension -->
+	    <xs:pattern value="[a-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
 
