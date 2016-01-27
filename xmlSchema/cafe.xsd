@@ -2848,16 +2848,111 @@
 
     <xs:simpleType name="TemporalClass">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Second"/>
-	    <xs:enumeration value="Minute"/>
-	    <xs:enumeration value="Hour"/>
-	    <xs:enumeration value="Day"/>
-	    <xs:enumeration value="Week"/>
-	    <xs:enumeration value="Month"/>
-	    <xs:enumeration value="Year"/>
-	    <xs:enumeration value="Decade"/>
-	    <xs:enumeration value="Century"/>
-	    <xs:enumeration value="Millenium"/>
+	    <xs:enumeration value="Second">
+		<xs:annotation>
+		    <xs:documentation>
+			Second (symbol: s) (abbreviated s or sec) is the base
+			unit of time in the International System of Units (SI).
+			It is qualitatively defined as the second division of
+			the hour by sixty, the first division by sixty being
+			the minute. It is quantitatively defined in terms of a
+			certain number of periods – about 9 billion – of a
+			certain frequency of radiation from the caesium atom: a
+			so-called atomic clock. Seconds may be measured using a
+			mechanical, electric or atomic clock (WP,
+			http://bit.ly/1VnHFrn)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Minute">
+		<xs:annotation>
+		    <xs:documentation>
+			The minute is a unit of time or of angle. As a unit of
+			time, the minute is equal to 1/60 (the first
+			sexagesimal fraction) of an hour or 60 seconds (WP,
+			https://goo.gl/hTtMng)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Hour">
+		<xs:annotation>
+		    <xs:documentation>
+			The hour (common symbol: h or hr, h being the
+			international form of the symbol) is a unit of
+			measurement of time. In modern usage, an hour comprises
+			60 minutes, or 3,600 seconds. It is approximately 1/24
+			of a mean solar day (WP, http://bit.ly/1PhSkDP) 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Day">
+		<xs:annotation>
+		    <xs:documentation>
+			A day is a unit of time. In common usage, it is an interval
+			equal to 24 hours (WP, https://goo.gl/9VDGIY).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Week">
+		<xs:annotation>
+		    <xs:documentation>
+			A week is a time unit equal to seven days. It is the
+			standard time period used for cycles of work days and
+			rest days in most parts of the world, mostly alongside
+			(but not strictly part of) the Gregorian calendar (WP,
+			https://goo.gl/rvUNel)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Month">
+		<xs:annotation>
+		    <xs:documentation>
+			A month is a unit of time, used with calendars, which is
+			approximately as long as a natural period related to the
+			motion of the Moon (WP, https://goo.gl/2Qx7pQ)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Year">
+		<xs:annotation>
+		    <xs:documentation>
+			A year is the orbital period of the Earth moving in its orbit
+			around the Sun (WP, https://goo.gl/ZCCcCd)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Decade">
+		<xs:annotation>
+		    <xs:documentation>
+			A decade is a period of 10 years (WP, https://goo.gl/Jx5raD)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Century">
+		<xs:annotation>
+		    <xs:documentation>
+			A century is 100 years (WP, https://goo.gl/kyUuat)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Millenium">
+		<xs:annotation>
+		    <xs:documentation>
+			A millennium (plural millennia) is a period of time equal to
+			1000 years (WP, https://goo.gl/d4q6WJ)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	</xs:restriction>
     </xs:simpleType>
 
