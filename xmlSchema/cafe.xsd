@@ -205,7 +205,6 @@
 					times like names for the geological
 					ages from the international
 					chronostratigraphic chart
-
 				    </xs:documentation>
 				</xs:annotation>
 				<xs:complexType>
@@ -413,7 +412,7 @@
 								<xs:element name="elevationDatum" type="ElevationDatum" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The reference datum of the elevation (defaults to Mean Sealevel)
+									    The reference datum of the elevation (e.g. Mean Sealevel)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -467,7 +466,7 @@
 											<xs:element name="eastingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
-												    The unit of the distance of the easting (meter, kilometer)
+												    The unit of the distance of the easting (Meter, Kilometer)
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
@@ -481,14 +480,14 @@
 											<xs:element name="northingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
-												    The unit of the distance of the northing (meter, kilometer)
+												    The unit of the distance of the northing (Meter, Kilometer)
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
 											<xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
-												    The datum e.g. wgs84
+												    The datum (e.g. wgs84)
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
@@ -528,7 +527,13 @@
 						    <xs:element name="spatialNameItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The spatial name item covers a range of spatial names and spatial types
+								The spatial
+								name item
+								covers a range
+								of names of
+								spatial
+								features and
+								their types
 							    </xs:documentation>
 							</xs:annotation>
 							<xs:complexType>
@@ -568,15 +573,24 @@
 					<xs:element name="spatialExtent" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    Defines the extent in space in form of a category (point, plot, region, continent, globa).
+						    Defines the extent of the
+						    data in the space. This is
+						    done in of categories that
+						    are defined by size (Point,
+						    Plot, Region, Continent,
+						    Global) 
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
 					<xs:element name="spatialResolution" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    Defines the resolution in space in form of a category (point, plot, region, continent, globa).
-						    This should be smaller than the extent to be meaningful.
+						    Defines the resolution of
+						    the data in the space. This
+						    is done in of categories
+						    that are defined by size
+						    (Point, Plot, Region,
+						    Continent, Global) 
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
@@ -601,7 +615,7 @@
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
 					The methodological coverage captures the methodological approach as
-					weel at the method type.
+					well as the method type.
 				    </xs:documentation>
 				</xs:annotation>
 				<xs:complexType>
@@ -644,7 +658,7 @@
 								<xs:element name="controlFactorModus" type="ControlFactorModus" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The modus of the control factor. It can be manipulated or observed
+									    The modus of the control factor. It can be  or Observed
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -800,9 +814,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
-								<!-- <xs:element name="biomeName" type="xs:string" minOccurs="0" maxOccurs="1"/> -->
 								<xs:element name="biomeType" type="BiomeType"  minOccurs="1" maxOccurs="1">
-								    <!-- biome type is not a good word -->
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The biome type captures the general type of the biome e.g. terrestrial,
@@ -810,12 +822,11 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-								<xs:element name="isEcotone" type="IsEcotone"  minOccurs="1" maxOccurs="1">
-								    <!-- biome type is not a good word -->
+								<xs:element name="isEcotone" type="xs:boolean"  minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    Allows to specify weather the biome was an ecotone or not.
-									    This can take the values True and False.
+									    This can take the values true and false.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -2275,13 +2286,6 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Terrestrial Biome"/>
 	    <xs:enumeration value="Aquatic Biome"/>
-	</xs:restriction>
-    </xs:simpleType>
-
-    <xs:simpleType name="IsEcotone">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="True"/>
-	    <xs:enumeration value="False"/>
 	</xs:restriction>
     </xs:simpleType>
 
