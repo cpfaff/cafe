@@ -241,23 +241,21 @@
 								</xs:element>	
 
 								<xs:choice>
-								    <xs:sequence>
-									<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-									    <xs:annotation>
-										<xs:documentation xml:lang="en">
-										    Designates if the item is the lower boundary of a time range. 
-										</xs:documentation>
-									    </xs:annotation>
-									</xs:element>	
+								    <xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation xml:lang="en">
+										Designates if the item is the lower boundary of a time range. 
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>	
 
-									<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-									    <xs:annotation>
-										<xs:documentation xml:lang="en">
-										    Designates if the item is the upper boundary of a time range. 
-										</xs:documentation>
-									    </xs:annotation>
-									</xs:element>	
-								    </xs:sequence>
+								    <xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation xml:lang="en">
+										Designates if the item is the upper boundary of a time range. 
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>	
 								</xs:choice>
 
 								<xs:element name="temporalStandard" type="TemporalStandard" minOccurs="1" maxOccurs="1">
