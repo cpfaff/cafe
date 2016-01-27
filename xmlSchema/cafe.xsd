@@ -41,14 +41,15 @@
 					<xs:element name="objectReferenceUrl" type="xs:string" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The URL where the referenced object can be found
+						    The URL for reference. Can be used to link to more metadata or a homepage
+						    with more details and from where the download of the data is reachable.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
 					<xs:element name="objectDownloadUrl" type="xs:string" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The download URL of the referenced object 
+						    This to set the download URL of the data.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
