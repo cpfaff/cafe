@@ -220,59 +220,6 @@
 
 					    <xs:complexType>
 						<xs:sequence>
-						   <xs:element name="temporalNameBoundary" minOccurs="0" maxOccurs="unbounded">
-							<xs:complexType>
-							    <xs:sequence>
-								<xs:element name="lowerBoundary" minOccurs="0" maxOccurs="1">
-								    <xs:complexType>
-									<xs:sequence>
-									    <xs:element name="temporalName" type="TemporalName" minOccurs="1" maxOccurs="1">
-										<xs:annotation>
-										    <xs:documentation xml:lang="en">
-											The temporal name covers names of times like for example
-											the geological time scale (Hadean, Archean, Proterozoic,
-											Phanerozoic)
-										    </xs:documentation>
-										</xs:annotation>
-									    </xs:element>	
-									    <xs:element name="temporalStandard" type="TemporalStandard" minOccurs="1" maxOccurs="1">
-										<xs:annotation>
-										    <xs:documentation xml:lang="en">
-											The temporal standard is a reference from where the names of times
-											comes from e.g. the international chronostratigraphic chart
-										    </xs:documentation>
-										</xs:annotation>
-									    </xs:element>
-									</xs:sequence>
-								    </xs:complexType>
-								</xs:element>
-
-								<xs:element name="upperBoundary" minOccurs="0" maxOccurs="1">
-								    <xs:complexType>
-									<xs:sequence>
-									    <xs:element name="temporalName" type="TemporalName" minOccurs="1" maxOccurs="1">
-										<xs:annotation>
-										    <xs:documentation xml:lang="en">
-											The temporal name covers names of times like for example
-											the geological time scale (Hadean, Archean, Proterozoic,
-											Phanerozoic)
-										    </xs:documentation>
-										</xs:annotation>
-									    </xs:element>	
-									    <xs:element name="temporalStandard" type="TemporalStandard" minOccurs="1" maxOccurs="1">
-										<xs:annotation>
-										    <xs:documentation xml:lang="en">
-											The temporal standard is a reference from where the names of times
-											comes from e.g. the international chronostratigraphic chart
-										    </xs:documentation>
-										</xs:annotation>
-									    </xs:element>
-									</xs:sequence>
-								    </xs:complexType>
-								</xs:element>
-							    </xs:sequence>
-							</xs:complexType>
-						    </xs:element> 
 
 						    <xs:element name="temporalNameItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
@@ -290,6 +237,14 @@
 									    The temporal name covers names of times like for example
 									    the geological time scale (Hadean, Archean, Proterozoic,
 									    Phanerozoic)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>	
+
+								<xs:element name="isBoundary" type="IsBoundary" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    Designates if the item is part of a range. The value can be Upper, Lower
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>	
@@ -3145,6 +3100,14 @@
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name="IsBoundary">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="Upper"/>
+	    <xs:enumeration value="Lower"/>
+	</xs:restriction>
+    </xs:simpleType>
+
 
     <xs:simpleType name="TemporalStandard">
 	<xs:restriction base="xs:string">
