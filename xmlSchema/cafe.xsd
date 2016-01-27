@@ -241,10 +241,18 @@
 								    </xs:annotation>
 								</xs:element>	
 
-								<xs:element name="isBoundary" type="IsBoundary" minOccurs="1" maxOccurs="1">
+								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    Designates if the item is part of a range. The value can be Upper, Lower
+									    Designates if the item is the lower boundary of a time range. 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>	
+
+								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    Designates if the item is the upper boundary of a time range. 
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>	
@@ -3100,14 +3108,6 @@
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
-
-    <xs:simpleType name="IsBoundary">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Upper"/>
-	    <xs:enumeration value="Lower"/>
-	</xs:restriction>
-    </xs:simpleType>
-
 
     <xs:simpleType name="TemporalStandard">
 	<xs:restriction base="xs:string">
