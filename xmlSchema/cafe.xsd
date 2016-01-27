@@ -2035,7 +2035,9 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Plant Life Form"/>
 	    <xs:enumeration value="Animal Life Form"/>
-	    <xs:enumeration value="Mycotal Life Form"/>
+	    <xs:enumeration value="Fungal Life Form"/>
+	    <xs:enumeration value="Bacterial Life Form"/>
+	    <xs:enumeration value="Archaea Life Form"/>
 	    <xs:enumeration value="Viral Life Form"/>
 
 	    <!-- extension -->
@@ -2066,7 +2068,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="Geophytes">
+	    <xs:enumeration value="Geophyte">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Geophytes have roots or shoots that are modified as
@@ -2098,7 +2100,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="Therophytes">
+	    <xs:enumeration value="Therophyte">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Therophytes are those plants that survive adverse
@@ -2109,7 +2111,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="Epiphytes">
+	    <xs:enumeration value="Epiphyte">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			An epiphyte is a plant that grows on another plant, but
@@ -2123,7 +2125,7 @@
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="Aerophytes">
+	    <xs:enumeration value="Aerophyte">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Aerophytes are epiphytes, but they have no functional
