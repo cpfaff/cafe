@@ -1496,9 +1496,9 @@
 					<xs:element name="interactionItem" minOccurs="1" maxOccurs="unbounded">
 					    <xs:complexType>
 						<xs:sequence>
-						    <xs:element name="interactionName" type="xs:string" minOccurs="1" maxOccurs="1"/>
-						    <xs:element name="interactionClass" type="InteractionClass" minOccurs="1" maxOccurs="1"/>
-						    <xs:element name="interactionPartner" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+						    <xs:element name="firstInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1"/>
+						    <xs:element name="directionOfInteraction" type="DirectionOfInteraction" minOccurs="1" maxOccurs="1"/>
+						    <xs:element name="secondInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1"/>
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
@@ -1528,6 +1528,32 @@
 	</xs:restriction>
     </xs:simpleType>
 
+    <!-- interaction related types -->
+
+    <xs:simpleType name="InteractionPartner">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="Plant"/>
+	    <xs:enumeration value="Animal"/>
+	    <xs:enumeration value="Mycota"/>
+	    <xs:enumeration value="Virus"/>
+	    <xs:enumeration value="Einvironment"/>
+
+	    <!-- extension -->
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="DirectionOfInteraction">
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="First Acts On Second"/>
+	    <xs:enumeration value="Second Acts On First"/>
+	    <xs:enumeration value="Mutual Interaction"/>
+
+	    <!-- extension -->
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
     <!-- process related types -->
 
     <xs:simpleType name="ProcessClass">
@@ -1535,13 +1561,6 @@
 	    <xs:enumeration value="Interaction Process"/>
 	    <xs:enumeration value="Transformation Process"/>
 	    <xs:enumeration value="Transport Process"/>
-	</xs:restriction>
-    </xs:simpleType>
-
-    <xs:simpleType name="InteractionClass">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Biotic Interaction"/>
-	    <xs:enumeration value="Abiotic Interaction"/>
 	</xs:restriction>
     </xs:simpleType>
 
@@ -2952,7 +2971,6 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-
 	</xs:restriction>
     </xs:simpleType>
 
