@@ -1449,11 +1449,94 @@
 
     <xs:simpleType name="InteractionPartner">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Plant"/>
-	    <xs:enumeration value="Animal"/>
-	    <xs:enumeration value="Fungi"/>
-	    <xs:enumeration value="Virus"/>
-	    <xs:enumeration value="Environment"/>
+	    <xs:enumeration value="Plant">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Plants, also called green plants, are multicellular
+			eukaryotes of the kingdom Plantae. They form an
+			unranked clade Viridiplantae that includes the
+			flowering plants, conifers and other gymnosperms,
+			ferns, clubmosses, hornworts, liverworts, mosses and
+			the green algae (WP, https://goo.gl/3ro18)
+
+			This group of interaction partners compared to green
+			plants also includes red and brown algae.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	 
+	    <xs:enumeration value="Animal">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Animals are multicellular, eukaryotic organisms of the kingdom
+			Animalia (also called Metazoa). All animals are motile,
+			meaning they can move spontaneously and independently, at some
+			point in their lives. Their body plan eventually becomes fixed
+			as they develop, although some undergo a process of
+			metamorphosis later on in their lives. All animals are
+			heterotrophs: they must ingest other organisms or their
+			products for sustenance (WP, https://goo.gl/u2bGdR)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Fungi">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			A fungus [...] is any member of the group of eukaryotic
+			organisms that includes unicellular microorganisms such as
+			yeasts and molds, as well as multicellular fungi that produce
+			familiar fruiting forms known as mushrooms. These organisms
+			are classified as a kingdom, Fungi, which is separate from the
+			other life kingdoms of plants, animals, protists, and
+			bacteria (WP, https://goo.gl/gN6qZQ)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Bacteria">
+		<xs:annotation>
+		    <xs:documentation>
+			Bacteria [...] constitute a large domain of prokaryotic
+			microorganisms. Typically a few micrometres in length,
+			bacteria have a number of shapes, ranging from spheres to rods
+			and spirals (WP, https://goo.gl/4JbsxA) 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Archaea">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The Archaea [...] constitute a domain or kingdom of
+			single-celled microorganisms. These microbes are
+			prokaryotes, meaning that they have no cell nucleus or
+			any other membrane-bound organelles in their cells (WP,
+			https://goo.gl/8boHS)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Virus">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			A virus is a small infectious agent that replicates only
+			inside the living cells of other organisms. Viruses can infect
+			all types of life forms, from animals and plants to
+			microorganisms, including bacteria and archaea (WP,
+			https://goo.gl/L9Gyc)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Environment">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The environment encompasses all abiotic factors as
+			interaction partners.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 
 	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
