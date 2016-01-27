@@ -1102,7 +1102,7 @@
 								<xs:element name="organismSizeClass" type="OrganismSizeClass" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    Providesa a classification approach to the size information (micro, meso, macroFlora, microFauna ...)
+									    Provides classes for the organism size information (micro, meso, Macro Flora, Micro Fauna, ...)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -1280,8 +1280,8 @@
 						    <xs:element name="chemicalFunctionName" type="chemicalFunctionNameType" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The chemical function name item allows to capture one chemical function (pesticide, enzyme,
-								pigment, poison)
+								The chemical function name item allows to capture one chemical function (Antibody, Cofactor,
+								Enzyme)
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
@@ -1298,8 +1298,10 @@
 		<xs:element name="process" minOccurs="1" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation xml:lang="en">
-			    The process facet deals with aspects about processes observed in the study. It covers the name of the
-			    process and allows a classification of the process with process types.
+			    The process facet deals with aspects about
+			    processes observed in the study. It covers the name
+			    of the process and allows a classification of the
+			    process with process types.
 			</xs:documentation>
 		    </xs:annotation>
 		    <xs:complexType>
@@ -1307,7 +1309,9 @@
 			    <xs:element name="processCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
-					The process coverage deals with capturing processes and their classification.
+					The process coverage deals with
+					capturing processes and their
+					classification.
 				    </xs:documentation>
 				</xs:annotation>
 				<xs:complexType>
@@ -1315,7 +1319,9 @@
 					<xs:element name="processItem" minOccurs="1" maxOccurs="unbounded">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The process item covers a specific process by name and classifiction.
+						    The process item captures a
+						    specific process by name
+						    and its classifiction.
 						</xs:documentation>
 					    </xs:annotation>
 					    <xs:complexType>
@@ -1353,11 +1359,39 @@
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="interactionItem" minOccurs="1" maxOccurs="unbounded">
+					    <xs:annotation>
+						<xs:documentation xml:lang="en">
+						    The interaction item captures an interaction by
+						    the two interaction partners and a direction of 
+						    the interaction. Complex interactions that involve
+						    more than one partner have to be specified split
+						    into multiple parts.
+						</xs:documentation>
+					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
-						    <xs:element name="firstInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1"/>
-						    <xs:element name="directionOfInteraction" type="DirectionOfInteraction" minOccurs="1" maxOccurs="1"/>
-						    <xs:element name="secondInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1"/>
+						    <xs:element name="firstInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1">
+							<xs:annotation xml:lang="en">
+							    <xs:documentation>
+								The first partner in the interaction. 
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+						    <xs:element name="directionOfInteraction" type="DirectionOfInteraction" minOccurs="1" maxOccurs="1">
+							<xs:annotation xml:lang="en">
+							    <xs:documentation>
+								The direction of the interaction. This can be "Acts On", "Affected By", "Mutally Interact"
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+						    <xs:element name="secondInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1">
+							<xs:annotation xml:lang="en">
+							    <xs:documentation>
+								The second partner in the interaction. 
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
@@ -1377,10 +1411,34 @@
 
     <xs:simpleType name="ObjectType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Audio"/>
-	    <xs:enumeration value="Image"/>
-	    <xs:enumeration value="Table"/>
-	    <xs:enumeration value="Video"/>
+	    <xs:enumeration value="Audio">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any audio file tpye (e.g. mp3)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Image">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any image file tpye (e.g. jpeg)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Table">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any tabular data file tpye (e.g. csv, excel)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Video">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any video file tpye (e.g. mp4, avi)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 
 	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
@@ -1393,9 +1451,9 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Plant"/>
 	    <xs:enumeration value="Animal"/>
-	    <xs:enumeration value="Mycota"/>
+	    <xs:enumeration value="Fungi"/>
 	    <xs:enumeration value="Virus"/>
-	    <xs:enumeration value="Einvironment"/>
+	    <xs:enumeration value="Environment"/>
 
 	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
@@ -1404,9 +1462,9 @@
 
     <xs:simpleType name="DirectionOfInteraction">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="First Acts On Second"/>
-	    <xs:enumeration value="Second Acts On First"/>
-	    <xs:enumeration value="Mutual Interaction"/>
+	    <xs:enumeration value="Acts On"/>
+	    <xs:enumeration value="Is Affected By"/>
+	    <xs:enumeration value="Mutually Interact"/>
 
 	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
