@@ -247,7 +247,7 @@
 								    </xs:annotation>
 								</xs:element>	
 
-								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    Designates if the item is the lower boundary of a time range. 
@@ -255,7 +255,7 @@
 								    </xs:annotation>
 								</xs:element>	
 
-								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    Designates if the item is the upper boundary of a time range. 
@@ -462,7 +462,7 @@
 										    <xs:sequence>
 											<xs:element name="zone" type="xs:integer" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
-												<xs:documentation>
+												<xs:documentation xml:lang="en">
 												    The numerical zone corresponding to the central meridian 
 												</xs:documentation>
 											    </xs:annotation>
@@ -470,7 +470,7 @@
 
 											<xs:element name="subZone" type="xs:integer" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
-												<xs:documentation>
+												<xs:documentation xml:lang="en">
 												    The subzone letter corresponding to one of the 20 north-south divisions of the
 												    UTM grid system
 												</xs:documentation>
@@ -479,7 +479,7 @@
 
 											<xs:element name="northSouth" type="NorthSouth" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
-												<xs:documentation>
+												<xs:documentation xml:lang="en">
 												    The hemisphere. This can be N (North) or S (South)
 												</xs:documentation>
 											    </xs:annotation>
@@ -487,7 +487,7 @@
 
 											<xs:element name="easting" type="xs:decimal" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
-												<xs:documentation>
+												<xs:documentation xml:lang="en">
 												    The distance east of the origin of the UTM zone
 												</xs:documentation>
 											    </xs:annotation>
@@ -495,7 +495,7 @@
 
 											<xs:element name="eastingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
-												<xs:documentation>
+												<xs:documentation xml:lang="en">
 												    The unit of the distance of the easting (meter, kilometer)
 												</xs:documentation>
 											    </xs:annotation>
@@ -503,7 +503,7 @@
 
 											<xs:element name="northing" type="xs:decimal" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
-												<xs:documentation>
+												<xs:documentation xml:lang="en">
 												    The distance north of the origin of the UTM zone
 												</xs:documentation>
 											    </xs:annotation>
@@ -511,7 +511,7 @@
 
 											<xs:element name="northingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
-												<xs:documentation>
+												<xs:documentation xml:lang="en">
 												    The unit of the distance of the northing (meter, kilometer)
 												</xs:documentation>
 											    </xs:annotation>
@@ -519,7 +519,7 @@
 
 											<xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
-												<xs:documentation>
+												<xs:documentation xml:lang="en">
 												    The datum e.g. wgs84
 												</xs:documentation>
 											    </xs:annotation>
@@ -2016,7 +2016,7 @@
 	    <!-- plant life form -->
 	    <xs:enumeration value="Chamaephyte">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Chamaephytes are woody perennials with the resting bud below 0.5 m
 			above the ground.
 		    </xs:documentation>
@@ -2025,7 +2025,7 @@
 
 	    <xs:enumeration value="Cryophyte">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Cryptophytes are perennial plants where the resting bud
 			is below ground including those below water
 			Cryptophytes can be further subdivided into geophytes,
@@ -2036,7 +2036,7 @@
 
 	    <xs:enumeration value="Geophytes">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Geophytes have roots or shoots that are modified as
 			storage organs. Geophytes include bulbs, corms,
 			rhizomes, tubers, tuberous shoots, and tuberous
@@ -2047,7 +2047,7 @@
 
 	    <xs:enumeration value="Helophyte">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Helophytes are those plants that grow in wet soils. The
 			resting bud is below ground in the wet soil.
 			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
@@ -2057,7 +2057,7 @@
 
 	    <xs:enumeration value="Hydrophyte">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Hydrophytes grow in water and resting bud overwinters
 			below the surface of the water often in the lake bed
 			floor.
@@ -2068,7 +2068,7 @@
 
 	    <xs:enumeration value="Therophytes">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Therophytes are those plants that survive adverse
 			climatic conditions as seeds. These include all of the
 			annual plants.
@@ -2079,7 +2079,7 @@
 
 	    <xs:enumeration value="Epiphytes">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			An epiphyte is a plant that grows on another plant, but
 			does not derive water or nutrients from the
 			association. Epiphytic vascular plants occur most often
@@ -2093,7 +2093,7 @@
 
 	    <xs:enumeration value="Aerophytes">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Aerophytes are epiphytes, but they have no functional
 			roots and absorb moisture and nutrients through their
 			leaves (http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
@@ -2103,7 +2103,7 @@
 
 	    <xs:enumeration value="Hemicryophyte">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Hemicryptophytes are herbaceous perennial plants with
 			the resting bud at or near the soil line.
 			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
@@ -2113,7 +2113,7 @@
 
 	    <xs:enumeration value="Phanerophyte">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Phanerophytes are the woody perennials (trees and shrubs).
 			The resting buds are > 0.5 m above ground.
 			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
@@ -2152,7 +2152,7 @@
 	    <!-- forest -->
 	    <xs:enumeration value="Evergreen Needleleaf">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands dominated by trees with a canopy cover of more
 			than 60% and height exceeding 2 m. Almost all trees
 			remain green all year. Canopy is never without green
@@ -2163,7 +2163,7 @@
 
 	    <xs:enumeration value="Deciduous Needleleaf">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands dominated by trees with a canopy cover of more
 			than 60% and height exceeding 2 m. Consists of seasonal
 			needleleaf tree communities with an annual cycle of
@@ -2175,7 +2175,7 @@
 
 	    <xs:enumeration value="Evergreen Broadleaf"> 
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands dominated by trees with a canopy cover of more
 			than 60% and height exceeding 2 m. Almost all trees
 			remain green all year. Canopy is never without green
@@ -2186,7 +2186,7 @@
 
 	    <xs:enumeration value="Deciduous Broadleaf">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands dominated by trees with a canopy cover of more
 			than 60% and height exceeding 2 m. Consists of seasonal
 			broadleaf tree communities with an annual cycle of
@@ -2197,7 +2197,7 @@
 
 	    <xs:enumeration value="Mixed Forest">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands dominated by trees with a canopy cover of more
 			than 60% and height exceeding 2 m. Consists of tree
 			communities with interspersed mixtures or mosaics of
@@ -2210,7 +2210,7 @@
 	    <!-- open woodland -->
 	    <xs:enumeration value="Savannah">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands with herbaceous and other understorey systems,
 			and with forest canopy cover between 10 and 30%. The
 			forest cover height exceeds 2 m. Woodward et al.
@@ -2221,7 +2221,7 @@
 
 	    <xs:enumeration value="Woody Savannah">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands with herbaceous and other understorey systems,
 			and with forest canopy cover of between 30 and 60%. The
 			forest cover height exceeds 2 m. Woodward et al.
@@ -2233,7 +2233,7 @@
 	    <!-- shrubland -->
 	    <xs:enumeration value="Closed Shrubland">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands with woody vegetation less than 2 m tall and with
 			shrub canopy cover more than 60%. The shrub foliage can
 			be either evergreen or deciduous. Woodward et al.
@@ -2244,7 +2244,7 @@
 
 	    <xs:enumeration value="Open Shrubland">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands with woody vegetation less than 2 m tall and with
 			shrub canopy cover between 10 and 60%. The shrub
 			foliage can be either evergreen or deciduous. Woodward
@@ -2256,7 +2256,7 @@
 	    <!-- herbaceous system -->
 	    <xs:enumeration value="Grassland">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Lands with herbaceous types of cover. Tree and shrub
 			cover is less than 10%. Woodward et al. (2004).
 		    </xs:documentation>
@@ -2266,7 +2266,7 @@
 	    <!-- barren land -->
 	    <xs:enumeration value="Desert">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Deserts have been defined and classified in a number of ways,
 			generally combining total precipitation, number of days on
 			which this falls, temperature, and humidity, and sometimes
@@ -2351,7 +2351,7 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Humid">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Humid climate is characterized by a higher
 			precipitation then a potential evapotranspiration in 10
 			to 12 Months/Year. http://bit.ly/159p4ec (WP)
@@ -2361,7 +2361,7 @@
 
 	    <xs:enumeration value="Semi Humid">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Humid climate is characterized by a higher
 			precipitation then a potential evapotranspiration in 6
 			to 9 Months/Year. http://bit.ly/159p4ec (WP)
@@ -2371,7 +2371,7 @@
 
 	    <xs:enumeration value="Semi Arid">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Semiarid climate is characterized by a lower
 			precipitation then a potential evapotranspiration in 6
 			to 9 Months/Year. http://bit.ly/1yKM6WM (WP).
@@ -2381,7 +2381,7 @@
 
 	    <xs:enumeration value="Arid">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Arid climate is characterized by a lower precipitation
 			then a potential evapotranspiration in 10 to 12
 			Months/Year. http://bit.ly/1yKM6WM (WP).
@@ -2407,7 +2407,7 @@
 
     <xs:simpleType name="BiomeZoneation">
 	<xs:annotation>
-	    <xs:documentation>
+	    <xs:documentation xml:lang="en">
 		 The biome latitude zones provides roughly the location north
 		 or south from the equator. Latitudes are a key factor in
 		 determining a region's climate and we can distinguish
@@ -2419,7 +2419,7 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Polar">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			The climate called polar climate is similar to a arctic climate,
 			it's regions are characterized by a lack of warm summers. Every
 			month in a polar climate has an average temperature of less than 10
@@ -2434,7 +2434,7 @@
 
 	    <xs:enumeration value="Boreal">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A boreal ecosystem is an ecosystem with a subarctic
 			climate in the Northern Hemisphere, roughly between
 			latitude 60° to 70°N. Boreal forests are also known as
@@ -2446,7 +2446,7 @@
 
 	    <xs:enumeration value="Temperate">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			The north temperate zone extends from the Tropic of Cancer
 			(approximately 23.5° north latitude) to the Arctic Circle
 			(approximately 66.5° north latitude). The south temperate zone
@@ -2459,7 +2459,7 @@
 
 	    <xs:enumeration value="Subtropical">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			The subtropics are geographic and climate zones located
 			roughly between the tropic circle of latitude (the
 			Tropic of Cancer and Tropic of Capricorn) and the 38th
@@ -2470,7 +2470,7 @@
 
 	    <xs:enumeration value="Tropical">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A tropical climate is a climate typically found within
 			the Tropics, while a few locations outside the Tropics
 			are considered to have a tropical climate. In the
@@ -2491,7 +2491,7 @@
 
     <xs:simpleType name="BiomeHemisphere">
 	<xs:annotation>
-	    <xs:documentation>
+	    <xs:documentation xml:lang="en">
 		The hemisphere of a biome.
 	     </xs:documentation>
 	 </xs:annotation>
@@ -2499,7 +2499,7 @@
 	 <xs:restriction base="xs:string">
 	     <xs:enumeration value="Northern">
 		 <xs:annotation>
-		     <xs:documentation>
+		     <xs:documentation xml:lang="en">
 			 The northern hemisphere. North of the equator.
 		     </xs:documentation>
 		 </xs:annotation>
@@ -2507,7 +2507,7 @@
 	     
 	     <xs:enumeration value="Southern">
 		 <xs:annotation>
-		     <xs:documentation>
+		     <xs:documentation xml:lang="en">
 			 The southern hemisphere. South of the equator.
 		     </xs:documentation>
 		 </xs:annotation>
@@ -2519,7 +2519,7 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Natural">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Natural is every land that is not managed in any way. 
 		    </xs:documentation>
 		</xs:annotation>
@@ -2527,7 +2527,7 @@
 
 	    <xs:enumeration value="Semi Natural">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Semi natural is every land that is managed or used for
 			food creating other resources.
 		    </xs:documentation>
@@ -2535,7 +2535,7 @@
 	    </xs:enumeration>
 	    <xs:enumeration value="Urban">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Areas with dense human settlement.
 		    </xs:documentation>
 		</xs:annotation>
@@ -2837,7 +2837,7 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Second">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			Second (symbol: s) (abbreviated s or sec) is the base
 			unit of time in the International System of Units (SI).
 			It is qualitatively defined as the second division of
@@ -2854,7 +2854,7 @@
 
 	    <xs:enumeration value="Minute">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			The minute is a unit of time or of angle. As a unit of
 			time, the minute is equal to 1/60 (the first
 			sexagesimal fraction) of an hour or 60 seconds (WP,
@@ -2865,7 +2865,7 @@
 
 	    <xs:enumeration value="Hour">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			The hour (common symbol: h or hr, h being the
 			international form of the symbol) is a unit of
 			measurement of time. In modern usage, an hour comprises
@@ -2877,7 +2877,7 @@
 
 	    <xs:enumeration value="Day">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A day is a unit of time. In common usage, it is an interval
 			equal to 24 hours (WP, https://goo.gl/9VDGIY).
 		    </xs:documentation>
@@ -2886,7 +2886,7 @@
 
 	    <xs:enumeration value="Week">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A week is a time unit equal to seven days. It is the
 			standard time period used for cycles of work days and
 			rest days in most parts of the world, mostly alongside
@@ -2898,7 +2898,7 @@
 
 	    <xs:enumeration value="Month">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A month is a unit of time, used with calendars, which is
 			approximately as long as a natural period related to the
 			motion of the Moon (WP, https://goo.gl/2Qx7pQ)
@@ -2908,7 +2908,7 @@
 
 	    <xs:enumeration value="Year">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A year is the orbital period of the Earth moving in its orbit
 			around the Sun (WP, https://goo.gl/ZCCcCd)
 		    </xs:documentation>
@@ -2917,7 +2917,7 @@
 
 	    <xs:enumeration value="Decade">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A decade is a period of 10 years (WP, https://goo.gl/Jx5raD)
 		    </xs:documentation>
 		</xs:annotation>
@@ -2925,7 +2925,7 @@
 
 	    <xs:enumeration value="Century">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A century is 100 years (WP, https://goo.gl/kyUuat)
 		    </xs:documentation>
 		</xs:annotation>
@@ -2933,7 +2933,7 @@
 
 	    <xs:enumeration value="Millenium">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A millennium (plural millennia) is a period of time equal to
 			1000 years (WP, https://goo.gl/d4q6WJ)
 		    </xs:documentation>
@@ -3427,7 +3427,7 @@
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value = "City">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A city is a large and permanent human settlement.
 			Although there is no agreement on how a city is
 			distinguished from a town in general English language
@@ -3440,7 +3440,7 @@
 
 	    <xs:enumeration value = "Country">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A country is a region that is identified as a distinct
 			entity in political geography. A country may be an
 			independent sovereign state or one that is occupied by
@@ -3460,7 +3460,7 @@
 
 	    <xs:enumeration value = "Continent">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A continent is one of several very large landmasses on
 			Earth. They are generally identified by convention
 			rather than any strict criteria, with up to seven
@@ -3474,7 +3474,7 @@
 
 	    <xs:enumeration value = "Mountain">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A mountain is a large landform that stretches above the
 			surrounding land in a limited area, usually in the form
 			of a peak. A mountain is generally steeper than a hill.
@@ -3490,7 +3490,7 @@
 
 	    <xs:enumeration value = "River">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A river is a natural flowing watercourse, usually
 			freshwater, flowing towards an ocean, sea, lake or
 			another river. In some cases a river flows into the
@@ -3504,7 +3504,7 @@
 
 	    <xs:enumeration value = "Lake">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A lake is an area of variable size filled with water,
 			localized in a basin, that is surrounded by land, apart
 			from any river or other outlet that serves to feed or
@@ -3520,7 +3520,7 @@
 
 	    <xs:enumeration value = "Sea">
 		<xs:annotation>
-		    <xs:documentation>
+		    <xs:documentation xml:lang="en">
 			A sea is a large body of salt water that is surrounded
 			in whole or in part by land. More broadly, "the sea" is
 			the interconnected system of Earth's salty, oceanic
