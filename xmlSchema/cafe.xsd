@@ -83,8 +83,8 @@
 
 				<xs:complexType>
 				    <xs:choice>
-					<xs:sequence>
 
+					<xs:sequence>
 					    <xs:element name="dateTimePoint" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
 						    <xs:documentation xml:lang="en">
@@ -148,6 +148,7 @@
 							<xs:element name="dateTimeItem" minOccurs="1" maxOccurs="unbounded">
 							    <xs:complexType>
 								<xs:sequence>
+
 								    <xs:element name="dateStart" type="xs:date" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
@@ -189,6 +190,7 @@
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
+
 								</xs:sequence>
 							    </xs:complexType>
 							</xs:element>
@@ -196,6 +198,7 @@
 						</xs:complexType>
 					    </xs:element>
 					</xs:sequence>
+
 				    </xs:choice>
 				</xs:complexType>
 			    </xs:element>
@@ -204,7 +207,8 @@
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
 					The temporal namespace captures named
-					time scales like the geological ages.
+					times like the geological ages from the
+					international chronostratigraphic chart
 				    </xs:documentation>
 				</xs:annotation>
 
@@ -213,8 +217,11 @@
 					<xs:element name="temporalNameRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The temporal name range allows to specify multiple items that
-						    contain a name and a reference to age scales.
+						    The temporal name range
+						    allows to specify multiple
+						    items where each contains a
+						    name and a reference to a
+						    standard.
 						</xs:documentation>
 					    </xs:annotation>
 
@@ -240,23 +247,21 @@
 								    </xs:annotation>
 								</xs:element>	
 
-								<xs:choice>
-								    <xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation xml:lang="en">
-										Designates if the item is the lower boundary of a time range. 
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>	
+								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    Designates if the item is the lower boundary of a time range. 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>	
 
-								    <xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation xml:lang="en">
-										Designates if the item is the upper boundary of a time range. 
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>	
-								</xs:choice>
+								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    Designates if the item is the upper boundary of a time range. 
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>	
 
 								<xs:element name="temporalStandard" type="TemporalStandard" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
