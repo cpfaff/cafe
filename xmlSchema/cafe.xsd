@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="cafeTohtml.xsl"?>
 
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" 
-    version="0.0.1" 
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+    version="0.0.1"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:sawsdl="http://www.w3.org/ns/sawsdl">
 
@@ -12,9 +12,9 @@
 		<xs:element name="physical" minOccurs="1" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation xml:lang="en">
-			    The physical element captures important information on the 
-			    referenced search object that is classified using the other 
-			    elements of the schema. 
+			    The physical element captures important information on the
+			    referenced search object that is classified using the other
+			    elements of the schema.
 			</xs:documentation>
 		    </xs:annotation>
 
@@ -26,30 +26,39 @@
 					<xs:element name="objectType" type="ObjectType" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The type of object referenced with this annotation. This could be audio, image,
-						    video, dataset.
+						    The type of object
+						    referenced with this
+						    annotation. This could be
+						    audio, image, video,
+						    dataset.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
 					<xs:element name="objectName" type="xs:string" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The full filename of the object with extension
+						    The full filename of the
+						    object with extension
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
 					<xs:element name="objectReferenceUrl" type="xs:string" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The URL for reference. Can be used to link to more metadata or a homepage
-						    with more details and from where the download of the data is reachable.
+						    The URL for reference. Can
+						    be used to link to more
+						    metadata or a homepage with
+						    more details and from where
+						    the download of the data is
+						    reachable.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
 					<xs:element name="objectDownloadUrl" type="xs:string" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    This to set the download URL of the data.
+						    This to set the download
+						    URL of the data.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
@@ -65,10 +74,9 @@
 			<xs:documentation xml:lang="en">
 			    The time facet covers all aspects of time. It
 			    captures time as point or as ranges and allows to
-			    specify a temporal granularity. 
+			    specify a temporal granularity.
 			</xs:documentation>
 		    </xs:annotation>
-
 		    <xs:complexType>
 			<xs:sequence>
 			    <xs:element name="temporalCoverage" minOccurs="1" maxOccurs="1">
@@ -80,10 +88,8 @@
 					time point or a time range.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:choice>
-
 					<xs:sequence>
 					    <xs:element name="dateTimePoint" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
@@ -99,25 +105,23 @@
 							standard.
 						    </xs:documentation>
 						</xs:annotation>
-
 						<xs:complexType>
 						    <xs:sequence>
 							<xs:element name="datePoint" type="xs:date" minOccurs="1" maxOccurs="1">
 							    <xs:annotation>
 								<xs:documentation xml:lang="en">
-								    A single date in form 
-								    YYYY-MM-DD or with an offset from UTC with 
+								    A single date in form
+								    YYYY-MM-DD or with an offset from UTC with
 								    conform +XX:XX appende conform to
 								    to iso 8601.
 								</xs:documentation>
 							    </xs:annotation>
 							</xs:element>
-
 							<xs:element name="timePoint" type="xs:time" minOccurs="1" maxOccurs="1">
 							    <xs:annotation>
 								<xs:documentation xml:lang="en">
-								    A single time in form 
-								    HH:MM:SS or with an offset from UTC with 
+								    A single time in form
+								    HH:MM:SS or with an offset from UTC with
 								    +XX:XX appended conform to iso 8601.
 								</xs:documentation>
 							    </xs:annotation>
@@ -126,7 +130,6 @@
 						</xs:complexType>
 					    </xs:element>
 					</xs:sequence>
-
 					<xs:sequence>
 					    <xs:element name="dateTimeRange" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
@@ -138,59 +141,53 @@
 							and time fields or via
 							a combined date field.
 							Both need to be conform
-							to the iso 8601 
+							to the iso 8601
 							standard.
 						    </xs:documentation>
 						</xs:annotation>
-
 						<xs:complexType>
 						    <xs:sequence>
 							<xs:element name="dateTimeItem" minOccurs="1" maxOccurs="unbounded">
 							    <xs:complexType>
 								<xs:sequence>
-
 								    <xs:element name="dateStart" type="xs:date" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
-										A single date in form 
-										YYYY-MM-DD or with an offset from UTC with 
+										A single date in form
+										YYYY-MM-DD or with an offset from UTC with
 										conform +XX:XX appende conform to
 										to iso 8601.
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
-
 								    <xs:element name="timeStart" type="xs:time" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
-										A single time in form 
-										HH:MM:SS or with an offset from UTC with 
+										A single time in form
+										HH:MM:SS or with an offset from UTC with
 										+XX:XX appended conform to iso 8601.
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
-
 								    <xs:element name="dateEnd" type="xs:date" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
-										A single date in form 
-										YYYY-MM-DD or with an offset from UTC with 
+										A single date in form
+										YYYY-MM-DD or with an offset from UTC with
 										conform +XX:XX appende conform to
 										to iso 8601.
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
-
 								    <xs:element name="timeEnd" type="xs:time" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
-										A single time in form 
-										HH:MM:SS or with an offset from UTC with 
+										A single time in form
+										HH:MM:SS or with an offset from UTC with
 										+XX:XX appended conform to iso 8601.
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
-
 								</xs:sequence>
 							    </xs:complexType>
 							</xs:element>
@@ -198,11 +195,9 @@
 						</xs:complexType>
 					    </xs:element>
 					</xs:sequence>
-
 				    </xs:choice>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="temporalNamespace" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -211,7 +206,6 @@
 					international chronostratigraphic chart
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="temporalNameRange" minOccurs="1" maxOccurs="1">
@@ -224,7 +218,6 @@
 						    standard.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="temporalNameItem" minOccurs="1" maxOccurs="unbounded">
@@ -234,7 +227,6 @@
 								of a standard where the name comes from.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="temporalName" type="TemporalName" minOccurs="1" maxOccurs="1">
@@ -245,24 +237,21 @@
 									    Phanerozoic)
 									</xs:documentation>
 								    </xs:annotation>
-								</xs:element>	
-
+								</xs:element>
 								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    Designates if the item is the lower boundary of a time range. 
+									    Designates if the item is the lower boundary of a time range.
 									</xs:documentation>
 								    </xs:annotation>
-								</xs:element>	
-
+								</xs:element>
 								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    Designates if the item is the upper boundary of a time range. 
+									    Designates if the item is the upper boundary of a time range.
 									</xs:documentation>
 								    </xs:annotation>
-								</xs:element>	
-
+								</xs:element>
 								<xs:element name="temporalStandard" type="TemporalStandard" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -276,20 +265,17 @@
 						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
-
 					</xs:element>
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="temporalRaster" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
-					The temporal raster allows to span a categorial grid in time with the extent being the frame 
+					The temporal raster allows to span a categorial grid in time with the extent being the frame
 					and time resolution the subdivision.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="temporalExtent" type="TemporalClass" minOccurs="1" maxOccurs="1">
@@ -323,7 +309,6 @@
 			    the extent and resolution of the data.
 			</xs:documentation>
 		    </xs:annotation>
-
 		    <xs:complexType>
 			<xs:sequence>
 			    <xs:element name="spatialCoverage" minOccurs="0" maxOccurs="1">
@@ -336,28 +321,25 @@
 					elevation.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="boundingBox" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The bounding box is a three dimensional virtual object in space 
-						    that is made up by the four coordinates (N,E,S,W) in form of decimal 
+						    The bounding box is a three dimensional virtual object in space
+						    that is made up by the four coordinates (N,E,S,W) in form of decimal
 						    degree as well as the maximum and minimum altitude (reference sealevel).
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="boundingCoordinate" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
 								The bounding coordinate contains the geographic coordinates to frame the
-								location. 
+								location.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <!-- it would be a good idea to include gps points or sub bounding boxes in the bounding box as sub category -->
 							    <!-- this would cpature granularity and extent in a more numeric way compared to the way we do it in the raster -->
@@ -365,39 +347,38 @@
 								<xs:element name="northBoundingCoordinate" type="NorthSouthBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The north most geographic coordinate that signifies the boundary of the data. It 
-									    has to be given in decimal degree between -90 and +90 degree. 
+									    The north most geographic coordinate that signifies the boundary of the data. It
+									    has to be given in decimal degree between -90 and +90 degree.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 								<xs:element name="southBoundingCoordinate" type="NorthSouthBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The soutch most geographic coordinate that signifies the boundary of the data. It 
-									    has to be given in decimal degree between -90 and +90 degree. 
+									    The soutch most geographic coordinate that signifies the boundary of the data. It
+									    has to be given in decimal degree between -90 and +90 degree.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 								<xs:element name="eastBoundingCoordinate" type="EastWestBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The west most geographic coordinate that signifies the boundary of the data. It 
-									    has to be given in decimal degree between -180 and +180 degree. 
+									    The west most geographic coordinate that signifies the boundary of the data. It
+									    has to be given in decimal degree between -180 and +180 degree.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 								<xs:element name="westBoundingCoordinate" type="EastWestBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The west most geographic coordinate that signifies the boundary of the data. It 
-									    has to be given in decimal degree between -180 and +180 degree. 
+									    The west most geographic coordinate that signifies the boundary of the data. It
+									    has to be given in decimal degree between -180 and +180 degree.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						    <xs:element name="boundingElevation" minOccurs="1" maxOccurs="1">
 							<xs:complexType>
 							    <xs:sequence>
@@ -408,7 +389,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="maximumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -416,7 +396,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="minimumElevation" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -424,7 +403,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="minimumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -432,7 +410,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="elevationDatum" type="xs:string" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -443,11 +420,9 @@
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
-
 					<xs:element name="siteCoordinate" minOccurs="0" maxOccurs="1">
 					    <xs:complexType>
 						<xs:sequence>
@@ -463,11 +438,10 @@
 											<xs:element name="zone" type="xs:integer" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
-												    The numerical zone corresponding to the central meridian 
+												    The numerical zone corresponding to the central meridian
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-
 											<xs:element name="subZone" type="xs:integer" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -476,7 +450,6 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-
 											<xs:element name="northSouth" type="NorthSouth" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -484,7 +457,6 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-
 											<xs:element name="easting" type="xs:decimal" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -492,7 +464,6 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-
 											<xs:element name="eastingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -500,7 +471,6 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-
 											<xs:element name="northing" type="xs:decimal" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -508,7 +478,6 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-
 											<xs:element name="northingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -516,7 +485,6 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-
 											<xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="0" maxOccurs="unbounded">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -527,20 +495,18 @@
 										    </xs:sequence>
 										</xs:complexType>
 									    </xs:element>
-									 </xs:sequence>
-								     </xs:complexType>
+									</xs:sequence>
+								    </xs:complexType>
 								</xs:element>
-							     </xs:sequence>
-							 </xs:complexType>
+							    </xs:sequence>
+							</xs:complexType>
 						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
-
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="spatialNamespace" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -549,7 +515,6 @@
 					e.g. Leipzig/City.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="spatialNameRange" minOccurs="1" maxOccurs="1">
@@ -558,7 +523,6 @@
 						    The spatial name range captures a range of location names and types
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="spatialNameItem" minOccurs="1" maxOccurs="unbounded">
@@ -567,7 +531,6 @@
 								The spatial name item covers a range of spatial names and spatial types
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="spatialName" type="SpatialName" minOccurs="1" maxOccurs="1">
@@ -577,7 +540,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="spatialType" type="SpatialType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -594,15 +556,13 @@
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="spatialRaster" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
-					The spatial raster allows to span a categorial grid in space with the extent being the frame 
+					The spatial raster allows to span a categorial grid in space with the extent being the frame
 					and time resolution the subdivision.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="spatialExtent" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
@@ -612,7 +572,6 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
-
 					<xs:element name="spatialResolution" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -636,60 +595,52 @@
 			    been modified or observed as covariates.
 			</xs:documentation>
 		    </xs:annotation>
-
 		    <xs:complexType>
 			<xs:sequence>
-
 			    <xs:element name="methodologicalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
-					The methodological coverage captures the methodological approach as 
+					The methodological coverage captures the methodological approach as
 					weel at the method type.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
-
 					<xs:element name="generalApproach" type="GeneralApproach" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The general approach that thas been used e.g. virtual experiment, controlled experiment, 
+						    The general approach that thas been used e.g. virtual experiment, controlled experiment,
 						    field experiment, field manipulation, mere observation.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
-
 					<xs:element name="controlFactorRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    This element covers the range of control factors that are
 						    involved and if the have been manipulated or just observed
-						    as covariates. 
+						    as covariates.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="controlFactorItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								This element covers the range of control factors that have 
+								This element covers the range of control factors that have
 								been manipulated or just observed
-								as covariates. 
+								as covariates.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="controlFactorName" type="ControlFactorName" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The name of the control factor that has been measured or observed 
+									    The name of the control factor that has been measured or observed
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="controlFactorModus" type="ControlFactorModus" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -697,7 +648,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="controlFactorEnvironmentalDependency" type="ControlFactorEnvironmentalDependency" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -705,7 +655,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
@@ -722,16 +671,14 @@
 		<xs:element name="sphere" minOccurs="1" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation xml:lang="en">
-			    The sphere module deals with aspects of localization 
-			    and thus complements the space module. It allows to 
-			    more fine granular adjust the location within 
-			    the bounding box that has been given. 
+			    The sphere module deals with aspects of localization
+			    and thus complements the space module. It allows to
+			    more fine granular adjust the location within
+			    the bounding box that has been given.
 			</xs:documentation>
 		    </xs:annotation>
-
 		    <xs:complexType>
 			<xs:sequence>
-
 			    <xs:element name="sphericalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -739,7 +686,6 @@
 					is involved.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="sphereRange" minOccurs="1" maxOccurs="1">
@@ -748,7 +694,6 @@
 						    The sphere range captures a range of sphere items with name and sub spheres.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="sphereItem" minOccurs="1" maxOccurs="unbounded">
@@ -757,7 +702,6 @@
 								The sphere item captures a sphere item with name and sub spheres.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="sphereName" type="SphereName" minOccurs="1" maxOccurs="1">
@@ -768,7 +712,7 @@
 								    </xs:annotation>
 								</xs:element>
 							    </xs:sequence>
-							</xs:complexType> 
+							</xs:complexType>
 						    </xs:element>
 						</xs:sequence>
 					    </xs:complexType>
@@ -776,18 +720,16 @@
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="zoneCoverage" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="zoneRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The zone range captures a range of spheres, zones and layers under 
+						    The zone range captures a range of spheres, zones and layers under
 						    the main spheres selected in the annotation.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="zoneItem" minOccurs="1" maxOccurs="unbounded">
@@ -796,7 +738,6 @@
 								The zone item captures a sphere, zone or layer item by name.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="zoneName" type="ZoneName" minOccurs="1" maxOccurs="1">
@@ -806,12 +747,11 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 							    </xs:sequence>
-							</xs:complexType> 
+							</xs:complexType>
 						    </xs:element>
 						</xs:sequence>
-					    </xs:complexType> 
+					    </xs:complexType>
 					</xs:element>
 				    </xs:sequence>
 				</xs:complexType>
@@ -830,18 +770,16 @@
 			    hydrological aspects describing the biome.
 			</xs:documentation>
 		    </xs:annotation>
-
 		    <xs:complexType>
 			<xs:sequence>
 			    <xs:element name="biomicCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
 					The biomic coverage captures biomes by
-					name, tpye, the latitudianal zonataion 
-					and water availablility.	
+					name, tpye, the latitudianal zonataion
+					and water availablility.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="biomeRange" minOccurs="1" maxOccurs="1">
@@ -850,18 +788,16 @@
 						    The biome range allows to add multiple biomes.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="biomeItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
 								The biome item captures the
-								name, the tpye, the latitudianal zonataion 
-								and water availablility of a specific biome.	
+								name, the tpye, the latitudianal zonataion
+								and water availablility of a specific biome.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<!-- <xs:element name="biomeName" type="xs:string" minOccurs="0" maxOccurs="1"/> -->
@@ -874,7 +810,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="isEcotone" type="IsEcotone"  minOccurs="1" maxOccurs="1">
 								    <!-- biome type is not a good word -->
 								    <xs:annotation>
@@ -884,8 +819,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
-
 								<xs:element name="biomeZonation" type="BiomeZoneation" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -894,21 +827,19 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="biomeHemisphere" type="BiomeHemisphere" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    This captures the hemisphere the biome is in. This can take the 
+									    This captures the hemisphere the biome is in. This can take the
 									    values Northern or Southern.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="biomeWater" type="BiomeWater" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The water availablility is captured here. This can take the values 
-									    Arid, Semi Arid, Semi Humid, Humid. 
+									    The water availablility is captured here. This can take the values
+									    Arid, Semi Arid, Semi Humid, Humid.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -918,14 +849,12 @@
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
-
 					<xs:element name="physiognomyRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The physiognomy range caputres the range of available physiognomies  
+						    The physiognomy range caputres the range of available physiognomies
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="physiognomyItem" minOccurs="1" maxOccurs="unbounded">
@@ -934,27 +863,24 @@
 								The physiognomy item caputres a specific type of physiognomy by name and type
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="physiognomyClass" type="PhysiognomyClass" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The physiognomy class captures the broad classification of the physiognomy (forest, 
+									    The physiognomy class captures the broad classification of the physiognomy (forest,
 									    open woodland, shrubland ...)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="physiognomyType" type="PhysiognomyType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The physiognomy type details the classification of the physiognomy (e.g. 
+									    The physiognomy type details the classification of the physiognomy (e.g.
 									    class: forest, type mixed).
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
@@ -964,14 +890,12 @@
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="landUseRange" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
 					The land use range allows to specify the range of land uses
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="landUseItem" minOccurs="1" maxOccurs="unbounded">
@@ -981,22 +905,20 @@
 						    broad classification and to give the purpose the land is used for.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="landUseClass" type="LandClass" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								Allows a broad classification of the land in the observation area 
+								Allows a broad classification of the land in the observation area
 								in terms of naturality (natural, semi natural, urban).
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
-
 						    <xs:element name="landUsePurpose" type="LandUsePurpose" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								Allows to specify the purpose the land in the observation area is used 
+								Allows to specify the purpose the land in the observation area is used
 								for (agriculture, aquaculture, agroforestry, vegetated)
 							    </xs:documentation>
 							</xs:annotation>
@@ -1020,7 +942,6 @@
 			    classification.
 			</xs:documentation>
 		    </xs:annotation>
-
 		    <xs:complexType>
 			<xs:sequence>
 			    <xs:element name="organismicCoverage" minOccurs="1" maxOccurs="1">
@@ -1030,34 +951,31 @@
 					organisms as well as with the characterization of life forms.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="organismRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The organismic range allows to specify multiple taxonomically 
+						    The organismic range allows to specify multiple taxonomically
 						    classified organisms.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="organismItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The organism item allows to capture a specific organisms by taxonomical 
+								The organism item allows to capture a specific organisms by taxonomical
 								classification.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="taxonomicClassification" type="TaxonomicClassification" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The taxonomic rank name specifies the level of the taxonomic naming given
-									    in the taxonomicName field in the organism item. This can be e.g. 
+									    in the taxonomicName field in the organism item. This can be e.g.
 									    domain, kingdom, phylum, division, class, order, family, genus, species
 									</xs:documentation>
 								    </xs:annotation>
@@ -1080,26 +998,23 @@
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="lifeFormCoverage" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="lifeFormRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The life form range allows to specify multiple types of life forms 
+						    The life form range allows to specify multiple types of life forms
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="lifeFormItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The life form item allows to specify a specific life form 
+								The life form item allows to specify a specific life form
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="lifeFormClass" type="LifeFormClass" minOccurs="1" maxOccurs="1">
@@ -1109,16 +1024,14 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="lifeFormType" type="LifeFormType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    Allows further specification of the life form covering various aspects (hydrophyte, 
+									    Allows further specification of the life form covering various aspects (hydrophyte,
 									    homöotherm ...).
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
@@ -1128,18 +1041,15 @@
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="organismSizeCoverage" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
-
 					<xs:element name="organismSizeRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    The organism size range reflects the size of orgaisms involved in the observation.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="organismSizeItem" minOccurs="1" maxOccurs="unbounded">
@@ -1148,49 +1058,43 @@
 								The organism size reflects the maximum and minimum size of organism in the observation.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="organismSizeMinimum" type="NonNegativeDecimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The minimum size of an organism 
+									    The minimum size of an organism
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="organismSizeMinimumUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The unit of the minimum size of an organism  (pico, nano, micro, ...Metre)
+									    The unit of the minimum size of an organism  (Pico, Nano, Micro, ...Metre)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
-								<xs:element name="organismSizeMaximum" type="NonNegativeDecimal" minOccurs="1" maxOccurs="1"> 
+								<xs:element name="organismSizeMaximum" type="NonNegativeDecimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The maximum size of an organism 
+									    The maximum size of an organism
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
-								<xs:element name="organismSizeMaximumUnit" type="LengthUnit" minOccurs="1" maxOccurs="1"> 
+								<xs:element name="organismSizeMaximumUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The unit of the maximum size of an organism  (pico, nano, micro, ...Metre)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
-								<xs:element name="organismSizeClass" type="OrganismSizeClass" minOccurs="0" maxOccurs="1"> 
+								<xs:element name="organismSizeClass" type="OrganismSizeClass" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    Providesa a classification approach to the size information (micro, meso, macroFlora, microFauna ...)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
@@ -1212,10 +1116,8 @@
 			    involved in the dataset.
 			</xs:documentation>
 		    </xs:annotation>
-
 		    <xs:complexType>
 			<xs:sequence>
-
 			    <xs:element name="chemicalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -1225,17 +1127,15 @@
 					their classification.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="elementRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The chemical element range allows to specify elements 
+						    The chemical element range allows to specify elements
 						    that have been involved in the study.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="elementItem" minOccurs="1" maxOccurs="unbounded">
@@ -1245,7 +1145,6 @@
 								that has been involved in the study.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="elementName" type="ElementName" minOccurs="1" maxOccurs="1">
@@ -1261,7 +1160,6 @@
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
-
 					<xs:element name="isotopeRange" minOccurs="0" maxOccurs="1">
 					    <xs:complexType>
 						<xs:sequence>
@@ -1281,7 +1179,6 @@
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
-
 					<xs:element name="compoundRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1289,7 +1186,6 @@
 						    by their name and classification.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="compoundItem" minOccurs="1" maxOccurs="unbounded">
@@ -1299,7 +1195,6 @@
 								by name and classification.
 							    </xs:documentation>
 							</xs:annotation>
-
 							<xs:complexType>
 							    <xs:sequence>
 								<xs:element name="compoundName" type="xs:string" minOccurs="1" maxOccurs="1">
@@ -1309,7 +1204,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="compoundClass" type="CompoundClass" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1317,23 +1211,20 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 								<xs:element name="compoundCategoryRange" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    Allows to capture a range of categories the compound belong to 
+									    Allows to capture a range of categories the compound belong to
 									</xs:documentation>
 								    </xs:annotation>
-
 								    <xs:complexType>
 									<xs:sequence>
 									    <xs:element name="compoundCategoryItem" minOccurs="1" maxOccurs="unbounded">
 										<xs:annotation>
 										    <xs:documentation xml:lang="en">
-											The compound category item captures one specific compound categorization. 
+											The compound category item captures one specific compound categorization.
 										    </xs:documentation>
 										</xs:annotation>
-
 										<xs:complexType>
 										    <xs:sequence>
 											<xs:element name="compoundCategoryName" type="CompoundCategory" minOccurs="1" maxOccurs="1">
@@ -1346,7 +1237,6 @@
 											</xs:element>
 										    </xs:sequence>
 										</xs:complexType>
-
 									    </xs:element>
 									</xs:sequence>
 								    </xs:complexType>
@@ -1360,14 +1250,12 @@
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="chemicalFunctionRange" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
 					The chemical function range allows to capture a range of chemical functions
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="chemicalFunctionItem" minOccurs="1" maxOccurs="unbounded">
@@ -1376,7 +1264,6 @@
 						    The chemical function item allows to capture one chemical function
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="chemicalFunctionName" type="chemicalFunctionNameType" minOccurs="1" maxOccurs="1">
@@ -1400,11 +1287,10 @@
 		<xs:element name="process" minOccurs="1" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation xml:lang="en">
-			    The process facet deals with aspects about processes observed in the study. It covers the name of the 
+			    The process facet deals with aspects about processes observed in the study. It covers the name of the
 			    process and allows a classification of the process with process types.
 			</xs:documentation>
 		    </xs:annotation>
-
 		    <xs:complexType>
 			<xs:sequence>
 			    <xs:element name="processCoverage" minOccurs="1" maxOccurs="1">
@@ -1413,7 +1299,6 @@
 					The process coverage deals with capturing processes and their classification.
 				    </xs:documentation>
 				</xs:annotation>
-
 				<xs:complexType>
 				    <xs:sequence>
 					<xs:element name="processItem" minOccurs="1" maxOccurs="unbounded">
@@ -1422,42 +1307,37 @@
 						    The process item covers a specific process by name and classifiction.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="processName" type="ProcessName" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The process name fields covers the process name. 
+								The process name fields covers the process name.
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
-
 						    <xs:element name="processClass" type="ProcessClass" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The process class covers the general character of the process. It 
+								The process class covers the general character of the process. It
 								can be interaction, transformation or transport.
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
-
 						    <xs:element name="processType" type="ProcessType" minOccurs="0" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The process type covers a more detailed classification of the process. 
+								The process type covers a more detailed classification of the process.
 								It goes hand in hand with the process class.
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
 				    </xs:sequence>
-				</xs:complexType> 
+				</xs:complexType>
 			    </xs:element>
-
 			    <xs:element name="interactionRange" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
@@ -1471,7 +1351,7 @@
 					    </xs:complexType>
 					</xs:element>
 				    </xs:sequence>
-				</xs:complexType> 
+				</xs:complexType>
 			    </xs:element>
 			</xs:sequence>
 		    </xs:complexType>
@@ -2156,8 +2036,8 @@
 			Lands dominated by trees with a canopy cover of more
 			than 60% and height exceeding 2 m. Almost all trees
 			remain green all year. Canopy is never without green
-			foliage. Woodward et al. (2004). 
-		    </xs:documentation> 
+			foliage. Woodward et al. (2004).
+		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
 
@@ -2168,18 +2048,18 @@
 			than 60% and height exceeding 2 m. Consists of seasonal
 			needleleaf tree communities with an annual cycle of
 			leaf-on and leaf-off periods. Woodward et al.
-			(2004). 
-		    </xs:documentation> 
+			(2004).
+		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="Evergreen Broadleaf"> 
+	    <xs:enumeration value="Evergreen Broadleaf">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Lands dominated by trees with a canopy cover of more
 			than 60% and height exceeding 2 m. Almost all trees
 			remain green all year. Canopy is never without green
-			foliage. Woodward et al. (2004). 
+			foliage. Woodward et al. (2004).
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2206,7 +2086,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-	    
+
 	    <!-- open woodland -->
 	    <xs:enumeration value="Savannah">
 		<xs:annotation>
@@ -2216,7 +2096,7 @@
 			forest cover height exceeds 2 m. Woodward et al.
 			(2004).
 		    </xs:documentation>
-		</xs:annotation> 
+		</xs:annotation>
 	    </xs:enumeration>
 
 	    <xs:enumeration value="Woody Savannah">
@@ -2329,7 +2209,7 @@
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Non rooted or attached aquatic plants (vascular and
-			non-vascular) 
+			non-vascular)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2408,11 +2288,11 @@
     <xs:simpleType name="BiomeZoneation">
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
-		 The biome latitude zones provides roughly the location north
-		 or south from the equator. Latitudes are a key factor in
-		 determining a region's climate and we can distinguish
-		 different climatic zones along the gradient
-		 http://bit.ly/1C9aOzw (ELC, M).
+		The biome latitude zones provides roughly the location north
+		or south from the equator. Latitudes are a key factor in
+		determining a region's climate and we can distinguish
+		different climatic zones along the gradient
+		http://bit.ly/1C9aOzw (ELC, M).
 	    </xs:documentation>
 	</xs:annotation>
 
@@ -2493,26 +2373,26 @@
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
 		The hemisphere of a biome.
-	     </xs:documentation>
-	 </xs:annotation>
+	    </xs:documentation>
+	</xs:annotation>
 
-	 <xs:restriction base="xs:string">
-	     <xs:enumeration value="Northern">
-		 <xs:annotation>
-		     <xs:documentation xml:lang="en">
-			 The northern hemisphere. North of the equator.
-		     </xs:documentation>
-		 </xs:annotation>
-	     </xs:enumeration>
-	     
-	     <xs:enumeration value="Southern">
-		 <xs:annotation>
-		     <xs:documentation xml:lang="en">
-			 The southern hemisphere. South of the equator.
-		     </xs:documentation>
-		 </xs:annotation>
-	     </xs:enumeration>
-	 </xs:restriction>
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="Northern">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			The northern hemisphere. North of the equator.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Southern">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			The southern hemisphere. South of the equator.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="LandClass">
@@ -2520,7 +2400,7 @@
 	    <xs:enumeration value="Natural">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
-			Natural is every land that is not managed in any way. 
+			Natural is every land that is not managed in any way.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2870,7 +2750,7 @@
 			international form of the symbol) is a unit of
 			measurement of time. In modern usage, an hour comprises
 			60 minutes, or 3,600 seconds. It is approximately 1/24
-			of a mean solar day (WP, http://bit.ly/1PhSkDP) 
+			of a mean solar day (WP, http://bit.ly/1PhSkDP)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3568,7 +3448,7 @@
 	    <xs:enumeration value="Global">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
-			Defined as: > 100.000.000 km^2 
+			Defined as: > 100.000.000 km^2
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3609,9 +3489,9 @@
 	    <xs:minExclusive value="0"/>
 	</xs:restriction>
     </xs:simpleType>
-    
+
     <xs:simpleType name="RankAbbreviation">
-    <!-- cite abcd -->
+	<!-- cite abcd -->
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
 		The abbreviation of a taxonomic rank as used in (botanical) name strings
@@ -3632,9 +3512,9 @@
     </xs:simpleType>
 
     <!-- complex types -->
-    
+
     <xs:complexType name="TaxonomicClassification">
-    <!-- cite eml  -->
+	<!-- cite eml  -->
 	<xs:sequence>
 	    <xs:element name="taxonRankName" type="xs:string" minOccurs="1">
 	    </xs:element>
@@ -3648,7 +3528,7 @@
     </xs:complexType>
 
     <xs:complexType name="OrganismName">
-    <!-- cite abcd -->
+	<!-- cite abcd -->
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
 		Atomised names of the taxon, with subtypes according to the
@@ -3657,44 +3537,44 @@
 	    </xs:documentation>
 	</xs:annotation>
 
-	    <xs:choice>
-		<xs:element name="bacterialName" type="BacterialName" minOccurs="0">
-		    <xs:annotation>
-			<xs:documentation xml:lang="en">
-			    Atomised name with elements according to the
-			    International Code of Nomenclature of Prokaryotes
-			</xs:documentation>
-		    </xs:annotation>
-		</xs:element>
-		<xs:element name="botanicalName" type="BotanicalName" minOccurs="0">
-		    <xs:annotation>
-			<xs:documentation xml:lang="en">
-			    Atomised name with elements according to the
-			    International Code of Botanical Nomenclature
-			</xs:documentation>
-		    </xs:annotation>
-		</xs:element>
-		<xs:element name="zoologicalName" type="ZoologicalName" minOccurs="0">
-		    <xs:annotation>
-			<xs:documentation xml:lang="en">
-			    Atomised name with elements according to the
-			    International Code of Zoological Nomenclature
-			</xs:documentation>
-		    </xs:annotation>
-		</xs:element>
-		<xs:element name="viralName" type="ViralName" minOccurs="0">
-		    <xs:annotation>
-			<xs:documentation xml:lang="en">
-			    Atomised name with elements according to the
-			    International Committee on Taxonomy of Viruses
-			</xs:documentation>
-		    </xs:annotation>
-		</xs:element>
-	    </xs:choice>
+	<xs:choice>
+	    <xs:element name="bacterialName" type="BacterialName" minOccurs="0">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Atomised name with elements according to the
+			International Code of Nomenclature of Prokaryotes
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:element>
+	    <xs:element name="botanicalName" type="BotanicalName" minOccurs="0">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Atomised name with elements according to the
+			International Code of Botanical Nomenclature
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:element>
+	    <xs:element name="zoologicalName" type="ZoologicalName" minOccurs="0">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Atomised name with elements according to the
+			International Code of Zoological Nomenclature
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:element>
+	    <xs:element name="viralName" type="ViralName" minOccurs="0">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			Atomised name with elements according to the
+			International Committee on Taxonomy of Viruses
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:element>
+	</xs:choice>
     </xs:complexType>
 
     <xs:complexType name="BacterialName">
-    <!-- cite abcd -->
+	<!-- cite abcd -->
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
 		An atomised name under the International Code of Nomenclature
@@ -3768,7 +3648,7 @@
     </xs:complexType>
 
     <xs:complexType name="BotanicalName">
-    <!-- cite abcd -->
+	<!-- cite abcd -->
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
 		An atomised scientific name under the International Code of
@@ -3797,7 +3677,7 @@
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			The final epithet of a botanical name of infraspecific
-			rank 
+			rank
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
@@ -3878,7 +3758,7 @@
     </xs:complexType>
 
     <xs:complexType name="ZoologicalName">
-    <!-- cite abcd -->
+	<!-- cite abcd -->
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
 		An atomised scientific name under the International Code of
@@ -3935,7 +3815,7 @@
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			The citation of the authors responsible for the new combination and the year of
-			its publication 
+			its publication
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
@@ -3951,7 +3831,7 @@
     </xs:complexType>
 
     <xs:complexType name="ViralName">
-    <!-- cite abcd -->
+	<!-- cite abcd -->
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
 		An atomised scientific name under the International Code of
@@ -3986,5 +3866,5 @@
 		</xs:annotation>
 	    </xs:element>
 	</xs:sequence>
-	</xs:complexType>
+    </xs:complexType>
 </xs:schema>
