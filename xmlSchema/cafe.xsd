@@ -1674,14 +1674,16 @@
 	    <xs:enumeration value="Abiotic">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			This designates the interaction as an abiotic interaction.
+			This classifies an interaction process as an abiotic
+			interaction.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
 	    <xs:enumeration value="Biotic">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			This designates the interaction as an biotic interaction.
+			This classifies an interaction process as an biotic
+			interaction.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1690,8 +1692,9 @@
 	    <xs:enumeration value="Removal">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			In the transformation process there is something
-			removed. This could be water purification for example. 
+			This classifies as transformation with the focus of a
+			removal. This could be water purification for example.
+			Removal [AB] -> [A]
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1699,22 +1702,94 @@
 	    <xs:enumeration value="Addition">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			In the transformation something is added. This could 
-			be pollution. 
+			This classifies transformation processes with a focus
+			on an addition.This could be pollution. Addition [A] ->
+			[AB]
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
 
-	    <xs:enumeration value="Increase"/>
-	    <xs:enumeration value="Decrease"/>
-	    <xs:enumeration value="Transition"/>
-	    <xs:enumeration value="Conversion"/>
+	    <xs:enumeration value="Increase">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Tis classifies a transformation processes where the
+			focus is on an increase. This could be for example the
+			growth of a tree. Or the increase of a population.
+			Increase (a -> A)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Decrease">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies a transformation process where the
+			focus in on a decrease. This could be for example
+			habitat loss. Decrease (A -> a)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Transition">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies a transformation process where the
+			focus is on a transition. This could be for example
+			successsion in a forest. Transition (A -> B)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Conversion">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies a transformation process where the
+			focus in on a conversion. Conversion (AB <-> B + A)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 
 	    <!-- transport -->
-	    <xs:enumeration value="Uptake"/>
-	    <xs:enumeration value="Release"/>
-	    <xs:enumeration value="Exchange"/>
-	    <xs:enumeration value="Movement"/>
+	    <xs:enumeration value="Uptake">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies transport processes with a focus on an
+			uptake. This could be for example nutrient uptake.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Release">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies transport processes with a focus on a
+			release. This could be the release of nutrients in the
+			process of decomposition.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Exchange">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies transport processes whith a focus on an
+			exchange. This could be for example the exchange of
+			gases between the surface of the sea and the
+			atmosphere.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Movement">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies transport processes with a focus on a
+			movement. This could be for example the particle
+			transport in surface runof or the movemnt of energy
+			with ocean currents.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 
 	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
