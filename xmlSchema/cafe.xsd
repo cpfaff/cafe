@@ -1797,6 +1797,13 @@
     </xs:simpleType>
 
     <xs:simpleType name="ProcessName">
+	<xs:annotation xml:lang="en">
+	    <xs:documentation>
+		The name of a process. This is a list that provides some
+		suggestions and that is extendable.
+	    </xs:documentation>
+	</xs:annotation>
+
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Adaptation"/>
 	    <xs:enumeration value="Speciation"/>
