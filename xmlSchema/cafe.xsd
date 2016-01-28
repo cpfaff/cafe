@@ -578,7 +578,7 @@
 						    done in of categories that
 						    are defined by size (Point,
 						    Plot, Region, Continent,
-						    Global) 
+						    Global)
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
@@ -590,7 +590,7 @@
 						    is done in of categories
 						    that are defined by size
 						    (Point, Plot, Region,
-						    Continent, Global) 
+						    Continent, Global)
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
@@ -1362,19 +1362,18 @@
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    The interaction item captures an interaction by
-						    the two interaction partners and a direction of 
+						    the two interaction partners and a direction of
 						    the interaction. Complex interactions that involve
 						    more than one partner have to be specified split
 						    into multiple parts.
 						</xs:documentation>
 					    </xs:annotation>
-
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="firstInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1">
 							<xs:annotation xml:lang="en">
 							    <xs:documentation>
-								The first partner in the interaction. 
+								The first partner in the interaction.
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
@@ -1388,7 +1387,7 @@
 						    <xs:element name="secondInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1">
 							<xs:annotation xml:lang="en">
 							    <xs:documentation>
-								The second partner in the interaction. 
+								The second partner in the interaction.
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
@@ -1459,7 +1458,7 @@
 	<xs:annotation xml:lang="en">
 	    <xs:documentation>
 		The actors involved in an interaction. The interaction partners
-		is an extendable list. 
+		is an extendable list.
 	    </xs:documentation>
 	</xs:annotation>
 
@@ -1480,7 +1479,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
-	 
+
 	    <xs:enumeration value="Animal">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
@@ -1516,7 +1515,7 @@
 			Bacteria [...] constitute a large domain of prokaryotic
 			microorganisms. Typically a few micrometres in length,
 			bacteria have a number of shapes, ranging from spheres to rods
-			and spirals (WP, https://goo.gl/4JbsxA) 
+			and spirals (WP, https://goo.gl/4JbsxA)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1593,10 +1592,10 @@
 	    <xs:enumeration value="Mutually Interacts With">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			The mutually interact means that both interactionn partners	
+			The mutually interact means that both interactionn partners
 			are mutually affecting each other. This helps to formulate
 			statements like Plant Mutually Interacts With Animal which
-			could be somthing like population dynamics. 
+			could be somthing like population dynamics.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1636,7 +1635,7 @@
 
 			This classifies the process as a transformation. This
 			could be for example the uptake of energy and nutrients
-			by plants to create and oxygen. 
+			by plants to create and oxygen.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1663,8 +1662,8 @@
     <xs:simpleType name="ProcessType">
 	<xs:annotation xml:lang="en">
 	    <xs:documentation>
-		The process type isa more detailed classification of a process 
-		and thus is a companion to the process class. It is an extendable 
+		The process type isa more detailed classification of a process
+		and thus is a companion to the process class. It is an extendable
 		list as well.
 	    </xs:documentation>
 	</xs:annotation>
@@ -2645,8 +2644,8 @@
 
     <xs:simpleType name="BiomeType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Terrestrial"/>
-	    <xs:enumeration value="Aquatic"/>
+	    <xs:enumeration value="Terrestrial Biome"/>
+	    <xs:enumeration value="Aquatic Biome"/>
 	</xs:restriction>
     </xs:simpleType>
 
@@ -4091,7 +4090,7 @@
 		    </xs:simpleContent>
 		</xs:complexType>
 	    </xs:element>
-	
+
 	    <xs:element name="authorTeamParenthesis" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
