@@ -822,14 +822,6 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-								<xs:element name="isEcotone" type="xs:boolean"  minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    Allows to specify weather the biome was an ecotone or not.
-									    This can take the values true and false.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
 								<xs:element name="biomeZonation" type="BiomeZoneation" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -851,6 +843,14 @@
 									<xs:documentation xml:lang="en">
 									    The water availablility is captured here. This can take the values
 									    Arid, Semi Arid, Semi Humid, Humid.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+								<xs:element name="isEcotone" type="xs:boolean"  minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    Allows to specify weather the biome was an ecotone or not.
+									    This can take the values true and false.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
