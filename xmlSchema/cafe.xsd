@@ -1715,7 +1715,7 @@
 			Tis classifies a transformation processes where the
 			focus is on an increase. This could be for example the
 			growth of a tree. Or the increase of a population.
-			Increase (a -> A)
+			Increase (a to A)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1725,7 +1725,7 @@
 		    <xs:documentation>
 			This classifies a transformation process where the
 			focus in on a decrease. This could be for example
-			habitat loss. Decrease (A -> a)
+			habitat loss. Decrease (A to a)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1735,7 +1735,7 @@
 		    <xs:documentation>
 			This classifies a transformation process where the
 			focus is on a transition. This could be for example
-			successsion in a forest. Transition (A -> B)
+			successsion in a forest. Transition (A to B)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1744,7 +1744,7 @@
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
 			This classifies a transformation process where the
-			focus in on a conversion. Conversion (AB <-> B + A)
+			focus in on a conversion. Conversion (AB to/from B + A)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
