@@ -147,7 +147,7 @@
 						</xs:annotation>
 						<xs:complexType>
 						    <xs:sequence>
-							<xs:element name="dateTimeItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="dateTimeItem" minOccurs="1" maxOccurs="1">
 							    <xs:complexType>
 								<xs:sequence>
 								    <xs:element name="dateStart" type="xs:date" minOccurs="1" maxOccurs="1">
@@ -312,7 +312,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
-			    <xs:element name="spatialCoverage" minOccurs="0" maxOccurs="1">
+			    <xs:element name="spatialCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
 					The spatial coverage deals with
@@ -434,14 +434,14 @@
 									    <xs:element name="utmCoordinate" minOccurs="1" maxOccurs="1">
 										<xs:complexType>
 										    <xs:sequence>
-											<xs:element name="zone" type="xs:integer" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="zone" type="xs:integer" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
 												    The numerical zone corresponding to the central meridian
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-											<xs:element name="subZone" type="xs:integer" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="subZone" type="xs:integer" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
 												    The subzone letter corresponding to one of the 20 north-south divisions of the
@@ -449,42 +449,42 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-											<xs:element name="northSouth" type="NorthSouth" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="northSouth" type="NorthSouth" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
 												    The hemisphere. This can be N (North) or S (South)
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-											<xs:element name="easting" type="xs:decimal" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="easting" type="xs:decimal" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
 												    The distance east of the origin of the UTM zone
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-											<xs:element name="eastingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="eastingUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
 												    The unit of the distance of the easting (Meter, Kilometer)
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-											<xs:element name="northing" type="xs:decimal" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="northing" type="xs:decimal" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
 												    The distance north of the origin of the UTM zone
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-											<xs:element name="northingUnit" type="LengthUnit" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="northingUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
 												    The unit of the distance of the northing (Meter, Kilometer)
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
-											<xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="0" maxOccurs="unbounded">
+											<xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
 												    The datum (e.g. wgs84)
@@ -1035,7 +1035,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-								<xs:element name="lifeFormType" type="LifeFormType" minOccurs="1" maxOccurs="1">
+								<xs:element name="lifeFormType" type="LifeFormType" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    Allows further specification of the life form covering various aspects (hydrophyte,
@@ -1368,6 +1368,7 @@
 						    into multiple parts.
 						</xs:documentation>
 					    </xs:annotation>
+
 					    <xs:complexType>
 						<xs:sequence>
 						    <xs:element name="firstInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1">
@@ -2644,8 +2645,8 @@
 
     <xs:simpleType name="BiomeType">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Terrestrial Biome"/>
-	    <xs:enumeration value="Aquatic Biome"/>
+	    <xs:enumeration value="Terrestrial"/>
+	    <xs:enumeration value="Aquatic"/>
 	</xs:restriction>
     </xs:simpleType>
 
@@ -4090,7 +4091,7 @@
 		    </xs:simpleContent>
 		</xs:complexType>
 	    </xs:element>
-
+	
 	    <xs:element name="authorTeamParenthesis" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
