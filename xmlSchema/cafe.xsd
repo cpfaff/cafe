@@ -3885,6 +3885,16 @@
 	</xs:restriction>
     </xs:simpleType>
 
+
+    <!-- simple type extension for fields taken from abcd fields -->
+
+    <xs:simpleType name="Insertpoint">
+	<xs:restriction base="xs:integer">
+	    <xs:minInclusive value="1"/>
+	    <xs:maxInclusive value="3"/>
+	</xs:restriction>
+    </xs:simpleType>
+
     <!-- complex types -->
 
     <xs:complexType name="TaxonomicClassification">
@@ -4076,7 +4086,7 @@
 		<xs:complexType>
 		    <xs:simpleContent>
 			<xs:extension base="xs:string">
-			    <xs:attribute name="insertionpoint" type="xs:integer"/>
+			    <xs:attribute name="insertionpoint" type="Insertpoint"/>
 			</xs:extension>
 		    </xs:simpleContent>
 		</xs:complexType>
