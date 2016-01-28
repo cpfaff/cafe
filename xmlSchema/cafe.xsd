@@ -2599,7 +2599,7 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="BiomeWater">
+    <xs:simpleType name="BiomeHydrology">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Humid">
 		<xs:annotation>
