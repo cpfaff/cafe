@@ -1410,6 +1410,14 @@
     <!-- physical related types -->
 
     <xs:simpleType name="ObjectType">
+	<xs:annotation xml:lang="en">
+	    <xs:documentation>
+		The object type provides information about the type of search
+		object. It is an extendable list of general object type classes
+		(Image, Audio, Table, Video)
+	    </xs:documentation>
+	</xs:annotation>
+
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Audio">
 		<xs:annotation xml:lang="en">
@@ -1448,6 +1456,13 @@
     <!-- interaction related types -->
 
     <xs:simpleType name="InteractionPartner">
+	<xs:annotation xml:lang="en">
+	    <xs:documentation>
+		The actors involved in an interaction. The interaction partners
+		is an extendable list. 
+	    </xs:documentation>
+	</xs:annotation>
+
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Plant">
 		<xs:annotation xml:lang="en">
@@ -1459,8 +1474,9 @@
 			ferns, clubmosses, hornworts, liverworts, mosses and
 			the green algae (WP, https://goo.gl/3ro18)
 
-			This group of interaction partners compared to green
-			plants also includes red and brown algae.
+			This group of interaction partners is not taxonomically
+			correct and compared to green plants also includes red
+			and brown algae.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1532,8 +1548,9 @@
 	    <xs:enumeration value="Environment">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			The environment encompasses all abiotic factors as
-			interaction partners.
+			The environment as interaction partner stands
+			represents an interaction with any arbitraty abiotic
+			factor.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -1544,34 +1561,143 @@
     </xs:simpleType>
 
     <xs:simpleType name="DirectionOfInteraction">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Acts On"/>
-	    <xs:enumeration value="Is Affected By"/>
-	    <xs:enumeration value="Mutually Interact"/>
+	<xs:annotation xml:lang="en">
+	    <xs:documentation>
+		The direction of the interaction describes the interaction
+		between two interaction partners. It is a non extendable list
+		with predefined values.
+	    </xs:documentation>
+	</xs:annotation>
 
-	    <!-- extension -->
-	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="Acts On">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Acts on means that the first interaction partner is
+			acting on the second. It helps formulate statements
+			like Animal Acts On Plant which could be herbivory for
+			example.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Is Affected By">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Is affected by means that the second interaction
+			partner is affect by the first. This helps to formulate
+			statements like Plant Is Affected By Virus which would
+			mean some infection.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Mutually Interacts With">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The mutually interact means that both interactionn partners	
+			are mutually affecting each other. This helps to formulate
+			statements like Plant Mutually Interacts With Animal which
+			could be somthing like population dynamics. 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 	</xs:restriction>
     </xs:simpleType>
 
     <!-- process related types -->
 
     <xs:simpleType name="ProcessClass">
+	<xs:annotation xml:lang="en">
+	    <xs:documentation>
+		The process class is an extendable list to classify processes
+		Process can be specified by their name in the schema. This
+		classification will help to formulate an ontology about
+		processes.
+	    </xs:documentation>
+	</xs:annotation>
+
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Interaction Process"/>
-	    <xs:enumeration value="Transformation Process"/>
-	    <xs:enumeration value="Transport Process"/>
+	    <xs:enumeration value="Interaction Process">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies the process as an interaction. That
+			encompasses every biotic as well as abiotic
+			interaction. For example this could be the exchange of
+			gases between the surface of the ocean and the
+			atmosphere or it could be population dynamics. 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Transformation Process">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies the process as a transofrmation.
+			Something is changed into something else. This could be
+			for example the uptake of energy and nutrients by
+			plants to create and oxygen. 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Transport Process">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This classifies a process as a transport process. This
+			is for when something is transported like soil
+			particles in surface runoff or seeds dispersal for
+			exmaple by birds.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <!-- extension -->
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="ProcessType">
+	<xs:annotation xml:lang="en">
+	    <xs:documentation>
+		The process type isa more detailed classification of a process 
+		and thus is a companion to the process class. It is an extendable 
+		list as well.
+	    </xs:documentation>
+	</xs:annotation>
+
 	<xs:restriction base="xs:string">
 	    <!-- interaction -->
-	    <xs:enumeration value="Interaction"/>
+	    <xs:enumeration value="Abiotic">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This designates the interaction as an abiotic interaction.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="Biotic">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This designates the interaction as an biotic interaction.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 
 	    <!-- transformation -->
-	    <xs:enumeration value="Removal"/>
-	    <xs:enumeration value="Addition"/>
+	    <xs:enumeration value="Removal">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			In the transformation process there is something
+			removed. This could be water purification for example. 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Addition">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			In the transformation something is added. This could 
+			be pollution. 
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
 	    <xs:enumeration value="Increase"/>
 	    <xs:enumeration value="Decrease"/>
 	    <xs:enumeration value="Transition"/>
@@ -1582,6 +1708,9 @@
 	    <xs:enumeration value="Release"/>
 	    <xs:enumeration value="Exchange"/>
 	    <xs:enumeration value="Movement"/>
+
+	    <!-- extension -->
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
 
