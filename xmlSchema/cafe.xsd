@@ -1619,31 +1619,38 @@
 	    <xs:enumeration value="Interaction Process">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			This classifies the process as an interaction. That
-			encompasses every biotic as well as abiotic
-			interaction. For example this could be the exchange of
-			gases between the surface of the ocean and the
-			atmosphere or it could be population dynamics. 
+			Comprises all sorts interactions appearing across and
+			in between the scales of interest in ecology (Trophic
+			Interactions, Predation, Herbivory, Pollination,
+			Communication or the exchange of gases between the
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
 	    <xs:enumeration value="Transformation Process">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			This classifies the process as a transofrmation.
-			Something is changed into something else. This could be
-			for example the uptake of energy and nutrients by
-			plants to create and oxygen. 
+			Transformation processes enclose the addition, the
+			removal the loss, the change of state of matter as well
+			as structural and compositional changes that appear
+			across all scales of ecological interest.
+
+			This classifies the process as a transformation. This
+			could be for example the uptake of energy and nutrients
+			by plants to create and oxygen. 
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
 	    <xs:enumeration value="Transport Process">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			This classifies a process as a transport process. This
-			is for when something is transported like soil
-			particles in surface runoff or seeds dispersal for
-			exmaple by birds.
+			Transport processes embrace the uptake, the storage,
+			the release and the plain and simple movements of
+			matter and energy that appear across all scales of
+			ecological interest.
+
+			This classifies a process as a transport process. For
+			example like soil particles in surface runoff or seeds
+			dispersal for exmaple by birds.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
