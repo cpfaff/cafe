@@ -2211,8 +2211,10 @@
     <xs:simpleType name="LengthUnit">
 	<xs:annotation xml:lang="en">
 	    <xs:documentation>
-		The length unit is a non extendable list providing categories
-		of length units.
+
+		The length unit is a non extendable list providing typical
+		categories of length units.
+
 	    </xs:documentation>
 	</xs:annotation>
 
