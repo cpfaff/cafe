@@ -2209,18 +2209,164 @@
     <!-- organism related types -->
 
     <xs:simpleType name="LengthUnit">
+	<xs:annotation xml:lang="en">
+	    <xs:documentation>
+		The length unit is a non extendable list providing categories
+		of length units.
+	    </xs:documentation>
+	</xs:annotation>
+
 	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Metre"/>
-	    <xs:enumeration value="Picometre"/>
-	    <xs:enumeration value="Nanometre"/>
-	    <xs:enumeration value="Micrometre"/>
-	    <xs:enumeration value="Millimetre"/>
-	    <xs:enumeration value="Centimetre"/>
-	    <xs:enumeration value="Decimetre"/>
-	    <xs:enumeration value="Decametre"/>
-	    <xs:enumeration value="Hectometer"/>
-	    <xs:enumeration value="Kilometre"/>
-	    <xs:enumeration value="Megameter"/>
+
+	    <xs:enumeration value="Metre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The metre, or meter (American spelling), [...] is the
+			base unit of length in the International System of
+			Units (SI). The SI unit symbol is m. The metre is
+			defined as the distance travelled by light in a
+			specific fraction – about one three-hundred millionth –
+			of a second (WP, https://goo.gl/pK0Qil).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Picometre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The picometre (International spelling as used by the
+			International Bureau of Weights and Measures; SI
+			symbol: pm) or picometer (American spelling) is a unit
+			of length in the metric system, equal to one trillionth
+			(i.e., 1/1,000,000,000,000) of a metre, which is the SI
+			base unit of length. It can be written in scientific
+			notation as 1×10−12 m (WP, https://goo.gl/VzJ3pX)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Nanometre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The nanometre (International spelling as used by the
+			International Bureau of Weights and Measures; SI
+			symbol: nm) or nanometer (American spelling) is a unit
+			of length in the metric system, equal to one billionth
+			of a metre ( 0.000000001 m) . The name combines the SI
+			prefix nano- (from the Ancient Greek νάνος, nanos,
+			"dwarf") with the parent unit name metre (from Greek
+			μέτρον, metrοn, "unit of measurement"). It can be
+			written in scientific notation as 1×10−9 m (WP,
+			https://goo.gl/OCJlrl)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Micrometre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The micrometre (International spelling as used by the
+			International Bureau of Weights and Measures;[1] SI
+			symbol: µm) or micrometer (American spelling), also
+			commonly known as a micron, is an SI derived unit of
+			length equaling 1×10−6 of a metre (SI standard prefix
+			"micro-" = 10−6) (WP, https://goo.gl/LckBc1)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Millimetre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The millimetre (International spelling as used by the
+			International Bureau of Weights and Measures) or
+			millimeter (American spelling) (SI unit symbol mm) is a
+			unit of length in the metric system, equal to one
+			thousandth of a metre, which is the SI base unit of
+			length (WP, https://goo.gl/6SDmkZ)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Centimetre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			A centimetre (international spelling as used by the
+			International Bureau of Weights and Measures; symbol
+			cm) or centimeter (American spelling) is a unit of
+			length in the metric system, equal to one hundredth of
+			a metre, centi being the SI prefix for a factor of
+			1⁄100 (WP, https://goo.gl/rozVU8)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Decimetre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The decimetre (British English) or decimeter (American English); SI symbol dm)
+			is a unit of length in the metric system, equal to one tenth of a metre, the
+			International System of Units base unit of length. It is equal to ten
+			centimetres and 10 decimetres equal a metre. One decimetre is equivalent to
+			3.93700787 inches. It can be written in scientific notation as 100×10−3 m (WP,
+			https://goo.gl/Lchmgx)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Decametre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			A decametre or dekametre (American spelling: dekameter,
+			earlier decameter; symbol dam, sometimes unofficially
+			Dm or dkm) is a very rarely used unit of length in the
+			metric system, equal to ten metres, the SI base unit of
+			length. It can be written in scientific notation as
+			1×101 m or 1 E+1 m (exponential notation), meaning 1 ×
+			10 m (WP, https://goo.gl/7o6RIH).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Hectometer">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The hectometre (International spelling as used by the
+			International Bureau of Weights and Measures; SI
+			symbol: hm) or hectometer (American spelling) is an
+			uncommonly used unit of length in the metric system,
+			equal to one hundred metres. It derives from the Greek
+			word "ekato", meaning "hundred" (WP,
+			https://goo.gl/fn1hAi)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Kilometre">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The kilometre (International spelling as used by the
+			International Bureau of Weights and Measures; SI
+			symbol: km; /ˈkɪləmiːtə/ or /kɪˈlɒmɪtə/) or kilometer
+			(American spelling) is a unit of length in the metric
+			system, equal to one thousand metres (kilo- being the
+			SI prefix for 1000) (WP, https://goo.gl/bLxJL3)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Megameter">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The megametre (International spelling as used by the
+			International Bureau of Weights and Measures; SI
+			symbol: Mm) or megameter (American spelling) is a unit
+			of length in the metric system, equal to one million
+			metres, the SI base unit of length, hence to 1,000 km
+			(WP, https://goo.gl/3zXSK6)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 	</xs:restriction>
     </xs:simpleType>
 
