@@ -564,8 +564,10 @@
 			    <xs:element name="spatialRaster" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
-					The spatial raster allows to span a categorial grid in space with the extent being the frame
-					and time resolution the subdivision.
+					The spatial raster allows to span a
+					categorial grid in space with the
+					extent being the frame and time
+					resolution the subdivision.
 				    </xs:documentation>
 				</xs:annotation>
 				<xs:complexType>
@@ -2386,6 +2388,7 @@
 
 	    <!-- mycota -->
 	    <xs:enumeration value="Micro Mycota"/>
+	    <xs:enumeration value="Meso Mycota"/>
 	    <xs:enumeration value="Macro Mycota"/>
 
 	    <!-- general -->
@@ -2449,7 +2452,7 @@
 		    <xs:documentation xml:lang="en">
 			Helophytes are those plants that grow in wet soils. The
 			resting bud is below ground in the wet soil.
-			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
+			(http://goo.gl/g9uFKZ)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2460,7 +2463,7 @@
 			Hydrophytes grow in water and resting bud overwinters
 			below the surface of the water often in the lake bed
 			floor.
-			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
+			(http://goo.gl/g9uFKZ)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2471,7 +2474,7 @@
 			Therophytes are those plants that survive adverse
 			climatic conditions as seeds. These include all of the
 			annual plants.
-			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
+			(http://goo.gl/g9uFKZ)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2485,7 +2488,7 @@
 			in the moist tropics and include ferns, aroids,
 			orchids, bromeliads, peperomias , and cactus. Non -
 			vascular epiphytes include mosses and lichens.
-			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
+			(http://goo.gl/g9uFKZ)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2495,7 +2498,7 @@
 		    <xs:documentation xml:lang="en">
 			Aerophytes are epiphytes, but they have no functional
 			roots and absorb moisture and nutrients through their
-			leaves (http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
+			leaves (http://goo.gl/g9uFKZ)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2505,7 +2508,7 @@
 		    <xs:documentation xml:lang="en">
 			Hemicryptophytes are herbaceous perennial plants with
 			the resting bud at or near the soil line.
-			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
+			(http://goo.gl/g9uFKZ)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2515,7 +2518,7 @@
 		    <xs:documentation xml:lang="en">
 			Phanerophytes are the woody perennials (trees and shrubs).
 			The resting buds are > 0.5 m above ground.
-			(http://dept.ca.uky.edu/agc/pub_area.asp?area=ANR)
+			(http://goo.gl/g9uFKZ)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
