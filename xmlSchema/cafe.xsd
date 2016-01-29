@@ -2211,10 +2211,8 @@
     <xs:simpleType name="LengthUnit">
 	<xs:annotation xml:lang="en">
 	    <xs:documentation>
-
 		The length unit is a non extendable list providing typical
 		categories of length units.
-
 	    </xs:documentation>
 	</xs:annotation>
 
@@ -2306,12 +2304,16 @@
 	    <xs:enumeration value="Decimetre">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-			The decimetre (British English) or decimeter (American English); SI symbol dm)
-			is a unit of length in the metric system, equal to one tenth of a metre, the
-			International System of Units base unit of length. It is equal to ten
-			centimetres and 10 decimetres equal a metre. One decimetre is equivalent to
-			3.93700787 inches. It can be written in scientific notation as 100×10−3 m (WP,
-			https://goo.gl/Lchmgx)
+
+			The decimetre (British English) or decimeter (American
+			English); SI symbol dm) is a unit of length in the
+			metric system, equal to one tenth of a metre, the
+			International System of Units base unit of length. It
+			is equal to ten centimetres and 10 decimetres equal a
+			metre. One decimetre is equivalent to 3.93700787
+			inches. It can be written in scientific notation as
+			100×10−3 m (WP, https://goo.gl/Lchmgx)
+
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
