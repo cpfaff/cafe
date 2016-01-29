@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="http://tematres.befdata.biow.uni-leipzig.de/vocab/">
+	<dc:title>cafe</dc:title>
+	<dc:creator>Claas-Thido Pfaff</dc:creator>
+	<dc:contributor/>
+	<dc:publisher>Claas-Thido Pfaff</dc:publisher>
+	<dc:rights>All rights reserved</dc:rights>
+	<dc:subject>biology, ecosystem functioning, ecosystem service, ecology</dc:subject>
+	<dc:description><![CDATA[ A vocabulary for the annotation of biological data. ]]></dc:description>
+	<dc:date>2014-01-01</dc:date>
+	<dct:modified>2014-02-06 09:30:07</dct:modified>
+	<dc:language>en</dc:language>
+	<skos:hasTopConcept rdf:resource="Time"/>
+	<skos:hasTopConcept rdf:resource="Space"/>
+	<skos:hasTopConcept rdf:resource="Sphere"/>
+	<skos:hasTopConcept rdf:resource="Biome"/>
+	<skos:hasTopConcept rdf:resource="Organism"/>
+	<skos:hasTopConcept rdf:resource="Process"/>
+	<skos:hasTopConcept rdf:resource="Chemical"/>
+	<skos:hasTopConcept rdf:resource="Method"/>
+    </skos:ConceptScheme>
+    <skos:Concept rdf:about="A Horizon">
+	<skos:prefLabel xml:lang="en">A Horizon</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://tematres.befdata.biow.uni-leipzig.de/vocab/"/>
+	<skos:broader rdf:resource="http://tematres.befdata.biow.uni-leipzig.de/vocab/?tema=340"/>
+	<skos:narrower rdf:resource="http://tematres.befdata.biow.uni-leipzig.de/vocab/?tema=875"/>
+	<skos:definition xml:lang="en">An abiotic control factor captures every abiotic factor which has been
+	    &#xA0;observed or modified in a setup.</skos:definition>
+	<dct:created>2015-11-09 10:02:39</dct:created>
+    </skos:Concept>
+</rdf:RDF>
