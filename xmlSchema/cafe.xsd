@@ -2304,7 +2304,6 @@
 	    <xs:enumeration value="Decimetre">
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
-
 			The decimetre (British English) or decimeter (American
 			English); SI symbol dm) is a unit of length in the
 			metric system, equal to one tenth of a metre, the
@@ -2313,7 +2312,6 @@
 			metre. One decimetre is equivalent to 3.93700787
 			inches. It can be written in scientific notation as
 			100×10−3 m (WP, https://goo.gl/Lchmgx)
-
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -2886,7 +2884,7 @@
     <xs:simpleType name="BiomeHemisphere">
 	<xs:annotation>
 	    <xs:documentation xml:lang="en">
-		The hemisphere of a biome.
+		The hemisphere a biome is located in.
 	    </xs:documentation>
 	</xs:annotation>
 
@@ -4034,8 +4032,7 @@
 	</xs:restriction>
     </xs:simpleType>
 
-
-    <!-- simple type extension for fields taken from abcd fields -->
+    <!-- a simple type extension for an attribute specified in abcd -->
 
     <xs:simpleType name="Insertpoint">
 	<xs:restriction base="xs:integer">
