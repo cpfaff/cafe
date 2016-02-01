@@ -72,7 +72,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#africa -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#africa">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Continent"/>
         <rdfs:label xml:lang="en">Africa</rdfs:label>
     </Class>
     
@@ -126,7 +126,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#antarctica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#antarctica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Continent"/>
         <rdfs:label xml:lang="en">Antarctica</rdfs:label>
     </Class>
     
@@ -171,7 +171,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#asia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#asia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Continent"/>
         <rdfs:label xml:lang="en">Asia</rdfs:label>
     </Class>
     
@@ -711,7 +711,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#europe -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#europe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Continent"/>
         <rdfs:label xml:lang="en">Europe</rdfs:label>
     </Class>
     
@@ -1521,7 +1521,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#northAmerica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#northAmerica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Continent"/>
         <rdfs:label xml:lang="en">North America</rdfs:label>
     </Class>
     
@@ -1557,7 +1557,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#oceania -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#oceania">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Continent"/>
         <rdfs:label xml:lang="en">Oceania</rdfs:label>
     </Class>
     
@@ -1908,7 +1908,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#southAmerica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#southAmerica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Country"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Continent"/>
         <rdfs:label xml:lang="en">South America</rdfs:label>
     </Class>
     
@@ -2349,18 +2349,15 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#afghanistan"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#africa"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#albania"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#algeria"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#americanSamoa"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#angola"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#anguilla"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#antarctica"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#antiguaAndBarbuda"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#argentina"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#armenia"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#aruba"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#asia"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#australia"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#austria"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#azerbaijan"/>
@@ -2420,7 +2417,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#eritrea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#estonia"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ethiopia"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#europe"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#falklandIslands"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#faroeIslands"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#federatedStatesOfMicronesia"/>
@@ -2510,11 +2506,9 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#nigeria"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#niue"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#norfolkIsland"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#northAmerica"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#northKorea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#northernMarianaIslands"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#norway"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#oceania"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#oman"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#pakistan"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#palau"/>
@@ -2553,7 +2547,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#solomonIslands"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#somalia"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#southAfrica"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#southAmerica"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#southGeorgiaAndTheSouthSandwichIslands"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#southKorea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#southSudan"/>
@@ -2601,6 +2594,18 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#yemen"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#zambia"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#zimbabwe"/>
+        </members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#africa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#antarctica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#asia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#europe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#northAmerica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#oceania"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#southAmerica"/>
         </members>
     </rdf:Description>
 </rdf:RDF>
