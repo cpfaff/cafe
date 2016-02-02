@@ -1805,6 +1805,171 @@
         <rdfs:label xml:lang="en">Process Aspect</rdfs:label>
     </Class>
     
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessAspect"/>
+        <rdfs:label xml:lang="en">Process Name</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Adaption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">NameLabel</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Speciation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Speciation</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Extinction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Extinction</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Birth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Birth</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Birth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Birth</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Growth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Growth</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Death">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Death</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Migration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Migration</rdfs:label>
+    </Class>
+
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Competition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Competition</rdfs:label>
+    </Class>
+
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Facilitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Facilitation</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Consumption</rdfs:label>
+    </Class>
+
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Assimilation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Assimilation</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Assimilation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Assimilation</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Dissimilation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Dissimilation</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CarbonCycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Carbon Cycle</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NutrientCycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Nutrient Cycle</rdfs:label>
+    </Class>
+
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#WaterCycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Water Cycle</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#EnergyExchange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Energy Exchange</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Demography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Demography</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Evolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Evolution</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Disruption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Disruption</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NaturalDisturbance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Natural Disturbance</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LandUseChange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Land Use Change</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ClimateChange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Climate Change</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Pollution</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Invasion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Invasion</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Erosion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Erosion</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Deposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Deposition</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Succession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Succession</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Photosyntheses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessName"/>
+        <rdfs:label xml:lang="en">Photosyntheses</rdfs:label>
+    </Class>
+
+
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessAspect"/>
+        <rdfs:label xml:lang="en">Process Type</rdfs:label>
+    </Class>
 
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PuertoRico -->
