@@ -1945,6 +1945,11 @@
         <rdfs:label xml:lang="en">Erosion</rdfs:label>
     </Class>
 
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Communication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Process"/>
+        <rdfs:label xml:lang="en">Communication</rdfs:label>
+    </Class>
+
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Deposition">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Process"/>
         <rdfs:label xml:lang="en">Deposition</rdfs:label>
@@ -3054,13 +3059,12 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ClimateChange"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pollution"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Invasion"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ersosion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Erosion"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Deposition"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Succession"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Photosyntheses"/>
         </members>
     </rdf:Description>
-
 </rdf:RDF>
 
 
