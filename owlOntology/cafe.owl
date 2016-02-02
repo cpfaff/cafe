@@ -312,6 +312,30 @@
     </Class>
     
 
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LatitudinalZone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BiomeAspect"/>
+        <rdfs:label xml:lang="en">Latitudinal Zone</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PolarZone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LatitudinalZone"/>
+        <rdfs:label xml:lang="en">Polar Zone</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BorealZone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LatitudinalZone"/>
+        <rdfs:label xml:lang="en">Boreal Zone</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SubtropicalZone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LatitudinalZone"/>
+        <rdfs:label xml:lang="en">Subtropical Zone</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TropicalZone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LatitudinalZone"/>
+        <rdfs:label xml:lang="en">Tropical Zone</rdfs:label>
+    </Class>
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bolivia -->
 
