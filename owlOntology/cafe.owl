@@ -57,7 +57,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Afghanistan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Afghanistan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Afghanistan</rdfs:label>
     </Class>
     
@@ -66,7 +66,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Africa -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Africa">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Africa</rdfs:label>
     </Class>
     
@@ -75,7 +75,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Albania -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Albania">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Albania</rdfs:label>
     </Class>
     
@@ -84,7 +84,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Algeria -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Algeria">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Algeria</rdfs:label>
     </Class>
     
@@ -93,7 +93,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#AmericanSamoa -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#AmericanSamoa">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">American Samoa</rdfs:label>
     </Class>
     
@@ -102,7 +102,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Andorra -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Andorra">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:comment xml:lang="en">Andorra, officially the Principality of Andorra, also called the Principality of the Valleys of Andorra, is a sovereign landlocked microstate in Southwestern Europe, located in the eastern Pyrenees mountains and bordered by Spain and France.</rdfs:comment>
         <rdfs:label xml:lang="en">Andorra</rdfs:label>
     </Class>
@@ -112,7 +112,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Angola -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Angola">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Angola</rdfs:label>
     </Class>
     
@@ -121,7 +121,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Anguilla -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Anguilla">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Anguilla</rdfs:label>
     </Class>
     
@@ -130,7 +130,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Antarctica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Antarctica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Antarctica</rdfs:label>
     </Class>
     
@@ -139,7 +139,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#AntiguaAndBarbuda -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#AntiguaAndBarbuda">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Antigua And Barbuda</rdfs:label>
     </Class>
     
@@ -148,7 +148,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Argentina -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Argentina">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Argentina</rdfs:label>
     </Class>
     
@@ -157,7 +157,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Armenia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Armenia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Armenia</rdfs:label>
     </Class>
     
@@ -166,7 +166,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aruba -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aruba">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Aruba</rdfs:label>
     </Class>
     
@@ -175,7 +175,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Asia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Asia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Asia</rdfs:label>
     </Class>
     
@@ -190,7 +190,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Australia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Australia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Australia</rdfs:label>
     </Class>
     
@@ -199,7 +199,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Austria -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Austria">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Austria</rdfs:label>
     </Class>
     
@@ -208,7 +208,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Azerbaijan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Azerbaijan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Azerbaijan</rdfs:label>
     </Class>
     
@@ -217,7 +217,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bahamas -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bahamas">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bahamas</rdfs:label>
     </Class>
     
@@ -226,7 +226,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bahrain -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bahrain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bahrain</rdfs:label>
     </Class>
     
@@ -235,7 +235,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bangladesh -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bangladesh">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bangladesh</rdfs:label>
     </Class>
     
@@ -244,7 +244,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Barbados -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Barbados">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Barbados</rdfs:label>
     </Class>
     
@@ -253,7 +253,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Belarus -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Belarus">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Belarus</rdfs:label>
     </Class>
     
@@ -262,7 +262,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Belgium -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Belgium">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Belgium</rdfs:label>
     </Class>
     
@@ -271,7 +271,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Belize -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Belize">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Belize</rdfs:label>
     </Class>
     
@@ -280,7 +280,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Benin -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Benin">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Benin</rdfs:label>
     </Class>
     
@@ -289,7 +289,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bermuda -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bermuda">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bermuda</rdfs:label>
     </Class>
     
@@ -298,7 +298,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bhutan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bhutan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bhutan</rdfs:label>
     </Class>
     
@@ -316,7 +316,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bolivia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bolivia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bolivia</rdfs:label>
     </Class>
     
@@ -325,7 +325,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BosniaAndHerzegovina -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BosniaAndHerzegovina">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bosnia And Herzegovina</rdfs:label>
     </Class>
     
@@ -334,7 +334,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Botswana -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Botswana">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Botswana</rdfs:label>
     </Class>
     
@@ -343,7 +343,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BouvetIsland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BouvetIsland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bouvet Island</rdfs:label>
     </Class>
     
@@ -352,7 +352,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Brazil -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Brazil">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Brazil</rdfs:label>
     </Class>
     
@@ -361,7 +361,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BritishIndianOceanTerritory -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BritishIndianOceanTerritory">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">British Indian Ocean Territory</rdfs:label>
     </Class>
     
@@ -370,7 +370,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BruneiDarussalam -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BruneiDarussalam">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Brunei Darussalam</rdfs:label>
     </Class>
     
@@ -379,7 +379,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bulgaria -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bulgaria">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Bulgaria</rdfs:label>
     </Class>
     
@@ -388,7 +388,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BurkinaFaso -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BurkinaFaso">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Burkina Faso</rdfs:label>
     </Class>
     
@@ -397,7 +397,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Burundi -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Burundi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Burundi</rdfs:label>
     </Class>
     
@@ -406,7 +406,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cambodia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cambodia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cambodia</rdfs:label>
     </Class>
     
@@ -415,7 +415,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cameroon -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cameroon">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cameroon</rdfs:label>
     </Class>
     
@@ -424,7 +424,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Canada -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Canada">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Canada</rdfs:label>
     </Class>
     
@@ -433,7 +433,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CapeVerde -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CapeVerde">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cape Verde</rdfs:label>
     </Class>
     
@@ -442,7 +442,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CaribbeanNetherlands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CaribbeanNetherlands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Caribbean Netherlands</rdfs:label>
     </Class>
     
@@ -451,7 +451,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CaymanIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CaymanIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cayman Islands</rdfs:label>
     </Class>
     
@@ -460,7 +460,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CentralAfricanRepublic -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CentralAfricanRepublic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Central African Republic</rdfs:label>
     </Class>
     
@@ -469,7 +469,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Chad -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Chad">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Chad</rdfs:label>
     </Class>
     
@@ -487,7 +487,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Chile -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Chile">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Chile</rdfs:label>
     </Class>
     
@@ -496,7 +496,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#China -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#China">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">China</rdfs:label>
     </Class>
     
@@ -505,7 +505,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ChristmasIsland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ChristmasIsland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Christmas Island</rdfs:label>
     </Class>
     
@@ -514,7 +514,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ClandIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ClandIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cland Islands</rdfs:label>
     </Class>
     
@@ -523,7 +523,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CocosIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CocosIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cocos Islands</rdfs:label>
     </Class>
     
@@ -532,7 +532,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Colombia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Colombia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Colombia</rdfs:label>
     </Class>
     
@@ -541,7 +541,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Comoros -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Comoros">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Comoros</rdfs:label>
     </Class>
     
@@ -550,7 +550,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Congo -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Congo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Congo</rdfs:label>
     </Class>
     
@@ -568,7 +568,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CookIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CookIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cook Islands</rdfs:label>
     </Class>
     
@@ -577,7 +577,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CostaRica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CostaRica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Costa Rica</rdfs:label>
     </Class>
     
@@ -586,7 +586,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CotedIvoire -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CotedIvoire">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Coted Ivoire</rdfs:label>
     </Class>
     
@@ -605,7 +605,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Croatia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Croatia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Croatia</rdfs:label>
     </Class>
     
@@ -614,7 +614,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cuba -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cuba">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cuba</rdfs:label>
     </Class>
     
@@ -623,7 +623,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Curaçao -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Curaçao">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Curaçao</rdfs:label>
     </Class>
     
@@ -632,7 +632,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cyprus -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cyprus">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Cyprus</rdfs:label>
     </Class>
     
@@ -641,7 +641,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CzechRepublic -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CzechRepublic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Czech Republic</rdfs:label>
     </Class>
     
@@ -650,7 +650,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#DemocraticRepublicOfCongo -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#DemocraticRepublicOfCongo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Democratic Republic Of Congo</rdfs:label>
     </Class>
     
@@ -659,7 +659,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Denmark -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Denmark">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Denmark</rdfs:label>
     </Class>
     
@@ -668,7 +668,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Djibouti -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Djibouti">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Djibouti</rdfs:label>
     </Class>
     
@@ -677,7 +677,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Dominica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Dominica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Dominica</rdfs:label>
     </Class>
     
@@ -686,7 +686,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#DominicanRepublic -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#DominicanRepublic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Dominican Republic</rdfs:label>
     </Class>
     
@@ -695,7 +695,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ecuador -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ecuador">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Ecuador</rdfs:label>
     </Class>
     
@@ -704,7 +704,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Egypt -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Egypt">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Egypt</rdfs:label>
     </Class>
     
@@ -713,7 +713,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ElSalvador -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ElSalvador">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">El Salvador</rdfs:label>
     </Class>
     
@@ -722,7 +722,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#EquatorialGuinea -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#EquatorialGuinea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Equatorial Guinea</rdfs:label>
     </Class>
     
@@ -731,7 +731,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Eritrea -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Eritrea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Eritrea</rdfs:label>
     </Class>
     
@@ -740,7 +740,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Estonia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Estonia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Estonia</rdfs:label>
     </Class>
     
@@ -749,7 +749,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ethiopia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ethiopia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Ethiopia</rdfs:label>
     </Class>
     
@@ -758,7 +758,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Europe -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Europe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Europe</rdfs:label>
     </Class>
     
@@ -767,7 +767,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FalklandIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FalklandIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Falkland Islands</rdfs:label>
     </Class>
     
@@ -776,7 +776,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FaroeIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FaroeIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Faroe Islands</rdfs:label>
     </Class>
     
@@ -785,7 +785,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FederatedStatesOfMicronesia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FederatedStatesOfMicronesia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Federated States Of Micronesia</rdfs:label>
     </Class>
     
@@ -794,7 +794,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Fiji -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Fiji">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Fiji</rdfs:label>
     </Class>
     
@@ -803,7 +803,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Finland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Finland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Finland</rdfs:label>
     </Class>
     
@@ -812,7 +812,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#France -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#France">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">France</rdfs:label>
     </Class>
     
@@ -821,7 +821,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FrenchGuiana -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FrenchGuiana">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">French Guiana</rdfs:label>
     </Class>
     
@@ -830,7 +830,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FrenchPolynesia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FrenchPolynesia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">French Polynesia</rdfs:label>
     </Class>
     
@@ -839,7 +839,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FrenchSouthernTerritories -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#FrenchSouthernTerritories">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">French Southern Territories</rdfs:label>
     </Class>
     
@@ -848,7 +848,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gabon -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gabon">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Gabon</rdfs:label>
     </Class>
     
@@ -857,7 +857,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gambia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gambia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Gambia</rdfs:label>
     </Class>
     
@@ -866,7 +866,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Georgia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Georgia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Georgia</rdfs:label>
     </Class>
     
@@ -875,7 +875,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Germany -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Germany">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Germany</rdfs:label>
     </Class>
     
@@ -884,7 +884,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ghana -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ghana">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Ghana</rdfs:label>
     </Class>
     
@@ -893,7 +893,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gibraltar -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gibraltar">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Gibraltar</rdfs:label>
     </Class>
     
@@ -902,7 +902,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Greece -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Greece">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Greece</rdfs:label>
     </Class>
     
@@ -911,7 +911,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Greenland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Greenland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Greenland</rdfs:label>
     </Class>
     
@@ -920,7 +920,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Grenada -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Grenada">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Grenada</rdfs:label>
     </Class>
     
@@ -929,7 +929,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guadeloupe -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guadeloupe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Guadeloupe</rdfs:label>
     </Class>
     
@@ -938,7 +938,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guam -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guam">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Guam</rdfs:label>
     </Class>
     
@@ -947,7 +947,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guatemala -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guatemala">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Guatemala</rdfs:label>
     </Class>
     
@@ -956,7 +956,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guernsey -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guernsey">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Guernsey</rdfs:label>
     </Class>
     
@@ -965,7 +965,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guinea -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guinea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Guinea</rdfs:label>
     </Class>
     
@@ -974,7 +974,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#GuineaBissau -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#GuineaBissau">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Guinea Bissau</rdfs:label>
     </Class>
     
@@ -983,7 +983,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guyana -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guyana">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Guyana</rdfs:label>
     </Class>
     
@@ -992,7 +992,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Haiti -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Haiti">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Haiti</rdfs:label>
     </Class>
     
@@ -1001,7 +1001,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#HeardAndMcDonaldIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#HeardAndMcDonaldIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Heard And Mc Donald Islands</rdfs:label>
     </Class>
     
@@ -1010,7 +1010,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Honduras -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Honduras">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Honduras</rdfs:label>
     </Class>
     
@@ -1019,7 +1019,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#HongKong -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#HongKong">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Hong Kong</rdfs:label>
     </Class>
     
@@ -1028,7 +1028,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Hungary -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Hungary">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Hungary</rdfs:label>
     </Class>
     
@@ -1037,7 +1037,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Iceland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Iceland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Iceland</rdfs:label>
     </Class>
     
@@ -1046,7 +1046,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#India -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#India">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">India</rdfs:label>
     </Class>
     
@@ -1055,7 +1055,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Indonesia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Indonesia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Indonesia</rdfs:label>
     </Class>
     
@@ -1064,7 +1064,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Iran -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Iran">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Iran</rdfs:label>
     </Class>
     
@@ -1073,7 +1073,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Iraq -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Iraq">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Iraq</rdfs:label>
     </Class>
     
@@ -1082,7 +1082,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ireland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ireland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Ireland</rdfs:label>
     </Class>
     
@@ -1091,7 +1091,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#IsleOfMan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#IsleOfMan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Isle Of Man</rdfs:label>
     </Class>
     
@@ -1100,7 +1100,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Israel -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Israel">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Israel</rdfs:label>
     </Class>
     
@@ -1109,7 +1109,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Italy -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Italy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Italy</rdfs:label>
     </Class>
     
@@ -1118,7 +1118,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Jamaica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Jamaica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Jamaica</rdfs:label>
     </Class>
     
@@ -1127,7 +1127,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Japan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Japan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Japan</rdfs:label>
     </Class>
     
@@ -1136,7 +1136,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Jersey -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Jersey">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Jersey</rdfs:label>
     </Class>
     
@@ -1145,7 +1145,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Jordan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Jordan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Jordan</rdfs:label>
     </Class>
     
@@ -1154,7 +1154,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kazakhstan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kazakhstan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Kazakhstan</rdfs:label>
     </Class>
     
@@ -1163,7 +1163,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kenya -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kenya">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Kenya</rdfs:label>
     </Class>
     
@@ -1172,7 +1172,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kiribati -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kiribati">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Kiribati</rdfs:label>
     </Class>
     
@@ -1181,7 +1181,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kuwait -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kuwait">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Kuwait</rdfs:label>
     </Class>
     
@@ -1190,7 +1190,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kyrgyzstan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kyrgyzstan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Kyrgyzstan</rdfs:label>
     </Class>
     
@@ -1199,7 +1199,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LaoPeoplesDemocraticRepublic -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LaoPeoplesDemocraticRepublic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Lao Peoples Democratic Republic</rdfs:label>
     </Class>
     
@@ -1208,7 +1208,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Latvia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Latvia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Latvia</rdfs:label>
     </Class>
     
@@ -1217,7 +1217,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lebanon -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lebanon">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Lebanon</rdfs:label>
     </Class>
     
@@ -1226,7 +1226,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lesotho -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lesotho">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Lesotho</rdfs:label>
     </Class>
     
@@ -1235,7 +1235,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Liberia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Liberia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Liberia</rdfs:label>
     </Class>
     
@@ -1244,7 +1244,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Libya -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Libya">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Libya</rdfs:label>
     </Class>
     
@@ -1253,7 +1253,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Liechtenstein -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Liechtenstein">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Liechtenstein</rdfs:label>
     </Class>
     
@@ -1262,17 +1262,17 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lithuania -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lithuania">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Lithuania</rdfs:label>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location -->
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName -->
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location">
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SpatialAspect"/>
-        <rdfs:label xml:lang="en">Location</rdfs:label>
+        <rdfs:label xml:lang="en">Location Name</rdfs:label>
     </Class>
     
 
@@ -1288,7 +1288,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Luxembourg -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Luxembourg">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Luxembourg</rdfs:label>
     </Class>
     
@@ -1297,7 +1297,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Macau -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Macau">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Macau</rdfs:label>
     </Class>
     
@@ -1306,7 +1306,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Macedonia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Macedonia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Macedonia</rdfs:label>
     </Class>
     
@@ -1315,7 +1315,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Madagascar -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Madagascar">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Madagascar</rdfs:label>
     </Class>
     
@@ -1324,7 +1324,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Malawi -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Malawi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Malawi</rdfs:label>
     </Class>
     
@@ -1333,7 +1333,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Malaysia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Malaysia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Malaysia</rdfs:label>
     </Class>
     
@@ -1342,7 +1342,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Maldives -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Maldives">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Maldives</rdfs:label>
     </Class>
     
@@ -1351,7 +1351,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mali -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mali">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Mali</rdfs:label>
     </Class>
     
@@ -1360,7 +1360,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Malta -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Malta">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Malta</rdfs:label>
     </Class>
     
@@ -1369,7 +1369,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#MarshallIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#MarshallIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Marshall Islands</rdfs:label>
     </Class>
     
@@ -1378,7 +1378,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Martinique -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Martinique">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Martinique</rdfs:label>
     </Class>
     
@@ -1387,7 +1387,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mauritania -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mauritania">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Mauritania</rdfs:label>
     </Class>
     
@@ -1396,7 +1396,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mauritius -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mauritius">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Mauritius</rdfs:label>
     </Class>
     
@@ -1405,7 +1405,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mayotte -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mayotte">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Mayotte</rdfs:label>
     </Class>
     
@@ -1423,7 +1423,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mexico -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mexico">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Mexico</rdfs:label>
     </Class>
     
@@ -1432,7 +1432,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Moldova -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Moldova">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Moldova</rdfs:label>
     </Class>
     
@@ -1441,7 +1441,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Monaco -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Monaco">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Monaco</rdfs:label>
     </Class>
     
@@ -1450,7 +1450,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mongolia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mongolia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Mongolia</rdfs:label>
     </Class>
     
@@ -1459,7 +1459,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Montenegro -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Montenegro">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Montenegro</rdfs:label>
     </Class>
     
@@ -1468,7 +1468,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Montserrat -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Montserrat">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Montserrat</rdfs:label>
     </Class>
     
@@ -1477,7 +1477,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Morocco -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Morocco">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Morocco</rdfs:label>
     </Class>
     
@@ -1486,7 +1486,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mozambique -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mozambique">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Mozambique</rdfs:label>
     </Class>
     
@@ -1495,7 +1495,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Myanmar -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Myanmar">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Myanmar</rdfs:label>
     </Class>
     
@@ -1504,7 +1504,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Namibia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Namibia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Namibia</rdfs:label>
     </Class>
     
@@ -1513,7 +1513,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Nauru -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Nauru">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Nauru</rdfs:label>
     </Class>
     
@@ -1522,7 +1522,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Nepal -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Nepal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Nepal</rdfs:label>
     </Class>
     
@@ -1531,7 +1531,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NewCaledonia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NewCaledonia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">New Caledonia</rdfs:label>
     </Class>
     
@@ -1540,7 +1540,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NewZealand -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NewZealand">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">New Zealand</rdfs:label>
     </Class>
     
@@ -1549,7 +1549,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Nicaragua -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Nicaragua">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Nicaragua</rdfs:label>
     </Class>
     
@@ -1558,7 +1558,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Niger -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Niger">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Niger</rdfs:label>
     </Class>
     
@@ -1567,7 +1567,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Nigeria -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Nigeria">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Nigeria</rdfs:label>
     </Class>
     
@@ -1576,7 +1576,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Niue -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Niue">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Niue</rdfs:label>
     </Class>
     
@@ -1585,7 +1585,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NorfolkIsland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NorfolkIsland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Norfolk Island</rdfs:label>
     </Class>
     
@@ -1594,7 +1594,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NorthAmerica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NorthAmerica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">North America</rdfs:label>
     </Class>
     
@@ -1603,7 +1603,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NorthKorea -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NorthKorea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">North Korea</rdfs:label>
     </Class>
     
@@ -1612,7 +1612,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NorthernMarianaIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NorthernMarianaIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Northern Mariana Islands</rdfs:label>
     </Class>
     
@@ -1621,7 +1621,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Norway -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Norway">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Norway</rdfs:label>
     </Class>
     
@@ -1645,7 +1645,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Oceania -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Oceania">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Oceania</rdfs:label>
     </Class>
     
@@ -1654,7 +1654,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Oman -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Oman">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Oman</rdfs:label>
     </Class>
     
@@ -1672,7 +1672,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pakistan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pakistan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Pakistan</rdfs:label>
     </Class>
     
@@ -1681,7 +1681,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Palau -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Palau">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Palau</rdfs:label>
     </Class>
     
@@ -1690,7 +1690,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Panama -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Panama">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Panama</rdfs:label>
     </Class>
     
@@ -1699,7 +1699,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PapuaNewGuinea -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PapuaNewGuinea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Papua New Guinea</rdfs:label>
     </Class>
     
@@ -1708,7 +1708,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Paraguay -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Paraguay">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Paraguay</rdfs:label>
     </Class>
     
@@ -1717,7 +1717,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Peru -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Peru">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Peru</rdfs:label>
     </Class>
     
@@ -1726,7 +1726,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Philippines -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Philippines">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Philippines</rdfs:label>
     </Class>
     
@@ -1774,7 +1774,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pitcairn -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pitcairn">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Pitcairn</rdfs:label>
     </Class>
     
@@ -1783,7 +1783,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Poland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Poland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Poland</rdfs:label>
     </Class>
     
@@ -1792,7 +1792,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Portugal -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Portugal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Portugal</rdfs:label>
     </Class>
 
@@ -2046,7 +2046,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PuertoRico -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PuertoRico">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Puerto Rico</rdfs:label>
     </Class>
     
@@ -2055,7 +2055,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Qatar -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Qatar">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Qatar</rdfs:label>
     </Class>
     
@@ -2064,7 +2064,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Reunion -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Reunion">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Reunion</rdfs:label>
     </Class>
     
@@ -2073,7 +2073,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Romania -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Romania">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Romania</rdfs:label>
     </Class>
     
@@ -2082,7 +2082,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#RussianFederation -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#RussianFederation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Russian Federation</rdfs:label>
     </Class>
     
@@ -2091,7 +2091,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Rwanda -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Rwanda">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Rwanda</rdfs:label>
     </Class>
     
@@ -2100,7 +2100,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintBarthelemy -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintBarthelemy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Saint Barthelemy</rdfs:label>
     </Class>
     
@@ -2109,7 +2109,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintHelena -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintHelena">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Saint Helena</rdfs:label>
     </Class>
     
@@ -2118,7 +2118,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintKittsAndNevis -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintKittsAndNevis">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Saint Kitts And Nevis</rdfs:label>
     </Class>
     
@@ -2127,7 +2127,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintLucia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintLucia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Saint Lucia</rdfs:label>
     </Class>
     
@@ -2136,7 +2136,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintMartin -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintMartin">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Saint Martin</rdfs:label>
     </Class>
     
@@ -2145,7 +2145,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintVincentAndTheGrenadines -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaintVincentAndTheGrenadines">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Saint Vincent And The Grenadines</rdfs:label>
     </Class>
     
@@ -2154,7 +2154,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Samoa -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Samoa">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Samoa</rdfs:label>
     </Class>
     
@@ -2163,7 +2163,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SanMarino -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SanMarino">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">San Marino</rdfs:label>
     </Class>
     
@@ -2172,7 +2172,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaoTomeAndPrincipe -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaoTomeAndPrincipe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Sao Tome And Principe</rdfs:label>
     </Class>
     
@@ -2181,7 +2181,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaudiArabia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SaudiArabia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Saudi Arabia</rdfs:label>
     </Class>
     
@@ -2198,7 +2198,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Senegal -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Senegal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Senegal</rdfs:label>
     </Class>
     
@@ -2207,7 +2207,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Serbia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Serbia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Serbia</rdfs:label>
     </Class>
     
@@ -2216,7 +2216,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Seychelles -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Seychelles">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Seychelles</rdfs:label>
     </Class>
     
@@ -2225,7 +2225,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SierraLeone -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SierraLeone">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Sierra Leone</rdfs:label>
     </Class>
     
@@ -2234,7 +2234,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Singapore -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Singapore">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Singapore</rdfs:label>
     </Class>
     
@@ -2243,7 +2243,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SintMaarten -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SintMaarten">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Sint Maarten</rdfs:label>
     </Class>
     
@@ -2252,7 +2252,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Slovakia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Slovakia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Slovakia</rdfs:label>
     </Class>
     
@@ -2261,7 +2261,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Slovenia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Slovenia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Slovenia</rdfs:label>
     </Class>
     
@@ -2270,7 +2270,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SolomonIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SolomonIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Solomon Islands</rdfs:label>
     </Class>
     
@@ -2279,7 +2279,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Somalia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Somalia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Somalia</rdfs:label>
     </Class>
     
@@ -2288,7 +2288,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthAfrica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthAfrica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">South Africa</rdfs:label>
     </Class>
     
@@ -2297,7 +2297,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthAmerica -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthAmerica">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">South America</rdfs:label>
     </Class>
     
@@ -2306,7 +2306,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthGeorgiaAndTheSouthSandwichIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthGeorgiaAndTheSouthSandwichIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">South Georgia And The South Sandwich Islands</rdfs:label>
     </Class>
     
@@ -2315,7 +2315,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthKorea -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthKorea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">South Korea</rdfs:label>
     </Class>
     
@@ -2324,7 +2324,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthSudan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SouthSudan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">South Sudan</rdfs:label>
     </Class>
     
@@ -2333,7 +2333,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Spain -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Spain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Spain</rdfs:label>
     </Class>
     
@@ -2351,7 +2351,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SriLanka -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SriLanka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Sri Lanka</rdfs:label>
     </Class>
     
@@ -2360,7 +2360,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#StPierreAndMiquelon -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#StPierreAndMiquelon">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">St Pierre And Miquelon</rdfs:label>
     </Class>
     
@@ -2369,7 +2369,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#StateOfPalestine -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#StateOfPalestine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">State Of Palestine</rdfs:label>
     </Class>
     
@@ -2378,7 +2378,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sudan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sudan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Sudan</rdfs:label>
     </Class>
     
@@ -2387,7 +2387,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Surivalue -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Surivalue">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Surivalue</rdfs:label>
     </Class>
     
@@ -2396,7 +2396,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SvalbardAndJanMayenIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SvalbardAndJanMayenIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Svalbard And Jan Mayen Islands</rdfs:label>
     </Class>
     
@@ -2405,7 +2405,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Swaziland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Swaziland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Swaziland</rdfs:label>
     </Class>
     
@@ -2414,7 +2414,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sweden -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sweden">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Sweden</rdfs:label>
     </Class>
     
@@ -2423,7 +2423,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Switzerland -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Switzerland">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Switzerland</rdfs:label>
     </Class>
     
@@ -2432,7 +2432,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Syria -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Syria">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Syria</rdfs:label>
     </Class>
     
@@ -2441,7 +2441,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Taiwan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Taiwan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Taiwan</rdfs:label>
     </Class>
     
@@ -2450,7 +2450,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tajikistan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tajikistan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Tajikistan</rdfs:label>
     </Class>
     
@@ -2459,7 +2459,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tanzania -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tanzania">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Tanzania</rdfs:label>
     </Class>
     
@@ -2477,788 +2477,814 @@
         <rdfs:label xml:lang="en">Temporal Name</rdfs:label>
     </Class>
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Phanerozoic">
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Eon">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:label xml:lang="en">Eon</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Phanerozoic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Eon"/>
         <rdfs:label xml:lang="en">Phanerozoic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Precambrian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Eon"/>
         <rdfs:label xml:lang="en">Precambrian</rdfs:label>
     </Class>
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cenozoic">
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:label xml:lang="en">Era</rdfs:label>
+    </Class>
+
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cenozoic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Cenozoic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mesozoic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Mesozoic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Paleozoic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Paleozoic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Proterozoic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Proterozoic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Neoproterozoic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Neoproterozoic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mesoproterozoic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Mesoproterozoic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Paleoproterozoic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Paleoproterozoic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Archean">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Archean</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Neoarchean">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Neoarchean</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mesoarchean">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Mesoarchean</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Paleoarchean">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Paleoarchean</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Eoarchean">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Era"/>
         <rdfs:label xml:lang="en">Eoarchean</rdfs:label>
     </Class>
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Quaternary">
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:label xml:lang="en">Period</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Quaternary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Quaternary</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Neogene">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Neogene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Paleogene">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Paleogene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cretaceous">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Cretaceous</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Jurassic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Jurassic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Triassic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Triassic</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Permian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Permian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Carboniferous">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Carboniferous</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Devonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Devonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Silurian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Silurian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ordovician">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Ordovician</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cambrian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Cambrian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ediacaran">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Ediacaran</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cryogenian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Cryogenian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Tonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Stenian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Stenian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ectasian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Ectasian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Calymmian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Calymmian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Statherian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Statherian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Orosirian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Orosirian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Rhyacian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Rhyacian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Siderian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Period"/>
         <rdfs:label xml:lang="en">Siderian</rdfs:label>
     </Class>
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Holocene">
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:label xml:lang="en">Epoch</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Holocene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Holocene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pleistocene">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Pleistocene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pilocene">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Pilocene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Miocene">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Miocene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Oligocene">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Oligocene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Eocene">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Eocene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Paleocene">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Paleocene</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lopingian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Lopingian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guadalupian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Guadalupian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cisuralian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Cisuralian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pennsylvanian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Pennsylvanian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mississippian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Mississippian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pridoli">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Pridoli</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ludlow">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Ludlow</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Wenlock">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Wenlock</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Llandovery">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Llandovery</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Furongian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Furongian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Terreneuvian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Terreneuvian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Series 2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Series 2</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Series 3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Series 3</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Upper">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Upper</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Middle">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Middle</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lower">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Lower</rdfs:label>
     </Class>
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Calabrian">
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:label xml:lang="en">Age</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Calabrian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Calabrian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gelasian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Gelasian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Piacenzian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Piacenzian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Zanclean">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Zanclean</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Messinian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Messinian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tortonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Tortonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Serravallian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Serravallian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Langhian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Langhian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Burdigalian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Burdigalian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aquitanian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Aquitanian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Chattian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Chattian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Rupelian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Rupelian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Priabonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Priabonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bartonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Bartonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lutenian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Lutenian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ypresian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Ypresian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Thanetian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Thanetian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Selandian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Selandian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Danian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Danian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Maastrichtian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Maastrichtian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Campanian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Campanian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Santonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Santonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Coniacian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Coniacian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Turonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Turonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cenomanian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Cenomanian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Albian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Albian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aptian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Aptian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Barremian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Barremian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Hauterivian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Hauterivian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Valanginian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Valanginian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Berriasian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Berriasian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tithonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Tithonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kimmeridgian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Kimmeridgian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Oxfordian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Oxfordian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Callovian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Callovian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bathonian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Bathonian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bajocian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Bajocian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aalenian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Aalenian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Toarcian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Toarcian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pliensbachain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Pliensbachain</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sinemurian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Sinemurian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Hettangian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Hettangian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Rhaetian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Rhaetian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Norian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Norian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Carnian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Carnian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ladinian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Ladinian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Anisian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Anisian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Olenekian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Olenekian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Induan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Induan</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Changhsingian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Changhsingian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Wuchiapingian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Wuchiapingian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Capitanian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Capitanian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Wordian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Wordian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Roadian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Roadian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kungurian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Kungurian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Artinskian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Artinskian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sakmarian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Sakmarian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Asselian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Asselian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gzhelian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Gzhelian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Kasimovian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Kasimovian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Moscovian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Moscovian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Bashkirian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Bashkirian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Serpukhovian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Serpukhovian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Visean">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Visean</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tournaisian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Tournaisian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Famennian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Famennian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Frasnian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Frasnian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Givetian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Givetian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Eifelian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Eifelian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Emsian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Emsian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pragian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Pragian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lochkovian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Lochkovian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ludfordian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Ludfordian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Gorstian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Gorstian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Homerian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Homerian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sheinwoodian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Sheinwoodian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Telychian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Telychian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aeronian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Aeronian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Rhuddanian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Rhuddanian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Hirnantian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Hirnantian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Katian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Katian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sandbian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Sandbian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Darriwilian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Darriwilian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Dapingian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Dapingian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Floian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Floian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tremadocian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Tremadocian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Jiangshanian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Jiangshanian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Paibian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Paibian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Guzhangian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Guzhangian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Drumian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Drumian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Fortunian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Fortunian</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Stage2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Stage 2</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Stage3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Stage 3</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Stage4">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Stage 4</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Stage5">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Stage 5</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Stage10">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Stage 10</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Upper">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Upper</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Middle">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Age"/>
         <rdfs:label xml:lang="en">Middle</rdfs:label>
     </Class>
 
@@ -3266,7 +3292,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Thailand -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Thailand">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Thailand</rdfs:label>
     </Class>
     
@@ -3275,7 +3301,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TheNetherlands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TheNetherlands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">The Netherlands</rdfs:label>
     </Class>
     
@@ -3284,7 +3310,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TimorLeste -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TimorLeste">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Timor Leste</rdfs:label>
     </Class>
     
@@ -3293,7 +3319,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Togo -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Togo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Togo</rdfs:label>
     </Class>
     
@@ -3302,7 +3328,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tokelau -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tokelau">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Tokelau</rdfs:label>
     </Class>
     
@@ -3311,7 +3337,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tonga -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tonga">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Tonga</rdfs:label>
     </Class>
     
@@ -3320,7 +3346,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TrinidadAndTobago -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TrinidadAndTobago">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Trinidad And Tobago</rdfs:label>
     </Class>
     
@@ -3329,7 +3355,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tunisia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tunisia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Tunisia</rdfs:label>
     </Class>
     
@@ -3338,7 +3364,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Turkey -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Turkey">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Turkey</rdfs:label>
     </Class>
     
@@ -3347,7 +3373,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Turkmenistan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Turkmenistan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Turkmenistan</rdfs:label>
     </Class>
     
@@ -3356,7 +3382,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TurksAndCaicosIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TurksAndCaicosIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Turks And Caicos Islands</rdfs:label>
     </Class>
     
@@ -3365,7 +3391,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tuvalu -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Tuvalu">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Tuvalu</rdfs:label>
     </Class>
     
@@ -3374,7 +3400,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Uganda -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Uganda">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Uganda</rdfs:label>
     </Class>
     
@@ -3383,7 +3409,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ukraine -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ukraine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Ukraine</rdfs:label>
     </Class>
     
@@ -3392,7 +3418,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UnitedArabEmirates -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UnitedArabEmirates">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">United Arab Emirates</rdfs:label>
     </Class>
     
@@ -3401,7 +3427,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UnitedKingdom -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UnitedKingdom">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">United Kingdom</rdfs:label>
     </Class>
     
@@ -3410,7 +3436,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UnitedStates -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UnitedStates">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">United States</rdfs:label>
     </Class>
     
@@ -3419,7 +3445,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UnitedStatesMinorOutlyingIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UnitedStatesMinorOutlyingIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">United States Minor Outlying Islands</rdfs:label>
     </Class>
     
@@ -3428,7 +3454,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Uruguay -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Uruguay">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Uruguay</rdfs:label>
     </Class>
     
@@ -3437,7 +3463,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Uzbekistan -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Uzbekistan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Uzbekistan</rdfs:label>
     </Class>
     
@@ -3446,7 +3472,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Vanuatu -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Vanuatu">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Vanuatu</rdfs:label>
     </Class>
     
@@ -3455,7 +3481,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Vatican -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Vatican">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Vatican</rdfs:label>
     </Class>
     
@@ -3464,7 +3490,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Venezuela -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Venezuela">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Venezuela</rdfs:label>
     </Class>
     
@@ -3473,7 +3499,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Vietnam -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Vietnam">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Vietnam</rdfs:label>
     </Class>
     
@@ -3482,7 +3508,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#VirginIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#VirginIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Virgin Islands</rdfs:label>
     </Class>
     
@@ -3491,7 +3517,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#WallisAndFutunaIslands -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#WallisAndFutunaIslands">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">WallisAndFutunaIslands</rdfs:label>
     </Class>
     
@@ -3500,7 +3526,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#WesternSahara -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#WesternSahara">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Western Sahara</rdfs:label>
     </Class>
     
@@ -3509,7 +3535,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Yemen -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Yemen">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Yemen</rdfs:label>
     </Class>
     
@@ -3518,7 +3544,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Zambia -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Zambia">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Zambia</rdfs:label>
     </Class>
     
@@ -3527,7 +3553,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Zimbabwe -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Zimbabwe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Zimbabwe</rdfs:label>
     </Class>
     
