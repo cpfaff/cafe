@@ -25,15 +25,15 @@
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#characterizesObject -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#characterizesObject">
-        <inverseOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#isCharacterizedByAspect"/>
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#characterizes">
+        <inverseOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#isCharacterizedBy"/>
     </ObjectProperty>
     
 
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#isCharacterizedByAspect -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#isCharacterizedByAspect"/>
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#isCharacterizedBy"/>
     
 
 
