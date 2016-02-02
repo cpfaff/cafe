@@ -3814,6 +3814,8 @@
 	    <xs:enumeration value = "South Africa"/>
 	    <xs:enumeration value = "Zimbabwe"/>
 	    <xs:enumeration value = "Zambia"/>
+
+	    <!-- continents -->
 	    <xs:enumeration value = "Africa"/>
 	    <xs:enumeration value = "Asia"/>
 	    <xs:enumeration value = "Europe"/>
