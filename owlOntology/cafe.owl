@@ -124,6 +124,24 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
         <rdfs:label xml:lang="en">Methodological Aspect</rdfs:label>
     </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Object -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ocean -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ocean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+        <rdfs:label xml:lang="en">Ocean</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#OrganismicAspect -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#OrganismicAspect">
@@ -153,7 +171,9 @@
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SearchObject -->
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SearchObject"/>
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SearchObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Object"/>
+    </Class>
     
 
 
