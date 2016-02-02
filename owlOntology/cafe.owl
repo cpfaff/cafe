@@ -23,9 +23,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#hasType -->
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#characterizesObject -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#hasType"/>
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#characterizesObject">
+        <inverseOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#isCharacterizedByAspect"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#isCharacterizedByAspect -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#isCharacterizedByAspect"/>
     
 
 
@@ -46,6 +54,30 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location"/>
         <rdfs:comment xml:lang="en">Andorra, officially the Principality of Andorra, also called the Principality of the Valleys of Andorra, is a sovereign landlocked microstate in Southwestern Europe, located in the eastern Pyrenees mountains and bordered by Spain and France.</rdfs:comment>
         <rdfs:label xml:lang="en">Andorra</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BiomeAspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BiomeAspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+        <rdfs:label xml:lang="en">Biome Aspect</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ChemicalAspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ChemicalAspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+        <rdfs:label xml:lang="en">Chemical Aspect</rdfs:label>
     </Class>
     
 
@@ -72,6 +104,7 @@
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SpatialAspect"/>
         <rdfs:label xml:lang="en">Location</rdfs:label>
     </Class>
     
@@ -79,13 +112,66 @@
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType -->
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SpatialAspect"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#MethodologicalAspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#MethodologicalAspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+        <rdfs:label xml:lang="en">Methodological Aspect</rdfs:label>
+    </Class>
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#OrganismicAspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#OrganismicAspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+        <rdfs:label xml:lang="en">Organismic Aspect</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PhysicalAspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PhysicalAspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+        <rdfs:label xml:lang="en">Physical Aspect</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessAspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessAspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+        <rdfs:label xml:lang="en">Process Aspect</rdfs:label>
+    </Class>
     
 
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SearchObject -->
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SearchObject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SpatialAspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SpatialAspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+        <rdfs:label xml:lang="en">Spatial Aspect</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalAspect -->
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalAspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
+        <rdfs:label xml:lang="en">Temporal Aspect</rdfs:label>
+    </Class>
     
 
 
@@ -2374,6 +2460,19 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BiomeAspect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ChemicalAspect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#MethodologicalAspect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#OrganismicAspect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PhysicalAspect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessAspect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#SpatialAspect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalAspect"/>
+        </members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <members rdf:parseType="Collection">
