@@ -1738,7 +1738,37 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
         <rdfs:label xml:lang="en">Physical Aspect</rdfs:label>
     </Class>
-    
+
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ObjectType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PhysicalAspect"/>
+        <rdfs:label xml:lang="en">Object Type</rdfs:label>
+        <rdfs:comment xml:lang="en">Represents the type of object</rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#AudioObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ObjectType"/>
+        <rdfs:label xml:lang="en">Audio Object</rdfs:label>
+        <rdfs:comment xml:lang="en">Any audio object (e.g. mp3)</rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ImageObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ObjectType"/>
+        <rdfs:label xml:lang="en">Image Object</rdfs:label>
+        <rdfs:comment xml:lang="en">Any image object (e.g. jpeg)</rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TableObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ObjectType"/>
+        <rdfs:label xml:lang="en">Table Object</rdfs:label>
+        <rdfs:comment xml:lang="en">Any tabular object (e.g. csv)</rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#VideoObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ObjectType"/>
+        <rdfs:label xml:lang="en">Video Object</rdfs:label>
+        <rdfs:comment xml:lang="en">Any video object (e.g. avi)</rdfs:comment>
+    </Class>
 
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pitcairn -->
