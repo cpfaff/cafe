@@ -1810,9 +1810,9 @@
         <rdfs:label xml:lang="en">Process</rdfs:label>
     </Class>
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Adaption">
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Adaptation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Process"/>
-        <rdfs:label xml:lang="en">Adaption</rdfs:label>
+        <rdfs:label xml:lang="en">Adaptation</rdfs:label>
     </Class>
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Speciation">
@@ -3033,7 +3033,6 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Adaption"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Adaptation"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Speciation"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Extinction"/>
