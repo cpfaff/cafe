@@ -2472,7 +2472,6 @@
         <rdfs:label xml:lang="en">Temporal Aspect</rdfs:label>
     </Class>
     
-
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalAspect"/>
         <rdfs:label xml:lang="en">Temporal Name</rdfs:label>
@@ -2487,7 +2486,6 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
         <rdfs:label xml:lang="en">Precambrian</rdfs:label>
     </Class>
-
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Cenozoic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
@@ -2573,7 +2571,6 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
         <rdfs:label xml:lang="en">Jurassic</rdfs:label>
     </Class>
-
 
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Triassic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName"/>
