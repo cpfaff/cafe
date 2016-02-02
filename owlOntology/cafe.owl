@@ -2495,6 +2495,16 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Aspect"/>
         <rdfs:label xml:lang="en">Temporal Aspect</rdfs:label>
     </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalExtent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Temporal Extent</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalResolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Temporal Resolution</rdfs:label>
+    </Class>
     
     <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalName">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TemporalAspect"/>
