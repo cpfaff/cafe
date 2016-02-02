@@ -1965,6 +1965,80 @@
         <rdfs:label xml:lang="en">Process Type</rdfs:label>
     </Class>
 
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransportProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessType"/>
+        <rdfs:label xml:lang="en">Transport Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#UptakeProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransportProcess"/>
+        <rdfs:label xml:lang="en">Uptake Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ReleaseProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransportProcess"/>
+        <rdfs:label xml:lang="en">Release Process</rdfs:label>
+    </Class>
+        
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ExchangeProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransportProcess"/>
+        <rdfs:label xml:lang="en">Exchange Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#MovementProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransportProcess"/>
+        <rdfs:label xml:lang="en">Movement Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransformationProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessType"/>
+        <rdfs:label xml:lang="en">Transformation Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#RemovalProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransformationProcess"/>
+        <rdfs:label xml:lang="en">Removal Process</rdfs:label>
+    </Class>
+        
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#AdditionProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransformationProcess"/>
+        <rdfs:label xml:lang="en">Addition Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#IncreaseProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransformationProcess"/>
+        <rdfs:label xml:lang="en">Increase Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#DecreaseProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransformationProcess"/>
+        <rdfs:label xml:lang="en">Decrease Process</rdfs:label>
+    </Class>
+    
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransitionProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransformationProcess"/>
+        <rdfs:label xml:lang="en">Transition Process</rdfs:label>
+    </Class>
+    
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ConversionProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#TransformationProcess"/>
+        <rdfs:label xml:lang="en">Conversion Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#InteractionProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ProcessType"/>
+        <rdfs:label xml:lang="en">Interaction Process</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#BioticInteraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#InteractionProcess"/>
+        <rdfs:label xml:lang="en">Biotic Interaction</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#AbioticInteraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#InteractionProcess"/>
+        <rdfs:label xml:lang="en">Abiotic Interaction</rdfs:label>
+    </Class>
 
     <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#PuertoRico -->
 
@@ -2955,35 +3029,35 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Adaption"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Adaptation"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Speciation"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Extinction"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Birth"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Growth"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Death"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Migration"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Competition"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Facilitation"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Consumption"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Communication"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Assimilation"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Dissimilation"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CarbonCycle"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NutrientCycle"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#WaterCycle"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#EnergyExchange"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Demography"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Evolution"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Disruption"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NaturalDisturbance"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LandUseChange"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ClimateChange"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pollution"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Invasion"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ersosion"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Deposition"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Succession"/>
-            <rdf:type rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Photosyntheses"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Adaptation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Speciation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Extinction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Birth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Growth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Death"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Migration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Competition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Facilitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Consumption"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Communication"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Assimilation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Dissimilation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#CarbonCycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NutrientCycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#WaterCycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#EnergyExchange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Demography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Evolution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Disruption"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#NaturalDisturbance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LandUseChange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#ClimateChange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Pollution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Invasion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Ersosion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Deposition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Succession"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Photosyntheses"/>
         </members>
     </rdf:Description>
 
