@@ -535,8 +535,26 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BorealZone">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
         <rdfs:label xml:lang="en">Boreal Zone</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            The boreal zone also known as boreal forest or snow forest, is a
+            zone characterized by coniferous forests consisting mostly of
+            pines, spruces and larches (wikipedia, modified,
+            https://goo.gl/pzYfxa)
+        </rdfs:comment>
     </Class>
     
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemperateZone -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemperateZone">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
+        <rdfs:label xml:lang="en">Temperate Zone</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            In geography, temperate latitudes of the Earth lie between the
+            subtropics and the polar circles. Average yearly temperatures in
+            these regions are not extreme, not burning hot nor freezing cold.
+            Temperate means moderate (wikipedia, https://goo.gl/sBiUgT)
+        </rdfs:comment>
+    </Class>
 
 
     <!-- http://terminologies.gfbio.org/terms/cafe#BosniaAndHerzegovina -->
@@ -3183,6 +3201,13 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#PolarZone">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
         <rdfs:label xml:lang="en">Polar Zone</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            The polar regions of Earth, also known as Earth's frigid zones, are
+            the regions of Earth surrounding its geographical poles (the North
+            and South Poles). These regions are dominated by Earth's polar ice
+            caps, the northern resting on the Arctic Ocean and the southern on
+            the continent of Antarctica (wikipedia, https://goo.gl/UnBYSz).
+        </rdfs:comment>
     </Class>
     
 
@@ -3855,6 +3880,12 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SubtropicalZone">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
         <rdfs:label xml:lang="en">Subtropical Zone</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            The subtropics are geographic and climate zones located roughly
+            between the tropic circle of latitude (the Tropic of Cancer and
+            Tropic of Capricorn) and the 38th parallel in each hemisphere
+            (wikipedia, https://goo.gl/Z0JpMa)
+        </rdfs:comment>
     </Class>
     
 
@@ -3994,6 +4025,11 @@
     </Class>
     
 
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalCategory">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Temporal Category</rdfs:label>
+    </Class>
+    
 
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalName -->
 
@@ -4002,6 +4038,18 @@
         <rdfs:label xml:lang="en">Temporal Name</rdfs:label>
     </Class>
     
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalStandard -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalStandard">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Temporal Standard</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#InternationalChronostratigraphicChart">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalStandard"/>
+        <rdfs:label xml:lang="en">International Chronostratigraphic Chart</rdfs:label>
+    </Class>
 
 
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalResolution -->
@@ -4189,6 +4237,18 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TropicalZone">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
         <rdfs:label xml:lang="en">Tropical Zone</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            The tropics is a region of the Earth surrounding the Equator. It is
+            limited in latitude by the Tropic of Cancer in the Northern
+            Hemisphere at 23°26′13.9″ (or 23.4372°) N and the Tropic of
+            Capricorn in the Southern Hemisphere at 23°26′13.9″ (or 23.4372°)
+            S; these latitudes correspond to the axial tilt of the Earth. The
+            tropics are also referred to as the tropical zone and the torrid
+            zone (see geographical zone). The tropics include all the areas on
+            the Earth where the Sun reaches a subsolar point, a point directly
+            overhead at least once during the solar year (wikipedia,
+            https://goo.gl/gG8Ful)
+        </rdfs:comment>
     </Class>
     
 
