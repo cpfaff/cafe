@@ -969,8 +969,8 @@
         </rdfs:comment>    
     </Class>
     
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mountain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mountain">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
         <rdfs:label xml:lang="en">Mountain</rdfs:label>
         <rdfs:comment xml:lang="en">
             A mountain is a large landform that stretches above the
@@ -985,8 +985,8 @@
         </rdfs:comment>
     </Class>
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#River">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#River">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
         <rdfs:label xml:lang="en">River</rdfs:label>
         <rdfs:comment xml:lang="en">
             A river is a natural flowing watercourse, usually
@@ -999,8 +999,8 @@
         </rdfs:comment>
     </Class>
 
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lake">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lake">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
         <rdfs:label xml:lang="en">Lake</rdfs:label>
         <rdfs:comment xml:lang="en">
             A lake is an area of variable size filled with water,
@@ -1015,8 +1015,8 @@
         </rdfs:comment>
     </Class>
     
-    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sea">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
         <rdfs:label xml:lang="en">Sea</rdfs:label>
         <rdfs:comment xml:lang="en">
             A sea is a large body of salt water that is surrounded
