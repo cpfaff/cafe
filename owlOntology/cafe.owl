@@ -3459,6 +3459,12 @@
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SearchObject">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Object"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy"/>
+                <someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Aspect"/>
+            </Restriction>
+        </rdfs:subClassOf>
     </Class>
     
 
