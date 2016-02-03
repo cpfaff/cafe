@@ -3210,6 +3210,7 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pragian">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Age"/>
         <rdfs:label xml:lang="en">Pragian</rdfs:label>
+        <rdfs:comment xml:lang="en">Pragian A stage of the Devonian Period, dated at 396.3–390.4 Ma (Harland et al., 1989).</rdfs:comment>
     </Class>
     
 
