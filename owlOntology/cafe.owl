@@ -958,9 +958,74 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Continent">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
         <rdfs:label xml:lang="en">Continent</rdfs:label>
+        <rdfs:comment xml:lang="en"> 
+            A continent is one of several very large landmasses on
+            Earth. They are generally identified by convention
+            rather than any strict criteria, with up to seven
+            regions commonly regarded as continents. These are
+            (from largest in size to smallest): Asia, Africa, North
+            America, South America, Antarctica, Europe, and
+            Australia (WP, http://bit.ly/1S8ykpP).
+        </rdfs:comment>    
     </Class>
     
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Mountain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+        <rdfs:label xml:lang="en">Mountain</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            A mountain is a large landform that stretches above the
+            surrounding land in a limited area, usually in the form
+            of a peak. A mountain is generally steeper than a hill.
+            Mountains are formed through tectonic forces or
+            volcanism. These forces can locally raise the surface
+            of the earth. Mountains erode slowly through the action
+            of rivers, weather conditions, and glaciers. A few
+            mountains are isolated summits, but most occur in huge
+            mountain ranges (WP,http://bit.ly/1PA8Q42)
+        </rdfs:comment>
+    </Class>
 
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#River">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+        <rdfs:label xml:lang="en">River</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            A river is a natural flowing watercourse, usually
+            freshwater, flowing towards an ocean, sea, lake or
+            another river. In some cases a river flows into the
+            ground and becomes dry at the end of its course without
+            reaching another body of water. Small rivers can be
+            referred to using names such as stream, creek, brook,
+            rivulet, and rill (WP, http://bit.ly/1Lh8CaF)
+        </rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Lake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+        <rdfs:label xml:lang="en">Lake</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            A lake is an area of variable size filled with water,
+            localized in a basin, that is surrounded by land, apart
+            from any river or other outlet that serves to feed or
+            drain the lake. Lakes lie on land and are not part of
+            the ocean (except for sea lochs in Scotland and
+            Ireland), and therefore are distinct from lagoons, and
+            are also larger and deeper than ponds, though there are
+            no official or scientific definitions (WP,
+            http://bit.ly/1J2qW84)
+        </rdfs:comment>
+    </Class>
+    
+    <Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#Sea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/1/cafe#LocationType"/>
+        <rdfs:label xml:lang="en">Sea</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            A sea is a large body of salt water that is surrounded
+            in whole or in part by land. More broadly, "the sea" is
+            the interconnected system of Earth's salty, oceanic
+            waters—considered as one global ocean or as several
+            principal oceanic divisions (WP, http://bit.ly/1nMOfgy)
+        </rdfs:comment>
+    </Class>
 
     <!-- http://terminologies.gfbio.org/terms/cafe#ConversionProcess -->
 
