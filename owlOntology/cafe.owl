@@ -3158,7 +3158,23 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Aspect"/>
         <rdfs:label xml:lang="en">Physical Aspect</rdfs:label>
     </Class>
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectName">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:label xml:lang="en">Object Name</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectDownloadUrl">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:label xml:lang="en">Object Download Url</rdfs:label>
+    </Class>
     
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectReferenceUrl">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:label xml:lang="en">Object Reference Url</rdfs:label>
+    </Class>
+
+
 
 
     <!-- http://terminologies.gfbio.org/terms/cafe#Piacenzian -->
