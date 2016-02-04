@@ -4104,8 +4104,6 @@
         <rdfs:label xml:lang="en">Temperate Zone</rdfs:label>
     </Class>
     
-
-
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalAspect -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalAspect">
@@ -4152,16 +4150,15 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Second</rdfs:label>
         <rdfs:comment xml:lang="en">
-                Second (symbol: s) (abbreviated s or sec) is the base
-                unit of time in the International System of Units (SI).
-                It is qualitatively defined as the second division of
-                the hour by sixty, the first division by sixty being
-                the minute. It is quantitatively defined in terms of a
-                certain number of periods – about 9 billion – of a
-                certain frequency of radiation from the caesium atom: a
-                so-called atomic clock. Seconds may be measured using a
-                mechanical, electric or atomic clock (WP,
-                http://bit.ly/1VnHFrn)
+            Second (symbol: s) (abbreviated s or sec) is the base unit of
+            time in the International System of Units (SI). It is
+            qualitatively defined as the second division of the hour by
+            sixty, the first division by sixty being the minute. It is
+            quantitatively defined in terms of a certain number of periods
+            – about 9 billion – of a certain frequency of radiation from
+            the caesium atom: a so-called atomic clock. Seconds may be
+            measured using a mechanical, electric or atomic clock (WP,
+            http://bit.ly/1VnHFrn)
         </rdfs:comment>
     </Class>
 
@@ -4169,10 +4166,10 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Minute</rdfs:label>
         <rdfs:comment xml:lang="en">
-                The minute is a unit of time or of angle. As a unit of
-                time, the minute is equal to 1/60 (the first
-                sexagesimal fraction) of an hour or 60 seconds (WP,
-                https://goo.gl/hTtMng)
+            The minute is a unit of time or of angle. As a unit of
+            time, the minute is equal to 1/60 (the first
+            sexagesimal fraction) of an hour or 60 seconds (WP,
+            https://goo.gl/hTtMng)
         </rdfs:comment>
     </Class>
 
@@ -4180,11 +4177,11 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Hour</rdfs:label>
         <rdfs:comment xml:lang="en">
-                The hour (common symbol: h or hr, h being the
-                international form of the symbol) is a unit of
-                measurement of time. In modern usage, an hour comprises
-                60 minutes, or 3,600 seconds. It is approximately 1/24
-                of a mean solar day (WP, http://bit.ly/1PhSkDP)
+            The hour (common symbol: h or hr, h being the
+            international form of the symbol) is a unit of
+            measurement of time. In modern usage, an hour comprises
+            60 minutes, or 3,600 seconds. It is approximately 1/24
+            of a mean solar day (WP, http://bit.ly/1PhSkDP)
         </rdfs:comment>
     </Class>
 
@@ -4192,8 +4189,8 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Day</rdfs:label>
         <rdfs:comment xml:lang="en">
-                A day is a unit of time. In common usage, it is an interval
-                equal to 24 hours (WP, https://goo.gl/9VDGIY).
+            A day is a unit of time. In common usage, it is an interval
+            equal to 24 hours (WP, https://goo.gl/9VDGIY).
         </rdfs:comment>
     </Class>
 
@@ -4201,11 +4198,11 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Week</rdfs:label>
         <rdfs:comment xml:lang="en">
-                A week is a time unit equal to seven days. It is the
-                standard time period used for cycles of work days and
-                rest days in most parts of the world, mostly alongside
-                (but not strictly part of) the Gregorian calendar (WP,
-                https://goo.gl/rvUNel)
+            A week is a time unit equal to seven days. It is the
+            standard time period used for cycles of work days and
+            rest days in most parts of the world, mostly alongside
+            (but not strictly part of) the Gregorian calendar (WP,
+            https://goo.gl/rvUNel)
         </rdfs:comment>
     </Class>
 
@@ -4213,9 +4210,9 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Month</rdfs:label>
         <rdfs:comment xml:lang="en">
-                A month is a unit of time, used with calendars, which is
-                approximately as long as a natural period related to the
-                motion of the Moon (WP, https://goo.gl/2Qx7pQ)
+            A month is a unit of time, used with calendars, which is
+            approximately as long as a natural period related to the
+            motion of the Moon (WP, https://goo.gl/2Qx7pQ)
         </rdfs:comment>
     </Class>
 
@@ -4223,8 +4220,8 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Year</rdfs:label>
         <rdfs:comment xml:lang="en">
-                A year is the orbital period of the Earth moving in its orbit
-                around the Sun (WP, https://goo.gl/ZCCcCd)
+            A year is the orbital period of the Earth moving in its orbit
+            around the Sun (WP, https://goo.gl/ZCCcCd)
         </rdfs:comment>
     </Class>
 
@@ -4232,7 +4229,7 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Decade</rdfs:label>
         <rdfs:comment xml:lang="en">
-                A decade is a period of 10 years (WP, https://goo.gl/Jx5raD)
+            A decade is a period of 10 years (WP, https://goo.gl/Jx5raD)
         </rdfs:comment>
     </Class>
 
@@ -4240,7 +4237,7 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Century</rdfs:label>
         <rdfs:comment xml:lang="en">
-                A century is 100 years (WP, https://goo.gl/kyUuat)
+            A century is 100 years (WP, https://goo.gl/kyUuat)
         </rdfs:comment>
     </Class>
 
@@ -4248,8 +4245,8 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
         <rdfs:label xml:lang="en">Millenium</rdfs:label>
         <rdfs:comment xml:lang="en">
-                A millennium (plural millennia) is a period of time equal to
-                1000 years (WP, https://goo.gl/d4q6WJ)
+            A millennium (plural millennia) is a period of time equal to
+            1000 years (WP, https://goo.gl/d4q6WJ)
         </rdfs:comment>
     </Class>
 
