@@ -362,7 +362,7 @@
 								<xs:element name="eastBoundingCoordinate" type="EastWestBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The west most geographic coordinate that signifies the boundary of the data. It
+									    The east most geographic coordinate that signifies the boundary of the data. It
 									    has to be given in decimal degree between -180 and +180 degree.
 									</xs:documentation>
 								    </xs:annotation>
