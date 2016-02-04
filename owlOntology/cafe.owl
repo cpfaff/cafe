@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <Ontology rdf:about="http://terminologies.gfbio.org/terms/cafe">
-        <rdfs:comment xml:lang="en">The ontology of the framework: Comprehensive Annotation For Ecology.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The ontology of the: Comprehensive Annotation For Ecology Framework.</rdfs:comment>
     </Ontology>
     
 
