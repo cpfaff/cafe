@@ -309,12 +309,12 @@
     
 
 
-    <!-- http://terminologies.gfbio.org/terms/cafe#AudioObject -->
+    <!-- http://terminologies.gfbio.org/terms/cafe#Audio -->
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#AudioObject">
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Audio">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ObjectType"/>
         <rdfs:comment xml:lang="en">Any audio object (e.g. mp3)</rdfs:comment>
-        <rdfs:label xml:lang="en">Audio Object</rdfs:label>
+        <rdfs:label xml:lang="en">Audio</rdfs:label>
     </Class>
     
 
@@ -1893,12 +1893,12 @@
     
 
 
-    <!-- http://terminologies.gfbio.org/terms/cafe#ImageObject -->
+    <!-- http://terminologies.gfbio.org/terms/cafe#Image -->
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ImageObject">
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Image">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ObjectType"/>
         <rdfs:comment xml:lang="en">Any image object (e.g. jpeg)</rdfs:comment>
-        <rdfs:label xml:lang="en">Image Object</rdfs:label>
+        <rdfs:label xml:lang="en">Image</rdfs:label>
     </Class>
     
 
@@ -4029,12 +4029,12 @@
     
 
 
-    <!-- http://terminologies.gfbio.org/terms/cafe#TableObject -->
+    <!-- http://terminologies.gfbio.org/terms/cafe#Table -->
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TableObject">
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Table">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ObjectType"/>
         <rdfs:comment xml:lang="en">Any tabular object (e.g. csv)</rdfs:comment>
-        <rdfs:label xml:lang="en">Table Object</rdfs:label>
+        <rdfs:label xml:lang="en">Table</rdfs:label>
     </Class>
     
 
@@ -4517,12 +4517,12 @@
     
 
 
-    <!-- http://terminologies.gfbio.org/terms/cafe#VideoObject -->
+    <!-- http://terminologies.gfbio.org/terms/cafe#Video -->
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#VideoObject">
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Video">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ObjectType"/>
         <rdfs:comment xml:lang="en">Any video object (e.g. avi)</rdfs:comment>
-        <rdfs:label xml:lang="en">Video Object</rdfs:label>
+        <rdfs:label xml:lang="en">Video</rdfs:label>
     </Class>
     
 
