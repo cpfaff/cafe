@@ -4139,6 +4139,63 @@
         </rdfs:comment>
     </Class>
 
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTimeRange">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Date Time Range</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            The Date Time Range is a range in time that is catpured via
+            seperate date and time elements that designate the start and end of
+            the range. All elements need to be conform to the iso 8601
+            standard.
+        </rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#StartDate">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
+        <rdfs:label xml:lang="en">Start Date</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            A single date in form
+            YYYY-MM-DD or with an offset from UTC with
+            conform +XX:XX appende conform to
+            to iso 8601.
+        </rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#StartTime">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
+        <rdfs:label xml:lang="en">Start Time</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            A single time in form
+            HH:MM:SS or with an offset from UTC with
+            +XX:XX appended conform to iso 8601.
+        </rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EndDate">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
+        <rdfs:label xml:lang="en">End Date</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            A single date in form
+            YYYY-MM-DD or with an offset from UTC with
+            conform +XX:XX appende conform to
+            to iso 8601.
+        </rdfs:comment>
+    </Class>
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EndTime">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
+        <rdfs:label xml:lang="en">End Time</rdfs:label>
+        <rdfs:comment xml:lang="en">
+            A single time in form
+            HH:MM:SS or with an offset from UTC with
+            +XX:XX appended conform to iso 8601.
+        </rdfs:comment>
+    </Class>
+
+
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalCategory -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalClass">
@@ -4250,8 +4307,6 @@
         </rdfs:comment>
     </Class>
 
-    
-    
 
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalExtent -->
 
