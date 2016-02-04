@@ -23,6 +23,12 @@
     
 
 
+    <!-- http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement -->
+
+    <ObjectProperty rdf:about="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement"/>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#characterizes -->
 
     <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#characterizes">
@@ -31,15 +37,27 @@
     
 
 
-    <!-- http://terminologies.gfbio.org/terms/cafe#has -->
+    <!-- http://terminologies.gfbio.org/terms/cafe#hasPart -->
 
-    <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#has"/>
+    <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#hasPart">
+        <inverseOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#partOf"/>
+    </ObjectProperty>
     
 
 
     <!-- http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy -->
 
     <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy"/>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#partOf -->
+
+    <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#partOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:comment xml:lang="en">partOf is also reflexive, and anti-symmetric.</rdfs:comment>
+    </ObjectProperty>
     
 
 
@@ -534,27 +552,15 @@
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BorealZone">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
-        <rdfs:label xml:lang="en">Boreal Zone</rdfs:label>
         <rdfs:comment xml:lang="en">
             The boreal zone also known as boreal forest or snow forest, is a
             zone characterized by coniferous forests consisting mostly of
             pines, spruces and larches (wikipedia, modified,
             https://goo.gl/pzYfxa)
         </rdfs:comment>
+        <rdfs:label xml:lang="en">Boreal Zone</rdfs:label>
     </Class>
     
-    <!-- http://terminologies.gfbio.org/terms/cafe#TemperateZone -->
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemperateZone">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
-        <rdfs:label xml:lang="en">Temperate Zone</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            In geography, temperate latitudes of the Earth lie between the
-            subtropics and the polar circles. Average yearly temperatures in
-            these regions are not extreme, not burning hot nor freezing cold.
-            Temperate means moderate (wikipedia, https://goo.gl/sBiUgT)
-        </rdfs:comment>
-    </Class>
 
 
     <!-- http://terminologies.gfbio.org/terms/cafe#BosniaAndHerzegovina -->
@@ -571,6 +577,20 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Botswana">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Botswana</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#BoundingBox -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BoundingBox">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#SpatialAspect"/>
+        <rdfs:comment xml:lang="en">
+            The bounding box is a three dimensional virtual object in space
+            that is made up by the four coordinates (N,E,S,W) in form of decimal
+            degree as well as the maximum and minimum altitude (reference sealevel).
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Bounding Box</rdfs:label>
     </Class>
     
 
@@ -975,7 +995,6 @@
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Continent">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
-        <rdfs:label xml:lang="en">Continent</rdfs:label>
         <rdfs:comment xml:lang="en"> 
             A continent is one of several very large landmasses on
             Earth. They are generally identified by convention
@@ -984,66 +1003,11 @@
             (from largest in size to smallest): Asia, Africa, North
             America, South America, Antarctica, Europe, and
             Australia (WP, http://bit.ly/1S8ykpP).
-        </rdfs:comment>    
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Continent</rdfs:label>
     </Class>
     
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mountain">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
-        <rdfs:label xml:lang="en">Mountain</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A mountain is a large landform that stretches above the
-            surrounding land in a limited area, usually in the form
-            of a peak. A mountain is generally steeper than a hill.
-            Mountains are formed through tectonic forces or
-            volcanism. These forces can locally raise the surface
-            of the earth. Mountains erode slowly through the action
-            of rivers, weather conditions, and glaciers. A few
-            mountains are isolated summits, but most occur in huge
-            mountain ranges (WP,http://bit.ly/1PA8Q42)
-        </rdfs:comment>
-    </Class>
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#River">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
-        <rdfs:label xml:lang="en">River</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A river is a natural flowing watercourse, usually
-            freshwater, flowing towards an ocean, sea, lake or
-            another river. In some cases a river flows into the
-            ground and becomes dry at the end of its course without
-            reaching another body of water. Small rivers can be
-            referred to using names such as stream, creek, brook,
-            rivulet, and rill (WP, http://bit.ly/1Lh8CaF)
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lake">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
-        <rdfs:label xml:lang="en">Lake</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A lake is an area of variable size filled with water,
-            localized in a basin, that is surrounded by land, apart
-            from any river or other outlet that serves to feed or
-            drain the lake. Lakes lie on land and are not part of
-            the ocean (except for sea lochs in Scotland and
-            Ireland), and therefore are distinct from lagoons, and
-            are also larger and deeper than ponds, though there are
-            no official or scientific definitions (WP,
-            http://bit.ly/1J2qW84)
-        </rdfs:comment>
-    </Class>
-    
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sea">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
-        <rdfs:label xml:lang="en">Sea</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A sea is a large body of salt water that is surrounded
-            in whole or in part by land. More broadly, "the sea" is
-            the interconnected system of Earth's salty, oceanic
-            waters—considered as one global ocean or as several
-            principal oceanic divisions (WP, http://bit.ly/1nMOfgy)
-        </rdfs:comment>
-    </Class>
 
     <!-- http://terminologies.gfbio.org/terms/cafe#ConversionProcess -->
 
@@ -1294,6 +1258,20 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Drumian">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Age"/>
         <rdfs:label xml:lang="en">Drumian</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#EastBoundingCoordinate -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EastBoundingCoordinate">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#BoundingBox"/>
+        <rdfs:comment xml:lang="en">
+            The esast most geographic coordinate that signifies the boundary of
+            the search object. It has to be given in decimal degree between -180 and
+            +180 degree.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">East Bounding Coordinate</rdfs:label>
     </Class>
     
 
@@ -1992,6 +1970,15 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#InternationalChronostratigraphicChart -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#InternationalChronostratigraphicChart">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalStandard"/>
+        <rdfs:label xml:lang="en">International Chronostratigraphic Chart</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#Invasion -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Invasion">
@@ -2195,6 +2182,26 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ladinian">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Age"/>
         <rdfs:label xml:lang="en">Ladinian</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Lake -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lake">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
+        <rdfs:comment xml:lang="en">
+            A lake is an area of variable size filled with water,
+            localized in a basin, that is surrounded by land, apart
+            from any river or other outlet that serves to feed or
+            drain the lake. Lakes lie on land and are not part of
+            the ocean (except for sea lochs in Scotland and
+            Ireland), and therefore are distinct from lagoons, and
+            are also larger and deeper than ponds, though there are
+            no official or scientific definitions (WP,
+            http://bit.ly/1J2qW84)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Lake</rdfs:label>
     </Class>
     
 
@@ -2667,6 +2674,26 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#Mountain -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mountain">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
+        <rdfs:comment xml:lang="en">
+            A mountain is a large landform that stretches above the
+            surrounding land in a limited area, usually in the form
+            of a peak. A mountain is generally steeper than a hill.
+            Mountains are formed through tectonic forces or
+            volcanism. These forces can locally raise the surface
+            of the earth. Mountains erode slowly through the action
+            of rivers, weather conditions, and glaciers. A few
+            mountains are isolated summits, but most occur in huge
+            mountain ranges (WP,http://bit.ly/1PA8Q42)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Mountain</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#MovementProcess -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#MovementProcess">
@@ -2834,6 +2861,20 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NorthAmerica">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationName"/>
         <rdfs:label xml:lang="en">North America</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#NorthBoundingCoordinate -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NorthBoundingCoordinate">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#BoundingBox"/>
+        <rdfs:comment xml:lang="en">
+            The north most geographic coordinate that signifies the boundary of
+            the search object. It has to be given in decimal degree between -90 and +90
+            degree.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">North Bounding Coordinate</rdfs:label>
     </Class>
     
 
@@ -3200,14 +3241,14 @@
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#PolarZone">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
-        <rdfs:label xml:lang="en">Polar Zone</rdfs:label>
         <rdfs:comment xml:lang="en">
-            The polar regions of Earth, also known as Earth's frigid zones, are
+            The polar regions of Earth, also known as Earth&apos;s frigid zones, are
             the regions of Earth surrounding its geographical poles (the North
-            and South Poles). These regions are dominated by Earth's polar ice
+            and South Poles). These regions are dominated by Earth&apos;s polar ice
             caps, the northern resting on the Arctic Ocean and the southern on
             the continent of Antarctica (wikipedia, https://goo.gl/UnBYSz).
         </rdfs:comment>
+        <rdfs:label xml:lang="en">Polar Zone</rdfs:label>
     </Class>
     
 
@@ -3234,8 +3275,8 @@
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pragian">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Age"/>
-        <rdfs:label xml:lang="en">Pragian</rdfs:label>
         <rdfs:comment xml:lang="en">Pragian A stage of the Devonian Period, dated at 396.3–390.4 Ma (Harland et al., 1989).</rdfs:comment>
+        <rdfs:label xml:lang="en">Pragian</rdfs:label>
     </Class>
     
 
@@ -3380,6 +3421,24 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Rhyacian">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Period"/>
         <rdfs:label xml:lang="en">Rhyacian</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#River -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#River">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
+        <rdfs:comment xml:lang="en">
+            A river is a natural flowing watercourse, usually
+            freshwater, flowing towards an ocean, sea, lake or
+            another river. In some cases a river flows into the
+            ground and becomes dry at the end of its course without
+            reaching another body of water. Small rivers can be
+            referred to using names such as stream, creek, brook,
+            rivulet, and rill (WP, http://bit.ly/1Lh8CaF)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">River</rdfs:label>
     </Class>
     
 
@@ -3542,6 +3601,22 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SaudiArabia">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Saudi Arabia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Sea -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sea">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationType"/>
+        <rdfs:comment xml:lang="en">
+            A sea is a large body of salt water that is surrounded
+            in whole or in part by land. More broadly, &quot;the sea&quot; is
+            the interconnected system of Earth&apos;s salty, oceanic
+            waters—considered as one global ocean or as several
+            principal oceanic divisions (WP, http://bit.ly/1nMOfgy)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Sea</rdfs:label>
     </Class>
     
 
@@ -3731,6 +3806,20 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#SouthBoundingCoordinate -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SouthBoundingCoordinate">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#BoundingBox"/>
+        <rdfs:comment xml:lang="en">
+            The soutch most geographic coordinate that signifies the boundary of
+            the search object. It has to be given in decimal degree between -90 and +90
+            degree.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">South Bounding Coordinate</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#SouthGeorgiaAndTheSouthSandwichIslands -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SouthGeorgiaAndTheSouthSandwichIslands">
@@ -3879,13 +3968,13 @@
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SubtropicalZone">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
-        <rdfs:label xml:lang="en">Subtropical Zone</rdfs:label>
         <rdfs:comment xml:lang="en">
             The subtropics are geographic and climate zones located roughly
             between the tropic circle of latitude (the Tropic of Cancer and
             Tropic of Capricorn) and the 38th parallel in each hemisphere
             (wikipedia, https://goo.gl/Z0JpMa)
         </rdfs:comment>
+        <rdfs:label xml:lang="en">Subtropical Zone</rdfs:label>
     </Class>
     
 
@@ -4008,11 +4097,35 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemperateZone -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemperateZone">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
+        <rdfs:comment xml:lang="en">
+            In geography, temperate latitudes of the Earth lie between the
+            subtropics and the polar circles. Average yearly temperatures in
+            these regions are not extreme, not burning hot nor freezing cold.
+            Temperate means moderate (wikipedia, https://goo.gl/sBiUgT)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Temperate Zone</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalAspect -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalAspect">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Aspect"/>
         <rdfs:label xml:lang="en">Temporal Aspect</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalCategory -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalCategory">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Temporal Category</rdfs:label>
     </Class>
     
 
@@ -4025,11 +4138,6 @@
     </Class>
     
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalCategory">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
-        <rdfs:label xml:lang="en">Temporal Category</rdfs:label>
-    </Class>
-    
 
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalName -->
 
@@ -4039,24 +4147,21 @@
     </Class>
     
 
-    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalStandard -->
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalStandard">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
-        <rdfs:label xml:lang="en">Temporal Standard</rdfs:label>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#InternationalChronostratigraphicChart">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalStandard"/>
-        <rdfs:label xml:lang="en">International Chronostratigraphic Chart</rdfs:label>
-    </Class>
-
 
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalResolution -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalResolution">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
         <rdfs:label xml:lang="en">Temporal Resolution</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalStandard -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalStandard">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Temporal Standard</rdfs:label>
     </Class>
     
 
@@ -4236,7 +4341,6 @@
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TropicalZone">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone"/>
-        <rdfs:label xml:lang="en">Tropical Zone</rdfs:label>
         <rdfs:comment xml:lang="en">
             The tropics is a region of the Earth surrounding the Equator. It is
             limited in latitude by the Tropic of Cancer in the Northern
@@ -4249,6 +4353,7 @@
             overhead at least once during the solar year (wikipedia,
             https://goo.gl/gG8Ful)
         </rdfs:comment>
+        <rdfs:label xml:lang="en">Tropical Zone</rdfs:label>
     </Class>
     
 
@@ -4494,6 +4599,20 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Wenlock">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Epoch"/>
         <rdfs:label xml:lang="en">Wenlock</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#WestBoundingCoordinate -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#WestBoundingCoordinate">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#BoundingBox"/>
+        <rdfs:comment xml:lang="en">
+            The west most geographic coordinate that signifies the boundary of
+            the search object. It has to be given in decimal degree between
+            -180 and +180 degree.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">West Bounding Coordinate</rdfs:label>
     </Class>
     
 
