@@ -36,28 +36,9 @@
     </ObjectProperty>
     
 
-
-    <!-- http://terminologies.gfbio.org/terms/cafe#hasPart -->
-
-    <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#hasPart">
-        <inverseOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#partOf"/>
-    </ObjectProperty>
-    
-
-
     <!-- http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy -->
 
     <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy"/>
-    
-
-
-    <!-- http://terminologies.gfbio.org/terms/cafe#partOf -->
-
-    <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#partOf">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
-        <rdfs:comment xml:lang="en">partOf is also reflexive, and anti-symmetric.</rdfs:comment>
-    </ObjectProperty>
     
 
 
