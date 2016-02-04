@@ -23,9 +23,6 @@
     
 
 
-    <!-- http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement -->
-
-    <ObjectProperty rdf:about="http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement"/>
     
 
 
