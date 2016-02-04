@@ -4117,12 +4117,9 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
         <rdfs:label xml:lang="en">Date Time Point</rdfs:label>
         <rdfs:comment xml:lang="en">
-            The dateTimePoint
-            specifys a point in
-            time via seperate date
-            and time fields. Both
-            need to be conform to
-            the iso 8601 standard.
+            The Date Time Point specifys a point in time via seperate date and
+            time components. Both components need to conform to the iso 8601
+            standard.
         </rdfs:comment>
     </Class>
 
@@ -4130,10 +4127,8 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimePoint"/>
         <rdfs:label xml:lang="en">Date Point</rdfs:label>
         <rdfs:comment xml:lang="en">
-            A single date in form
-            YYYY-MM-DD or with an offset from UTC with
-            conform +XX:XX appende conform to
-            to iso 8601.
+            A single date in form YYYY-MM-DD or with an offset from UTC with
+            +XX:XX appended conform to to iso 8601.
         </rdfs:comment>
     </Class>
 
@@ -4141,8 +4136,7 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimePoint"/>
         <rdfs:label xml:lang="en">Time Point</rdfs:label>
         <rdfs:comment xml:lang="en">
-            A single time in form
-            HH:MM:SS or with an offset from UTC with
+            A single time in form of HH:MM:SS or with an offset from UTC with
             +XX:XX appended conform to iso 8601.
         </rdfs:comment>
     </Class>
