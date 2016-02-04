@@ -9,6 +9,7 @@
     <xs:element name="cafe">
 	<xs:complexType>
 	    <xs:sequence>
+
 		<xs:element name="physical" minOccurs="1" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation xml:lang="en">
@@ -20,9 +21,11 @@
 
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="object" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="objectType" type="ObjectType" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -34,6 +37,7 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 					<xs:element name="objectName" type="xs:string" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -42,6 +46,7 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 					<xs:element name="objectReferenceUrl" type="xs:string" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -54,6 +59,7 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 					<xs:element name="objectDownloadUrl" type="xs:string" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -62,9 +68,11 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -79,6 +87,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="temporalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -91,6 +100,7 @@
 				<xs:complexType>
 				    <xs:choice>
 					<xs:sequence>
+
 					    <xs:element name="dateTimePoint" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
 						    <xs:documentation xml:lang="en">
@@ -107,6 +117,7 @@
 						</xs:annotation>
 						<xs:complexType>
 						    <xs:sequence>
+
 							<xs:element name="datePoint" type="xs:date" minOccurs="1" maxOccurs="1">
 							    <xs:annotation>
 								<xs:documentation xml:lang="en">
@@ -117,6 +128,7 @@
 								</xs:documentation>
 							    </xs:annotation>
 							</xs:element>
+
 							<xs:element name="timePoint" type="xs:time" minOccurs="1" maxOccurs="1">
 							    <xs:annotation>
 								<xs:documentation xml:lang="en">
@@ -126,11 +138,14 @@
 								</xs:documentation>
 							    </xs:annotation>
 							</xs:element>
+
 						    </xs:sequence>
 						</xs:complexType>
 					    </xs:element>
+
 					</xs:sequence>
 					<xs:sequence>
+
 					    <xs:element name="dateTimeRange" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
 						    <xs:documentation xml:lang="en">
@@ -147,9 +162,11 @@
 						</xs:annotation>
 						<xs:complexType>
 						    <xs:sequence>
+
 							<xs:element name="dateTimeItem" minOccurs="1" maxOccurs="1">
 							    <xs:complexType>
 								<xs:sequence>
+
 								    <xs:element name="dateStart" type="xs:date" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
@@ -160,6 +177,7 @@
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
+
 								    <xs:element name="timeStart" type="xs:time" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
@@ -169,6 +187,7 @@
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
+
 								    <xs:element name="dateEnd" type="xs:date" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
@@ -179,6 +198,7 @@
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
+
 								    <xs:element name="timeEnd" type="xs:time" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
@@ -188,16 +208,20 @@
 									    </xs:documentation>
 									</xs:annotation>
 								    </xs:element>
+
 								</xs:sequence>
 							    </xs:complexType>
 							</xs:element>
+
 						    </xs:sequence>
 						</xs:complexType>
 					    </xs:element>
+
 					</xs:sequence>
 				    </xs:choice>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="temporalNamespace" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -209,6 +233,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="temporalNameRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -221,6 +246,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="temporalNameItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -230,6 +256,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="temporalName" type="TemporalName" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -239,6 +266,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -246,6 +274,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -253,6 +282,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="temporalStandard" type="TemporalStandard" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -261,15 +291,19 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="temporalRaster" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -279,6 +313,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="temporalExtent" type="TemporalClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -286,6 +321,7 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 					<xs:element name="temporalResolution" type="TemporalClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -294,9 +330,11 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -312,6 +350,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="spatialCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -324,6 +363,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="boundingBox" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -334,6 +374,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="boundingCoordinate" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -343,6 +384,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="northBoundingCoordinate" type="NorthSouthBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -351,6 +393,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="southBoundingCoordinate" type="NorthSouthBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -359,6 +402,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="eastBoundingCoordinate" type="EastWestBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -367,6 +411,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="westBoundingCoordinate" type="EastWestBoundingCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -375,12 +420,15 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						    <xs:element name="boundingElevation" minOccurs="1" maxOccurs="1">
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="maximumElevation" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -388,6 +436,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="maximumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -395,6 +444,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="minimumElevation" type="xs:decimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -402,6 +452,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="minimumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -409,6 +460,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="elevationDatum" type="ElevationDatum" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -416,24 +468,31 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 					<xs:element name="siteCoordinate" minOccurs="0" maxOccurs="1">
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="siteCoordinateRange" minOccurs="1" maxOccurs="unbounded">
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="siteCoordinateItem" minOccurs="1" maxOccurs="unbounded">
 								    <xs:complexType>
 									<xs:sequence>
+
 									    <xs:element name="utmCoordinate" minOccurs="1" maxOccurs="1">
 										<xs:complexType>
 										    <xs:sequence>
+
 											<xs:element name="zone" type="xs:integer" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -441,6 +500,7 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 											<xs:element name="subZone" type="xs:integer" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -449,6 +509,7 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 											<xs:element name="northSouth" type="NorthSouth" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -456,6 +517,7 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 											<xs:element name="easting" type="xs:decimal" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -463,6 +525,7 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 											<xs:element name="eastingUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -470,6 +533,7 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 											<xs:element name="northing" type="xs:decimal" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -477,6 +541,7 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 											<xs:element name="northingUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -484,6 +549,7 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 											<xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -491,21 +557,27 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 										    </xs:sequence>
 										</xs:complexType>
 									    </xs:element>
+
 									</xs:sequence>
 								    </xs:complexType>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="spatialNamespace" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -516,6 +588,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="spatialNameRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -524,6 +597,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="spatialNameItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -538,6 +612,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="spatialName" type="SpatialName" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -545,6 +620,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="spatialType" type="SpatialType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -552,15 +628,19 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="spatialRaster" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -572,6 +652,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="spatialExtent" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -584,6 +665,7 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 					<xs:element name="spatialResolution" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -596,9 +678,11 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -613,6 +697,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="methodologicalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -622,6 +707,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="generalApproach" type="GeneralApproach" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -630,6 +716,7 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
+
 					<xs:element name="controlFactorRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -640,6 +727,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="controlFactorItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -650,6 +738,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="controlFactorName" type="ControlFactorName" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -657,6 +746,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="controlFactorModus" type="ControlFactorModus" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -664,6 +754,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="controlFactorEnvironmentalDependency" type="ControlFactorEnvironmentalDependency" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -671,15 +762,19 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -695,6 +790,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="sphericalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -704,6 +800,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="sphereRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -712,6 +809,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="sphereItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -720,6 +818,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="sphereName" type="SphereName" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -727,18 +826,23 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="zoneCoverage" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="zoneRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -748,6 +852,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="zoneItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -756,6 +861,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="zoneName" type="ZoneName" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -763,15 +869,19 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -788,6 +898,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="biomicCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -798,6 +909,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="biomeRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -806,6 +918,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="biomeItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -816,6 +929,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="biomeType" type="BiomeType"  minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -824,6 +938,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="biomeZonation" type="BiomeZoneation" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -832,6 +947,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="biomeHemisphere" type="BiomeHemisphere" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -840,6 +956,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="biomeHydrology" type="BiomeHydrology" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -848,6 +965,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="isEcotone" type="xs:boolean"  minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -856,12 +974,15 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 					<xs:element name="physiognomyRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -870,6 +991,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="physiognomyItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -878,6 +1000,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="physiognomyClass" type="PhysiognomyClass" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -886,6 +1009,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="physiognomyType" type="PhysiognomyType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -894,15 +1018,19 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="landUseRange" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -911,6 +1039,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="landUseItem" minOccurs="1" maxOccurs="unbounded">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -920,6 +1049,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="landUseClass" type="LandClass" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -928,6 +1058,7 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						    <xs:element name="landUsePurpose" type="LandUsePurpose" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -936,12 +1067,15 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -957,6 +1091,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="organismicCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -966,6 +1101,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="organismRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -975,6 +1111,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="organismItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -984,6 +1121,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="taxonomicClassification" type="TaxonomicClassification" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -993,6 +1131,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="organismName" type="OrganismName" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1002,18 +1141,23 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="lifeFormCoverage" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="lifeFormRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1022,6 +1166,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="lifeFormItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -1030,6 +1175,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="lifeFormClass" type="LifeFormClass" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1037,6 +1183,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="lifeFormType" type="LifeFormType" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1045,18 +1192,23 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="organismSizeCoverage" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="organismSizeRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1065,6 +1217,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="organismSizeItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -1073,6 +1226,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="organismSizeMinimum" type="NonNegativeDecimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1080,6 +1234,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="organismSizeMinimumUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1087,6 +1242,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="organismSizeMaximum" type="NonNegativeDecimal" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1094,6 +1250,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="organismSizeMaximumUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1101,6 +1258,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="organismSizeClass" type="OrganismSizeClass" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1108,15 +1266,19 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -1131,6 +1293,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="chemicalCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -1142,6 +1305,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="elementRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1151,6 +1315,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="elementItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -1160,6 +1325,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="elementName" type="ElementName" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1167,18 +1333,23 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 					<xs:element name="isotopeRange" minOccurs="0" maxOccurs="1">
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="isotopeItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="isotopeName" type="IsotopeName" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1186,12 +1357,15 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 					<xs:element name="compoundRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1201,6 +1375,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="compoundItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -1210,6 +1385,7 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+
 								<xs:element name="compoundName" type="xs:string" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1217,6 +1393,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="compoundClass" type="CompoundClass" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1224,6 +1401,7 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
 								<xs:element name="compoundCategoryRange" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1232,6 +1410,7 @@
 								    </xs:annotation>
 								    <xs:complexType>
 									<xs:sequence>
+
 									    <xs:element name="compoundCategoryItem" minOccurs="1" maxOccurs="unbounded">
 										<xs:annotation>
 										    <xs:documentation xml:lang="en">
@@ -1240,6 +1419,7 @@
 										</xs:annotation>
 										<xs:complexType>
 										    <xs:sequence>
+
 											<xs:element name="compoundCategoryName" type="CompoundCategory" minOccurs="1" maxOccurs="1">
 											    <xs:annotation>
 												<xs:documentation xml:lang="en">
@@ -1248,21 +1428,27 @@
 												</xs:documentation>
 											    </xs:annotation>
 											</xs:element>
+
 										    </xs:sequence>
 										</xs:complexType>
 									    </xs:element>
+
 									</xs:sequence>
 								    </xs:complexType>
 								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="chemicalFunctionRange" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -1271,6 +1457,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="chemicalFunctionItem" minOccurs="1" maxOccurs="unbounded">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1279,6 +1466,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="chemicalFunctionName" type="chemicalFunctionNameType" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -1287,12 +1475,15 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
@@ -1308,6 +1499,7 @@
 		    </xs:annotation>
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="processCoverage" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -1318,6 +1510,7 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="processItem" minOccurs="1" maxOccurs="unbounded">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1328,6 +1521,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="processName" type="ProcessName" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -1335,6 +1529,7 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						    <xs:element name="processClass" type="ProcessClass" minOccurs="1" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -1343,6 +1538,7 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						    <xs:element name="processType" type="ProcessType" minOccurs="0" maxOccurs="1">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
@@ -1351,15 +1547,19 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			    <xs:element name="interactionRange" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
+
 					<xs:element name="interactionItem" minOccurs="1" maxOccurs="unbounded">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1372,6 +1572,7 @@
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
+
 						    <xs:element name="firstInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1">
 							<xs:annotation xml:lang="en">
 							    <xs:documentation>
@@ -1379,6 +1580,7 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						    <xs:element name="directionOfInteraction" type="DirectionOfInteraction" minOccurs="1" maxOccurs="1">
 							<xs:annotation xml:lang="en">
 							    <xs:documentation>
@@ -1386,6 +1588,7 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						    <xs:element name="secondInteractionPartner" type="InteractionPartner" minOccurs="1" maxOccurs="1">
 							<xs:annotation xml:lang="en">
 							    <xs:documentation>
@@ -1393,15 +1596,19 @@
 							    </xs:documentation>
 							</xs:annotation>
 						    </xs:element>
+
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
+
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
+
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
+
 	    </xs:sequence>
 	</xs:complexType>
     </xs:element>
@@ -3520,7 +3727,6 @@
 	</xs:restriction>
     </xs:simpleType>
 
-
     <!-- location related types -->
 
     <xs:simpleType name="GeodeticDatum">
@@ -3531,7 +3737,6 @@
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
-
 
     <xs:simpleType name="NorthSouth">
 	<xs:restriction base="xs:string">
@@ -4051,14 +4256,19 @@
     <xs:complexType name="TaxonomicClassification">
 	<!-- cite eml  -->
 	<xs:sequence>
+
 	    <xs:element name="taxonRankName" type="xs:string" minOccurs="1">
 	    </xs:element>
+
 	    <xs:element name="taxonRankValue" type="xs:string" minOccurs="1">
 	    </xs:element>
+
 	    <xs:element name="commonName" type="xs:string" minOccurs="0" maxOccurs="unbounded">
 	    </xs:element>
+
 	    <xs:element name="taxonomicClassification" type="TaxonomicClassification" minOccurs="0" maxOccurs="1">
 	    </xs:element>
+
 	</xs:sequence>
     </xs:complexType>
 
@@ -4073,6 +4283,7 @@
 	</xs:annotation>
 
 	<xs:choice>
+
 	    <xs:element name="bacterialName" type="BacterialName" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4081,6 +4292,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="botanicalName" type="BotanicalName" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4089,6 +4301,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="zoologicalName" type="ZoologicalName" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4097,6 +4310,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="viralName" type="ViralName" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4105,6 +4319,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	</xs:choice>
     </xs:complexType>
 
@@ -4117,6 +4332,7 @@
 	    </xs:documentation>
 	</xs:annotation>
 	<xs:sequence>
+
 	    <xs:element name="genusOrMonomial" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4124,6 +4340,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="subgenus" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4131,6 +4348,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="subgenusAuthorAndYear" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4138,6 +4356,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="speciesEpithet" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4147,6 +4366,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="subspeciesEpithet" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4154,6 +4374,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="parentheticalAuthorTeamAndYear" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4162,6 +4383,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="authorTeamAndYear" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4170,6 +4392,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="nameApprobation" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4179,6 +4402,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	</xs:sequence>
     </xs:complexType>
 
@@ -4192,6 +4416,7 @@
 	    </xs:documentation>
 	</xs:annotation>
 	<xs:sequence>
+
 	    <xs:element name="genusOrMonomial" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4199,6 +4424,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="firstEpithet" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4208,6 +4434,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="infraspecificEpithet" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4216,6 +4443,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="rank" type="RankAbbreviation" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4223,6 +4451,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="hybridFlag" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4250,6 +4479,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="authorTeam" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4257,6 +4487,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="cultivarGroupName" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4264,6 +4495,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="cultivarName" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4271,6 +4503,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="tradeDesignationNames" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4279,6 +4512,7 @@
 		</xs:annotation>
 		<xs:complexType>
 		    <xs:sequence>
+
 			<xs:element name="tradeDesignationName" type="xs:string" minOccurs="0" maxOccurs="unbounded">
 			    <xs:annotation>
 				<xs:documentation xml:lang="en">
@@ -4286,9 +4520,11 @@
 				</xs:documentation>
 			    </xs:annotation>
 			</xs:element>
+
 		    </xs:sequence>
 		</xs:complexType>
 	    </xs:element>
+
 	</xs:sequence>
     </xs:complexType>
 
@@ -4301,6 +4537,7 @@
 	    </xs:documentation>
 	</xs:annotation>
 	<xs:sequence>
+
 	    <xs:element name="genusOrMonomial" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4308,6 +4545,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="subgenus" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4315,6 +4553,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="speciesEpithet" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4322,6 +4561,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="subspeciesEpithet" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4329,6 +4569,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="authorTeamOriginalAndYear" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4337,6 +4578,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="authorTeamParenthesisAndYear" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4346,6 +4588,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="combinationAuthorTeamAndYear" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4354,6 +4597,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="breed" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4361,6 +4605,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="namedIndividual" type="xs:string" minOccurs="0"/>
 	</xs:sequence>
     </xs:complexType>
@@ -4374,6 +4619,7 @@
 	    </xs:documentation>
 	</xs:annotation>
 	<xs:sequence>
+
 	    <xs:element name="genusOrMonomial" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4383,6 +4629,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="viralSpeciesDesignation" type="xs:string" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4393,6 +4640,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	    <xs:element name="acronym" minOccurs="0">
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
@@ -4400,6 +4648,7 @@
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:element>
+
 	</xs:sequence>
     </xs:complexType>
 </xs:schema>
