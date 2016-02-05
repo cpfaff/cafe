@@ -116,7 +116,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Age -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Age">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalNamespace"/>
         <rdfs:label xml:lang="en">Age</rdfs:label>
     </Class>
     
@@ -1347,7 +1347,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Eon -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Eon">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalNamespace"/>
         <rdfs:label xml:lang="en">Eon</rdfs:label>
     </Class>
     
@@ -1356,7 +1356,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Epoch -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Epoch">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalNamespace"/>
         <rdfs:label xml:lang="en">Epoch</rdfs:label>
     </Class>
     
@@ -1374,7 +1374,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Era -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Era">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalNamespace"/>
         <rdfs:label xml:lang="en">Era</rdfs:label>
     </Class>
     
@@ -3101,7 +3101,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Period -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Period">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalName"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalNamespace"/>
         <rdfs:label xml:lang="en">Period</rdfs:label>
     </Class>
     
