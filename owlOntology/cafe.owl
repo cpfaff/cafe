@@ -4317,14 +4317,12 @@
     
 
 
-    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalName -->
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalNameSpace -->
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalName">
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalNamespace">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
-        <rdfs:label xml:lang="en">Temporal Name</rdfs:label>
+        <rdfs:label xml:lang="en">Temporal Namespace</rdfs:label>
     </Class>
-    
-
 
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalResolution -->
 
