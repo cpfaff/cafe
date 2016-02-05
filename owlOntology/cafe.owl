@@ -3064,7 +3064,9 @@
         </rdfs:subClassOf>
     </Class>
     
-
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Module">
+        <rdfs:label xml:lang="en">Module</rdfs:label>
+    </Class>
 
     <!-- http://terminologies.gfbio.org/terms/cafe#ObjectDownloadUrl -->
 
