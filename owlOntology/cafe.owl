@@ -3068,10 +3068,16 @@
         <rdfs:label xml:lang="en">Module</rdfs:label>
     </Class>
 
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectProperty">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Module"/>
+        <rdfs:label xml:lang="en">Object Property</rdfs:label>
+    </Class>
+
     <!-- http://terminologies.gfbio.org/terms/cafe#ObjectDownloadUrl -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectDownloadUrl">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ObjectProperty"/>
         <rdfs:label xml:lang="en">Object Download Url</rdfs:label>
     </Class>
     
@@ -3080,7 +3086,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#ObjectName -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectName">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ObjectProperty"/>
         <rdfs:label xml:lang="en">Object Name</rdfs:label>
     </Class>
     
@@ -3089,7 +3095,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#ObjectReferenceUrl -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectReferenceUrl">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ObjectProperty"/>
         <rdfs:label xml:lang="en">Object Reference Url</rdfs:label>
     </Class>
     
@@ -3098,7 +3104,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#ObjectType -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectType">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ObjectProperty"/>
         <rdfs:comment xml:lang="en">Represents the type of object</rdfs:comment>
         <rdfs:label xml:lang="en">Object Type</rdfs:label>
     </Class>
