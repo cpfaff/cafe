@@ -23,15 +23,13 @@
     
 
 
-    
-
-
     <!-- http://terminologies.gfbio.org/terms/cafe#characterizes -->
 
     <ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#characterizes">
         <inverseOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy"/>
     </ObjectProperty>
     
+
 
     <!-- http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy -->
 
@@ -807,6 +805,18 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#Century -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Century">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            A century is 100 years (WP, https://goo.gl/kyUuat)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Century</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#Chad -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Chad">
@@ -1123,11 +1133,74 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#DatePoint -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DatePoint">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimePoint"/>
+        <rdfs:comment xml:lang="en">
+            A single date in form YYYY-MM-DD or with an offset from UTC with
+            +XX:XX appended conform to to iso 8601.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Date Point</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#DateTimePoint -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTimePoint">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalCoverage"/>
+        <rdfs:comment xml:lang="en">The Date Time Point specifys a point in time via seperate date and time components. Both components need to conform to the iso 8601 standard.</rdfs:comment>
+        <rdfs:label xml:lang="en">Date Time Point</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#DateTimeRange -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTimeRange">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:comment xml:lang="en">
+            The Date Time Range is a range in time that is catpured via
+            seperate date and time elements that designate the start and end of
+            the range. All elements need to be conform to the iso 8601
+            standard.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Date Time Range</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Day -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Day">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            A day is a unit of time. In common usage, it is an interval
+            equal to 24 hours (WP, https://goo.gl/9VDGIY).
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Day</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#Death -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Death">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
         <rdfs:label xml:lang="en">Death</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Decade -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Decade">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            A decade is a period of 10 years (WP, https://goo.gl/Jx5raD)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Decade</rdfs:label>
     </Class>
     
 
@@ -1313,6 +1386,35 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Emsian">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Age"/>
         <rdfs:label xml:lang="en">Emsian</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#EndDate -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EndDate">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
+        <rdfs:comment xml:lang="en">
+            A single date in form
+            YYYY-MM-DD or with an offset from UTC with
+            conform +XX:XX appende conform to
+            to iso 8601.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">End Date</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#EndTime -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EndTime">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
+        <rdfs:comment xml:lang="en">
+            A single time in form
+            HH:MM:SS or with an offset from UTC with
+            +XX:XX appended conform to iso 8601.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">End Time</rdfs:label>
     </Class>
     
 
@@ -1871,6 +1973,22 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#HongKong">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Hong Kong</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Hour -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hour">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            The hour (common symbol: h or hr, h being the
+            international form of the symbol) is a unit of
+            measurement of time. In modern usage, an hour comprises
+            60 minutes, or 3,600 seconds. It is approximately 1/24
+            of a mean solar day (WP, http://bit.ly/1PhSkDP)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Hour</rdfs:label>
     </Class>
     
 
@@ -2571,6 +2689,34 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#Millenium -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Millenium">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            A millennium (plural millennia) is a period of time equal to
+            1000 years (WP, https://goo.gl/d4q6WJ)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Millenium</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Minute -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Minute">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            The minute is a unit of time or of angle. As a unit of
+            time, the minute is equal to 1/60 (the first
+            sexagesimal fraction) of an hour or 60 seconds (WP,
+            https://goo.gl/hTtMng)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Minute</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#Miocene -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Miocene">
@@ -2621,6 +2767,20 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Montenegro">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationName"/>
         <rdfs:label xml:lang="en">Montenegro</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Month -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Month">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            A month is a unit of time, used with calendars, which is
+            approximately as long as a natural period related to the
+            motion of the Moon (WP, https://goo.gl/2Qx7pQ)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Month</rdfs:label>
     </Class>
     
 
@@ -2895,7 +3055,41 @@
 
     <!-- http://terminologies.gfbio.org/terms/cafe#Object -->
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Object"/>
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Object">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy"/>
+                <someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Aspect"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#ObjectDownloadUrl -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectDownloadUrl">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:label xml:lang="en">Object Download Url</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#ObjectName -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectName">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:label xml:lang="en">Object Name</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#ObjectReferenceUrl -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectReferenceUrl">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
+        <rdfs:label xml:lang="en">Object Reference Url</rdfs:label>
+    </Class>
     
 
 
@@ -3158,23 +3352,7 @@
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Aspect"/>
         <rdfs:label xml:lang="en">Physical Aspect</rdfs:label>
     </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectName">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
-        <rdfs:label xml:lang="en">Object Name</rdfs:label>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectDownloadUrl">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
-        <rdfs:label xml:lang="en">Object Download Url</rdfs:label>
-    </Class>
     
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectReferenceUrl">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysicalAspect"/>
-        <rdfs:label xml:lang="en">Object Reference Url</rdfs:label>
-    </Class>
-
-
 
 
     <!-- http://terminologies.gfbio.org/terms/cafe#Piacenzian -->
@@ -3619,12 +3797,27 @@
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SearchObject">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Object"/>
-        <rdfs:subClassOf>
-            <Restriction>
-                <onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy"/>
-                <someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Aspect"/>
-            </Restriction>
-        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Search Object</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Second -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Second">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            Second (symbol: s) (abbreviated s or sec) is the base unit of
+            time in the International System of Units (SI). It is
+            qualitatively defined as the second division of the hour by
+            sixty, the first division by sixty being the minute. It is
+            quantitatively defined in terms of a certain number of periods
+            – about 9 billion – of a certain frequency of radiation from
+            the caesium atom: a so-called atomic clock. Seconds may be
+            measured using a mechanical, electric or atomic clock (WP,
+            http://bit.ly/1VnHFrn)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Second</rdfs:label>
     </Class>
     
 
@@ -3931,6 +4124,35 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#StartDate -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#StartDate">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
+        <rdfs:comment xml:lang="en">
+            A single date in form
+            YYYY-MM-DD or with an offset from UTC with
+            conform +XX:XX appende conform to
+            to iso 8601.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Start Date</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#StartTime -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#StartTime">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
+        <rdfs:comment xml:lang="en">
+            A single time in form
+            HH:MM:SS or with an offset from UTC with
+            +XX:XX appended conform to iso 8601.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Start Time</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#StateOfPalestine -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#StateOfPalestine">
@@ -4104,213 +4326,33 @@
         <rdfs:label xml:lang="en">Temperate Zone</rdfs:label>
     </Class>
     
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalAspect -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalAspect">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Aspect"/>
         <rdfs:label xml:lang="en">Temporal Aspect</rdfs:label>
     </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalCoverage">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
-        <rdfs:label xml:lang="en">Temporal Coverage</rdfs:label>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTimePoint">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalCoverage"/>
-        <rdfs:label xml:lang="en">Date Time Point</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            The Date Time Point specifys a point in time via seperate date and
-            time components. Both components need to conform to the iso 8601
-            standard.
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DatePoint">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimePoint"/>
-        <rdfs:label xml:lang="en">Date Point</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A single date in form YYYY-MM-DD or with an offset from UTC with
-            +XX:XX appended conform to to iso 8601.
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TimePoint">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimePoint"/>
-        <rdfs:label xml:lang="en">Time Point</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A single time in form of HH:MM:SS or with an offset from UTC with
-            +XX:XX appended conform to iso 8601.
-        </rdfs:comment>
-    </Class>
+    
 
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTimeRange">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
-        <rdfs:label xml:lang="en">Date Time Range</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            The Date Time Range is a range in time that is catpured via
-            seperate date and time elements that designate the start and end of
-            the range. All elements need to be conform to the iso 8601
-            standard.
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#StartDate">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
-        <rdfs:label xml:lang="en">Start Date</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A single date in form
-            YYYY-MM-DD or with an offset from UTC with
-            conform +XX:XX appende conform to
-            to iso 8601.
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#StartTime">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
-        <rdfs:label xml:lang="en">Start Time</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A single time in form
-            HH:MM:SS or with an offset from UTC with
-            +XX:XX appended conform to iso 8601.
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EndDate">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
-        <rdfs:label xml:lang="en">End Date</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A single date in form
-            YYYY-MM-DD or with an offset from UTC with
-            conform +XX:XX appende conform to
-            to iso 8601.
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EndTime">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimeRange"/>
-        <rdfs:label xml:lang="en">End Time</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A single time in form
-            HH:MM:SS or with an offset from UTC with
-            +XX:XX appended conform to iso 8601.
-        </rdfs:comment>
-    </Class>
-
-
-
-
-    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalCategory -->
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalClass -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalClass">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
         <rdfs:label xml:lang="en">Temporal Class</rdfs:label>
     </Class>
+    
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Second">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Second</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            Second (symbol: s) (abbreviated s or sec) is the base unit of
-            time in the International System of Units (SI). It is
-            qualitatively defined as the second division of the hour by
-            sixty, the first division by sixty being the minute. It is
-            quantitatively defined in terms of a certain number of periods
-            – about 9 billion – of a certain frequency of radiation from
-            the caesium atom: a so-called atomic clock. Seconds may be
-            measured using a mechanical, electric or atomic clock (WP,
-            http://bit.ly/1VnHFrn)
-        </rdfs:comment>
-    </Class>
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Minute">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Minute</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            The minute is a unit of time or of angle. As a unit of
-            time, the minute is equal to 1/60 (the first
-            sexagesimal fraction) of an hour or 60 seconds (WP,
-            https://goo.gl/hTtMng)
-        </rdfs:comment>
-    </Class>
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalCoverage -->
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hour">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Hour</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            The hour (common symbol: h or hr, h being the
-            international form of the symbol) is a unit of
-            measurement of time. In modern usage, an hour comprises
-            60 minutes, or 3,600 seconds. It is approximately 1/24
-            of a mean solar day (WP, http://bit.ly/1PhSkDP)
-        </rdfs:comment>
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalCoverage">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Temporal Coverage</rdfs:label>
     </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Day">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Day</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A day is a unit of time. In common usage, it is an interval
-            equal to 24 hours (WP, https://goo.gl/9VDGIY).
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Week">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Week</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A week is a time unit equal to seven days. It is the
-            standard time period used for cycles of work days and
-            rest days in most parts of the world, mostly alongside
-            (but not strictly part of) the Gregorian calendar (WP,
-            https://goo.gl/rvUNel)
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Month">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Month</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A month is a unit of time, used with calendars, which is
-            approximately as long as a natural period related to the
-            motion of the Moon (WP, https://goo.gl/2Qx7pQ)
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Year">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Year</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A year is the orbital period of the Earth moving in its orbit
-            around the Sun (WP, https://goo.gl/ZCCcCd)
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Decade">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Decade</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A decade is a period of 10 years (WP, https://goo.gl/Jx5raD)
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Century">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Century</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A century is 100 years (WP, https://goo.gl/kyUuat)
-        </rdfs:comment>
-    </Class>
-
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Millenium">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
-        <rdfs:label xml:lang="en">Millenium</rdfs:label>
-        <rdfs:comment xml:lang="en">
-            A millennium (plural millennia) is a period of time equal to
-            1000 years (WP, https://goo.gl/d4q6WJ)
-        </rdfs:comment>
-    </Class>
+    
 
 
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalExtent -->
@@ -4322,12 +4364,14 @@
     
 
 
-    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalNameSpace -->
+    <!-- http://terminologies.gfbio.org/terms/cafe#TemporalNamespace -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalNamespace">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
         <rdfs:label xml:lang="en">Temporal Namespace</rdfs:label>
     </Class>
+    
+
 
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalResolution -->
 
@@ -4379,6 +4423,19 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TheNetherlands">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#LocationName"/>
         <rdfs:label xml:lang="en">The Netherlands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#TimePoint -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TimePoint">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTimePoint"/>
+        <rdfs:comment xml:lang="en">
+            A single time in form of HH:MM:SS or with an offset from UTC with
+            +XX:XX appended conform to iso 8601.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Time Point</rdfs:label>
     </Class>
     
 
@@ -4775,6 +4832,22 @@
     
 
 
+    <!-- http://terminologies.gfbio.org/terms/cafe#Week -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Week">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            A week is a time unit equal to seven days. It is the
+            standard time period used for cycles of work days and
+            rest days in most parts of the world, mostly alongside
+            (but not strictly part of) the Gregorian calendar (WP,
+            https://goo.gl/rvUNel)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Week</rdfs:label>
+    </Class>
+    
+
+
     <!-- http://terminologies.gfbio.org/terms/cafe#Wenlock -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Wenlock">
@@ -4821,6 +4894,19 @@
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Wuchiapingian">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Age"/>
         <rdfs:label xml:lang="en">Wuchiapingian</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#Year -->
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Year">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalClass"/>
+        <rdfs:comment xml:lang="en">
+            A year is the orbital period of the Earth moving in its orbit
+            around the Sun (WP, https://goo.gl/ZCCcCd)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Year</rdfs:label>
     </Class>
     
 
