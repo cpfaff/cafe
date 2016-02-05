@@ -4111,8 +4111,13 @@
         <rdfs:label xml:lang="en">Temporal Aspect</rdfs:label>
     </Class>
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTimePoint">
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalCoverage">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:label xml:lang="en">Temporal Coverage</rdfs:label>
+    </Class>
+
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTimePoint">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalCoverage"/>
         <rdfs:label xml:lang="en">Date Time Point</rdfs:label>
         <rdfs:comment xml:lang="en">
             The Date Time Point specifys a point in time via seperate date and
