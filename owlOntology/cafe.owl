@@ -69,7 +69,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Adaptation -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Adaptation">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Adaptation</rdfs:label>
     </Class>
     
@@ -301,7 +301,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Assimilation -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Assimilation">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Assimilation</rdfs:label>
     </Class>
     
@@ -509,7 +509,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Birth -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Birth">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Birth</rdfs:label>
     </Class>
     
@@ -560,7 +560,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#BoundingBox -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BoundingBox">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#SpatialAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:comment xml:lang="en">
             The bounding box is a three dimensional virtual object in space
             that is made up by the four coordinates (N,E,S,W) in form of decimal
@@ -736,7 +736,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#CarbonCycle -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#CarbonCycle">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Carbon Cycle</rdfs:label>
     </Class>
     
@@ -901,7 +901,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#ClimateChange -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ClimateChange">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Climate Change</rdfs:label>
     </Class>
     
@@ -928,7 +928,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Communication -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Communication">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Communication</rdfs:label>
     </Class>
     
@@ -946,7 +946,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Competition -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Competition">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Competition</rdfs:label>
     </Class>
     
@@ -973,7 +973,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Consumption -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Consumption">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Consumption</rdfs:label>
     </Class>
     
@@ -1159,7 +1159,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#DateTimeRange -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTimeRange">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:comment xml:lang="en">
             The Date Time Range is a range in time that is catpured via
             seperate date and time elements that designate the start and end of
@@ -1187,7 +1187,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Death -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Death">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Death</rdfs:label>
     </Class>
     
@@ -1226,7 +1226,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Demography -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Demography">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Demography</rdfs:label>
     </Class>
     
@@ -1244,7 +1244,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Deposition -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Deposition">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Deposition</rdfs:label>
     </Class>
     
@@ -1262,7 +1262,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Disruption -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Disruption">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Disruption</rdfs:label>
     </Class>
     
@@ -1271,7 +1271,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Dissimilation -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Dissimilation">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Dissimilation</rdfs:label>
     </Class>
     
@@ -1422,7 +1422,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#EnergyExchange -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EnergyExchange">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Energy Exchange</rdfs:label>
     </Class>
     
@@ -1494,7 +1494,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Erosion -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Erosion">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Erosion</rdfs:label>
     </Class>
     
@@ -1530,7 +1530,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Evolution -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Evolution">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Evolution</rdfs:label>
     </Class>
     
@@ -1548,7 +1548,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Extinction -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Extinction">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Extinction</rdfs:label>
     </Class>
     
@@ -1557,7 +1557,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Facilitation -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Facilitation">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Facilitation</rdfs:label>
     </Class>
     
@@ -1800,7 +1800,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Growth -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Growth">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Growth</rdfs:label>
     </Class>
     
@@ -2078,7 +2078,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Invasion -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Invasion">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Invasion</rdfs:label>
     </Class>
     
@@ -2305,7 +2305,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#LandUseChange -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#LandUseChange">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Land Use Change</rdfs:label>
     </Class>
     
@@ -2332,7 +2332,13 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#LatitudinalZone -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#LatitudinalZone">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#BiomeAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#characterizes"/>
+                <someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BiomeAspect"/>
+            </Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Latitudinal Zone</rdfs:label>
     </Class>
     
@@ -2413,7 +2419,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#LocationName -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#LocationName">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#SpatialAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Location Name</rdfs:label>
     </Class>
     
@@ -2422,7 +2428,8 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#LocationType -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#LocationType">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#SpatialAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
+        <rdfs:label xml:lang="en">Location Type</rdfs:label>
     </Class>
     
 
@@ -2683,7 +2690,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Migration -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Migration">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Migration</rdfs:label>
     </Class>
     
@@ -2871,7 +2878,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#NaturalDisturbance -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NaturalDisturbance">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Natural Disturbance</rdfs:label>
     </Class>
     
@@ -3047,7 +3054,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#NutrientCycle -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NutrientCycle">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Nutrient Cycle</rdfs:label>
     </Class>
     
@@ -3064,13 +3071,13 @@
         </rdfs:subClassOf>
     </Class>
     
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Module">
-        <rdfs:label xml:lang="en">Module</rdfs:label>
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Detail">
+        <rdfs:label xml:lang="en">Detail</rdfs:label>
     </Class>
 
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ObjectProperty">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Module"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Object Property</rdfs:label>
     </Class>
 
@@ -3348,7 +3355,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Photosyntheses -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Photosyntheses">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Photosyntheses</rdfs:label>
     </Class>
     
@@ -3436,7 +3443,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Pollution -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pollution">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Pollution</rdfs:label>
     </Class>
     
@@ -3490,9 +3497,9 @@
 
     <!-- http://terminologies.gfbio.org/terms/cafe#Process -->
 
-    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Process">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessAspect"/>
-        <rdfs:label xml:lang="en">Process</rdfs:label>
+    <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ProcessName">
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
+        <rdfs:label xml:lang="en">Process Name</rdfs:label>
     </Class>
     
 
@@ -3509,7 +3516,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#ProcessType -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ProcessType">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Process Type</rdfs:label>
     </Class>
     
@@ -4063,7 +4070,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Speciation -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Speciation">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Speciation</rdfs:label>
     </Class>
     
@@ -4206,7 +4213,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#Succession -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Succession">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Succession</rdfs:label>
     </Class>
     
@@ -4348,7 +4355,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalClass -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalClass">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Temporal Class</rdfs:label>
     </Class>
     
@@ -4357,7 +4364,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalCoverage -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalCoverage">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Temporal Coverage</rdfs:label>
     </Class>
     
@@ -4366,7 +4373,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalExtent -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalExtent">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Temporal Extent</rdfs:label>
     </Class>
     
@@ -4375,7 +4382,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalNamespace -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalNamespace">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Temporal Namespace</rdfs:label>
     </Class>
     
@@ -4384,7 +4391,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalResolution -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalResolution">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Temporal Resolution</rdfs:label>
     </Class>
     
@@ -4393,7 +4400,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#TemporalStandard -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalStandard">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalAspect"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Detail"/>
         <rdfs:label xml:lang="en">Temporal Standard</rdfs:label>
     </Class>
     
@@ -4834,7 +4841,7 @@
     <!-- http://terminologies.gfbio.org/terms/cafe#WaterCycle -->
 
     <Class rdf:about="http://terminologies.gfbio.org/terms/cafe#WaterCycle">
-        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+        <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessName"/>
         <rdfs:label xml:lang="en">Water Cycle</rdfs:label>
     </Class>
     
