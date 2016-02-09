@@ -133,7 +133,7 @@ and pieces of information.
 
 There is a tagging tool on its way that allows to create valid annotations
 based on the schema. You can browse the mock-ups
-[here](https://invis.io/QN59GTRRW).
+[here](https://invis.io/MB5Y0E2PG).
 
 #### Compatibility with other schemata
 
