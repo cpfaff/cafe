@@ -271,7 +271,8 @@
 									<xs:documentation xml:lang="en">
 									    The temporal name covers names of times like for example
 									    the geological time scale (Hadean, Archean, Proterozoic,
-									    Phanerozoic)
+									    Phanerozoic). These values come from the standard of
+									    the international chronostratigraphic chart.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -288,15 +289,6 @@
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    Designates if the item is the upper boundary of a time range.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
-								<xs:element name="temporalStandard" type="TemporalStandard" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The temporal standard is a reference from where the names of times
-									    comes from e.g. the international chronostratigraphic chart
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
