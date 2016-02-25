@@ -167,7 +167,7 @@
 							    <xs:complexType>
 								<xs:sequence>
 
-								    <xs:element name="dateStart" type="xs:date" minOccurs="1" maxOccurs="1">
+								    <xs:element name="startDate" type="xs:date" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
 										A single date in form
@@ -178,7 +178,7 @@
 									</xs:annotation>
 								    </xs:element>
 
-								    <xs:element name="timeStart" type="xs:time" minOccurs="1" maxOccurs="1">
+								    <xs:element name="startTime" type="xs:time" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
 										A single time in form
@@ -188,7 +188,7 @@
 									</xs:annotation>
 								    </xs:element>
 
-								    <xs:element name="dateEnd" type="xs:date" minOccurs="1" maxOccurs="1">
+								    <xs:element name="endDate" type="xs:date" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
 										A single date in form
@@ -199,7 +199,7 @@
 									</xs:annotation>
 								    </xs:element>
 
-								    <xs:element name="timeEnd" type="xs:time" minOccurs="1" maxOccurs="1">
+								    <xs:element name="endTime" type="xs:time" minOccurs="1" maxOccurs="1">
 									<xs:annotation>
 									    <xs:documentation xml:lang="en">
 										A single time in form
