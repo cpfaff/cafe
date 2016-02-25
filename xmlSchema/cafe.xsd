@@ -711,8 +711,9 @@
 					<xs:element name="generalApproach" type="GeneralApproach" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The general approach that thas been used e.g. virtual experiment, controlled experiment,
-						    field experiment, field manipulation, mere observation.
+						    The general approach is documented in a two step fashion. First you select if
+						    it is a virtual, manipulative or observational experiment and then you specify
+						    a kind of locality with laboratory, contained, field.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
