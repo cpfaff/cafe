@@ -88,7 +88,7 @@
 		    <xs:complexType>
 			<xs:sequence>
 
-			    <xs:element name="temporalCoverage" minOccurs="1" maxOccurs="1">
+			    <xs:element name="temporalCoverage" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
 					The temporal coverage module captures
@@ -99,7 +99,6 @@
 				</xs:annotation>
 				<xs:complexType>
 				    <xs:choice>
-					<xs:sequence>
 
 					    <xs:element name="dateTimePoint" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
@@ -267,7 +266,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="1" maxOccurs="1">
+								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    Designates if the item is the lower boundary of a time range.
@@ -275,7 +274,7 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="1" maxOccurs="1">
+								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    Designates if the item is the upper boundary of a time range.
