@@ -257,7 +257,7 @@
 							<xs:complexType>
 							    <xs:sequence>
 
-								<xs:element name="temporalName" type="TemporalName" minOccurs="1" maxOccurs="1">
+								<xs:element name="geologicalTimePeriod" type="GeologicalTimePeriod" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The temporal name covers names of times like for example
@@ -314,7 +314,7 @@
 				<xs:complexType>
 				    <xs:sequence>
 
-					<xs:element name="temporalExtent" type="TemporalClass" minOccurs="1" maxOccurs="1">
+					<xs:element name="temporalExtent" type="TimePeriod" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    Defines the extent in time in form of a category (second, minute, hour ...).
@@ -322,7 +322,7 @@
 					    </xs:annotation>
 					</xs:element>
 
-					<xs:element name="temporalResolution" type="TemporalClass" minOccurs="1" maxOccurs="1">
+					<xs:element name="temporalResolution" type="TimePeriod" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    Defines the resolution in time in form of a category (second, minute, hour ...).
@@ -3436,7 +3436,7 @@
 
     <!-- date and time related types -->
 
-    <xs:simpleType name="TemporalClass">
+    <xs:simpleType name="TimePeriod">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Second">
 		<xs:annotation>
@@ -3545,7 +3545,7 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="TemporalName">
+    <xs:simpleType name="GeologicalTimePeriod">
 	<xs:restriction base="xs:string">
 	    <!-- eon -->
 	    <xs:enumeration value="Phanerozoic"/>
