@@ -3382,7 +3382,7 @@
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
 			All density or packing related manipulation of
-			consumers. Ammount of certain species per plot.
+			consumers. Ammount of certain individuals per plot.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3492,9 +3492,9 @@
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
 			A xenobiotic is a foreign chemical substance found
-			within an organism that is not normally naturally
+			within an ecosystem that is not normally naturally
 			produced by or expected to be present within that
-			organism. It can also cover substances which are
+			ecosystem. It can also cover substances which are
 			present in much higher concentrations than usual
 			(Wikipedia, https://goo.gl/8RdRfX)
 		    </xs:documentation>
@@ -3506,7 +3506,9 @@
 		    <xs:documentation>
 			In meteorology, precipitation is any product of the
 			condensation of atmospheric water vapour that falls
-			under gravity ( Wikipedia, https://goo.gl/Z6UbIs )
+			under gravity ( Wikipedia, https://goo.gl/Z6UbIs ).
+			This category captures precipitation no matter if the
+			cause is natural or artificial (e.g. rain simulation).
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3515,9 +3517,7 @@
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
 			Any manipulation to the availability of nutrients for
-			consumers as well as producers. For example a plot
-			selection along a pH gradient as master variable that
-			controls for the availability of nutrients.
+			consumers as well as producers.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3527,12 +3527,8 @@
 		    <xs:documentation>
 			Soil texture is a qualitative classification tool used
 			in both the field and laboratory to determine classes
-			for agricultural soils based on their physical texture.
-			The classes are distinguished in the field by the
-			"textural feel" which can be further clarified by
-			separating the relative proportions of sand, silt and
-			clay using grading sieves ( Wikipedia,
-			https://goo.gl/dd5XK7 )
+			for (agricultural) soils based on their physical texture
+			( Wikipedia, https://goo.gl/dd5XK7 ).
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3558,10 +3554,7 @@
 			management for aesthetics, fish, recreation, urban
 			values, water, wilderness, wildlife, wood products,
 			forest genetic resources, and other forest resource
-			values. Techniques include timber extraction, planting
-			and replanting of various species, cutting roads and
-			pathways through forests, and preventing fire
-			( Wikipedia, https://goo.gl/2ViUAX )
+			values. ( Wikipedia, https://goo.gl/2ViUAX )
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3582,7 +3575,10 @@
 		<xs:annotation xml:lang="en">
 		    <xs:documentation>
 			A controlled infection with pathogens of whatever kind
-			(e.g. viruses or microorganisms).
+			(e.g. viruses or microorganisms) or the selection of
+			individuals or plots which are affeted by a pathogen.
+
+			FIXME: Refers to intensity or type of infection?
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3602,7 +3598,7 @@
 		    <xs:documentation>
 			Any wind related disturbance. For example plot
 			selection creates gradient along areas with different
-			frequency of fire disturbances.
+			frequency of wind disturbances.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
