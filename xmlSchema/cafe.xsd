@@ -708,22 +708,106 @@
 				<xs:complexType>
 				    <xs:sequence>
 
-					<xs:element name="generalApproach" type="GeneralApproach" minOccurs="1" maxOccurs="1">
+					<xs:element name="experimentalApproach" minOccurs="1" maxOccurs="unbounded">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The general approach is documented in a two step fashion. First you select if
-						    it is a virtual, manipulative or observational experiment and then you specify
-						    a kind of locality with laboratory, contained, field.
+						    This captures the general approach in a two setp fashion. First you
+						    pick from a gradient of types that spans from simulations to observational
+						    experiments and then additionally pick a locality or dimensionality of the
+						    setup to further narrow down the approach.
 						</xs:documentation>
 					    </xs:annotation>
+
+					    <xs:complexType>
+					        <xs:sequence>
+
+						    <xs:element name="approachType" minOccurs="1" maxOccurs="1">
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:choice>
+								    <xs:element name="virtual" type="xs:boolean" minOccurs="1" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation xml:lang="en">
+										Virtual experiment with computer and simulation.
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>
+								    <xs:element name="manipulative" type="xs:boolean" minOccurs="1" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation xml:lang="en">
+										Experimental setup with factors mostly controlled
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>
+								    <xs:element name="observational" type="xs:boolean" minOccurs="1" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation xml:lang="en">
+										Plot selection creates factor gradients.
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>
+								</xs:choice>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+
+						    <xs:element name="approachLocalization" minOccurs="1" maxOccurs="1">
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:choice>
+								    <xs:element name="laboratory" type="xs:boolean" minOccurs="1" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation xml:lang="en">
+										Experiments in the laboratory or similar locality.
+										Microcosms are artificial, simplified ecosystems
+										that are used to simulate and predict the behaviour
+										of natural ecosystems under controlled conditions. Open
+										or closed microcosms provide an experimental area for
+										ecologists to study natural ecological processes
+										( Wikipedia, https://goo.gl/fAVKj9 ).
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>
+								    <xs:element name="mesocosm" type="xs:boolean" minOccurs="1" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation xml:lang="en">
+										A mesocosm [...] is any outdoor experimental system
+										that examines the natural environment under controlled
+										conditions. In this way mesocosm studies provide a link
+										between field surveys and highly controlled laboratory
+										experiments ( Wikipedia, https://goo.gl/KkuouC ). This
+										includes greenhouses, ecotrons or other kinds of field
+										laboratory.
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>
+								    <xs:element name="field" type="xs:boolean" minOccurs="1" maxOccurs="1">
+									<xs:annotation>
+									    <xs:documentation xml:lang="en">
+										A field experiment applies scientific methodology to
+										experimentally examine an intervention in the real
+										world [...] rather than in the laboratory ( Wikipedia,
+										https://goo.gl/Btvl2s )
+									    </xs:documentation>
+									</xs:annotation>
+								    </xs:element>
+								</xs:choice>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+					        </xs:sequence>
+					    </xs:complexType>
 					</xs:element>
 
 					<xs:element name="controlFactorRange" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    This element covers the range of control factors that are
-						    involved and if the have been manipulated or just observed
-						    as covariates.
+						    involved. A control factor is every setup related variable
+						    that has been manipulated or selected. This ranges for example
+						    from the selection of gradients for succession or biodiviersity
+						    to the selection of time (how long is something exposed to ...)
+						    and space for the setup.
 						</xs:documentation>
 					    </xs:annotation>
 					    <xs:complexType>
@@ -732,9 +816,7 @@
 						    <xs:element name="controlFactorItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								This element covers the range of control factors that have
-								been manipulated or just observed
-								as covariates.
+								This element represents one control factor of the setup.
 							    </xs:documentation>
 							</xs:annotation>
 							<xs:complexType>
@@ -743,31 +825,14 @@
 								<xs:element name="controlFactorName" type="ControlFactorName" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The name of the control factor that has been measured or observed
+									    The name of the control factor or the category of control factors manipulated in
+									    the setup.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
-								<xs:element name="controlFactorModus" type="ControlFactorModus" minOccurs = "1" maxOccurs = "1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The modus of the control factor. It can be  or Observed
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
-								<xs:element name="controlFactorEnvironmentalDependency" type="ControlFactorEnvironmentalDependency" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    Captures the degree of the environmental dependency of the factor: independent, partial dependent, fully dependent.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
@@ -3294,140 +3359,306 @@
 
     <!-- method related types -->
 
-    <xs:simpleType name="GeneralApproach">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Virtual Experiment">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			Computer experiments and simulation.
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-
-	    <xs:enumeration value="Controlled Experiment">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			System and factors are mostly controlled (lab experiment, greenhouse).
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-
-	    <xs:enumeration value="Field Experiment">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			Natural system is studied but certain factors are controlled (fertilization, soil warming)
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-
-	    <xs:enumeration value="Field Manipulation">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			Natural system with single factor manipulation.
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-
-	    <xs:enumeration value="Observational Experiment">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			Plots are selected to span gradients and allow analyses of system behaviour.
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-
-	    <xs:enumeration value="Observation">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			Mere observations (monitoring, sensing, survey, inventory)
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-
-	</xs:restriction>
-    </xs:simpleType>
-
-    <xs:simpleType name="ControlFactorModus">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Manipulated"/>
-	    <xs:enumeration value="Observed"/>
-	</xs:restriction>
-    </xs:simpleType>
-
     <xs:simpleType name="ControlFactorName">
 	<xs:restriction base="xs:string">
-	    <xs:enumeration  value="Species Composition"/>
-	    <xs:enumeration  value="Species Diversity"/>
-	    <xs:enumeration  value="Species Evenness"/>
-	    <xs:enumeration  value="Species Richness"/>
-	    <xs:enumeration  value="Occurrence"/>
-	    <xs:enumeration  value="Living Status"/>
-	    <xs:enumeration  value="Abundance"/>
-	    <xs:enumeration  value="Diameter"/>
-	    <xs:enumeration  value="Weight"/>
-	    <xs:enumeration  value="Height"/>
-	    <xs:enumeration  value="Quantity"/>
-	    <xs:enumeration  value="Density"/>
-	    <xs:enumeration  value="Occurrence"/>
-	    <xs:enumeration  value="Living Status"/>
-	    <xs:enumeration  value="Functional Richness"/>
-	    <xs:enumeration  value="Functional Diversity"/>
-	    <xs:enumeration  value="Genetic Diversity"/>
-	    <xs:enumeration  value="Genetic Manipulation"/>
-	    <xs:enumeration  value="Phylogenetic Distinctness"/>
-	    <xs:enumeration  value="Phylogenetic Distance"/>
-	    <xs:enumeration  value="Phylogenetic Diversity"/>
-	    <xs:enumeration  value="Community Structure"/>
-	    <xs:enumeration  value="Community Dynamics"/>
-	    <xs:enumeration  value="Cation Exchange"/>
-	    <xs:enumeration  value="Chemical Diversity"/>
-	    <xs:enumeration  value="Chemical Composition"/>
-	    <xs:enumeration  value="Chemical Activity"/>
-	    <xs:enumeration  value="Nutrients"/>
-	    <xs:enumeration  value="Soil pH"/>
-	    <xs:enumeration  value="Intensity"/>
-	    <xs:enumeration  value="Absorbance"/>
-	    <xs:enumeration  value="Reflectance"/>
-	    <xs:enumeration  value="Radiance"/>
-	    <xs:enumeration  value="Irradiance"/>
-	    <xs:enumeration  value="Photosynthetically Active Radiation"/>
-	    <xs:enumeration  value="Soil Depth"/>
-	    <xs:enumeration  value="Soil Colour"/>
-	    <xs:enumeration  value="Organic Matter"/>
-	    <xs:enumeration  value="Moisture"/>
-	    <xs:enumeration  value="Structure"/>
-	    <xs:enumeration  value="Root Intensity"/>
-	    <xs:enumeration  value="Soil Base"/>
-	    <xs:enumeration  value="Soil Temperature"/>
-	    <xs:enumeration  value="Grain Size"/>
-	    <xs:enumeration  value="Air Temperature"/>
-	    <xs:enumeration  value="Wind Direction"/>
-	    <xs:enumeration  value="Wind Speed"/>
-	    <xs:enumeration  value="Air Pressure"/>
-	    <xs:enumeration  value="Precipitation"/>
-	    <xs:enumeration  value="Evaporation"/>
-	    <xs:enumeration  value="Groundwater Flow"/>
-	    <xs:enumeration  value="Surface Runoff"/>
-	    <xs:enumeration  value="Sublimation"/>
-	    <xs:enumeration  value="Humidity"/>
-	    <xs:enumeration  value="Vapour Pressure"/>
-	    <xs:enumeration  value="Spatial Context"/>
-	    <xs:enumeration  value="Distance"/>
-	    <xs:enumeration  value="Temporal Context"/>
-	    <xs:enumeration  value="Age"/>
-	    <xs:enumeration  value="Frequency"/>
-	    <xs:enumeration  value="Disturbance"/>
-	    <xs:enumeration  value="Harvest"/>
-	    <xs:enumeration  value="Consumption"/>
-	    <xs:enumeration  value="Pathogen"/>
-	    <xs:enumeration  value="Fire Disturbance"/>
-	    <xs:enumeration  value="Wind Disturbance"/>
-	    <xs:enumeration  value="Abiotic Stress"/>
-	    <xs:enumeration  value="Stress Tolerance"/>
-	    <xs:enumeration  value="Elevation"/>
-	    <xs:enumeration  value="Inclination/Slope"/>
-	    <xs:enumeration  value="Exposition"/>
-	    <xs:enumeration  value="Aspect"/>
+	    <!-- biotic -->
+	    <xs:enumeration value="Producer Diversity">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			This includes richness, functional diversity, shannon diversity
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Producer Composition">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The composition of producers. This also includes occurence.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Producer Density">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			All density or packing related manipulation of
+			consumers. Ammount of certain species per plot.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Producer Structure">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The size, height, leaf area index, age structure
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Consumer Diversity">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			All diversity related factor of consumers, richness,
+			shannon
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Consumer Composition">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Including network struture, occurence, exclusion
+			experiment.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Consumer Density">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			All spatial related manipulations to consumers (e.g.
+			density of grashoppers per plot)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Consumer Structure">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			All structure related factors of consumers, (e.g. body size
+			distribution age structure).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <!-- abiotic -->
+	    <xs:enumeration value="Radiation Intensity">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The intensity radiation for example photosynthetic
+			active radiation.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Radiation Quality">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The quality of the radiation. For example filtered
+			light, emission of specific frequencies
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Soil Temperature">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The temperature of soil manipulated for example through
+			heating or cooling.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Air Temperature">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The air temperature manipulated e.g. thourgh heating or
+			cooling.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Humidity">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Humidity is the amount of water vapor in the air. Water
+			vapor is the gaseous state of water and is invisible
+			( Wikipedia, https://goo.gl/tcVXHc )
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Water Content">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Water content or moisture content is the quantity of
+			water contained in a material, such as soil (called
+			soil moisture) ( Wikipedia, https://goo.gl/WuyBzY )
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Xenobiotics">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			A xenobiotic is a foreign chemical substance found
+			within an organism that is not normally naturally
+			produced by or expected to be present within that
+			organism. It can also cover substances which are
+			present in much higher concentrations than usual
+			(Wikipedia, https://goo.gl/8RdRfX)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Precipitation">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			In meteorology, precipitation is any product of the
+			condensation of atmospheric water vapour that falls
+			under gravity ( Wikipedia, https://goo.gl/Z6UbIs )
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Nutrient Availability">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any manipulation to the availability of nutrients for
+			consumers as well as producers. For example a plot
+			selection along a pH gradient as master variable that
+			controls for the availability of nutrients.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Soil Texture">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Soil texture is a qualitative classification tool used
+			in both the field and laboratory to determine classes
+			for agricultural soils based on their physical texture.
+			The classes are distinguished in the field by the
+			"textural feel" which can be further clarified by
+			separating the relative proportions of sand, silt and
+			clay using grading sieves ( Wikipedia,
+			https://goo.gl/dd5XK7 )
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="pH Value">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any pH related manipulation. For example the soil pH.
+			The soil pH is a measure of the acidity or alkalinity
+			in soils. pH is defined as the negative logarithm (base
+			10) of the activity of hydronium ions (H+ or, more
+			precisely, H 3O+ aq) in a solution ( Wikipedia,
+			https://goo.gl/4l1jlp )
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <!-- disturbance -->
+	    <xs:enumeration value="Management">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any management related manipulation. This includes
+			management for aesthetics, fish, recreation, urban
+			values, water, wilderness, wildlife, wood products,
+			forest genetic resources, and other forest resource
+			values. Techniques include timber extraction, planting
+			and replanting of various species, cutting roads and
+			pathways through forests, and preventing fire
+			( Wikipedia, https://goo.gl/2ViUAX )
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Biomass Removal">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any removal of biomass may it be natural, semi natural
+			or simulated. For example different browsing
+			intentities of deer due to a plot selection or the
+			clipping of plant parts in order to simulated a varying
+			ammount of consumed biomass or the harvesting of crops
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Pathogen Infection">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			A controlled infection with pathogens of whatever kind
+			(e.g. viruses or microorganisms).
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Fire Disturbance">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any fire related disturbance. For example plot
+			selection creates gradient along areas with different
+			frequency of fire disturbances.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Wind Disturbance">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any wind related disturbance. For example plot
+			selection creates gradient along areas with different
+			frequency of fire disturbances.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Flooding">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Any distubance related to a flooding. For example
+			the plot selection aims for areas that have been
+			flooded at least once in the last 5 years or plots
+			that have a similar set of other factors and the
+			time since the flooding event is used as a gradient.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <!-- topo -->
+	    <xs:enumeration value="Elevation">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The plot selection creates an elevation gradient. Or
+			plots of a certain elevation only are selected.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Inclination">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			The plot selection creates an inclination gradient.
+			Or plots of a certain inclination are selected only.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <!-- scale -->
+	    <xs:enumeration value="Time">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Time as an experimental design parameter. This could
+			be for example used if the exposure time of animals
+			or plants to certain radiation has been manipulated
+			in different sets to be compared in the setup.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value="Space">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Time as an experimental design parameter. For example plots
+			are selected with a specific distance to road to see if dear
+			browsing is affected by disturbances coming from that roads.
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
 
 	    <!-- extension -->
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
@@ -4181,35 +4412,6 @@
 		<xs:annotation>
 		    <xs:documentation xml:lang="en">
 			Defined as: > 100.000.000 km^2
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-	</xs:restriction>
-    </xs:simpleType>
-
-    <xs:simpleType name="ControlFactorEnvironmentalDependency">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="Independent">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			Fully controlled lab experiment that could take place
-			anywhere.
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-	    <xs:enumeration value="Partially">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			Unique features of spatial context partially
-			uncontrolled, e.g. light conditions in greenhouse, open
-			top chambers.
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-	    <xs:enumeration value="Fully">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			Field studies.
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
