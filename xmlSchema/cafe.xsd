@@ -3946,15 +3946,6 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="TemporalStandard">
-	<xs:restriction base="xs:string">
-	    <xs:enumeration value="International Chronostratigraphic Chart"/>
-
-	    <!-- extension -->
-	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
-	</xs:restriction>
-    </xs:simpleType>
-
     <!-- location related types -->
 
     <xs:simpleType name="GeodeticDatum">
