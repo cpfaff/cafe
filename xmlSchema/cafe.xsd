@@ -280,7 +280,7 @@
 		    </xs:complexType>
 		</xs:element>
 
-		<xs:element name="space" minOccurs="1" maxOccurs="1">
+		<xs:element name="space" minOccurs="0" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation xml:lang="en">
 			    The space facet covers all localization aspects.
@@ -305,7 +305,7 @@
 				<xs:complexType>
 				    <xs:sequence>
 
-					<xs:element name="boundingBox" minOccurs="1" maxOccurs="1">
+					<xs:element name="boundingBox" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    The bounding box is a three dimensional virtual object in space
@@ -366,7 +366,7 @@
 							</xs:complexType>
 						    </xs:element>
 
-						    <xs:element name="boundingElevation" minOccurs="1" maxOccurs="1">
+						    <xs:element name="boundingElevation" minOccurs="0" maxOccurs="1">
 							<xs:complexType>
 							    <xs:sequence>
 
@@ -374,14 +374,6 @@
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The maximum elevation the data has been taken from.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
-								<xs:element name="maximumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The unit of the maximum elevation (e.g. Meter, Centimeter)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -394,10 +386,10 @@
 								    </xs:annotation>
 								</xs:element>
 
-								<xs:element name="minimumElevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
+								<xs:element name="elevationUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The unit of the minimum elevation (e.g. Meter, Centimeter)
+									    The unit of the maximum elevation (e.g. Meter, Centimeter)
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -409,131 +401,101 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
-
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
 
-					<xs:element name="siteCoordinate" minOccurs="0" maxOccurs="1">
+					<xs:element name="siteCoordinateRange" minOccurs="0" maxOccurs="1">
 					    <xs:complexType>
 						<xs:sequence>
-
-						    <xs:element name="siteCoordinateRange" minOccurs="1" maxOccurs="unbounded">
+						    <xs:element name="siteCoordinateItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:complexType>
 							    <xs:sequence>
-
-								<xs:element name="siteCoordinateItem" minOccurs="1" maxOccurs="unbounded">
+								<xs:element name="utmCoordinate" minOccurs="1" maxOccurs="1">
 								    <xs:complexType>
 									<xs:sequence>
-
-									    <xs:element name="utmCoordinate" minOccurs="1" maxOccurs="1">
-										<xs:complexType>
-										    <xs:sequence>
-
-											<xs:element name="zone" type="xs:integer" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation xml:lang="en">
-												    The numerical zone corresponding to the central meridian
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-											<xs:element name="subZone" type="xs:integer" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation xml:lang="en">
-												    The subzone letter corresponding to one of the 20 north-south divisions of the
-												    UTM grid system
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-											<xs:element name="northSouth" type="NorthSouth" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation xml:lang="en">
-												    The hemisphere. This can be N (North) or S (South)
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-											<xs:element name="easting" type="xs:decimal" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation xml:lang="en">
-												    The distance east of the origin of the UTM zone
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-											<xs:element name="eastingUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation xml:lang="en">
-												    The unit of the distance of the easting (Meter, Kilometer)
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-											<xs:element name="northing" type="xs:decimal" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation xml:lang="en">
-												    The distance north of the origin of the UTM zone
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-											<xs:element name="northingUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation xml:lang="en">
-												    The unit of the distance of the northing (Meter, Kilometer)
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-											<xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="1" maxOccurs="1">
-											    <xs:annotation>
-												<xs:documentation xml:lang="en">
-												    The datum (e.g. wgs84)
-												</xs:documentation>
-											    </xs:annotation>
-											</xs:element>
-
-										    </xs:sequence>
-										</xs:complexType>
+									    <xs:element name="zone" type="xs:integer" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation xml:lang="en">
+											The numerical zone corresponding to the central meridian
+										    </xs:documentation>
+										</xs:annotation>
 									    </xs:element>
 
+									    <xs:element name="subZone" type="xs:integer" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation xml:lang="en">
+											The subzone letter corresponding to one of the 20 north-south divisions of the
+											UTM grid system
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
+
+									    <xs:element name="northSouth" type="NorthSouth" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation xml:lang="en">
+											The hemisphere. This can be N (North) or S (South)
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
+
+									    <xs:element name="easting" type="xs:decimal" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation xml:lang="en">
+											The distance east of the origin of the UTM zone
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
+
+									    <xs:element name="eastingUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation xml:lang="en">
+											The unit of the distance of the easting (Meter, Kilometer)
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
+
+									    <xs:element name="northing" type="xs:decimal" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation xml:lang="en">
+											The distance north of the origin of the UTM zone
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
+
+									    <xs:element name="northingUnit" type="LengthUnit" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation xml:lang="en">
+											The unit of the distance of the northing (Meter, Kilometer)
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
+
+									    <xs:element name="geodeticDatum" type="GeodeticDatum" minOccurs="0" maxOccurs="1">
+										<xs:annotation>
+										    <xs:documentation xml:lang="en">
+											The datum (e.g. wgs84)
+										    </xs:documentation>
+										</xs:annotation>
+									    </xs:element>
 									</xs:sequence>
 								    </xs:complexType>
 								</xs:element>
-
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
 
-				    </xs:sequence>
-				</xs:complexType>
-			    </xs:element>
-
-			    <xs:element name="spatialNamespace" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-				    <xs:documentation xml:lang="en">
-					The spatial namespace captures named
-					places and the type of the references
-					e.g. Leipzig/City.
-				    </xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-				    <xs:sequence>
-
-					<xs:element name="spatialNameRange" minOccurs="1" maxOccurs="1">
+					<xs:element name="spatialNameRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The spatial name range captures a range of location names and types
+						    The spatialNameRange captures a range of location names and
+						    their types.
 						</xs:documentation>
 					    </xs:annotation>
 					    <xs:complexType>
@@ -542,13 +504,8 @@
 						    <xs:element name="spatialNameItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:annotation>
 							    <xs:documentation xml:lang="en">
-								The spatial
-								name item
-								covers a range
-								of names of
-								spatial
-								features and
-								their types
+								The spatialNameItem covers a range of names of
+								spatial features and their types
 							    </xs:documentation>
 							</xs:annotation>
 							<xs:complexType>
@@ -557,7 +514,23 @@
 								<xs:element name="spatialName" type="SpatialName" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The name of the location (Leipzig, Cospudener See)
+									    The name of the location (Leipzig, Cospudener See, Mount Everest)
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="countryName" type="CountryName" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    Name of the country the location given under spatialName is located in.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
+								<xs:element name="continentName" type="ContinentName" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    Name of the continent the location given under spatialName is located on.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
@@ -565,13 +538,54 @@
 								<xs:element name="spatialType" type="SpatialType" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The type of the location. This could be e.g. City, Lake, etc.
+									    The type of the location. This could be e.g. City, Lake, Study Site etc.
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
 
 							    </xs:sequence>
 							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+
+					<xs:element name="spatialRaster" minOccurs="0" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation xml:lang="en">
+						    The spatial raster allows to span a
+						    categorial grid in space with the
+						    extent being the frame and time
+						    resolution the subdivision.
+						</xs:documentation>
+					    </xs:annotation>
+					    <xs:complexType>
+						<xs:sequence>
+
+						    <xs:element name="spatialExtent" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation xml:lang="en">
+								Defines the extent of the
+								data in the space. This is
+								done in of categories that
+								are defined by size (Point,
+								Plot, Region, Continent,
+								Global)
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+
+						    <xs:element name="spatialResolution" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation xml:lang="en">
+								Defines the resolution of
+								the data in the space. This
+								is done in of categories
+								that are defined by size
+								(Point, Plot, Region,
+								Continent, Global)
+							    </xs:documentation>
+							</xs:annotation>
 						    </xs:element>
 
 						</xs:sequence>
@@ -582,47 +596,22 @@
 				</xs:complexType>
 			    </xs:element>
 
-			    <xs:element name="spatialRaster" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-				    <xs:documentation xml:lang="en">
-					The spatial raster allows to span a
-					categorial grid in space with the
-					extent being the frame and time
-					resolution the subdivision.
-				    </xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-				    <xs:sequence>
+			    <!-- <xs:element name="spatialNamespace" minOccurs="0" maxOccurs="1"> -->
+				<!-- <xs:annotation> -->
+				    <!-- <xs:documentation xml:lang="en"> -->
+					<!-- The spatial namespace captures named -->
+					<!-- places and the type of the references -->
+					<!-- e.g. Leipzig/City. -->
+					<!-- </xs:documentation> -->
+				    <!-- </xs:annotation> -->
+				<!-- <xs:complexType> -->
+				    <!-- <xs:sequence> -->
 
-					<xs:element name="spatialExtent" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
-					    <xs:annotation>
-						<xs:documentation xml:lang="en">
-						    Defines the extent of the
-						    data in the space. This is
-						    done in of categories that
-						    are defined by size (Point,
-						    Plot, Region, Continent,
-						    Global)
-						</xs:documentation>
-					    </xs:annotation>
-					</xs:element>
 
-					<xs:element name="spatialResolution" type="SpatialSizeClass" minOccurs="1" maxOccurs="1">
-					    <xs:annotation>
-						<xs:documentation xml:lang="en">
-						    Defines the resolution of
-						    the data in the space. This
-						    is done in of categories
-						    that are defined by size
-						    (Point, Plot, Region,
-						    Continent, Global)
-						</xs:documentation>
-					    </xs:annotation>
-					</xs:element>
+					<!-- </xs:sequence> -->
+				    <!-- </xs:complexType> -->
+				<!-- </xs:element> -->
 
-				    </xs:sequence>
-				</xs:complexType>
-			    </xs:element>
 
 			</xs:sequence>
 		    </xs:complexType>
@@ -3965,7 +3954,11 @@
 	</xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="SpatialName">
+    <xs:simpleType name="SpatialName" >
+	<xs:union memberTypes="ContinentName CountryName"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="CountryName">
 	<xs:restriction base="xs:string">
 	    <!-- country -->
 	    <xs:enumeration value = "Andorra"/>
@@ -4216,7 +4209,13 @@
 	    <xs:enumeration value = "South Africa"/>
 	    <xs:enumeration value = "Zimbabwe"/>
 	    <xs:enumeration value = "Zambia"/>
+	    <!-- extension -->
+	    <xs:pattern value="[a-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
 
+    <xs:simpleType name="ContinentName">
+	<xs:restriction base="xs:string">
 	    <!-- continents -->
 	    <xs:enumeration value = "Africa"/>
 	    <xs:enumeration value = "Asia"/>
@@ -4242,40 +4241,6 @@
 			meanings, many cities have a particular administrative,
 			legal, or historical status based on local law (WP,
 			http://bit.ly/1UokPQa)
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-
-	    <xs:enumeration value = "Country">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			A country is a region that is identified as a distinct
-			entity in political geography. A country may be an
-			independent sovereign state or one that is occupied by
-			another state, as a non-sovereign or formerly sovereign
-			political division, or a geographic region associated
-			with sets of previously independent or differently
-			associated people with distinct political
-			characteristics. Regardless of the physical geography,
-			in the modern internationally accepted legal definition
-			as defined by the League of Nations in 1937 and
-			reaffirmed by the United Nations in 1945, a resident of
-			a country is subject to the independent exercise of
-			legal jurisdiction (WP, http://bit.ly/1nvOz3s).
-		    </xs:documentation>
-		</xs:annotation>
-	    </xs:enumeration>
-
-	    <xs:enumeration value = "Continent">
-		<xs:annotation>
-		    <xs:documentation xml:lang="en">
-			A continent is one of several very large landmasses on
-			Earth. They are generally identified by convention
-			rather than any strict criteria, with up to seven
-			regions commonly regarded as continents. These are
-			(from largest in size to smallest): Asia, Africa, North
-			America, South America, Antarctica, Europe, and
-			Australia (WP, http://bit.ly/1S8ykpP).
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -4334,6 +4299,25 @@
 			the interconnected system of Earth's salty, oceanic
 			waters—considered as one global ocean or as several
 			principal oceanic divisions (WP, http://bit.ly/1nMOfgy)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value = "Forest">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			A forest is a large area of land covered with trees or
+			other woody vegetation. ( Wikipedia,
+			https://goo.gl/z9v3my )
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <xs:enumeration value = "Study Site">
+		<xs:annotation>
+		    <xs:documentation xml:lang="en">
+			If the study site has a dedicated name (e.g. Jena
+			Experiment)
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
