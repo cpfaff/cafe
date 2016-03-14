@@ -21,7 +21,6 @@
 
 		    <xs:complexType>
 			<xs:sequence>
-
 			    <xs:element name="object" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
@@ -65,6 +64,17 @@
 						<xs:documentation xml:lang="en">
 						    This to set the download
 						    URL of the data.
+						</xs:documentation>
+					    </xs:annotation>
+					</xs:element>
+
+					<xs:element name="objectDataCenter" type="ObjectDataCenter" minOccurs="0" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation xml:lang="en">
+						    In case of an electronic
+						    data type you can set this
+						    to the data center the data
+						    is hosted at.
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
@@ -262,7 +272,7 @@
 							<xs:complexType>
 							    <xs:sequence>
 
-								<xs:element name="geologicalTimePeriod" type="GeologicalTimePeriod" minOccurs="1" maxOccurs="1">
+								<xs:element name="geologicalTimePeriod" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
 									    The temporal name covers names of times like for example
@@ -271,22 +281,27 @@
 									    the international chronostratigraphic chart.
 									</xs:documentation>
 								    </xs:annotation>
-								</xs:element>
 
-								<xs:element name="isLowerBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    Designates if the item is the lower boundary of a time range.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
-
-								<xs:element name="isUpperBoundary" type="xs:boolean" minOccurs="0" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    Designates if the item is the upper boundary of a time range.
-									</xs:documentation>
-								    </xs:annotation>
+								    <xs:complexType>
+									<xs:simpleContent>
+									    <xs:extension base="GeologicalTimePeriod">
+										<xs:attribute name="isUpperBoundary" type="xs:boolean" default="false">
+										    <xs:annotation>
+											<xs:documentation xml:lang="en">
+											    Designates if the item is the lower boundary of a time range.
+											</xs:documentation>
+										    </xs:annotation>
+										</xs:attribute>
+										<xs:attribute name="isLowerBoundary" type="xs:boolean" default="false">
+										    <xs:annotation>
+											<xs:documentation xml:lang="en">
+											    Designates if the item is the upper boundary of a time range.
+											</xs:documentation>
+										    </xs:annotation>
+										</xs:attribute>
+									    </xs:extension>
+									</xs:simpleContent>
+								    </xs:complexType>
 								</xs:element>
 
 							    </xs:sequence>
@@ -1723,6 +1738,43 @@
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name="ObjectDataCenter">
+	<xs:annotation xml:lang="en">
+	    <xs:documentation>
+		The data center in case of electronic data storage.
+	    </xs:documentation>
+	</xs:annotation>
+
+	<xs:restriction base="xs:string">
+	    <xs:enumeration value="PANGAEA">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			PANGAEA: Data Publisher for Earth and Environmental Science
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="SGN">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Data Center Senckenberg (SGN)
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+	    <xs:enumeration value="BGBM">
+		<xs:annotation xml:lang="en">
+		    <xs:documentation>
+			Botanic Garden and Botanical Museum Berlin-Dahlem
+		    </xs:documentation>
+		</xs:annotation>
+	    </xs:enumeration>
+
+	    <!-- extension -->
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
+
 
     <!-- interaction related types -->
 
