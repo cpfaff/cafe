@@ -21,6 +21,7 @@
 
 		    <xs:complexType>
 			<xs:sequence>
+
 			    <xs:element name="object" minOccurs="1" maxOccurs="1">
 				<xs:complexType>
 				    <xs:sequence>
@@ -78,269 +79,197 @@
 						</xs:documentation>
 					    </xs:annotation>
 					</xs:element>
-
 				    </xs:sequence>
 				</xs:complexType>
 			    </xs:element>
-
 			</xs:sequence>
 		    </xs:complexType>
 		</xs:element>
 
-		<xs:element name="time" minOccurs="1" maxOccurs="1">
+		<xs:element name="time" minOccurs="0" maxOccurs="1">
 		    <xs:annotation>
 			<xs:documentation xml:lang="en">
-			    The time facet covers all aspects of time. It
-			    captures time as point or as ranges and allows to
-			    specify a temporal granularity.
+			    The time facet covers all aspects of time
 			</xs:documentation>
 		    </xs:annotation>
+
 		    <xs:complexType>
 			<xs:sequence>
-
 			    <xs:element name="temporalCoverage" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 				    <xs:documentation xml:lang="en">
-					The temporal coverage module captures
-					the numeric aspects of dates in iso 8601
-					format. It allows to either specify a
-					time point or a time range.
+					The temporalCoverage module captures
+					the temporal aspects of the search
+					object. Dates and times are provided in
+					iso 8601 format.
 				    </xs:documentation>
 				</xs:annotation>
-				<xs:complexType>
-				    <xs:choice>
 
-					<xs:sequence>
-					    <xs:element name="dateTimePointRange" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						    <xs:documentation xml:lang="en">
-							The dateTimePoint
-							allows to specify a
-							point in time via
-							seperate date and time
-							fields or via a
-							combined date field.
-							Both need to be conform
-							to the iso 8601
-							standard.
-						    </xs:documentation>
-						</xs:annotation>
-
-						<xs:complexType>
-						    <xs:sequence>
-							<xs:element name="dateTimePointItem" minOccurs="1" maxOccurs="unbounded">
-							    <xs:complexType>
-								<xs:sequence>
-								    <xs:element name="datePoint" type="xs:date" minOccurs="1" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation xml:lang="en">
-										A single date in form
-										YYYY-MM-DD or with an offset from UTC with
-										conform +XX:XX appende conform to
-										to iso 8601.
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>
-
-								    <xs:element name="timePoint" type="xs:time" minOccurs="1" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation xml:lang="en">
-										A single time in form
-										HH:MM:SS or with an offset from UTC with
-										+XX:XX appended conform to iso 8601.
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>
-								</xs:sequence>
-							    </xs:complexType>
-							</xs:element>
-						    </xs:sequence>
-						</xs:complexType>
-					    </xs:element>
-					</xs:sequence>
-
-					<xs:sequence>
-
-					    <xs:element name="dateTimeRange" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						    <xs:documentation xml:lang="en">
-							The dateTimeRange
-							allows to specify one
-							or multiple ranges in
-							time via seperate date
-							and time fields or via
-							a combined date field.
-							Both need to be conform
-							to the iso 8601
-							standard.
-						    </xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-						    <xs:sequence>
-
-							<xs:element name="dateTimeItem" minOccurs="1" maxOccurs="1">
-							    <xs:complexType>
-								<xs:sequence>
-
-								    <xs:element name="startDate" type="xs:date" minOccurs="1" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation xml:lang="en">
-										A single date in form
-										YYYY-MM-DD or with an offset from UTC with
-										conform +XX:XX appende conform to
-										to iso 8601.
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>
-
-								    <xs:element name="startTime" type="xs:time" minOccurs="1" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation xml:lang="en">
-										A single time in form
-										HH:MM:SS or with an offset from UTC with
-										+XX:XX appended conform to iso 8601.
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>
-
-								    <xs:element name="endDate" type="xs:date" minOccurs="1" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation xml:lang="en">
-										A single date in form
-										YYYY-MM-DD or with an offset from UTC with
-										conform +XX:XX appende conform to
-										to iso 8601.
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>
-
-								    <xs:element name="endTime" type="xs:time" minOccurs="1" maxOccurs="1">
-									<xs:annotation>
-									    <xs:documentation xml:lang="en">
-										A single time in form
-										HH:MM:SS or with an offset from UTC with
-										+XX:XX appended conform to iso 8601.
-									    </xs:documentation>
-									</xs:annotation>
-								    </xs:element>
-
-								</xs:sequence>
-							    </xs:complexType>
-							</xs:element>
-
-						    </xs:sequence>
-						</xs:complexType>
-					    </xs:element>
-
-					</xs:sequence>
-				    </xs:choice>
-				</xs:complexType>
-			    </xs:element>
-
-			    <xs:element name="temporalNamespace" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-				    <xs:documentation xml:lang="en">
-					The temporal namespace captures named
-					times like names for the geological
-					ages from the international
-					chronostratigraphic chart
-				    </xs:documentation>
-				</xs:annotation>
 				<xs:complexType>
 				    <xs:sequence>
-
-					<xs:element name="temporalNameRange" minOccurs="1" maxOccurs="1">
+					<xs:element name="datePointRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    The temporal name range
-						    allows to specify multiple
-						    items where each contains a
-						    name and a reference to a
+						    The datePointRange allows
+						    to specify multiple points
+						    in time via dates conform to
+						    the iso 8601 standard.
+						</xs:documentation>
+					    </xs:annotation>
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="datePointItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation xml:lang="en">
+								The datePointItem represents
+								one date item conform to
+								the iso 8601 standard.
+							    </xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="datePoint" type="xs:date" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    A single date in form YYYY-MM-DD or
+									    with an offset from UTC with +XX:XX.
+									    Conform to iso 8601.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
+					</xs:element>
+
+					<xs:element name="dateTimeRange" minOccurs="0" maxOccurs="1">
+					    <xs:annotation>
+						<xs:documentation xml:lang="en">
+						    The dateTimeRange
+						    allows to specify one
+						    or multiple ranges in
+						    time via seperate date
+						    and time fields conform
+						    to the iso 8601
 						    standard.
 						</xs:documentation>
 					    </xs:annotation>
 					    <xs:complexType>
 						<xs:sequence>
-
-						    <xs:element name="temporalNameItem" minOccurs="1" maxOccurs="unbounded">
-							<xs:annotation>
-							    <xs:documentation xml:lang="en">
-								The temporal name item captures one temporal name each and a specification
-								of a standard where the name comes from.
-							    </xs:documentation>
-							</xs:annotation>
+						    <xs:element name="dateTimeItem" minOccurs="1" maxOccurs="unbounded">
 							<xs:complexType>
 							    <xs:sequence>
-
-								<xs:element name="geologicalTimePeriod" minOccurs="1" maxOccurs="1">
+								<xs:element name="dateStart" type="xs:date" minOccurs="1" maxOccurs="1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
-									    The temporal name covers names of times like for example
-									    the geological time scale (Hadean, Archean, Proterozoic,
-									    Phanerozoic). These values come from the standard of
-									    the international chronostratigraphic chart.
+									    A single date in form YYYY-MM-DD or
+									    with an offset from UTC with +XX:XX.
+									    Conform to iso 8601. The starting
+									    point of the study or observation.
 									</xs:documentation>
 								    </xs:annotation>
-
-								    <xs:complexType>
-									<xs:simpleContent>
-									    <xs:extension base="GeologicalTimePeriod">
-										<xs:attribute name="isUpperBoundary" type="xs:boolean" default="false">
-										    <xs:annotation>
-											<xs:documentation xml:lang="en">
-											    Designates if the item is the lower boundary of a time range.
-											</xs:documentation>
-										    </xs:annotation>
-										</xs:attribute>
-										<xs:attribute name="isLowerBoundary" type="xs:boolean" default="false">
-										    <xs:annotation>
-											<xs:documentation xml:lang="en">
-											    Designates if the item is the upper boundary of a time range.
-											</xs:documentation>
-										    </xs:annotation>
-										</xs:attribute>
-									    </xs:extension>
-									</xs:simpleContent>
-								    </xs:complexType>
 								</xs:element>
-
+								<xs:element name="timeStart" type="xs:time" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    A single time in form HH:MM:SS or
+									    with an offset from UTC with +XX:XX.
+									    Conform to iso 8601. The start time
+									    point of the study or observation.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+								<xs:element name="dateEnd" type="xs:date" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    A single date in form YYYY-MM-DD or
+									    with an offset from UTC with +XX:XX.
+									    Conform to iso 8601. The ending
+									    point of the study or observation.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+								<xs:element name="timeEnd" type="xs:time" minOccurs="0" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    A single time in form HH:MM:SS or
+									    with an offset from UTC with +XX:XX.
+									    Conform to iso 8601. The end time
+									    point of the study or observation.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
 
-				    </xs:sequence>
-				</xs:complexType>
-			    </xs:element>
-
-			    <xs:element name="temporalRaster" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-				    <xs:documentation xml:lang="en">
-					The temporal raster allows to span a categorial grid in time with the extent being the frame
-					and time resolution the subdivision.
-				    </xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-				    <xs:sequence>
-
-					<xs:element name="temporalExtent" type="TimePeriod" minOccurs="1" maxOccurs="1">
+					<xs:element name="temporalNameRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    Defines the extent in time in form of a category (second, minute, hour ...).
+						    The temporalNameRange allows to specify multiple
+						    temporal name items where each contains a name of
+						    a range in time.
 						</xs:documentation>
 					    </xs:annotation>
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="temporalNameItem" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+							    <xs:documentation xml:lang="en">
+								The temporalNameItem captures one temporal name each.
+							    </xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+							    <xs:sequence>
+								<xs:element name="geologicalTimePeriod" type="GeologicalTimePeriod" minOccurs="1" maxOccurs="1">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The geologicalTimePeriod captures names from the
+									    International chronostratigraphic chart (e.g. Hadean,
+									    Archean, Proterozoic, Phanerozoic).
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+							    </xs:sequence>
+							</xs:complexType>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
 					</xs:element>
 
-					<xs:element name="temporalResolution" type="TimePeriod" minOccurs="1" maxOccurs="1">
+					<xs:element name="temporalRaster" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
-						    Defines the resolution in time in form of a category (second, minute, hour ...).
-						    This should be smaller than the extent to be meaningful.
+						    The temporalRaster allows to span a categorial grid
+						    in time with the extent being the outer frame and the
+						    resolution representing the subdivision.
 						</xs:documentation>
 					    </xs:annotation>
+					    <xs:complexType>
+						<xs:sequence>
+						    <xs:element name="temporalExtent" type="TimeCategory" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation xml:lang="en">
+								The temporalExtent defines the extent in time of the study or observation.
+								It is provided in form of a category (second, minute, hour ...).
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+						    <xs:element name="temporalResolution" type="TimeCategory" minOccurs="1" maxOccurs="1">
+							<xs:annotation>
+							    <xs:documentation xml:lang="en">
+								The temporalResolution defines the extent in time of the study or observation.
+								It is provided in form of a category (second, minute, hour ...).
+							    </xs:documentation>
+							</xs:annotation>
+						    </xs:element>
+						</xs:sequence>
+					    </xs:complexType>
 					</xs:element>
 
 				    </xs:sequence>
@@ -3712,7 +3641,7 @@
 
     <!-- date and time related types -->
 
-    <xs:simpleType name="TimePeriod">
+    <xs:simpleType name="TimeCategory">
 	<xs:restriction base="xs:string">
 	    <xs:enumeration value="Second">
 		<xs:annotation>
