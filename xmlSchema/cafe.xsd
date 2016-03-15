@@ -638,7 +638,7 @@
 				<xs:complexType>
 				    <xs:sequence>
 
-					<xs:element name="experimentalApproach" minOccurs="1" maxOccurs="unbounded">
+					<xs:element name="experimentalApproach" minOccurs="1" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    This captures the general approach in a two setp fashion. First you
@@ -729,7 +729,7 @@
 					    </xs:complexType>
 					</xs:element>
 
-					<xs:element name="controlFactorRange" minOccurs="1" maxOccurs="1">
+					<xs:element name="controlFactorRange" minOccurs="0" maxOccurs="1">
 					    <xs:annotation>
 						<xs:documentation xml:lang="en">
 						    This element covers the range of control factors that are
@@ -749,9 +749,9 @@
 								This element represents one control factor of the setup.
 							    </xs:documentation>
 							</xs:annotation>
+
 							<xs:complexType>
 							    <xs:sequence>
-
 								<xs:element name="controlFactorName" type="ControlFactorName" minOccurs = "1" maxOccurs = "1">
 								    <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -760,6 +760,16 @@
 									</xs:documentation>
 								    </xs:annotation>
 								</xs:element>
+
+								<xs:element name="controlFactorType" type="ControlFactorType" minOccurs = "1" maxOccurs = "unbounded">
+								    <xs:annotation>
+									<xs:documentation xml:lang="en">
+									    The type of the control factor. This can be one of a predefined list or own types
+									    in case something essential is missing.
+									</xs:documentation>
+								    </xs:annotation>
+								</xs:element>
+
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
@@ -3544,8 +3554,6 @@
 			A controlled infection with pathogens of whatever kind
 			(e.g. viruses or microorganisms) or the selection of
 			individuals or plots which are affeted by a pathogen.
-
-			FIXME: Refers to intensity or type of infection?
 		    </xs:documentation>
 		</xs:annotation>
 	    </xs:enumeration>
@@ -3627,6 +3635,23 @@
 	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
 	</xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name="ControlFactorType">
+	<xs:restriction base="xs:string">
+	    <!-- biotic -->
+	    <xs:enumeration value="Biotic"/>
+	    <xs:enumeration value="Abiotic"/>
+	    <xs:enumeration value="Disturbance"/>
+	    <xs:enumeration value="Topography"/>
+	    <xs:enumeration value="Topography"/>
+	    <xs:enumeration value="Temporal Scale"/>
+	    <xs:enumeration value="Spatial Scale"/>
+
+	    <!-- extension -->
+	    <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
+	</xs:restriction>
+    </xs:simpleType>
+
 
     <!-- date and time related types -->
 
