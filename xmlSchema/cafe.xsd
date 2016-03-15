@@ -824,15 +824,259 @@
 							</xs:annotation>
 							<xs:complexType>
 							    <xs:sequence>
+								<xs:choice>
 
-								<xs:element name="sphereName" type="SphereName" minOccurs="1" maxOccurs="1">
-								    <xs:annotation>
-									<xs:documentation xml:lang="en">
-									    The sphere item captures a sphere item with name and sub spheres.
-									</xs:documentation>
-								    </xs:annotation>
-								</xs:element>
+								    <xs:element name="atmosphere" minOccurs="0" maxOccurs="1">
+									<xs:complexType>
+									    <xs:sequence>
+										<xs:element name="layer" minOccurs="0" maxOccurs="unbounded">
+										    <xs:complexType>
+											<xs:sequence>
+											    <xs:element name="troposphere" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+											    <xs:element name="stratoshhere" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+											    <xs:element name="thermosphere" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+											    <xs:element name="exosphere" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+											</xs:sequence>
+										    </xs:complexType>
+										</xs:element>
+									    </xs:sequence>
+									</xs:complexType>
+								    </xs:element>
 
+								    <xs:element name="hydrosphere" minOccurs="0" maxOccurs="1">
+									<xs:complexType>
+									    <xs:sequence>
+										<xs:element name="river" minOccurs="0" maxOccurs="unbounded">
+										    <xs:complexType>
+											<xs:sequence>
+											    <xs:element name="zone" minOccurs="0" maxOccurs="unbounded">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="crenon" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="rhitron" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="potamon" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="floodplain" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="bank" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="water" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="bed" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+											</xs:sequence>
+										    </xs:complexType>
+										</xs:element>
+
+										<xs:element name="lake" minOccurs="0" maxOccurs="unbounded">
+										    <xs:complexType>
+											<xs:sequence>
+											    <xs:element name="zone" minOccurs="0" maxOccurs="unbounded">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="litoral" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="benthic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="profundal" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="epilimnion" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="metalimnion" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="hypolimnion" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="pelagic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+											</xs:sequence>
+										    </xs:complexType>
+										</xs:element>
+
+										<xs:element name="sea" minOccurs="0" maxOccurs="unbounded">
+										    <xs:complexType>
+											<xs:sequence>
+											    <xs:element name="zone" minOccurs="0" maxOccurs="unbounded">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="benthic" minOccurs="0" maxOccurs="unbounded">
+													    <xs:complexType>
+														<xs:sequence>
+														    <xs:element name="litoral" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="neritic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="bathyal" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="abyssal" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="hadal" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													        </xs:sequence>
+													    </xs:complexType>
+													</xs:element>
+													<xs:element name="pelagic" minOccurs="0" maxOccurs="unbounded">
+													    <xs:complexType>
+													        <xs:sequence>
+														    <xs:element name="epipelagic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="mesopelagic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="bathypelagic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="abyssopelagic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="hadopelagic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													        </xs:sequence>
+													    </xs:complexType>
+													</xs:element>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+											</xs:sequence>
+										    </xs:complexType>
+										</xs:element>
+									    </xs:sequence>
+									</xs:complexType>
+								    </xs:element>
+
+								    <xs:element name="pedosphere" minOccurs="0" maxOccurs="1">
+									<xs:complexType>
+									    <xs:sequence>
+										<xs:element name="soil" minOccurs="1" maxOccurs="1">
+										    <xs:complexType>
+											<xs:sequence>
+
+											    <xs:element name="horizon" minOccurs="0" maxOccurs="1">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="oHorizon" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="aHorizon" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="bHorizon" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="cHorizon" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="rHorizon" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+
+											    <xs:element name="pH" minOccurs="0" maxOccurs="1">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="qualitative" minOccurs="0" maxOccurs="1">
+													    <xs:complexType>
+													        <xs:sequence>
+														    <xs:element name="acidic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="neutral" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+														    <xs:element name="basic" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													        </xs:sequence>
+													    </xs:complexType>
+													</xs:element>
+
+													<xs:element name="quantitative" minOccurs="0" maxOccurs="1">
+													    <xs:complexType>
+													        <xs:sequence>
+														    <xs:element name="minimumValue" type="phValue" minOccurs="1" maxOccurs="1"/>
+														    <xs:element name="maximumValue" type="phValue" minOccurs="1" maxOccurs="1"/>
+													        </xs:sequence>
+													    </xs:complexType>
+													</xs:element>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+
+											    <xs:element name="depth" minOccurs="0" maxOccurs="1">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="quantitative" minOccurs="0" maxOccurs="unbounded">
+													    <xs:complexType>
+													        <xs:sequence>
+														    <xs:element name="minimumValue" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+														    <xs:element name="maximumValue" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+														    <xs:element name="unit" type="LengthUnit" minOccurs="1" maxOccurs="1"/>
+													        </xs:sequence>
+													    </xs:complexType>
+													</xs:element>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+
+											    <xs:element name="texture" minOccurs="0" maxOccurs="1">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="qualitative" minOccurs="0" maxOccurs="unbounded">
+													    <xs:complexType>
+													        <xs:sequence>
+														    <xs:element name="sandy" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+														    <xs:element name="silty" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+														    <xs:element name="loamy" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+													        </xs:sequence>
+													    </xs:complexType>
+													</xs:element>
+													<xs:element name="quantitative" minOccurs="0" maxOccurs="unbounded">
+													    <xs:complexType>
+													        <xs:sequence>
+														    <xs:element name="sandPercentage" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+														    <xs:element name="loamPercentage" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+														    <xs:element name="siltPercentage" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+													        </xs:sequence>
+													    </xs:complexType>
+													</xs:element>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+
+											</xs:sequence>
+										    </xs:complexType>
+										</xs:element>
+									    </xs:sequence>
+									</xs:complexType>
+								    </xs:element>
+
+								    <xs:element name="biosphere" minOccurs="0" maxOccurs="1">
+									<xs:complexType>
+									    <xs:sequence>
+										<xs:element name="layer" minOccurs="0" maxOccurs="unbounded">
+										    <xs:complexType>
+											<xs:sequence>
+											    <xs:element name="qualitative" minOccurs="0" maxOccurs="unbounded">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="treeLayer" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="shrubLayer" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="herbLayer" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="mossLayer" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="groundLayer" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+											</xs:sequence>
+										    </xs:complexType>
+										</xs:element>
+
+										<xs:element name="height" minOccurs="0" maxOccurs="1">
+										    <xs:complexType>
+											<xs:sequence>
+											    <xs:element name="quantitative" minOccurs="0" maxOccurs="unbounded">
+												<xs:complexType>
+												    <xs:sequence>
+													<xs:element name="minimumValue" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+													<xs:element name="maximumValue" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+													<xs:element name="unit" type="LengthUnit" minOccurs="1" maxOccurs="1"/>
+												    </xs:sequence>
+												</xs:complexType>
+											    </xs:element>
+											</xs:sequence>
+										    </xs:complexType>
+										</xs:element>
+
+										<xs:element name="organisation" minOccurs="0" maxOccurs="1">
+										    <xs:complexType>
+											<xs:sequence>
+											    <xs:element name="biome" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="ecosystem" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="population" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="organism" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="sytemOfOrgans" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="organ" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="tissue" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="cell" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="cellOrganelle" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="molecule" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											    <xs:element name="atom" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+											</xs:sequence>
+										    </xs:complexType>
+										</xs:element>
+									    </xs:sequence>
+									</xs:complexType>
+								    </xs:element>
+
+								    <xs:element name="lithosphere" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+
+								</xs:choice>
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
@@ -984,7 +1228,6 @@
 							    </xs:sequence>
 							</xs:complexType>
 						    </xs:element>
-
 						</xs:sequence>
 					    </xs:complexType>
 					</xs:element>
@@ -3133,6 +3376,20 @@
 
 	</xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name="phValue">
+	<xs:annotation>
+	    <xs:documentation xml:lang="en">
+		The absolute or relative pH value
+	    </xs:documentation>
+	</xs:annotation>
+
+	<xs:restriction base="xs:decimal">
+	    <xs:minInclusive value="1"/>
+	    <xs:maxInclusive value="14"/>
+	</xs:restriction>
+    </xs:simpleType>
+
 
     <xs:simpleType name="BiomeHemisphere">
 	<xs:annotation>
