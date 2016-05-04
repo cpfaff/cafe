@@ -56,10 +56,11 @@ combination of existing concepts.
 The schema provides an information storage and transport vehicle for the
 vocabulary. It stores annotations for search objects and allows to exchange the
 annotation in a machine readable way. The schema also adheres to some desing
-principles trying to provide anchors for the connection to more detailed
-vocabularies like ontologies.
+principles
 
-A free example:
+* Be semantic
+
+Do not do:
 
 ```XML
 <space>
@@ -74,7 +75,7 @@ A free example:
 </space>
 ```
 
-But rather do
+But rather do:
 
 ```XML
 <space>
