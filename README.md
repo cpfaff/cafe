@@ -54,47 +54,12 @@ combination of existing concepts.
 #### The schema
 
 The schema provides an information storage and transport vehicle for the
-vocabulary. It stores annotations for search objects  allows to exchange the
+vocabulary. It stores annotations for search objects and allows to exchange the
 annotation in a machine readable way. The schema also adheres to some desing
-principles.
+principles trying to provide anchors for the connection to more detailed
+vocabularies like ontologies.
 
-* Generic
-
-Do not do:
-
-```XML
-<location>
-		  <countryName>Andorra</countryName>
-</location>
-```
-
-Rather do:
-
-```XML
-<location>
-		  <locationType>country</locationType>
-		  <locationName>Andorra</locationName>
-</location>
-```
-
-* Provide Helper Structures
-
-Helper Elements by now are ranges and items. See the example below:
-
-```XML
-<space>
-	<locationRange>
-		<locationItem>
-		  <locationType>country</locationType>
-		  <locationName>Andorra</locationName>
-	  </locationItem>
-	</locationRange>
-</space>
-```
-
-* Be semantic for better usability
-
-Do not do:
+A free example:
 
 ```XML
 <space>
@@ -124,15 +89,16 @@ But rather do
 
 * Do not provide full-text fields!
 
-Full-text fields are useful in general. They often contain every informattion
-we might need but the problem is that no information is granted for sure here.
+Full-text fields are useful in general and often contain valuable information.
+They often provide information we might need to create a facet for a search but
+the problem is that no information is granted to be in the full text for sure.
 We aim at generic structures and fields that only contain clearly defined bits
 and pieces of information.
 
 #### Tagging tool
 
 There is a tagging tool on its way that allows to create valid annotations
-based on the schema. You can browse the mock-ups
+based on the schema. You can browse the mock-ups here
 [here](https://invis.io/MB5Y0E2PG).
 
 #### Compatibility with other schemata
@@ -152,31 +118,28 @@ based on the schema. You can browse the mock-ups
 
 ### Core Members
 
-* ...
-
 The contents in this repository is developed and maintained in the context of
 the German Federation for Biological data ([GFBio](http://www.gfbio.org/)).
 
 ### Motivation
 
-A good data discovery is crucial to answer questions in ecology more
+A good data discovery mechanism is crucial to answer questions in ecology more
 efficiently. Facet search strategies are famous and spread across the internet
 used successfully in may different applications. Facets represent a powerful
-tool to restrict a search space by certain criteria and thus allow to restrict
-a pool of data by numeric and categorical attributes for a faster discovery of
-a desired set of data.
+tool to restrict a search space with search objects by certain numerical and
+categorical criteria of the object for a faster discovery. In ecology this
+means a more efficient discovery of research data.
 
 ### Goals
 
 * Development of a simple to use data annotation framework for ecology
 * Community involvement for the development of the schema and the vocabulary
 
-### Becoming involved
+### Become involved
 
 If you want to get involved please contact:
 
 <claas-thido.pfaff@uni-leipzig.de>
-
 
 ## How to contribute (technically)
 
