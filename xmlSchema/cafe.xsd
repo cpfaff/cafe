@@ -120,6 +120,49 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
+
+				<xs:element name="ObjectDescriptions">
+				  <xs:annotation xml:lang="en">
+				    <xs:documentation>
+				      A wrapper that contains all sorts of
+				      object descriptions
+				    </xs:documentation>
+				  </xs:annotation>
+				  <xs:complexType>
+				    <xs:sequence>
+				      <xs:element name="ObjectDescription">
+					<xs:annotation xml:lang="en">
+					  <xs:documentation>
+					    An object description can hold an object description
+					    and a title.
+					  </xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+					  <xs:sequence>
+					    <xs:element name="generalAbsract" type="xs:string">
+					      <xs:annotation xml:lang="en">
+					        <xs:documentation>
+						  Abstract that describes the object in all
+						  its details. This can contain any information
+						  that is suitable to inform somebody who is going
+						  to search for data. Write in great detail about
+						  all aspects that characterize the data (e.g. setup)
+					        </xs:documentation>
+					      </xs:annotation>
+					    </xs:element>
+					    <xs:element name="objectTitle" type="xs:string">
+					      <xs:annotation xml:lang="en">
+					        <xs:documentation>
+					          A title of the search object.
+					        </xs:documentation>
+					      </xs:annotation>
+					    </xs:element>
+					  </xs:sequence>
+					</xs:complexType>
+				      </xs:element>
+				    </xs:sequence>
+				  </xs:complexType>
+				</xs:element>
 				<xs:element name="ObjectTypes">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
