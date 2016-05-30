@@ -356,7 +356,7 @@
 							    </xs:documentation>
 							  </xs:annotation>
 							</xs:element>
-							<xs:element type="xs:string" name="olsonTimezone">
+							<xs:element type="OlsonTimezone" name="olsonTimezone">
 							  <xs:annotation xml:lang="en">
 							    <xs:documentation>
 							      The olson timezone to capture the timezone of the
@@ -391,7 +391,7 @@
 							    </xs:documentation>
 							  </xs:annotation>
 							</xs:element>
-							<xs:element type="xs:string" name="olsonTimezone">
+							<xs:element type="OlsonTimezone" name="olsonTimezone">
 							  <xs:annotation xml:lang="en">
 							    <xs:documentation>
 							      The olson timezone to capture the timezone of the
