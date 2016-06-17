@@ -1,9 +1,4 @@
-﻿<!-- TODO: Add the possibility of a free annotation with uri + label any vocabulary. That allows us a semantic annotation -->
-<!-- and a higher compatibility with gfbio. It might be useful to add for any content field an uri field -->
-<!-- check out how to embed arbitrary objects into the annotation schema (base64) -->
-<!-- TODO: Refactor the reference part (allow inter database reference of search objects) -->
-
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" version="0.1">
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" version="0.2">
   <xs:element name="Cafe">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -40,7 +35,6 @@
 		      </xs:annotation>
 		      <xs:complexType>
 			<xs:sequence>
-
 			  <xs:element name="TimeContext" minOccurs="0" maxOccurs="1">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
@@ -113,7 +107,6 @@
 						</xs:sequence>
 					      </xs:complexType>
 					    </xs:element>
-
 					    <xs:element name="RangeEnd" minOccurs="1" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -165,7 +158,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-
 				<xs:element name="TimePeriods" minOccurs="0" maxOccurs="1">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -242,7 +234,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-
 				<xs:element name="TemporalResolutions" minOccurs="0" maxOccurs="1">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -288,7 +279,6 @@
 			      </xs:sequence>
 			    </xs:complexType>
 			  </xs:element>
-
 			  <xs:element name="SpaceContext" minOccurs="0" maxOccurs="1">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
@@ -353,7 +343,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-
 				<xs:element name="Elevations" minOccurs="0" maxOccurs="1">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -412,7 +401,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-
 				<xs:element name="Coordinates" minOccurs="0" maxOccurs="1">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -505,7 +493,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-
 				<xs:element name="Locations" minOccurs="0" maxOccurs="1">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -726,7 +713,6 @@
 						</xs:sequence>
 					      </xs:complexType>
 					    </xs:element>
-
 					    <xs:element name="Hydrosphere" minOccurs="0" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -809,7 +795,6 @@
 								  </xs:sequence>
 								</xs:complexType>
 							      </xs:element>
-
 							      <xs:element name="Lake" minOccurs="0" maxOccurs="1">
 								<xs:annotation>
 								  <xs:documentation xml:lang="en">
@@ -866,7 +851,6 @@
 								  </xs:sequence>
 								</xs:complexType>
 							      </xs:element>
-
 							      <xs:element name="Sea" minOccurs="0" maxOccurs="1">
 								<xs:annotation>
 								  <xs:documentation xml:lang="en">
@@ -919,7 +903,6 @@
 								  </xs:sequence>
 								</xs:complexType>
 							      </xs:element>
-
 							    </xs:sequence>
 							  </xs:complexType>
 							</xs:element>
@@ -929,7 +912,6 @@
 						</xs:sequence>
 					      </xs:complexType>
 					    </xs:element>
-
 					    <xs:element name="Pedosphere" minOccurs="0" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1002,7 +984,6 @@
 									</xs:sequence>
 								      </xs:complexType>
 								    </xs:element>
-
 								    <xs:element name="NumericSoilLayers" minOccurs="0" maxOccurs="1">
 								      <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1061,7 +1042,6 @@
 									</xs:sequence>
 								      </xs:complexType>
 								    </xs:element>
-
 								    <xs:element name="SoilTextures" minOccurs="0" maxOccurs="1">
 								      <xs:annotation>
 									<xs:documentation xml:lang="en">
@@ -1180,7 +1160,6 @@
 						</xs:sequence>
 					      </xs:complexType>
 					    </xs:element>
-
 					    <xs:element name="Ecosphere" minOccurs="0" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
@@ -1316,7 +1295,6 @@
 			      </xs:sequence>
 			    </xs:complexType>
 			  </xs:element>
-
 			  <xs:element name="BiomeContext" minOccurs="0" maxOccurs="1">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
@@ -1622,7 +1600,6 @@
 			      </xs:sequence>
 			    </xs:complexType>
 			  </xs:element>
-
 			  <xs:element name="OrganismContext" minOccurs="0" maxOccurs="1">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
@@ -2179,7 +2156,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-
 				<xs:element name="Isotopes" minOccurs="0" maxOccurs="1">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -2209,7 +2185,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-
 				<xs:element name="Compounds" minOccurs="0" maxOccurs="1">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -2256,7 +2231,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-
 				<xs:element name="Functions" minOccurs="0" maxOccurs="1">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
@@ -2290,7 +2264,6 @@
 			      </xs:sequence>
 			    </xs:complexType>
 			  </xs:element>
-
 			  <xs:element name="MethodContext" minOccurs="0" maxOccurs="1">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
@@ -2402,7 +2375,6 @@
 		  </xs:sequence>
 		</xs:complexType>
 	      </xs:element>
-
 	      <xs:element name="References" minOccurs="1" maxOccurs="1">
 		<xs:annotation>
 		  <xs:documentation xml:lang="en">
@@ -2412,7 +2384,6 @@
 		</xs:annotation>
 		<xs:complexType>
 		  <xs:sequence>
-
 		    <xs:element name="Hosters" minOccurs="0" maxOccurs="1">
 		      <xs:complexType>
 			<xs:sequence>
@@ -2437,7 +2408,6 @@
 			</xs:sequence>
 		      </xs:complexType>
 		    </xs:element>
-
 		    <xs:element name="Persons" minOccurs="1" maxOccurs="1">
 		      <xs:annotation>
 			<xs:documentation xml:lang="en">
@@ -2503,7 +2473,6 @@
 			</xs:sequence>
 		      </xs:complexType>
 		    </xs:element>
-
 		    <xs:element name="Descriptions" minOccurs="1" maxOccurs="1">
 		      <xs:annotation>
 			<xs:documentation xml:lang="en">
@@ -2538,7 +2507,6 @@
 		  </xs:sequence>
 		</xs:complexType>
 	      </xs:element>
-
 	      <xs:element name="Resources" minOccurs="1" maxOccurs="1">
 		<xs:annotation>
 		  <xs:documentation xml:lang="en">
@@ -4802,11 +4770,10 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="integerPercent">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-        A percentage
+	A percentage
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:integer">
@@ -4814,7 +4781,6 @@
       <xs:maxInclusive value="100"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="SoilMorphologyType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5915,7 +5881,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="InteractionDirection">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8723,14 +8688,12 @@
       <xs:enumeration value="f.spec."/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="Insertpoint">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="1"/>
       <xs:maxInclusive value="3"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="Kingdom">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8832,7 +8795,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <!-- for the references -->
   <xs:simpleType name="DataSourceType">
     <xs:annotation>
@@ -8912,7 +8874,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="HosterName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9006,7 +8967,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="Position">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9032,18 +8992,16 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="EmailAddress">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-        An email address
+	An email address
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:pattern value="[^@]+@[^\.]+\..+"/>
     </xs:restriction>
   </xs:simpleType>
-
   <!-- for the resources -->
   <xs:simpleType name="AudioMimeType">
     <xs:annotation>
@@ -9245,7 +9203,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="ImageMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9554,7 +9511,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="VideoMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9804,7 +9760,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="TableMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9861,7 +9816,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="MetadataMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9894,7 +9848,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <!-- attributes -->
   <xs:attribute name="uri" type="xs:anyURI">
     <xs:annotation>
@@ -9905,5 +9858,4 @@
       </xs:documentation>
     </xs:annotation>
   </xs:attribute>
-
 </xs:schema>
