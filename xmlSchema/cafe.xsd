@@ -3167,27 +3167,280 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Neogene"/>
-      <xs:enumeration value="Paleogene"/>
-      <xs:enumeration value="Cretaceous"/>
-      <xs:enumeration value="Jurassic"/>
-      <xs:enumeration value="Triassic"/>
-      <xs:enumeration value="Permian"/>
-      <xs:enumeration value="Carboniferous"/>
-      <xs:enumeration value="Devonian"/>
-      <xs:enumeration value="Silurian"/>
-      <xs:enumeration value="Ordovician"/>
-      <xs:enumeration value="Cambrian"/>
-      <xs:enumeration value="Ediacaran"/>
-      <xs:enumeration value="Cryogenian"/>
-      <xs:enumeration value="Tonian"/>
-      <xs:enumeration value="Stenian"/>
-      <xs:enumeration value="Ectasian"/>
-      <xs:enumeration value="Calymmian"/>
-      <xs:enumeration value="Statherian"/>
-      <xs:enumeration value="Orosirian"/>
-      <xs:enumeration value="Rhyacian"/>
-      <xs:enumeration value="Siderian"/>
+      <xs:enumeration value="Neogene">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Neogene is a geologic period and system in the International
+	    Commission on Stratigraphy (ICS) Geologic Timescale starting 23.03
+	    million years ago and ending 2.58 million years ago. The second
+	    period in the Cenozoic Era, it follows the Paleogene Period and is
+	    succeeded by the Quaternary Period. The Neogene is sub-divided into
+	    two epochs, the earlier Miocene and the later Pliocene (WP,
+	    https://goo.gl/9YZTF3)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Paleogene">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Paleogene is a geologic period and system that began 66 and ended 23.03
+	    million years ago and comprises the first part of the Cenozoic Era. Lasting 43
+	    million years, the Paleogene is most notable as being the time in which mammals
+	    evolved from relatively small, simple forms into a large group of diverse
+	    animals in the wake of the Cretaceous–Paleogene extinction event that ended the
+	    preceding Cretaceous Period (WP, https://goo.gl/2NlFFn).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Cretaceous">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Cretaceous, derived from the Latin "creta" (chalk), usually abbreviated K
+	    for its German translation Kreide (chalk), is a geologic period and system from
+	    145 ± 4 to 66 million years (Ma) ago. In the geologic timescale, the Cretaceous
+	    follows the Jurassic Period and is followed by the Paleogene Period of the
+	    Cenozoic Era. It is the last period of the Mesozoic Era, and, spanning 79
+	    million years, the longest period of the Phanerozoic Eon.
+	    (WP, https://goo.gl/f3z6Hn)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Jurassic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Jurassic is a geologic period and system that extends from 201.3 Mya
+	    (million years ago) to 145.5 Mya from the end of the Triassic to the beginning
+	    of the Cretaceous. The Jurassic constitutes the middle period of the Mesozoic
+	    Era, also known as the Age of Reptiles. The start of the period is marked by
+	    the major Triassic–Jurassic extinction event. Two other extinction events
+	    occurred during the period: the Pliensbachian/Toarcian event in the Early
+	    Jurassic, and the Tithonian event at the end; however, neither event ranks
+	    among the "Big Five" mass extinctions (WP, https://goo.gl/oISdB7)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Triassic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Triassic is a geologic period and system that extends from roughly 252.17
+	    to 201.3 million years ago, an interval of 51.04 million years. It is the first
+	    period of the Mesozoic Era, and lies between the Permian and Jurassic periods.
+	    Both the start and end of the period are marked by major extinction events. The
+	    Triassic was named in 1834 by Friedrich von Alberti, after the three distinct
+	    rock layers (tri meaning "three") that are found throughout Germany and
+	    northwestern Europe—red beds, capped by marine limestone, followed by a series
+	    of terrestrial mud- and sandstones—called the "Trias". (WP, https://goo.gl/bw9CYZ)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Permian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Permian is a geologic period and system which extends from 298.9 to 252.17
+	    million years ago. It is the last period of the Paleozoic, following the
+	    Carboniferous and preceding the Triassic of the Mesozoic. The concept of the
+	    Permian was introduced in 1841 by geologist Sir Roderick Murchison, who named
+	    it after the ancient kingdom of Permia (WP, https://goo.gl/1HZquE)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Carboniferous">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Carboniferous is a geologic period and system that extends from the end of
+	    the Devonian Period, at 358.9 ± 0.4 million years ago, to the beginning of the
+	    Permian Period, at 298.9 ± 0.15 Ma. The name Carboniferous means "coal-bearing"
+	    and derives from the Latin words carbō ("coal") and ferō ("I bear, I carry"),
+	    and was coined by geologists William Conybeare and William Phillips in 1822.
+	    Based on a study of the British rock succession, it was the first of the modern
+	    'system' names to be employed, and reflects the fact that many coal beds were
+	    formed globally during this time. The Carboniferous is often treated in North
+	    America as two geological periods, the earlier Mississippian and the later
+	    Pennsylvanian (WP, https://goo.gl/VuxQMZ).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Devonian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Devonian is a geologic period and system of the Paleozoic Era
+	    spanning from the end of the Silurian Period, about 419.2 Mya
+	    (million years ago), to the beginning of the Carboniferous Period,
+	    about 358.9. It is named after Devon, England, where rocks from
+	    this period were first studied. The Devonian period experienced the
+	    first significant adaptive radiation of terrestrial life.
+	    Free-sporing vascular plants began to spread across dry land,
+	    forming extensive forests which covered the continents. By the
+	    middle of the Devonian, several groups of plants had evolved leaves
+	    and true roots, and by the end of the period the first seed-bearing
+	    plants appeared. Various terrestrial arthropods also became
+	    well-established. Fish reached substantial diversity during this
+	    time, leading the Devonian to often be dubbed the "Age of Fish".
+	    The first ray-finned and lobe-finned bony fish appeared, while the
+	    placoderms began dominating almost every known aquatic environment.
+	    (WP, https://goo.gl/nbtNUu)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Silurian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Silurian is a geologic period and system that extends from the
+	    end of the Ordovician Period, at 443.8 million years ago (Mya), to
+	    the beginning of the Devonian Period, 419.2 Mya. As with other
+	    geologic periods, the rock beds that define the period's start and
+	    end are well identified, but the exact dates are uncertain by
+	    several million years. The base of the Silurian is set at a major
+	    extinction event when 60% of marine species were wiped out. See
+	    Ordovician-Silurian extinction events (WP, https://goo.gl/mStlAZ).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Ordovician">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Ordovician is a geologic period and system, the second of six of the
+	    Paleozoic Era, and covers the time between 485.4 and 443.8 million years
+	    ago. It follows the Cambrian Period and is followed by the Silurian Period.
+	    The Ordovician, named after the Celtic tribe of the Ordovices, was defined by
+	    Charles Lapworth in 1879 to resolve a dispute between followers of Adam
+	    Sedgwick and Roderick Murchison, who were placing the same rock beds in
+	    northern Wales into the Cambrian and Silurian periods, respectively.
+	    Lapworth, recognizing that the fossil fauna in the disputed strata were
+	    different from those of either the Cambrian or the Silurian periods, realized
+	    that they should be placed in a period of their own. While recognition of the
+	    distinct Ordovician period was slow in the United Kingdom, other areas of the
+	    world accepted it quickly. It received international sanction in 1960, when it
+	    was adopted as an official period of the Paleozoic Era by the International
+	    Geological Congress (WP, https://goo.gl/hcmkyj).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Cambrian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Cambrian was the first geological period of the Paleozoic Era,
+	    lasting from 541 to 485.4 million years ago (mya) and was succeeded
+	    by the Ordovician. Its subdivisions, and indeed its base, are
+	    somewhat in flux. The period was established (as “Cambrian series”)
+	    by Adam Sedgwick, who named it after Cambria, the Latinised form of
+	    Cymru, the Welsh name for Wales, where Britain's Cambrian rocks are
+	    best exposed. The Cambrian is unique in its unusually high
+	    proportion of lagerstätte sedimentary deposits. These are sites of
+	    exceptional preservation, where "soft" parts of organisms are
+	    preserved as well as their more resistant shells. This means that
+	    our understanding of the Cambrian biology surpasses that of some
+	    later periods (WP, https://goo.gl/4evSXv).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Ediacaran">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Ediacaran Period, named after the Ediacara Hills of South
+	    Australia, is the last geological period of the Neoproterozoic Era
+	    and of the Proterozoic Eon, immediately preceding the Cambrian
+	    Period, the first period of the Paleozoic Era and of the
+	    Phanerozoic Eon (WP, https://goo.gl/GbJOZG).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Cryogenian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Cryogenian is a geologic period that lasted from 720 to 635
+	    million years ago. It forms the second geologic period of the
+	    Neoproterozoic Era, preceded by the Tonian Period and followed by
+	    the Ediacaran (WP, https://en.wikipedia.org/wiki/Cryogenian)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Tonian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Tonian (from Greek tonas, "stretch") is the first geologic period in the
+	    Neoproterozoic Era and lasted from 1000 Mya to ~720 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined by the ICS
+	    based on radiometric chronometry (WP, https://goo.gl/5lXA0K).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Stenian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Stenian is the final geologic period in the Mesoproterozoic Era
+	    and lasted from 1200 Mya to 1000 Mya (million years ago). Instead
+	    of being based on stratigraphy, these dates are defined
+	    chronometrically. The name derives from narrow polymetamorphic
+	    belts formed over this period (WP, https://goo.gl/XJAlhU).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Ectasian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Ectasian is the second geologic period in the Mesoproterozoic
+	    Era and lasted from 1400 Mya ago to 1200 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined
+	    chronometrically (WP, https://goo.gl/xZBsSI).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Calymmian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Calymmian (from Greek calymma, "cover") is the first geologic
+	    period in the Mesoproterozoic Era and lasted from 1600 Mya to 1400
+	    Mya (million years ago). Instead of being based on stratigraphy,
+	    these dates are defined chronometrically (WP,
+	    https://goo.gl/0y2zee).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Statherian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Statherian is the final geologic period in the Paleoproterozoic
+	    Era and lasted from 1800 Mya to 1600 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined
+	    chronometrically. The period is characterized on most continents by
+	    either new platforms or final cratonization of fold belts (WP,
+	    https://goo.gl/C1sO7w)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Orosirian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Orosirian is the third geologic period in the Paleoproterozoic
+	    Era and lasted from 2050 Mya to 1800 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined
+	    chronometrically. The later half of the period was an episode of
+	    intensive orogeny on virtually all continents.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Rhyacian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Rhyacian is the second geologic period in the Paleoproterozoic
+	    Era and lasted from 2300 Mya to 2050 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined
+	    chronometrically. (WP, https://goo.gl/lI4T6C)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Siderian">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Siderian is the first geologic period in the Paleoproterozoic
+	    Era and lasted from 2500 Ma to 2300 Ma (million years ago, from
+	    Greek: Mega and Latin: Annum ). Instead of being based on
+	    stratigraphy, these dates are defined chronometrically (WP,
+	    https://goo.gl/OOb8Rq).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="GeologicalEpoch">
