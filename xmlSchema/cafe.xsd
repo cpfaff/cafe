@@ -2938,6 +2938,7 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
   <!-- for the contexts -->
   <xs:simpleType name="GeologicalEon">
     <xs:annotation>
@@ -2976,6 +2977,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="GeologicalEra">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -3142,6 +3144,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="GeologicalPeriod">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -3443,6 +3446,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="GeologicalEpoch">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -3659,41 +3663,53 @@
       <xs:enumeration value="Furongian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Furongian is the fourth and final series of the Cambrian. It lasted from
-~497 to 485.4 ± 1.9 million years ago. It succeeds the still unnamed 3rd series
-of the Cambrian and precedes the Lower Ordovician Tremadocian stage. It is
-subdivided into three stages: the Paibian, Jiangshanian and the unnamed 10th
-stage of the Cambrian (WP, https://goo.gl/WY4Nzj).
-
+	    The Furongian is the fourth and final series of the Cambrian. It
+	    lasted from ~497 to 485.4 ± 1.9 million years ago. It succeeds the
+	    still unnamed 3rd series of the Cambrian and precedes the Lower
+	    Ordovician Tremadocian stage. It is subdivided into three stages:
+	    the Paibian, Jiangshanian and the unnamed 10th stage of the
+	    Cambrian (WP, https://goo.gl/WY4Nzj).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Terreneuvian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Terreneuvian is the lowermost and oldest series of the Cambrian geological
-system.[1] Its base is defined by the first appearance datum of the trace
-fossil Treptichnus pedum around 541.0 ± 1.0 million years ago. Its top is
-defined as the first appearance of trilobites in the stratigraphic record
-around ~521 million years ago.[2] This series was formally ratified by the
-International Commission on Stratigraphy in 2012 (WP, https://goo.gl/9BTTcO).
-
+	    The Terreneuvian is the lowermost and oldest series of the Cambrian
+	    geological system. Its base is defined by the first appearance
+	    datum of the trace fossil Treptichnus pedum around 541.0 ± 1.0
+	    million years ago. Its top is defined as the first appearance of
+	    trilobites in the stratigraphic record around ~521 million years
+	    ago. This series was formally ratified by the International
+	    Commission on Stratigraphy in 2012 (WP, https://goo.gl/9BTTcO).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Series 2">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    NA
+	    Cambrian Series 2 is the unnamed 2nd series of the Cambrian. It
+	    lies above the Terreneuvian series and below the Cambrian Series 3.
+	    Series 2 has not been formally defined by the International
+	    Commission on Stratigraphy, lacking a precise lower and upper
+	    boundary and subdivision into stages. The proposed lower boundary
+	    is the first appearance of trilobites which is estimated to be
+	    around ~521 million years ago.[1] The upper boundary is proposed as
+	    the first appearance of either the trilobite species Oryctocephalus
+	    indicus or Ovatoryctocara granulata, currently estimated to be
+	    around ~509 million years ago (WP, https://goo.gl/Xny79N).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Series 3">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    NA
+	    Cambrian Series 3 is the still unnamed 3rd Series of the Cambrian.
+	    It lasted from about ~509 to ~497 million years ago and is divided
+	    into 3 stages: the unnamed Stage 5, the Drumian, and the
+	    Guzhangian. Cambrian Series 3 is preceded by also unnamed Cambrian
+	    Series 2 and succeeded by the Furongian series (WP,
+	    https://goo.gl/QChvRc).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -3720,6 +3736,7 @@ International Commission on Stratigraphy in 2012 (WP, https://goo.gl/9BTTcO).
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="GeologicalAge">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -3730,1288 +3747,1110 @@ International Commission on Stratigraphy in 2012 (WP, https://goo.gl/9BTTcO).
       <xs:enumeration value="Calabrian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-Calabrian is a subdivision of the Pleistocene Epoch of the geologic time scale,
-defined as ~1.8 Ma.—781,000 years ago ± 5,000 years, a period of ~1.019 million
-years. The end of the stage is defined by the last magnetic pole reversal (781
-± 5 Ka) and plunge into an ice age and global drying possibly colder and drier
-than the late Miocene (Messinian) through early Pliocene (Zanclean) cold
-period.[1] Originally the Calabrian was a European faunal stage primarily based
-on mollusk fossils. It has become the second geologic age in the Early
-Pleistocene. Many of the mammalian faunal assemblages of the Early Pleistocene
-start in the Gelasian. For example, the Platygonus and other Blancan fauna
-appear first in the Gelasian (WP, https://goo.gl/fvxSGa).
-
+	    Calabrian is a subdivision of the Pleistocene Epoch of the geologic time scale,
+	    defined as ~1.8 Ma.—781,000 years ago ± 5,000 years, a period of ~1.019 million
+	    years. The end of the stage is defined by the last magnetic pole reversal (781
+	    ± 5 Ka) and plunge into an ice age and global drying possibly colder and drier
+	    than the late Miocene (Messinian) through early Pliocene (Zanclean) cold
+	    period. Originally the Calabrian was a European faunal stage primarily based
+	    on mollusk fossils. It has become the second geologic age in the Early
+	    Pleistocene. Many of the mammalian faunal assemblages of the Early Pleistocene
+	    start in the Gelasian. For example, the Platygonus and other Blancan fauna
+	    appear first in the Gelasian (WP, https://goo.gl/fvxSGa).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Gelasian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-he Gelasian is an age in the international geologic timescale or a stage in
-chronostratigraphy, being the earliest or lowest subdivision of the Quaternary
-period/system and Pleistocene epoch/series. It spans the time between 2.588 ±
-0.005 Ma (million years ago) and 1.806 ± 0.005 Ma.[1] It follows the Piacenzian
-stage (part of the Pliocene) and is followed by the Calabrian stage (WP,
-https://goo.gl/CtzNIv).
-
+	    he Gelasian is an age in the international geologic timescale or a stage in
+	    chronostratigraphy, being the earliest or lowest subdivision of the Quaternary
+	    period/system and Pleistocene epoch/series. It spans the time between 2.588 ±
+	    0.005 Ma (million years ago) and 1.806 ± 0.005 Ma. It follows the Piacenzian
+	    stage (part of the Pliocene) and is followed by the Calabrian stage (WP,
+	    https://goo.gl/CtzNIv).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Piacenzian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Piacenzian is in the international geologic time scale the upper stage or
-latest age of the Pliocene. It spans the time between 3.6 ± 0.005 Ma and 2.588
-± 0.005 Ma (million years ago). The Piacenzian is on top of the Zanclean and is
-followed by the Gelasian (part of the Pleistocene) (WP, https://goo.gl/ttDaja).
-
+	    The Piacenzian is in the international geologic time scale the upper stage or
+	    latest age of the Pliocene. It spans the time between 3.6 ± 0.005 Ma and 2.588
+	    ± 0.005 Ma (million years ago). The Piacenzian is on top of the Zanclean and is
+	    followed by the Gelasian (part of the Pleistocene) (WP, https://goo.gl/ttDaja).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Zanclean">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Zanclian is the lowest stage or earliest age on the geologic time scale of
-the Pliocene. It spans the time between 5.332 ± 0.005 Ma and 3.6 ± 0.005 Ma
-(million years ago). It is preceded by the Messinian age of the Miocene epoch,
-and followed by the Piacenzian age (WP, https://goo.gl/hoMlmv).
-
+	    The Zanclian is the lowest stage or earliest age on the geologic time scale of
+	    the Pliocene. It spans the time between 5.332 ± 0.005 Ma and 3.6 ± 0.005 Ma
+	    (million years ago). It is preceded by the Messinian age of the Miocene epoch,
+	    and followed by the Piacenzian age (WP, https://goo.gl/hoMlmv).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Messinian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-he Messinian is in the geologic timescale the last age or uppermost stage of
-the Miocene. It spans the time between 7.246 ± 0.005 Ma and 5.332 ± 0.005 Ma
-(million years ago). It follows the Tortonian and is followed by the Zanclean,
-the first age of the Pliocene (WP, https://goo.gl/BbVuyw).
-
+	    he Messinian is in the geologic timescale the last age or uppermost stage of
+	    the Miocene. It spans the time between 7.246 ± 0.005 Ma and 5.332 ± 0.005 Ma
+	    (million years ago). It follows the Tortonian and is followed by the Zanclean,
+	    the first age of the Pliocene (WP, https://goo.gl/BbVuyw).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Tortonian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Tortonian is in the geologic timescale an age or stage of the late Miocene
-that spans the time between 11.608 ± 0.005 Ma and 7.246 ± 0.005 Ma (million
-years ago). It follows the Serravallian and is followed by the Messinian (WP,
-https://goo.gl/yPq9Au).
-
+	    The Tortonian is in the geologic timescale an age or stage of the late Miocene
+	    that spans the time between 11.608 ± 0.005 Ma and 7.246 ± 0.005 Ma (million
+	    years ago). It follows the Serravallian and is followed by the Messinian (WP,
+	    https://goo.gl/yPq9Au).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Serravallian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Serravallian is in the geologic timescale an age or a stage in the middle
-Miocene epoch/series, that spans the time between 13.65 ± 0.05 Ma and 11.608 ±
-0.005 Ma (million years ago). The Serravallian follows the Langhian and is
-followed by the Tortonian (WP, https://goo.gl/erycZ3).
-
+	    The Serravallian is in the geologic timescale an age or a stage in the middle
+	    Miocene epoch/series, that spans the time between 13.65 ± 0.05 Ma and 11.608 ±
+	    0.005 Ma (million years ago). The Serravallian follows the Langhian and is
+	    followed by the Tortonian (WP, https://goo.gl/erycZ3).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Langhian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Langhian is, in the ICS geologic timescale, an age or stage in the middle
-Miocene epoch/series. It spans the time between 15.97 ± 0.05 Ma and 13.65 ±
-0.05 Ma (million years ago) during the Middle Miocene (WP,
-https://goo.gl/YpyJw3).
-
+	    The Langhian is, in the ICS geologic timescale, an age or stage in the middle
+	    Miocene epoch/series. It spans the time between 15.97 ± 0.05 Ma and 13.65 ±
+	    0.05 Ma (million years ago) during the Middle Miocene (WP,
+	    https://goo.gl/YpyJw3).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Burdigalian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Burdigalian is, in the geologic timescale, an age or stage in the early
-Miocene. It spans the time between 20.43 ± 0.05 Ma and 15.97 ± 0.05 Ma (million
-years ago). Preceded by the Aquitanian, the Burdigalian was the first and
-longest warming period of the Miocene[1] and is succeeded by the Langhian (WP,
-https://goo.gl/pc1Rkt).
-
+	    The Burdigalian is, in the geologic timescale, an age or stage in the early
+	    Miocene. It spans the time between 20.43 ± 0.05 Ma and 15.97 ± 0.05 Ma (million
+	    years ago). Preceded by the Aquitanian, the Burdigalian was the first and
+	    longest warming period of the Miocene and is succeeded by the Langhian (WP,
+	    https://goo.gl/pc1Rkt).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Aquitanian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Aquitanian is, in the ICS' geologic timescale, the oldest age or lowest
-stage in the Miocene. It spans the time between 23.03 ± 0.05 Ma and 20.43 ±
-0.05 Ma (million years ago) during the Early Miocene. It is a dry, cooling
-period.[1] The Aquitanian succeeds the Chattian (the youngest age of the
-Oligocene) and precedes the Burdigalian (WP, https://goo.gl/hvxMfX).
-
+	    The Aquitanian is, in the ICS' geologic timescale, the oldest age or lowest
+	    stage in the Miocene. It spans the time between 23.03 ± 0.05 Ma and 20.43 ±
+	    0.05 Ma (million years ago) during the Early Miocene. It is a dry, cooling
+	    period. The Aquitanian succeeds the Chattian (the youngest age of the
+	    Oligocene) and precedes the Burdigalian (WP, https://goo.gl/hvxMfX).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Chattian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Chattian is, in the geologic timescale, the younger of two ages or upper of
-two stages of the Oligocene epoch/series. It spans the time between 28.1 and
-23.03 Ma. The Chattian is preceded by the Rupelian and is followed by the
-Aquitanian (the lowest stage of the Miocene) (WP, https://goo.gl/Ufl38O).
-
+	    The Chattian is, in the geologic timescale, the younger of two ages or upper of
+	    two stages of the Oligocene epoch/series. It spans the time between 28.1 and
+	    23.03 Ma. The Chattian is preceded by the Rupelian and is followed by the
+	    Aquitanian (the lowest stage of the Miocene) (WP, https://goo.gl/Ufl38O).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Rupelian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Rupelian is, in the geologic timescale, the older of two ages or the lower
-of two stages of the Oligocene epoch/series. It spans the time between 33.9 and
-28.1 Ma. It is preceded by the Priabonian stage (part of the Eocene) and is
-followed by the Chattian stage (WP, https://goo.gl/P8U2Xs).
-
+	    The Rupelian is, in the geologic timescale, the older of two ages or the lower
+	    of two stages of the Oligocene epoch/series. It spans the time between 33.9 and
+	    28.1 Ma. It is preceded by the Priabonian stage (part of the Eocene) and is
+	    followed by the Chattian stage (WP, https://goo.gl/P8U2Xs).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Priabonian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Priabonian is, in the ICS's geologic timescale, the latest age or the upper
-stage of the Eocene epoch or series. It spans the time between 37.8 and 33.9
-Ma. The Priabonian is preceded by the Bartonian and is followed by the
-Rupelian, the lowest stage of the Oligocene (WP, https://goo.gl/qEED1G).
-
+	    The Priabonian is, in the ICS's geologic timescale, the latest age or the upper
+	    stage of the Eocene epoch or series. It spans the time between 37.8 and 33.9
+	    Ma. The Priabonian is preceded by the Bartonian and is followed by the
+	    Rupelian, the lowest stage of the Oligocene (WP, https://goo.gl/qEED1G).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Bartonian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Bartonian is, in the ICS's geologic time scale, a stage or age in the
-middle Eocene epoch or series. The Bartonian age spans the time between 41.2
-and 37.8 Ma. It is preceded by the Lutetian and is followed by the Priabonian
-age (WP, https://goo.gl/AW2q96).
-
+	    The Bartonian is, in the ICS's geologic time scale, a stage or age in the
+	    middle Eocene epoch or series. The Bartonian age spans the time between 41.2
+	    and 37.8 Ma. It is preceded by the Lutetian and is followed by the Priabonian
+	    age (WP, https://goo.gl/AW2q96).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Lutenian">
+      <xs:enumeration value="Lutetian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    NA
+	    The Lutetian is, in the geologic timescale, a stage or age in the
+	    Eocene.[2] It spans the time between 47.8 and 41.2 Ma. The Lutetian
+	    is preceded by the Ypresian and is followed by the Bartonian.[3]
+	    Together with the Bartonian it is sometimes referred to as the
+	    Middle Eocene subepoch (WP, https://goo.gl/IqPVMn)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Ypresian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale the Ypresian (pronunciation: /iːˈprɛsiən/) is the
-oldest age or lowest stratigraphic stage of the Eocene. It spans the time
-between 56 and 47.8 Ma, is preceded by the Thanetian age (part of the
-Paleocene) and is followed by the Eocene Lutetian age (WP,
-https://goo.gl/NVeq4j)
-
+	    In the geologic timescale the Ypresian (pronunciation: /iːˈprɛsiən/) is the
+	    oldest age or lowest stratigraphic stage of the Eocene. It spans the time
+	    between 56 and 47.8 Ma, is preceded by the Thanetian age (part of the
+	    Paleocene) and is followed by the Eocene Lutetian age (WP,
+	    https://goo.gl/NVeq4j)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Thanetian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Thanetian is, in the ICS Geologic timescale, the latest age or uppermost
-stratigraphic stage of the Paleocene Epoch or series. It spans the time between
-59.2 and 56 Ma. The Thanetian is preceded by the Selandian age and followed by
-the Ypresian age (part of the Eocene).[1] The Thanetian is sometimes referred
-to as the Late Paleocene sub-epoch (WP, https://goo.gl/ntpflj).
-
+	    The Thanetian is, in the ICS Geologic timescale, the latest age or uppermost
+	    stratigraphic stage of the Paleocene Epoch or series. It spans the time between
+	    59.2 and 56 Ma. The Thanetian is preceded by the Selandian age and followed by
+	    the Ypresian age (part of the Eocene). The Thanetian is sometimes referred
+	    to as the Late Paleocene sub-epoch (WP, https://goo.gl/ntpflj).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Selandian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Selandian is in the geologic timescale an age or stage in the Paleocene. It
-spans the time between 61.6 and 59.2 Ma. It is preceded by the Danian and
-followed by the Thanetian.[1] Sometimes the Paleocene is subdivided in
-subepochs, in which the Selandian forms the "Middle Paleocene". (WP,
-https://goo.gl/RyiIOs)
-
+	    The Selandian is in the geologic timescale an age or stage in the Paleocene. It
+	    spans the time between 61.6 and 59.2 Ma. It is preceded by the Danian and
+	    followed by the Thanetian. Sometimes the Paleocene is subdivided in
+	    subepochs, in which the Selandian forms the "Middle Paleocene". (WP,
+	    https://goo.gl/RyiIOs)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Danian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Danian is the oldest age or lowermost stage of the Paleocene epoch or
-series, the Paleogene period or system and the Cenozoic era or erathem. The
-beginning of the Danian age (and the end of the preceding Maastrichtian age) is
-at the Cretaceous–Paleogene extinction event 66 Ma. The age ended 61.6 Ma,
-being followed by the Selandian age (WP, https://goo.gl/WpM0lU).
-
+	    The Danian is the oldest age or lowermost stage of the Paleocene epoch or
+	    series, the Paleogene period or system and the Cenozoic era or erathem. The
+	    beginning of the Danian age (and the end of the preceding Maastrichtian age) is
+	    at the Cretaceous–Paleogene extinction event 66 Ma. The age ended 61.6 Ma,
+	    being followed by the Selandian age (WP, https://goo.gl/WpM0lU).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Maastrichtian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Maastrichtian is, in the ICS geologic timescale, the latest age or upper
-stage of the Late Cretaceous epoch or Upper Cretaceous series, the Cretaceous
-period or system, and of the Mesozoic era or erathem. It spanned the interval
-from 72.1 to 66 million years ago. The Maastrichtian was preceded by the
-Campanian and succeeded by the Danian (part of the Paleogene and Paleocene)
-(WP, https://goo.gl/xvwAHe)
-
+	    The Maastrichtian is, in the ICS geologic timescale, the latest age or upper
+	    stage of the Late Cretaceous epoch or Upper Cretaceous series, the Cretaceous
+	    period or system, and of the Mesozoic era or erathem. It spanned the interval
+	    from 72.1 to 66 million years ago. The Maastrichtian was preceded by the
+	    Campanian and succeeded by the Danian (part of the Paleogene and Paleocene)
+	    (WP, https://goo.gl/xvwAHe)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Campanian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Campanian is, in the ICS' geologic timescale, the fifth of six ages of the
-Late Cretaceous epoch (or, in chronostratigraphy: the fifth of six stages in
-the Upper Cretaceous series). The Campanian spans the time from 83.6 ± 0.7 Ma
-to 72.1 ± 0.6 Ma (million years ago). It is preceded by the Santonian and it is
-followed by the Maastrichtian (WP, https://goo.gl/Q47fpS).
-
+	    The Campanian is, in the ICS' geologic timescale, the fifth of six ages of the
+	    Late Cretaceous epoch (or, in chronostratigraphy: the fifth of six stages in
+	    the Upper Cretaceous series). The Campanian spans the time from 83.6 ± 0.7 Ma
+	    to 72.1 ± 0.6 Ma (million years ago). It is preceded by the Santonian and it is
+	    followed by the Maastrichtian (WP, https://goo.gl/Q47fpS).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Santonian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Santonian is an age in the geologic timescale or a chronostratigraphic
-stage. It is a subdivision of the Late Cretaceous epoch or Upper Cretaceous
-series. It spans the time between 86.3 ± 0.7 mya (million years ago) and 83.6 ±
-0.7 mya. The Santonian is preceded by the Coniacian and is followed by the
-Campanian (WP, https://goo.gl/wYfDET).
-
+	    The Santonian is an age in the geologic timescale or a chronostratigraphic
+	    stage. It is a subdivision of the Late Cretaceous epoch or Upper Cretaceous
+	    series. It spans the time between 86.3 ± 0.7 mya (million years ago) and 83.6 ±
+	    0.7 mya. The Santonian is preceded by the Coniacian and is followed by the
+	    Campanian (WP, https://goo.gl/wYfDET).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Coniacian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Coniacian is an age or stage in the geologic timescale. It is a subdivision
-of the Late Cretaceous epoch or Upper Cretaceous series and spans the time
-between 89.8 ± 1 Ma and 86.3 ± 0.7 Ma (million years ago). The Coniacian is
-preceded by the Turonian and followed by the Santonian (WP,
-https://goo.gl/6ysKVB).
-
+	    The Coniacian is an age or stage in the geologic timescale. It is a subdivision
+	    of the Late Cretaceous epoch or Upper Cretaceous series and spans the time
+	    between 89.8 ± 1 Ma and 86.3 ± 0.7 Ma (million years ago). The Coniacian is
+	    preceded by the Turonian and followed by the Santonian (WP,
+	    https://goo.gl/6ysKVB).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Turonian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Turonian is, in the ICS' geologic timescale, the second age in the Late
-Cretaceous epoch, or a stage in the Upper Cretaceous series. It spans the time
-between 93.9 ± 0.8 Ma and 89.8 ± 1 Ma (million years ago). The Turonian is
-preceded by the Cenomanian stage and underlies the Coniacian stage (WP,
-https://goo.gl/cXU55Q).
-
+	    The Turonian is, in the ICS' geologic timescale, the second age in the Late
+	    Cretaceous epoch, or a stage in the Upper Cretaceous series. It spans the time
+	    between 93.9 ± 0.8 Ma and 89.8 ± 1 Ma (million years ago). The Turonian is
+	    preceded by the Cenomanian stage and underlies the Coniacian stage (WP,
+	    https://goo.gl/cXU55Q).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Cenomanian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Cenomanian is, in the ICS' geological timescale the oldest or earliest age
-of the Late Cretaceous epoch or the lowest stage of the Upper Cretaceous
-series.[1] An age is a unit of geochronology: it is a unit of time; the stage
-is a unit in the stratigraphic column deposited during the corresponding age.
-Both age and stage bear the same name (WP, https://goo.gl/omrp1u).
-
+	    The Cenomanian is, in the ICS' geological timescale the oldest or earliest age
+	    of the Late Cretaceous epoch or the lowest stage of the Upper Cretaceous
+	    series. An age is a unit of geochronology: it is a unit of time; the stage
+	    is a unit in the stratigraphic column deposited during the corresponding age.
+	    Both age and stage bear the same name (WP, https://goo.gl/omrp1u).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Albian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Albian is both an age of the geologic timescale and a stage in the
-stratigraphic column. It is the youngest or uppermost subdivision of the
-Early/Lower Cretaceous epoch/series. Its approximate time range is 113.0 ± 1.0
-Ma to 100.5 ± 0.9 Ma (million years ago). The Albian is preceded by the Aptian
-and followed by the Cenomanian (WP, https://goo.gl/g90neK).
-
+	    The Albian is both an age of the geologic timescale and a stage in the
+	    stratigraphic column. It is the youngest or uppermost subdivision of the
+	    Early/Lower Cretaceous epoch/series. Its approximate time range is 113.0 ± 1.0
+	    Ma to 100.5 ± 0.9 Ma (million years ago). The Albian is preceded by the Aptian
+	    and followed by the Cenomanian (WP, https://goo.gl/g90neK).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Aptian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Aptian is an age in the geologic timescale or a stage in the stratigraphic
-column. It is a subdivision of the Early or Lower Cretaceous epoch or series
-and encompasses the time from 125.0 ± 1.0 Ma to 113.0 ± 1.0 Ma (million years
-ago), approximately. The Aptian succeeds the Barremian and precedes the Albian,
-all part of the Lower/Early Cretaceous (WP, https://goo.gl/8B9r4E).
-
+	    The Aptian is an age in the geologic timescale or a stage in the stratigraphic
+	    column. It is a subdivision of the Early or Lower Cretaceous epoch or series
+	    and encompasses the time from 125.0 ± 1.0 Ma to 113.0 ± 1.0 Ma (million years
+	    ago), approximately. The Aptian succeeds the Barremian and precedes the Albian,
+	    all part of the Lower/Early Cretaceous (WP, https://goo.gl/8B9r4E).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Barremian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Barremian is an age in the geologic timescale (or a chronostratigraphic
-stage) between 129.4 ± 1.5 Ma (million years ago) and 125.0 ± 1.0 Ma). It is a
-subdivision of the Early Cretaceous epoch (or Lower Cretaceous series). It is
-preceded by the Hauterivian and followed by the Aptian stage (WP,
-https://goo.gl/SNSUhS).
-
+	    The Barremian is an age in the geologic timescale (or a chronostratigraphic
+	    stage) between 129.4 ± 1.5 Ma (million years ago) and 125.0 ± 1.0 Ma). It is a
+	    subdivision of the Early Cretaceous epoch (or Lower Cretaceous series). It is
+	    preceded by the Hauterivian and followed by the Aptian stage (WP,
+	    https://goo.gl/SNSUhS).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Hauterivian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Hauterivian is, in the geologic timescale, an age in the Early Cretaceous
-epoch or a stage in the Lower Cretaceous series. It spans the time between
-132.9 ± 2 Ma and 129.4 ± 1.5 Ma (million years ago). The Hauterivian is
-preceded by the Valanginian and succeeded by the Barremian (WP,
-https://goo.gl/PivdCS).
-
+	    The Hauterivian is, in the geologic timescale, an age in the Early Cretaceous
+	    epoch or a stage in the Lower Cretaceous series. It spans the time between
+	    132.9 ± 2 Ma and 129.4 ± 1.5 Ma (million years ago). The Hauterivian is
+	    preceded by the Valanginian and succeeded by the Barremian (WP,
+	    https://goo.gl/PivdCS).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Valanginian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Valanginian is an age or stage of the Early or
-Lower Cretaceous. It spans between 139.8 ± 3.0 Ma and 132.9 ± 2.0 Ma (million
-years ago). The Valanginian stage succeeds the Berriasian stage of the Lower
-Cretaceous and precedes the Hauterivian stage of the Lower Cretaceous (WP,
-https://goo.gl/Z70dMw)
-
+	    In the geologic timescale, the Valanginian is an age or stage of the Early or
+	    Lower Cretaceous. It spans between 139.8 ± 3.0 Ma and 132.9 ± 2.0 Ma (million
+	    years ago). The Valanginian stage succeeds the Berriasian stage of the Lower
+	    Cretaceous and precedes the Hauterivian stage of the Lower Cretaceous (WP,
+	    https://goo.gl/Z70dMw)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Berriasian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geological timescale, the Berriasian is an age or stage of the Early
-Cretaceous. It is the oldest, or lowest, subdivision in the entire Cretaceous.
-It spanned the time between 145.0 ± 4.0 Ma and 139.8 ± 3.0 Ma (million years
-ago). The Berriasian succeeds the Tithonian (part of the Jurassic) and precedes
-the Valanginian (WP, https://goo.gl/004uzd)
-
+	    In the geological timescale, the Berriasian is an age or stage of the Early
+	    Cretaceous. It is the oldest, or lowest, subdivision in the entire Cretaceous.
+	    It spanned the time between 145.0 ± 4.0 Ma and 139.8 ± 3.0 Ma (million years
+	    ago). The Berriasian succeeds the Tithonian (part of the Jurassic) and precedes
+	    the Valanginian (WP, https://goo.gl/004uzd)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Tithonian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geological timescale the Tithonian is the latest age of the Late
-Jurassic epoch or the uppermost stage of the Upper Jurassic series. It spans
-the time between 152.1 ± 4 Ma and 145.0 ± 4 Ma (million years ago). It is
-preceded by the Kimmeridgian and followed by the Berriasian stage (part of the
-Cretaceous) (WP, https://goo.gl/YmzG3a).
-
+	    In the geological timescale the Tithonian is the latest age of the Late
+	    Jurassic epoch or the uppermost stage of the Upper Jurassic series. It spans
+	    the time between 152.1 ± 4 Ma and 145.0 ± 4 Ma (million years ago). It is
+	    preceded by the Kimmeridgian and followed by the Berriasian stage (part of the
+	    Cretaceous) (WP, https://goo.gl/YmzG3a).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Kimmeridgian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Kimmeridgian is an age or stage in the Late or
-Upper Jurassic epoch or series. It spans the time between 157.3 ± 1.0 Ma and
-152.1 ± 0.9 Ma (million years ago). The Kimmeridgian follows the Oxfordian and
-precedes the Tithonian.[1] (WP, https://goo.gl/gr7r0U).
-
+	    In the geologic timescale, the Kimmeridgian is an age or stage in the Late or
+	    Upper Jurassic epoch or series. It spans the time between 157.3 ± 1.0 Ma and
+	    152.1 ± 0.9 Ma (million years ago). The Kimmeridgian follows the Oxfordian and
+	    precedes the Tithonian. (WP, https://goo.gl/gr7r0U).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Oxfordian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Oxfordian is, in the ICS' geologic timescale, the earliest age of the Late
-Jurassic epoch, or the lowest stage of the Upper Jurassic series. It spans the
-time between 163.5 ± 4 Ma and 157.3 ± 4 Ma (million years ago). The Oxfordian
-is preceded by the Callovian and is followed by the Kimmeridgian (WP,
-https://goo.gl/IJUvEy)
-
+	    The Oxfordian is, in the ICS' geologic timescale, the earliest age of the Late
+	    Jurassic epoch, or the lowest stage of the Upper Jurassic series. It spans the
+	    time between 163.5 ± 4 Ma and 157.3 ± 4 Ma (million years ago). The Oxfordian
+	    is preceded by the Callovian and is followed by the Kimmeridgian (WP,
+	    https://goo.gl/IJUvEy)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Callovian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Callovian is an age or stage in the Middle
-Jurassic, lasting between 166.1 ± 4.0 Ma (million years ago) and 163.5 ± 4.0
-Ma. It is the last stage of the Middle Jurassic, following the Bathonian and
-preceding the Oxfordian (WP, https://goo.gl/b2WYfK).
-
+	    In the geologic timescale, the Callovian is an age or stage in the Middle
+	    Jurassic, lasting between 166.1 ± 4.0 Ma (million years ago) and 163.5 ± 4.0
+	    Ma. It is the last stage of the Middle Jurassic, following the Bathonian and
+	    preceding the Oxfordian (WP, https://goo.gl/b2WYfK).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Bathonian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale the Bathonian is an age or stage of the Middle
-Jurassic. It lasted from approximately 168.3 Ma to around 166.1 Ma (million
-years ago). The Bathonian age succeeds the Bajocian age and precedes the
-Callovian age (WP, https://goo.gl/zLmmW8).
-
+	    In the geologic timescale the Bathonian is an age or stage of the Middle
+	    Jurassic. It lasted from approximately 168.3 Ma to around 166.1 Ma (million
+	    years ago). The Bathonian age succeeds the Bajocian age and precedes the
+	    Callovian age (WP, https://goo.gl/zLmmW8).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Bajocian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Bajocian is an age or stage in the Middle
-Jurassic. It lasted from approximately 170.3 Ma to around 168.3 Ma (million
-years ago). The Bajocian age succeeds the Aalenian age and precedes the
-Bathonian age (WP, https://goo.gl/UymRy9).
-
+	    In the geologic timescale, the Bajocian is an age or stage in the Middle
+	    Jurassic. It lasted from approximately 170.3 Ma to around 168.3 Ma (million
+	    years ago). The Bajocian age succeeds the Aalenian age and precedes the
+	    Bathonian age (WP, https://goo.gl/UymRy9).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Aalenian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Aalenian is a subdivision of the Middle Jurassic epoch/series of the
-geologic timescale that extends from about 174.1 Ma to about 170.3 Ma (million
-years ago). It was preceded by the Toarcian and succeeded by the Bajocian (WP,
-https://goo.gl/gspPGX).
-
+	    The Aalenian is a subdivision of the Middle Jurassic epoch/series of the
+	    geologic timescale that extends from about 174.1 Ma to about 170.3 Ma (million
+	    years ago). It was preceded by the Toarcian and succeeded by the Bajocian (WP,
+	    https://goo.gl/gspPGX).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Toarcian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Toarcian is, in the ICS' geologic timescale, an age or stage in the Early
-or Lower Jurassic. It spans the time between 182.7 Ma (million years ago) and
-174.1 Ma.[1] It follows the Pliensbachian and is followed by the Aalenian.[2]
-The Toarcian age began with the Toarcian turnover, the extinction event that
-sets its fossil faunas apart from the previous Pliensbachian age (WP,
-https://goo.gl/jXcK7r).
-
+	    The Toarcian is, in the ICS' geologic timescale, an age or stage in the Early
+	    or Lower Jurassic. It spans the time between 182.7 Ma (million years ago) and
+	    174.1 Ma. It follows the Pliensbachian and is followed by the Aalenian.
+	    The Toarcian age began with the Toarcian turnover, the extinction event that
+	    sets its fossil faunas apart from the previous Pliensbachian age (WP,
+	    https://goo.gl/jXcK7r).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Pliensbachain">
+      <xs:enumeration value="Pliensbachian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    NA
+	    The Pliensbachian is an age of the geologic timescale or stage in
+	    the stratigraphic column. It is part of the Early or Lower Jurassic
+	    epoch or series and spans the time between 190.8 ± 1.5 Ma and 182.7
+	    ± 1.5 Ma (million years ago).[1] The Pliensbachian is preceded by
+	    the Sinemurian and followed by the Toarcian.[2] The Pliensbachian
+	    ended with the extinction event called the Toarcian turnover.
+	    During the Pliensbachian, the middle part of the Lias was deposited
+	    in Europe. The Pliensbachian is roughly coeval with the
+	    Charmouthian regional stage of North America (WP,
+	    https://goo.gl/IT8ojw)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Sinemurian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Sinemurian is an age or stage in the Early or
-Lower Jurassic epoch or series. It spans the time between 199.3 ± 2 Ma and
-190.8 ± 1.5 Ma (million years ago).[1] The Sinemurian is preceded by the
-Hettangian and is followed by the Pliensbachian.[2] In Europe the Sinemurian
-age, together with the Hettangian age, saw the deposition of the lower Lias, in
-Great Britain known as the Blue Lias (WP, https://goo.gl/y5aEKm)
-
+	    In the geologic timescale, the Sinemurian is an age or stage in the Early or
+	    Lower Jurassic epoch or series. It spans the time between 199.3 ± 2 Ma and
+	    190.8 ± 1.5 Ma (million years ago). The Sinemurian is preceded by the
+	    Hettangian and is followed by the Pliensbachian. In Europe the Sinemurian
+	    age, together with the Hettangian age, saw the deposition of the lower Lias, in
+	    Great Britain known as the Blue Lias (WP, https://goo.gl/y5aEKm)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Hettangian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Hettangian is the earliest age or lowest stage of the Jurassic period of
-the geologic timescale. It spans the time between 201.3 ± 0.2 Ma and 199.3 ±
-0.3 Ma (million years ago).[1] The Hettangian follows the Rhaetian (part of the
-Triassic period) and is followed by the Sinemurian (WP, https://goo.gl/nVWzYu).
-
+	    The Hettangian is the earliest age or lowest stage of the Jurassic period of
+	    the geologic timescale. It spans the time between 201.3 ± 0.2 Ma and 199.3 ±
+	    0.3 Ma (million years ago). The Hettangian follows the Rhaetian (part of the
+	    Triassic period) and is followed by the Sinemurian (WP, https://goo.gl/nVWzYu).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Rhaetian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Rhaetian is, in geochronology, the latest age of the Triassic period or in
-chronostratigraphy the uppermost stage of the Triassic system. It lasted from
-~208.5 to 201.3 ± 0.2 million years ago.[1] It was preceded by the Norian and
-succeeded by the Hettangian (the lowermost stage or earliest age of the
-Jurassic) (WP, https://goo.gl/EvBnKe).
-
+	    The Rhaetian is, in geochronology, the latest age of the Triassic period or in
+	    chronostratigraphy the uppermost stage of the Triassic system. It lasted from
+	    ~208.5 to 201.3 ± 0.2 million years ago. It was preceded by the Norian and
+	    succeeded by the Hettangian (the lowermost stage or earliest age of the
+	    Jurassic) (WP, https://goo.gl/EvBnKe).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Norian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Norian is a division of the Triassic geological period. It has the rank of
-an age (geochronology) or stage (chronostratigraphy). The Norian lasted from
-~228 to ~208.5 million years ago.[1] It was preceded by the Carnian and
-succeeded by the Rhaetian (WP, https://goo.gl/4pXV66).
-
+	    The Norian is a division of the Triassic geological period. It has the rank of
+	    an age (geochronology) or stage (chronostratigraphy). The Norian lasted from
+	    ~228 to ~208.5 million years ago. It was preceded by the Carnian and
+	    succeeded by the Rhaetian (WP, https://goo.gl/4pXV66).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Carnian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Carnian (less commonly, Karnian) is the lowermost stage of the Upper
-Triassic series (or earliest age of the Late Triassic epoch). It lasted from
-237 to 228.4 million years ago (Ma).[1] The Carnian is preceded by the Ladinian
-and is followed by the Norian. Its boundaries are not characterized by major
-extinctions or biotic turnovers, but a climatic event (known as the Carnian
-Pluvial Event) occurred during the Carnian and seems to be associated with
-important extinctions or biotic radiations (WP, https://goo.gl/TnWh1O).
-
+	    The Carnian (less commonly, Karnian) is the lowermost stage of the Upper
+	    Triassic series (or earliest age of the Late Triassic epoch). It lasted from
+	    237 to 228.4 million years ago (Ma). The Carnian is preceded by the Ladinian
+	    and is followed by the Norian. Its boundaries are not characterized by major
+	    extinctions or biotic turnovers, but a climatic event (known as the Carnian
+	    Pluvial Event) occurred during the Carnian and seems to be associated with
+	    important extinctions or biotic radiations (WP, https://goo.gl/TnWh1O).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Ladinian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Ladinian is a stage and age in the Middle Triassic series or epoch. It
-spans the time between ~242 Ma and ~235 Ma (million years ago).[1] The Ladinian
-was preceded by the Anisian and succeeded by the Carnian (part of the Upper or
-Late Triassic) (WP, https://goo.gl/2S00e4).
-
+	    The Ladinian is a stage and age in the Middle Triassic series or epoch. It
+	    spans the time between ~242 Ma and ~235 Ma (million years ago). The Ladinian
+	    was preceded by the Anisian and succeeded by the Carnian (part of the Upper or
+	    Late Triassic) (WP, https://goo.gl/2S00e4).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Anisian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Anisian is the lower stage or earliest age of
-the Middle Triassic series or epoch and lasted from 247.2 million years ago
-until ~242 million years ago.[1] The Anisian age succeeds the Olenekian age
-(part of the Lower Triassic epoch) and precedes the Ladinian age (WP,
-https://goo.gl/B5uqUL)
-
+	    In the geologic timescale, the Anisian is the lower stage or earliest age of
+	    the Middle Triassic series or epoch and lasted from 247.2 million years ago
+	    until ~242 million years ago. The Anisian age succeeds the Olenekian age
+	    (part of the Lower Triassic epoch) and precedes the Ladinian age (WP,
+	    https://goo.gl/B5uqUL)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Olenekian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Olenekian is an age in the Early Triassic epoch
-or a stage in the Lower Triassic series. It spans the time between 251.2 Ma and
-247.2 Ma (million years ago).[1] The Olenekian follows the Induan and is
-followed by the Anisian.[2] The Olenekian saw the deposition of a large part of
-the Buntsandstein in Europe. Archosaurs - a group encompassing crocodiles,
-pterosaurs, dinosaurs, and ultimately birds - are diapsid reptiles that first
-evolved from Archosauriform ancestors during the Olenekian (WP,
-https://goo.gl/reThth).
-
+	    In the geologic timescale, the Olenekian is an age in the Early Triassic epoch
+	    or a stage in the Lower Triassic series. It spans the time between 251.2 Ma and
+	    247.2 Ma (million years ago). The Olenekian follows the Induan and is
+	    followed by the Anisian. The Olenekian saw the deposition of a large part of
+	    the Buntsandstein in Europe. Archosaurs - a group encompassing crocodiles,
+	    pterosaurs, dinosaurs, and ultimately birds - are diapsid reptiles that first
+	    evolved from Archosauriform ancestors during the Olenekian (WP,
+	    https://goo.gl/reThth).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Induan">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Induan is, in the geologic timescale, the first age of the Early Triassic
-epoch or the lowest stage of the Lower Triassic series. It spans the time
-between 252.17 ± 0.06 Ma and 251.2 Ma (million years ago).[1] It is preceded by
-the Changhsingian and is followed by the Olenekian (WP, https://goo.gl/HHzPCt)
-
+	    The Induan is, in the geologic timescale, the first age of the Early Triassic
+	    epoch or the lowest stage of the Lower Triassic series. It spans the time
+	    between 252.17 ± 0.06 Ma and 251.2 Ma (million years ago). It is preceded by
+	    the Changhsingian and is followed by the Olenekian (WP, https://goo.gl/HHzPCt)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Changhsingian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic time scale, the Changhsingian or Changxingian is the latest age
-or uppermost stage of the Permian. It is also the upper or latest of two
-subdivisions of the Lopingian epoch or series. The Changhsingian lasted from
-254.14 ± 0.07 to 252.17 ± 0.06 million years ago (Ma). It was preceded by the
-Wuchiapingian and followed by the Induan.[2] The greatest mass extinction event
-in the Phanerozoic eon occurred during this age. The extinction rate peaked
-about a million years before the end of this stage (WP, https://goo.gl/t0QrK5).
-
+	    In the geologic time scale, the Changhsingian or Changxingian is the latest age
+	    or uppermost stage of the Permian. It is also the upper or latest of two
+	    subdivisions of the Lopingian epoch or series. The Changhsingian lasted from
+	    254.14 ± 0.07 to 252.17 ± 0.06 million years ago (Ma). It was preceded by the
+	    Wuchiapingian and followed by the Induan. The greatest mass extinction event
+	    in the Phanerozoic eon occurred during this age. The extinction rate peaked
+	    about a million years before the end of this stage (WP, https://goo.gl/t0QrK5).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Wuchiapingian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Wuchiapingian or Wujiapingian (from Chinese:
-吴家坪; pinyin: Wújiāpíng; literally: "Wu Family Flatland"" in the Liangshan
-area of Hanzhong, Shaanxi Province[2]) is an age or stage of the Permian. It is
-also the lower or earlier of two subdivisions of the Lopingian epoch or series.
-The Wuchiapingian spans the time between 259.8 ± 0.4 and 254.14 ± 0.07 million
-years ago (Ma). It was preceded by the Capitanian and followed by the
-Changhsingian (WP, https://goo.gl/JcyOdo).
-
+	    In the geologic timescale, the Wuchiapingian or Wujiapingian (from Chinese:
+	    吴家坪; pinyin: Wújiāpíng; literally: "Wu Family Flatland"" in the Liangshan
+	    area of Hanzhong, Shaanxi Province) is an age or stage of the Permian. It is
+	    also the lower or earlier of two subdivisions of the Lopingian epoch or series.
+	    The Wuchiapingian spans the time between 259.8 ± 0.4 and 254.14 ± 0.07 million
+	    years ago (Ma). It was preceded by the Capitanian and followed by the
+	    Changhsingian (WP, https://goo.gl/JcyOdo).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Capitanian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Capitanian is an age or stage of the Permian. It
-is also the uppermost or latest of three subdivisions of the Guadalupian epoch
-or series. The Capitanian lasted between 265.1 ± 0.4 and 259.8 ± 0.4. It was
-preceded by the Wordian and followed by the Wuchiapingian.[2] A significant
-mass extinction event (the End-Capitanian extinction event) occurred at the end
-of this stage, which was associated with anoxia and acidification in the oceans
-and possibly caused by the volcanic eruptions that produced the Emeishan
-Traps.[3] This extinction event may be related to the much larger
-Permian-Triassic extinction event that followed about 10 million years later
-(WP, https://goo.gl/5PlSfN).
-
+	    In the geologic timescale, the Capitanian is an age or stage of the Permian. It
+	    is also the uppermost or latest of three subdivisions of the Guadalupian epoch
+	    or series. The Capitanian lasted between 265.1 ± 0.4 and 259.8 ± 0.4. It was
+	    preceded by the Wordian and followed by the Wuchiapingian. A significant
+	    mass extinction event (the End-Capitanian extinction event) occurred at the end
+	    of this stage, which was associated with anoxia and acidification in the oceans
+	    and possibly caused by the volcanic eruptions that produced the Emeishan
+	    Traps. This extinction event may be related to the much larger
+	    Permian-Triassic extinction event that followed about 10 million years later
+	    (WP, https://goo.gl/5PlSfN).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Wordian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-n the geologic timescale, the Wordian is an age or stage of the Permian. It is
-the middle of three subdivisions of the Guadalupian epoch or series. The
-Wordian lasted between 268.8 ± 0.5 and 265.1 ± 0.4 million years ago (Ma). It
-was preceded by the Roadian and followed by the Capitanian.[2] (WP,
-https://goo.gl/iQzhg4)
-
+	    n the geologic timescale, the Wordian is an age or stage of the Permian. It is
+	    the middle of three subdivisions of the Guadalupian epoch or series. The
+	    Wordian lasted between 268.8 ± 0.5 and 265.1 ± 0.4 million years ago (Ma). It
+	    was preceded by the Roadian and followed by the Capitanian. (WP,
+	    https://goo.gl/iQzhg4)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Roadian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Roadian is an age or stage of the Permian. It is
-the earliest or lower of three subdivisions of the Guadalupian epoch or series.
-The Roadian lasted between 272.3 ± 0.5 and 268.8 ± 0.5 million years ago (Ma).
-It was preceded by the Kungurian and followed by the Wordian (WP,
-https://goo.gl/168Hpe)
-
+	    In the geologic timescale, the Roadian is an age or stage of the Permian. It is
+	    the earliest or lower of three subdivisions of the Guadalupian epoch or series.
+	    The Roadian lasted between 272.3 ± 0.5 and 268.8 ± 0.5 million years ago (Ma).
+	    It was preceded by the Kungurian and followed by the Wordian (WP,
+	    https://goo.gl/168Hpe)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Kungurian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Kungurian is an age or stage of the Permian. It
-is the latest or upper of four subdivisions of the Cisuralian epoch or series.
-The Kungurian lasted between 283.5 ± 0.6 and 272.3 ± 0.5 million years ago
-(Ma). It was preceded by the Artinskian and followed by the Roadian.[2] It
-corresponds roughly to the Leonardian stage, covering the span from 280 to
-270.6 ± 0.7 Ma in the North American system (WP, https://goo.gl/PNV3EN).
-
+	    In the geologic timescale, the Kungurian is an age or stage of the Permian. It
+	    is the latest or upper of four subdivisions of the Cisuralian epoch or series.
+	    The Kungurian lasted between 283.5 ± 0.6 and 272.3 ± 0.5 million years ago
+	    (Ma). It was preceded by the Artinskian and followed by the Roadian. It
+	    corresponds roughly to the Leonardian stage, covering the span from 280 to
+	    270.6 ± 0.7 Ma in the North American system (WP, https://goo.gl/PNV3EN).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Artinskian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Artinskian is an age or stage of the Permian. It
-is a subdivision of the Cisuralian epoch or series. The Artinskian lasted
-between 290.1 ± 0.26 and 283.5 ± 0.6 million years ago (Ma). It was preceded by
-the Sakmarian and followed by the Kungurian (WP, https://goo.gl/cgVjWS).
-
+	    In the geologic timescale, the Artinskian is an age or stage of the Permian. It
+	    is a subdivision of the Cisuralian epoch or series. The Artinskian lasted
+	    between 290.1 ± 0.26 and 283.5 ± 0.6 million years ago (Ma). It was preceded by
+	    the Sakmarian and followed by the Kungurian (WP, https://goo.gl/cgVjWS).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Sakmarian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Sakmarian is an age or stage of the Permian. It
-is a subdivision of the Cisuralian epoch or series. The Sakmarian lasted
-between 295.0 ± 0.18 and 290.1 ± 0.26 million years ago (Ma). It was preceded
-by the Asselian and followed by the Artinskian (WP, https://goo.gl/DZBT8o)
-
+	    In the geologic timescale, the Sakmarian is an age or stage of the Permian. It
+	    is a subdivision of the Cisuralian epoch or series. The Sakmarian lasted
+	    between 295.0 ± 0.18 and 290.1 ± 0.26 million years ago (Ma). It was preceded
+	    by the Asselian and followed by the Artinskian (WP, https://goo.gl/DZBT8o)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Asselian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-In the geologic timescale, the Asselian is the earliest geochronologic age or
-lowermost chronostratigraphic stage of the Permian. It is a subdivision of the
-Cisuralian epoch or series. The Asselian lasted between 298.9 ± 0.15 and 295.0
-± 0.18 million years ago (Ma). It was preceded by the Gzhelian (the latest or
-uppermost subdivision in the Carboniferous) and followed by the Sakmarian.[2]
-(WP, https://goo.gl/eR5zGK)
-
+	    In the geologic timescale, the Asselian is the earliest geochronologic age or
+	    lowermost chronostratigraphic stage of the Permian. It is a subdivision of the
+	    Cisuralian epoch or series. The Asselian lasted between 298.9 ± 0.15 and 295.0
+	    ± 0.18 million years ago (Ma). It was preceded by the Gzhelian (the latest or
+	    uppermost subdivision in the Carboniferous) and followed by the Sakmarian.
+	    (WP, https://goo.gl/eR5zGK)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Gzhelian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Gzhelian is an age in the ICS geologic timescale or a stage in the
-stratigraphic column. It is the youngest stage of the Pennsylvanian, the
-youngest subsystem of the Carboniferous. The Gzhelian lasted from 303.7 ± 0.1
-to 298.9 ± 0.15 Ma.[2] It follows the Kasimovian age/stage and is followed by
-the Asselian age/stage, the oldest subdivision of the Permian system (WP,
-https://goo.gl/FYE4mE).
-
+	    The Gzhelian is an age in the ICS geologic timescale or a stage in the
+	    stratigraphic column. It is the youngest stage of the Pennsylvanian, the
+	    youngest subsystem of the Carboniferous. The Gzhelian lasted from 303.7 ± 0.1
+	    to 298.9 ± 0.15 Ma. It follows the Kasimovian age/stage and is followed by
+	    the Asselian age/stage, the oldest subdivision of the Permian system (WP,
+	    https://goo.gl/FYE4mE).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Kasimovian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Kasimovian is an geochronologic age or chronostratigraphic stage in the ICS
-geologic timescale. It is the third stage in the Pennsylvanian (late
-Carboniferous), lasting from 307.0 ± 0.1 to 303.7 ± 0.1 Ma.[2] The Kasimovian
-stage follows the Moscovian and is followed by the Gzhelian. The Kasimovian saw
-an extinction event which occurred around 305 mya, referred to as the
-Carboniferous Rainforest Collapse (WP, https://goo.gl/d6QuF6).
-
+	    The Kasimovian is an geochronologic age or chronostratigraphic stage in the ICS
+	    geologic timescale. It is the third stage in the Pennsylvanian (late
+	    Carboniferous), lasting from 307.0 ± 0.1 to 303.7 ± 0.1 Ma. The Kasimovian
+	    stage follows the Moscovian and is followed by the Gzhelian. The Kasimovian saw
+	    an extinction event which occurred around 305 mya, referred to as the
+	    Carboniferous Rainforest Collapse (WP, https://goo.gl/d6QuF6).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Moscovian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Moscovian is in the ICS geologic timescale a stage or age in the
-Pennsylvanian, the youngest subsystem of the Carboniferous. The Moscovian age
-lasted from 315.2 ± 0.2 to 307.0 ± 0.1 Ma,[2] is preceded by the Bashkirian and
-is followed by the Kasimovian. The Moscovian overlaps with the European
-regional Westphalian stage and the North American Atokan and Desmoinesian
-stages (WP, https://goo.gl/2dHU6L).
-
+	    The Moscovian is in the ICS geologic timescale a stage or age in the
+	    Pennsylvanian, the youngest subsystem of the Carboniferous. The Moscovian age
+	    lasted from 315.2 ± 0.2 to 307.0 ± 0.1 Ma, is preceded by the Bashkirian and
+	    is followed by the Kasimovian. The Moscovian overlaps with the European
+	    regional Westphalian stage and the North American Atokan and Desmoinesian
+	    stages (WP, https://goo.gl/2dHU6L).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Bashkirian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Bashkirian is in the ICS geologic timescale the lowest stage or oldest age
-of the Pennsylvanian, The Bashkirian age lasted from 323.2 ± 0.4 to 315.2 ± 0.2
-Ma,[2] is preceded by the Serpukhovian and is followed by the Moscovian. The
-Bashkirian overlaps with the upper part of the Namurian and lower part of the
-Westphalian stages from regional European stratigraphy. It also overlaps with
-the North American Morrowan and Atokan stages and the Chinese Luosuan and lower
-Huashibanian stages (WP, https://goo.gl/krz6ZF).
-
+	    The Bashkirian is in the ICS geologic timescale the lowest stage or oldest age
+	    of the Pennsylvanian, The Bashkirian age lasted from 323.2 ± 0.4 to 315.2 ± 0.2
+	    Ma, is preceded by the Serpukhovian and is followed by the Moscovian. The
+	    Bashkirian overlaps with the upper part of the Namurian and lower part of the
+	    Westphalian stages from regional European stratigraphy. It also overlaps with
+	    the North American Morrowan and Atokan stages and the Chinese Luosuan and lower
+	    Huashibanian stages (WP, https://goo.gl/krz6ZF).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Serpukhovian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Serpukhovian is in the ICS geologic timescale the uppermost stage or
-youngest age of the Mississippian, the lower subsystem of the Carboniferous.
-The Serpukhovian age lasted from 330.9 ± 0.2 Ma to 323.2 ± 0.4 Ma.[2] It is
-preceded by the Visean and is followed by the Bashkirian. The Serpukhovian
-correlates with the lower part of the Namurian stage of European stratigraphy
-and the middle and upper parts of the Chesterian stage of North American
-stratigraphy (WP, https://goo.gl/3qoJni).
-
+	    The Serpukhovian is in the ICS geologic timescale the uppermost stage or
+	    youngest age of the Mississippian, the lower subsystem of the Carboniferous.
+	    The Serpukhovian age lasted from 330.9 ± 0.2 Ma to 323.2 ± 0.4 Ma. It is
+	    preceded by the Visean and is followed by the Bashkirian. The Serpukhovian
+	    correlates with the lower part of the Namurian stage of European stratigraphy
+	    and the middle and upper parts of the Chesterian stage of North American
+	    stratigraphy (WP, https://goo.gl/3qoJni).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Visean">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Visean, Viséan or Visian is an age in the ICS geologic timescale or a stage
-in the stratigraphic column. It is the second stage of the Mississippian, the
-lower subsystem of the Carboniferous. The Visean lasted from 346.7 ± 0.4 to
-330.9 ± 0.2 Ma.[2] It follows the Tournaisian age/stage and is followed by the
-Serpukhovian age/stage (WP, https://goo.gl/2eAkIc).
-
+	    The Visean, Viséan or Visian is an age in the ICS geologic timescale or a stage
+	    in the stratigraphic column. It is the second stage of the Mississippian, the
+	    lower subsystem of the Carboniferous. The Visean lasted from 346.7 ± 0.4 to
+	    330.9 ± 0.2 Ma. It follows the Tournaisian age/stage and is followed by the
+	    Serpukhovian age/stage (WP, https://goo.gl/2eAkIc).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Tournaisian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Tournaisian is in the ICS geologic timescale the lowest stage or oldest age
-of the Mississippian, the oldest subsystem of the Carboniferous. The
-Tournaisian age lasted from 358.9 ± 0.4 Ma to 346.7 ± 0.4 Ma.[2] It is preceded
-by the Famennian (the uppermost stage of the Devonian) and is followed by the
-Viséan (WP, https://goo.gl/OM6RQu).
-
+	    The Tournaisian is in the ICS geologic timescale the lowest stage or oldest age
+	    of the Mississippian, the oldest subsystem of the Carboniferous. The
+	    Tournaisian age lasted from 358.9 ± 0.4 Ma to 346.7 ± 0.4 Ma. It is preceded
+	    by the Famennian (the uppermost stage of the Devonian) and is followed by the
+	    Viséan (WP, https://goo.gl/OM6RQu).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Famennian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Famennian is the latter of two faunal stages in the Late Devonian epoch. It
-lasted from 372.2 ± 1.6 million years ago to 358.9 ± 0.4 million years ago. It
-was preceded by the Frasnian stage and followed by the Tournaisian stage. It
-was during this age that tetrapods first appeared. In the seas, a novel major
-group of ammonoid cephalopods called clymeniids appeared, underwent tremendous
-diversification and spread worldwide, then just as suddenly went extinct. The
-beginning of the Famennian is marked by a major extinction event, the
-Kellwasser Event, and the end with a smaller but still quite severe extinction
-event, the Hangenberg Event. North American subdivisions of the Famennian
-include the Chautauquan, Canadaway, Conneaut, Conneautan, Conewango and
-Conewangan (WP, https://goo.gl/DAauwe).
-
+	    The Famennian is the latter of two faunal stages in the Late Devonian epoch. It
+	    lasted from 372.2 ± 1.6 million years ago to 358.9 ± 0.4 million years ago. It
+	    was preceded by the Frasnian stage and followed by the Tournaisian stage. It
+	    was during this age that tetrapods first appeared. In the seas, a novel major
+	    group of ammonoid cephalopods called clymeniids appeared, underwent tremendous
+	    diversification and spread worldwide, then just as suddenly went extinct. The
+	    beginning of the Famennian is marked by a major extinction event, the
+	    Kellwasser Event, and the end with a smaller but still quite severe extinction
+	    event, the Hangenberg Event. North American subdivisions of the Famennian
+	    include the Chautauquan, Canadaway, Conneaut, Conneautan, Conewango and
+	    Conewangan (WP, https://goo.gl/DAauwe).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Frasnian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Frasnian is one of two faunal stages in the Late Devonian period. It lasted
-from 382.7 ± 1.6 million years ago to 372.2 ± 1.6 million years ago. It was
-preceded by the Givetian stage and followed by the Famennian stage. Major
-reef-building was under way during the Frasnian stage, particularly in western
-Canada and Australia. On land, the first forests were taking shape. In North
-America, the Antler and Taconic orogenies peaked, which were contemporary with
-the Bretonic phase of the Variscan orogeny in Europe. The Frasnian coincides
-with the second half of the "charcoal gap" in the fossil record, a time when
-atmospheric oxygen levels were below 13%, the minimum necessary to sustain
-wildfires.[2] North American subdivisions of the Frasnian include West Falls
-Group, Sonyea Group and Genesee Group (WP, https://goo.gl/P1idrs).
-
+	    The Frasnian is one of two faunal stages in the Late Devonian period. It lasted
+	    from 382.7 ± 1.6 million years ago to 372.2 ± 1.6 million years ago. It was
+	    preceded by the Givetian stage and followed by the Famennian stage. Major
+	    reef-building was under way during the Frasnian stage, particularly in western
+	    Canada and Australia. On land, the first forests were taking shape. In North
+	    America, the Antler and Taconic orogenies peaked, which were contemporary with
+	    the Bretonic phase of the Variscan orogeny in Europe. The Frasnian coincides
+	    with the second half of the "charcoal gap" in the fossil record, a time when
+	    atmospheric oxygen levels were below 13%, the minimum necessary to sustain
+	    wildfires. North American subdivisions of the Frasnian include West Falls
+	    Group, Sonyea Group and Genesee Group (WP, https://goo.gl/P1idrs).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Givetian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Givetian is one of two faunal stages in the Middle Devonian period. It
-lasted from 387.7 ± 0.8 million years ago to 382.7 ± 1.6 million years ago. It
-was preceded by the Eifelian stage and followed by the Frasnian stage. It is
-named after the town of Givet in France (WP, https://goo.gl/JeJZqB).
-
+	    The Givetian is one of two faunal stages in the Middle Devonian period. It
+	    lasted from 387.7 ± 0.8 million years ago to 382.7 ± 1.6 million years ago. It
+	    was preceded by the Eifelian stage and followed by the Frasnian stage. It is
+	    named after the town of Givet in France (WP, https://goo.gl/JeJZqB).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Eifelian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Middle Devonian comprises two subdivisions, the Eifelian giving way to the
-Givetian 387.7± 2.7 million years ago. During this time the armoured jawless
-ostracoderm fish were declining in diversity; the jawed fish were thriving and
-increasing in diversity in both the oceans and freshwater. The shallow, warm,
-oxygen-depleted waters of Devonian inland lakes, surrounded by primitive
-plants, provided the environment necessary for certain early fish to develop
-essential characteristics such as well developed lungs, and the ability to
-crawl out of the water and onto the land for short periods of time (WP,
-https://goo.gl/nXmryt).
-
+	    The Middle Devonian comprises two subdivisions, the Eifelian giving way to the
+	    Givetian 387.7± 2.7 million years ago. During this time the armoured jawless
+	    ostracoderm fish were declining in diversity; the jawed fish were thriving and
+	    increasing in diversity in both the oceans and freshwater. The shallow, warm,
+	    oxygen-depleted waters of Devonian inland lakes, surrounded by primitive
+	    plants, provided the environment necessary for certain early fish to develop
+	    essential characteristics such as well developed lungs, and the ability to
+	    crawl out of the water and onto the land for short periods of time (WP,
+	    https://goo.gl/nXmryt).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Emsian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
-Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
-407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
-Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
-
+	    The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
+	    Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
+	    407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
+	    Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Pragian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
-Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
-407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
-Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
-
+	    The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
+	    Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
+	    407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
+	    Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Lochkovian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
-Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
-407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
-Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
-
+	    The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
+	    Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
+	    407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
+	    Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Ludfordian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Ludlow, lasting from 427.4 ± 1.5 to 423 ± 2.8 mya, comprises the Gorstian
-stage, lasting until 425.6 million years ago, and the Ludfordian stage. It is
-named for the town of Ludlow (and neighbouring Ludford) in Shropshire, England
-(WP, https://goo.gl/DRJI4P)
-
+	    The Ludlow, lasting from 427.4 ± 1.5 to 423 ± 2.8 mya, comprises the Gorstian
+	    stage, lasting until 425.6 million years ago, and the Ludfordian stage. It is
+	    named for the town of Ludlow (and neighbouring Ludford) in Shropshire, England
+	    (WP, https://goo.gl/DRJI4P)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Gorstian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-
-The Ludlow, lasting from 427.4 ± 1.5 to 423 ± 2.8 mya, comprises the Gorstian
-stage, lasting until 425.6 million years ago, and the Ludfordian stage. It is
-named for the town of Ludlow (and neighbouring Ludford) in Shropshire, England
-(WP, https://goo.gl/DRJI4P)
-
+	    The Ludlow, lasting from 427.4 ± 1.5 to 423 ± 2.8 mya, comprises the Gorstian
+	    stage, lasting until 425.6 million years ago, and the Ludfordian stage. It is
+	    named for the town of Ludlow (and neighbouring Ludford) in Shropshire, England
+	    (WP, https://goo.gl/DRJI4P)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Homerian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Wenlock is divided into the older Sheinwoodian and the younger Homerian
-stage. The Sheinwoodian lasted from 433.4 ± 0.8 to 430.5 ± 0.7 million years
-ago. The Homerian lasted from 430.5 ± 0.7 to 427.4 ± 0.5 million years ago (WP,
-https://goo.gl/d7u763)
-
+	    The Wenlock is divided into the older Sheinwoodian and the younger Homerian
+	    stage. The Sheinwoodian lasted from 433.4 ± 0.8 to 430.5 ± 0.7 million years
+	    ago. The Homerian lasted from 430.5 ± 0.7 to 427.4 ± 0.5 million years ago (WP,
+	    https://goo.gl/d7u763)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Sheinwoodian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Wenlock is divided into the older Sheinwoodian and the younger Homerian
-stage. The Sheinwoodian lasted from 433.4 ± 0.8 to 430.5 ± 0.7 million years
-ago. The Homerian lasted from 430.5 ± 0.7 to 427.4 ± 0.5 million years ago (WP,
-https://goo.gl/d7u763)
-
-
+	    The Wenlock is divided into the older Sheinwoodian and the younger Homerian
+	    stage. The Sheinwoodian lasted from 433.4 ± 0.8 to 430.5 ± 0.7 million years
+	    ago. The Homerian lasted from 430.5 ± 0.7 to 427.4 ± 0.5 million years ago (WP,
+	    https://goo.gl/d7u763)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Telychian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
-subdivided into three stages: the Rhuddanian,[11] lasting until 440.8 million
-years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
-The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
-https://goo.gl/9KtX1S).
-
+	    The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
+	    subdivided into three stages: the Rhuddanian, lasting until 440.8 million
+	    years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
+	    The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
+	    https://goo.gl/9KtX1S).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Aeronian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
-subdivided into three stages: the Rhuddanian,[11] lasting until 440.8 million
-years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
-The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
-https://goo.gl/5PoKh8).
-
+	    The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
+	    subdivided into three stages: the Rhuddanian, lasting until 440.8 million
+	    years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
+	    The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
+	    https://goo.gl/5PoKh8).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Rhuddanian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
-subdivided into three stages: the Rhuddanian,[11] lasting until 440.8 million
-years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
-The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
-https://goo.gl/Ar7PDx)
-
+	    The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
+	    subdivided into three stages: the Rhuddanian, lasting until 440.8 million
+	    years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
+	    The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
+	    https://goo.gl/Ar7PDx)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Hirnantian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-he Hirnantian is the seventh and final internationally recognized stage of the
-Ordovician Period of the Paleozoic Era. It was of short duration, lasting about
-1.9 million years, from 445.2 ± 1.4 to 443.8 ± 1.5 Ma (million years ago).[3]
-The early part of the Hirnantian was characterized by cold temperatures, major
-glaciation, and a severe drop in sea level. In the latter part of the
-Hirnantian, temperatures rose, the glaciers melted, and sea level returned to
-the same or to a slightly higher level than it had been prior to the glaciation
-(WP, https://goo.gl/tZpKFO).
-
+	    he Hirnantian is the seventh and final internationally recognized stage of the
+	    Ordovician Period of the Paleozoic Era. It was of short duration, lasting about
+	    1.9 million years, from 445.2 ± 1.4 to 443.8 ± 1.5 Ma (million years ago).
+	    The early part of the Hirnantian was characterized by cold temperatures, major
+	    glaciation, and a severe drop in sea level. In the latter part of the
+	    Hirnantian, temperatures rose, the glaciers melted, and sea level returned to
+	    the same or to a slightly higher level than it had been prior to the glaciation
+	    (WP, https://goo.gl/tZpKFO).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Katian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-
-The Katian is the second stage of the Upper Ordovician. It is preceded by the
-Sandbian and succeeded by the Hirnantian stage. The Katian began 453.0 ± 0.7
-million years ago and lasted for about 7.8 million years until the beginning of
-the Hirnantian 445.2 ± 1.4 million years ago (WP, https://goo.gl/tAsaB8).
-
+	    The Katian is the second stage of the Upper Ordovician. It is preceded by the
+	    Sandbian and succeeded by the Hirnantian stage. The Katian began 453.0 ± 0.7
+	    million years ago and lasted for about 7.8 million years until the beginning of
+	    the Hirnantian 445.2 ± 1.4 million years ago (WP, https://goo.gl/tAsaB8).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Sandbian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Sandbian is the first stage of the Upper Ordovician. It follows the
-Darriwilian and is succeeded by the Katian. Its lower boundary is defined as
-the first appearance datum of the graptolite species Nemagraptus gracilis
-around 458.4 ± 0.9 million years ago. The Sandbian lasted for about 5.4 million
-years until the beginning of the Katian around 453.0 ± 0.7 million years ago
-(WP, https://goo.gl/cBjH1P).
-
+	    The Sandbian is the first stage of the Upper Ordovician. It follows the
+	    Darriwilian and is succeeded by the Katian. Its lower boundary is defined as
+	    the first appearance datum of the graptolite species Nemagraptus gracilis
+	    around 458.4 ± 0.9 million years ago. The Sandbian lasted for about 5.4 million
+	    years until the beginning of the Katian around 453.0 ± 0.7 million years ago
+	    (WP, https://goo.gl/cBjH1P).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Darriwilian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Darriwilian is the upper stage of the Middle Ordovician. It is preceded by
-the Dapingian and succeeded by the Upper Ordovician Sandbian stage. The lower
-boundary of the Darriwilian is defined as the first appearance of the
-graptolite species Undulograptus austrodentatus around 467.3 ± 1.1 million
-years ago. It lasted for about 8.9 million years until the beginning of the
-Sandbian around 458.4 ± 0.9 million years ago (WP, https://goo.gl/7c8Qq2).
-
+	    The Darriwilian is the upper stage of the Middle Ordovician. It is preceded by
+	    the Dapingian and succeeded by the Upper Ordovician Sandbian stage. The lower
+	    boundary of the Darriwilian is defined as the first appearance of the
+	    graptolite species Undulograptus austrodentatus around 467.3 ± 1.1 million
+	    years ago. It lasted for about 8.9 million years until the beginning of the
+	    Sandbian around 458.4 ± 0.9 million years ago (WP, https://goo.gl/7c8Qq2).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Dapingian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Dapingian is the third stage of the Ordovician and the first stage of the
-Middle Ordovician. It is preceded by the Floian and succeeded by the
-Darriwilian. The base of the Floian is defined as the first appearance of the
-conodont species Baltoniodus triangularis which happened about 470.0 ± 1.4
-million years ago. The Dapingian lasted for about 2.7 million years until about
-467.3 ± 1.1 million years ago (WP, https://goo.gl/Y0RT8c).
-
+	    The Dapingian is the third stage of the Ordovician and the first stage of the
+	    Middle Ordovician. It is preceded by the Floian and succeeded by the
+	    Darriwilian. The base of the Floian is defined as the first appearance of the
+	    conodont species Baltoniodus triangularis which happened about 470.0 ± 1.4
+	    million years ago. The Dapingian lasted for about 2.7 million years until about
+	    467.3 ± 1.1 million years ago (WP, https://goo.gl/Y0RT8c).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Floian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Floian is the second stage of the Ordovician. It succeeds the Tremadocian
-with which it forms the Lower Ordovician epoch. It precedes the Dapingian stage
-of the Middle Ordovician. The Floian extended from 477.7 ± 1.4 to 470.0 ± 1.4
-million years ago. The lower boundary is defined as the first appearance of the
-graptolite species Tetragraptus approximatus (WP, https://goo.gl/Li1qEk).
-
+	    The Floian is the second stage of the Ordovician. It succeeds the Tremadocian
+	    with which it forms the Lower Ordovician epoch. It precedes the Dapingian stage
+	    of the Middle Ordovician. The Floian extended from 477.7 ± 1.4 to 470.0 ± 1.4
+	    million years ago. The lower boundary is defined as the first appearance of the
+	    graptolite species Tetragraptus approximatus (WP, https://goo.gl/Li1qEk).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Tremadocian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Tremadocian is the lowest stage of Ordovician. Together with the later
-Floian stage it forms the Lower Ordovician epoch. The Tremadocian lasted from
-485.4 ± 1.9 to 477.7 ± 1.4 million years ago. The base of the Tremadocian is
-defined as the first appearance of the conodont species Iapetognathus
-fluctivagus at the GSSP section in Newfoundland (WP, https://goo.gl/AFQxuG).
-
+	    The Tremadocian is the lowest stage of Ordovician. Together with the later
+	    Floian stage it forms the Lower Ordovician epoch. The Tremadocian lasted from
+	    485.4 ± 1.9 to 477.7 ± 1.4 million years ago. The base of the Tremadocian is
+	    defined as the first appearance of the conodont species Iapetognathus
+	    fluctivagus at the GSSP section in Newfoundland (WP, https://goo.gl/AFQxuG).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Jiangshanian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Jiangshanian is the middle stage of the Furongian series. It follows the
-Paibian stage and is succeeded by the still unnamed Stage 10 of the Cambrian.
-The base is defined as the first appearance of the trilobite Agnostotes
-orientalis which is estimated to be ~494 million years ago. The Jiangshanian
-lasted until approximately ~489.5 million years ago (WP,
-https://goo.gl/12lB1f).
-
+	    The Jiangshanian is the middle stage of the Furongian series. It follows the
+	    Paibian stage and is succeeded by the still unnamed Stage 10 of the Cambrian.
+	    The base is defined as the first appearance of the trilobite Agnostotes
+	    orientalis which is estimated to be ~494 million years ago. The Jiangshanian
+	    lasted until approximately ~489.5 million years ago (WP,
+	    https://goo.gl/12lB1f).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Paibian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Paibian is lowest stage of Furongian series of the Cambrian. It follows the
-Guzhangian (3rd series of the Cambrian) and is succeeded by the Jiangshanian
-stage. The base is defined as the first appearance of the trilobite
-Glyptagnostus reticulatus around ~497 million years ago. The top, or the base
-of the Jiangshanian is defined as the first appearance of the Agnostotes
-orientalis around ~494 million years ago (WP, https://goo.gl/3HhNlK).
-
+	    The Paibian is lowest stage of Furongian series of the Cambrian. It follows the
+	    Guzhangian (3rd series of the Cambrian) and is succeeded by the Jiangshanian
+	    stage. The base is defined as the first appearance of the trilobite
+	    Glyptagnostus reticulatus around ~497 million years ago. The top, or the base
+	    of the Jiangshanian is defined as the first appearance of the Agnostotes
+	    orientalis around ~494 million years ago (WP, https://goo.gl/3HhNlK).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Guzhangian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Guzhangian is an uppermost stage of the 3rd series of the Cambrian. It
-follows the Drumian stage and precedes the Paibian stage of the Furongian
-series. The base is defined as the first appearance of the trilobite Lejopyge
-laevigata around ~500.5 million years ago. The Guzhangian-Paibian boundary is
-marked by the first appearance of the trilobite Glyptagnostus reticulatus
-around ~497 million years ago (WP, https://goo.gl/I1mhOU).
-
+	    The Guzhangian is an uppermost stage of the 3rd series of the Cambrian. It
+	    follows the Drumian stage and precedes the Paibian stage of the Furongian
+	    series. The base is defined as the first appearance of the trilobite Lejopyge
+	    laevigata around ~500.5 million years ago. The Guzhangian-Paibian boundary is
+	    marked by the first appearance of the trilobite Glyptagnostus reticulatus
+	    around ~497 million years ago (WP, https://goo.gl/I1mhOU).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Drumian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Drumian is a stage of 3rd series of the Cambrian. It succeeds still unnamed
-5th stage of the Cambrian and precedes the Guzhangian. The base is defined as
-the first appearance of the trilobite Ptychagnostus atavus around ~504.5
-million years ago. The top is defined as the first appearance of another
-trilobite Lejopyge laevigata around ~500.5 million years ago (WP,
-https://goo.gl/iD3tJV)
-
+	    The Drumian is a stage of 3rd series of the Cambrian. It succeeds still unnamed
+	    5th stage of the Cambrian and precedes the Guzhangian. The base is defined as
+	    the first appearance of the trilobite Ptychagnostus atavus around ~504.5
+	    million years ago. The top is defined as the first appearance of another
+	    trilobite Lejopyge laevigata around ~500.5 million years ago (WP,
+	    https://goo.gl/iD3tJV)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Fortunian">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-The Fortunian stage marks the beginning of the Phanerozoic eon, the Paleozoic
-era, and the Cambrian period. It is the first of the two stages of the
-Terreneuvian series. Its base is defined as the first appearance of the trace
-fossil Treptichnus pedum 541.0 ± 1.0 million years ago. The top of the
-Fortunian which is the base of the Stage 2 of the Cambrian has not been
-formally defined yet, but will correspond to the appearance of an Archeocyatha
-species or "Small shelly fossils" approximately ~529 million years ago (WP,
-https://goo.gl/38pvGi)
-
+	    The Fortunian stage marks the beginning of the Phanerozoic eon, the Paleozoic
+	    era, and the Cambrian period. It is the first of the two stages of the
+	    Terreneuvian series. Its base is defined as the first appearance of the trace
+	    fossil Treptichnus pedum 541.0 ± 1.0 million years ago. The top of the
+	    Fortunian which is the base of the Stage 2 of the Cambrian has not been
+	    formally defined yet, but will correspond to the appearance of an Archeocyatha
+	    species or "Small shelly fossils" approximately ~529 million years ago (WP,
+	    https://goo.gl/38pvGi)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Stage 2">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-Stage 2 of the Cambrian is the unnamed upper stage of the Terreneuvian series.
-It lies on top of the Fortunian and below Stage 3 of the Cambrian. It is
-commonly referred to as the Tommotian, after the Cambrian stratigraphy of
-Siberia.[1] Both the upper and lower boundary have not been clearly defined yet
-by the International Commission on Stratigraphy.[2] Proposals for the lower
-boundary are the appearance of Small Shelly Fossils, an archaeocyathid species
-or the mollusc Watsonella crosbyi around ~529 million years ago.[2] The
-proposed upper boundary might be the first appearance of trilobites around ~521
-million years ago (WP, https://goo.gl/Crk4Zp).
-
+	    Stage 2 of the Cambrian is the unnamed upper stage of the Terreneuvian series.
+	    It lies on top of the Fortunian and below Stage 3 of the Cambrian. It is
+	    commonly referred to as the Tommotian, after the Cambrian stratigraphy of
+	    Siberia. Both the upper and lower boundary have not been clearly defined yet
+	    by the International Commission on Stratigraphy. Proposals for the lower
+	    boundary are the appearance of Small Shelly Fossils, an archaeocyathid species
+	    or the mollusc Watsonella crosbyi around ~529 million years ago. The
+	    proposed upper boundary might be the first appearance of trilobites around ~521
+	    million years ago (WP, https://goo.gl/Crk4Zp).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Stage 3">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-Cambrian Stage 3 is the still unnamed third stage of the Cambrian. It succeeds
-Cambrian Stage 2 and precedes Cambrian Stage 4, although neither its base or
-top have been formally defined yet. The lower boundary is loosely defined as
-the first appearance of trilobites which happened around ~521 million years
-ago. The upper boundary and beginning of Cambrian Stage 4 is informally defined
-as the first appearance of the trilobite genera Olenellus or Redlichia around
-~514 million years ago (WP, https://goo.gl/cMUImz).
-
+	    Cambrian Stage 3 is the still unnamed third stage of the Cambrian. It succeeds
+	    Cambrian Stage 2 and precedes Cambrian Stage 4, although neither its base or
+	    top have been formally defined yet. The lower boundary is loosely defined as
+	    the first appearance of trilobites which happened around ~521 million years
+	    ago. The upper boundary and beginning of Cambrian Stage 4 is informally defined
+	    as the first appearance of the trilobite genera Olenellus or Redlichia around
+	    ~514 million years ago (WP, https://goo.gl/cMUImz).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Stage 4">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-Cambrian Stage 4 is the still unnamed 4th stage of the Cambrian and the upper
-stage of the 2nd Cambrian series. It follows the 3rd stage and lies below the
-Cambrian Stage 5. The lower boundary has not been formally defined by the
-International Commission on Stratigraphy yet. One proposal is the first
-appearance of two trilobite genera, Olenellus or Redlichia. Another proposal is
-the first appearance of the trilobite species Arthricocephalus chauveaui.[1]
-Both proposals will set the lower boundary close to ~514 million years ago.[2]
-The upper boundary corresponds to the beginning of Cambrian Stage 5 which also
-has not been formally defined yet. Proposals are the first appearances of the
-trilobite species Oryctocephalus indicus or Ovatoryctocara granulata, dated at
-approximately ~509 million years ago (WP, https://goo.gl/H7WDMu).
-
+	    Cambrian Stage 4 is the still unnamed 4th stage of the Cambrian and the upper
+	    stage of the 2nd Cambrian series. It follows the 3rd stage and lies below the
+	    Cambrian Stage 5. The lower boundary has not been formally defined by the
+	    International Commission on Stratigraphy yet. One proposal is the first
+	    appearance of two trilobite genera, Olenellus or Redlichia. Another proposal is
+	    the first appearance of the trilobite species Arthricocephalus chauveaui.
+	    Both proposals will set the lower boundary close to ~514 million years ago.
+	    The upper boundary corresponds to the beginning of Cambrian Stage 5 which also
+	    has not been formally defined yet. Proposals are the first appearances of the
+	    trilobite species Oryctocephalus indicus or Ovatoryctocara granulata, dated at
+	    approximately ~509 million years ago (WP, https://goo.gl/H7WDMu).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Stage 5">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-Stage 5 of the Cambrian is the first stage of the 3rd series of the Cambrian
-(or Middle Cambrian). Its lower boundary has not been formally defined by the
-ICS yet. The most promising definition is the first appearance of either the
-trilobite species Oryctocephalus indicus or Ovatoryctocara granulata which is
-currently estimated to be around ~509 million years ago.[1] The end of Cambrian
-Stage 5 and the beginning of the Drumian stage is marked by the first
-appearance of the trilobite Ptychagnostus atavus around ~504.5 million years
-ago (WP, https://goo.gl/UvSfQw).
-
+	    Stage 5 of the Cambrian is the first stage of the 3rd series of the Cambrian
+	    (or Middle Cambrian). Its lower boundary has not been formally defined by the
+	    ICS yet. The most promising definition is the first appearance of either the
+	    trilobite species Oryctocephalus indicus or Ovatoryctocara granulata which is
+	    currently estimated to be around ~509 million years ago. The end of Cambrian
+	    Stage 5 and the beginning of the Drumian stage is marked by the first
+	    appearance of the trilobite Ptychagnostus atavus around ~504.5 million years
+	    ago (WP, https://goo.gl/UvSfQw).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Stage 10">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-
-Stage 10 of the Cambrian is the still unnamed third and final stage of the
-Furongian Series. It follows the Jiangshanian and precedes the Ordovician
-Tremadocian Stage.[1] The proposed lower boundary is the first appearance of
-the trilobite Lotagnostus americanus around ~489.5 million years ago, but other
-fossils are also being discussed (see below). The upper boundary is defined as
-the appearance of the conodont Iapetognathus fluctivagus which marks the
-beginning of the Tremadocian and is radiometrically dated as 485.4 ± 1.9
-million years ago (WP, https://goo.gl/tR4xpn).
-
+	    Stage 10 of the Cambrian is the still unnamed third and final stage of the
+	    Furongian Series. It follows the Jiangshanian and precedes the Ordovician
+	    Tremadocian Stage. The proposed lower boundary is the first appearance of the
+	    trilobite Lotagnostus americanus around ~489.5 million years ago, but other
+	    fossils are also being discussed (see below). The upper boundary is defined as
+	    the appearance of the conodont Iapetognathus fluctivagus which marks the
+	    beginning of the Tremadocian and is radiometrically dated as 485.4 ± 1.9
+	    million years ago (WP, https://goo.gl/tR4xpn).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
