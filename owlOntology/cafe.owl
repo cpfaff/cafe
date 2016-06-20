@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#"
+     xml:base="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://terminologies.gfbio.org/terms/cafe"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy -->
+
+    <owl:ObjectProperty rdf:about="http://terminologies.gfbio.org/terms/cafe#isCharacterizedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#BiomeContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#BiomeContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#ChemicalContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#ChemicalContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#DateTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#DateTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#RangeEnd"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#RangeStart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#EmbeddedResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#EmbeddedResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#GeologicalTimePeriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#GeologicalTimePeriod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#MethodContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#MethodContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#OnlineResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#OnlineResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#OrganismContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#OrganismContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#ProcessContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#ProcessContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#RangeEnd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#RangeEnd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeRange"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#RangeStart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#RangeStart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#RangeStart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Reference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Reference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Resource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#SpaceContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#SpaceContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#SphereContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#SphereContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TemporalResolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TemporalResolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeContext"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimePeriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimePeriod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeContext"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeRange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeRange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeContext"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#DateTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalAge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalAge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#GeologicalTimePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#GeologicalTimePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEpoch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEpoch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#GeologicalTimePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#GeologicalTimePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalPeriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalPeriod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#GeologicalTimePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#temporalExtentType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#temporalExtentType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TemporalResolution"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#temporalResolutionType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#temporalResolutionType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#temporalResolutionType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TemporalResolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#DateTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#timezone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#timezone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#DateTime"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#BiomeContext"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#ChemicalContext"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#MethodContext"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#OrganismContext"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#ProcessContext"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#SpaceContext"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#SphereContext"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#TimeContext"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#date"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#timezone"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalAge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEpoch"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalEra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ctpfaff/ontologies/2016/5/untitled-ontology-21#geologicalPeriod"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
