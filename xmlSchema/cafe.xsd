@@ -3694,7 +3694,7 @@
 	    Commission on Stratigraphy, lacking a precise lower and upper
 	    boundary and subdivision into stages. The proposed lower boundary
 	    is the first appearance of trilobites which is estimated to be
-	    around ~521 million years ago.[1] The upper boundary is proposed as
+	    around ~521 million years ago. The upper boundary is proposed as
 	    the first appearance of either the trilobite species Oryctocephalus
 	    indicus or Ovatoryctocara granulata, currently estimated to be
 	    around ~509 million years ago (WP, https://goo.gl/Xny79N).
@@ -3898,8 +3898,8 @@
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    The Lutetian is, in the geologic timescale, a stage or age in the
-	    Eocene.[2] It spans the time between 47.8 and 41.2 Ma. The Lutetian
-	    is preceded by the Ypresian and is followed by the Bartonian.[3]
+	    Eocene. It spans the time between 47.8 and 41.2 Ma. The Lutetian
+	    is preceded by the Ypresian and is followed by the Bartonian.
 	    Together with the Bartonian it is sometimes referred to as the
 	    Middle Eocene subepoch (WP, https://goo.gl/IqPVMn)
 	  </xs:documentation>
@@ -4172,8 +4172,8 @@
 	    The Pliensbachian is an age of the geologic timescale or stage in
 	    the stratigraphic column. It is part of the Early or Lower Jurassic
 	    epoch or series and spans the time between 190.8 ± 1.5 Ma and 182.7
-	    ± 1.5 Ma (million years ago).[1] The Pliensbachian is preceded by
-	    the Sinemurian and followed by the Toarcian.[2] The Pliensbachian
+	    ± 1.5 Ma (million years ago). The Pliensbachian is preceded by
+	    the Sinemurian and followed by the Toarcian. The Pliensbachian
 	    ended with the extinction event called the Toarcian turnover.
 	    During the Pliensbachian, the middle part of the Lias was deposited
 	    in Europe. The Pliensbachian is roughly coeval with the
@@ -4870,11 +4870,12 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="timezone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	A name for a timezone from the tz database. The values specified below come
-	from the tz database release 2016c.
+	A name of a timezone from the tz database. The values specified below
+	come from the tz database release 2016c.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
@@ -5466,10 +5467,11 @@
       <xs:enumeration value="Zulu"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="TemporalExtentType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	A type to designate the temporal extent
+	A temporal extent type.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
@@ -5492,54 +5494,54 @@
       <xs:enumeration value="Minute">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The minute is a unit of time or of angle. As a unit of time, the minute is
-	    equal to 1/60 (the first sexagesimal fraction) of an hour or 60 seconds (WP,
-	    https://goo.gl/hTtMng)
+	    The minute is a unit of time or of angle. As a unit of time, the
+	    minute is equal to 1/60 (the first sexagesimal fraction) of an hour
+	    or 60 seconds (WP, https://goo.gl/hTtMng)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Hour">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The hour (common symbol: h or hr, h being the international form of the symbol)
-	    is a unit of measurement of time. In modern usage, an hour comprises 60
-	    minutes, or 3,600 seconds. It is approximately 1/24 of a mean solar day (WP,
-	    http://bit.ly/1PhSkDP)
+	    The hour (common symbol: h or hr, h being the international form of
+	    the symbol) is a unit of measurement of time. In modern usage, an
+	    hour comprises 60 minutes, or 3,600 seconds. It is approximately
+	    1/24 of a mean solar day (WP, http://bit.ly/1PhSkDP)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Day">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A day is a unit of time. In common usage, it is an interval equal to 24 hours
-	    (WP, https://goo.gl/9VDGIY).
+	    A day is a unit of time. In common usage, it is an interval equal
+	    to 24 hours (WP, https://goo.gl/9VDGIY).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Week">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A week is a time unit equal to seven days. It is the standard time period used
-	    for cycles of work days and rest days in most parts of the world, mostly
-	    alongside (but not strictly part of) the Gregorian calendar (WP,
-	    https://goo.gl/rvUNel)
+	    A week is a time unit equal to seven days. It is the standard time
+	    period used for cycles of work days and rest days in most parts of
+	    the world, mostly alongside (but not strictly part of) the
+	    Gregorian calendar (WP, https://goo.gl/rvUNel)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Month">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A month is a unit of time, used with calendars, which is approximately as long
-	    as a natural period related to the motion of the Moon (WP,
-	    https://goo.gl/2Qx7pQ)
+	    A month is a unit of time, used with calendars, which is
+	    approximately as long as a natural period related to the motion of
+	    the Moon (WP, https://goo.gl/2Qx7pQ)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Year">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A year is the orbital period of the Earth moving in its orbit around the Sun
-	    (WP, https://goo.gl/ZCCcCd)
+	    A year is the orbital period of the Earth moving in its orbit
+	    around the Sun (WP, https://goo.gl/ZCCcCd)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -5560,36 +5562,120 @@
       <xs:enumeration value="Millenium">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A millennium (plural millennia) is a period of time equal to 1000 years (WP,
-	    https://goo.gl/d4q6WJ)
+	    A millennium (plural millennia) is a period of time equal to 1000
+	    years (WP, https://goo.gl/d4q6WJ)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="TemporalResolutionType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	A type to designate the temporal resolution
+	A temporal extent type.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Second"/>
-      <xs:enumeration value="Minute"/>
-      <xs:enumeration value="Hour"/>
-      <xs:enumeration value="Day"/>
-      <xs:enumeration value="Week"/>
-      <xs:enumeration value="Month"/>
-      <xs:enumeration value="Year"/>
-      <xs:enumeration value="Decade"/>
-      <xs:enumeration value="Century"/>
-      <xs:enumeration value="Millenium"/>
+      <xs:enumeration value="Second">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Second (symbol: s) (abbreviated s or sec) is the base
+	    unit of time in the International System of Units (SI).
+	    It is qualitatively defined as the second division of
+	    the hour by sixty, the first division by sixty being
+	    the minute. It is quantitatively defined in terms of a
+	    certain number of periods – about 9 billion – of a
+	    certain frequency of radiation from the caesium atom: a
+	    so-called atomic clock. Seconds may be measured using a
+	    mechanical, electric or atomic clock (WP,
+	    http://bit.ly/1VnHFrn)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Minute">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The minute is a unit of time or of angle. As a unit of time, the
+	    minute is equal to 1/60 (the first sexagesimal fraction) of an hour
+	    or 60 seconds (WP, https://goo.gl/hTtMng)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Hour">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The hour (common symbol: h or hr, h being the international form of
+	    the symbol) is a unit of measurement of time. In modern usage, an
+	    hour comprises 60 minutes, or 3,600 seconds. It is approximately
+	    1/24 of a mean solar day (WP, http://bit.ly/1PhSkDP)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Day">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A day is a unit of time. In common usage, it is an interval equal
+	    to 24 hours (WP, https://goo.gl/9VDGIY).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Week">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A week is a time unit equal to seven days. It is the standard time
+	    period used for cycles of work days and rest days in most parts of
+	    the world, mostly alongside (but not strictly part of) the
+	    Gregorian calendar (WP, https://goo.gl/rvUNel)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Month">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A month is a unit of time, used with calendars, which is
+	    approximately as long as a natural period related to the motion of
+	    the Moon (WP, https://goo.gl/2Qx7pQ)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Year">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A year is the orbital period of the Earth moving in its orbit
+	    around the Sun (WP, https://goo.gl/ZCCcCd)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Decade">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A decade is a period of 10 years (WP, https://goo.gl/Jx5raD)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Century">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A century is 100 years (WP, https://goo.gl/kyUuat)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Millenium">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A millennium (plural millennia) is a period of time equal to 1000
+	    years (WP, https://goo.gl/d4q6WJ)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="NorthBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	North most bounding coordinate in decimal degree
+	North most coordinate in a bounding box in decimal degree
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:decimal">
@@ -5597,10 +5683,11 @@
       <xs:maxInclusive value="90"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SouthBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	South most bounding coordinate in decimal degree
+	South most coordinate in a bounding box in decimal degree
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:decimal">
@@ -5611,7 +5698,7 @@
   <xs:simpleType name="EastBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	East most bounding coordinate in decimal degree
+	East most coordinate in a bounding box in decimal degree
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:decimal">
@@ -5622,7 +5709,7 @@
   <xs:simpleType name="WestBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	West most bounding coordinate in decimal degree
+	West most coordinate in a bounding box in decimal degree
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:decimal">
@@ -5633,7 +5720,7 @@
   <xs:simpleType name="ElevationUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	Elevation unit
+	The unit of the elevation
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
@@ -5742,10 +5829,11 @@
       <xs:enumeration value="City">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A city is a large and permanent human settlement. Although there is no
-	    agreement on how a city is distinguished from a town in general English
-	    language meanings, many cities have a particular administrative, legal, or
-	    historical status based on local law (WP, http://bit.ly/1UokPQa)
+	    A city is a large and permanent human settlement. Although there is
+	    no agreement on how a city is distinguished from a town in general
+	    English language meanings, many cities have a particular
+	    administrative, legal, or historical status based on local law (WP,
+	    http://bit.ly/1UokPQa)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -5814,6 +5902,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="CountryName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6080,13 +6169,138 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Africa"/>
-      <xs:enumeration value="Asia"/>
-      <xs:enumeration value="Europe"/>
-      <xs:enumeration value="North America"/>
-      <xs:enumeration value="South America"/>
-      <xs:enumeration value="Oceania"/>
-      <xs:enumeration value="Antarctica"/>
+      <xs:enumeration value="Africa">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Africa is the world's second-largest and second-most-populous
+	    continent. At about 30.3 million km² (11.7 million square miles)
+	    including adjacent islands, it covers six percent of Earth's total
+	    surface area and 20.4 percent of its total land area. With 1.1
+	    billion people as of 2013, it accounts for about 15% of the world's
+	    human population. The continent is surrounded by the Mediterranean
+	    Sea to the north, both the Suez Canal and the Red Sea along the
+	    Sinai Peninsula to the northeast, the Indian Ocean to the
+	    southeast, and the Atlantic Ocean to the west. The continent
+	    includes Madagascar and various archipelagos. It contains 54 fully
+	    recognized sovereign states (countries), nine territories and two
+	    de facto independent states with limited or no recognition (WP,
+	    https://goo.gl/6O0z0l)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Asia">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Asia is the Earth's largest and most populous continent, located
+	    primarily in the eastern and northern hemispheres. Asia covers an
+	    area of 44,579,000 square kilometers, about 30% of Earth's total
+	    land area and 8.7% of the Earth's total surface area. The
+	    continent, which has long been home to the majority of the human
+	    population[not in citation given], was the site of many of the
+	    first civilizations. Asia is notable for not only its overall large
+	    size and population, but unusually dense and large settlements as
+	    well as vast barely populated regions within the continent of 4.4
+	    billion people. The boundaries of Asia are traditionally determined
+	    as that of Eurasia, as there is no significant geographical
+	    separation between Asia and Europe. The most commonly accepted
+	    boundaries place Asia to the east of the Suez Canal, the Ural
+	    River, and the Ural Mountains, and south of the Caucasus Mountains
+	    and the Caspian and Black Seas. It is bounded on the east by the
+	    Pacific Ocean, on the south by the Indian Ocean and on the north by
+	    the Arctic Ocean (WP, https://goo.gl/tDYz2W).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Europe">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Europe is a continent that comprises the westernmost part of
+	    Eurasia. Europe is bordered by the Arctic Ocean to the north, the
+	    Atlantic Ocean to the west, and the Mediterranean Sea to the south.
+	    To the east and southeast, Europe is generally considered as
+	    separated from Asia by the watershed divides of the Ural and
+	    Caucasus Mountains, the Ural River, the Caspian and Black Seas, and
+	    the waterways of the Turkish Straits. Yet the non-oceanic borders
+	    of Europe—a concept dating back to classical antiquity—are
+	    arbitrary; the primarily physiographic term "continent" as applied
+	    to Europe also incorporates cultural and political elements whose
+	    discontinuities are not always reflected by the continent's current
+	    boundaries (WP, https://goo.gl/J1cX4n).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="North America">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    North America is a continent entirely within the Northern
+	    Hemisphere and almost all within the Western Hemisphere. It can
+	    also be considered a northern subcontinent of the Americas. It is
+	    bordered to the north by the Arctic Ocean, to the east by the
+	    Atlantic Ocean, to the west and south by the Pacific Ocean, and to
+	    the southeast by South America and the Caribbean Sea. North America
+	    covers an area of about 24,709,000 square kilometers (9,540,000
+	    square miles), about 16.5% of the earth's land area and about 4.8%
+	    of its total surface. North America is the third largest continent
+	    by area, following Asia and Africa, and the fourth by population
+	    after Asia, Africa, and Europe (WP, https://goo.gl/uWnL9L).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="South America">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    South America is a continent situated in the Western Hemisphere,
+	    mostly in the Southern Hemisphere, with a relatively small portion
+	    in the Northern Hemisphere. It is also considered a subcontinent of
+	    the Americas, which is the term used in Spanish-speaking nations
+	    and most of South America. It is bordered on the west by the
+	    Pacific Ocean and on the north and east by the Atlantic Ocean;
+	    North America and the Caribbean Sea lie to the northwest. It
+	    includes twelve sovereign states – Argentina, Bolivia, Brazil,
+	    Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname,
+	    Uruguay, and Venezuela – and two non-sovereign areas – French
+	    Guiana, an overseas department of France, and the Falkland Islands,
+	    a British Overseas Territory (though disputed by Argentina). In
+	    addition to this, the ABC islands of the Netherlands and Trinidad
+	    and Tobago may also be considered part of South America
+	    (WP, https://goo.gl/4KB2QT).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Oceania">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Oceania also known as Oceanica, is a region centred on the islands
+	    of the tropical Pacific Ocean. Opinions of what constitutes Oceania
+	    range from its three subregions of Melanesia, Micronesia, and
+	    Polynesia to, more broadly, the entire insular region between
+	    Southeast Asia and the Americas, including Australasia and the
+	    Malay Archipelago. The term is often used more specifically to
+	    denote a continent comprising Australia and proximate islands or
+	    biogeographically as a synonym for either the Australasian ecozone
+	    (Wallacea and Australasia) or the Pacific ecozone (Melanesia,
+	    Polynesia, and Micronesia, excluding both New Zealand and mainland
+	    New Guinea)(WP, https://goo.gl/s96DKL).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Antarctica">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Antarctica is Earth's southernmost continent, containing the
+	    geographic South Pole. It is situated in the Antarctic region of
+	    the Southern Hemisphere, almost entirely south of the Antarctic
+	    Circle, and is surrounded by the Southern Ocean. At 14,000,000
+	    square kilometres (5,400,000 square miles), it is the fifth-largest
+	    continent in area after Asia, Africa, North America, and South
+	    America. For comparison, Antarctica is nearly twice the size of
+	    Australia. About 98% of Antarctica is covered by ice that averages
+	    1.9 km (1.2 mi; 6,200 ft) in thickness, which extends to all but
+	    the northernmost reaches of the Antarctic Peninsula (WP,
+	    https://goo.gl/Dq1DY)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
@@ -6096,35 +6310,35 @@
       <xs:enumeration value="Point">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Defined as: m^2
+	    A point is defined as: m^2
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Plot">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Defined as: 1 m^2 - 0.01 km^2
+	    A plot is defined as: 1 m^2 - 0.01 km^2
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Region">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Defined as: 0.01 km^2 - 10.000 km^2
+	    A region is defined as: 0.01 km^2 - 10.000 km^2
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Continent">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Defined as: 10.000 km^2 - 100.000.000 km^2
+	    A continent is defined as: 10.000 km^2 - 100.000.000 km^2
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Global">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Defined as: > 100.000.000 km^2
+	    Global is defined as: > 100.000.000 km^2
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -6132,12 +6346,125 @@
   </xs:simpleType>
   <xs:simpleType name="AtmosphereLayerName">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Troposphere"/>
-      <xs:enumeration value="Stratosphere"/>
-      <xs:enumeration value="Mesosphere"/>
-      <xs:enumeration value="Ionosphere"/>
+      <xs:enumeration value="Troposphere">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The troposphere is the lowest portion of Earth's atmosphere, and is
+	    also where all weather takes place. It contains approximately 75%
+	    of the atmosphere's mass and 99% of its water vapour and
+	    aerosols. The average depths of the troposphere are 20 km (12
+	    mi) in the tropics, 17 km (11 mi) in the mid latitudes, and 7 km
+	    (4.3 mi) in the polar regions in winter. The lowest part of the
+	    troposphere, where friction with the Earth's surface influences air
+	    flow, is the planetary boundary layer. This layer is typically a
+	    few hundred meters to 2 km (1.2 mi) deep depending on the landform
+	    and time of day. Atop the troposphere is the tropopause, which is
+	    the border between the troposphere and stratosphere. The tropopause
+	    is an inversion layer, where the air temperature ceases to decline
+	    with height and remains constant through its thickness (WP,
+	    https://goo.gl/Eb33Ow)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Stratosphere">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The stratosphere is the second major layer of Earth's atmosphere,
+	    just above the troposphere, and below the mesosphere. About 20% of
+	    the atmosphere's mass is contained in the stratosphere. The
+	    stratosphere is stratified in temperature, with warmer layers
+	    higher and cooler layers closer to the Earth. The increase of
+	    temperature with altitude, is a result of the absorption of the
+	    Sun's ultraviolet radiation by ozone. This is in contrast to the
+	    troposphere, near the Earth's surface, where temperatures decreases
+	    with altitude. The border between the troposphere and stratosphere,
+	    the tropopause, marks where this temperature inversion begins. Near
+	    the equator, the stratosphere starts at 18 km (59,000 ft; 11 mi);
+	    at mid latitudes, it starts at 10–13 km (33,000–43,000 ft; 6.2–8.1
+	    mi) and ends at 50 km (160,000 ft; 31 mi); at the poles, it starts
+	    at about 8 km (26,000 ft; 5.0 mi). Temperatures vary within the
+	    stratosphere with the seasons, in particular with the polar night
+	    (winter). The greatest variation of temperature, takes place over
+	    the poles in the lower stratosphere; those variations are largely
+	    steady at lower latitudes and higher altitudes (WP,
+	    https://goo.gl/HNtVtI)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Mesosphere">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The mesosphere is the layer of the Earth's atmosphere that is
+	    directly above the stratopause and directly below the mesopause. In
+	    the mesosphere temperature decreases as the altitude increases. The
+	    upper boundary of the mesosphere is the mesopause, which can be the
+	    coldest naturally occurring place on Earth with temperatures below
+	    130 K (−226 °F; −143 °C). The exact upper and lower boundaries of
+	    the mesosphere vary with latitude and with season, but the lower
+	    boundary of the mesosphere is usually located at heights of about
+	    50 kilometres (160,000 ft; 31 mi) above the Earth's surface and the
+	    mesopause is usually at heights near 100 kilometres (62 mi), except
+	    at middle and high latitudes in summer where it descends to heights
+	    of about 85 kilometres (53 mi) (WP, https://goo.gl/zQEJ1c)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Thermosphere">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The thermosphere is the layer of the Earth's atmosphere directly
+	    above the mesosphere and directly below the exosphere. Within this
+	    layer of the atmosphere, ultraviolet radiation causes
+	    photoionization/photodissociation of molecules, creating the ions
+	    in the ionosphere. Called from the Greek θερμός (pronounced
+	    thermos) meaning heat, the thermosphere begins about 85 kilometres
+	    (53 mi) above the Earth. At these high altitudes, the residual
+	    atmospheric gases sort into strata according to molecular mass (see
+	    turbosphere). Thermospheric temperatures increase with altitude due
+	    to absorption of highly energetic solar radiation. Temperatures are
+	    highly dependent on solar activity, and can rise to 2,000 °C (3,630
+	    °F). Radiation causes the atmosphere particles in this layer to
+	    become electrically charged (see ionosphere), enabling radio waves
+	    to bounce off and be received beyond the horizon. In the exosphere,
+	    beginning at 500 to 1,000 kilometres (310 to 620 mi) above the
+	    Earth's surface, the atmosphere turns into space (WP,
+	    https://goo.gl/4Y54db)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Exosphere">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The exosphere (Ancient Greek: ἔξω éxō "outside, external, beyond",
+	    Ancient Greek: σφαῖρα sphaĩra "sphere") is a thin, atmosphere-like
+	    volume surrounding a planet or natural satellite where molecules
+	    are gravitationally bound to that body, but where the density is
+	    too low for them to behave as a gas by colliding with each
+	    other. In the case of bodies with substantial atmospheres, such
+	    as Earth's atmosphere, the exosphere is the uppermost layer, where
+	    the atmosphere thins out and merges with interplanetary space. It
+	    is located directly above the thermosphere (WP,
+	    https://goo.gl/0NLIfC).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Ionosphere">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The ionosphere is a region of Earth's upper atmosphere, from about
+	    60 km (37 mi) to 1,000 km (620 mi) altitude, and includes the
+	    thermosphere and parts of the mesosphere and exosphere. It is
+	    ionized by solar radiation, plays an important part in atmospheric
+	    electricity and forms the inner edge of the magnetosphere. It has
+	    practical importance because, among other functions, it influences
+	    radio propagation to distant places on the Earth (WP,
+	    https://goo.gl/sZlqP9)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="AtmosphereHeightUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6178,9 +6505,35 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Crenon"/>
-      <xs:enumeration value="Rhitron"/>
-      <xs:enumeration value="Potamon"/>
+      <xs:enumeration value="Crenon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The crenon is the uppermost zone at the source of the river. It is
+	    further divided into the eucrenon (spring or boil zone) and the
+	    hypocrenon (brook or headstream zone). These areas have low
+	    temperatures, reduced oxygen content and slow moving water (WP,
+	    https://goo.gl/HcsQwQ)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Rhitron">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The rhithron is the upstream portion of the river that follows the
+	    crenon. It has relatively cool temperatures, high oxygen levels,
+	    and fast, turbulent, swift flow (WP, https://goo.gl/HcsQwQ).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Potamon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The potamon is the remaining downstream stretch of river. It has
+	    warmer temperatures, lower oxygen levels, slow flow and sandier
+	    bottoms (WP, https://goo.gl/HcsQwQ).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="VerticalRiverZone">
@@ -6190,10 +6543,42 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Floodplain"/>
-      <xs:enumeration value="River Bank"/>
-      <xs:enumeration value="River Water"/>
-      <xs:enumeration value="River Bed"/>
+      <xs:enumeration value="Floodplain">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A floodplain or flood plain is an area of land adjacent to a stream
+	    or river that stretches from the banks of its channel to the base
+	    of the enclosing valley walls and experiences flooding during
+	    periods of high discharge. It includes the floodway, which consists
+	    of the stream channel and adjacent areas that actively carry flood
+	    flows downstream, and the flood fringe, which are areas inundated
+	    by the flood, but which do not experience a strong current. In
+	    other words, a floodplain is an area near a river or a stream which
+	    floods when the water level reaches flood stage.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="River Bank">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The banks of the river channel
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="River Water">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	   The water from a river
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="River Bed">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	   The river bed
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="BenthicLakeZone">
@@ -6203,7 +6588,12 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Litoral"/>
+      <xs:enumeration value="Litoral">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <xs:enumeration value="Benthic"/>
       <xs:enumeration value="Profundal"/>
     </xs:restriction>
