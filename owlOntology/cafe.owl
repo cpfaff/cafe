@@ -21,7 +21,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cafe">
 	<rdfs:comment xml:lang="en"> 
 	  The Cafe element is the root element of the Comprehensive Annotation
@@ -30,7 +29,6 @@
         <rdfs:label xml:lang="en">Cafe</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Object">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Cafe"/>
 	<rdfs:comment xml:lang="en"> 
@@ -41,7 +39,6 @@
         <rdfs:label xml:lang="en">Object</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Contexts">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Object"/>
 	<rdfs:comment xml:lang="en"> 
@@ -50,7 +47,6 @@
         <rdfs:label xml:lang="en">Contexts</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Context">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Contexts"/>
 	<rdfs:comment xml:lang="en"> 
@@ -60,7 +56,7 @@
 	</rdfs:comment>
         <rdfs:label xml:lang="en">Context</rdfs:label>
     </owl:Class>
-    
+
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TimeContext">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Context"/>
 	<!-- <owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#"/> -->
@@ -71,7 +67,6 @@
         <rdfs:label xml:lang="en">TimeContext</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TimeRanges">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimeContext"/>
         <!-- <owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TheConcept"/> -->
@@ -81,7 +76,6 @@
         <rdfs:label xml:lang="en">TimeRanges</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TimeRange">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimeRanges"/>
         <!-- <owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TheConcept"/> -->
@@ -93,7 +87,6 @@
         <rdfs:label xml:lang="en">TimeRange</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#RangeStart">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimeRange"/>
         <!-- <owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TheConcept"/> -->
@@ -105,7 +98,6 @@
         <rdfs:label xml:lang="en">RangeStart</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTime">
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#RangeEnd"/>
         <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#RangeStart"/>
@@ -134,7 +126,6 @@
         <rdfs:label xml:lang="en">DateTime</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#date">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTime"/>
         <owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#time"/>
@@ -145,7 +136,6 @@
         <rdfs:label xml:lang="en">date</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#time">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTime"/>
         <owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#date"/>
@@ -156,7 +146,6 @@
         <rdfs:label xml:lang="en">time</rdfs:label>
     </owl:Class>
 
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#timezone">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#DateTime"/>
         <owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#date"/>
@@ -167,9 +156,8 @@
 	</rdfs:comment>
         <rdfs:label xml:lang="en">timezone</rdfs:label>
     </owl:Class>
+ 
 
-
-    
     <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#RangeEnd">
 	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimeRange"/>
         <!-- <owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TheConcept"/> -->
@@ -181,5 +169,120 @@
         <rdfs:label xml:lang="en">RangeEnd</rdfs:label>
     </owl:Class>
 
-</rdf:RDF>
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TimePeriods">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimeContext"/>
+	<owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimeRanges"/>
+	<rdfs:comment xml:lang="en"> 
+	    The time periods is a wrapper that can contain all sorts of time
+	    periods that reference the temporal context of the search object.
+	</rdfs:comment>
+        <rdfs:label xml:lang="en">TimePeriods</rdfs:label>
+    </owl:Class>
 
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TimePeriod">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimePeriods"/>
+	<rdfs:comment xml:lang="en"> 
+	    The time period contains one possible time period describing the
+	    search object.
+	</rdfs:comment>
+        <rdfs:label xml:lang="en">TimePeriod</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimePeriod"/>
+	<rdfs:comment xml:lang="en"> 
+	    The geological age is a container that holds one of the possible
+	    geological ages which is relevant for describing the search object.
+	    e.g. a sample that comes from the ordovician time period.
+	</rdfs:comment>
+        <rdfs:label xml:lang="en">GeologicalTimePeriod</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GeologicalEon">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
+	<rdfs:comment xml:lang="en"> 
+	    The geological eon contextualizing the search object. For example:
+	    Phanerozoic, Precambrian.
+	</rdfs:comment>
+        <rdfs:label xml:lang="en">GeologicalEon</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GeologicalEra">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
+	<rdfs:comment xml:lang="en"> 
+	    The geological era contextualizing the search object. For example:
+	    Cenozoic, Mesozoic, Paleozoic.
+	</rdfs:comment>
+        <rdfs:label xml:lang="en">GeologicalEra</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GeologicalPeriod">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
+	<rdfs:comment xml:lang="en"> 
+	    The geological period contextualizing the search object. For
+	    example: Quaternary, Neogene, Paleogene.
+	</rdfs:comment>
+        <rdfs:label xml:lang="en">GeologicalPeriod</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GeologicalEpoch">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
+	<rdfs:comment xml:lang="en">
+	    The geological epoch contextualizing the search object. For
+	    example: Holocene, Pleistocene, Pilocene.
+	</rdfs:comment>
+	<rdfs:label xml:lang="en">GeologicalEpoch</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GeologicalAge">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
+	<rdfs:comment xml:lang="en">
+	    The geological age contextualizing the search object. For example:
+	    Calabrian, Gelasian, Piacenzian.
+	</rdfs:comment>
+	<rdfs:label xml:lang="en">GeologicalAge</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalResolutions">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimeContext"/>
+	<owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimePeriods"/>
+	<owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TimeRanges"/>
+	<rdfs:comment xml:lang="en">
+	    A wrapper around temporal aspects describing the temporal
+	    resolution of the search object.
+	</rdfs:comment>
+	<rdfs:label xml:lang="en">TemporalResolutions</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalResolution">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalResolutions"/>
+	<rdfs:comment xml:lang="en">
+	    The temporal resolution caputres the temporal aspects of the setup
+	    or study the search object comes from.
+	</rdfs:comment>
+	<rdfs:label xml:lang="en">TemporalResolution</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalExtentType">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalResolution"/>
+	<owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalResolutionType"/>
+	<rdfs:comment xml:lang="en">
+	    The temporal extent type is a categorical value that describes the extent of
+	    the setup the search object comes from (e.g. Second, Minute, Hour, Day, Week,
+	    ...).
+	</rdfs:comment>
+	<rdfs:label xml:lang="en">TemporalExtentType</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalResolutionType">
+	<rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalResolution"/>
+	<owl:disjointWith rdf:resource="http://terminologies.gfbio.org/terms/cafe#TemporalExtentType"/>
+	<rdfs:comment xml:lang="en">
+	    The temporal resolution is a categorical value that describes the resolution of
+	    the setup the search object comes from (e.g. Second, Minute, Hour, Day, Week,
+	    ...).
+	</rdfs:comment>
+	<rdfs:label xml:lang="en">TemporalResolutionType</rdfs:label>
+    </owl:Class>
+
+</rdf:RDF>
