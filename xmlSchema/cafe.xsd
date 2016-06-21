@@ -5695,6 +5695,7 @@
       <xs:maxInclusive value="90"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="EastBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5706,6 +5707,7 @@
       <xs:maxInclusive value="180"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="WestBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5717,6 +5719,7 @@
       <xs:maxInclusive value="180"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ElevationUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5762,6 +5765,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ElevationDatum">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Mean Sealevel"/>
@@ -5769,6 +5773,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="UtmCoordinateHemisphere">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5780,6 +5785,7 @@
       <xs:enumeration value="S"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="UtmCoordinateUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5813,6 +5819,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="UtmCoordinateGeodeticDatum">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5824,6 +5831,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="LocationType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="City">
@@ -6162,6 +6170,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ContinentName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6305,6 +6314,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SpatialResolutionType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Point">
@@ -6344,6 +6354,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="AtmosphereLayerName">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Troposphere">
@@ -6498,6 +6509,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="LongitudinalRiverZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6536,6 +6548,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="VerticalRiverZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6554,14 +6567,15 @@
 	    flows downstream, and the flood fringe, which are areas inundated
 	    by the flood, but which do not experience a strong current. In
 	    other words, a floodplain is an area near a river or a stream which
-	    floods when the water level reaches flood stage.
+	    floods when the water level reaches flood stage (WP,
+	    https://goo.gl/a9SZV0).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="River Bank">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The banks of the river channel
+	    The banks of a river
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -6581,6 +6595,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="BenthicLakeZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6591,13 +6606,44 @@
       <xs:enumeration value="Litoral">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
+	    The littoral zone is the part of a sea, lake or river that is close
+	    to the shore. In coastal environments the littoral zone extends
+	    from the high water mark, which is rarely inundated, to shoreline
+	    areas that are permanently submerged (WP, https://goo.gl/S0iKd5)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Benthic"/>
-      <xs:enumeration value="Profundal"/>
+      <xs:enumeration value="Benthic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The benthic zone is the ecological region at the lowest level of a body
+	    of water such as an ocean or a lake, including the sediment surface and
+	    some sub-surface layers. Organisms living in this zone are called
+	    benthos, e.g. the benthic invertebrate community, including crustaceans
+	    and polychaetes. The organisms generally live in close relationship
+	    with the substrate bottom and many are permanently attached to the
+	    bottom. The superficial layer of the soil lining the given body of
+	    water, the benthic boundary layer, is an integral part of the benthic
+	    zone, as it greatly influences the biological activity that takes place
+	    there. Examples of contact soil layers include sand bottoms, rocky
+	    outcrops, coral, and bay mud (WP, https://goo.gl/jn0AVM)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Profundal">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The profundal zone is a deep zone of an inland body of freestanding
+	    water, such as a lake or pond, located below the range of effective
+	    light penetration. This is typically below the thermocline, the
+	    vertical zone in the water through which temperature drops rapidly
+	    (WP, https://goo.gl/VCovHK).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="PelagicLakeZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6605,11 +6651,33 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Epilimnion"/>
-      <xs:enumeration value="Metalimnion"/>
+      <xs:enumeration value="Epilimnion">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The epilimnion or surface layer is the top-most layer in a
+	    thermally stratified lake, occurring above the deeper hypolimnion.
+	    It is warmer and typically has a higher pH and higher dissolved
+	    oxygen concentration than the hypolimnion (WP,
+	    https://goo.gl/wmErNA)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Metalimnion">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A thermocline (sometimes metalimnion in lakes) is a thin but
+	    distinct layer in a large body of fluid (e.g. water, such as an
+	    ocean or lake, or air, such as an atmosphere) in which temperature
+	    changes more rapidly with depth than it does in the layers above or
+	    below. In the ocean, the thermocline divides the upper mixed layer
+	    from the calm deep water below (WP, https://goo.gl/b0vqZM).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <xs:enumeration value="Hypolimnion"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="BenthicSeaZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6617,14 +6685,64 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Litoral"/>
-      <xs:enumeration value="Neritic"/>
-      <xs:enumeration value="Bathyal"/>
-      <xs:enumeration value="Bathyal"/>
-      <xs:enumeration value="Abyssal"/>
-      <xs:enumeration value="Hadal"/>
+      <xs:enumeration value="Litoral">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The littoral zone is the part of a sea, lake or river that is close
+	    to the shore. In coastal environments the littoral zone extends
+	    from the high water mark, which is rarely inundated, to shoreline
+	    areas that are permanently submerged (WP, https://goo.gl/S0iKd5)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Neritic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The neritic zone is the relatively shallow part of the ocean above
+	    the drop-off of the continental shelf, approximately 200 metres
+	    (660 ft) in depth. From the point of view of marine biology
+	    it forms a relatively stable and well-illuminated environment for
+	    marine life, from plankton up to large fish and corals, while
+	    physical oceanography sees it as where the oceanic system interacts
+	    with the coast (WP, https://goo.gl/mMyNAU).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Bathyal">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The bathyal zone or bathypelagic (also known as midnight zone) is
+	    the part of the pelagic zone that extends from a depth of 1000 to
+	    4000 meters (3300 to 13000 feet) below the ocean surface (WP,
+	    https://goo.gl/yHvRHV)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Abyssal">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The abyssal zone or abyssopelagic is a layer of the pelagic zone of
+	    the ocean. At depths of 4,000 to 6,000 metres (13,123 to 19,685
+	    feet), this zone remains in perpetual darkness and never receives
+	    daylight. These regions are also characterised by continuous cold
+	    and lack of nutrients. (WP, https://goo.gl/uMOJ5W)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Hadal">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The hadal zone, also known as the hadopelagic zone and trench zone,
+	    is the delineation for the deepest trenches in the ocean. This zone
+	    is found from a depth of around 6,000 metres (20,000 ft) to the
+	    bottom of the ocean. The hadal zone has low population and low
+	    diversity of marine life (WP, https://goo.gl/bpoViO).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="PelagicSeaZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6632,31 +6750,222 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Epipelagic"/>
-      <xs:enumeration value="Mesopelagic"/>
-      <xs:enumeration value="Bathypelagic"/>
-      <xs:enumeration value="Abyssopelagic"/>
-      <xs:enumeration value="Hadopelagic"/>
+      <xs:enumeration value="Epipelagic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The surface layer of the ocean is known as the epipelagic zone and
+	    extends from the surface to 200 meters (656 feet). It is also known
+	    as the sunlight zone because this is where most of the visible
+	    light exists. With the light come heat. This heat is responsible
+	    for the wide range of temperatures that occur in this zone (WP,
+	    http://goo.gl/Pr4sT)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Mesopelagic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Below the epipelagic zone is the mesopelagic zone, extending from
+	    200 meters (656 feet) to 1,000 meters (3,281 feet). The mesopelagic
+	    zone is sometimes referred to as the twilight zone or the midwater
+	    zone. The light that penetrates to this depth is extremely faint.
+	    It is in this zone that we begin to see the twinkling lights of
+	    bioluminescent creatures. A great diversity of strange and bizarre
+	    fishes can be found here (WP, http://goo.gl/Pr4sT).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Bathypelagic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    It is sometimes referred to as the midnight zone or the dark zone.
+	    This zone extends from 1,000 meters (3,281 feet) down to 4,000
+	    meters (13,124 feet). Here the only visible light is that produced
+	    by the creatures themselves. The water pressure at this depth is
+	    immense, reaching 5,850 pounds per square inch. In spite of the
+	    pressure, a surprisingly large number of creatures can be found
+	    here. Sperm whales can dive down to this level in search of food.
+	    Most of the animals that live at these depths are black or red in
+	    color due to the lack of light (WP, http://goo.gl/Pr4sT).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Abyssopelagic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The abyssopelagic zone, also known as the abyssal zone or simply as
+	    the abyss. It extends from 4,000 meters (13,124 feet) to 6,000
+	    meters (19,686 feet). The name comes from a Greek word meaning "no
+	    bottom". The water temperature is near freezing, and there is no
+	    light at all. Very few creatures can be found at these crushing
+	    depths. Most of these are invertebrates such as basket stars and
+	    tiny squids. Three-quarters of the ocean floor lies within this
+	    zone. The deepest fish ever discovered was found in the Puerto Rico
+	    Trench at a depth of 27,460 feet (8,372 meters)
+	    (WP, http://goo.gl/Pr4sT).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Hadopelagic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	     Beyond the abyssopelagic zone lies the forbidding hadalpelagic
+	     zone. This layer extends from 6,000 meters (19,686 feet) to the
+	     bottom of the deepest parts of the ocean. These areas are mostly
+	     found in deep water trenches and canyons. The deepest point in the
+	     ocean is located in the Mariana Trench off the coast of Japan at
+	     35,797 feet (10,911 meters). The temperature of the water is just
+	     above freezing, and the pressure is an incredible eight tons per
+	     square inch. That is approximately the weight of 48 Boeing 747
+	     jets. In spite of the pressure and temperature, life can still be
+	     found here. Invertebrates such as starfish and tube worms can
+	     thrive at these depths (WP, http://goo.gl/Pr4sT).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SoilHorizon">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	A name of a soil horizon
+	A soil horizon
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="O Horizon"/>
-      <xs:enumeration value="A Horizon"/>
-      <xs:enumeration value="E Horizon"/>
-      <xs:enumeration value="B Horizon"/>
-      <xs:enumeration value="C Horizon"/>
-      <xs:enumeration value="R Horizon"/>
-      <xs:enumeration value="L Horizon"/>
+      <xs:enumeration value="O Horizon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    This layer generally forms above the mineral soil or occurs in an
+	    organic soil profile. The "O" stands for organic matter. It is a
+	    surface layer dominated by the presence of large amounts of organic
+	    material derived from dead plant and/or animal residues which is in
+	    varying stages of decomposition. The O horizon is generally absent
+	    in grassland regions. The O horizon usually occurs in forested
+	    areas and is commonly referred to as the forest floor. The O
+	    horizon should be considered distinct from the layer of leaf litter
+	    covering many heavily vegetated areas, which contains no weathered
+	    mineral particles and is not part of the soil itself (WP,
+	    https://goo.gl/fHikwb)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="A Horizon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The A horizon is the topmost mineral horizon, often referred to as
+	    the 'topsoil'. This layer generally contains enough partially
+	    decomposed (humified) organic matter to give the soil a color
+	    darker than that of the lower horizons. The A horizons are often
+	    coarser in texture, having lost some of the finer materials by
+	    translocation to lower horizons and by erosion. This layer is known
+	    as the zone in which the most biological activity occurs. Soil
+	    organisms such as earthworms, potworms (enchytraeids), arthropods,
+	    nematodes, fungi, and many species of bacteria and archaea are
+	    concentrated here, often in close association with plant roots.
+	    Thus the A horizon may be referred to as the biomantle. However,
+	    since biological activity extends far deeper into the soil, it
+	    cannot be used as a chief distinguishing feature of an A horizon
+	    (WP, https://goo.gl/fHikwb).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="E Horizon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    "E", being short for eluviated, is most commonly used to label a
+	    horizon that has been significantly leached of clay, iron, and
+	    aluminum oxides, which leaves a concentration of resistant
+	    minerals, such as quartz, in the sand and silt sizes. These are
+	    present only in older, well-developed soils, and generally occur
+	    between the A and B horizons.The E horizon often has a pale color
+	    that is generally lighter in color than either the horizon above or
+	    below it. E horizons are commonly found in soils developed under
+	    forests, but are rare in soils developed under grasslands. In
+	    regions where this designation is not employed, leached layers are
+	    classified firstly as an A or B according to other characteristics,
+	    and then appended with the designation "e" (see the section below
+	    on horizon suffixes). In soils that contain gravels, due to animal
+	    bioturbation, a stonelayer commonly forms near or at the base of
+	    the E horizon (WP, https://goo.gl/fHikwb).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="B Horizon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    B horizons form below an O, A, or E horizon and they have undergone
+	    sufficient changes during soil genesis, such that the properties of
+	    their original parent material are no longer discernible. The B
+	    horizon is commonly referred to as the "subsoil". In humid regions,
+	    B horizons are the layers of maximum accumulation of materials such
+	    as silicate clays, iron (Fe) and aluminum (Al) oxides, and organic
+	    material. These materials typically accumulate through a process
+	    termed illuviation, wherein the materials gradually wash in from
+	    the overlying horizons. Accordingly, this layer is also referred to
+	    as the "illuviated" horizon or the "zone of accumulation". In
+	    addition, it is defined as having a distinctly different structure
+	    or consistency than the horizon(s) above and the horizon(s) below.
+	    The B horizon may also have stronger colors (higher chroma) than
+	    the A horizon. In arid and semiarid regions, calcium carbonate or
+	    calcium sulfate may accumulate in the B horizon (WP,
+	    https://goo.gl/fHikwb).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="C Horizon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The C horizon (parent material) is below the B Horizon. This layer
+	    is little affected by soil-forming processes and they thus have a
+	    lack of pedological development. In other words, the C horizon is
+	    the unconsolidated material underlying the solum (A and B
+	    horizons). It may or may not be the same as the parent material
+	    from which the solum formed. The C horizon forms as the R horizon
+	    weathers and rocks break up into smaller particles. The C horizon
+	    is below the zones of greatest biological activity and it has not
+	    been sufficiently altered by soil genesis to qualify as a B
+	    horizon. In dry regions, carbonates and gypsum may be concentrated
+	    in the C horizon. While loose enough to be dug with a shovel, C
+	    horizon material often retains some of the structural features of
+	    the parent rock or geologic deposits from which it formed. The A
+	    and B layers usually originated from the C horizon. The upper
+	    layers of the C horizon may in time become a part of the solum as
+	    weathering and erosion continue. The C Horizon may contain lumps or
+	    more likely large shelves of unweathered rock, rather than being
+	    made up solely of small fragments as in the solum. It contains
+	    rocks with cracks and crevices (WP, https://goo.gl/fHikwb).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="R Horizon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    R horizons are the layers of partially weathered bedrock at the
+	    base of the soil profile. Unlike the above layers, R horizons are
+	    composed largely of consolidated masses of hard rock that cannot be
+	    excavated by hand. Soils formed in situ will exhibit strong
+	    similarities to this bedrock layer (WP, https://goo.gl/fHikwb).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="L Horizon">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    L (limnic) horizons or layers indicate mineral or organic material
+	    that has been deposited in water by precipitation or through the
+	    actions of aquatic organisms. Included are coprogenous earth
+	    (sedimentary peat), diatomaceous earth, and marl; and is usually
+	    found as a remnant of past bodies of standing water (WP,
+	    https://goo.gl/fHikwb)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SoilDepthUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6701,6 +7010,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="integerPercent">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6712,6 +7022,7 @@
       <xs:maxInclusive value="100"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SoilMorphologyType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6768,16 +7079,16 @@
       <xs:enumeration value="Vertisols">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Soils with limitation to root growth. Alternating wet-dry conditions,
-	    schrink-swell clays (WRB, 2014).
+	    Soils with limitation to root growth. Alternating wet-dry
+	    conditions, schrink-swell clays (WRB, 2014).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Solonchaks">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Soils with limitation to root growth. High concentration of soluble salts (WRB,
-	    2014).
+	    Soils with limitation to root growth. High concentration of soluble
+	    salts (WRB, 2014).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -6974,6 +7285,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SoilAcidityType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7014,11 +7326,69 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Tree Layer"/>
-      <xs:enumeration value="Shrub Layer"/>
-      <xs:enumeration value="Herb Layer"/>
-      <xs:enumeration value="Moss Layer"/>
-      <xs:enumeration value="Ground Layer"/>
+      <xs:enumeration value="Tree Layer">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In biology, the canopy is the aboveground portion of a plant
+	    community or crop, formed by the collection of individual plant
+	    crowns. In forest ecology, canopy also refers to the upper layer or
+	    habitat zone, formed by mature tree crowns and including other
+	    biological organisms (epiphytes, lianas, arboreal animals, etc.).
+	    Sometimes the term canopy is used to refer to the extent of the
+	    outer layer of leaves of an individual tree or group of trees.
+	    Shade trees normally have a dense canopy that blocks light from
+	    lower growing plants (WP, https://goo.gl/N3yKtl)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Shrub Layer">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The shrub layer is the stratum of vegetation within a habitat with
+	    heights of between one and a half to about five metres. Young trees
+	    are also part of this layer. It may be divided into the first and
+	    second shrub layers (low and high bushes). The shrub layer needs
+	    sun and only a little moisture, unlike the moss layer, which
+	    requires a lot of water. This stratum only receives light filtered
+	    by the canopy. i.e. it is preferred by semi-shade or shade-loving
+	    plants that would not tolerate bright sunlight. In the shrub layer,
+	    which consists of young trees and bushes, birds like the blackbird,
+	    song thrush, robin or blackcap are at home. They build their nests
+	    protected in the bushes and are therefore referred to as bush
+	    nesters. In addition to shrubs, such as elder, hazel, hawthorn,
+	    raspberry and blackberry, clematis may also occur. At the edge of a
+	    wood, the shrub layer acts as a windbreak close to the trees and
+	    protects the soil from drying out (WP, https://goo.gl/7Xib0g).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Herb Layer">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The herbaceous stratum contains non-woody vegetation, or ground
+	    cover, growing in the forest with heights of up to about one and a
+	    half metres. The herbaceous layer consists of various herbaceous
+	    plants, grasses, dwarf shrubs (hemicryptophytes, geophytes,
+	    therophytes and chamaephytes) and young shrubs. In forests, early
+	    flowering plants appear first before the canopy fills out.
+	    Thereafter, the amount of light available to plants is
+	    significantly reduced and only those that are suited to such
+	    conditions can thrive. By contrast, grassland consists of moss and
+	    herbaceous layers. Sometimes, a shrub layer builds up as part of a
+	    process of reforestation (succession) (WP, https://goo.gl/7Xib0g).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Moss Layer">
+	Growing on the surface of the forest floor is vegetation of up to about
+	0.15 metres in height in what is variously described as a moss, soil or
+	cryptogam layer. The ground itself is covered by a layer of dead plant
+	and animal material. In this layer and the underlying few centimetres
+	of the topsoil live innumerable small soil organisms such as bacteria,
+	fungi, algae and microorganisms, which break down the dead organic
+	substances and work them into the soil. In places the ground is covered
+	by lichens and mosses.
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="VegetationHeightUnit">
@@ -7072,17 +7442,133 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Biome Level"/>
-      <xs:enumeration value="Ecosystem Level"/>
-      <xs:enumeration value="Population Level"/>
-      <xs:enumeration value="Organism Level"/>
-      <xs:enumeration value="System of Organs Level"/>
-      <xs:enumeration value="Organ Level"/>
-      <xs:enumeration value="Tissue Level"/>
-      <xs:enumeration value="Cell Level"/>
-      <xs:enumeration value="Cell Organelle Level"/>
-      <xs:enumeration value="Molecule Level"/>
-      <xs:enumeration value="Atmom Level"/>
+      <xs:enumeration value="Biome Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A biome is a formation of plants and animals that have common
+	    characteristics due to similar climates and can be found over a
+	    range of continents. Biomes are distinct from habitats, because any
+	    biome can comprise a variety of habitats (WP,
+	    https://goo.gl/g7Urx4).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Ecosystem Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    An ecosystem is a community of living organisms in conjunction with
+	    the nonliving components of their environment (things like air,
+	    water and mineral soil), interacting as a system. These biotic and
+	    abiotic components are regarded as linked together through nutrient
+	    cycles and energy flows. As ecosystems are defined by the network
+	    of interactions among organisms, and between organisms and their
+	    environment, they can be of any size but usually encompass
+	    specific, limited spaces (although some scientists say that the
+	    entire planet is an ecosystem). (WP, https://goo.gl/88BdbP)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Population Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A population is a summation of all the organisms of the same group
+	    or species, which live in a particular geographical area, and have
+	    the capability of interbreeding (WP, https://goo.gl/C2jF14).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Organism Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In biology, an organism is any contiguous living system, such as an
+	    animal, plant, fungus, or bacterium. All known types of organisms
+	    are capable of some degree of response to stimuli, reproduction,
+	    growth and development and homeostasis. An organism consists of one
+	    or more cells; when it has one cell it is known as a unicellular
+	    organism; and when it has more than one it is known as a
+	    multicellular organism. Most unicellular organisms are of
+	    microscopic size and are thus classified as microorganisms. Humans
+	    are multicellular organisms composed of many trillions of cells
+	    grouped into specialized tissues and organs (WP,
+	    https://goo.gl/bFZhq).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="System of Organs Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A system of organs
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Organ Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In biology, an organ or viscus is a collection of tissues joined in
+	    a structural unit to serve a common function. In anatomy, a viscus
+	    is an internal organ, and viscera is the plural form. (WP,
+	    https://goo.gl/nmTtNo)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Tissue Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In biology, tissue is a cellular organizational level intermediate
+	    between cells and a complete organ. A tissue is an ensemble of
+	    similar cells from the same origin that together carry out a
+	    specific function. Organs are then formed by the functional
+	    grouping together of multiple tissues (WP, https://goo.gl/9Ptii9).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Cell Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The cell (from Latin cella, meaning "small room") is the basic
+	    structural, functional, and biological unit of all known living
+	    organisms. A cell is the smallest unit of life that can replicate
+	    independently, and cells are often called the "building blocks of
+	    life". The study of cells is called cell biology (WP,
+	    https://goo.gl/O4nWY).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Cell Organelle Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In cell biology, an organelle is a specialized subunit within a
+	    cell that has a specific function. Individual organelles are
+	    usually separately enclosed within their own lipid bilayers (WP,
+	    https://goo.gl/Dn6aVN).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Molecule Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A molecule is an electrically neutral group of two or more atoms
+	    held together by chemical bonds. Molecules are
+	    distinguished from ions by their lack of electrical charge.
+	    However, in quantum physics, organic chemistry, and biochemistry,
+	    the term molecule is often used less strictly, also being applied
+	    to polyatomic ions (WP, https://goo.gl/iLvg0x).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Atmom Level">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    An atom is the smallest constituent unit of ordinary matter that
+	    has the properties of a chemical element. Every solid, liquid, gas,
+	    and plasma is composed of neutral or ionized atoms. Atoms are very
+	    small; typical sizes are around 100 pm (a ten-billionth of a meter,
+	    in the short scale). However, atoms do not have well-defined
+	    boundaries, and there are different ways to define their size that
+	    give different but close values (WP, https://goo.gl/5KGsN6).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="BiomeType">
@@ -7092,9 +7578,27 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Terrestrial"/>
-      <xs:enumeration value="Freshwater"/>
-      <xs:enumeration value="Marine"/>
+      <xs:enumeration value="Terrestrial">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Terrestrial situated biome
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Freshwater">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Freshwater situated biome
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Marine">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Marine situated biome
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="BiomeZone">
