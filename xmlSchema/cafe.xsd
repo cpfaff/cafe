@@ -100,6 +100,7 @@
 							      range (e.g. Europe/Berlin)
 							    </xs:documentation>
 							  </xs:annotation>
+
 							</xs:element>
 						      </xs:sequence>
 						    </xs:complexType>
@@ -7749,16 +7750,70 @@
   <xs:simpleType name="OroBiomeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	A type of oro biome
+	A type of oro biome. Altitudinal zonation in mountainous regions
+	describes the natural layering of ecosystems that occurs at distinct
+	altitudes due to varying environmental conditions. Temperature,
+	humidity, soil composition, and solar radiation are important factors
+	in determining altitudinal zones, which consequently support different
+	vegetation and animal species (WP, https://goo.gl/GQGR3m )
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Nivale"/>
-      <xs:enumeration value="Subalpine"/>
-      <xs:enumeration value="Alpine"/>
-      <xs:enumeration value="Montane"/>
-      <xs:enumeration value="Submontane"/>
-      <xs:enumeration value="Planar"/>
+      <xs:enumeration value="Nivale">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Covered in snow throughout most of the year. Vegetation is
+	    extremely limited to only a few species that thrive on silica
+	    soils (WP, https://goo.gl/GQGR3m).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Alpine">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The zone that stretches between the tree line and snowline
+	    (WP, https://goo.gl/GQGR3m)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Subalpine">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The subalpine zone is the biotic zone immediately below the tree
+	    line around the world. In tropical regions of Southeast Asia the
+	    tree line may be above 4,000 m (13,000 ft), whereas in Scotland
+	    it may be as low as 450 m (1,480 ft). Species that occur in
+	    this zone depend on the location of the zone on the Earth, for
+	    example, snow gum in Australia, or subalpine larch, mountain
+	    hemlock and subalpine fir in western North America (WP,
+	    https://goo.gl/ZvpVBf).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Montane">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Extends from the mid-altitude forests to the tree line. The exact level
+	    of the tree line varies with local climate, but typically the tree line
+	    is found where mean monthly soil temperatures never exceed 10.0 degrees
+	    C and the mean annual soil temperatures are around 6.7 degrees C. In
+	    the tropics, this region is typified by montane rain forest (above
+	    3,000 ft) while at higher latitudes coniferous forests often dominate
+	    (WP, https://goo.gl/ZvpVBf).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Planar">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    This lowest section of mountains varies distinctly across climates
+	    and is referred to by a wide range of names depending on the
+	    surrounding landscape. Colline zones are found in tropical regions
+	    and Encinal zones and desert grasslands are found in desert regions
+	    (WP, https://goo.gl/ZvpVBf).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="PedoBiomeType">
@@ -7768,13 +7823,59 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Amphibiome"/>
-      <xs:enumeration value="Halobiome"/>
-      <xs:enumeration value="Helobiome"/>
-      <xs:enumeration value="Hydrobiome"/>
-      <xs:enumeration value="Lithobiome"/>
-      <xs:enumeration value="Peinobiome"/>
-      <xs:enumeration value="Psammobiome"/>
+      <xs:enumeration value="Amphibiome">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Amphibiomes are pedobiomes with changing wet or temporarily flooded
+	    soils.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Halobiome">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Halobiomes are pedobiomes with salty soils
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Helobiome">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Helobiomes are pedobiomes with soils containing a high amount of
+	    humus (moor)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Hydrobiome">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Hydrobiomes are pedobiomes where the soil is continously under
+	    water.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Lithobiome">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Lithobiomes are pedobiomes where the soil is characterized by
+	    skelletal stone structures.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Peinobiome">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Peinobiomes are pedobiomes with nutrient-poor soils.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Psammobiome">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Psammobiomes are pedobiomes whith sandy soils (e.g. dunes)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="TerrestrialPhysiognomyType">
@@ -7912,13 +8013,71 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Mire"/>
-      <xs:enumeration value="Bog"/>
-      <xs:enumeration value="Fan"/>
-      <xs:enumeration value="Saltmarsh"/>
+      <xs:enumeration value="Mire">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A mire or quagmire, sometimes called a peatland, is a wetland
+	    terrain without forest cover dominated by living, peat-forming
+	    plants. For botanists and ecologists, the term peatland is a more
+	    general term for any terrain dominated by peat to a depth of at
+	    least 30 cm (12 in), even if it has been completely drained (i.e.,
+	    a peatland can be dry, but a mire by definition must be wet)
+	    (WP, https://goo.gl/Viw6mV).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Bog">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A bog is a wetland that accumulates peat, a deposit of dead plant
+	    material—often mosses, and in a majority of cases, sphagnum
+	    moss. It is one of the four main types of wetlands. Other names
+	    for bogs include mire, quagmire, and muskeg; alkaline mires are
+	    called fens. They are frequently covered in ericaceous shrubs
+	    rooted in the sphagnum moss and peat. The gradual accumulation of
+	    decayed plant material in a bog functions as a carbon sink. (WP,
+	    https://goo.gl/RTPvv)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Fen">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A fen is one of the main types of wetland, the others being grassy
+	    marshes, forested swamps, and peaty bogs. Along with bogs, fens are
+	    a kind of mire. Fens are usually fed by mineral-rich surface water
+	    or groundwater. They are characterised by their water chemistry,
+	    which is pH neutral or alkaline, with relatively high dissolved
+	    mineral levels but few other plant nutrients. They are usually
+	    dominated by grasses and sedges, and typically have brown mosses in
+	    general including Scorpidium or Drepanocladus. Fens frequently
+	    have a high diversity of other plant species including carnivorous
+	    plants such as Pinguicula. They may also occur along large
+	    lakes and rivers where seasonal changes in water level maintain wet
+	    soils with few woody plants. The distribution of individual
+	    species of fen plants is often closely connected to water regimes
+	    and nutrient concentrations (WP, https://goo.gl/CyBBHb).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Saltmarsh">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A salt marsh or saltmarsh, also known as a coastal salt marsh or a
+	    tidal marsh, is a coastal ecosystem in the upper coastal intertidal
+	    zone between land and open salt water or brackish water that is
+	    regularly flooded by the tides. It is dominated by dense stands of
+	    salt-tolerant plants such as herbs, grasses, or low shrubs. These
+	    plants are terrestrial in origin and are essential to the stability
+	    of the salt marsh in trapping and binding sediments (WP,
+	    https://goo.gl/SgJHEb)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
+
   </xs:simpleType>
   <xs:simpleType name="PlantCharacterizedAquaticPhysiognomyType">
     <xs:annotation>
@@ -7975,14 +8134,125 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Estuary"/>
-      <xs:enumeration value="Kelp Forest"/>
-      <xs:enumeration value="Coral Reef"/>
-      <xs:enumeration value="Ocean Bank"/>
-      <xs:enumeration value="Strait"/>
-      <xs:enumeration value="Seamount"/>
-      <xs:enumeration value="Hydrothermal Vent"/>
-      <xs:enumeration value="Cold Seep"/>
+      <xs:enumeration value="Estuary">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    An estuary is a partially enclosed coastal body of brackish water
+	    with one or more rivers or streams flowing into it, and with a free
+	    connection to the open sea. Estuaries form a transition zone
+	    between river environments and maritime environments. They are
+	    subject both to marine influences—such as tides, waves, and the
+	    influx of saline water—and to riverine influences—such as flows of
+	    fresh water and sediment. The inflows of both sea water and fresh
+	    water provide high levels of nutrients both in the water column and
+	    in sediment, making estuaries among the most productive natural
+	    habitats in the world (WP, https://goo.gl/gcp6Pn)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Kelp Forest">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Kelp forests are underwater areas with a high density of kelp. They
+	    are recognized as one of the most productive and dynamic ecosystems
+	    on Earth. Smaller areas of anchored kelp are called kelp beds.
+	    Kelp forests occur worldwide throughout temperate and polar coastal
+	    oceans. In 2007, kelp forests were also discovered in tropical
+	    waters near Ecuador. Physically formed by brown macroalgae of
+	    the order Laminariales, kelp forests provide a unique
+	    three-dimensional habitat for marine organisms and are a source
+	    for understanding many ecological processes. Over the last century,
+	    they have been the focus of extensive research, particularly in
+	    trophic ecology, and continue to provoke important ideas that are
+	    relevant beyond this unique ecosystem. For example, kelp forests
+	    can influence coastal oceanographic patterns and provide many
+	    ecosystem services (WP, https://goo.gl/wtd9sP).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Coral Reef">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Coral reefs are diverse underwater ecosystems held together by
+	    calcium carbonate structures secreted by corals. Coral reefs are
+	    built by colonies of tiny animals found in marine waters that
+	    contain few nutrients. Most coral reefs are built from stony
+	    corals, which in turn consist of polyps that cluster in groups. The
+	    polyps belong to a group of animals known as Cnidaria, which also
+	    includes sea anemones and jellyfish. Unlike sea anemones, corals
+	    secrete hard carbonate exoskeletons which support and protect the
+	    coral polyps. Most reefs grow best in warm, shallow, clear, sunny
+	    and agitated waters (WP, https://goo.gl/dPY0Jv).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Ocean Bank">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    An ocean bank, sometimes referred to as a fishing bank or simply
+	    bank, is a part of the sea which is shallow compared to its
+	    surrounding area, such as a shoal or the top of an underwater hill.
+	    (WP, https://goo.gl/ZHMzUb).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Strait">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A strait is a naturally formed, narrow, typically navigable
+	    waterway that connects two larger bodies of water. It most commonly
+	    refers to a channel of water that lies between two land masses, but
+	    it may also refer to a body of water that is otherwise not
+	    navigable, for example because it is too shallow, or because it
+	    contains an unnavigable reef or archipelago (WP,
+	    https://goo.gl/x4fWKU)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Seamount">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A seamount is a mountain rising from the ocean seafloor that does
+	    not reach to the water's surface (sea level), and thus is not an
+	    island. Seamounts are typically formed from extinct volcanoes that
+	    rise abruptly and are usually found rising from the seafloor to
+	    1,000–4,000 metres (3,300–13,100 ft) in height. They are defined by
+	    oceanographers as independent features that rise to at least 1,000
+	    metres (3,281 ft) above the seafloor, characteristically of conical
+	    form. The peaks are often found hundreds to thousands of meters
+	    below the surface, and are therefore considered to be within the
+	    deep sea. During their evolution over geologic time, the largest
+	    seamounts may reach the sea surface where wave action erodes the
+	    summit to form a flat surface. After they have subsided and sunk
+	    below the sea surface such flat-top seamounts are called "guyots"
+	    or "tablemounts" (WP, https://goo.gl/JQayU5).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Hydrothermal Vent">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A hydrothermal vent is a fissure in a planet's surface from which
+	    geothermally heated water issues. Hydrothermal vents are commonly
+	    found near volcanically active places, areas where tectonic plates
+	    are moving apart, ocean basins, and hotspots (WP,
+	    https://goo.gl/eRMZXy)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Cold Seep">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A cold seep (sometimes called a cold vent) is an area of the ocean
+	    floor where hydrogen sulfide, methane and other hydrocarbon-rich
+	    fluid seepage occurs, often in the form of a brine pool. "Cold"
+	    does not mean that the temperature of the seepage is lower than
+	    that of the surrounding sea water. On the contrary, its temperature
+	    is often slightly higher. Cold seeps constitute a biome
+	    supporting several endemic species (WP, https://goo.gl/okK26y)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
@@ -8025,10 +8295,68 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Agriculture"/>
-      <xs:enumeration value="Agroforestry"/>
-      <xs:enumeration value="Forestry"/>
-      <xs:enumeration value="Aquaculture"/>
+      <xs:enumeration value="Agriculture">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Agriculture is the cultivation of animals, plants and fungi for
+	    food, fiber, biofuel, medicinal plants and other products used to
+	    sustain and enhance human life (WP, https://goo.gl/HWul0C).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Agroforestry">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Agroforestry or agro-sylviculture is a land use management system
+	    in which trees or shrubs are grown around or among crops or
+	    pastureland. It combines shrubs and trees in agricultural and
+	    forestry technologies to create more diverse, productive,
+	    profitable, healthy, ecologically sound, and sustainable land-use
+	    systems (WP, https://goo.gl/4yyFxT).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Forestry">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Forestry is the science and craft of creating, managing, using,
+	    conserving, and repairing forests and associated resources to meet
+	    desired goals, needs, and values for human and environment
+	    benefits. Forestry is practiced in plantations and natural
+	    stands. The science of forestry has elements that belong to the
+	    biological, physical, social, political and managerial sciences
+	    (WP, https://goo.gl/cOr6zu).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Aquaculture">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Aquaculture, also known as aquafarming, is the farming of aquatic
+	    organisms such as fish, crustaceans, molluscs and aquatic
+	    plants. Aquaculture involves cultivating freshwater and
+	    saltwater populations under controlled conditions, and can be
+	    contrasted with commercial fishing, which is the harvesting of wild
+	    fish (WP, https://goo.gl/GMCNbS).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Fishery">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Generally, a fishery is an entity engaged in raising or harvesting
+	    fish which is determined by some authority to be a fishery.
+	    According to the FAO, a fishery is typically defined in terms of
+	    the "people involved, species or type of fish, area of water or
+	    seabed, method of fishing, class of boats, purpose of the
+	    activities or a combination of the foregoing features". The
+	    definition often includes a combination of fish and fishers in a
+	    region, the latter fishing for similar species with similar gear
+	    types (WP, https://goo.gl/SPBFxk).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
@@ -8040,8 +8368,23 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Adaptation"/>
-      <xs:enumeration value="Speciation"/>
+      <xs:enumeration value="Adaptation">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Adaptation, in biology, is the process whereby a population becomes
+	    better suited to its habitat (WP, https://goo.gl/Sw5hav).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Speciation">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Speciation is the evolutionary process by which reproductively
+	    isolated biological populations evolve to become distinct species
+	    (WP, https://goo.gl/CcIB7y).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <xs:enumeration value="Extinction"/>
       <xs:enumeration value="Birth"/>
       <xs:enumeration value="Growth"/>
@@ -8076,7 +8419,7 @@
   <xs:simpleType name="ProcessSubject">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	The type of focus of a process.
+	The focus of a process.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
@@ -8098,108 +8441,109 @@
       <xs:enumeration value="Motion">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Motion comprises all sorts of motion process types like for example the uptake,
-	    release, exchange or movement.
+	    Motion comprises all sorts of motion process types like for example
+	    the uptake, release, exchange or movement.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Uptake">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies transport processes with a focus on an uptake. This could be
-	    for example nutrient uptake.
+	    This classifies transport processes with a focus on an uptake. This
+	    could be for example nutrient uptake.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Release">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies transport processes with a focus on a release. This could be
-	    the release of nutrients in the process of decomposition.
+	    This classifies transport processes with a focus on a release. This
+	    could be the release of nutrients in the process of decomposition.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Exchange">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies transport processes whith a focus on an exchange. This could be
-	    for example the exchange of gases between the surface of the sea and the
-	    atmosphere.
+	    This classifies transport processes whith a focus on an exchange.
+	    This could be for example the exchange of gases between the surface
+	    of the sea and the atmosphere.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Movement">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies transport processes with a focus on a movement. This could be
-	    for example the particle transport in surface runof or the movemnt of energy
-	    with ocean currents.
+	    This classifies transport processes with a focus on a movement.
+	    This could be for example the particle transport in surface runof
+	    or the movemnt of energy with ocean currents.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Transport">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Transport active movements of matter and energy that appear across all scales
-	    of ecological interest. For example like soil particles in surface runoff or
-	    seeds dispersal for exmaple by birds.
+	    Transport active movements of matter and energy that appear across
+	    all scales of ecological interest. For example like soil particles
+	    in surface runoff or seeds dispersal for exmaple by birds.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Change">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Change embraces all sorts of change types like the removal the addition the
-	    increase the crease.
+	    Change embraces all sorts of change types like the removal the
+	    addition the increase the crease.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Removal">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies as transformation with the focus of a removal. This could be
-	    water purification for example. Removal [AB] -> [A]
+	    This classifies as transformation with the focus of a removal. This
+	    could be water purification for example. Removal [AB] -> [A]
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Addition">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies transformation processes with a focus on an addition.This could
-	    be pollution. Addition [A] -> [AB]
+	    This classifies transformation processes with a focus on an
+	    addition.This could be pollution. Addition [A] -> [AB]
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Increase">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Tis classifies a transformation processes where the focus is on an increase.
-	    This could be for example the growth of a tree. Or the increase of a
-	    population. Increase (a to A)
+	    Tis classifies a transformation processes where the focus is on an
+	    increase. This could be for example the growth of a tree. Or the
+	    increase of a population. Increase (a to A)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Decrease">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies a transformation process where the focus in on a decrease. This
-	    could be for example habitat loss. Decrease (A to a)
+	    This classifies a transformation process where the focus in on a
+	    decrease. This could be for example habitat loss. Decrease (A to a)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Transition">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies a transformation process where the focus is on a transition.
-	    This could be for example successsion in a forest. Transition (A to B)
+	    This classifies a transformation process where the focus is on a
+	    transition. This could be for example successsion in a forest.
+	    Transition (A to B)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Conversion">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This classifies a transformation process where the focus in on a conversion.
-	    Conversion (AB to/from B + A)
+	    This classifies a transformation process where the focus in on a
+	    conversion. Conversion (AB to/from B + A)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -8217,44 +8561,49 @@
       <xs:enumeration value="Plantae">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Plants, also called green plants, are multicellular eukaryotes of the kingdom
-	    Plantae. They form an unranked clade Viridiplantae that includes the flowering
-	    plants, conifers and other gymnosperms, ferns, clubmosses, hornworts,
-	    liverworts, mosses and the green algae (WP, https://goo.gl/3ro18) This group of
-	    interaction partners is not taxonomically correct and compared to green plants
-	    also includes red and brown algae.
+	    Plants, also called green plants, are multicellular eukaryotes of
+	    the kingdom Plantae. They form an unranked clade Viridiplantae that
+	    includes the flowering plants, conifers and other gymnosperms,
+	    ferns, clubmosses, hornworts, liverworts, mosses and the green
+	    algae (WP, https://goo.gl/3ro18) This group of interaction partners
+	    is not taxonomically correct and compared to green plants also
+	    includes red and brown algae.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Animalia">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Animals are multicellular, eukaryotic organisms of the kingdom Animalia (also
-	    called Metazoa). All animals are motile, meaning they can move spontaneously
-	    and independently, at some point in their lives. Their body plan eventually
-	    becomes fixed as they develop, although some undergo a process of metamorphosis
-	    later on in their lives. All animals are heterotrophs: they must ingest other
-	    organisms or their products for sustenance (WP, https://goo.gl/u2bGdR)
+	    Animals are multicellular, eukaryotic organisms of the kingdom
+	    Animalia (also called Metazoa). All animals are motile, meaning
+	    they can move spontaneously and independently, at some point in
+	    their lives. Their body plan eventually becomes fixed as they
+	    develop, although some undergo a process of metamorphosis later on
+	    in their lives. All animals are heterotrophs: they must ingest
+	    other organisms or their products for sustenance (WP,
+	    https://goo.gl/u2bGdR)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Fungi">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A fungus [...] is any member of the group of eukaryotic organisms that includes
-	    unicellular microorganisms such as yeasts and molds, as well as multicellular
-	    fungi that produce familiar fruiting forms known as mushrooms. These organisms
-	    are classified as a kingdom, Fungi, which is separate from the other life
-	    kingdoms of plants, animals, protists, and bacteria (WP, https://goo.gl/gN6qZQ)
+	    A fungus [...] is any member of the group of eukaryotic organisms
+	    that includes unicellular microorganisms such as yeasts and molds,
+	    as well as multicellular fungi that produce familiar fruiting forms
+	    known as mushrooms. These organisms are classified as a kingdom,
+	    Fungi, which is separate from the other life kingdoms of plants,
+	    animals, protists, and bacteria (WP, https://goo.gl/gN6qZQ)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Bacteria">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Bacteria [...] constitute a large domain of prokaryotic microorganisms.
-	    Typically a few micrometres in length, bacteria have a number of shapes,
-	    ranging from spheres to rods and spirals (WP, https://goo.gl/4JbsxA)
+	    Bacteria [...] constitute a large domain of prokaryotic
+	    microorganisms. Typically a few micrometres in length, bacteria
+	    have a number of shapes, ranging from spheres to rods and spirals
+	    (WP, https://goo.gl/4JbsxA)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -8262,53 +8611,55 @@
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    The Archaea [...] constitute a domain or kingdom of single-celled
-	    microorganisms. These microbes are prokaryotes, meaning that they have no cell
-	    nucleus or any other membrane-bound organelles in their cells (WP,
-	    https://goo.gl/8boHS)
+	    microorganisms. These microbes are prokaryotes, meaning that they
+	    have no cell nucleus or any other membrane-bound organelles in
+	    their cells (WP, https://goo.gl/8boHS)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Chromista">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The Chromista are a eukaryotic supergroup, probably polyphyletic, which may be
-	    treated as a separate kingdom or included among the Protista. They include all
-	    algae whose chloroplasts contain chlorophylls a and c, as well as various
-	    colorless forms that are closely related to them. These chloroplasts are
-	    surrounded by four membranes, and are believed to have been acquired from some
-	    red algae (WP, https://goo.gl/oCxD5v)
+	    The Chromista are a eukaryotic supergroup, probably polyphyletic,
+	    which may be treated as a separate kingdom or included among the
+	    Protista. They include all algae whose chloroplasts contain
+	    chlorophylls a and c, as well as various colorless forms that are
+	    closely related to them. These chloroplasts are surrounded by four
+	    membranes, and are believed to have been acquired from some red
+	    algae (WP, https://goo.gl/oCxD5v)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Protozoa">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    In some systems of biological classification, the Protozoa are a diverse group
-	    of unicellular eukaryotic organisms. Historically, protozoa were defined as
-	    single-celled organisms with animal-like behaviors, such as motility and
-	    predation. The group was regarded as the zoological counterpart to the
-	    "protophyta", which were considered to be plant-like, as they are capable of
-	    photosynthesis. The terms protozoa and protozoans are also used informally to
-	    designate single-celled, non-photosynthetic protists, such as ciliates, amoebae
-	    and flagellates (WP, https://goo.gl/zrsJQQ )
+	    In some systems of biological classification, the Protozoa are a
+	    diverse group of unicellular eukaryotic organisms. Historically,
+	    protozoa were defined as single-celled organisms with animal-like
+	    behaviors, such as motility and predation. The group was regarded
+	    as the zoological counterpart to the "protophyta", which were
+	    considered to be plant-like, as they are capable of photosynthesis.
+	    The terms protozoa and protozoans are also used informally to
+	    designate single-celled, non-photosynthetic protists, such as
+	    ciliates, amoebae and flagellates (WP, https://goo.gl/zrsJQQ )
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Viruses">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A virus is a small infectious agent that replicates only inside the living
-	    cells of other organisms. Viruses can infect all types of life forms, from
-	    animals and plants to microorganisms, including bacteria and archaea (WP,
-	    https://goo.gl/L9Gyc)
+	    A virus is a small infectious agent that replicates only inside the
+	    living cells of other organisms. Viruses can infect all types of
+	    life forms, from animals and plants to microorganisms, including
+	    bacteria and archaea (WP, https://goo.gl/L9Gyc)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Environment">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The environment as interaction partner represents an interaction with any
-	    abiotic factor (temperature, resources, ...)
+	    The environment as interaction partner represents an interaction
+	    with any abiotic factor (temperature, resources, ...)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -8319,38 +8670,41 @@
   <xs:simpleType name="InteractionDirection">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	A direction type for an interaction. It is obvious that real world interactions
-	are more complex than experimentally observed ones. Thus the interaction
-	direction aks for the focus of the study not for a estimation on how the
-	interaction partners stand to each other in the real world.
+	A direction type for an interaction. It is obvious that real world
+	interactions are more complex than experimentally observed ones. Thus
+	the interaction direction aks for the focus of the study not for a
+	estimation on how the interaction partners stand to each other in the
+	real world.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:enumeration value="Affects">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Affects means that the first interaction partner was observed acting on the
-	    second or having an effect or impact on the second. This formulates statements
-	    like Animalia Affects Plant (e.g. herbivory).
+	    Affects means that the first interaction partner was observed
+	    acting on the second or having an effect or impact on the second.
+	    This formulates statements like Animalia Affects Plant (e.g.
+	    herbivory).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Is Affected By">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Is affected by means that the first interaction partner is affect by the second
-	    and that this is the focus of the study. This formulates statements like
-	    Plantae Is Affected By Virus (e.g. infection)
+	    Is affected by means that the first interaction partner is affect
+	    by the second and that this is the focus of the study. This
+	    formulates statements like Plantae Is Affected By Virus (e.g.
+	    infection)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Mutually Interacts">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The mutually interact means that both interactionn partners are mutually
-	    affecting each other and that this is the focus of thes study. This helps to
-	    formulate statements like Plant Mutually Interacts Animalia (Population
-	    Dynamics).
+	    The mutually interact means that both interactionn partners are
+	    mutually affecting each other and that this is the focus of thes
+	    study. This helps to formulate statements like Plant Mutually
+	    Interacts Animalia (Population Dynamics).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -8368,43 +8722,48 @@
       <xs:enumeration value="Neutralism">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Neutralism describes the relationship between two species that interact but do
-	    not affect each other. It describes interactions where the health of one
-	    species has absolutely no effect whatsoever on that of the other. Examples of
-	    true neutralism are virtually impossible to prove and most ecologists (as well
-	    as textbooks) would agree that this concept does not exist. When dealing with
-	    the complex networks of interactions presented by ecosystems, one cannot assert
-	    positively that there is absolutely no competition between or benefit to either
-	    species. However, the term is often used to describe situations where
-	    interactions are negligible or insignificant. (WP, https://goo.gl/WcofVJ)
+	    Neutralism describes the relationship between two species that
+	    interact but do not affect each other. It describes interactions
+	    where the health of one species has absolutely no effect whatsoever
+	    on that of the other. Examples of true neutralism are virtually
+	    impossible to prove and most ecologists (as well as textbooks)
+	    would agree that this concept does not exist. When dealing with the
+	    complex networks of interactions presented by ecosystems, one
+	    cannot assert positively that there is absolutely no competition
+	    between or benefit to either species. However, the term is often
+	    used to describe situations where interactions are negligible or
+	    insignificant. (WP, https://goo.gl/WcofVJ)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Amensalism">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Amensalism is an interaction where an organism inflicts harm to another
-	    organism without any costs or benefits received by itself. A clear case of
-	    amensalism is where sheep or cattle trample grass. Whilst the presence of the
-	    grass causes negligible detrimental effects to the animal's hoof, the grass
-	    suffers from being crushed. Amensalism is often used to describe strongly
-	    asymmetrical competitive interactions, such as has been observed between the
-	    Spanish ibex and weevils of the genus Timarcha which feed upon the same type of
-	    shrub. Whilst the presence of the weevil has almost no influence on food
-	    availability, the presence of ibex has an enormous detrimental effect on weevil
-	    numbers, as they consume significant quantities of plant matter and
-	    incidentally ingest the weevils upon it (WP, https://goo.gl/WcofVJ).
+	    Amensalism is an interaction where an organism inflicts harm to
+	    another organism without any costs or benefits received by itself.
+	    A clear case of amensalism is where sheep or cattle trample grass.
+	    Whilst the presence of the grass causes negligible detrimental
+	    effects to the animal's hoof, the grass suffers from being crushed.
+	    Amensalism is often used to describe strongly asymmetrical
+	    competitive interactions, such as has been observed between the
+	    Spanish ibex and weevils of the genus Timarcha which feed upon the
+	    same type of shrub. Whilst the presence of the weevil has almost no
+	    influence on food availability, the presence of ibex has an
+	    enormous detrimental effect on weevil numbers, as they consume
+	    significant quantities of plant matter and incidentally ingest the
+	    weevils upon it (WP, https://goo.gl/WcofVJ).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Commensalism">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Commensalism benefits one organism and the other organism is neither benefited
-	    nor harmed. It occurs when one organism takes benefits by interacting with
-	    another organism by which the host organism is not affected. A good example is
-	    a remora living with a shark. Remoras eat leftover food from the shark. The
-	    shark is not affected in the process, as remoras eat only leftover food of the
+	    Commensalism benefits one organism and the other organism is
+	    neither benefited nor harmed. It occurs when one organism takes
+	    benefits by interacting with another organism by which the host
+	    organism is not affected. A good example is a remora living with a
+	    shark. Remoras eat leftover food from the shark. The shark is not
+	    affected in the process, as remoras eat only leftover food of the
 	    shark, which does not deplete the shark's resources (WP,
 	    https://goo.gl/WcofVJ).
 	  </xs:documentation>
@@ -8413,28 +8772,31 @@
       <xs:enumeration value="Mutualism">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Mutualism is an interaction between two or more species, where species derive a
-	    mutual benefit, for example an increased carrying capacity. Similar
-	    interactions within a species are known as co-operation. Mutualism may be
-	    classified in terms of the closeness of association, the closest being
-	    symbiosis, which is often confused with mutualism. One or both species involved
-	    in the interaction may be obligate, meaning they cannot survive in the short or
-	    long term without the other species. Though mutualism has historically received
-	    less attention than other interactions such as predation, it is very important
-	    subject in ecology. Examples include cleaner fish, pollination and seed
-	    dispersal, gut flora, Müllerian mimicry and nitrogen fixation by bacteria in
-	    the root nodules of legumes (WP, https://goo.gl/WcofVJ).
+	    Mutualism is an interaction between two or more species, where
+	    species derive a mutual benefit, for example an increased carrying
+	    capacity. Similar interactions within a species are known as
+	    co-operation. Mutualism may be classified in terms of the closeness
+	    of association, the closest being symbiosis, which is often
+	    confused with mutualism. One or both species involved in the
+	    interaction may be obligate, meaning they cannot survive in the
+	    short or long term without the other species. Though mutualism has
+	    historically received less attention than other interactions such
+	    as predation, it is very important subject in ecology. Examples
+	    include cleaner fish, pollination and seed dispersal, gut flora,
+	    Müllerian mimicry and nitrogen fixation by bacteria in the root
+	    nodules of legumes (WP, https://goo.gl/WcofVJ).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Competition">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Competition can be defined as an interaction between organisms or species, in
-	    which the fitness of one is lowered by the presence of another. Limited supply
-	    of at least one resource (such as food, water, and territory) used by both
-	    usually facilitates this type of interaction, although the competition may also
-	    exist over other 'amenities', such as females for reproduction (in case of male
+	    Competition can be defined as an interaction between organisms or
+	    species, in which the fitness of one is lowered by the presence of
+	    another. Limited supply of at least one resource (such as food,
+	    water, and territory) used by both usually facilitates this type of
+	    interaction, although the competition may also exist over other
+	    'amenities', such as females for reproduction (in case of male
 	    organisms of the same species) (WP, https://goo.gl/WcofVJ).
 	  </xs:documentation>
 	</xs:annotation>
@@ -8442,17 +8804,20 @@
       <xs:enumeration value="Antagonism">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    In antagonistic interactions, one species benefits at the expense of another.
-	    Predation is an interaction between organisms in which one organism captures
-	    biomass from another. It is often used as a synonym for carnivory but in its
-	    widest definition includes all forms of one organism eating another, regardless
-	    of trophic level (e.g., herbivory), closeness of association (e.g., parasitism
-	    and parasitoidism) and harm done to prey (e.g., grazing). Intraguild predation
-	    occurs when an organism preys upon another of different species but at the same
-	    trophic level (e.g., coyotes kill and ingest gray foxes in southern
-	    California). Batesian mimicry is also an antagonistic interaction, where one
-	    species has evolved to mimic another, to the advantage of the copying species
-	    but to the detriment of the species being mimicked (WP, https://goo.gl/WcofVJ).
+	    In antagonistic interactions, one species benefits at the expense
+	    of another. Predation is an interaction between organisms in which
+	    one organism captures biomass from another. It is often used as a
+	    synonym for carnivory but in its widest definition includes all
+	    forms of one organism eating another, regardless of trophic level
+	    (e.g., herbivory), closeness of association (e.g., parasitism and
+	    parasitoidism) and harm done to prey (e.g., grazing). Intraguild
+	    predation occurs when an organism preys upon another of different
+	    species but at the same trophic level (e.g., coyotes kill and
+	    ingest gray foxes in southern California). Batesian mimicry is also
+	    an antagonistic interaction, where one species has evolved to mimic
+	    another, to the advantage of the copying species but to the
+	    detriment of the species being mimicked (WP,
+	    https://goo.gl/WcofVJ).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -8460,6 +8825,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ElementName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9413,6 +9779,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="IsotopeName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9496,6 +9863,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="CompoundClass">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -10580,46 +10948,82 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Repellent"/>
-      <xs:enumeration value="Reservoir"/>
-      <xs:enumeration value="Stimulator"/>
-      <xs:enumeration value="Structure"/>
+      <xs:enumeration value="Repellent">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    An insect repellent (also commonly called "bug spray") is a
+	    substance applied to skin, clothing, or other surfaces which
+	    discourages insects (and arthropods in general) from landing or
+	    climbing on that surface. Insect repellents help prevent and
+	    control the outbreak of insect-borne (and other arthropod-bourne)
+	    diseases such as malaria, Lyme disease, dengue fever, bubonic
+	    plague, and West Nile fever. Pest animals commonly serving as
+	    vectors for disease include insects such as flea, fly, and
+	    mosquito; and the arachnid tick (WP, https://goo.gl/J4MZ4o).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Reservoir">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A reservoir is a storage space for fluids. These fluids may be
+	    water, hydrocarbons or gas (WP, https://goo.gl/7QWKkC)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Stimulator">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Something that provides a stimulus e.g. for nerve, immune system
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Structure">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Anythin involved in forming structural elements (e.g. chitin)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <xs:enumeration value="Antibody">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    An antibody is a Y-shaped protein that is used by the immune system to identify
-	    and neutralize pathogens. (https://en.wikipedia.org/wiki/Antibody)
+	    An antibody is a Y-shaped protein that is used by the immune system
+	    to identify and neutralize pathogens.
+	    (https://en.wikipedia.org/wiki/Antibody)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Attractant">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A attracting agent or substance
+	    An attracting agent or substance
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Cofactor">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A cofactor is a non protein compound that is required for the protein`s
-	    biological activity (https://en.wikipedia.org/wiki/Cofactor)
+	    A cofactor is a non protein compound that is required for the
+	    protein`s biological activity
+	    (https://en.wikipedia.org/wiki/Cofactor)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Detergent">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A detergent is one or a mixture of surfactants with cleaning properties in
-	    dilute solutions. (https://en.wikipedia.org/wiki/Detergent)
+	    A detergent is one or a mixture of surfactants with cleaning
+	    properties in dilute solutions.
+	    (https://en.wikipedia.org/wiki/Detergent)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Nutrient">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Nutrigents are components in foods that an organism uses to survive and grow.
-	    (https://en.wikipedia.org/wiki/Nutrigent)
+	    Nutrigents are components in foods that an organism uses to survive
+	    and grow. (https://en.wikipedia.org/wiki/Nutrigent)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -10634,18 +11038,18 @@
       <xs:enumeration value="Hormone">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A hormone is any member of a class of signaling molecule produced in glands of
-	    multicellular organisms that are transported by the circulatory systems to
-	    target distant organs to regulate physiology and behaviour.
-	    (https://en.wikipedia.org/wiki/Hormone)
+	    A hormone is any member of a class of signaling molecule produced
+	    in glands of multicellular organisms that are transported by the
+	    circulatory systems to target distant organs to regulate physiology
+	    and behaviour. (https://en.wikipedia.org/wiki/Hormone)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Carrier">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Carrier proteins are membrane transport proteins activily faciliating transport
-	    of molecules across cell membranes.
+	    Carrier proteins are membrane transport proteins activily
+	    faciliating transport of molecules across cell membranes.
 	    (https://en.wikipedia.org/wiki/Carrier_protein)
 	  </xs:documentation>
 	</xs:annotation>
@@ -10653,8 +11057,9 @@
       <xs:enumeration value="Inhibitor">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    An enzyme inhibitor is a molecule that binds to an enzyme and decreases its
-	    activity. (https://en.wikipedia.org/wiki/Enzyme_inhibitor)
+	    An enzyme inhibitor is a molecule that binds to an enzyme and
+	    decreases its activity.
+	    (https://en.wikipedia.org/wiki/Enzyme_inhibitor)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -10669,23 +11074,25 @@
       <xs:enumeration value="Pesticide">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Pesticide are a class of biocide. (https://en.wikipedia.org/wiki/Pesticide)
+	    Pesticide are a class of biocide.
+	    (https://en.wikipedia.org/wiki/Pesticide)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Pheromone">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A pheromone is a secreted chemical factor that triggers a social response in
-	    members of the same species. (https://en.wikipedia.org/wiki/Pheromone)
+	    A pheromone is a secreted chemical factor that triggers a social
+	    response in members of the same species.
+	    (https://en.wikipedia.org/wiki/Pheromone)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Pigment">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Pigments are substances produced by living organisms that have a color
-	    resulting from selective color absorption.
+	    Pigments are substances produced by living organisms that have a
+	    color resulting from selective color absorption.
 	    (https://en.wikipedia.org/wiki/Biological_Pigment)
 	  </xs:documentation>
 	</xs:annotation>
@@ -10693,24 +11100,26 @@
       <xs:enumeration value="Poison">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Poisons are substances that cause disturbances in organisms by absorption of
-	    sufficient quantities. (https://en.wikipedia.org/wiki/Poison)
+	    Poisons are substances that cause disturbances in organisms by
+	    absorption of sufficient quantities.
+	    (https://en.wikipedia.org/wiki/Poison)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Precursor">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A precursor is a compound that participates in a chemical reaction that
-	    produces another compound. (https://en.wikipedia.org/wiki/Precursor)
+	    A precursor is a compound that participates in a chemical reaction
+	    that produces another compound.
+	    (https://en.wikipedia.org/wiki/Precursor)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Signal">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Signaling is part of a complex system of communication that governs basic
-	    cellular activities and coordinates cell actions.
+	    Signaling is part of a complex system of communication that governs
+	    basic cellular activities and coordinates cell actions.
 	    (https://en.wikipedia.org/wiki/cell_signaling)
 	  </xs:documentation>
 	</xs:annotation>
@@ -10718,25 +11127,27 @@
       <xs:enumeration value="Surfactant">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A surfactant is a compound that lowers the interfacial tension between two
-	    liquids or a liquid and a solid. (https://en.wikipedia.org/wiki/surfactant)
+	    A surfactant is a compound that lowers the interfacial tension
+	    between two liquids or a liquid and a solid.
+	    (https://en.wikipedia.org/wiki/surfactant)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Toxin">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A toxin is a substance causing disturbances in organisms produced within living
-	    cells or organisms. (https://en.wikipedia.org/wiki/Toxin)
+	    A toxin is a substance causing disturbances in organisms produced
+	    within living cells or organisms.
+	    (https://en.wikipedia.org/wiki/Toxin)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Tracer">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Isotopic tracing (or isotopic labeling) is a technique used to track the
-	    passage of an isotope through a reaction, metabolic pathway, or cell.
-	    (https://en.wikipedia.org/wiki/Isotopic_labeling)
+	    Isotopic tracing (or isotopic labeling) is a technique used to
+	    track the passage of an isotope through a reaction, metabolic
+	    pathway, or cell. (https://en.wikipedia.org/wiki/Isotopic_labeling)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -10751,16 +11162,17 @@
       <xs:enumeration value="Vitamin">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A vitamnin is an organic compound and a vital nutrigent that an organism
-	    requires in limited amounts. (https://en.wikipedia.org/wiki/)
+	    A vitamnin is an organic compound and a vital nutrigent that an
+	    organism requires in limited amounts.
+	    (https://en.wikipedia.org/wiki/)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Catalyst">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A catalyst is an additional substance in a chemical reaction which increases
-	    the rate of reaction in a process called catalysis.
+	    A catalyst is an additional substance in a chemical reaction which
+	    increases the rate of reaction in a process called catalysis.
 	    (https://en.wikipedia.org/wiki/Catalyst)
 	  </xs:documentation>
 	</xs:annotation>
@@ -10768,9 +11180,9 @@
       <xs:enumeration value="Fertilizer">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A fertilizer is any material that is applied to soils or plant tissues to
-	    supply plant nutrigents essentially to the growth of plants.
-	    (https://en.wikipedia.org/wiki/fertilizer)
+	    A fertilizer is any material that is applied to soils or plant
+	    tissues to supply plant nutrigents essentially to the growth of
+	    plants. (https://en.wikipedia.org/wiki/fertilizer)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -10811,7 +11223,7 @@
   <xs:simpleType name="ApproachLocalization">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	A localization of an approach
+	A localization of an approach.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
@@ -10825,14 +11237,14 @@
       <xs:enumeration value="Mesocosm">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Outdoor experimental systems (e.g. ecotron, greenhouse)
+	    Outdoor experimental systems (e.g. ecotron, greenhouse).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Macrocosm">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Field experiment.
+	    Field experiments.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -10858,8 +11270,8 @@
       <xs:enumeration value="Producer Density">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    All density or packing related manipulation of consumers. Ammount of certain
-	    individuals per plot.
+	    All density or packing related manipulation of consumers. Ammount
+	    of certain individuals per plot.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -10887,16 +11299,16 @@
       <xs:enumeration value="Consumer Density">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    All spatial related manipulations to consumers (e.g. density of grashoppers per
-	    plot)
+	    All spatial related manipulations to consumers (e.g. density of
+	    grashoppers per plot)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Consumer Structure">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    All structure related factors of consumers, (e.g. body size distribution age
-	    structure).
+	    All structure related factors of consumers, (e.g. body size
+	    distribution age structure).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -10904,15 +11316,16 @@
       <xs:enumeration value="Radiation Intensity">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The intensity radiation for example photosynthetic active radiation.
+	    The intensity radiation for example photosynthetic active
+	    radiation.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Radiation Quality">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The quality of the radiation. For example filtered light, emission of specific
-	    frequencies
+	    The quality of the radiation. For example filtered light, emission
+	    of specific frequencies
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -11093,12 +11506,66 @@
   <xs:simpleType name="FactorType">
     <xs:restriction base="xs:string">
       <!-- biotic -->
-      <xs:enumeration value="Biotic"/>
-      <xs:enumeration value="Abiotic"/>
-      <xs:enumeration value="Disturbance"/>
-      <xs:enumeration value="Topography"/>
-      <xs:enumeration value="Temporal Scale"/>
-      <xs:enumeration value="Spatial Scale"/>
+      <xs:enumeration value="Biotic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A biotic factor is any living component that affects the population
+	    of another organism, or the environment. This includes animals that
+	    consume the organism, and the living food that the organism
+	    consumes. Biotic factors also include human influence, pathogens
+	    and disease outbreaks. Each biotic factor needs energy to do work
+	    and food for proper growth (WP, https://goo.gl/yFw2AH).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Abiotic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In biology and ecology, abiotic components or abiotic factors are
+	    non-living chemical and physical parts of the environment that
+	    affect living organisms and the functioning of ecosystems. Abiotic
+	    factors and phenomena associated with them underpin all biology
+	    (WP, https://goo.gl/ELnxI0).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Disturbance">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In biology, a disturbance is a temporary change in environmental
+	    conditions that causes a pronounced change in an ecosystem.
+	    Disturbances often act quickly and with great effect, sometimes
+	    resulting in the removal of large amounts of biomass (WP,
+	    https://goo.gl/N0U4Qo).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Topography">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Topography is the study of the shape and features of the surface of
+	    the Earth and other observable astronomical objects including
+	    planets, moons, and asteroids. The topography of an area could
+	    refer to the surface shapes and features themselves, or a
+	    description (especially their depiction in maps) (WP,
+	    https://goo.gl/XVn7o3).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Temporal Scale">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The temporal extent
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Spatial Scale">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The spatial extent
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
@@ -11107,7 +11574,7 @@
   <xs:simpleType name="RankAbbreviation">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	The abbreviation of a taxonomic rank as used in (botanical) name strings
+	The abbreviation of a taxonomic rank as used in (botanical) organism name strings
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
@@ -11123,12 +11590,14 @@
       <xs:enumeration value="f.spec."/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="Insertpoint">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="1"/>
       <xs:maxInclusive value="3"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="Kingdom">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11231,6 +11700,7 @@
     </xs:restriction>
   </xs:simpleType>
   <!-- for the references -->
+
   <xs:simpleType name="DataSourceType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11269,6 +11739,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="FormatType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11309,6 +11780,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="HosterName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11402,10 +11874,11 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="Position">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	The function of ther person
+	The function of a person
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
@@ -11427,6 +11900,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="EmailAddress">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11437,6 +11911,7 @@
       <xs:pattern value="[^@]+@[^\.]+\..+"/>
     </xs:restriction>
   </xs:simpleType>
+
   <!-- for the resources -->
   <xs:simpleType name="AudioMimeType">
     <xs:annotation>
@@ -11946,6 +12421,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="VideoMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -12195,6 +12671,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="TableMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -12251,6 +12728,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="MetadataMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -12283,8 +12761,9 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <!-- attributes -->
-  <xs:attribute name="uri" type="xs:anyURI">
+  <xs:attribute name="URI" type="xs:anyURI">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	This attribute allows to capture the uri to concepts
