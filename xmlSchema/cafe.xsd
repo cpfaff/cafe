@@ -100,7 +100,6 @@
 							      range (e.g. Europe/Berlin)
 							    </xs:documentation>
 							  </xs:annotation>
-
 							</xs:element>
 						      </xs:sequence>
 						    </xs:complexType>
@@ -2939,7 +2938,6 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
   <!-- for the contexts -->
   <xs:simpleType name="GeologicalEon">
     <xs:annotation>
@@ -2978,7 +2976,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="GeologicalEra">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -3145,7 +3142,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="GeologicalPeriod">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -3447,7 +3443,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="GeologicalEpoch">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -3737,7 +3732,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="GeologicalAge">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -4871,7 +4865,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="timezone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5468,7 +5461,6 @@
       <xs:enumeration value="Zulu"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="TemporalExtentType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5570,7 +5562,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="TemporalResolutionType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5672,7 +5663,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="NorthBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5684,7 +5674,6 @@
       <xs:maxInclusive value="90"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="SouthBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5696,7 +5685,6 @@
       <xs:maxInclusive value="90"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="EastBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5708,7 +5696,6 @@
       <xs:maxInclusive value="180"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="WestBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5720,7 +5707,6 @@
       <xs:maxInclusive value="180"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="ElevationUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5766,7 +5752,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="ElevationDatum">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Mean Sealevel"/>
@@ -5774,7 +5759,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="UtmCoordinateHemisphere">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5786,7 +5770,6 @@
       <xs:enumeration value="S"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="UtmCoordinateUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5820,7 +5803,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="UtmCoordinateGeodeticDatum">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5832,7 +5814,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="LocationType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="City">
@@ -5911,7 +5892,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="CountryName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6171,7 +6151,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="ContinentName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6315,7 +6294,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="SpatialResolutionType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Point">
@@ -6355,7 +6333,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="AtmosphereLayerName">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Troposphere">
@@ -6476,7 +6453,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="AtmosphereHeightUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6510,7 +6486,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="LongitudinalRiverZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6549,7 +6524,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="VerticalRiverZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6583,20 +6557,19 @@
       <xs:enumeration value="River Water">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	   The water from a river
+	    The water from a river
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="River Bed">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	   The river bed
+	    The river bed
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="BenthicLakeZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6644,7 +6617,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="PelagicLakeZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6678,7 +6650,6 @@
       <xs:enumeration value="Hypolimnion"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="BenthicSeaZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6743,7 +6714,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="PelagicSeaZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6810,23 +6780,22 @@
       <xs:enumeration value="Hadopelagic">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	     Beyond the abyssopelagic zone lies the forbidding hadalpelagic
-	     zone. This layer extends from 6,000 meters (19,686 feet) to the
-	     bottom of the deepest parts of the ocean. These areas are mostly
-	     found in deep water trenches and canyons. The deepest point in the
-	     ocean is located in the Mariana Trench off the coast of Japan at
-	     35,797 feet (10,911 meters). The temperature of the water is just
-	     above freezing, and the pressure is an incredible eight tons per
-	     square inch. That is approximately the weight of 48 Boeing 747
-	     jets. In spite of the pressure and temperature, life can still be
-	     found here. Invertebrates such as starfish and tube worms can
-	     thrive at these depths (WP, http://goo.gl/Pr4sT).
+	    Beyond the abyssopelagic zone lies the forbidding hadalpelagic
+	    zone. This layer extends from 6,000 meters (19,686 feet) to the
+	    bottom of the deepest parts of the ocean. These areas are mostly
+	    found in deep water trenches and canyons. The deepest point in the
+	    ocean is located in the Mariana Trench off the coast of Japan at
+	    35,797 feet (10,911 meters). The temperature of the water is just
+	    above freezing, and the pressure is an incredible eight tons per
+	    square inch. That is approximately the weight of 48 Boeing 747
+	    jets. In spite of the pressure and temperature, life can still be
+	    found here. Invertebrates such as starfish and tube worms can
+	    thrive at these depths (WP, http://goo.gl/Pr4sT).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="SoilHorizon">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6966,7 +6935,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="SoilDepthUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7011,7 +6979,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="integerPercent">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7023,7 +6990,6 @@
       <xs:maxInclusive value="100"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="SoilMorphologyType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7286,7 +7252,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="SoilAcidityType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8077,7 +8042,6 @@
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
-
   </xs:simpleType>
   <xs:simpleType name="PlantCharacterizedAquaticPhysiognomyType">
     <xs:annotation>
@@ -8356,7 +8320,6 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
@@ -8825,7 +8788,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="ElementName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9779,7 +9741,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="IsotopeName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -9863,7 +9824,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="CompoundClass">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11590,14 +11550,12 @@
       <xs:enumeration value="f.spec."/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="Insertpoint">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="1"/>
       <xs:maxInclusive value="3"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="Kingdom">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11700,7 +11658,6 @@
     </xs:restriction>
   </xs:simpleType>
   <!-- for the references -->
-
   <xs:simpleType name="DataSourceType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11739,7 +11696,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="FormatType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11780,7 +11736,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="HosterName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11874,7 +11829,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="Position">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11900,7 +11854,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="EmailAddress">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -11911,7 +11864,6 @@
       <xs:pattern value="[^@]+@[^\.]+\..+"/>
     </xs:restriction>
   </xs:simpleType>
-
   <!-- for the resources -->
   <xs:simpleType name="AudioMimeType">
     <xs:annotation>
@@ -12421,7 +12373,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="VideoMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -12671,7 +12622,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="TableMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -12728,7 +12678,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="MetadataMimeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -12761,7 +12710,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
   <!-- attributes -->
   <xs:attribute name="URI" type="xs:anyURI">
     <xs:annotation>
