@@ -1645,7 +1645,12 @@
 
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SemiAquaticPhysiognomy">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysiognomyType"/>
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#PhysiognomyType"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
 	 A semi aquatic physiognomy
       </rdfs:comment>
