@@ -680,7 +680,7 @@
       <rdfs:subClassOf>
          <owl:Restriction>
             <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
-            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#SpaceContext"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#SpatialResolution"/>
          </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
@@ -696,7 +696,7 @@
       <rdfs:subClassOf>
          <owl:Restriction>
             <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
-            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#SpaceContext"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#SpatialResolution"/>
          </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
