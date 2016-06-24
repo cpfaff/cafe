@@ -1668,7 +1668,7 @@
 						      </xs:documentation>
 						    </xs:annotation>
 						  </xs:element>
-						  <xs:element name="organismName" minOccurs="0" maxOccurs="1">
+						  <xs:element name="OrganismName" minOccurs="0" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
 							The name of an organism
@@ -1676,7 +1676,7 @@
 						    </xs:annotation>
 						    <xs:complexType>
 						      <xs:sequence>
-							<xs:element name="bacterialName" minOccurs="0" maxOccurs="1">
+							<xs:element name="BacterialName" minOccurs="0" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      Atomised name with elements according to the International Code of Nomenclature
@@ -1753,7 +1753,7 @@
 							    </xs:sequence>
 							  </xs:complexType>
 							</xs:element>
-							<xs:element name="botanicalName" minOccurs="0" maxOccurs="1">
+							<xs:element name="BotanicalName" minOccurs="0" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      Atomised name with elements according to the International Code of Botanical
@@ -1865,7 +1865,7 @@
 							    </xs:sequence>
 							  </xs:complexType>
 							</xs:element>
-							<xs:element name="zoologicalName" minOccurs="0" maxOccurs="1">
+							<xs:element name="ZoologicalName" minOccurs="0" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      Atomised name with elements according to the International Code of Zoological
@@ -1944,7 +1944,7 @@
 							    </xs:sequence>
 							  </xs:complexType>
 							</xs:element>
-							<xs:element name="viralName" minOccurs="0" maxOccurs="1">
+							<xs:element name="ViralName" minOccurs="0" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      Atomised name with elements according to the International Committee on
