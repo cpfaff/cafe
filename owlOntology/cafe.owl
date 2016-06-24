@@ -1768,1168 +1768,1949 @@
    </owl:Class>
 
 
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Organism"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An organism -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Organism</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Taxonomy"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The taxonomy of the organism -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Taxonomy</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#kingdom"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The kingdom of the organism -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">kingdom</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#division"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The division of the organism -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">division</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#class"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The class of the organism -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">class</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#order"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The order of the organism -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">order</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#family"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The family of the organism -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">family</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#organismName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The name of an organism -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">organismName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#bacterialName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Atomised name with elements according to the International Code of Nomenclature -->
-	 <!-- of Prokaryotes (ABCD) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">bacterialName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullBacterialName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An element that captures the full name of the bacteria in one string. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fullBacterialName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Genus name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenus"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Subgenus name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">subgenus</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenusAuthorAndYear"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Author team and year of the subgenus name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">subgenusAuthorAndYear</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#speciesEpithet"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A name element dependent on a genus or a species name under the -->
-	 <!-- bacteriological, botanical, and zoological code. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">speciesEpithet</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subspeciesEpithet"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The subsphecies epithet (Maps to Darwin Core 2: Subspecies) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">subspeciesEpithet</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#parentheticalAuthorTeamAndYear"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Author team and year of the basionym of a species or subspecies combination -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">parentheticalAuthorTeamAndYear</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamAndYear"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The author(s) who published the full name as it stands and its year -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">authorTeamAndYear</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#nameApprobation"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Approbation of name according to approved list, validation list,or validly -->
-	 <!-- published, paper in IJSB after 1980 -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">nameApprobation</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#botanicalName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Atomised name with elements according to the International Code of Botanical -->
-	 <!-- Nomenclature or the International Code of Nomenclature for Cultivated Plants -->
-	 <!-- (ABCD) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">botanicalName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullBotanicalName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An element that captures the full botanical name in one string. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fullBotanicalName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Genus or higher taxon name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#firstEpithet"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The first epithet in a botanical name combination (species epithet or the -->
-	 <!-- epithet of the subdivision of a genus -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">firstEpithet</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#infraspecificEpithet"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The final epithet of a botanical name of infraspecific rank -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">infraspecificEpithet</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#rank"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The rank of the name where needed to form it. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">rank</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#hybridFlag"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Flag indicating that this is a named hybrid ("x") or a graft chimaera ("+"). -->
-	 <!-- The attribute insertionpoint defines the name element in front of which the -->
-	 <!-- qualifier should be inserted (1 = before entire name, 2= before first epithet, -->
-	 <!-- 3 = before rank designation for second epithet.) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">hybridFlag</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamParenthesis"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Author team of the basionym of a combination -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">authorTeamParenthesis</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeam"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The author(s) who published the full name as it stands -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">authorTeam</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#cultivarGroupName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Cultivar group name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">cultivarGroupName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#cultivarName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Cultivar name according to the ICNCP -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">cultivarName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tradeDesignationNames"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Container for trade names -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">tradeDesignationNames</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tradeDesignationName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Trade name used for a specific cultivar -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">tradeDesignationName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#zoologicalName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Atomised name with elements according to the International Code of Zoological -->
-	 <!-- Nomenclature (ABCD) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">zoologicalName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullZoologicalName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An element that captures the full zoological name in one string. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fullZoologicalName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Genus or higher taxon name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenus"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Subgenus name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">subgenus</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#speciesEpithet"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Species epithet -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">speciesEpithet</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subspeciesEpithet"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Maps to Darwin Core 2: Subspecies -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">subspeciesEpithet</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamOriginalAndYear"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The first person(s) who validly published a species-group name and the year of -->
-	 <!-- publication -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">authorTeamOriginalAndYear</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamParenthesisAndYear"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The parenthetical citation of the original author when a species-group was -->
-	 <!-- transferred to another genus and the year of the original publication -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">authorTeamParenthesisAndYear</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#combinationAuthorTeamAndYear"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The citation of the authors responsible for the new combination and the year of -->
-	 <!-- its publication -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">combinationAuthorTeamAndYear</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#breed"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Name of the breed of an animal -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">breed</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#namedIndividual"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Atomised name with elements according to the International Committee on -->
-	 <!-- Taxonomy of Viruses -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">namedIndividual</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#viralName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Atomised name with elements according to the International Committee on -->
-	 <!-- Taxonomy of Viruses -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">viralName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullViralName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An element that captures the full viral name in one string. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fullViralName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Genus or higher taxon name formed according to the code and representing the -->
-	 <!-- result of the identification. E.g. Comovirus -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#viralSpeciesDesignation"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The formal name of a viral species. Examples: vaccinia virus; human herpes -->
-	 <!-- virus 2 (herpes simplex virus 2); poliovirus 1; Saccharomyces cerevisiae virus -->
-	 <!-- L-A; enterobacteria phage PRD1 [Source: ICTV] -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">viralSpeciesDesignation</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#acronym"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The accepted acronym for the Virus, e.g. PCV for Peanut Clump Virus -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">acronym</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ProcessContext"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The process context captures the quantitative and qualitative process related -->
-	 <!-- aspects that describe the the search object. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">ProcessContext</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Process"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A process that is relevant for the search object -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Process</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#processName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A named process  (Adaption, Speciation, Migration, Birth, ...) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">processName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#processSubject"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The subject of the process given under process name (e.g. Organism, Chemical, Matter, Energy) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">processSubject</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#processType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The process type of the process given under Process Name for classification -->
-	 <!-- (e.g. Motion, Uptake, Release, Exchange) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">processType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Interaction"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An interaction -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Interaction</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A named interaction (Predation, Parasisitm, ...) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">interactionName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionPartnerOne"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A type of interaction partner covers kingdoms and the envoriment -->
-	 <!-- (Plant, Animal, Fungi, Bacteria, Archaea, Virus, Environment) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">interactionPartnerOne</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionDirection"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A direction of the interaction (Acts On, Is Affected By, Mutually Interacts -->
-	 <!-- With) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">interactionDirection</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionQuality"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An interaction quality (Neutralism, Amensalism, Commensalism, ...) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">interactionQuality</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionPartnerTwo"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A type of interaction partner covers kingdoms and the envoriment -->
-	 <!-- (Plant, Animal, Fungi, Bacteria, Archaea, Virus, Environment) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">interactionPartnerTwo</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ChemicalContext"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The chemical context allows to capture the quantitative and qualitative -->
-	 <!-- chemical related aspects that describe the the search object. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">ChemicalContext</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Element"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A chemical element -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Element</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#elementName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A named chemical element -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">elementName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Isotope"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A chemical isotope -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Isotope</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#isotopeName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A named chemical isotope -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">isotopeName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Compound"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A chemical compound -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Compound</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#compoundName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A name of a chemical compound -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">compoundName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#compoundClass"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A compound class for the chemical compound given under compund name as coarse -->
-	 <!-- classification (Biomolecule, Aromatic, Aliphatic, ...) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">compoundClass</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#compoundType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A compound type for the chemical compound given under the compund name. It -->
-	 <!-- serves as detailed classification (e.g. Nucleosides, Nucleotides, Amino Acid, -->
-	 <!-- Protein, ...) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">compoundType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Function"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A chemical function -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Function</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#chemicalFunctionType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A chemical function type (Repellent, Reservoir, Stimulator, Structure, -->
-	 <!-- Antibody, ...) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">chemicalFunctionType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#MethodContext"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The method context allows to capture the quantitative and qualitative method -->
-	 <!-- related aspects that describe the the search object. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">MethodContext</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Approach"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An approach used by the study -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Approach</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ApproachType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A type of approach used (Virtual, Manipulative, Observational) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">ApproachType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#approachLocalization"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A type of approach localization (Microcosm, Mesocosm, Macrocosm) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">approachLocalization</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Factor"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A factor relevant for the study -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Factor</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#factorName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A name of a factor used in the study or setup (Producer Diversity, Consumer -->
-	 <!-- Density, ...) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">factorName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#factorType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The type of factor given with Factor Name (Biotic, Abiotic, Disturbance, ...) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">factorType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Format"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The file type of the data described with the annotation. For example (Audio, -->
-	 <!-- Image, Table, Video) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Format</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#formatType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The file type of the data described with the annotation. For example (Audio, -->
-	 <!-- Image, Table, Video) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">formatType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Reference"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The references capture important information that is -->
-	 <!-- neccesary to exchange the data. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Reference</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hoster"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A host is the server or data center that is storing the data. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Hoster</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#hosterName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The name of the hoster (e.g. SNSB, KNB) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">hosterName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Person"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A person that is associated with the data. This -->
-	 <!-- can be a data owner a curator or data manager. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Person</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#position"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The function of the person in the context of the data (e.g. Contact, Author) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">position</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#salutation"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The salutation -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">salutation</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#givenName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The given name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">givenName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#surName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The sur name -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">surName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#emailAddress"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The email address of the person -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">emailAddress</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#phoneNumber"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- Phone number of the person -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">phoneNumber</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Description"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- All types of descriptions related to the data described with the annotation -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Descriptions</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#title"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A title for the search object. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">title</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#abstract"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An abstract that describes the object in -->
-	 <!-- all its details. This can contain any -->
-	 <!-- information that is suitable to inform -->
-	 <!-- somebody who does not know your data nor -->
-	 <!-- your research. Write in great detail -->
-	 <!-- about all aspects that characterize the -->
-	 <!-- data (e.g. condidtions, setup, organisms) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">abstract</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Resource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The resources module serves as a wrapper around embedded and online resources -->
-	 <!-- described by the CAFE annotation file (e.g. CAFE+EML+CSV). The module allows to -->
-	 <!-- reference exchange and access data. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Resources</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#OnlineResource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The object uris is a wrapper that contains all sorts of uris that are needed to -->
-	 <!-- reference the search object. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">OnlineResource</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Uri"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The object uri is a container that holds one uri type of all potentially -->
-	 <!-- possible uri types associated with an object. This element exists for -->
-	 <!-- extendability of the schema and provides a semantic anchor. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Uri</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#downloadUrl"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The URL to the download of the data. Using this URL with a download manager -->
-	 <!-- should return the raw data e.g. csv or whatever kind of data type is described. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">downloadUrl</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#referenceUrl"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The object reference URL can be used to link the annotation to more contextual -->
-	 <!-- information for example the project homepage with more extensive metadata of -->
-	 <!-- the search object described with the annotation. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">referenceUrl</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded audio resource -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">EmbeddedResource</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded audio resource -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Base64AudioResource</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The file name without the mime type. Fore example '19.11.1996_audio1'. This is -->
-	 <!-- useful to reconstruct the file for processing. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fileName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#mimeType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The mime type of the base64 encoded audio data -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">mimeType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#audioData"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded string containing the audio -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">audioData</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The date of audio encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingDate</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The time of audio encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingTime</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The sha2 hash of the base64 encoded audio data for verification -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">sha2hash</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded image resource -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Base64ImageResource</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The file name without the mime type. Fore example '19.11.1996_image1'. This is -->
-	 <!-- useful to reconstruct the file for processing. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fileName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#mimeType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The mime type of the base64 encoded image data -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">mimeType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#imageData"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded string containing the image -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">imageData</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The date of image encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingDate</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The time of image encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingTime</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The sha2 hash of the base64 encoded image data for verification -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">sha2hash</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded video resource -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Base64VideoResource</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The file name without the mime type. Fore example '19.11.1996_video1'. This is -->
-	 <!-- useful to reconstruct the file for processing. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fileName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#mimeType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The mime type of the base64 encoded video data -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">mimeType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#videoData"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded string containing the video -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">videoData</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The date of video encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingDate</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The time of video encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingTime</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The sha2 hash of the base64 encoded video data for verification -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">sha2hash</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64TableResource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded table resource -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Base64TableResource</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The file name without the mime type. Fore example '19.11.1996_table1'. This is -->
-	 <!-- useful to reconstruct the file for processing. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fileName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#mimeType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The mime type of the base64 encoded table data -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">mimeType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tableData"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded string containing the table -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">tableData</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The date of table encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingDate</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The time of table encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingTime</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The sha2 hash of the base64 encoded table data for verification -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">sha2hash</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded metadata resource -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Base64MetadataResource</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The file name without the mime type. Fore example -->
-	 <!-- '19.11.1996_video1_eml_metadata'. This is useful to reconstruct the file for -->
-	 <!-- processing. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fileName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#metadataMimeType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The mime type of the base64 encoded metadata data (e.g. xml) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">metadataMimeType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#metadataData"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded string containing the metadata -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">metadataData</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The date of metadata encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingDate</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The time of metadata encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingTime</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The sha2 hash of the base64 encoded metadata data for verification -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">sha2hash</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- An arbitrary format base 64 encoded resource file -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">Base64GenericResource</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The file name without the mime type. Fore example '19.11.1996_notes'. This is -->
-	 <!-- useful to reconstruct the file for processing. -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">fileName</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genericMimeType"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The mime type of the base64 encoded metadata data (e.g. .txt) -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">genericMimeType</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genericData"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- A base 64 encoded string containing the data -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">genericData</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The date of data encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingDate</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The time of data encoding -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">encodingTime</rdfs:label> -->
-   <!-- </owl:Class> -->
-
-
-   <!-- <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash"> -->
-      <!-- <rdfs:comment xml:lang="en"> -->
-	 <!-- The sha2 hash of the base64 encoded data for verification -->
-      <!-- </rdfs:comment> -->
-      <!-- <rdfs:label xml:lang="en">sha2hash</rdfs:label> -->
-   <!-- </owl:Class> -->
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Organism">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#OrganismContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An organism
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Organism</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Taxonomy">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Organism"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The taxonomy of the organism
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Taxonomy</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#kingdom">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Taxonomy"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The kingdom of the organism
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">kingdom</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#division">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Taxonomy"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The division of the organism
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">division</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#class">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Taxonomy"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The class of the organism
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">class</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#order">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Taxonomy"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The order of the organism
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">order</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#family">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Taxonomy"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The family of the organism
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">family</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#OrganismName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Taxonomy"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The name of an organism
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">OrganismName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BacterialName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#OrganismName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Atomised name with elements according to the International Code of Nomenclature
+	 of Prokaryotes (ABCD)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">BacterialName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullBacterialName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An element that captures the full name of the bacteria in one string.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fullBacterialName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Genus name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenus">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Subgenus name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">subgenus</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenusAuthorAndYear">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Author team and year of the subgenus name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">subgenusAuthorAndYear</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#speciesEpithet">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A name element dependent on a genus or a species name under the
+	 bacteriological, botanical, and zoological code.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">speciesEpithet</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subspeciesEpithet">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The subsphecies epithet (Maps to Darwin Core 2: Subspecies)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">subspeciesEpithet</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#parentheticalAuthorTeamAndYear">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Author team and year of the basionym of a species or subspecies combination
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">parentheticalAuthorTeamAndYear</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamAndYear">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The author(s) who published the full name as it stands and its year
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">authorTeamAndYear</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#nameApprobation">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BacterialName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Approbation of name according to approved list, validation list,or validly
+	 published, paper in IJSB after 1980
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">nameApprobation</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BotanicalName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#OrganismName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Atomised name with elements according to the International Code of Botanical
+	 Nomenclature or the International Code of Nomenclature for Cultivated Plants
+	 (ABCD)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">BotanicalName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullBotanicalName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An element that captures the full botanical name in one string.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fullBotanicalName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Genus or higher taxon name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#firstEpithet">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The first epithet in a botanical name combination (species epithet or the
+	 epithet of the subdivision of a genus
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">firstEpithet</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#infraspecificEpithet">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The final epithet of a botanical name of infraspecific rank
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">infraspecificEpithet</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#rank">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The rank of the name where needed to form it.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">rank</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#hybridFlag">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Flag indicating that this is a named hybrid ("x") or a graft chimaera ("+").
+	 The attribute insertionpoint defines the name element in front of which the
+	 qualifier should be inserted (1 = before entire name, 2= before first epithet,
+	 3 = before rank designation for second epithet.)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">hybridFlag</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamParenthesis">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Author team of the basionym of a combination
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">authorTeamParenthesis</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeam">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The author(s) who published the full name as it stands
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">authorTeam</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#cultivarGroupName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Cultivar group name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">cultivarGroupName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#cultivarName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Cultivar name according to the ICNCP
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">cultivarName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tradeDesignationNames">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Container for trade names
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">tradeDesignationNames</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tradeDesignationName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#BotanicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Trade name used for a specific cultivar
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">tradeDesignationName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ZoologicalName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#OrganismName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Atomised name with elements according to the International Code of Zoological
+	 Nomenclature (ABCD)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">ZoologicalName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullZoologicalName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An element that captures the full zoological name in one string.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fullZoologicalName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Genus or higher taxon name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenus">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Subgenus name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">subgenus</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#speciesEpithet">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Species epithet
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">speciesEpithet</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subspeciesEpithet">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Maps to Darwin Core 2: Subspecies
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">subspeciesEpithet</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamOriginalAndYear">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The first person(s) who validly published a species-group name and the year of
+	 publication
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">authorTeamOriginalAndYear</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamParenthesisAndYear">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The parenthetical citation of the original author when a species-group was
+	 transferred to another genus and the year of the original publication
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">authorTeamParenthesisAndYear</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#combinationAuthorTeamAndYear">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The citation of the authors responsible for the new combination and the year of
+	 its publication
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">combinationAuthorTeamAndYear</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#breed">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Name of the breed of an animal
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">breed</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#namedIndividual">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ZoologicalName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Atomised name with elements according to the International Committee on
+	 Taxonomy of Viruses
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">namedIndividual</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ViralName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#OrganismName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Atomised name with elements according to the International Committee on
+	 Taxonomy of Viruses
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">ViralName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullViralName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ViralName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An element that captures the full viral name in one string.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fullViralName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ViralName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Genus or higher taxon name formed according to the code and representing the
+	 result of the identification. E.g. Comovirus
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#viralSpeciesDesignation">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ViralName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The formal name of a viral species. Examples: vaccinia virus; human herpes
+	 virus 2 (herpes simplex virus 2); poliovirus 1; Saccharomyces cerevisiae virus
+	 L-A; enterobacteria phage PRD1 [Source: ICTV]
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">viralSpeciesDesignation</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#acronym">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ViralName"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The accepted acronym for the Virus, e.g. PCV for Peanut Clump Virus
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">acronym</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ProcessContext">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Context"/>
+      <rdfs:comment xml:lang="en">
+	 The process context captures the quantitative and qualitative process related
+	 aspects that describe the the search object.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">ProcessContext</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Process">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A process that is relevant for the search object
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Process</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#processName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A named process  (Adaption, Speciation, Migration, Birth, ...)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">processName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#processSubject">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The subject of the process given under process name (e.g. Organism, Chemical, Matter, Energy)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">processSubject</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#processType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Process"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The process type of the process given under Process Name for classification
+	 (e.g. Motion, Uptake, Release, Exchange)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">processType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Interaction">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ProcessContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An interaction
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Interaction</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Interaction"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A named interaction (Predation, Parasisitm, ...)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">interactionName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionPartnerOne">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Interaction"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A type of interaction partner covers kingdoms and the envoriment
+	 (Plant, Animal, Fungi, Bacteria, Archaea, Virus, Environment)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">interactionPartnerOne</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionDirection">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Interaction"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A direction of the interaction (Acts On, Is Affected By, Mutually Interacts
+	 With)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">interactionDirection</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionQuality">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Interaction"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An interaction quality (Neutralism, Amensalism, Commensalism, ...)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">interactionQuality</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionPartnerTwo">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Interaction"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A type of interaction partner covers kingdoms and the envoriment
+	 (Plant, Animal, Fungi, Bacteria, Archaea, Virus, Environment)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">interactionPartnerTwo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ChemicalContext">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Context"/>
+      <rdfs:comment xml:lang="en">
+	 The chemical context allows to capture the quantitative and qualitative
+	 chemical related aspects that describe the the search object.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">ChemicalContext</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Element">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ChemicalContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A chemical element
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Element</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#elementName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Element"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A named chemical element
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">elementName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Isotope">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ChemicalContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A chemical isotope
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Isotope</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#isotopeName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Isotope"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A named chemical isotope
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">isotopeName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Compound">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ChemicalContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A chemical compound
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Compound</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#compoundName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Compound"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A name of a chemical compound
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">compoundName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#compoundClass">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Compound"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A compound class for the chemical compound given under compund name as coarse
+	 classification (Biomolecule, Aromatic, Aliphatic, ...)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">compoundClass</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#compoundType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Compound"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A compound type for the chemical compound given under the compund name. It
+	 serves as detailed classification (e.g. Nucleosides, Nucleotides, Amino Acid,
+	 Protein, ...)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">compoundType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Function">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#ChemicalContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A chemical function
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Function</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#chemicalFunctionType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Function"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A chemical function type (Repellent, Reservoir, Stimulator, Structure,
+	 Antibody, ...)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">chemicalFunctionType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#MethodContext">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Context"/>
+      <rdfs:comment xml:lang="en">
+	 The method context allows to capture the quantitative and qualitative method
+	 related aspects that describe the the search object.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">MethodContext</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Approach">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#MethodContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An approach used by the study
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Approach</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ApproachType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Approach"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A type of approach used (Virtual, Manipulative, Observational)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">ApproachType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#approachLocalization">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Approach"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A type of approach localization (Microcosm, Mesocosm, Macrocosm)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">approachLocalization</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Factor">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#MethodContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A factor relevant for the study
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Factor</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#factorName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Factor"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A name of a factor used in the study or setup (Producer Diversity, Consumer
+	 Density, ...)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">factorName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#factorType">
+      <rdfs:comment xml:lang="en">
+	 The type of factor given with Factor Name (Biotic, Abiotic, Disturbance, ...)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">factorType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DataFormat">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#MethodContext"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file type of the data described with the annotation. For example (Audio,
+	 Image, Table, Video)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Format</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#dataFormatType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#DataFormat"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file type of the data described with the annotation. For example (Audio,
+	 Image, Table, Video)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">formatType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Reference">
+      <rdfs:comment xml:lang="en">
+	 The references capture important information that is
+	 neccesary to exchange the data.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Reference</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hoster">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Reference"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A host is the server or data center that is storing the data.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Hoster</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#hosterName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Hoster"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The name of the hoster (e.g. SNSB, KNB)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">hosterName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Person">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Reference"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A person that is associated with the data. This
+	 can be a data owner a curator or data manager.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Person</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#position">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Person"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The function of the person in the context of the data (e.g. Contact, Author)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">position</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#salutation">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Person"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The salutation
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">salutation</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#givenName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Person"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The given name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">givenName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#surName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Person"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The sur name
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">surName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#emailAddress">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Person"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The email address of the person
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">emailAddress</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#phoneNumber">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Person"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 Phone number of the person
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">phoneNumber</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Description">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Reference"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 All types of descriptions related to the data described with the annotation
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Descriptions</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#title">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Description"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A title for the search object.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">title</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#abstract">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Description"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An abstract that describes the object in
+	 all its details. This can contain any
+	 information that is suitable to inform
+	 somebody who does not know your data nor
+	 your research. Write in great detail
+	 about all aspects that characterize the
+	 data (e.g. condidtions, setup, organisms)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">abstract</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Resource">
+      <rdfs:comment xml:lang="en">
+	 The resources module serves as a wrapper around embedded and online resources
+	 described by the CAFE annotation file (e.g. CAFE+EML+CSV). The module allows to
+	 reference exchange and access data.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Resources</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#OnlineResource">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Resource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The object uris is a wrapper that contains all sorts of uris that are needed to
+	 reference the search object.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">OnlineResource</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Uri">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#OnlineResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The object uri is a container that holds one uri type of all potentially
+	 possible uri types associated with an object. This element exists for
+	 extendability of the schema and provides a semantic anchor.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Uri</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#downloadUrl">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Uri"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The URL to the download of the data. Using this URL with a download manager
+	 should return the raw data e.g. csv or whatever kind of data type is described.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">downloadUrl</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#referenceUrl">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Uri"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The object reference URL can be used to link the annotation to more contextual
+	 information for example the project homepage with more extensive metadata of
+	 the search object described with the annotation.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">referenceUrl</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Resource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded audio resource
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">EmbeddedResource</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded audio resource
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Base64AudioResource</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file name without the mime type. Fore example '19.11.1996_audio1'. This is
+	 useful to reconstruct the file for processing.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fileName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#mimeType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The mime type of the base64 encoded audio data
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">mimeType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#audioData">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded string containing the audio
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">audioData</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The date of audio encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The time of audio encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The sha2 hash of the base64 encoded audio data for verification
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded image resource
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Base64ImageResource</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file name without the mime type. Fore example '19.11.1996_image1'. This is
+	 useful to reconstruct the file for processing.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fileName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#mimeType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The mime type of the base64 encoded image data
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">mimeType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#imageData">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded string containing the image
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">imageData</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The date of image encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The time of image encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The sha2 hash of the base64 encoded image data for verification
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource"/>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded video resource
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Base64VideoResource</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file name without the mime type. Fore example '19.11.1996_video1'. This is
+	 useful to reconstruct the file for processing.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fileName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#mimeType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The mime type of the base64 encoded video data
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">mimeType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#videoData">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded string containing the video
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">videoData</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The date of video encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The time of video encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The sha2 hash of the base64 encoded video data for verification
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64TableResource">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource"/>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded table resource
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Base64TableResource</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64TableResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file name without the mime type. Fore example '19.11.1996_table1'. This is
+	 useful to reconstruct the file for processing.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fileName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#mimeType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64TableResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The mime type of the base64 encoded table data
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">mimeType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tableData">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64TableResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded string containing the table
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">tableData</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64TableResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The date of table encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64TableResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The time of table encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64TableResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The sha2 hash of the base64 encoded table data for verification
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource"/>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded metadata resource
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Base64MetadataResource</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file name without the mime type. Fore example
+	 '19.11.1996_video1_eml_metadata'. This is useful to reconstruct the file for
+	 processing.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fileName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#metadataMimeType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The mime type of the base64 encoded metadata data (e.g. xml)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">metadataMimeType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#metadataData">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded string containing the metadata
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">metadataData</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The date of metadata encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The time of metadata encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The sha2 hash of the base64 encoded metadata data for verification
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource"/>
+      <rdfs:comment xml:lang="en">
+	 An arbitrary format base 64 encoded resource file
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Base64GenericResource</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file name without the mime type. Fore example '19.11.1996_notes'. This is
+	 useful to reconstruct the file for processing.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">fileName</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genericMimeType">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The mime type of the base64 encoded metadata data (e.g. .txt)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">genericMimeType</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genericData">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A base 64 encoded string containing the data
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">genericData</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The date of data encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The time of data encoding
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
+      <rdfs:subClassOf>
+         <owl:Restriction>
+            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource"/>
+         </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The sha2 hash of the base64 encoded data for verification
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+   </owl:Class>
 
 </rdf:RDF>
