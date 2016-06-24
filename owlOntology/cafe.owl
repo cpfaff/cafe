@@ -159,7 +159,7 @@
    </owl:Class>
 
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#timezone">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Timezone">
       <rdfs:subClassOf>
 	 <owl:Restriction>
 	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
@@ -806,7 +806,7 @@
       <rdfs:subClassOf>
          <owl:Restriction>
             <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
-            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#minimumAtmosphereHeight"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#NumericAtmosphereLayer"/>
          </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
@@ -834,7 +834,7 @@
       <rdfs:subClassOf>
          <owl:Restriction>
             <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
-            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#maximumAtmosphereHeight"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#NumericAtmosphereLayer"/>
          </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
@@ -1027,7 +1027,7 @@
       <rdfs:subClassOf>
          <owl:Restriction>
             <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
-            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#NameSeaZone"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#NamedSeaZone"/>
          </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
@@ -1064,12 +1064,7 @@
 
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Soil">
-      <rdfs:subClassOf>
-         <owl:Restriction>
-            <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
-            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#PedosphereCompartment"/>
-         </owl:Restriction>
-      </rdfs:subClassOf>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#PedosphereCompartment"/>
       <rdfs:comment xml:lang="en">
 	 The soil element captures all qualitative and
 	 quantitative characteristics regarding the pedosphere
@@ -1328,7 +1323,7 @@
       <rdfs:subClassOf>
          <owl:Restriction>
             <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
-            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#EcosphereLayer"/>
+            <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/cafe#NamedEcosphereLayer"/>
          </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
@@ -3711,6 +3706,4118 @@
 	 The sha2 hash of the base64 encoded data for verification
       </rdfs:comment>
       <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+   </owl:Class>
+
+<!-- the details  -->
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Abidjan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Abidjan</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Abidjan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Abidjan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Abidjan</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Abidjan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Accra">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Accra</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Accra</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Addis_Ababa">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Addis_Ababa</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Addis_Ababa</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Algiers">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Algiers</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Algiers</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Asmara">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Asmara</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Asmara</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Asmera">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Asmera</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Asmera</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Bamako">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Bamako</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Bamako</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Bangui">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Bangui</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Bangui</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Banjul">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Banjul</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Banjul</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Bissau">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Bissau</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Bissau</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Blantyre">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Blantyre</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Blantyre</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Brazzaville">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Brazzaville</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Brazzaville</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Bujumbura">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Bujumbura</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Bujumbura</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Cairo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Cairo</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Cairo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Casablanca">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Casablanca</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Casablanca</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Ceuta">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Ceuta</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Ceuta</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Conakry">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Conakry</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Conakry</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Dakar">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Dakar</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Dakar</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Dar_es_Salaam">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Dar_es_Salaam</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Dar_es_Salaam</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Djibouti">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Djibouti</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Djibouti</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Douala">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Douala</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Douala</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/El_Aaiun">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/El_Aaiun</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/El_Aaiun</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Freetown">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Freetown</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Freetown</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Gaborone">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Gaborone</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Gaborone</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Harare">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Harare</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Harare</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Johannesburg">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Johannesburg</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Johannesburg</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Juba">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Juba</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Juba</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Kampala">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Kampala</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Kampala</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Khartoum">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Khartoum</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Khartoum</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Kigali">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Kigali</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Kigali</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Kinshasa">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Kinshasa</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Kinshasa</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Lagos">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Lagos</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Lagos</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Libreville">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Libreville</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Libreville</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Lome">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Lome</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Lome</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Luanda">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Luanda</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Luanda</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Lubumbashi">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Lubumbashi</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Lubumbashi</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Lusaka">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Lusaka</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Lusaka</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Malabo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Malabo</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Malabo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Maputo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Maputo</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Maputo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Maseru">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Maseru</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Maseru</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Mbabane">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Mbabane</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Mbabane</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Mogadishu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Mogadishu</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Mogadishu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Monrovia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Monrovia</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Monrovia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Nairobi">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Nairobi</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Nairobi</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Ndjamena">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Ndjamena</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Ndjamena</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Niamey">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Niamey</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Niamey</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Nouakchott">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Nouakchott</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Nouakchott</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Ouagadougou">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Ouagadougou</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Ouagadougou</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Porto-Novo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Porto-Novo</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Porto-Novo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Sao_Tome">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Sao_Tome</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Sao_Tome</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Timbuktu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Timbuktu</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Timbuktu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Tripoli">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Tripoli</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Tripoli</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Tunis">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Tunis</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Tunis</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Windhoek">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Africa/Windhoek</rdfs:comment>
+      <rdfs:label xml:lang="en">Africa/Windhoek</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Adak">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Adak</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Adak</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Anchorage">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Anchorage</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Anchorage</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Anguilla">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Anguilla</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Anguilla</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Antigua">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Antigua</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Antigua</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Araguaina">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Araguaina</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Araguaina</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Buenos_Aires">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Buenos_Aires</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Buenos_Aires</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Catamarca">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Catamarca</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Catamarca</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/ComodRivadavia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/ComodRivadavia</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/ComodRivadavia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Cordoba">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Cordoba</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Cordoba</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Jujuy">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Jujuy</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Jujuy</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/La_Rioja">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/La_Rioja</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/La_Rioja</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Mendoza">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Mendoza</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Mendoza</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Rio_Gallegos">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Rio_Gallegos</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Rio_Gallegos</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Salta">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Salta</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Salta</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/San_Juan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/San_Juan</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/San_Juan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/San_Luis">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/San_Luis</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/San_Luis</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Tucuman">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Tucuman</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Tucuman</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Argentina/Ushuaia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Argentina/Ushuaia</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Argentina/Ushuaia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Aruba">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Aruba</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Aruba</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Asuncion">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Asuncion</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Asuncion</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Atikokan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Atikokan</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Atikokan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Atka">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Atka</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Atka</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Bahia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Bahia</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Bahia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Bahia_Banderas">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Bahia_Banderas</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Bahia_Banderas</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Barbados">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Barbados</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Barbados</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Belem">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Belem</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Belem</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Belize">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Belize</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Belize</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Blanc-Sablon">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Blanc-Sablon</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Blanc-Sablon</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Boa_Vista">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Boa_Vista</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Boa_Vista</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Bogota">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Bogota</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Bogota</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Boise">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Boise</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Boise</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Buenos_Aires">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Buenos_Aires</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Buenos_Aires</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Cambridge_Bay">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Cambridge_Bay</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Cambridge_Bay</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Campo_Grande">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Campo_Grande</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Campo_Grande</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Cancun">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Cancun</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Cancun</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Caracas">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Caracas</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Caracas</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Catamarca">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Catamarca</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Catamarca</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Cayenne">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Cayenne</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Cayenne</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Cayman">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Cayman</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Cayman</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Chicago">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Chicago</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Chicago</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Chihuahua">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Chihuahua</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Chihuahua</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Coral_Harbour">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Coral_Harbour</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Coral_Harbour</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Cordoba">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Cordoba</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Cordoba</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Costa_Rica">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Costa_Rica</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Costa_Rica</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Creston">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Creston</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Creston</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Cuiaba">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Cuiaba</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Cuiaba</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Curacao">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Curacao</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Curacao</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Danmarkshavn">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Danmarkshavn</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Danmarkshavn</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Dawson">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Dawson</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Dawson</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Dawson_Creek">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Dawson_Creek</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Dawson_Creek</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Denver">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Denver</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Denver</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Detroit">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Detroit</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Detroit</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Dominica">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Dominica</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Dominica</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Edmonton">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Edmonton</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Edmonton</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Eirunepe">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Eirunepe</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Eirunepe</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/El_Salvador">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/El_Salvador</rdfs:comment>
+      <rdfs:label xml:lang="en">America/El_Salvador</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Ensenada">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Ensenada</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Ensenada</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Fort_Nelson">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Fort_Nelson</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Fort_Nelson</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Fort_Wayne">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Fort_Wayne</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Fort_Wayne</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Fortaleza">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Fortaleza</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Fortaleza</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Glace_Bay">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Glace_Bay</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Glace_Bay</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Godthab">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Godthab</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Godthab</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Goose_Bay">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Goose_Bay</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Goose_Bay</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Grand_Turk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Grand_Turk</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Grand_Turk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Grenada">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Grenada</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Grenada</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Guadeloupe">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Guadeloupe</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Guadeloupe</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Guatemala">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Guatemala</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Guatemala</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Guayaquil">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Guayaquil</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Guayaquil</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Guyana">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Guyana</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Guyana</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Halifax">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Halifax</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Halifax</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Havana">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Havana</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Havana</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Hermosillo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Hermosillo</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Hermosillo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indiana/Indianapolis">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indiana/Indianapolis</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indiana/Indianapolis</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indiana/Knox">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indiana/Knox</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indiana/Knox</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indiana/Marengo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indiana/Marengo</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indiana/Marengo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indiana/Petersburg">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indiana/Petersburg</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indiana/Petersburg</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indiana/Tell_City">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indiana/Tell_City</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indiana/Tell_City</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indiana/Vevay">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indiana/Vevay</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indiana/Vevay</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indiana/Vincennes">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indiana/Vincennes</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indiana/Vincennes</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indiana/Winamac">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indiana/Winamac</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indiana/Winamac</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Indianapolis">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Indianapolis</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Indianapolis</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Inuvik">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Inuvik</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Inuvik</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Iqaluit">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Iqaluit</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Iqaluit</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Jamaica">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Jamaica</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Jamaica</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Jujuy">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Jujuy</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Jujuy</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Juneau">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Juneau</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Juneau</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Kentucky/Louisville">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Kentucky/Louisville</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Kentucky/Louisville</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Kentucky/Monticello">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Kentucky/Monticello</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Kentucky/Monticello</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Knox_IN">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Knox_IN</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Knox_IN</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Kralendijk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Kralendijk</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Kralendijk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/La_Paz">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/La_Paz</rdfs:comment>
+      <rdfs:label xml:lang="en">America/La_Paz</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Lima">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Lima</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Lima</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Los_Angeles">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Los_Angeles</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Los_Angeles</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Louisville">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Louisville</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Louisville</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Lower_Princes">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Lower_Princes</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Lower_Princes</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Maceio">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Maceio</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Maceio</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Managua">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Managua</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Managua</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Manaus">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Manaus</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Manaus</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Marigot">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Marigot</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Marigot</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Martinique">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Martinique</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Martinique</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Matamoros">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Matamoros</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Matamoros</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Mazatlan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Mazatlan</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Mazatlan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Mendoza">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Mendoza</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Mendoza</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Menominee">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Menominee</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Menominee</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Merida">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Merida</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Merida</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Metlakatla">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Metlakatla</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Metlakatla</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Mexico_City">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Mexico_City</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Mexico_City</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Miquelon">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Miquelon</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Miquelon</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Moncton">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Moncton</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Moncton</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Monterrey">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Monterrey</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Monterrey</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Montevideo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Montevideo</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Montevideo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Montreal">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Montreal</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Montreal</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Montserrat">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Montserrat</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Montserrat</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Nassau">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Nassau</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Nassau</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/New_York">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/New_York</rdfs:comment>
+      <rdfs:label xml:lang="en">America/New_York</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Nipigon">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Nipigon</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Nipigon</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Nome">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Nome</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Nome</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Noronha">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Noronha</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Noronha</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/North_Dakota/Beulah">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/North_Dakota/Beulah</rdfs:comment>
+      <rdfs:label xml:lang="en">America/North_Dakota/Beulah</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/North_Dakota/Center">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/North_Dakota/Center</rdfs:comment>
+      <rdfs:label xml:lang="en">America/North_Dakota/Center</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/North_Dakota/New_Salem">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/North_Dakota/New_Salem</rdfs:comment>
+      <rdfs:label xml:lang="en">America/North_Dakota/New_Salem</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Ojinaga">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Ojinaga</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Ojinaga</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Panama">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Panama</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Panama</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Pangnirtung">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Pangnirtung</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Pangnirtung</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Paramaribo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Paramaribo</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Paramaribo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Phoenix">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Phoenix</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Phoenix</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Port_of_Spain">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Port_of_Spain</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Port_of_Spain</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Port-au-Prince">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Port-au-Prince</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Port-au-Prince</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Porto_Acre">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Porto_Acre</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Porto_Acre</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Porto_Velho">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Porto_Velho</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Porto_Velho</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Puerto_Rico">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Puerto_Rico</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Puerto_Rico</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Rainy_River">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Rainy_River</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Rainy_River</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Rankin_Inlet">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Rankin_Inlet</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Rankin_Inlet</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Recife">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Recife</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Recife</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Regina">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Regina</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Regina</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Resolute">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Resolute</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Resolute</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Rio_Branco">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Rio_Branco</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Rio_Branco</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Rosario">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Rosario</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Rosario</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Santa_Isabel">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Santa_Isabel</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Santa_Isabel</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Santarem">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Santarem</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Santarem</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Santiago">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Santiago</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Santiago</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Santo_Domingo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Santo_Domingo</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Santo_Domingo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Sao_Paulo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Sao_Paulo</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Sao_Paulo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Scoresbysund">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Scoresbysund</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Scoresbysund</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Shiprock">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Shiprock</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Shiprock</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Sitka">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Sitka</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Sitka</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/St_Barthelemy">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/St_Barthelemy</rdfs:comment>
+      <rdfs:label xml:lang="en">America/St_Barthelemy</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/St_Johns">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/St_Johns</rdfs:comment>
+      <rdfs:label xml:lang="en">America/St_Johns</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/St_Kitts">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/St_Kitts</rdfs:comment>
+      <rdfs:label xml:lang="en">America/St_Kitts</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/St_Lucia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/St_Lucia</rdfs:comment>
+      <rdfs:label xml:lang="en">America/St_Lucia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/St_Thomas">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/St_Thomas</rdfs:comment>
+      <rdfs:label xml:lang="en">America/St_Thomas</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/St_Vincent">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/St_Vincent</rdfs:comment>
+      <rdfs:label xml:lang="en">America/St_Vincent</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Swift_Current">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Swift_Current</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Swift_Current</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Tegucigalpa">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Tegucigalpa</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Tegucigalpa</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Thule">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Thule</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Thule</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Thunder_Bay">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Thunder_Bay</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Thunder_Bay</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Tijuana">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Tijuana</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Tijuana</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Toronto">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Toronto</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Toronto</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Tortola">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Tortola</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Tortola</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Vancouver">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Vancouver</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Vancouver</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Virgin">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Virgin</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Virgin</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Whitehorse">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Whitehorse</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Whitehorse</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Winnipeg">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Winnipeg</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Winnipeg</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Yakutat">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Yakutat</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Yakutat</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#America/Yellowknife">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">America/Yellowknife</rdfs:comment>
+      <rdfs:label xml:lang="en">America/Yellowknife</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Casey">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Casey</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Casey</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Davis">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Davis</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Davis</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/DumontDUrville">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/DumontDUrville</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/DumontDUrville</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Macquarie">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Macquarie</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Macquarie</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Mawson">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Mawson</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Mawson</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/McMurdo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/McMurdo</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/McMurdo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Palmer">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Palmer</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Palmer</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Rothera">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Rothera</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Rothera</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/South_Pole">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/South_Pole</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/South_Pole</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Syowa">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Syowa</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Syowa</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Troll">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Troll</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Troll</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica/Vostok">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Antarctica/Vostok</rdfs:comment>
+      <rdfs:label xml:lang="en">Antarctica/Vostok</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Arctic/Longyearbyen">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Arctic/Longyearbyen</rdfs:comment>
+      <rdfs:label xml:lang="en">Arctic/Longyearbyen</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Aden">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Aden</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Aden</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Almaty">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Almaty</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Almaty</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Amman">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Amman</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Amman</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Anadyr">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Anadyr</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Anadyr</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Aqtau">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Aqtau</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Aqtau</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Aqtobe">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Aqtobe</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Aqtobe</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Ashgabat">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Ashgabat</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Ashgabat</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Ashkhabad">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Ashkhabad</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Ashkhabad</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Baghdad">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Baghdad</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Baghdad</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Bahrain">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Bahrain</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Bahrain</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Baku">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Baku</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Baku</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Bangkok">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Bangkok</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Bangkok</rdfs:label>
+   </owl:Class>
+
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Barnaul">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Barnaul</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Barnaul</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Beirut">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Beirut</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Beirut</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Bishkek">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Bishkek</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Bishkek</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Brunei">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Brunei</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Brunei</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Calcutta">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Calcutta</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Calcutta</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Chita">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Chita</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Chita</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Choibalsan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Choibalsan</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Choibalsan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Chongqing">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Chongqing</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Chongqing</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Chungking">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Chungking</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Chungking</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Colombo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Colombo</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Colombo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Dacca">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Dacca</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Dacca</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Damascus">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Damascus</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Damascus</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Dhaka">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Dhaka</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Dhaka</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Dili">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Dili</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Dili</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Dubai">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Dubai</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Dubai</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Dushanbe">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Dushanbe</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Dushanbe</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Gaza">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Gaza</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Gaza</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Harbin">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Harbin</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Harbin</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Hebron">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Hebron</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Hebron</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Ho_Chi_Minh">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Ho_Chi_Minh</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Ho_Chi_Minh</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Hong_Kong">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Hong_Kong</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Hong_Kong</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Hovd">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Hovd</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Hovd</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Irkutsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Irkutsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Irkutsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Istanbul">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Istanbul</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Istanbul</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Jakarta">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Jakarta</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Jakarta</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Jayapura">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Jayapura</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Jayapura</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Jerusalem">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Jerusalem</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Jerusalem</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Kabul">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Kabul</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Kabul</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Kamchatka">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Kamchatka</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Kamchatka</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Karachi">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Karachi</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Karachi</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Kashgar">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Kashgar</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Kashgar</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Kathmandu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Kathmandu</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Kathmandu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Katmandu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Katmandu</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Katmandu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Khandyga">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Khandyga</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Khandyga</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Kolkata">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Kolkata</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Kolkata</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Krasnoyarsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Krasnoyarsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Krasnoyarsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Kuala_Lumpur">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Kuala_Lumpur</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Kuala_Lumpur</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Kuching">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Kuching</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Kuching</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Kuwait">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Kuwait</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Kuwait</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Macao">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Macao</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Macao</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Macau">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Macau</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Macau</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Magadan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Magadan</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Magadan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Makassar">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Makassar</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Makassar</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Manila">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Manila</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Manila</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Muscat">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Muscat</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Muscat</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Nicosia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Nicosia</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Nicosia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Novokuznetsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Novokuznetsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Novokuznetsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Novosibirsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Novosibirsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Novosibirsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Omsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Omsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Omsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Oral">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Oral</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Oral</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Phnom_Penh">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Phnom_Penh</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Phnom_Penh</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Pontianak">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Pontianak</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Pontianak</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Pyongyang">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Pyongyang</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Pyongyang</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Qatar">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Qatar</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Qatar</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Qyzylorda">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Qyzylorda</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Qyzylorda</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Rangoon">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Rangoon</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Rangoon</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Riyadh">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Riyadh</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Riyadh</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Saigon">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Saigon</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Saigon</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Sakhalin">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Sakhalin</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Sakhalin</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Samarkand">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Samarkand</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Samarkand</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Seoul">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Seoul</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Seoul</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Shanghai">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Shanghai</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Shanghai</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Singapore">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Singapore</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Singapore</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Srednekolymsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Srednekolymsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Srednekolymsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Taipei">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Taipei</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Taipei</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Tashkent">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Tashkent</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Tashkent</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Tbilisi">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Tbilisi</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Tbilisi</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Tehran">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Tehran</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Tehran</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Tel_Aviv">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Tel_Aviv</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Tel_Aviv</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Thimbu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Thimbu</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Thimbu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Thimphu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Thimphu</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Thimphu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Tokyo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Tokyo</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Tokyo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Ujung_Pandang">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Ujung_Pandang</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Ujung_Pandang</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Ulaanbaatar">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Ulaanbaatar</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Ulaanbaatar</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Ulan_Bator">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Ulan_Bator</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Ulan_Bator</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Urumqi">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Urumqi</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Urumqi</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Ust-Nera">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Ust-Nera</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Ust-Nera</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Vientiane">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Vientiane</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Vientiane</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Vladivostok">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Vladivostok</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Vladivostok</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Yakutsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Yakutsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Yakutsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Yekaterinburg">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Yekaterinburg</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Yekaterinburg</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia/Yerevan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Asia/Yerevan</rdfs:comment>
+      <rdfs:label xml:lang="en">Asia/Yerevan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Azores">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Azores</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Azores</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Bermuda">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Bermuda</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Bermuda</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Canary">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Canary</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Canary</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Cape_Verde">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Cape_Verde</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Cape_Verde</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Faeroe">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Faeroe</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Faeroe</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Faroe">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Faroe</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Faroe</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Jan_Mayen">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Jan_Mayen</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Jan_Mayen</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Madeira">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Madeira</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Madeira</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Reykjavik">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Reykjavik</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Reykjavik</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/South_Georgia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/South_Georgia</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/South_Georgia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/St_Helena">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/St_Helena</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/St_Helena</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atlantic/Stanley">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Atlantic/Stanley</rdfs:comment>
+      <rdfs:label xml:lang="en">Atlantic/Stanley</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/ACT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/ACT</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/ACT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Adelaide">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Adelaide</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Adelaide</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Brisbane">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Brisbane</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Brisbane</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Broken_Hill">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Broken_Hill</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Broken_Hill</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Canberra">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Canberra</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Canberra</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Currie">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Currie</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Currie</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Darwin">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Darwin</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Darwin</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Eucla">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Eucla</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Eucla</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Hobart">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Hobart</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Hobart</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/LHI">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/LHI</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/LHI</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Lindeman">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Lindeman</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Lindeman</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Lord_Howe">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Lord_Howe</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Lord_Howe</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Melbourne">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Melbourne</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Melbourne</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/North">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/North</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/North</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/NSW">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/NSW</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/NSW</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Perth">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Perth</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Perth</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Queensland">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Queensland</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Queensland</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/South">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/South</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/South</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Sydney">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Sydney</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Sydney</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Tasmania">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Tasmania</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Tasmania</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Victoria">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Victoria</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Victoria</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/West">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/West</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/West</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Australia/Yancowinna">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Australia/Yancowinna</rdfs:comment>
+      <rdfs:label xml:lang="en">Australia/Yancowinna</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Brazil/Acre">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Brazil/Acre</rdfs:comment>
+      <rdfs:label xml:lang="en">Brazil/Acre</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Brazil/DeNoronha">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Brazil/DeNoronha</rdfs:comment>
+      <rdfs:label xml:lang="en">Brazil/DeNoronha</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Brazil/East">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Brazil/East</rdfs:comment>
+      <rdfs:label xml:lang="en">Brazil/East</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Brazil/West">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Brazil/West</rdfs:comment>
+      <rdfs:label xml:lang="en">Brazil/West</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/Atlantic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/Atlantic</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/Atlantic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/Central">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/Central</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/Central</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/Eastern">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/Eastern</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/Eastern</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/East-Saskatchewan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/East-Saskatchewan</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/East-Saskatchewan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/Mountain">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/Mountain</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/Mountain</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/Newfoundland">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/Newfoundland</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/Newfoundland</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/Pacific">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/Pacific</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/Pacific</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/Saskatchewan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/Saskatchewan</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/Saskatchewan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Canada/Yukon">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Canada/Yukon</rdfs:comment>
+      <rdfs:label xml:lang="en">Canada/Yukon</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#CET">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">CET</rdfs:comment>
+      <rdfs:label xml:lang="en">CET</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Chile/Continental">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Chile/Continental</rdfs:comment>
+      <rdfs:label xml:lang="en">Chile/Continental</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Chile/EasterIsland">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Chile/EasterIsland</rdfs:comment>
+      <rdfs:label xml:lang="en">Chile/EasterIsland</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#CST6CDT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">CST6CDT</rdfs:comment>
+      <rdfs:label xml:lang="en">CST6CDT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cuba">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Cuba</rdfs:comment>
+      <rdfs:label xml:lang="en">Cuba</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EET">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">EET</rdfs:comment>
+      <rdfs:label xml:lang="en">EET</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Egypt">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Egypt</rdfs:comment>
+      <rdfs:label xml:lang="en">Egypt</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Eire">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Eire</rdfs:comment>
+      <rdfs:label xml:lang="en">Eire</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EST">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">EST</rdfs:comment>
+      <rdfs:label xml:lang="en">EST</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EST5EDT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">EST5EDT</rdfs:comment>
+      <rdfs:label xml:lang="en">EST5EDT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+0">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+0</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+0</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+1">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+1</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+1</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+10">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+10</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+10</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+11">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+11</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+11</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+12">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+12</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+12</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+2">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+2</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+2</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+3">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+3</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+3</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+4">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+4</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+4</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+5">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+5</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+5</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+6">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+6</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+6</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+7">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+7</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+7</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+8">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+8</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+8</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT+9">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT+9</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT+9</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT0">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT0</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT0</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-0">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-0</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-0</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-1">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-1</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-1</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-10">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-10</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-10</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-11">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-11</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-11</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-12">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-12</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-12</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-13">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-13</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-13</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-14">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-14</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-14</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-2">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-2</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-2</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-3">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-3</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-3</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-4">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-4</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-4</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-5">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-5</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-5</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-6">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-6</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-6</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-7">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-7</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-7</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-8">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-8</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-8</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/GMT-9">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/GMT-9</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/GMT-9</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/Greenwich">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/Greenwich</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/Greenwich</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/UCT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/UCT</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/UCT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/Universal">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/Universal</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/Universal</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/UTC">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/UTC</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/UTC</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Etc/Zulu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Etc/Zulu</rdfs:comment>
+      <rdfs:label xml:lang="en">Etc/Zulu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Amsterdam">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Amsterdam</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Amsterdam</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Andorra">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Andorra</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Andorra</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Astrakhan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Astrakhan</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Astrakhan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Athens">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Athens</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Athens</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Belfast">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Belfast</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Belfast</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Belgrade">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Belgrade</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Belgrade</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Berlin">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Berlin</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Berlin</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Bratislava">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Bratislava</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Bratislava</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Brussels">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Brussels</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Brussels</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Bucharest">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Bucharest</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Bucharest</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Budapest">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Budapest</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Budapest</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Busingen">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Busingen</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Busingen</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Chisinau">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Chisinau</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Chisinau</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Copenhagen">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Copenhagen</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Copenhagen</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Dublin">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Dublin</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Dublin</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Gibraltar">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Gibraltar</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Gibraltar</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Guernsey">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Guernsey</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Guernsey</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Helsinki">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Helsinki</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Helsinki</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Isle_of_Man">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Isle_of_Man</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Isle_of_Man</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Istanbul">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Istanbul</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Istanbul</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Jersey">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Jersey</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Jersey</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Kaliningrad">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Kaliningrad</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Kaliningrad</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Kiev">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Kiev</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Kiev</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Lisbon">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Lisbon</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Lisbon</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Ljubljana">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Ljubljana</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Ljubljana</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/London">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/London</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/London</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Luxembourg">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Luxembourg</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Luxembourg</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Madrid">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Madrid</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Madrid</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Malta">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Malta</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Malta</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Mariehamn">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Mariehamn</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Mariehamn</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Minsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Minsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Minsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Monaco">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Monaco</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Monaco</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Moscow">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Moscow</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Moscow</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Nicosia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Nicosia</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Nicosia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Oslo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Oslo</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Oslo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Paris">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Paris</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Paris</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Podgorica">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Podgorica</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Podgorica</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Prague">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Prague</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Prague</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Riga">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Riga</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Riga</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Rome">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Rome</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Rome</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Samara">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Samara</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Samara</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/San_Marino">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/San_Marino</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/San_Marino</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Sarajevo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Sarajevo</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Sarajevo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Simferopol">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Simferopol</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Simferopol</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Skopje">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Skopje</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Skopje</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Sofia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Sofia</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Sofia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Stockholm">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Stockholm</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Stockholm</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Tallinn">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Tallinn</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Tallinn</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Tirane">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Tirane</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Tirane</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Tiraspol">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Tiraspol</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Tiraspol</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Ulyanovsk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Ulyanovsk</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Ulyanovsk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Uzhgorod">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Uzhgorod</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Uzhgorod</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Vaduz">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Vaduz</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Vaduz</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Vatican">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Vatican</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Vatican</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Vienna">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Vienna</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Vienna</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Vilnius">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Vilnius</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Vilnius</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Volgograd">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Volgograd</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Volgograd</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Warsaw">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Warsaw</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Warsaw</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Zagreb">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Zagreb</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Zagreb</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Zaporozhye">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Zaporozhye</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Zaporozhye</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe/Zurich">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Europe/Zurich</rdfs:comment>
+      <rdfs:label xml:lang="en">Europe/Zurich</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GB">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">GB</rdfs:comment>
+      <rdfs:label xml:lang="en">GB</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GB-Eire">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">GB-Eire</rdfs:comment>
+      <rdfs:label xml:lang="en">GB-Eire</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GMT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">GMT</rdfs:comment>
+      <rdfs:label xml:lang="en">GMT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GMT+0">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">GMT+0</rdfs:comment>
+      <rdfs:label xml:lang="en">GMT+0</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GMT0">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">GMT0</rdfs:comment>
+      <rdfs:label xml:lang="en">GMT0</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GMT-0">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">GMT-0</rdfs:comment>
+      <rdfs:label xml:lang="en">GMT-0</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Greenwich">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Greenwich</rdfs:comment>
+      <rdfs:label xml:lang="en">Greenwich</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hongkong">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Hongkong</rdfs:comment>
+      <rdfs:label xml:lang="en">Hongkong</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#HST">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">HST</rdfs:comment>
+      <rdfs:label xml:lang="en">HST</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Iceland">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Iceland</rdfs:comment>
+      <rdfs:label xml:lang="en">Iceland</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Antananarivo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Antananarivo</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Antananarivo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Chagos">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Chagos</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Chagos</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Christmas">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Christmas</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Christmas</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Cocos">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Cocos</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Cocos</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Comoro">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Comoro</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Comoro</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Kerguelen">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Kerguelen</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Kerguelen</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Mahe">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Mahe</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Mahe</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Maldives">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Maldives</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Maldives</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Mauritius">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Mauritius</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Mauritius</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Mayotte">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Mayotte</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Mayotte</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Indian/Reunion">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Indian/Reunion</rdfs:comment>
+      <rdfs:label xml:lang="en">Indian/Reunion</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Iran">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Iran</rdfs:comment>
+      <rdfs:label xml:lang="en">Iran</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Israel">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Israel</rdfs:comment>
+      <rdfs:label xml:lang="en">Israel</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Jamaica">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Jamaica</rdfs:comment>
+      <rdfs:label xml:lang="en">Jamaica</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Japan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Japan</rdfs:comment>
+      <rdfs:label xml:lang="en">Japan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Kwajalein">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Kwajalein</rdfs:comment>
+      <rdfs:label xml:lang="en">Kwajalein</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Libya">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Libya</rdfs:comment>
+      <rdfs:label xml:lang="en">Libya</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#MET">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">MET</rdfs:comment>
+      <rdfs:label xml:lang="en">MET</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mexico/BajaNorte">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Mexico/BajaNorte</rdfs:comment>
+      <rdfs:label xml:lang="en">Mexico/BajaNorte</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mexico/BajaSur">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Mexico/BajaSur</rdfs:comment>
+      <rdfs:label xml:lang="en">Mexico/BajaSur</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mexico/General">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Mexico/General</rdfs:comment>
+      <rdfs:label xml:lang="en">Mexico/General</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#MST">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">MST</rdfs:comment>
+      <rdfs:label xml:lang="en">MST</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#MST7MDT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">MST7MDT</rdfs:comment>
+      <rdfs:label xml:lang="en">MST7MDT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Navajo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Navajo</rdfs:comment>
+      <rdfs:label xml:lang="en">Navajo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NZ">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">NZ</rdfs:comment>
+      <rdfs:label xml:lang="en">NZ</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NZ-CHAT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">NZ-CHAT</rdfs:comment>
+      <rdfs:label xml:lang="en">NZ-CHAT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Apia">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Apia</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Apia</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Auckland">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Auckland</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Auckland</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Bougainville">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Bougainville</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Bougainville</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Chatham">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Chatham</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Chatham</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Chuuk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Chuuk</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Chuuk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Easter">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Easter</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Easter</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Efate">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Efate</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Efate</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Enderbury">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Enderbury</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Enderbury</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Fakaofo">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Fakaofo</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Fakaofo</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Fiji">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Fiji</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Fiji</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Funafuti">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Funafuti</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Funafuti</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Galapagos">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Galapagos</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Galapagos</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Gambier">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Gambier</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Gambier</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Guadalcanal">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Guadalcanal</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Guadalcanal</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Guam">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Guam</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Guam</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Honolulu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Honolulu</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Honolulu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Johnston">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Johnston</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Johnston</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Kiritimati">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Kiritimati</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Kiritimati</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Kosrae">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Kosrae</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Kosrae</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Kwajalein">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Kwajalein</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Kwajalein</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Majuro">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Majuro</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Majuro</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Marquesas">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Marquesas</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Marquesas</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Midway">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Midway</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Midway</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Nauru">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Nauru</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Nauru</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Niue">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Niue</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Niue</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Norfolk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Norfolk</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Norfolk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Noumea">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Noumea</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Noumea</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Pago_Pago">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Pago_Pago</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Pago_Pago</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Palau">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Palau</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Palau</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Pitcairn">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Pitcairn</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Pitcairn</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Pohnpei">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Pohnpei</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Pohnpei</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Ponape">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Ponape</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Ponape</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Port_Moresby">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Port_Moresby</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Port_Moresby</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Rarotonga">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Rarotonga</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Rarotonga</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Saipan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Saipan</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Saipan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Samoa">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Samoa</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Samoa</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Tahiti">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Tahiti</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Tahiti</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Tarawa">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Tarawa</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Tarawa</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Tongatapu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Tongatapu</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Tongatapu</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Truk">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Truk</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Truk</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Wake">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Wake</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Wake</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Wallis">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Wallis</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Wallis</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pacific/Yap">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Pacific/Yap</rdfs:comment>
+      <rdfs:label xml:lang="en">Pacific/Yap</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Poland">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Poland</rdfs:comment>
+      <rdfs:label xml:lang="en">Poland</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Portugal">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Portugal</rdfs:comment>
+      <rdfs:label xml:lang="en">Portugal</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#PRC">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">PRC</rdfs:comment>
+      <rdfs:label xml:lang="en">PRC</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#PST8PDT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">PST8PDT</rdfs:comment>
+      <rdfs:label xml:lang="en">PST8PDT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ROC">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">ROC</rdfs:comment>
+      <rdfs:label xml:lang="en">ROC</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ROK">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">ROK</rdfs:comment>
+      <rdfs:label xml:lang="en">ROK</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Singapore">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Singapore</rdfs:comment>
+      <rdfs:label xml:lang="en">Singapore</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Turkey">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Turkey</rdfs:comment>
+      <rdfs:label xml:lang="en">Turkey</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#UCT">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">UCT</rdfs:comment>
+      <rdfs:label xml:lang="en">UCT</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Universal">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Universal</rdfs:comment>
+      <rdfs:label xml:lang="en">Universal</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Alaska">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Alaska</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Alaska</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Aleutian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Aleutian</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Aleutian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Arizona">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Arizona</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Arizona</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Central">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Central</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Central</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Eastern">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Eastern</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Eastern</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/East-Indiana">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/East-Indiana</rdfs:comment>
+      <rdfs:label xml:lang="en">US/East-Indiana</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Hawaii">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Hawaii</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Hawaii</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Indiana-Starke">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Indiana-Starke</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Indiana-Starke</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Michigan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Michigan</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Michigan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Mountain">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Mountain</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Mountain</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Pacific">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Pacific</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Pacific</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Pacific-New">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Pacific-New</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Pacific-New</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#US/Samoa">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">US/Samoa</rdfs:comment>
+      <rdfs:label xml:lang="en">US/Samoa</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#UTC">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">UTC</rdfs:comment>
+      <rdfs:label xml:lang="en">UTC</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#WET">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">WET</rdfs:comment>
+      <rdfs:label xml:lang="en">WET</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#W-SU">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">W-SU</rdfs:comment>
+      <rdfs:label xml:lang="en">W-SU</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Zulu">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
+      <rdfs:comment xml:lang="en">Zulu</rdfs:comment>
+      <rdfs:label xml:lang="en">Zulu</rdfs:label>
    </owl:Class>
 
 </rdf:RDF>
