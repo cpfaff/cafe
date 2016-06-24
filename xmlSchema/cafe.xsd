@@ -93,7 +93,7 @@
 							    </xs:documentation>
 							  </xs:annotation>
 							</xs:element>
-							<xs:element name="timezone" type="timezone" minOccurs="1" maxOccurs="1">
+							<xs:element name="timezone" type="Timezone" minOccurs="1" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      The olson timezone to capture the timezone of the given date and time in the
@@ -138,7 +138,7 @@
 							    </xs:documentation>
 							  </xs:annotation>
 							</xs:element>
-							<xs:element name="timezone" type="timezone" minOccurs="1" maxOccurs="1">
+							<xs:element name="timezone" type="Timezone" minOccurs="1" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      The olson timezone to capture the timezone of the given date and time in the
@@ -4865,7 +4865,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="timezone">
+  <xs:simpleType name="Timezone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A name of a timezone from the tz database. The values specified below
