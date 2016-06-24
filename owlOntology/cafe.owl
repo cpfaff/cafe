@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <rdf:RDF xmlns="http://terminologies.gfbio.org/terms/cafe#"
    xml:base="http://terminologies.gfbio.org/terms/cafe"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -3713,8 +3712,8 @@
       <rdfs:label xml:lang="en">sha2hash</rdfs:label>
    </owl:Class>
 
-<!-- the details  -->
 
+   <!-- timezones  -->
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa/Abidjan">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
@@ -7823,6 +7822,2207 @@
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#Timezone"/>
       <rdfs:comment xml:lang="en">Zulu</rdfs:comment>
       <rdfs:label xml:lang="en">Zulu</rdfs:label>
+   </owl:Class>
+
+   <!-- geological eons -->
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Phanerozoic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEon"/>
+      <rdfs:comment xml:lang="en">
+	    The Phanerozoic is the current geologic eon in the geologic time
+	    scale, and the one during which abundant animal and plant life has
+	    existed. It covers 541 million years to the present, and goes back
+	    to the period when diverse hard-shelled animals first appeared (WP,
+	    https://goo.gl/jyAqVf)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Phanerozoic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Precambrian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEon"/>
+      <rdfs:comment xml:lang="en">
+	    The Precambrian or Pre-Cambrian is the largest span of time in
+	    Earth's history before the current Phanerozoic Eon, and is a
+	    Supereon divided into several eons of the geologic time scale. It
+	    spans from the formation of Earth about 4.6 billion years ago (Ga)
+	    to the beginning of the Cambrian Period, about 541 million years
+	    ago (Ma), when hard-shelled creatures first appeared in abundance.
+	    The Precambrian is so named because it preceded the Cambrian, the
+	    first period of the Phanerozoic Eon, which is named after Cambria,
+	    the classical name for Wales, where rocks from this age were first
+	    studied. The Precambrian accounts for 88% of geologic time (WP,
+	    https://goo.gl/YuXJS8)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Precambrian</rdfs:label>
+   </owl:Class>
+
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cenozoic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Cenozoic Era is the current and most recent of the three
+	    Phanerozoic geological eras, following the Mesozoic Era and
+	    covering the period from 66 million years ago to present day. The
+	    Cenozoic is also known as the Age of Mammals, because of large
+	    Mammals that dominated, such as Entelodont, Paraceratherium
+	    Diprotodon and Basilosaurus. The extinction of many large Reptile
+	    groups such as non Avian Dinosaurs, Plesiosauria and Pterosauria
+	    allowed Mammals to greatly diversify and dominate the planet, even
+	    to the present day (WP, https://goo.gl/2Izzpv)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Cenozoic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mesozoic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Mesozoic Era is an interval of geological time from about 252
+	    to 66 million years ago. It is also called the Age of Reptiles, a
+	    phrase introduced by the 19th century paleontologist Gideon Mantell
+	    who viewed it as dominated by Reptiles such as Iguanodon,
+	    Megalosaurus, Plesiosaurus and Quetzalcoatlus. This Era is also
+	    called from a paleobotanist view the Age of Conifers (WP,
+	    https://goo.gl/lWAoeN)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Mesozoic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Paleozoic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Paleozoic Era  is the earliest of three geologic eras of the
+	    Phanerozoic Eon, spanning from 541 to 252.17 million years ago. It
+	    is the longest of the Phanerozoic eras, and is subdivided into six
+	    geologic periods (from oldest to youngest): the Cambrian,
+	    Ordovician, Silurian, Devonian, Carboniferous, and Permian. The
+	    Paleozoic comes after the Neoproterozoic Era of the Proterozoic
+	    Eon, and is followed by the Mesozoic Era (WP, https://goo.gl/crCI28)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Paleozoic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Proterozoic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Proterozoic is a geological eon representing the time just
+	    before the proliferation of complex life on Earth. The name
+	    Proterozoic comes from Greek and means "earlier life",the Greek
+	    root protero-,means "former, earlier" and zoic-,means "animal,
+	    living being". The Proterozoic Eon extended from 2500 Ma to
+	    542.0±1.0 Ma (million years ago), and is the most recent part of
+	    the Precambrian. It is subdivided into three geologic eras (from
+	    oldest to youngest): the Paleoproterozoic, Mesoproterozoic, and
+	    Neoproterozoic (WP, https://goo.gl/sUu8Tg )
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Proterozoic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Neoproterozoic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Neoproterozoic Era is the unit of geologic time from 1,000 to
+	    541 million years ago. It is the last era of the Proterozoic Eon
+	    and Precambrian Supereon; it is subdivided into the Tonian,
+	    Cryogenian, and Ediacaran Periods. It is preceded by the
+	    Mesoproterozoic era and succeeded by the Paleozoic era (WP,
+	    https://goo.gl/5mGcbY)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Neoproterozoic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mesoproterozoic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Mesoproterozoic Era is a geologic era that occurred from 1,600
+	    to 1,000 million years ago. The Mesoproterozoic was the first
+	    period of Earth's history of which a respectable geological record
+	    survives. Continents existed in the Paleoproterozoic, but we know
+	    little about them. It is noteworthy that the continental masses of
+	    the Mesoproterozoic are more or less the same ones that are with us
+	    today (WP, https://goo.gl/ui0yau ).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Mesoproterozoic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Paleoproterozoic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Paleoproterozoic is the first of the three sub-divisions (eras)
+	    of the Proterozoic occurring 2,500 to 1,600 million years ago
+	    (2.5–1.6 Ga). This is when the continents first stabilized (WP,
+	    https://goo.gl/6pC2zs )
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Paleoproterozoic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Archean">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Archean Eon is a geologic eon, 4,000 to 2,500 million years ago
+	    (that is, 4 to 2.5 billion years ago), following the Hadean Eon and
+	    preceding the Proterozoic Eon. During the Archean, the earth's
+	    crust and layers had just formed, making the Earth much cooler than
+	    it was during the Hadean and allowing the formation of continents
+	    (WP, https://goo.gl/zPqxU )
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Archean</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Neoarchean">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Neoarchean is a geologic era within the Archaean. The
+	    Neoarchean spans the period of time from 2,800 to 2,500 million
+	    years ago the period being defined chronometrically and not
+	    referenced to a specific level in a rock section on Earth (WP,
+	    https://goo.gl/qX7fWi)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Neoarchean</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mesoarchean">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Mesoarchean is a geologic era within the Archean, spanning
+	    3,200 to 2,800 million years ago. The period is defined
+	    chronometrically and is not referenced to a specific level in a
+	    rock section on Earth. Fossils from Australia show that
+	    stromatolites have lived on Earth since the Mesoarchean. The
+	    Pongola glaciation occurred at 2,900 million years ago. The first
+	    supercontinent Vaalbara broke up during this time around 2,800
+	    million years ago (WP, https://goo.gl/ZL4B1q).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Mesoarchean</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Paleoarchean">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    The Paleoarchean is a geologic era within the Archaean. It spans
+	    the period of time 3,600 to 3,200 million years ago—the era being
+	    defined chronometrically and not referenced to a specific level in
+	    a rock section on Earth. The name derives from Greek "Palaios"
+	    ancient. The oldest ascertained life form (well-preserved bacteria
+	    older than 3,460 million years found in Western Australia) is from
+	    this era. 3,480 Ma: Fossils of microbial mat found in 3.48
+	    billion-year-old sandstone discovered in Western Australia. The
+	    first supercontinent Vaalbara formed during this period (WP,
+	    https://goo.gl/VuiWQ9)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Paleoarchean</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Eoarchean">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEra"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic record the Eoarchean Era or erathem is the earliest
+	    time following the solidification of Earth's crust. It follows the
+	    Hadean Eon and precedes the Paleoarchean Era of the geologic
+	    timescale. The approximate abiotic origins of life have been dated
+	    to a time window from 4,000 to 3,600 million years ago when
+	    atmospheric pressure values ranged from 10 to 100 bar (10 to 100
+	    atmospheres) (WP, https://goo.gl/vy3RyF).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Eoarchean</rdfs:label>
+   </owl:Class>
+
+
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Quaternary">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Quaternary Period is the current and most recent of the three
+	    periods of the Cenozoic Era in the geologic time scale of the
+	    International Commission on Stratigraphy (ICS). It follows the
+	    Neogene Period and spans from 2.588 ± 0.005 million years ago to
+	    the present. The Quaternary Period is divided into two epochs: the
+	    Pleistocene (2.588 million years ago to 11.7 thousand years ago)
+	    and the Holocene (11.7 thousand years ago to today). The informal
+	    term "Late Quaternary" refers to the past 0.5–1.0 million years.
+	    The Quaternary period is typically defined by the cyclic growth and
+	    decay of continental ice sheets driven by Milankovitch cycles and
+	    the associated climate and environmental changes that occurred (WP,
+	    https://goo.gl/zdzlm2 )
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Quaternary</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Neogene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Neogene is a geologic period and system in the International
+	    Commission on Stratigraphy (ICS) Geologic Timescale starting 23.03
+	    million years ago and ending 2.58 million years ago. The second
+	    period in the Cenozoic Era, it follows the Paleogene Period and is
+	    succeeded by the Quaternary Period. The Neogene is sub-divided into
+	    two epochs, the earlier Miocene and the later Pliocene (WP,
+	    https://goo.gl/9YZTF3)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Neogene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Paleogene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Paleogene is a geologic period and system that began 66 and ended 23.03
+	    million years ago and comprises the first part of the Cenozoic Era. Lasting 43
+	    million years, the Paleogene is most notable as being the time in which mammals
+	    evolved from relatively small, simple forms into a large group of diverse
+	    animals in the wake of the Cretaceous–Paleogene extinction event that ended the
+	    preceding Cretaceous Period (WP, https://goo.gl/2NlFFn).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Paleogene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cretaceous">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Cretaceous, derived from the Latin "creta" (chalk), usually abbreviated K
+	    for its German translation Kreide (chalk), is a geologic period and system from
+	    145 ± 4 to 66 million years (Ma) ago. In the geologic timescale, the Cretaceous
+	    follows the Jurassic Period and is followed by the Paleogene Period of the
+	    Cenozoic Era. It is the last period of the Mesozoic Era, and, spanning 79
+	    million years, the longest period of the Phanerozoic Eon.
+	    (WP, https://goo.gl/f3z6Hn)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Cretaceous</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Jurassic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Jurassic is a geologic period and system that extends from 201.3 Mya
+	    (million years ago) to 145.5 Mya from the end of the Triassic to the beginning
+	    of the Cretaceous. The Jurassic constitutes the middle period of the Mesozoic
+	    Era, also known as the Age of Reptiles. The start of the period is marked by
+	    the major Triassic–Jurassic extinction event. Two other extinction events
+	    occurred during the period: the Pliensbachian/Toarcian event in the Early
+	    Jurassic, and the Tithonian event at the end; however, neither event ranks
+	    among the "Big Five" mass extinctions (WP, https://goo.gl/oISdB7)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Jurassic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Triassic">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Triassic is a geologic period and system that extends from roughly 252.17
+	    to 201.3 million years ago, an interval of 51.04 million years. It is the first
+	    period of the Mesozoic Era, and lies between the Permian and Jurassic periods.
+	    Both the start and end of the period are marked by major extinction events. The
+	    Triassic was named in 1834 by Friedrich von Alberti, after the three distinct
+	    rock layers (tri meaning "three") that are found throughout Germany and
+	    northwestern Europe—red beds, capped by marine limestone, followed by a series
+	    of terrestrial mud- and sandstones—called the "Trias". (WP, https://goo.gl/bw9CYZ)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Triassic</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Permian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Permian is a geologic period and system which extends from 298.9 to 252.17
+	    million years ago. It is the last period of the Paleozoic, following the
+	    Carboniferous and preceding the Triassic of the Mesozoic. The concept of the
+	    Permian was introduced in 1841 by geologist Sir Roderick Murchison, who named
+	    it after the ancient kingdom of Permia (WP, https://goo.gl/1HZquE)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Permian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Carboniferous">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Carboniferous is a geologic period and system that extends from the end of
+	    the Devonian Period, at 358.9 ± 0.4 million years ago, to the beginning of the
+	    Permian Period, at 298.9 ± 0.15 Ma. The name Carboniferous means "coal-bearing"
+	    and derives from the Latin words carbō ("coal") and ferō ("I bear, I carry"),
+	    and was coined by geologists William Conybeare and William Phillips in 1822.
+	    Based on a study of the British rock succession, it was the first of the modern
+	    'system' names to be employed, and reflects the fact that many coal beds were
+	    formed globally during this time. The Carboniferous is often treated in North
+	    America as two geological periods, the earlier Mississippian and the later
+	    Pennsylvanian (WP, https://goo.gl/VuxQMZ).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Carboniferous</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Devonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Devonian is a geologic period and system of the Paleozoic Era
+	    spanning from the end of the Silurian Period, about 419.2 Mya
+	    (million years ago), to the beginning of the Carboniferous Period,
+	    about 358.9. It is named after Devon, England, where rocks from
+	    this period were first studied. The Devonian period experienced the
+	    first significant adaptive radiation of terrestrial life.
+	    Free-sporing vascular plants began to spread across dry land,
+	    forming extensive forests which covered the continents. By the
+	    middle of the Devonian, several groups of plants had evolved leaves
+	    and true roots, and by the end of the period the first seed-bearing
+	    plants appeared. Various terrestrial arthropods also became
+	    well-established. Fish reached substantial diversity during this
+	    time, leading the Devonian to often be dubbed the "Age of Fish".
+	    The first ray-finned and lobe-finned bony fish appeared, while the
+	    placoderms began dominating almost every known aquatic environment.
+	    (WP, https://goo.gl/nbtNUu)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Devonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Silurian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Silurian is a geologic period and system that extends from the
+	    end of the Ordovician Period, at 443.8 million years ago (Mya), to
+	    the beginning of the Devonian Period, 419.2 Mya. As with other
+	    geologic periods, the rock beds that define the period's start and
+	    end are well identified, but the exact dates are uncertain by
+	    several million years. The base of the Silurian is set at a major
+	    extinction event when 60% of marine species were wiped out. See
+	    Ordovician-Silurian extinction events (WP, https://goo.gl/mStlAZ).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Silurian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ordovician">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Ordovician is a geologic period and system, the second of six of the
+	    Paleozoic Era, and covers the time between 485.4 and 443.8 million years
+	    ago. It follows the Cambrian Period and is followed by the Silurian Period.
+	    The Ordovician, named after the Celtic tribe of the Ordovices, was defined by
+	    Charles Lapworth in 1879 to resolve a dispute between followers of Adam
+	    Sedgwick and Roderick Murchison, who were placing the same rock beds in
+	    northern Wales into the Cambrian and Silurian periods, respectively.
+	    Lapworth, recognizing that the fossil fauna in the disputed strata were
+	    different from those of either the Cambrian or the Silurian periods, realized
+	    that they should be placed in a period of their own. While recognition of the
+	    distinct Ordovician period was slow in the United Kingdom, other areas of the
+	    world accepted it quickly. It received international sanction in 1960, when it
+	    was adopted as an official period of the Paleozoic Era by the International
+	    Geological Congress (WP, https://goo.gl/hcmkyj).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Ordovician</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cambrian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Cambrian was the first geological period of the Paleozoic Era,
+	    lasting from 541 to 485.4 million years ago (mya) and was succeeded
+	    by the Ordovician. Its subdivisions, and indeed its base, are
+	    somewhat in flux. The period was established (as “Cambrian series”)
+	    by Adam Sedgwick, who named it after Cambria, the Latinised form of
+	    Cymru, the Welsh name for Wales, where Britain's Cambrian rocks are
+	    best exposed. The Cambrian is unique in its unusually high
+	    proportion of lagerstätte sedimentary deposits. These are sites of
+	    exceptional preservation, where "soft" parts of organisms are
+	    preserved as well as their more resistant shells. This means that
+	    our understanding of the Cambrian biology surpasses that of some
+	    later periods (WP, https://goo.gl/4evSXv).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Cambrian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ediacaran">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Ediacaran Period, named after the Ediacara Hills of South
+	    Australia, is the last geological period of the Neoproterozoic Era
+	    and of the Proterozoic Eon, immediately preceding the Cambrian
+	    Period, the first period of the Paleozoic Era and of the
+	    Phanerozoic Eon (WP, https://goo.gl/GbJOZG).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Ediacaran</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cryogenian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Cryogenian is a geologic period that lasted from 720 to 635
+	    million years ago. It forms the second geologic period of the
+	    Neoproterozoic Era, preceded by the Tonian Period and followed by
+	    the Ediacaran (WP, https://en.wikipedia.org/wiki/Cryogenian)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Cryogenian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Tonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Tonian (from Greek tonas, "stretch") is the first geologic period in the
+	    Neoproterozoic Era and lasted from 1000 Mya to ~720 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined by the ICS
+	    based on radiometric chronometry (WP, https://goo.gl/5lXA0K).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Tonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Stenian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Stenian is the final geologic period in the Mesoproterozoic Era
+	    and lasted from 1200 Mya to 1000 Mya (million years ago). Instead
+	    of being based on stratigraphy, these dates are defined
+	    chronometrically. The name derives from narrow polymetamorphic
+	    belts formed over this period (WP, https://goo.gl/XJAlhU).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Stenian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ectasian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Ectasian is the second geologic period in the Mesoproterozoic
+	    Era and lasted from 1400 Mya ago to 1200 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined
+	    chronometrically (WP, https://goo.gl/xZBsSI).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Ectasian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Calymmian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Calymmian (from Greek calymma, "cover") is the first geologic
+	    period in the Mesoproterozoic Era and lasted from 1600 Mya to 1400
+	    Mya (million years ago). Instead of being based on stratigraphy,
+	    these dates are defined chronometrically (WP,
+	    https://goo.gl/0y2zee).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Calymmian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Statherian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Statherian is the final geologic period in the Paleoproterozoic
+	    Era and lasted from 1800 Mya to 1600 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined
+	    chronometrically. The period is characterized on most continents by
+	    either new platforms or final cratonization of fold belts (WP,
+	    https://goo.gl/C1sO7w)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Statherian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Orosirian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Orosirian is the third geologic period in the Paleoproterozoic
+	    Era and lasted from 2050 Mya to 1800 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined
+	    chronometrically. The later half of the period was an episode of
+	    intensive orogeny on virtually all continents.
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Orosirian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Rhyacian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Rhyacian is the second geologic period in the Paleoproterozoic
+	    Era and lasted from 2300 Mya to 2050 Mya (million years ago).
+	    Instead of being based on stratigraphy, these dates are defined
+	    chronometrically. (WP, https://goo.gl/lI4T6C)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Rhyacian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Siderian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod"/>
+      <rdfs:comment xml:lang="en">
+	    The Siderian is the first geologic period in the Paleoproterozoic
+	    Era and lasted from 2500 Ma to 2300 Ma (million years ago, from
+	    Greek: Mega and Latin: Annum ). Instead of being based on
+	    stratigraphy, these dates are defined chronometrically (WP,
+	    https://goo.gl/OOb8Rq).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Siderian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Holocene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Holocene  is the geological epoch that began after the
+	    Pleistocene at approximately 11,700 years before AD 2000 and
+	    continues to the present. The term "Recent" (usually capitalised)
+	    has often been used as an exact synonym of "Holocene", although
+	    this usage is discouraged in 21st-century work. The Holocene is
+	    part of the Quaternary period. It has been identified with the
+	    current warm period, known as MIS 1, and can be considered an
+	    interglacial in the current ice age based on that evidence (WP,
+	    https://goo.gl/vj6I2).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Holocene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pleistocene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Pleistocene is the geological epoch which lasted from about
+	    2,588,000 to 11,700 years ago, spanning the world's most recent
+	    period of repeated glaciations. The end of the Pleistocene
+	    corresponds with the end of the last glacial period and also with
+	    the end of the Paleolithic age used in archaeology (WP,
+	    https://goo.gl/8rh6qj)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Pleistocene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pilocene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Pilocene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Miocene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Miocene is the first geological epoch of the Neogene Period and
+	    extends from about 23.03 to 5.332 million years ago (Ma). The
+	    Miocene was named by Sir Charles Lyell. Its name comes from the
+	    Greek words μείων (meiōn, “less”) and καινός (kainos, “new”) and
+	    means "less recent" because it has 18% fewer modern sea
+	    invertebrates than the Pliocene. The Miocene follows the Oligocene
+	    Epoch and is followed by the Pliocene Epoch (WP,
+	    https://goo.gl/AVnjBY).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Miocene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Oligocene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Oligocene is a geologic epoch of the Paleogene Period and
+	    extends from about 33.9 million to 23 million years before the
+	    present (33.9±0.1 to 23.03±0.05 Ma). As with other older geologic
+	    periods, the rock beds that define the epoch are well identified
+	    but the exact dates of the start and end of the epoch are slightly
+	    uncertain. The name Oligocene comes from the Greek ὀλίγος (oligos,
+	    few) and καινός (kainos, new), and refers to the sparsity of extant
+	    forms of molluscs. The Oligocene is preceded by the Eocene Epoch
+	    and is followed by the Miocene Epoch. The Oligocene is the third
+	    and final epoch of the Paleogene Period (WP,
+	    https://goo.gl/Q5vpkN).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Oligocene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Eocene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Eocene Epoch, lasting from 56 to 33.9 million years ago, is a
+	    major division of the geologic timescale and the second epoch of
+	    the Paleogene Period in the Cenozoic Era. The Eocene spans the time
+	    from the end of the Palaeocene Epoch to the beginning of the
+	    Oligocene Epoch. The start of the Eocene is marked by a brief
+	    period in which the concentration of the carbon isotope 13C in the
+	    atmosphere was exceptionally low in comparison with the more common
+	    isotope 12C. The end is set at a major extinction event called the
+	    Grande Coupure (the "Great Break" in continuity) or the
+	    Eocene–Oligocene extinction event, which may be related to the
+	    impact of one or more large bolides in Siberia and in what is now
+	    Chesapeake Bay. As with other geologic periods, the strata that
+	    define the start and end of the epoch are well identified, though
+	    their exact dates are slightly uncertain (WP,
+	    https://goo.gl/1p60TM).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Eocene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Paleocene">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Paleocene or Palaeocene, the "old recent", is a geologic epoch
+	    that lasted from about 66 to 56 million years ago. It is the first
+	    epoch of the Paleogene Period in the modern Cenozoic Era. As with
+	    many geologic periods, the strata that define the epoch's beginning
+	    and end are well identified, but the exact ages remain uncertain.
+	    The Paleocene Epoch brackets two major events in Earth's history.
+	    It started with the mass extinction event at the end of the
+	    Cretaceous, known as the Cretaceous–Paleogene (K–Pg) boundary. This
+	    was a time marked by the demise of non-avian dinosaurs, giant
+	    marine reptiles and much other fauna and flora. The die-off of the
+	    dinosaurs left unfilled ecological niches worldwide. It ended with
+	    the Paleocene–Eocene Thermal Maximum. This was a geologically brief
+	    (~0.2 million year) interval characterized by extreme changes in
+	    climate and carbon cycling (WP, https://goo.gl/TCq88n).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Paleocene</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lopingian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Lopingian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Guadalupian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Guadalupian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cisuralian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Cisuralian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pennsylvanian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Pennsylvanian (also known as Upper Carboniferous or Late
+	    Carboniferous) is, in the ICS geologic timescale, the younger of
+	    two subperiods (or upper of two subsystems) of the Carboniferous
+	    Period. It lasted from roughly 323.2 million years ago to 298.9
+	    million years ago Ma (million years ago). As with most other
+	    geochronologic units, the rock beds that define the Pennsylvanian
+	    are well identified, but the exact date of the start and end are
+	    uncertain by a few million years (WP, https://goo.gl/pSaSbq).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Pennsylvanian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mississippian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Mississippian (also known as Lower Carboniferous or Early
+	    Carboniferous) is a subperiod in the geologic timescale or a
+	    subsystem of the geologic record. It is the earliest/lowermost of
+	    two subperiods of the Carboniferous period lasting from roughly
+	    358.9 to 323.2 million years ago. As with most other geochronologic
+	    units, the rock beds that define the Mississippian are well
+	    identified, but the exact start and end dates are uncertain by a
+	    few million years. The Mississippian is so named because rocks with
+	    this age are exposed in the Mississippi River valley (WP,
+	    https://goo.gl/8xPJHe).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Mississippian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pridoli">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Pridoli, lasting from 423 ± 1.5 to 419.2 ± 2.8 mya, is the
+	    final and shortest epoch of the Silurian. It is named after one
+	    locality at the Homolka a Přídolí nature reserve near the Prague
+	    suburb Slivenec in the Czech Republic. Přídolí is the old name of a
+	    cadastral field area. (WP, https://goo.gl/mStlAZ)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Pridoli</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ludlow">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Ludlow, lasting from 427.4 ± 1.5 to 423 ± 2.8 mya, comprises
+	    the Gorstian stage, lasting until 425.6 million years ago, and the
+	    Ludfordian stage. It is named for the town of Ludlow (and
+	    neighbouring Ludford) in Shropshire, England. (WP,
+	    https://goo.gl/mStlAZ)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Ludlow</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Wenlock">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Wenlock, which lasted from 433.4 ± 1.5 to 427.4 ± 2.8 mya, is
+	    subdivided into the Sheinwoodian (to 430.5 million years ago) and
+	    Homerian ages. It is named after Wenlock Edge in Shropshire,
+	    England. During the Wenlock, the oldest known tracheophytes of the
+	    genus Cooksonia, appear. The complexity of slightly younger
+	    Gondwana plants like Baragwanathia indicates a much longer history
+	    for vascular plants, perhaps extending into the early Silurian or
+	    even Ordovician. See Evolutionary history of plants. The first
+	    terrestrial animals also appear in the Wenlock, represented by
+	    air-breathing millipedes from Scotland. (WP, https://goo.gl/mStlAZ)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Wenlock</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Llandovery">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya,
+	    and is subdivided into three stages: the Rhuddanian, lasting until
+	    440.8 million years ago, the Aeronian, lasting to 438.5 million
+	    years ago, and the Telychian. The epoch is named for the town of
+	    Llandovery in Carmarthenshire, Wales (WP, https://goo.gl/mStlAZ)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Llandovery</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Furongian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Furongian is the fourth and final series of the Cambrian. It
+	    lasted from ~497 to 485.4 ± 1.9 million years ago. It succeeds the
+	    still unnamed 3rd series of the Cambrian and precedes the Lower
+	    Ordovician Tremadocian stage. It is subdivided into three stages:
+	    the Paibian, Jiangshanian and the unnamed 10th stage of the
+	    Cambrian (WP, https://goo.gl/WY4Nzj).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Furongian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Terreneuvian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    The Terreneuvian is the lowermost and oldest series of the Cambrian
+	    geological system. Its base is defined by the first appearance
+	    datum of the trace fossil Treptichnus pedum around 541.0 ± 1.0
+	    million years ago. Its top is defined as the first appearance of
+	    trilobites in the stratigraphic record around ~521 million years
+	    ago. This series was formally ratified by the International
+	    Commission on Stratigraphy in 2012 (WP, https://goo.gl/9BTTcO).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Terreneuvian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Series 2">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    Cambrian Series 2 is the unnamed 2nd series of the Cambrian. It
+	    lies above the Terreneuvian series and below the Cambrian Series 3.
+	    Series 2 has not been formally defined by the International
+	    Commission on Stratigraphy, lacking a precise lower and upper
+	    boundary and subdivision into stages. The proposed lower boundary
+	    is the first appearance of trilobites which is estimated to be
+	    around ~521 million years ago. The upper boundary is proposed as
+	    the first appearance of either the trilobite species Oryctocephalus
+	    indicus or Ovatoryctocara granulata, currently estimated to be
+	    around ~509 million years ago (WP, https://goo.gl/Xny79N).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Series 2</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Series 3">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    Cambrian Series 3 is the still unnamed 3rd Series of the Cambrian.
+	    It lasted from about ~509 to ~497 million years ago and is divided
+	    into 3 stages: the unnamed Stage 5, the Drumian, and the
+	    Guzhangian. Cambrian Series 3 is preceded by also unnamed Cambrian
+	    Series 2 and succeeded by the Furongian series (WP,
+	    https://goo.gl/QChvRc).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Series 3</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Upper">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Upper</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Middle">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Middle</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lower">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Lower</rdfs:label>
+   </owl:Class>
+
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Calabrian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    Calabrian is a subdivision of the Pleistocene Epoch of the geologic time scale,
+	    defined as ~1.8 Ma.—781,000 years ago ± 5,000 years, a period of ~1.019 million
+	    years. The end of the stage is defined by the last magnetic pole reversal (781
+	    ± 5 Ka) and plunge into an ice age and global drying possibly colder and drier
+	    than the late Miocene (Messinian) through early Pliocene (Zanclean) cold
+	    period. Originally the Calabrian was a European faunal stage primarily based
+	    on mollusk fossils. It has become the second geologic age in the Early
+	    Pleistocene. Many of the mammalian faunal assemblages of the Early Pleistocene
+	    start in the Gelasian. For example, the Platygonus and other Blancan fauna
+	    appear first in the Gelasian (WP, https://goo.gl/fvxSGa).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Calabrian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Gelasian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    he Gelasian is an age in the international geologic timescale or a stage in
+	    chronostratigraphy, being the earliest or lowest subdivision of the Quaternary
+	    period/system and Pleistocene epoch/series. It spans the time between 2.588 ±
+	    0.005 Ma (million years ago) and 1.806 ± 0.005 Ma. It follows the Piacenzian
+	    stage (part of the Pliocene) and is followed by the Calabrian stage (WP,
+	    https://goo.gl/CtzNIv).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Gelasian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Piacenzian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Piacenzian is in the international geologic time scale the upper stage or
+	    latest age of the Pliocene. It spans the time between 3.6 ± 0.005 Ma and 2.588
+	    ± 0.005 Ma (million years ago). The Piacenzian is on top of the Zanclean and is
+	    followed by the Gelasian (part of the Pleistocene) (WP, https://goo.gl/ttDaja).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Piacenzian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Zanclean">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Zanclian is the lowest stage or earliest age on the geologic time scale of
+	    the Pliocene. It spans the time between 5.332 ± 0.005 Ma and 3.6 ± 0.005 Ma
+	    (million years ago). It is preceded by the Messinian age of the Miocene epoch,
+	    and followed by the Piacenzian age (WP, https://goo.gl/hoMlmv).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Zanclean</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Messinian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    he Messinian is in the geologic timescale the last age or uppermost stage of
+	    the Miocene. It spans the time between 7.246 ± 0.005 Ma and 5.332 ± 0.005 Ma
+	    (million years ago). It follows the Tortonian and is followed by the Zanclean,
+	    the first age of the Pliocene (WP, https://goo.gl/BbVuyw).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Messinian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Tortonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Tortonian is in the geologic timescale an age or stage of the late Miocene
+	    that spans the time between 11.608 ± 0.005 Ma and 7.246 ± 0.005 Ma (million
+	    years ago). It follows the Serravallian and is followed by the Messinian (WP,
+	    https://goo.gl/yPq9Au).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Tortonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Serravallian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Serravallian is in the geologic timescale an age or a stage in the middle
+	    Miocene epoch/series, that spans the time between 13.65 ± 0.05 Ma and 11.608 ±
+	    0.005 Ma (million years ago). The Serravallian follows the Langhian and is
+	    followed by the Tortonian (WP, https://goo.gl/erycZ3).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Serravallian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Langhian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Langhian is, in the ICS geologic timescale, an age or stage in the middle
+	    Miocene epoch/series. It spans the time between 15.97 ± 0.05 Ma and 13.65 ±
+	    0.05 Ma (million years ago) during the Middle Miocene (WP,
+	    https://goo.gl/YpyJw3).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Langhian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Burdigalian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Burdigalian is, in the geologic timescale, an age or stage in the early
+	    Miocene. It spans the time between 20.43 ± 0.05 Ma and 15.97 ± 0.05 Ma (million
+	    years ago). Preceded by the Aquitanian, the Burdigalian was the first and
+	    longest warming period of the Miocene and is succeeded by the Langhian (WP,
+	    https://goo.gl/pc1Rkt).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Burdigalian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Aquitanian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Aquitanian is, in the ICS' geologic timescale, the oldest age or lowest
+	    stage in the Miocene. It spans the time between 23.03 ± 0.05 Ma and 20.43 ±
+	    0.05 Ma (million years ago) during the Early Miocene. It is a dry, cooling
+	    period. The Aquitanian succeeds the Chattian (the youngest age of the
+	    Oligocene) and precedes the Burdigalian (WP, https://goo.gl/hvxMfX).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Aquitanian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Chattian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Chattian is, in the geologic timescale, the younger of two ages or upper of
+	    two stages of the Oligocene epoch/series. It spans the time between 28.1 and
+	    23.03 Ma. The Chattian is preceded by the Rupelian and is followed by the
+	    Aquitanian (the lowest stage of the Miocene) (WP, https://goo.gl/Ufl38O).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Chattian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Rupelian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Rupelian is, in the geologic timescale, the older of two ages or the lower
+	    of two stages of the Oligocene epoch/series. It spans the time between 33.9 and
+	    28.1 Ma. It is preceded by the Priabonian stage (part of the Eocene) and is
+	    followed by the Chattian stage (WP, https://goo.gl/P8U2Xs).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Rupelian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Priabonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Priabonian is, in the ICS's geologic timescale, the latest age or the upper
+	    stage of the Eocene epoch or series. It spans the time between 37.8 and 33.9
+	    Ma. The Priabonian is preceded by the Bartonian and is followed by the
+	    Rupelian, the lowest stage of the Oligocene (WP, https://goo.gl/qEED1G).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Priabonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Bartonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Bartonian is, in the ICS's geologic time scale, a stage or age in the
+	    middle Eocene epoch or series. The Bartonian age spans the time between 41.2
+	    and 37.8 Ma. It is preceded by the Lutetian and is followed by the Priabonian
+	    age (WP, https://goo.gl/AW2q96).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Bartonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lutetian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Lutetian is, in the geologic timescale, a stage or age in the
+	    Eocene. It spans the time between 47.8 and 41.2 Ma. The Lutetian
+	    is preceded by the Ypresian and is followed by the Bartonian.
+	    Together with the Bartonian it is sometimes referred to as the
+	    Middle Eocene subepoch (WP, https://goo.gl/IqPVMn)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Lutetian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ypresian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale the Ypresian (pronunciation: /iːˈprɛsiən/) is the
+	    oldest age or lowest stratigraphic stage of the Eocene. It spans the time
+	    between 56 and 47.8 Ma, is preceded by the Thanetian age (part of the
+	    Paleocene) and is followed by the Eocene Lutetian age (WP,
+	    https://goo.gl/NVeq4j)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Ypresian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Thanetian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Thanetian is, in the ICS Geologic timescale, the latest age or uppermost
+	    stratigraphic stage of the Paleocene Epoch or series. It spans the time between
+	    59.2 and 56 Ma. The Thanetian is preceded by the Selandian age and followed by
+	    the Ypresian age (part of the Eocene). The Thanetian is sometimes referred
+	    to as the Late Paleocene sub-epoch (WP, https://goo.gl/ntpflj).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Thanetian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Selandian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Selandian is in the geologic timescale an age or stage in the Paleocene. It
+	    spans the time between 61.6 and 59.2 Ma. It is preceded by the Danian and
+	    followed by the Thanetian. Sometimes the Paleocene is subdivided in
+	    subepochs, in which the Selandian forms the "Middle Paleocene". (WP,
+	    https://goo.gl/RyiIOs)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Selandian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Danian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Danian is the oldest age or lowermost stage of the Paleocene epoch or
+	    series, the Paleogene period or system and the Cenozoic era or erathem. The
+	    beginning of the Danian age (and the end of the preceding Maastrichtian age) is
+	    at the Cretaceous–Paleogene extinction event 66 Ma. The age ended 61.6 Ma,
+	    being followed by the Selandian age (WP, https://goo.gl/WpM0lU).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Danian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Maastrichtian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Maastrichtian is, in the ICS geologic timescale, the latest age or upper
+	    stage of the Late Cretaceous epoch or Upper Cretaceous series, the Cretaceous
+	    period or system, and of the Mesozoic era or erathem. It spanned the interval
+	    from 72.1 to 66 million years ago. The Maastrichtian was preceded by the
+	    Campanian and succeeded by the Danian (part of the Paleogene and Paleocene)
+	    (WP, https://goo.gl/xvwAHe)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Maastrichtian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Campanian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Campanian is, in the ICS' geologic timescale, the fifth of six ages of the
+	    Late Cretaceous epoch (or, in chronostratigraphy: the fifth of six stages in
+	    the Upper Cretaceous series). The Campanian spans the time from 83.6 ± 0.7 Ma
+	    to 72.1 ± 0.6 Ma (million years ago). It is preceded by the Santonian and it is
+	    followed by the Maastrichtian (WP, https://goo.gl/Q47fpS).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Campanian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Santonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Santonian is an age in the geologic timescale or a chronostratigraphic
+	    stage. It is a subdivision of the Late Cretaceous epoch or Upper Cretaceous
+	    series. It spans the time between 86.3 ± 0.7 mya (million years ago) and 83.6 ±
+	    0.7 mya. The Santonian is preceded by the Coniacian and is followed by the
+	    Campanian (WP, https://goo.gl/wYfDET).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Santonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Coniacian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Coniacian is an age or stage in the geologic timescale. It is a subdivision
+	    of the Late Cretaceous epoch or Upper Cretaceous series and spans the time
+	    between 89.8 ± 1 Ma and 86.3 ± 0.7 Ma (million years ago). The Coniacian is
+	    preceded by the Turonian and followed by the Santonian (WP,
+	    https://goo.gl/6ysKVB).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Coniacian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Turonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Turonian is, in the ICS' geologic timescale, the second age in the Late
+	    Cretaceous epoch, or a stage in the Upper Cretaceous series. It spans the time
+	    between 93.9 ± 0.8 Ma and 89.8 ± 1 Ma (million years ago). The Turonian is
+	    preceded by the Cenomanian stage and underlies the Coniacian stage (WP,
+	    https://goo.gl/cXU55Q).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Turonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cenomanian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Cenomanian is, in the ICS' geological timescale the oldest or earliest age
+	    of the Late Cretaceous epoch or the lowest stage of the Upper Cretaceous
+	    series. An age is a unit of geochronology: it is a unit of time; the stage
+	    is a unit in the stratigraphic column deposited during the corresponding age.
+	    Both age and stage bear the same name (WP, https://goo.gl/omrp1u).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Cenomanian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Albian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Albian is both an age of the geologic timescale and a stage in the
+	    stratigraphic column. It is the youngest or uppermost subdivision of the
+	    Early/Lower Cretaceous epoch/series. Its approximate time range is 113.0 ± 1.0
+	    Ma to 100.5 ± 0.9 Ma (million years ago). The Albian is preceded by the Aptian
+	    and followed by the Cenomanian (WP, https://goo.gl/g90neK).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Albian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Aptian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Aptian is an age in the geologic timescale or a stage in the stratigraphic
+	    column. It is a subdivision of the Early or Lower Cretaceous epoch or series
+	    and encompasses the time from 125.0 ± 1.0 Ma to 113.0 ± 1.0 Ma (million years
+	    ago), approximately. The Aptian succeeds the Barremian and precedes the Albian,
+	    all part of the Lower/Early Cretaceous (WP, https://goo.gl/8B9r4E).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Aptian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Barremian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Barremian is an age in the geologic timescale (or a chronostratigraphic
+	    stage) between 129.4 ± 1.5 Ma (million years ago) and 125.0 ± 1.0 Ma). It is a
+	    subdivision of the Early Cretaceous epoch (or Lower Cretaceous series). It is
+	    preceded by the Hauterivian and followed by the Aptian stage (WP,
+	    https://goo.gl/SNSUhS).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Barremian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hauterivian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Hauterivian is, in the geologic timescale, an age in the Early Cretaceous
+	    epoch or a stage in the Lower Cretaceous series. It spans the time between
+	    132.9 ± 2 Ma and 129.4 ± 1.5 Ma (million years ago). The Hauterivian is
+	    preceded by the Valanginian and succeeded by the Barremian (WP,
+	    https://goo.gl/PivdCS).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Hauterivian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Valanginian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Valanginian is an age or stage of the Early or
+	    Lower Cretaceous. It spans between 139.8 ± 3.0 Ma and 132.9 ± 2.0 Ma (million
+	    years ago). The Valanginian stage succeeds the Berriasian stage of the Lower
+	    Cretaceous and precedes the Hauterivian stage of the Lower Cretaceous (WP,
+	    https://goo.gl/Z70dMw)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Valanginian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Berriasian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geological timescale, the Berriasian is an age or stage of the Early
+	    Cretaceous. It is the oldest, or lowest, subdivision in the entire Cretaceous.
+	    It spanned the time between 145.0 ± 4.0 Ma and 139.8 ± 3.0 Ma (million years
+	    ago). The Berriasian succeeds the Tithonian (part of the Jurassic) and precedes
+	    the Valanginian (WP, https://goo.gl/004uzd)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Berriasian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Tithonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geological timescale the Tithonian is the latest age of the Late
+	    Jurassic epoch or the uppermost stage of the Upper Jurassic series. It spans
+	    the time between 152.1 ± 4 Ma and 145.0 ± 4 Ma (million years ago). It is
+	    preceded by the Kimmeridgian and followed by the Berriasian stage (part of the
+	    Cretaceous) (WP, https://goo.gl/YmzG3a).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Tithonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Kimmeridgian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Kimmeridgian is an age or stage in the Late or
+	    Upper Jurassic epoch or series. It spans the time between 157.3 ± 1.0 Ma and
+	    152.1 ± 0.9 Ma (million years ago). The Kimmeridgian follows the Oxfordian and
+	    precedes the Tithonian. (WP, https://goo.gl/gr7r0U).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Kimmeridgian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Oxfordian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Oxfordian is, in the ICS' geologic timescale, the earliest age of the Late
+	    Jurassic epoch, or the lowest stage of the Upper Jurassic series. It spans the
+	    time between 163.5 ± 4 Ma and 157.3 ± 4 Ma (million years ago). The Oxfordian
+	    is preceded by the Callovian and is followed by the Kimmeridgian (WP,
+	    https://goo.gl/IJUvEy)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Oxfordian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Callovian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Callovian is an age or stage in the Middle
+	    Jurassic, lasting between 166.1 ± 4.0 Ma (million years ago) and 163.5 ± 4.0
+	    Ma. It is the last stage of the Middle Jurassic, following the Bathonian and
+	    preceding the Oxfordian (WP, https://goo.gl/b2WYfK).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Callovian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Bathonian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale the Bathonian is an age or stage of the Middle
+	    Jurassic. It lasted from approximately 168.3 Ma to around 166.1 Ma (million
+	    years ago). The Bathonian age succeeds the Bajocian age and precedes the
+	    Callovian age (WP, https://goo.gl/zLmmW8).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Bathonian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Bajocian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Bajocian is an age or stage in the Middle
+	    Jurassic. It lasted from approximately 170.3 Ma to around 168.3 Ma (million
+	    years ago). The Bajocian age succeeds the Aalenian age and precedes the
+	    Bathonian age (WP, https://goo.gl/UymRy9).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Bajocian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Aalenian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Aalenian is a subdivision of the Middle Jurassic epoch/series of the
+	    geologic timescale that extends from about 174.1 Ma to about 170.3 Ma (million
+	    years ago). It was preceded by the Toarcian and succeeded by the Bajocian (WP,
+	    https://goo.gl/gspPGX).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Aalenian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Toarcian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Toarcian is, in the ICS' geologic timescale, an age or stage in the Early
+	    or Lower Jurassic. It spans the time between 182.7 Ma (million years ago) and
+	    174.1 Ma. It follows the Pliensbachian and is followed by the Aalenian.
+	    The Toarcian age began with the Toarcian turnover, the extinction event that
+	    sets its fossil faunas apart from the previous Pliensbachian age (WP,
+	    https://goo.gl/jXcK7r).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Toarcian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pliensbachian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Pliensbachian is an age of the geologic timescale or stage in
+	    the stratigraphic column. It is part of the Early or Lower Jurassic
+	    epoch or series and spans the time between 190.8 ± 1.5 Ma and 182.7
+	    ± 1.5 Ma (million years ago). The Pliensbachian is preceded by
+	    the Sinemurian and followed by the Toarcian. The Pliensbachian
+	    ended with the extinction event called the Toarcian turnover.
+	    During the Pliensbachian, the middle part of the Lias was deposited
+	    in Europe. The Pliensbachian is roughly coeval with the
+	    Charmouthian regional stage of North America (WP,
+	    https://goo.gl/IT8ojw)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Pliensbachian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sinemurian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Sinemurian is an age or stage in the Early or
+	    Lower Jurassic epoch or series. It spans the time between 199.3 ± 2 Ma and
+	    190.8 ± 1.5 Ma (million years ago). The Sinemurian is preceded by the
+	    Hettangian and is followed by the Pliensbachian. In Europe the Sinemurian
+	    age, together with the Hettangian age, saw the deposition of the lower Lias, in
+	    Great Britain known as the Blue Lias (WP, https://goo.gl/y5aEKm)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Sinemurian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hettangian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Hettangian is the earliest age or lowest stage of the Jurassic period of
+	    the geologic timescale. It spans the time between 201.3 ± 0.2 Ma and 199.3 ±
+	    0.3 Ma (million years ago). The Hettangian follows the Rhaetian (part of the
+	    Triassic period) and is followed by the Sinemurian (WP, https://goo.gl/nVWzYu).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Hettangian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Rhaetian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Rhaetian is, in geochronology, the latest age of the Triassic period or in
+	    chronostratigraphy the uppermost stage of the Triassic system. It lasted from
+	    ~208.5 to 201.3 ± 0.2 million years ago. It was preceded by the Norian and
+	    succeeded by the Hettangian (the lowermost stage or earliest age of the
+	    Jurassic) (WP, https://goo.gl/EvBnKe).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Rhaetian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Norian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Norian is a division of the Triassic geological period. It has the rank of
+	    an age (geochronology) or stage (chronostratigraphy). The Norian lasted from
+	    ~228 to ~208.5 million years ago. It was preceded by the Carnian and
+	    succeeded by the Rhaetian (WP, https://goo.gl/4pXV66).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Norian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Carnian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Carnian (less commonly, Karnian) is the lowermost stage of the Upper
+	    Triassic series (or earliest age of the Late Triassic epoch). It lasted from
+	    237 to 228.4 million years ago (Ma). The Carnian is preceded by the Ladinian
+	    and is followed by the Norian. Its boundaries are not characterized by major
+	    extinctions or biotic turnovers, but a climatic event (known as the Carnian
+	    Pluvial Event) occurred during the Carnian and seems to be associated with
+	    important extinctions or biotic radiations (WP, https://goo.gl/TnWh1O).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Carnian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ladinian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Ladinian is a stage and age in the Middle Triassic series or epoch. It
+	    spans the time between ~242 Ma and ~235 Ma (million years ago). The Ladinian
+	    was preceded by the Anisian and succeeded by the Carnian (part of the Upper or
+	    Late Triassic) (WP, https://goo.gl/2S00e4).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Ladinian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Anisian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Anisian is the lower stage or earliest age of
+	    the Middle Triassic series or epoch and lasted from 247.2 million years ago
+	    until ~242 million years ago. The Anisian age succeeds the Olenekian age
+	    (part of the Lower Triassic epoch) and precedes the Ladinian age (WP,
+	    https://goo.gl/B5uqUL)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Anisian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Olenekian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Olenekian is an age in the Early Triassic epoch
+	    or a stage in the Lower Triassic series. It spans the time between 251.2 Ma and
+	    247.2 Ma (million years ago). The Olenekian follows the Induan and is
+	    followed by the Anisian. The Olenekian saw the deposition of a large part of
+	    the Buntsandstein in Europe. Archosaurs - a group encompassing crocodiles,
+	    pterosaurs, dinosaurs, and ultimately birds - are diapsid reptiles that first
+	    evolved from Archosauriform ancestors during the Olenekian (WP,
+	    https://goo.gl/reThth).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Olenekian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Induan">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Induan is, in the geologic timescale, the first age of the Early Triassic
+	    epoch or the lowest stage of the Lower Triassic series. It spans the time
+	    between 252.17 ± 0.06 Ma and 251.2 Ma (million years ago). It is preceded by
+	    the Changhsingian and is followed by the Olenekian (WP, https://goo.gl/HHzPCt)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Induan</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Changhsingian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic time scale, the Changhsingian or Changxingian is the latest age
+	    or uppermost stage of the Permian. It is also the upper or latest of two
+	    subdivisions of the Lopingian epoch or series. The Changhsingian lasted from
+	    254.14 ± 0.07 to 252.17 ± 0.06 million years ago (Ma). It was preceded by the
+	    Wuchiapingian and followed by the Induan. The greatest mass extinction event
+	    in the Phanerozoic eon occurred during this age. The extinction rate peaked
+	    about a million years before the end of this stage (WP, https://goo.gl/t0QrK5).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Changhsingian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Wuchiapingian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Wuchiapingian or Wujiapingian (from Chinese:
+	    吴家坪; pinyin: Wújiāpíng; literally: "Wu Family Flatland"" in the Liangshan
+	    area of Hanzhong, Shaanxi Province) is an age or stage of the Permian. It is
+	    also the lower or earlier of two subdivisions of the Lopingian epoch or series.
+	    The Wuchiapingian spans the time between 259.8 ± 0.4 and 254.14 ± 0.07 million
+	    years ago (Ma). It was preceded by the Capitanian and followed by the
+	    Changhsingian (WP, https://goo.gl/JcyOdo).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Wuchiapingian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Capitanian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Capitanian is an age or stage of the Permian. It
+	    is also the uppermost or latest of three subdivisions of the Guadalupian epoch
+	    or series. The Capitanian lasted between 265.1 ± 0.4 and 259.8 ± 0.4. It was
+	    preceded by the Wordian and followed by the Wuchiapingian. A significant
+	    mass extinction event (the End-Capitanian extinction event) occurred at the end
+	    of this stage, which was associated with anoxia and acidification in the oceans
+	    and possibly caused by the volcanic eruptions that produced the Emeishan
+	    Traps. This extinction event may be related to the much larger
+	    Permian-Triassic extinction event that followed about 10 million years later
+	    (WP, https://goo.gl/5PlSfN).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Capitanian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Wordian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    n the geologic timescale, the Wordian is an age or stage of the Permian. It is
+	    the middle of three subdivisions of the Guadalupian epoch or series. The
+	    Wordian lasted between 268.8 ± 0.5 and 265.1 ± 0.4 million years ago (Ma). It
+	    was preceded by the Roadian and followed by the Capitanian. (WP,
+	    https://goo.gl/iQzhg4)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Wordian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Roadian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Roadian is an age or stage of the Permian. It is
+	    the earliest or lower of three subdivisions of the Guadalupian epoch or series.
+	    The Roadian lasted between 272.3 ± 0.5 and 268.8 ± 0.5 million years ago (Ma).
+	    It was preceded by the Kungurian and followed by the Wordian (WP,
+	    https://goo.gl/168Hpe)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Roadian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Kungurian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Kungurian is an age or stage of the Permian. It
+	    is the latest or upper of four subdivisions of the Cisuralian epoch or series.
+	    The Kungurian lasted between 283.5 ± 0.6 and 272.3 ± 0.5 million years ago
+	    (Ma). It was preceded by the Artinskian and followed by the Roadian. It
+	    corresponds roughly to the Leonardian stage, covering the span from 280 to
+	    270.6 ± 0.7 Ma in the North American system (WP, https://goo.gl/PNV3EN).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Kungurian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Artinskian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Artinskian is an age or stage of the Permian. It
+	    is a subdivision of the Cisuralian epoch or series. The Artinskian lasted
+	    between 290.1 ± 0.26 and 283.5 ± 0.6 million years ago (Ma). It was preceded by
+	    the Sakmarian and followed by the Kungurian (WP, https://goo.gl/cgVjWS).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Artinskian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sakmarian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Sakmarian is an age or stage of the Permian. It
+	    is a subdivision of the Cisuralian epoch or series. The Sakmarian lasted
+	    between 295.0 ± 0.18 and 290.1 ± 0.26 million years ago (Ma). It was preceded
+	    by the Asselian and followed by the Artinskian (WP, https://goo.gl/DZBT8o)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Sakmarian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asselian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    In the geologic timescale, the Asselian is the earliest geochronologic age or
+	    lowermost chronostratigraphic stage of the Permian. It is a subdivision of the
+	    Cisuralian epoch or series. The Asselian lasted between 298.9 ± 0.15 and 295.0
+	    ± 0.18 million years ago (Ma). It was preceded by the Gzhelian (the latest or
+	    uppermost subdivision in the Carboniferous) and followed by the Sakmarian.
+	    (WP, https://goo.gl/eR5zGK)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Asselian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Gzhelian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Gzhelian is an age in the ICS geologic timescale or a stage in the
+	    stratigraphic column. It is the youngest stage of the Pennsylvanian, the
+	    youngest subsystem of the Carboniferous. The Gzhelian lasted from 303.7 ± 0.1
+	    to 298.9 ± 0.15 Ma. It follows the Kasimovian age/stage and is followed by
+	    the Asselian age/stage, the oldest subdivision of the Permian system (WP,
+	    https://goo.gl/FYE4mE).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Gzhelian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Kasimovian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Kasimovian is an geochronologic age or chronostratigraphic stage in the ICS
+	    geologic timescale. It is the third stage in the Pennsylvanian (late
+	    Carboniferous), lasting from 307.0 ± 0.1 to 303.7 ± 0.1 Ma. The Kasimovian
+	    stage follows the Moscovian and is followed by the Gzhelian. The Kasimovian saw
+	    an extinction event which occurred around 305 mya, referred to as the
+	    Carboniferous Rainforest Collapse (WP, https://goo.gl/d6QuF6).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Kasimovian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Moscovian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Moscovian is in the ICS geologic timescale a stage or age in the
+	    Pennsylvanian, the youngest subsystem of the Carboniferous. The Moscovian age
+	    lasted from 315.2 ± 0.2 to 307.0 ± 0.1 Ma, is preceded by the Bashkirian and
+	    is followed by the Kasimovian. The Moscovian overlaps with the European
+	    regional Westphalian stage and the North American Atokan and Desmoinesian
+	    stages (WP, https://goo.gl/2dHU6L).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Moscovian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Bashkirian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Bashkirian is in the ICS geologic timescale the lowest stage or oldest age
+	    of the Pennsylvanian, The Bashkirian age lasted from 323.2 ± 0.4 to 315.2 ± 0.2
+	    Ma, is preceded by the Serpukhovian and is followed by the Moscovian. The
+	    Bashkirian overlaps with the upper part of the Namurian and lower part of the
+	    Westphalian stages from regional European stratigraphy. It also overlaps with
+	    the North American Morrowan and Atokan stages and the Chinese Luosuan and lower
+	    Huashibanian stages (WP, https://goo.gl/krz6ZF).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Bashkirian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Serpukhovian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Serpukhovian is in the ICS geologic timescale the uppermost stage or
+	    youngest age of the Mississippian, the lower subsystem of the Carboniferous.
+	    The Serpukhovian age lasted from 330.9 ± 0.2 Ma to 323.2 ± 0.4 Ma. It is
+	    preceded by the Visean and is followed by the Bashkirian. The Serpukhovian
+	    correlates with the lower part of the Namurian stage of European stratigraphy
+	    and the middle and upper parts of the Chesterian stage of North American
+	    stratigraphy (WP, https://goo.gl/3qoJni).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Serpukhovian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Visean">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Visean, Viséan or Visian is an age in the ICS geologic timescale or a stage
+	    in the stratigraphic column. It is the second stage of the Mississippian, the
+	    lower subsystem of the Carboniferous. The Visean lasted from 346.7 ± 0.4 to
+	    330.9 ± 0.2 Ma. It follows the Tournaisian age/stage and is followed by the
+	    Serpukhovian age/stage (WP, https://goo.gl/2eAkIc).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Visean</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Tournaisian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Tournaisian is in the ICS geologic timescale the lowest stage or oldest age
+	    of the Mississippian, the oldest subsystem of the Carboniferous. The
+	    Tournaisian age lasted from 358.9 ± 0.4 Ma to 346.7 ± 0.4 Ma. It is preceded
+	    by the Famennian (the uppermost stage of the Devonian) and is followed by the
+	    Viséan (WP, https://goo.gl/OM6RQu).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Tournaisian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Famennian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Famennian is the latter of two faunal stages in the Late Devonian epoch. It
+	    lasted from 372.2 ± 1.6 million years ago to 358.9 ± 0.4 million years ago. It
+	    was preceded by the Frasnian stage and followed by the Tournaisian stage. It
+	    was during this age that tetrapods first appeared. In the seas, a novel major
+	    group of ammonoid cephalopods called clymeniids appeared, underwent tremendous
+	    diversification and spread worldwide, then just as suddenly went extinct. The
+	    beginning of the Famennian is marked by a major extinction event, the
+	    Kellwasser Event, and the end with a smaller but still quite severe extinction
+	    event, the Hangenberg Event. North American subdivisions of the Famennian
+	    include the Chautauquan, Canadaway, Conneaut, Conneautan, Conewango and
+	    Conewangan (WP, https://goo.gl/DAauwe).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Famennian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Frasnian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Frasnian is one of two faunal stages in the Late Devonian period. It lasted
+	    from 382.7 ± 1.6 million years ago to 372.2 ± 1.6 million years ago. It was
+	    preceded by the Givetian stage and followed by the Famennian stage. Major
+	    reef-building was under way during the Frasnian stage, particularly in western
+	    Canada and Australia. On land, the first forests were taking shape. In North
+	    America, the Antler and Taconic orogenies peaked, which were contemporary with
+	    the Bretonic phase of the Variscan orogeny in Europe. The Frasnian coincides
+	    with the second half of the "charcoal gap" in the fossil record, a time when
+	    atmospheric oxygen levels were below 13%, the minimum necessary to sustain
+	    wildfires. North American subdivisions of the Frasnian include West Falls
+	    Group, Sonyea Group and Genesee Group (WP, https://goo.gl/P1idrs).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Frasnian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Givetian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Givetian is one of two faunal stages in the Middle Devonian period. It
+	    lasted from 387.7 ± 0.8 million years ago to 382.7 ± 1.6 million years ago. It
+	    was preceded by the Eifelian stage and followed by the Frasnian stage. It is
+	    named after the town of Givet in France (WP, https://goo.gl/JeJZqB).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Givetian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Eifelian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Middle Devonian comprises two subdivisions, the Eifelian giving way to the
+	    Givetian 387.7± 2.7 million years ago. During this time the armoured jawless
+	    ostracoderm fish were declining in diversity; the jawed fish were thriving and
+	    increasing in diversity in both the oceans and freshwater. The shallow, warm,
+	    oxygen-depleted waters of Devonian inland lakes, surrounded by primitive
+	    plants, provided the environment necessary for certain early fish to develop
+	    essential characteristics such as well developed lungs, and the ability to
+	    crawl out of the water and onto the land for short periods of time (WP,
+	    https://goo.gl/nXmryt).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Eifelian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Emsian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
+	    Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
+	    407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
+	    Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Emsian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pragian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
+	    Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
+	    407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
+	    Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Pragian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lochkovian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Early Devonian lasts from 419.2 ± 2.8 to 393.3 ± 2.5 and begins with the
+	    Lochkovian stage, which lasts until the Pragian. This spans from 410.8 ± 2.8 to
+	    407.6 ± 2.5, and is followed by the Emsian, which lasts until the Middle
+	    Devonian begins, 393.3± 2.7 million years ago (WP, https://goo.gl/nXmryt).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Lochkovian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ludfordian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Ludlow, lasting from 427.4 ± 1.5 to 423 ± 2.8 mya, comprises the Gorstian
+	    stage, lasting until 425.6 million years ago, and the Ludfordian stage. It is
+	    named for the town of Ludlow (and neighbouring Ludford) in Shropshire, England
+	    (WP, https://goo.gl/DRJI4P)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Ludfordian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Gorstian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Ludlow, lasting from 427.4 ± 1.5 to 423 ± 2.8 mya, comprises the Gorstian
+	    stage, lasting until 425.6 million years ago, and the Ludfordian stage. It is
+	    named for the town of Ludlow (and neighbouring Ludford) in Shropshire, England
+	    (WP, https://goo.gl/DRJI4P)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Gorstian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Homerian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Wenlock is divided into the older Sheinwoodian and the younger Homerian
+	    stage. The Sheinwoodian lasted from 433.4 ± 0.8 to 430.5 ± 0.7 million years
+	    ago. The Homerian lasted from 430.5 ± 0.7 to 427.4 ± 0.5 million years ago (WP,
+	    https://goo.gl/d7u763)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Homerian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sheinwoodian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Wenlock is divided into the older Sheinwoodian and the younger Homerian
+	    stage. The Sheinwoodian lasted from 433.4 ± 0.8 to 430.5 ± 0.7 million years
+	    ago. The Homerian lasted from 430.5 ± 0.7 to 427.4 ± 0.5 million years ago (WP,
+	    https://goo.gl/d7u763)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Sheinwoodian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Telychian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
+	    subdivided into three stages: the Rhuddanian, lasting until 440.8 million
+	    years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
+	    The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
+	    https://goo.gl/9KtX1S).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Telychian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Aeronian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
+	    subdivided into three stages: the Rhuddanian, lasting until 440.8 million
+	    years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
+	    The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
+	    https://goo.gl/5PoKh8).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Aeronian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Rhuddanian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Llandovery Epoch lasted from 443.8 ± 1.5 to 433.4 ± 2.8 mya, and is
+	    subdivided into three stages: the Rhuddanian, lasting until 440.8 million
+	    years ago, the Aeronian, lasting to 438.5 million years ago, and the Telychian.
+	    The epoch is named for the town of Llandovery in Carmarthenshire, Wales (WP,
+	    https://goo.gl/Ar7PDx)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Rhuddanian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hirnantian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    he Hirnantian is the seventh and final internationally recognized stage of the
+	    Ordovician Period of the Paleozoic Era. It was of short duration, lasting about
+	    1.9 million years, from 445.2 ± 1.4 to 443.8 ± 1.5 Ma (million years ago).
+	    The early part of the Hirnantian was characterized by cold temperatures, major
+	    glaciation, and a severe drop in sea level. In the latter part of the
+	    Hirnantian, temperatures rose, the glaciers melted, and sea level returned to
+	    the same or to a slightly higher level than it had been prior to the glaciation
+	    (WP, https://goo.gl/tZpKFO).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Hirnantian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Katian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Katian is the second stage of the Upper Ordovician. It is preceded by the
+	    Sandbian and succeeded by the Hirnantian stage. The Katian began 453.0 ± 0.7
+	    million years ago and lasted for about 7.8 million years until the beginning of
+	    the Hirnantian 445.2 ± 1.4 million years ago (WP, https://goo.gl/tAsaB8).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Katian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sandbian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Sandbian is the first stage of the Upper Ordovician. It follows the
+	    Darriwilian and is succeeded by the Katian. Its lower boundary is defined as
+	    the first appearance datum of the graptolite species Nemagraptus gracilis
+	    around 458.4 ± 0.9 million years ago. The Sandbian lasted for about 5.4 million
+	    years until the beginning of the Katian around 453.0 ± 0.7 million years ago
+	    (WP, https://goo.gl/cBjH1P).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Sandbian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Darriwilian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Darriwilian is the upper stage of the Middle Ordovician. It is preceded by
+	    the Dapingian and succeeded by the Upper Ordovician Sandbian stage. The lower
+	    boundary of the Darriwilian is defined as the first appearance of the
+	    graptolite species Undulograptus austrodentatus around 467.3 ± 1.1 million
+	    years ago. It lasted for about 8.9 million years until the beginning of the
+	    Sandbian around 458.4 ± 0.9 million years ago (WP, https://goo.gl/7c8Qq2).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Darriwilian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Dapingian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Dapingian is the third stage of the Ordovician and the first stage of the
+	    Middle Ordovician. It is preceded by the Floian and succeeded by the
+	    Darriwilian. The base of the Floian is defined as the first appearance of the
+	    conodont species Baltoniodus triangularis which happened about 470.0 ± 1.4
+	    million years ago. The Dapingian lasted for about 2.7 million years until about
+	    467.3 ± 1.1 million years ago (WP, https://goo.gl/Y0RT8c).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Dapingian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Floian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Floian is the second stage of the Ordovician. It succeeds the Tremadocian
+	    with which it forms the Lower Ordovician epoch. It precedes the Dapingian stage
+	    of the Middle Ordovician. The Floian extended from 477.7 ± 1.4 to 470.0 ± 1.4
+	    million years ago. The lower boundary is defined as the first appearance of the
+	    graptolite species Tetragraptus approximatus (WP, https://goo.gl/Li1qEk).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Floian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Tremadocian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Tremadocian is the lowest stage of Ordovician. Together with the later
+	    Floian stage it forms the Lower Ordovician epoch. The Tremadocian lasted from
+	    485.4 ± 1.9 to 477.7 ± 1.4 million years ago. The base of the Tremadocian is
+	    defined as the first appearance of the conodont species Iapetognathus
+	    fluctivagus at the GSSP section in Newfoundland (WP, https://goo.gl/AFQxuG).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Tremadocian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Jiangshanian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Jiangshanian is the middle stage of the Furongian series. It follows the
+	    Paibian stage and is succeeded by the still unnamed Stage 10 of the Cambrian.
+	    The base is defined as the first appearance of the trilobite Agnostotes
+	    orientalis which is estimated to be ~494 million years ago. The Jiangshanian
+	    lasted until approximately ~489.5 million years ago (WP,
+	    https://goo.gl/12lB1f).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Jiangshanian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Paibian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Paibian is lowest stage of Furongian series of the Cambrian. It follows the
+	    Guzhangian (3rd series of the Cambrian) and is succeeded by the Jiangshanian
+	    stage. The base is defined as the first appearance of the trilobite
+	    Glyptagnostus reticulatus around ~497 million years ago. The top, or the base
+	    of the Jiangshanian is defined as the first appearance of the Agnostotes
+	    orientalis around ~494 million years ago (WP, https://goo.gl/3HhNlK).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Paibian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Guzhangian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Guzhangian is an uppermost stage of the 3rd series of the Cambrian. It
+	    follows the Drumian stage and precedes the Paibian stage of the Furongian
+	    series. The base is defined as the first appearance of the trilobite Lejopyge
+	    laevigata around ~500.5 million years ago. The Guzhangian-Paibian boundary is
+	    marked by the first appearance of the trilobite Glyptagnostus reticulatus
+	    around ~497 million years ago (WP, https://goo.gl/I1mhOU).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Guzhangian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Drumian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Drumian is a stage of 3rd series of the Cambrian. It succeeds still unnamed
+	    5th stage of the Cambrian and precedes the Guzhangian. The base is defined as
+	    the first appearance of the trilobite Ptychagnostus atavus around ~504.5
+	    million years ago. The top is defined as the first appearance of another
+	    trilobite Lejopyge laevigata around ~500.5 million years ago (WP,
+	    https://goo.gl/iD3tJV)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Drumian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Fortunian">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    The Fortunian stage marks the beginning of the Phanerozoic eon, the Paleozoic
+	    era, and the Cambrian period. It is the first of the two stages of the
+	    Terreneuvian series. Its base is defined as the first appearance of the trace
+	    fossil Treptichnus pedum 541.0 ± 1.0 million years ago. The top of the
+	    Fortunian which is the base of the Stage 2 of the Cambrian has not been
+	    formally defined yet, but will correspond to the appearance of an Archeocyatha
+	    species or "Small shelly fossils" approximately ~529 million years ago (WP,
+	    https://goo.gl/38pvGi)
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Fortunian</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Stage 2">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    Stage 2 of the Cambrian is the unnamed upper stage of the Terreneuvian series.
+	    It lies on top of the Fortunian and below Stage 3 of the Cambrian. It is
+	    commonly referred to as the Tommotian, after the Cambrian stratigraphy of
+	    Siberia. Both the upper and lower boundary have not been clearly defined yet
+	    by the International Commission on Stratigraphy. Proposals for the lower
+	    boundary are the appearance of Small Shelly Fossils, an archaeocyathid species
+	    or the mollusc Watsonella crosbyi around ~529 million years ago. The
+	    proposed upper boundary might be the first appearance of trilobites around ~521
+	    million years ago (WP, https://goo.gl/Crk4Zp).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Stage 2</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Stage 3">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    Cambrian Stage 3 is the still unnamed third stage of the Cambrian. It succeeds
+	    Cambrian Stage 2 and precedes Cambrian Stage 4, although neither its base or
+	    top have been formally defined yet. The lower boundary is loosely defined as
+	    the first appearance of trilobites which happened around ~521 million years
+	    ago. The upper boundary and beginning of Cambrian Stage 4 is informally defined
+	    as the first appearance of the trilobite genera Olenellus or Redlichia around
+	    ~514 million years ago (WP, https://goo.gl/cMUImz).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Stage 3</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Stage 4">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    Cambrian Stage 4 is the still unnamed 4th stage of the Cambrian and the upper
+	    stage of the 2nd Cambrian series. It follows the 3rd stage and lies below the
+	    Cambrian Stage 5. The lower boundary has not been formally defined by the
+	    International Commission on Stratigraphy yet. One proposal is the first
+	    appearance of two trilobite genera, Olenellus or Redlichia. Another proposal is
+	    the first appearance of the trilobite species Arthricocephalus chauveaui.
+	    Both proposals will set the lower boundary close to ~514 million years ago.
+	    The upper boundary corresponds to the beginning of Cambrian Stage 5 which also
+	    has not been formally defined yet. Proposals are the first appearances of the
+	    trilobite species Oryctocephalus indicus or Ovatoryctocara granulata, dated at
+	    approximately ~509 million years ago (WP, https://goo.gl/H7WDMu).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Stage 4</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Stage 5">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    Stage 5 of the Cambrian is the first stage of the 3rd series of the Cambrian
+	    (or Middle Cambrian). Its lower boundary has not been formally defined by the
+	    ICS yet. The most promising definition is the first appearance of either the
+	    trilobite species Oryctocephalus indicus or Ovatoryctocara granulata which is
+	    currently estimated to be around ~509 million years ago. The end of Cambrian
+	    Stage 5 and the beginning of the Drumian stage is marked by the first
+	    appearance of the trilobite Ptychagnostus atavus around ~504.5 million years
+	    ago (WP, https://goo.gl/UvSfQw).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Stage 5</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Stage 10">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    Stage 10 of the Cambrian is the still unnamed third and final stage of the
+	    Furongian Series. It follows the Jiangshanian and precedes the Ordovician
+	    Tremadocian Stage. The proposed lower boundary is the first appearance of the
+	    trilobite Lotagnostus americanus around ~489.5 million years ago, but other
+	    fossils are also being discussed (see below). The upper boundary is defined as
+	    the appearance of the conodont Iapetognathus fluctivagus which marks the
+	    beginning of the Tremadocian and is radiometrically dated as 485.4 ± 1.9
+	    million years ago (WP, https://goo.gl/tR4xpn).
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Stage 10</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Upper">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Upper</rdfs:label>
+   </owl:Class>
+
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Middle">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalAge"/>
+      <rdfs:comment xml:lang="en">
+	    NA
+	  </rdfs:comment>
+      <rdfs:label xml:lang="en">Middle</rdfs:label>
    </owl:Class>
 
 </rdf:RDF>
