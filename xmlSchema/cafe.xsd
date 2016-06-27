@@ -1334,14 +1334,14 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="biomeHumidity" type="BiomeHumidity" minOccurs="1" maxOccurs="1">
+					    <xs:element name="biomeHumidityType" type="BiomeHumidityType" minOccurs="1" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The water availability within the biome (Semi Humid, Humid, Arid, Semi Arid)
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="biomeContinentality" type="BiomeContinentality" minOccurs="1" maxOccurs="1">
+					    <xs:element name="biomeContinentalityType" type="BiomeContinentalityType" minOccurs="1" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The influence to the biome (Continental, Maritime)
@@ -5461,6 +5461,7 @@
       <xs:enumeration value="Zulu"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="TemporalExtentType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5562,6 +5563,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="TemporalResolutionType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5663,6 +5665,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="NorthBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5674,6 +5677,7 @@
       <xs:maxInclusive value="90"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SouthBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5685,6 +5689,7 @@
       <xs:maxInclusive value="90"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="EastBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5696,6 +5701,7 @@
       <xs:maxInclusive value="180"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="WestBoundingCoordinate">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5707,6 +5713,7 @@
       <xs:maxInclusive value="180"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ElevationUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5752,13 +5759,15 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ElevationDatum">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Mean Sealevel"/>
+      <xs:enumeration value="Mean Sea Level"/>
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="UtmCoordinateHemisphere">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5766,10 +5775,23 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="N"/>
-      <xs:enumeration value="S"/>
+      <xs:enumeration value="N">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Northern hemisphere
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="S">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Southern hemisphere
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="UtmCoordinateUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5803,6 +5825,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="UtmCoordinateGeodeticDatum">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -5814,6 +5837,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="LocationType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="City">
@@ -5892,6 +5916,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="CountryName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6151,6 +6176,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ContinentName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6294,6 +6320,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SpatialResolutionType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Point">
@@ -6333,6 +6360,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="AtmosphereLayerName">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Troposphere">
@@ -6453,6 +6481,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="AtmosphereHeightUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6486,6 +6515,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="LongitudinalRiverZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6524,6 +6554,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="VerticalRiverZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6570,6 +6601,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="BenthicLakeZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6617,6 +6649,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="PelagicLakeZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6650,6 +6683,7 @@
       <xs:enumeration value="Hypolimnion"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="BenthicSeaZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6714,6 +6748,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="PelagicSeaZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6796,6 +6831,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SoilHorizon">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6935,6 +6971,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SoilDepthUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6979,6 +7016,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="integerPercent">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -6990,6 +7028,7 @@
       <xs:maxInclusive value="100"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SoilMorphologyType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7252,6 +7291,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SoilAcidityType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7285,6 +7325,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="EcosphereLayerName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7357,6 +7398,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="VegetationHeightUnit">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7401,6 +7443,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="OrganizationHierarchyName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7537,6 +7580,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="BiomeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7567,6 +7611,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="BiomeZone">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7637,7 +7682,8 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="BiomeHumidity">
+
+  <xs:simpleType name="BiomeHumidityType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A type of water availability
@@ -7678,17 +7724,31 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-  <xs:simpleType name="BiomeContinentality">
+
+  <xs:simpleType name="BiomeContinentalityType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A type of continentality influence
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Continental"/>
-      <xs:enumeration value="Maritime"/>
+      <xs:enumeration value="Continental">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Continentally influenced
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Maritime">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Maritime influenced
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="BiomeHemisphere">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7712,6 +7772,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="OroBiomeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7781,6 +7842,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="PedoBiomeType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7843,6 +7905,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="TerrestrialPhysiognomyType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -7971,6 +8034,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="SemiAquaticPhysiognomyType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8043,6 +8107,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="PlantCharacterizedAquaticPhysiognomyType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8091,6 +8156,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="HabitatCharacterizedAquaticPhysiognomy">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8221,6 +8287,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="LandUseType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8252,6 +8319,7 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="LandUseForm">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8324,6 +8392,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ProcessName">
     <xs:annotation>
       <xs:documentation xml:lang="en">
