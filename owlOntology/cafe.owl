@@ -10281,7 +10281,7 @@
 	 (SI unit symbol mm) is a unit of length in the metric system, equal
 	 to one thousandth of a metre, which is the SI base unit of length
 	 (WP, https://goo.gl/6SDmkZ)
-	  </rdfs:comment>
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Millimetre</rdfs:label>
    </owl:Class>
 
@@ -12810,20 +12810,20 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Africa">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
       <rdfs:comment xml:lang="en">
-	    Africa is the world's second-largest and second-most-populous
-	    continent. At about 30.3 million km² (11.7 million square miles)
-	    including adjacent islands, it covers six percent of Earth's total
-	    surface area and 20.4 percent of its total land area. With 1.1
-	    billion people as of 2013, it accounts for about 15% of the world's
-	    human population. The continent is surrounded by the Mediterranean
-	    Sea to the north, both the Suez Canal and the Red Sea along the
-	    Sinai Peninsula to the northeast, the Indian Ocean to the
-	    southeast, and the Atlantic Ocean to the west. The continent
-	    includes Madagascar and various archipelagos. It contains 54 fully
-	    recognized sovereign states (countries), nine territories and two
-	    de facto independent states with limited or no recognition (WP,
-	    https://goo.gl/6O0z0l)
-	  </rdfs:comment>
+	 Africa is the world's second-largest and second-most-populous
+	 continent. At about 30.3 million km² (11.7 million square miles)
+	 including adjacent islands, it covers six percent of Earth's total
+	 surface area and 20.4 percent of its total land area. With 1.1
+	 billion people as of 2013, it accounts for about 15% of the world's
+	 human population. The continent is surrounded by the Mediterranean
+	 Sea to the north, both the Suez Canal and the Red Sea along the
+	 Sinai Peninsula to the northeast, the Indian Ocean to the
+	 southeast, and the Atlantic Ocean to the west. The continent
+	 includes Madagascar and various archipelagos. It contains 54 fully
+	 recognized sovereign states (countries), nine territories and two
+	 de facto independent states with limited or no recognition (WP,
+	 https://goo.gl/6O0z0l)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Africa</rdfs:label>
    </owl:Class>
 
@@ -12831,24 +12831,24 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
       <rdfs:comment xml:lang="en">
-	    Asia is the Earth's largest and most populous continent, located
-	    primarily in the eastern and northern hemispheres. Asia covers an
-	    area of 44,579,000 square kilometers, about 30% of Earth's total
-	    land area and 8.7% of the Earth's total surface area. The
-	    continent, which has long been home to the majority of the human
-	    population[not in citation given], was the site of many of the
-	    first civilizations. Asia is notable for not only its overall large
-	    size and population, but unusually dense and large settlements as
-	    well as vast barely populated regions within the continent of 4.4
-	    billion people. The boundaries of Asia are traditionally determined
-	    as that of Eurasia, as there is no significant geographical
-	    separation between Asia and Europe. The most commonly accepted
-	    boundaries place Asia to the east of the Suez Canal, the Ural
-	    River, and the Ural Mountains, and south of the Caucasus Mountains
-	    and the Caspian and Black Seas. It is bounded on the east by the
-	    Pacific Ocean, on the south by the Indian Ocean and on the north by
-	    the Arctic Ocean (WP, https://goo.gl/tDYz2W).
-	  </rdfs:comment>
+	 Asia is the Earth's largest and most populous continent, located
+	 primarily in the eastern and northern hemispheres. Asia covers an
+	 area of 44,579,000 square kilometers, about 30% of Earth's total
+	 land area and 8.7% of the Earth's total surface area. The
+	 continent, which has long been home to the majority of the human
+	 population[not in citation given], was the site of many of the
+	 first civilizations. Asia is notable for not only its overall large
+	 size and population, but unusually dense and large settlements as
+	 well as vast barely populated regions within the continent of 4.4
+	 billion people. The boundaries of Asia are traditionally determined
+	 as that of Eurasia, as there is no significant geographical
+	 separation between Asia and Europe. The most commonly accepted
+	 boundaries place Asia to the east of the Suez Canal, the Ural
+	 River, and the Ural Mountains, and south of the Caucasus Mountains
+	 and the Caspian and Black Seas. It is bounded on the east by the
+	 Pacific Ocean, on the south by the Indian Ocean and on the north by
+	 the Arctic Ocean (WP, https://goo.gl/tDYz2W).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Asia</rdfs:label>
    </owl:Class>
 
@@ -12856,24 +12856,24 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
       <rdfs:comment xml:lang="en">
-	    Asia is the Earth's largest and most populous continent, located
-	    primarily in the eastern and northern hemispheres. Asia covers an
-	    area of 44,579,000 square kilometers, about 30% of Earth's total
-	    land area and 8.7% of the Earth's total surface area. The
-	    continent, which has long been home to the majority of the human
-	    population[not in citation given], was the site of many of the
-	    first civilizations. Asia is notable for not only its overall large
-	    size and population, but unusually dense and large settlements as
-	    well as vast barely populated regions within the continent of 4.4
-	    billion people. The boundaries of Asia are traditionally determined
-	    as that of Eurasia, as there is no significant geographical
-	    separation between Asia and Europe. The most commonly accepted
-	    boundaries place Asia to the east of the Suez Canal, the Ural
-	    River, and the Ural Mountains, and south of the Caucasus Mountains
-	    and the Caspian and Black Seas. It is bounded on the east by the
-	    Pacific Ocean, on the south by the Indian Ocean and on the north by
-	    the Arctic Ocean (WP, https://goo.gl/tDYz2W).
-	  </rdfs:comment>
+	 Asia is the Earth's largest and most populous continent, located
+	 primarily in the eastern and northern hemispheres. Asia covers an
+	 area of 44,579,000 square kilometers, about 30% of Earth's total
+	 land area and 8.7% of the Earth's total surface area. The
+	 continent, which has long been home to the majority of the human
+	 population[not in citation given], was the site of many of the
+	 first civilizations. Asia is notable for not only its overall large
+	 size and population, but unusually dense and large settlements as
+	 well as vast barely populated regions within the continent of 4.4
+	 billion people. The boundaries of Asia are traditionally determined
+	 as that of Eurasia, as there is no significant geographical
+	 separation between Asia and Europe. The most commonly accepted
+	 boundaries place Asia to the east of the Suez Canal, the Ural
+	 River, and the Ural Mountains, and south of the Caucasus Mountains
+	 and the Caspian and Black Seas. It is bounded on the east by the
+	 Pacific Ocean, on the south by the Indian Ocean and on the north by
+	 the Arctic Ocean (WP, https://goo.gl/tDYz2W).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Asia</rdfs:label>
    </owl:Class>
 
@@ -12881,19 +12881,19 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Europe">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
       <rdfs:comment xml:lang="en">
-	    Europe is a continent that comprises the westernmost part of
-	    Eurasia. Europe is bordered by the Arctic Ocean to the north, the
-	    Atlantic Ocean to the west, and the Mediterranean Sea to the south.
-	    To the east and southeast, Europe is generally considered as
-	    separated from Asia by the watershed divides of the Ural and
-	    Caucasus Mountains, the Ural River, the Caspian and Black Seas, and
-	    the waterways of the Turkish Straits. Yet the non-oceanic borders
-	    of Europe—a concept dating back to classical antiquity—are
-	    arbitrary; the primarily physiographic term "continent" as applied
-	    to Europe also incorporates cultural and political elements whose
-	    discontinuities are not always reflected by the continent's current
-	    boundaries (WP, https://goo.gl/J1cX4n).
-	  </rdfs:comment>
+	 Europe is a continent that comprises the westernmost part of
+	 Eurasia. Europe is bordered by the Arctic Ocean to the north, the
+	 Atlantic Ocean to the west, and the Mediterranean Sea to the south.
+	 To the east and southeast, Europe is generally considered as
+	 separated from Asia by the watershed divides of the Ural and
+	 Caucasus Mountains, the Ural River, the Caspian and Black Seas, and
+	 the waterways of the Turkish Straits. Yet the non-oceanic borders
+	 of Europe—a concept dating back to classical antiquity—are
+	 arbitrary; the primarily physiographic term "continent" as applied
+	 to Europe also incorporates cultural and political elements whose
+	 discontinuities are not always reflected by the continent's current
+	 boundaries (WP, https://goo.gl/J1cX4n).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Europe</rdfs:label>
    </owl:Class>
 
@@ -12901,18 +12901,18 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#North America">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
       <rdfs:comment xml:lang="en">
-	    North America is a continent entirely within the Northern
-	    Hemisphere and almost all within the Western Hemisphere. It can
-	    also be considered a northern subcontinent of the Americas. It is
-	    bordered to the north by the Arctic Ocean, to the east by the
-	    Atlantic Ocean, to the west and south by the Pacific Ocean, and to
-	    the southeast by South America and the Caribbean Sea. North America
-	    covers an area of about 24,709,000 square kilometers (9,540,000
-	    square miles), about 16.5% of the earth's land area and about 4.8%
-	    of its total surface. North America is the third largest continent
-	    by area, following Asia and Africa, and the fourth by population
-	    after Asia, Africa, and Europe (WP, https://goo.gl/uWnL9L).
-	  </rdfs:comment>
+	 North America is a continent entirely within the Northern
+	 Hemisphere and almost all within the Western Hemisphere. It can
+	 also be considered a northern subcontinent of the Americas. It is
+	 bordered to the north by the Arctic Ocean, to the east by the
+	 Atlantic Ocean, to the west and south by the Pacific Ocean, and to
+	 the southeast by South America and the Caribbean Sea. North America
+	 covers an area of about 24,709,000 square kilometers (9,540,000
+	 square miles), about 16.5% of the earth's land area and about 4.8%
+	 of its total surface. North America is the third largest continent
+	 by area, following Asia and Africa, and the fourth by population
+	 after Asia, Africa, and Europe (WP, https://goo.gl/uWnL9L).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">North America</rdfs:label>
    </owl:Class>
 
@@ -12920,22 +12920,22 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#South America">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
       <rdfs:comment xml:lang="en">
-	    South America is a continent situated in the Western Hemisphere,
-	    mostly in the Southern Hemisphere, with a relatively small portion
-	    in the Northern Hemisphere. It is also considered a subcontinent of
-	    the Americas, which is the term used in Spanish-speaking nations
-	    and most of South America. It is bordered on the west by the
-	    Pacific Ocean and on the north and east by the Atlantic Ocean;
-	    North America and the Caribbean Sea lie to the northwest. It
-	    includes twelve sovereign states – Argentina, Bolivia, Brazil,
-	    Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname,
-	    Uruguay, and Venezuela – and two non-sovereign areas – French
-	    Guiana, an overseas department of France, and the Falkland Islands,
-	    a British Overseas Territory (though disputed by Argentina). In
-	    addition to this, the ABC islands of the Netherlands and Trinidad
-	    and Tobago may also be considered part of South America
-	    (WP, https://goo.gl/4KB2QT).
-	  </rdfs:comment>
+	 South America is a continent situated in the Western Hemisphere,
+	 mostly in the Southern Hemisphere, with a relatively small portion
+	 in the Northern Hemisphere. It is also considered a subcontinent of
+	 the Americas, which is the term used in Spanish-speaking nations
+	 and most of South America. It is bordered on the west by the
+	 Pacific Ocean and on the north and east by the Atlantic Ocean;
+	 North America and the Caribbean Sea lie to the northwest. It
+	 includes twelve sovereign states – Argentina, Bolivia, Brazil,
+	 Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname,
+	 Uruguay, and Venezuela – and two non-sovereign areas – French
+	 Guiana, an overseas department of France, and the Falkland Islands,
+	 a British Overseas Territory (though disputed by Argentina). In
+	 addition to this, the ABC islands of the Netherlands and Trinidad
+	 and Tobago may also be considered part of South America
+	 (WP, https://goo.gl/4KB2QT).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">South America</rdfs:label>
    </owl:Class>
 
@@ -12943,18 +12943,18 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Oceania">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
       <rdfs:comment xml:lang="en">
-	    Oceania also known as Oceanica, is a region centred on the islands
-	    of the tropical Pacific Ocean. Opinions of what constitutes Oceania
-	    range from its three subregions of Melanesia, Micronesia, and
-	    Polynesia to, more broadly, the entire insular region between
-	    Southeast Asia and the Americas, including Australasia and the
-	    Malay Archipelago. The term is often used more specifically to
-	    denote a continent comprising Australia and proximate islands or
-	    biogeographically as a synonym for either the Australasian ecozone
-	    (Wallacea and Australasia) or the Pacific ecozone (Melanesia,
-	    Polynesia, and Micronesia, excluding both New Zealand and mainland
-	    New Guinea)(WP, https://goo.gl/s96DKL).
-	  </rdfs:comment>
+	 Oceania also known as Oceanica, is a region centred on the islands
+	 of the tropical Pacific Ocean. Opinions of what constitutes Oceania
+	 range from its three subregions of Melanesia, Micronesia, and
+	 Polynesia to, more broadly, the entire insular region between
+	 Southeast Asia and the Americas, including Australasia and the
+	 Malay Archipelago. The term is often used more specifically to
+	 denote a continent comprising Australia and proximate islands or
+	 biogeographically as a synonym for either the Australasian ecozone
+	 (Wallacea and Australasia) or the Pacific ecozone (Melanesia,
+	 Polynesia, and Micronesia, excluding both New Zealand and mainland
+	 New Guinea)(WP, https://goo.gl/s96DKL).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Oceania</rdfs:label>
    </owl:Class>
 
@@ -12962,18 +12962,18 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Antarctica">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
       <rdfs:comment xml:lang="en">
-	    Antarctica is Earth's southernmost continent, containing the
-	    geographic South Pole. It is situated in the Antarctic region of
-	    the Southern Hemisphere, almost entirely south of the Antarctic
-	    Circle, and is surrounded by the Southern Ocean. At 14,000,000
-	    square kilometres (5,400,000 square miles), it is the fifth-largest
-	    continent in area after Asia, Africa, North America, and South
-	    America. For comparison, Antarctica is nearly twice the size of
-	    Australia. About 98% of Antarctica is covered by ice that averages
-	    1.9 km (1.2 mi; 6,200 ft) in thickness, which extends to all but
-	    the northernmost reaches of the Antarctic Peninsula (WP,
-	    https://goo.gl/Dq1DY)
-	  </rdfs:comment>
+	 Antarctica is Earth's southernmost continent, containing the
+	 geographic South Pole. It is situated in the Antarctic region of
+	 the Southern Hemisphere, almost entirely south of the Antarctic
+	 Circle, and is surrounded by the Southern Ocean. At 14,000,000
+	 square kilometres (5,400,000 square miles), it is the fifth-largest
+	 continent in area after Asia, Africa, North America, and South
+	 America. For comparison, Antarctica is nearly twice the size of
+	 Australia. About 98% of Antarctica is covered by ice that averages
+	 1.9 km (1.2 mi; 6,200 ft) in thickness, which extends to all but
+	 the northernmost reaches of the Antarctic Peninsula (WP,
+	 https://goo.gl/Dq1DY)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Antarctica</rdfs:label>
    </owl:Class>
 
@@ -12992,8 +12992,8 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	    A point is defined as: m^2
-	  </rdfs:comment>
+	 A point is defined as: m^2
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Point</rdfs:label>
    </owl:Class>
 
@@ -13012,8 +13012,8 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	    A plot is defined as: 1 m^2 - 0.01 km^2
-	  </rdfs:comment>
+	 A plot is defined as: 1 m^2 - 0.01 km^2
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Plot</rdfs:label>
    </owl:Class>
 
@@ -13032,8 +13032,8 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	    A region is defined as: 0.01 km^2 - 10.000 km^2
-	  </rdfs:comment>
+	 A region is defined as: 0.01 km^2 - 10.000 km^2
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Region</rdfs:label>
    </owl:Class>
 
@@ -13052,8 +13052,8 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	    A continent is defined as: 10.000 km^2 - 100.000.000 km^2
-	  </rdfs:comment>
+	 A continent is defined as: 10.000 km^2 - 100.000.000 km^2
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Continent</rdfs:label>
    </owl:Class>
 
@@ -13072,29 +13072,29 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	    Global is defined as: > 100.000.000 km^2
-	  </rdfs:comment>
+	 Global is defined as: > 100.000.000 km^2
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Global</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Troposphere">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#atmosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    The troposphere is the lowest portion of Earth's atmosphere, and is
-	    also where all weather takes place. It contains approximately 75%
-	    of the atmosphere's mass and 99% of its water vapour and
-	    aerosols. The average depths of the troposphere are 20 km (12
-	    mi) in the tropics, 17 km (11 mi) in the mid latitudes, and 7 km
-	    (4.3 mi) in the polar regions in winter. The lowest part of the
-	    troposphere, where friction with the Earth's surface influences air
-	    flow, is the planetary boundary layer. This layer is typically a
-	    few hundred meters to 2 km (1.2 mi) deep depending on the landform
-	    and time of day. Atop the troposphere is the tropopause, which is
-	    the border between the troposphere and stratosphere. The tropopause
-	    is an inversion layer, where the air temperature ceases to decline
-	    with height and remains constant through its thickness (WP,
-	    https://goo.gl/Eb33Ow)
-	  </rdfs:comment>
+	 The troposphere is the lowest portion of Earth's atmosphere, and is
+	 also where all weather takes place. It contains approximately 75%
+	 of the atmosphere's mass and 99% of its water vapour and
+	 aerosols. The average depths of the troposphere are 20 km (12
+	 mi) in the tropics, 17 km (11 mi) in the mid latitudes, and 7 km
+	 (4.3 mi) in the polar regions in winter. The lowest part of the
+	 troposphere, where friction with the Earth's surface influences air
+	 flow, is the planetary boundary layer. This layer is typically a
+	 few hundred meters to 2 km (1.2 mi) deep depending on the landform
+	 and time of day. Atop the troposphere is the tropopause, which is
+	 the border between the troposphere and stratosphere. The tropopause
+	 is an inversion layer, where the air temperature ceases to decline
+	 with height and remains constant through its thickness (WP,
+	 https://goo.gl/Eb33Ow)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Troposphere</rdfs:label>
    </owl:Class>
 
@@ -13102,26 +13102,26 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Stratosphere">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#atmosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    The stratosphere is the second major layer of Earth's atmosphere,
-	    just above the troposphere, and below the mesosphere. About 20% of
-	    the atmosphere's mass is contained in the stratosphere. The
-	    stratosphere is stratified in temperature, with warmer layers
-	    higher and cooler layers closer to the Earth. The increase of
-	    temperature with altitude, is a result of the absorption of the
-	    Sun's ultraviolet radiation by ozone. This is in contrast to the
-	    troposphere, near the Earth's surface, where temperatures decreases
-	    with altitude. The border between the troposphere and stratosphere,
-	    the tropopause, marks where this temperature inversion begins. Near
-	    the equator, the stratosphere starts at 18 km (59,000 ft; 11 mi);
-	    at mid latitudes, it starts at 10–13 km (33,000–43,000 ft; 6.2–8.1
-	    mi) and ends at 50 km (160,000 ft; 31 mi); at the poles, it starts
-	    at about 8 km (26,000 ft; 5.0 mi). Temperatures vary within the
-	    stratosphere with the seasons, in particular with the polar night
-	    (winter). The greatest variation of temperature, takes place over
-	    the poles in the lower stratosphere; those variations are largely
-	    steady at lower latitudes and higher altitudes (WP,
-	    https://goo.gl/HNtVtI)
-	  </rdfs:comment>
+	 The stratosphere is the second major layer of Earth's atmosphere,
+	 just above the troposphere, and below the mesosphere. About 20% of
+	 the atmosphere's mass is contained in the stratosphere. The
+	 stratosphere is stratified in temperature, with warmer layers
+	 higher and cooler layers closer to the Earth. The increase of
+	 temperature with altitude, is a result of the absorption of the
+	 Sun's ultraviolet radiation by ozone. This is in contrast to the
+	 troposphere, near the Earth's surface, where temperatures decreases
+	 with altitude. The border between the troposphere and stratosphere,
+	 the tropopause, marks where this temperature inversion begins. Near
+	 the equator, the stratosphere starts at 18 km (59,000 ft; 11 mi);
+	 at mid latitudes, it starts at 10–13 km (33,000–43,000 ft; 6.2–8.1
+	 mi) and ends at 50 km (160,000 ft; 31 mi); at the poles, it starts
+	 at about 8 km (26,000 ft; 5.0 mi). Temperatures vary within the
+	 stratosphere with the seasons, in particular with the polar night
+	 (winter). The greatest variation of temperature, takes place over
+	 the poles in the lower stratosphere; those variations are largely
+	 steady at lower latitudes and higher altitudes (WP,
+	 https://goo.gl/HNtVtI)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Stratosphere</rdfs:label>
    </owl:Class>
 
@@ -13129,19 +13129,19 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mesosphere">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#atmosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    The mesosphere is the layer of the Earth's atmosphere that is
-	    directly above the stratopause and directly below the mesopause. In
-	    the mesosphere temperature decreases as the altitude increases. The
-	    upper boundary of the mesosphere is the mesopause, which can be the
-	    coldest naturally occurring place on Earth with temperatures below
-	    130 K (−226 °F; −143 °C). The exact upper and lower boundaries of
-	    the mesosphere vary with latitude and with season, but the lower
-	    boundary of the mesosphere is usually located at heights of about
-	    50 kilometres (160,000 ft; 31 mi) above the Earth's surface and the
-	    mesopause is usually at heights near 100 kilometres (62 mi), except
-	    at middle and high latitudes in summer where it descends to heights
-	    of about 85 kilometres (53 mi) (WP, https://goo.gl/zQEJ1c)
-	  </rdfs:comment>
+	 The mesosphere is the layer of the Earth's atmosphere that is
+	 directly above the stratopause and directly below the mesopause. In
+	 the mesosphere temperature decreases as the altitude increases. The
+	 upper boundary of the mesosphere is the mesopause, which can be the
+	 coldest naturally occurring place on Earth with temperatures below
+	 130 K (−226 °F; −143 °C). The exact upper and lower boundaries of
+	 the mesosphere vary with latitude and with season, but the lower
+	 boundary of the mesosphere is usually located at heights of about
+	 50 kilometres (160,000 ft; 31 mi) above the Earth's surface and the
+	 mesopause is usually at heights near 100 kilometres (62 mi), except
+	 at middle and high latitudes in summer where it descends to heights
+	 of about 85 kilometres (53 mi) (WP, https://goo.gl/zQEJ1c)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Mesosphere</rdfs:label>
    </owl:Class>
 
@@ -13149,24 +13149,24 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Thermosphere">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#atmosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    The thermosphere is the layer of the Earth's atmosphere directly
-	    above the mesosphere and directly below the exosphere. Within this
-	    layer of the atmosphere, ultraviolet radiation causes
-	    photoionization/photodissociation of molecules, creating the ions
-	    in the ionosphere. Called from the Greek θερμός (pronounced
-	    thermos) meaning heat, the thermosphere begins about 85 kilometres
-	    (53 mi) above the Earth. At these high altitudes, the residual
-	    atmospheric gases sort into strata according to molecular mass (see
-	    turbosphere). Thermospheric temperatures increase with altitude due
-	    to absorption of highly energetic solar radiation. Temperatures are
-	    highly dependent on solar activity, and can rise to 2,000 °C (3,630
-	    °F). Radiation causes the atmosphere particles in this layer to
-	    become electrically charged (see ionosphere), enabling radio waves
-	    to bounce off and be received beyond the horizon. In the exosphere,
-	    beginning at 500 to 1,000 kilometres (310 to 620 mi) above the
-	    Earth's surface, the atmosphere turns into space (WP,
-	    https://goo.gl/4Y54db)
-	  </rdfs:comment>
+	 The thermosphere is the layer of the Earth's atmosphere directly
+	 above the mesosphere and directly below the exosphere. Within this
+	 layer of the atmosphere, ultraviolet radiation causes
+	 photoionization/photodissociation of molecules, creating the ions
+	 in the ionosphere. Called from the Greek θερμός (pronounced
+	 thermos) meaning heat, the thermosphere begins about 85 kilometres
+	 (53 mi) above the Earth. At these high altitudes, the residual
+	 atmospheric gases sort into strata according to molecular mass (see
+	 turbosphere). Thermospheric temperatures increase with altitude due
+	 to absorption of highly energetic solar radiation. Temperatures are
+	 highly dependent on solar activity, and can rise to 2,000 °C (3,630
+	 °F). Radiation causes the atmosphere particles in this layer to
+	 become electrically charged (see ionosphere), enabling radio waves
+	 to bounce off and be received beyond the horizon. In the exosphere,
+	 beginning at 500 to 1,000 kilometres (310 to 620 mi) above the
+	 Earth's surface, the atmosphere turns into space (WP,
+	 https://goo.gl/4Y54db)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Thermosphere</rdfs:label>
    </owl:Class>
 
@@ -13174,17 +13174,17 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Exosphere">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#atmosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    The exosphere (Ancient Greek: ἔξω éxō "outside, external, beyond",
-	    Ancient Greek: σφαῖρα sphaĩra "sphere") is a thin, atmosphere-like
-	    volume surrounding a planet or natural satellite where molecules
-	    are gravitationally bound to that body, but where the density is
-	    too low for them to behave as a gas by colliding with each
-	    other. In the case of bodies with substantial atmospheres, such
-	    as Earth's atmosphere, the exosphere is the uppermost layer, where
-	    the atmosphere thins out and merges with interplanetary space. It
-	    is located directly above the thermosphere (WP,
-	    https://goo.gl/0NLIfC).
-	  </rdfs:comment>
+	 The exosphere (Ancient Greek: ἔξω éxō "outside, external, beyond",
+	 Ancient Greek: σφαῖρα sphaĩra "sphere") is a thin, atmosphere-like
+	 volume surrounding a planet or natural satellite where molecules
+	 are gravitationally bound to that body, but where the density is
+	 too low for them to behave as a gas by colliding with each
+	 other. In the case of bodies with substantial atmospheres, such
+	 as Earth's atmosphere, the exosphere is the uppermost layer, where
+	 the atmosphere thins out and merges with interplanetary space. It
+	 is located directly above the thermosphere (WP,
+	 https://goo.gl/0NLIfC).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Exosphere</rdfs:label>
    </owl:Class>
 
@@ -13192,15 +13192,15 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ionosphere">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#atmosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    The ionosphere is a region of Earth's upper atmosphere, from about
-	    60 km (37 mi) to 1,000 km (620 mi) altitude, and includes the
-	    thermosphere and parts of the mesosphere and exosphere. It is
-	    ionized by solar radiation, plays an important part in atmospheric
-	    electricity and forms the inner edge of the magnetosphere. It has
-	    practical importance because, among other functions, it influences
-	    radio propagation to distant places on the Earth (WP,
-	    https://goo.gl/sZlqP9)
-	  </rdfs:comment>
+	 The ionosphere is a region of Earth's upper atmosphere, from about
+	 60 km (37 mi) to 1,000 km (620 mi) altitude, and includes the
+	 thermosphere and parts of the mesosphere and exosphere. It is
+	 ionized by solar radiation, plays an important part in atmospheric
+	 electricity and forms the inner edge of the magnetosphere. It has
+	 practical importance because, among other functions, it influences
+	 radio propagation to distant places on the Earth (WP,
+	 https://goo.gl/sZlqP9)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Ionosphere</rdfs:label>
    </owl:Class>
 
@@ -13209,12 +13209,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Crenon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#longitudinalRiverZone"/>
       <rdfs:comment xml:lang="en">
-	    The crenon is the uppermost zone at the source of the river. It is
-	    further divided into the eucrenon (spring or boil zone) and the
-	    hypocrenon (brook or headstream zone). These areas have low
-	    temperatures, reduced oxygen content and slow moving water (WP,
-	    https://goo.gl/HcsQwQ)
-	  </rdfs:comment>
+	 The crenon is the uppermost zone at the source of the river. It is
+	 further divided into the eucrenon (spring or boil zone) and the
+	 hypocrenon (brook or headstream zone). These areas have low
+	 temperatures, reduced oxygen content and slow moving water (WP,
+	 https://goo.gl/HcsQwQ)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Crenon</rdfs:label>
    </owl:Class>
 
@@ -13222,10 +13222,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Rhitron">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#longitudinalRiverZone"/>
       <rdfs:comment xml:lang="en">
-	    The rhithron is the upstream portion of the river that follows the
-	    crenon. It has relatively cool temperatures, high oxygen levels,
-	    and fast, turbulent, swift flow (WP, https://goo.gl/HcsQwQ).
-	  </rdfs:comment>
+	 The rhithron is the upstream portion of the river that follows the
+	 crenon. It has relatively cool temperatures, high oxygen levels,
+	 and fast, turbulent, swift flow (WP, https://goo.gl/HcsQwQ).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Rhitron</rdfs:label>
    </owl:Class>
 
@@ -13233,10 +13233,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Potamon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#longitudinalRiverZone"/>
       <rdfs:comment xml:lang="en">
-	    The potamon is the remaining downstream stretch of river. It has
-	    warmer temperatures, lower oxygen levels, slow flow and sandier
-	    bottoms (WP, https://goo.gl/HcsQwQ).
-	  </rdfs:comment>
+	 The potamon is the remaining downstream stretch of river. It has
+	 warmer temperatures, lower oxygen levels, slow flow and sandier
+	 bottoms (WP, https://goo.gl/HcsQwQ).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Potamon</rdfs:label>
    </owl:Class>
 
@@ -13244,17 +13244,17 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Floodplain">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#verticalRiverZone"/>
       <rdfs:comment xml:lang="en">
-	    A floodplain or flood plain is an area of land adjacent to a stream
-	    or river that stretches from the banks of its channel to the base
-	    of the enclosing valley walls and experiences flooding during
-	    periods of high discharge. It includes the floodway, which consists
-	    of the stream channel and adjacent areas that actively carry flood
-	    flows downstream, and the flood fringe, which are areas inundated
-	    by the flood, but which do not experience a strong current. In
-	    other words, a floodplain is an area near a river or a stream which
-	    floods when the water level reaches flood stage (WP,
-	    https://goo.gl/a9SZV0).
-	  </rdfs:comment>
+	 A floodplain or flood plain is an area of land adjacent to a stream
+	 or river that stretches from the banks of its channel to the base
+	 of the enclosing valley walls and experiences flooding during
+	 periods of high discharge. It includes the floodway, which consists
+	 of the stream channel and adjacent areas that actively carry flood
+	 flows downstream, and the flood fringe, which are areas inundated
+	 by the flood, but which do not experience a strong current. In
+	 other words, a floodplain is an area near a river or a stream which
+	 floods when the water level reaches flood stage (WP,
+	 https://goo.gl/a9SZV0).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Floodplain</rdfs:label>
    </owl:Class>
 
@@ -13262,8 +13262,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#River Bank">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#verticalRiverZone"/>
       <rdfs:comment xml:lang="en">
-	    The banks of a river
-	  </rdfs:comment>
+	 The banks of a river
+      </rdfs:comment>
       <rdfs:label xml:lang="en">River Bank</rdfs:label>
    </owl:Class>
 
@@ -13271,8 +13271,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#River Water">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#verticalRiverZone"/>
       <rdfs:comment xml:lang="en">
-	    The water from a river
-	  </rdfs:comment>
+	 The water from a river
+      </rdfs:comment>
       <rdfs:label xml:lang="en">River Water</rdfs:label>
    </owl:Class>
 
@@ -13280,8 +13280,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#River Bed">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#verticalRiverZone"/>
       <rdfs:comment xml:lang="en">
-	    The river bed
-	  </rdfs:comment>
+	 The river bed
+      </rdfs:comment>
       <rdfs:label xml:lang="en">River Bed</rdfs:label>
    </owl:Class>
 
@@ -13289,11 +13289,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Litoral">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The littoral zone is the part of a sea, lake or river that is close
-	    to the shore. In coastal environments the littoral zone extends
-	    from the high water mark, which is rarely inundated, to shoreline
-	    areas that are permanently submerged (WP, https://goo.gl/S0iKd5)
-	  </rdfs:comment>
+	 The littoral zone is the part of a sea, lake or river that is close
+	 to the shore. In coastal environments the littoral zone extends
+	 from the high water mark, which is rarely inundated, to shoreline
+	 areas that are permanently submerged (WP, https://goo.gl/S0iKd5)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Litoral</rdfs:label>
    </owl:Class>
 
@@ -13301,18 +13301,18 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Benthic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The benthic zone is the ecological region at the lowest level of a body
-	    of water such as an ocean or a lake, including the sediment surface and
-	    some sub-surface layers. Organisms living in this zone are called
-	    benthos, e.g. the benthic invertebrate community, including crustaceans
-	    and polychaetes. The organisms generally live in close relationship
-	    with the substrate bottom and many are permanently attached to the
-	    bottom. The superficial layer of the soil lining the given body of
-	    water, the benthic boundary layer, is an integral part of the benthic
-	    zone, as it greatly influences the biological activity that takes place
-	    there. Examples of contact soil layers include sand bottoms, rocky
-	    outcrops, coral, and bay mud (WP, https://goo.gl/jn0AVM)
-	  </rdfs:comment>
+	 The benthic zone is the ecological region at the lowest level of a body
+	 of water such as an ocean or a lake, including the sediment surface and
+	 some sub-surface layers. Organisms living in this zone are called
+	 benthos, e.g. the benthic invertebrate community, including crustaceans
+	 and polychaetes. The organisms generally live in close relationship
+	 with the substrate bottom and many are permanently attached to the
+	 bottom. The superficial layer of the soil lining the given body of
+	 water, the benthic boundary layer, is an integral part of the benthic
+	 zone, as it greatly influences the biological activity that takes place
+	 there. Examples of contact soil layers include sand bottoms, rocky
+	 outcrops, coral, and bay mud (WP, https://goo.gl/jn0AVM)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Benthic</rdfs:label>
    </owl:Class>
 
@@ -13320,12 +13320,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Profundal">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The profundal zone is a deep zone of an inland body of freestanding
-	    water, such as a lake or pond, located below the range of effective
-	    light penetration. This is typically below the thermocline, the
-	    vertical zone in the water through which temperature drops rapidly
-	    (WP, https://goo.gl/VCovHK).
-	  </rdfs:comment>
+	 The profundal zone is a deep zone of an inland body of freestanding
+	 water, such as a lake or pond, located below the range of effective
+	 light penetration. This is typically below the thermocline, the
+	 vertical zone in the water through which temperature drops rapidly
+	 (WP, https://goo.gl/VCovHK).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Profundal</rdfs:label>
    </owl:Class>
 
@@ -13334,12 +13334,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Epilimnion">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pelagicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The epilimnion or surface layer is the top-most layer in a
-	    thermally stratified lake, occurring above the deeper hypolimnion.
-	    It is warmer and typically has a higher pH and higher dissolved
-	    oxygen concentration than the hypolimnion (WP,
-	    https://goo.gl/wmErNA)
-	  </rdfs:comment>
+	 The epilimnion or surface layer is the top-most layer in a
+	 thermally stratified lake, occurring above the deeper hypolimnion.
+	 It is warmer and typically has a higher pH and higher dissolved
+	 oxygen concentration than the hypolimnion (WP,
+	 https://goo.gl/wmErNA)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Epilimnion</rdfs:label>
    </owl:Class>
 
@@ -13347,13 +13347,13 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Metalimnion">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pelagicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    A thermocline (sometimes metalimnion in lakes) is a thin but
-	    distinct layer in a large body of fluid (e.g. water, such as an
-	    ocean or lake, or air, such as an atmosphere) in which temperature
-	    changes more rapidly with depth than it does in the layers above or
-	    below. In the ocean, the thermocline divides the upper mixed layer
-	    from the calm deep water below (WP, https://goo.gl/b0vqZM).
-	  </rdfs:comment>
+	 A thermocline (sometimes metalimnion in lakes) is a thin but
+	 distinct layer in a large body of fluid (e.g. water, such as an
+	 ocean or lake, or air, such as an atmosphere) in which temperature
+	 changes more rapidly with depth than it does in the layers above or
+	 below. In the ocean, the thermocline divides the upper mixed layer
+	 from the calm deep water below (WP, https://goo.gl/b0vqZM).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Metalimnion</rdfs:label>
    </owl:Class>
 
@@ -13370,11 +13370,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Litoral">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The littoral zone is the part of a sea, lake or river that is close
-	    to the shore. In coastal environments the littoral zone extends
-	    from the high water mark, which is rarely inundated, to shoreline
-	    areas that are permanently submerged (WP, https://goo.gl/S0iKd5)
-	  </rdfs:comment>
+	 The littoral zone is the part of a sea, lake or river that is close
+	 to the shore. In coastal environments the littoral zone extends
+	 from the high water mark, which is rarely inundated, to shoreline
+	 areas that are permanently submerged (WP, https://goo.gl/S0iKd5)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Litoral</rdfs:label>
    </owl:Class>
 
@@ -13382,14 +13382,14 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Neritic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The neritic zone is the relatively shallow part of the ocean above
-	    the drop-off of the continental shelf, approximately 200 metres
-	    (660 ft) in depth. From the point of view of marine biology
-	    it forms a relatively stable and well-illuminated environment for
-	    marine life, from plankton up to large fish and corals, while
-	    physical oceanography sees it as where the oceanic system interacts
-	    with the coast (WP, https://goo.gl/mMyNAU).
-	  </rdfs:comment>
+	 The neritic zone is the relatively shallow part of the ocean above
+	 the drop-off of the continental shelf, approximately 200 metres
+	 (660 ft) in depth. From the point of view of marine biology
+	 it forms a relatively stable and well-illuminated environment for
+	 marine life, from plankton up to large fish and corals, while
+	 physical oceanography sees it as where the oceanic system interacts
+	 with the coast (WP, https://goo.gl/mMyNAU).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Neritic</rdfs:label>
    </owl:Class>
 
@@ -13397,11 +13397,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Bathyal">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The bathyal zone or bathypelagic (also known as midnight zone) is
-	    the part of the pelagic zone that extends from a depth of 1000 to
-	    4000 meters (3300 to 13000 feet) below the ocean surface (WP,
-	    https://goo.gl/yHvRHV)
-	  </rdfs:comment>
+	 The bathyal zone or bathypelagic (also known as midnight zone) is
+	 the part of the pelagic zone that extends from a depth of 1000 to
+	 4000 meters (3300 to 13000 feet) below the ocean surface (WP,
+	 https://goo.gl/yHvRHV)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Bathyal</rdfs:label>
    </owl:Class>
 
@@ -13409,12 +13409,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Abyssal">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The abyssal zone or abyssopelagic is a layer of the pelagic zone of
-	    the ocean. At depths of 4,000 to 6,000 metres (13,123 to 19,685
-	    feet), this zone remains in perpetual darkness and never receives
-	    daylight. These regions are also characterised by continuous cold
-	    and lack of nutrients. (WP, https://goo.gl/uMOJ5W)
-	  </rdfs:comment>
+	 The abyssal zone or abyssopelagic is a layer of the pelagic zone of
+	 the ocean. At depths of 4,000 to 6,000 metres (13,123 to 19,685
+	 feet), this zone remains in perpetual darkness and never receives
+	 daylight. These regions are also characterised by continuous cold
+	 and lack of nutrients. (WP, https://goo.gl/uMOJ5W)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Abyssal</rdfs:label>
    </owl:Class>
 
@@ -13422,12 +13422,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hadal">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone"/>
       <rdfs:comment xml:lang="en">
-	    The hadal zone, also known as the hadopelagic zone and trench zone,
-	    is the delineation for the deepest trenches in the ocean. This zone
-	    is found from a depth of around 6,000 metres (20,000 ft) to the
-	    bottom of the ocean. The hadal zone has low population and low
-	    diversity of marine life (WP, https://goo.gl/bpoViO).
-	  </rdfs:comment>
+	 The hadal zone, also known as the hadopelagic zone and trench zone,
+	 is the delineation for the deepest trenches in the ocean. This zone
+	 is found from a depth of around 6,000 metres (20,000 ft) to the
+	 bottom of the ocean. The hadal zone has low population and low
+	 diversity of marine life (WP, https://goo.gl/bpoViO).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Hadal</rdfs:label>
    </owl:Class>
 
@@ -13435,18 +13435,18 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#O Horizon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilHorizon"/>
       <rdfs:comment xml:lang="en">
-	    This layer generally forms above the mineral soil or occurs in an
-	    organic soil profile. The "O" stands for organic matter. It is a
-	    surface layer dominated by the presence of large amounts of organic
-	    material derived from dead plant and/or animal residues which is in
-	    varying stages of decomposition. The O horizon is generally absent
-	    in grassland regions. The O horizon usually occurs in forested
-	    areas and is commonly referred to as the forest floor. The O
-	    horizon should be considered distinct from the layer of leaf litter
-	    covering many heavily vegetated areas, which contains no weathered
-	    mineral particles and is not part of the soil itself (WP,
-	    https://goo.gl/fHikwb)
-	  </rdfs:comment>
+	 This layer generally forms above the mineral soil or occurs in an
+	 organic soil profile. The "O" stands for organic matter. It is a
+	 surface layer dominated by the presence of large amounts of organic
+	 material derived from dead plant and/or animal residues which is in
+	 varying stages of decomposition. The O horizon is generally absent
+	 in grassland regions. The O horizon usually occurs in forested
+	 areas and is commonly referred to as the forest floor. The O
+	 horizon should be considered distinct from the layer of leaf litter
+	 covering many heavily vegetated areas, which contains no weathered
+	 mineral particles and is not part of the soil itself (WP,
+	 https://goo.gl/fHikwb)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">O Horizon</rdfs:label>
    </owl:Class>
 
@@ -13454,21 +13454,21 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#A Horizon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilHorizon"/>
       <rdfs:comment xml:lang="en">
-	    The A horizon is the topmost mineral horizon, often referred to as
-	    the 'topsoil'. This layer generally contains enough partially
-	    decomposed (humified) organic matter to give the soil a color
-	    darker than that of the lower horizons. The A horizons are often
-	    coarser in texture, having lost some of the finer materials by
-	    translocation to lower horizons and by erosion. This layer is known
-	    as the zone in which the most biological activity occurs. Soil
-	    organisms such as earthworms, potworms (enchytraeids), arthropods,
-	    nematodes, fungi, and many species of bacteria and archaea are
-	    concentrated here, often in close association with plant roots.
-	    Thus the A horizon may be referred to as the biomantle. However,
-	    since biological activity extends far deeper into the soil, it
-	    cannot be used as a chief distinguishing feature of an A horizon
-	    (WP, https://goo.gl/fHikwb).
-	  </rdfs:comment>
+	 The A horizon is the topmost mineral horizon, often referred to as
+	 the 'topsoil'. This layer generally contains enough partially
+	 decomposed (humified) organic matter to give the soil a color
+	 darker than that of the lower horizons. The A horizons are often
+	 coarser in texture, having lost some of the finer materials by
+	 translocation to lower horizons and by erosion. This layer is known
+	 as the zone in which the most biological activity occurs. Soil
+	 organisms such as earthworms, potworms (enchytraeids), arthropods,
+	 nematodes, fungi, and many species of bacteria and archaea are
+	 concentrated here, often in close association with plant roots.
+	 Thus the A horizon may be referred to as the biomantle. However,
+	 since biological activity extends far deeper into the soil, it
+	 cannot be used as a chief distinguishing feature of an A horizon
+	 (WP, https://goo.gl/fHikwb).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">A Horizon</rdfs:label>
    </owl:Class>
 
@@ -13476,22 +13476,22 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#E Horizon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilHorizon"/>
       <rdfs:comment xml:lang="en">
-	    "E", being short for eluviated, is most commonly used to label a
-	    horizon that has been significantly leached of clay, iron, and
-	    aluminum oxides, which leaves a concentration of resistant
-	    minerals, such as quartz, in the sand and silt sizes. These are
-	    present only in older, well-developed soils, and generally occur
-	    between the A and B horizons.The E horizon often has a pale color
-	    that is generally lighter in color than either the horizon above or
-	    below it. E horizons are commonly found in soils developed under
-	    forests, but are rare in soils developed under grasslands. In
-	    regions where this designation is not employed, leached layers are
-	    classified firstly as an A or B according to other characteristics,
-	    and then appended with the designation "e" (see the section below
-	    on horizon suffixes). In soils that contain gravels, due to animal
-	    bioturbation, a stonelayer commonly forms near or at the base of
-	    the E horizon (WP, https://goo.gl/fHikwb).
-	  </rdfs:comment>
+	 "E", being short for eluviated, is most commonly used to label a
+	 horizon that has been significantly leached of clay, iron, and
+	 aluminum oxides, which leaves a concentration of resistant
+	 minerals, such as quartz, in the sand and silt sizes. These are
+	 present only in older, well-developed soils, and generally occur
+	 between the A and B horizons.The E horizon often has a pale color
+	 that is generally lighter in color than either the horizon above or
+	 below it. E horizons are commonly found in soils developed under
+	 forests, but are rare in soils developed under grasslands. In
+	 regions where this designation is not employed, leached layers are
+	 classified firstly as an A or B according to other characteristics,
+	 and then appended with the designation "e" (see the section below
+	 on horizon suffixes). In soils that contain gravels, due to animal
+	 bioturbation, a stonelayer commonly forms near or at the base of
+	 the E horizon (WP, https://goo.gl/fHikwb).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">E Horizon</rdfs:label>
    </owl:Class>
 
@@ -13499,23 +13499,23 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#B Horizon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilHorizon"/>
       <rdfs:comment xml:lang="en">
-	    B horizons form below an O, A, or E horizon and they have undergone
-	    sufficient changes during soil genesis, such that the properties of
-	    their original parent material are no longer discernible. The B
-	    horizon is commonly referred to as the "subsoil". In humid regions,
-	    B horizons are the layers of maximum accumulation of materials such
-	    as silicate clays, iron (Fe) and aluminum (Al) oxides, and organic
-	    material. These materials typically accumulate through a process
-	    termed illuviation, wherein the materials gradually wash in from
-	    the overlying horizons. Accordingly, this layer is also referred to
-	    as the "illuviated" horizon or the "zone of accumulation". In
-	    addition, it is defined as having a distinctly different structure
-	    or consistency than the horizon(s) above and the horizon(s) below.
-	    The B horizon may also have stronger colors (higher chroma) than
-	    the A horizon. In arid and semiarid regions, calcium carbonate or
-	    calcium sulfate may accumulate in the B horizon (WP,
-	    https://goo.gl/fHikwb).
-	  </rdfs:comment>
+	 B horizons form below an O, A, or E horizon and they have undergone
+	 sufficient changes during soil genesis, such that the properties of
+	 their original parent material are no longer discernible. The B
+	 horizon is commonly referred to as the "subsoil". In humid regions,
+	 B horizons are the layers of maximum accumulation of materials such
+	 as silicate clays, iron (Fe) and aluminum (Al) oxides, and organic
+	 material. These materials typically accumulate through a process
+	 termed illuviation, wherein the materials gradually wash in from
+	 the overlying horizons. Accordingly, this layer is also referred to
+	 as the "illuviated" horizon or the "zone of accumulation". In
+	 addition, it is defined as having a distinctly different structure
+	 or consistency than the horizon(s) above and the horizon(s) below.
+	 The B horizon may also have stronger colors (higher chroma) than
+	 the A horizon. In arid and semiarid regions, calcium carbonate or
+	 calcium sulfate may accumulate in the B horizon (WP,
+	 https://goo.gl/fHikwb).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">B Horizon</rdfs:label>
    </owl:Class>
 
@@ -13523,26 +13523,26 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#C Horizon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilHorizon"/>
       <rdfs:comment xml:lang="en">
-	    The C horizon (parent material) is below the B Horizon. This layer
-	    is little affected by soil-forming processes and they thus have a
-	    lack of pedological development. In other words, the C horizon is
-	    the unconsolidated material underlying the solum (A and B
-	    horizons). It may or may not be the same as the parent material
-	    from which the solum formed. The C horizon forms as the R horizon
-	    weathers and rocks break up into smaller particles. The C horizon
-	    is below the zones of greatest biological activity and it has not
-	    been sufficiently altered by soil genesis to qualify as a B
-	    horizon. In dry regions, carbonates and gypsum may be concentrated
-	    in the C horizon. While loose enough to be dug with a shovel, C
-	    horizon material often retains some of the structural features of
-	    the parent rock or geologic deposits from which it formed. The A
-	    and B layers usually originated from the C horizon. The upper
-	    layers of the C horizon may in time become a part of the solum as
-	    weathering and erosion continue. The C Horizon may contain lumps or
-	    more likely large shelves of unweathered rock, rather than being
-	    made up solely of small fragments as in the solum. It contains
-	    rocks with cracks and crevices (WP, https://goo.gl/fHikwb).
-	  </rdfs:comment>
+	 The C horizon (parent material) is below the B Horizon. This layer
+	 is little affected by soil-forming processes and they thus have a
+	 lack of pedological development. In other words, the C horizon is
+	 the unconsolidated material underlying the solum (A and B
+	 horizons). It may or may not be the same as the parent material
+	 from which the solum formed. The C horizon forms as the R horizon
+	 weathers and rocks break up into smaller particles. The C horizon
+	 is below the zones of greatest biological activity and it has not
+	 been sufficiently altered by soil genesis to qualify as a B
+	 horizon. In dry regions, carbonates and gypsum may be concentrated
+	 in the C horizon. While loose enough to be dug with a shovel, C
+	 horizon material often retains some of the structural features of
+	 the parent rock or geologic deposits from which it formed. The A
+	 and B layers usually originated from the C horizon. The upper
+	 layers of the C horizon may in time become a part of the solum as
+	 weathering and erosion continue. The C Horizon may contain lumps or
+	 more likely large shelves of unweathered rock, rather than being
+	 made up solely of small fragments as in the solum. It contains
+	 rocks with cracks and crevices (WP, https://goo.gl/fHikwb).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">C Horizon</rdfs:label>
    </owl:Class>
 
@@ -13550,12 +13550,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#R Horizon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilHorizon"/>
       <rdfs:comment xml:lang="en">
-	    R horizons are the layers of partially weathered bedrock at the
-	    base of the soil profile. Unlike the above layers, R horizons are
-	    composed largely of consolidated masses of hard rock that cannot be
-	    excavated by hand. Soils formed in situ will exhibit strong
-	    similarities to this bedrock layer (WP, https://goo.gl/fHikwb).
-	  </rdfs:comment>
+	 R horizons are the layers of partially weathered bedrock at the
+	 base of the soil profile. Unlike the above layers, R horizons are
+	 composed largely of consolidated masses of hard rock that cannot be
+	 excavated by hand. Soils formed in situ will exhibit strong
+	 similarities to this bedrock layer (WP, https://goo.gl/fHikwb).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">R Horizon</rdfs:label>
    </owl:Class>
 
@@ -13563,13 +13563,13 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#L Horizon">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilHorizon"/>
       <rdfs:comment xml:lang="en">
-	    L (limnic) horizons or layers indicate mineral or organic material
-	    that has been deposited in water by precipitation or through the
-	    actions of aquatic organisms. Included are coprogenous earth
-	    (sedimentary peat), diatomaceous earth, and marl; and is usually
-	    found as a remnant of past bodies of standing water (WP,
-	    https://goo.gl/fHikwb)
-	  </rdfs:comment>
+	 L (limnic) horizons or layers indicate mineral or organic material
+	 that has been deposited in water by precipitation or through the
+	 actions of aquatic organisms. Included are coprogenous earth
+	 (sedimentary peat), diatomaceous earth, and marl; and is usually
+	 found as a remnant of past bodies of standing water (WP,
+	 https://goo.gl/fHikwb)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">L Horizon</rdfs:label>
    </owl:Class>
 
@@ -13577,8 +13577,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Histosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with thick organic layers (WRB, 2014).
-	  </rdfs:comment>
+	 Soils with thick organic layers (WRB, 2014).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Histosols</rdfs:label>
    </owl:Class>
 
@@ -13586,9 +13586,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Anthrosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with strong human influence. With long and intensive agricultural use
-	    (WRB, 2014)
-	  </rdfs:comment>
+	 Soils with strong human influence. With long and intensive agricultural use
+	 (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Anthrosols</rdfs:label>
    </owl:Class>
 
@@ -13596,9 +13596,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Technosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with strong human influence. Containing significant ammount of artefacts
-	    (WRB, 2014).
-	  </rdfs:comment>
+	 Soils with strong human influence. Containing significant ammount of artefacts
+	 (WRB, 2014).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Technosols</rdfs:label>
    </owl:Class>
 
@@ -13606,8 +13606,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cryosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with limitation to root growth. Permafrost-affected (WRB, 2014).
-	  </rdfs:comment>
+	 Soils with limitation to root growth. Permafrost-affected (WRB, 2014).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Cryosols</rdfs:label>
    </owl:Class>
 
@@ -13615,9 +13615,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Leptotols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with limitation to root growth. Thin or with many coarse fragments (WRB,
-	    2014).
-	  </rdfs:comment>
+	 Soils with limitation to root growth. Thin or with many coarse fragments (WRB,
+	 2014).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Leptotols</rdfs:label>
    </owl:Class>
 
@@ -13625,9 +13625,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Solonetz">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with limitation to root growth. With a high ammount of exchangeable Na
-	    (WRB, 2014).
-	  </rdfs:comment>
+	 Soils with limitation to root growth. With a high ammount of exchangeable Na
+	 (WRB, 2014).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Solonetz</rdfs:label>
    </owl:Class>
 
@@ -13635,9 +13635,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Vertisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with limitation to root growth. Alternating wet-dry
-	    conditions, schrink-swell clays (WRB, 2014).
-	  </rdfs:comment>
+	 Soils with limitation to root growth. Alternating wet-dry
+	 conditions, schrink-swell clays (WRB, 2014).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Vertisols</rdfs:label>
    </owl:Class>
 
@@ -13645,9 +13645,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Solonchaks">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with limitation to root growth. High concentration of soluble
-	    salts (WRB, 2014).
-	  </rdfs:comment>
+	 Soils with limitation to root growth. High concentration of soluble
+	 salts (WRB, 2014).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Solonchaks</rdfs:label>
    </owl:Class>
 
@@ -13655,9 +13655,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Gleysols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils distinguished by Fe/Al chemistry. Groundwater-affected, underwater and in
-	    tidal areas (WRB, 2014)
-	  </rdfs:comment>
+	 Soils distinguished by Fe/Al chemistry. Groundwater-affected, underwater and in
+	 tidal areas (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Gleysols</rdfs:label>
    </owl:Class>
 
@@ -13665,9 +13665,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Andosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils distinguished by Fe/Al chemistry. Allophanes or Al-humus complexes (WRB,
-	    2014)
-	  </rdfs:comment>
+	 Soils distinguished by Fe/Al chemistry. Allophanes or Al-humus complexes (WRB,
+	 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Andosols</rdfs:label>
    </owl:Class>
 
@@ -13675,9 +13675,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Podzols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils distinguished by Fe/Al chemistry. Subsoil accumulation of humus and/or
-	    oxides (WRB, 2014)
-	  </rdfs:comment>
+	 Soils distinguished by Fe/Al chemistry. Subsoil accumulation of humus and/or
+	 oxides (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Podzols</rdfs:label>
    </owl:Class>
 
@@ -13685,9 +13685,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Plinthosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils distinguished by Fe/Al chemistry. Accumulation and redistribution of Fe
-	    (WRB, 2014)
-	  </rdfs:comment>
+	 Soils distinguished by Fe/Al chemistry. Accumulation and redistribution of Fe
+	 (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Plinthosols</rdfs:label>
    </owl:Class>
 
@@ -13695,9 +13695,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Nitisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils distinguished by Fe/Al chemistry. Low-activity clay, P fixation, many Fe
-	    oxides, strongly structured (WRB, 2014)
-	  </rdfs:comment>
+	 Soils distinguished by Fe/Al chemistry. Low-activity clay, P fixation, many Fe
+	 oxides, strongly structured (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Nitisols</rdfs:label>
    </owl:Class>
 
@@ -13705,9 +13705,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ferralsols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils distinguished by Fe/Al chemistry. Dominance of kaolinit and oxides (WRB,
-	    2014)
-	  </rdfs:comment>
+	 Soils distinguished by Fe/Al chemistry. Dominance of kaolinit and oxides (WRB,
+	 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Ferralsols</rdfs:label>
    </owl:Class>
 
@@ -13715,9 +13715,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Planosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils distinguished by Fe/Al chemistry. Stagnating water, abrupt textural
-	    difference (WRB, 2014).
-	  </rdfs:comment>
+	 Soils distinguished by Fe/Al chemistry. Stagnating water, abrupt textural
+	 difference (WRB, 2014).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Planosols</rdfs:label>
    </owl:Class>
 
@@ -13725,9 +13725,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Stagnosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils distinguished by Fe/Al chemistry. Stagnating water, structural difference
-	    and/or moderate textural difference (WRB, 2014)
-	  </rdfs:comment>
+	 Soils distinguished by Fe/Al chemistry. Stagnating water, structural difference
+	 and/or moderate textural difference (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Stagnosols</rdfs:label>
    </owl:Class>
 
@@ -13735,9 +13735,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Chernozems">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Pronounced accumulation of organic matter in the mineral topsoil. Very dark
-	    topsoil, secondary carbonates (WRB, 2014)
-	  </rdfs:comment>
+	 Pronounced accumulation of organic matter in the mineral topsoil. Very dark
+	 topsoil, secondary carbonates (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Chernozems</rdfs:label>
    </owl:Class>
 
@@ -13745,9 +13745,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Kastanozems">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Pronounced accumulation of organic matter in the mineral topsoil. Dark topsoil,
-	    secondary carbonates (WRB, 2014)
-	  </rdfs:comment>
+	 Pronounced accumulation of organic matter in the mineral topsoil. Dark topsoil,
+	 secondary carbonates (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Kastanozems</rdfs:label>
    </owl:Class>
 
@@ -13755,9 +13755,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Phaeozems">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Pronounced accumulation of organic matter in the mineral topsoil. Dark topsoil,
-	    no secondary carbonates (unless very deep), high base status (WRB, 2014)
-	  </rdfs:comment>
+	 Pronounced accumulation of organic matter in the mineral topsoil. Dark topsoil,
+	 no secondary carbonates (unless very deep), high base status (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Phaeozems</rdfs:label>
    </owl:Class>
 
@@ -13765,9 +13765,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Umbrisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Pronounced accumulation of organic matter in the mineral topsoil. Dark topsoil,
-	    low base status (WRB, 2014)
-	  </rdfs:comment>
+	 Pronounced accumulation of organic matter in the mineral topsoil. Dark topsoil,
+	 low base status (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Umbrisols</rdfs:label>
    </owl:Class>
 
@@ -13775,9 +13775,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Durisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Accumulation of moderately soluble salts or non-saline substances. Accumulation
-	    of, and cementation by, secondary silica (WRB, 2014)
-	  </rdfs:comment>
+	 Accumulation of moderately soluble salts or non-saline substances. Accumulation
+	 of, and cementation by, secondary silica (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Durisols</rdfs:label>
    </owl:Class>
 
@@ -13785,9 +13785,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Gypsisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Accumulation of moderately soluble salts or non-saline substances. Accumulation
-	    of secondary gypsum (WRB, 2014)
-	  </rdfs:comment>
+	 Accumulation of moderately soluble salts or non-saline substances. Accumulation
+	 of secondary gypsum (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Gypsisols</rdfs:label>
    </owl:Class>
 
@@ -13795,9 +13795,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Calcisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Accumulation of moderately soluble salts or non-saline substances. Accumulation
-	    of secondary carbonates (WRB, 2014)
-	  </rdfs:comment>
+	 Accumulation of moderately soluble salts or non-saline substances. Accumulation
+	 of secondary carbonates (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Calcisols</rdfs:label>
    </owl:Class>
 
@@ -13805,9 +13805,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Retisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with clay enriched subsoil. Interfingering of coarser-textured, lighter
-	    coloured material into a finer textured, stronger coloured layer (WRB, 2014)
-	  </rdfs:comment>
+	 Soils with clay enriched subsoil. Interfingering of coarser-textured, lighter
+	 coloured material into a finer textured, stronger coloured layer (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Retisols</rdfs:label>
    </owl:Class>
 
@@ -13815,9 +13815,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Acrisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with clay enriched subsoil. Low-activity clays, low base status (WRB,
-	    2014)
-	  </rdfs:comment>
+	 Soils with clay enriched subsoil. Low-activity clays, low base status (WRB,
+	 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Acrisols</rdfs:label>
    </owl:Class>
 
@@ -13825,9 +13825,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lixisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with clay enriched subsoil. Low-activity clays, high base status (WRB,
-	    2014)
-	  </rdfs:comment>
+	 Soils with clay enriched subsoil. Low-activity clays, high base status (WRB,
+	 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Lixisols</rdfs:label>
    </owl:Class>
 
@@ -13835,9 +13835,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Alisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with clay enriched subsoil. High-activity clays, low base status (WRB,
-	    2014)
-	  </rdfs:comment>
+	 Soils with clay enriched subsoil. High-activity clays, low base status (WRB,
+	 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Alisols</rdfs:label>
    </owl:Class>
 
@@ -13845,9 +13845,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Luvisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with clay enriched subsoil. High-activity clays, high base status (WRB,
-	    2014)
-	  </rdfs:comment>
+	 Soils with clay enriched subsoil. High-activity clays, high base status (WRB,
+	 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Luvisols</rdfs:label>
    </owl:Class>
 
@@ -13855,9 +13855,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cambisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with little or no profile differentiation. Moderately developed (WRB,
-	    2014)
-	  </rdfs:comment>
+	 Soils with little or no profile differentiation. Moderately developed (WRB,
+	 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Cambisols</rdfs:label>
    </owl:Class>
 
@@ -13865,8 +13865,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Arenosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with little or no profile differentiation. Sandy (WRB, 2014)
-	  </rdfs:comment>
+	 Soils with little or no profile differentiation. Sandy (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Arenosols</rdfs:label>
    </owl:Class>
 
@@ -13874,9 +13874,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Fluvisols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with little or no profile differentiation. Stratified fluviatile, marine
-	    and lacustrine sediments (WRB, 2014)
-	  </rdfs:comment>
+	 Soils with little or no profile differentiation. Stratified fluviatile, marine
+	 and lacustrine sediments (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Fluvisols</rdfs:label>
    </owl:Class>
 
@@ -13884,9 +13884,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Regosols">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType"/>
       <rdfs:comment xml:lang="en">
-	    Soils with little or no profile differentiation. No significant profile
-	    development (WRB, 2014)
-	  </rdfs:comment>
+	 Soils with little or no profile differentiation. No significant profile
+	 development (WRB, 2014)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Regosols</rdfs:label>
    </owl:Class>
 
@@ -13894,9 +13894,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Acidic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilAcidityType"/>
       <rdfs:comment xml:lang="en">
-	    pH range from smaller than 3.5 to 6.5. Classification according to the United
-	    States Department of Agriculture Natural Resources Conservation Service
-	  </rdfs:comment>
+	 pH range from smaller than 3.5 to 6.5. Classification according to the United
+	 States Department of Agriculture Natural Resources Conservation Service
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Acidic</rdfs:label>
    </owl:Class>
 
@@ -13904,9 +13904,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Neutral">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilAcidityType"/>
       <rdfs:comment xml:lang="en">
-	    pH range from 6.6 to 7.3. Classification according to the United States
-	    Department of Agriculture Natural Resources Conservation Service
-	  </rdfs:comment>
+	 pH range from 6.6 to 7.3. Classification according to the United States
+	 Department of Agriculture Natural Resources Conservation Service
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Neutral</rdfs:label>
    </owl:Class>
 
@@ -13914,9 +13914,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Alkaline">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#soilAcidityType"/>
       <rdfs:comment xml:lang="en">
-	    pH range from 7.4 to larger than 9.0. Classification according to the United
-	    States Department of Agriculture Natural Resources Conservation Service
-	  </rdfs:comment>
+	 pH range from 7.4 to larger than 9.0. Classification according to the United
+	 States Department of Agriculture Natural Resources Conservation Service
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Alkaline</rdfs:label>
    </owl:Class>
 
@@ -13924,16 +13924,16 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Tree Layer">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ecosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    In biology, the canopy is the aboveground portion of a plant
-	    community or crop, formed by the collection of individual plant
-	    crowns. In forest ecology, canopy also refers to the upper layer or
-	    habitat zone, formed by mature tree crowns and including other
-	    biological organisms (epiphytes, lianas, arboreal animals, etc.).
-	    Sometimes the term canopy is used to refer to the extent of the
-	    outer layer of leaves of an individual tree or group of trees.
-	    Shade trees normally have a dense canopy that blocks light from
-	    lower growing plants (WP, https://goo.gl/N3yKtl)
-	  </rdfs:comment>
+	 In biology, the canopy is the aboveground portion of a plant
+	 community or crop, formed by the collection of individual plant
+	 crowns. In forest ecology, canopy also refers to the upper layer or
+	 habitat zone, formed by mature tree crowns and including other
+	 biological organisms (epiphytes, lianas, arboreal animals, etc.).
+	 Sometimes the term canopy is used to refer to the extent of the
+	 outer layer of leaves of an individual tree or group of trees.
+	 Shade trees normally have a dense canopy that blocks light from
+	 lower growing plants (WP, https://goo.gl/N3yKtl)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Tree Layer</rdfs:label>
    </owl:Class>
 
@@ -13941,22 +13941,22 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Shrub Layer">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ecosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    The shrub layer is the stratum of vegetation within a habitat with
-	    heights of between one and a half to about five metres. Young trees
-	    are also part of this layer. It may be divided into the first and
-	    second shrub layers (low and high bushes). The shrub layer needs
-	    sun and only a little moisture, unlike the moss layer, which
-	    requires a lot of water. This stratum only receives light filtered
-	    by the canopy. i.e. it is preferred by semi-shade or shade-loving
-	    plants that would not tolerate bright sunlight. In the shrub layer,
-	    which consists of young trees and bushes, birds like the blackbird,
-	    song thrush, robin or blackcap are at home. They build their nests
-	    protected in the bushes and are therefore referred to as bush
-	    nesters. In addition to shrubs, such as elder, hazel, hawthorn,
-	    raspberry and blackberry, clematis may also occur. At the edge of a
-	    wood, the shrub layer acts as a windbreak close to the trees and
-	    protects the soil from drying out (WP, https://goo.gl/7Xib0g).
-	  </rdfs:comment>
+	 The shrub layer is the stratum of vegetation within a habitat with
+	 heights of between one and a half to about five metres. Young trees
+	 are also part of this layer. It may be divided into the first and
+	 second shrub layers (low and high bushes). The shrub layer needs
+	 sun and only a little moisture, unlike the moss layer, which
+	 requires a lot of water. This stratum only receives light filtered
+	 by the canopy. i.e. it is preferred by semi-shade or shade-loving
+	 plants that would not tolerate bright sunlight. In the shrub layer,
+	 which consists of young trees and bushes, birds like the blackbird,
+	 song thrush, robin or blackcap are at home. They build their nests
+	 protected in the bushes and are therefore referred to as bush
+	 nesters. In addition to shrubs, such as elder, hazel, hawthorn,
+	 raspberry and blackberry, clematis may also occur. At the edge of a
+	 wood, the shrub layer acts as a windbreak close to the trees and
+	 protects the soil from drying out (WP, https://goo.gl/7Xib0g).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Shrub Layer</rdfs:label>
    </owl:Class>
 
@@ -13964,18 +13964,18 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Herb Layer">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ecosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	    The herbaceous stratum contains non-woody vegetation, or ground
-	    cover, growing in the forest with heights of up to about one and a
-	    half metres. The herbaceous layer consists of various herbaceous
-	    plants, grasses, dwarf shrubs (hemicryptophytes, geophytes,
-	    therophytes and chamaephytes) and young shrubs. In forests, early
-	    flowering plants appear first before the canopy fills out.
-	    Thereafter, the amount of light available to plants is
-	    significantly reduced and only those that are suited to such
-	    conditions can thrive. By contrast, grassland consists of moss and
-	    herbaceous layers. Sometimes, a shrub layer builds up as part of a
-	    process of reforestation (succession) (WP, https://goo.gl/7Xib0g).
-	  </rdfs:comment>
+	 The herbaceous stratum contains non-woody vegetation, or ground
+	 cover, growing in the forest with heights of up to about one and a
+	 half metres. The herbaceous layer consists of various herbaceous
+	 plants, grasses, dwarf shrubs (hemicryptophytes, geophytes,
+	 therophytes and chamaephytes) and young shrubs. In forests, early
+	 flowering plants appear first before the canopy fills out.
+	 Thereafter, the amount of light available to plants is
+	 significantly reduced and only those that are suited to such
+	 conditions can thrive. By contrast, grassland consists of moss and
+	 herbaceous layers. Sometimes, a shrub layer builds up as part of a
+	 process of reforestation (succession) (WP, https://goo.gl/7Xib0g).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Herb Layer</rdfs:label>
    </owl:Class>
 
@@ -13983,14 +13983,14 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Moss Layer">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#ecosphereLayerName"/>
       <rdfs:comment xml:lang="en">
-	Growing on the surface of the forest floor is vegetation of up to about
-	0.15 metres in height in what is variously described as a moss, soil or
-	cryptogam layer. The ground itself is covered by a layer of dead plant
-	and animal material. In this layer and the underlying few centimetres
-	of the topsoil live innumerable small soil organisms such as bacteria,
-	fungi, algae and microorganisms, which break down the dead organic
-	substances and work them into the soil. In places the ground is covered
-	by lichens and mosses.
+	 Growing on the surface of the forest floor is vegetation of up to about
+	 0.15 metres in height in what is variously described as a moss, soil or
+	 cryptogam layer. The ground itself is covered by a layer of dead plant
+	 and animal material. In this layer and the underlying few centimetres
+	 of the topsoil live innumerable small soil organisms such as bacteria,
+	 fungi, algae and microorganisms, which break down the dead organic
+	 substances and work them into the soil. In places the ground is covered
+	 by lichens and mosses.
       </rdfs:comment>
       <rdfs:label xml:lang="en">Moss Layer</rdfs:label>
    </owl:Class>
@@ -14000,12 +14000,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Biome Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    A biome is a formation of plants and animals that have common
-	    characteristics due to similar climates and can be found over a
-	    range of continents. Biomes are distinct from habitats, because any
-	    biome can comprise a variety of habitats (WP,
-	    https://goo.gl/g7Urx4).
-	  </rdfs:comment>
+	 A biome is a formation of plants and animals that have common
+	 characteristics due to similar climates and can be found over a
+	 range of continents. Biomes are distinct from habitats, because any
+	 biome can comprise a variety of habitats (WP,
+	 https://goo.gl/g7Urx4).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Biome Level</rdfs:label>
    </owl:Class>
 
@@ -14013,16 +14013,16 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ecosystem Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    An ecosystem is a community of living organisms in conjunction with
-	    the nonliving components of their environment (things like air,
-	    water and mineral soil), interacting as a system. These biotic and
-	    abiotic components are regarded as linked together through nutrient
-	    cycles and energy flows. As ecosystems are defined by the network
-	    of interactions among organisms, and between organisms and their
-	    environment, they can be of any size but usually encompass
-	    specific, limited spaces (although some scientists say that the
-	    entire planet is an ecosystem). (WP, https://goo.gl/88BdbP)
-	  </rdfs:comment>
+	 An ecosystem is a community of living organisms in conjunction with
+	 the nonliving components of their environment (things like air,
+	 water and mineral soil), interacting as a system. These biotic and
+	 abiotic components are regarded as linked together through nutrient
+	 cycles and energy flows. As ecosystems are defined by the network
+	 of interactions among organisms, and between organisms and their
+	 environment, they can be of any size but usually encompass
+	 specific, limited spaces (although some scientists say that the
+	 entire planet is an ecosystem). (WP, https://goo.gl/88BdbP)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Ecosystem Level</rdfs:label>
    </owl:Class>
 
@@ -14030,10 +14030,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Population Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    A population is a summation of all the organisms of the same group
-	    or species, which live in a particular geographical area, and have
-	    the capability of interbreeding (WP, https://goo.gl/C2jF14).
-	  </rdfs:comment>
+	 A population is a summation of all the organisms of the same group
+	 or species, which live in a particular geographical area, and have
+	 the capability of interbreeding (WP, https://goo.gl/C2jF14).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Population Level</rdfs:label>
    </owl:Class>
 
@@ -14041,18 +14041,18 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Organism Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    In biology, an organism is any contiguous living system, such as an
-	    animal, plant, fungus, or bacterium. All known types of organisms
-	    are capable of some degree of response to stimuli, reproduction,
-	    growth and development and homeostasis. An organism consists of one
-	    or more cells; when it has one cell it is known as a unicellular
-	    organism; and when it has more than one it is known as a
-	    multicellular organism. Most unicellular organisms are of
-	    microscopic size and are thus classified as microorganisms. Humans
-	    are multicellular organisms composed of many trillions of cells
-	    grouped into specialized tissues and organs (WP,
-	    https://goo.gl/bFZhq).
-	  </rdfs:comment>
+	 In biology, an organism is any contiguous living system, such as an
+	 animal, plant, fungus, or bacterium. All known types of organisms
+	 are capable of some degree of response to stimuli, reproduction,
+	 growth and development and homeostasis. An organism consists of one
+	 or more cells; when it has one cell it is known as a unicellular
+	 organism; and when it has more than one it is known as a
+	 multicellular organism. Most unicellular organisms are of
+	 microscopic size and are thus classified as microorganisms. Humans
+	 are multicellular organisms composed of many trillions of cells
+	 grouped into specialized tissues and organs (WP,
+	 https://goo.gl/bFZhq).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Organism Level</rdfs:label>
    </owl:Class>
 
@@ -14060,8 +14060,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#System of Organs Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    A system of organs
-	  </rdfs:comment>
+	 A system of organs
+      </rdfs:comment>
       <rdfs:label xml:lang="en">System of Organs Level</rdfs:label>
    </owl:Class>
 
@@ -14069,11 +14069,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Organ Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    In biology, an organ or viscus is a collection of tissues joined in
-	    a structural unit to serve a common function. In anatomy, a viscus
-	    is an internal organ, and viscera is the plural form. (WP,
-	    https://goo.gl/nmTtNo)
-	  </rdfs:comment>
+	 In biology, an organ or viscus is a collection of tissues joined in
+	 a structural unit to serve a common function. In anatomy, a viscus
+	 is an internal organ, and viscera is the plural form. (WP,
+	 https://goo.gl/nmTtNo)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Organ Level</rdfs:label>
    </owl:Class>
 
@@ -14081,12 +14081,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Tissue Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    In biology, tissue is a cellular organizational level intermediate
-	    between cells and a complete organ. A tissue is an ensemble of
-	    similar cells from the same origin that together carry out a
-	    specific function. Organs are then formed by the functional
-	    grouping together of multiple tissues (WP, https://goo.gl/9Ptii9).
-	  </rdfs:comment>
+	 In biology, tissue is a cellular organizational level intermediate
+	 between cells and a complete organ. A tissue is an ensemble of
+	 similar cells from the same origin that together carry out a
+	 specific function. Organs are then formed by the functional
+	 grouping together of multiple tissues (WP, https://goo.gl/9Ptii9).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Tissue Level</rdfs:label>
    </owl:Class>
 
@@ -14094,13 +14094,13 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cell Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    The cell (from Latin cella, meaning "small room") is the basic
-	    structural, functional, and biological unit of all known living
-	    organisms. A cell is the smallest unit of life that can replicate
-	    independently, and cells are often called the "building blocks of
-	    life". The study of cells is called cell biology (WP,
-	    https://goo.gl/O4nWY).
-	  </rdfs:comment>
+	 The cell (from Latin cella, meaning "small room") is the basic
+	 structural, functional, and biological unit of all known living
+	 organisms. A cell is the smallest unit of life that can replicate
+	 independently, and cells are often called the "building blocks of
+	 life". The study of cells is called cell biology (WP,
+	 https://goo.gl/O4nWY).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Cell Level</rdfs:label>
    </owl:Class>
 
@@ -14108,11 +14108,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cell Organelle Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    In cell biology, an organelle is a specialized subunit within a
-	    cell that has a specific function. Individual organelles are
-	    usually separately enclosed within their own lipid bilayers (WP,
-	    https://goo.gl/Dn6aVN).
-	  </rdfs:comment>
+	 In cell biology, an organelle is a specialized subunit within a
+	 cell that has a specific function. Individual organelles are
+	 usually separately enclosed within their own lipid bilayers (WP,
+	 https://goo.gl/Dn6aVN).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Cell Organelle Level</rdfs:label>
    </owl:Class>
 
@@ -14120,13 +14120,13 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Molecule Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    A molecule is an electrically neutral group of two or more atoms
-	    held together by chemical bonds. Molecules are
-	    distinguished from ions by their lack of electrical charge.
-	    However, in quantum physics, organic chemistry, and biochemistry,
-	    the term molecule is often used less strictly, also being applied
-	    to polyatomic ions (WP, https://goo.gl/iLvg0x).
-	  </rdfs:comment>
+	 A molecule is an electrically neutral group of two or more atoms
+	 held together by chemical bonds. Molecules are
+	 distinguished from ions by their lack of electrical charge.
+	 However, in quantum physics, organic chemistry, and biochemistry,
+	 the term molecule is often used less strictly, also being applied
+	 to polyatomic ions (WP, https://goo.gl/iLvg0x).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Molecule Level</rdfs:label>
    </owl:Class>
 
@@ -14134,14 +14134,14 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Atmom Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName"/>
       <rdfs:comment xml:lang="en">
-	    An atom is the smallest constituent unit of ordinary matter that
-	    has the properties of a chemical element. Every solid, liquid, gas,
-	    and plasma is composed of neutral or ionized atoms. Atoms are very
-	    small; typical sizes are around 100 pm (a ten-billionth of a meter,
-	    in the short scale). However, atoms do not have well-defined
-	    boundaries, and there are different ways to define their size that
-	    give different but close values (WP, https://goo.gl/5KGsN6).
-	  </rdfs:comment>
+	 An atom is the smallest constituent unit of ordinary matter that
+	 has the properties of a chemical element. Every solid, liquid, gas,
+	 and plasma is composed of neutral or ionized atoms. Atoms are very
+	 small; typical sizes are around 100 pm (a ten-billionth of a meter,
+	 in the short scale). However, atoms do not have well-defined
+	 boundaries, and there are different ways to define their size that
+	 give different but close values (WP, https://goo.gl/5KGsN6).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Atmom Level</rdfs:label>
    </owl:Class>
 
@@ -14149,8 +14149,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Terrestrial">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeType"/>
       <rdfs:comment xml:lang="en">
-	    Terrestrial situated biome
-	  </rdfs:comment>
+	 Terrestrial situated biome
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Terrestrial</rdfs:label>
    </owl:Class>
 
@@ -14158,8 +14158,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Freshwater">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeType"/>
       <rdfs:comment xml:lang="en">
-	    Freshwater situated biome
-	  </rdfs:comment>
+	 Freshwater situated biome
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Freshwater</rdfs:label>
    </owl:Class>
 
@@ -14167,8 +14167,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Marine">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeType"/>
       <rdfs:comment xml:lang="en">
-	    Marine situated biome
-	  </rdfs:comment>
+	 Marine situated biome
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Marine</rdfs:label>
    </owl:Class>
 
@@ -14176,15 +14176,15 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Polar">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeZone"/>
       <rdfs:comment xml:lang="en">
-	    The climate called polar climate is similar to a arctic climate,
-	    it's regions are characterized by a lack of warm summers. Every
-	    month in a polar climate has an average temperature of less than 10
-	    °C (50 °F). Regions with polar climate cover more than 20% of the
-	    Earth. The sun shines for long hours in the summer, and for many
-	    fewer hours in the winter. A polar climate results in treeless
-	    tundra, glaciers, or a permanent or semi-permanent layer of ice. It
-	    has cool summers and very cold winters (WP, http://bit.ly/1OMdx7g)
-	  </rdfs:comment>
+	 The climate called polar climate is similar to a arctic climate,
+	 it's regions are characterized by a lack of warm summers. Every
+	 month in a polar climate has an average temperature of less than 10
+	 °C (50 °F). Regions with polar climate cover more than 20% of the
+	 Earth. The sun shines for long hours in the summer, and for many
+	 fewer hours in the winter. A polar climate results in treeless
+	 tundra, glaciers, or a permanent or semi-permanent layer of ice. It
+	 has cool summers and very cold winters (WP, http://bit.ly/1OMdx7g)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Polar</rdfs:label>
    </owl:Class>
 
@@ -14192,12 +14192,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Boreal">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeZone"/>
       <rdfs:comment xml:lang="en">
-	    A boreal ecosystem is an ecosystem with a subarctic
-	    climate in the Northern Hemisphere, roughly between
-	    latitude 60° to 70°N. Boreal forests are also known as
-	    the taiga, particularly in Europe and Asia (WP,
-	    http://bit.ly/1lNzwAh)
-	  </rdfs:comment>
+	 A boreal ecosystem is an ecosystem with a subarctic
+	 climate in the Northern Hemisphere, roughly between
+	 latitude 60° to 70°N. Boreal forests are also known as
+	 the taiga, particularly in Europe and Asia (WP,
+	 http://bit.ly/1lNzwAh)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Boreal</rdfs:label>
    </owl:Class>
 
@@ -14205,13 +14205,13 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Temperate">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeZone"/>
       <rdfs:comment xml:lang="en">
-	    The north temperate zone extends from the Tropic of Cancer
-	    (approximately 23.5° north latitude) to the Arctic Circle
-	    (approximately 66.5° north latitude). The south temperate zone
-	    extends from the Tropic of Capricorn (approximately 23.5°
-	    south latitude) to the Antarctic Circle (at approximately
-	    66.5° south latitude). (WP, http://bit.ly/20qmLLS)
-	  </rdfs:comment>
+	 The north temperate zone extends from the Tropic of Cancer
+	 (approximately 23.5° north latitude) to the Arctic Circle
+	 (approximately 66.5° north latitude). The south temperate zone
+	 extends from the Tropic of Capricorn (approximately 23.5°
+	 south latitude) to the Antarctic Circle (at approximately
+	 66.5° south latitude). (WP, http://bit.ly/20qmLLS)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Temperate</rdfs:label>
    </owl:Class>
 
@@ -14219,10 +14219,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Subtropic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeZone"/>
       <rdfs:comment xml:lang="en">
-	    The subtropics are geographic and climate zones located roughly between the
-	    tropic circle of latitude (the Tropic of Cancer and Tropic of Capricorn) and
-	    the 38th parallel in each hemisphere (WP, http://bit.ly/1S8mImK)
-	  </rdfs:comment>
+	 The subtropics are geographic and climate zones located roughly between the
+	 tropic circle of latitude (the Tropic of Cancer and Tropic of Capricorn) and
+	 the 38th parallel in each hemisphere (WP, http://bit.ly/1S8mImK)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Subtropic</rdfs:label>
    </owl:Class>
 
@@ -14230,16 +14230,16 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Tropic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeZone"/>
       <rdfs:comment xml:lang="en">
-	    A tropical climate is a climate typically found within the Tropics,
-	    while a few locations outside the Tropics are considered to have a
-	    tropical climate. In the Köppen climate classification it is a
-	    non-arid climate in which all twelve months have mean temperatures
-	    of at least 18 °C (64 °F). Unlike the extra-tropics, where there
-	    are strong variations in day length and temperature, with season,
-	    tropical temperature remains relatively constant throughout the
-	    year and seasonal variations are dominated by precipitation (WP,
-	    http://bit.ly/1S8mImK)
-	  </rdfs:comment>
+	 A tropical climate is a climate typically found within the Tropics,
+	 while a few locations outside the Tropics are considered to have a
+	 tropical climate. In the Köppen climate classification it is a
+	 non-arid climate in which all twelve months have mean temperatures
+	 of at least 18 °C (64 °F). Unlike the extra-tropics, where there
+	 are strong variations in day length and temperature, with season,
+	 tropical temperature remains relatively constant throughout the
+	 year and seasonal variations are dominated by precipitation (WP,
+	 http://bit.ly/1S8mImK)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Tropic</rdfs:label>
    </owl:Class>
 
@@ -14247,9 +14247,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Humid">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeHumidityType"/>
       <rdfs:comment xml:lang="en">
-	    Humid climate is characterized by a higher precipitation then a potential
-	    evapotranspiration in 10 to 12 Months/Year. http://bit.ly/159p4ec (WP)
-	  </rdfs:comment>
+	 Humid climate is characterized by a higher precipitation then a potential
+	 evapotranspiration in 10 to 12 Months/Year. http://bit.ly/159p4ec (WP)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Humid</rdfs:label>
    </owl:Class>
 
@@ -14257,9 +14257,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Semi Humid">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeHumidityType"/>
       <rdfs:comment xml:lang="en">
-	    Humid climate is characterized by a higher precipitation then a potential
-	    evapotranspiration in 6 to 9 Months/Year. http://bit.ly/159p4ec (WP)
-	  </rdfs:comment>
+	 Humid climate is characterized by a higher precipitation then a potential
+	 evapotranspiration in 6 to 9 Months/Year. http://bit.ly/159p4ec (WP)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Semi Humid</rdfs:label>
    </owl:Class>
 
@@ -14267,9 +14267,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Semi Arid">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeHumidityType"/>
       <rdfs:comment xml:lang="en">
-	    Semiarid climate is characterized by a lower precipitation then a potential
-	    evapotranspiration in 6 to 9 Months/Year. http://bit.ly/1yKM6WM (WP).
-	  </rdfs:comment>
+	 Semiarid climate is characterized by a lower precipitation then a potential
+	 evapotranspiration in 6 to 9 Months/Year. http://bit.ly/1yKM6WM (WP).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Semi Arid</rdfs:label>
    </owl:Class>
 
@@ -14277,9 +14277,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Arid">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeHumidityType"/>
       <rdfs:comment xml:lang="en">
-	    Arid climate is characterized by a lower precipitation then a potential
-	    evapotranspiration in 10 to 12 Months/Year. http://bit.ly/1yKM6WM (WP).
-	  </rdfs:comment>
+	 Arid climate is characterized by a lower precipitation then a potential
+	 evapotranspiration in 10 to 12 Months/Year. http://bit.ly/1yKM6WM (WP).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Arid</rdfs:label>
    </owl:Class>
 
@@ -14287,8 +14287,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Continental">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeContinentalityType"/>
       <rdfs:comment xml:lang="en">
-	    Continentally influenced
-	  </rdfs:comment>
+	 Continentally influenced
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Continental</rdfs:label>
    </owl:Class>
 
@@ -14306,8 +14306,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#North">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeHemisphere"/>
       <rdfs:comment xml:lang="en">
-	    The northern hemisphere. North of the equator.
-	  </rdfs:comment>
+	 The northern hemisphere. North of the equator.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">North</rdfs:label>
    </owl:Class>
 
@@ -14315,8 +14315,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#South">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#biomeHemisphere"/>
       <rdfs:comment xml:lang="en">
-	    The southern hemisphere. South of the equator.
-	  </rdfs:comment>
+	 The southern hemisphere. South of the equator.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">South</rdfs:label>
    </owl:Class>
 
@@ -14324,10 +14324,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Nivale">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#oroBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Covered in snow throughout most of the year. Vegetation is
-	    extremely limited to only a few species that thrive on silica
-	    soils (WP, https://goo.gl/GQGR3m).
-	  </rdfs:comment>
+	 Covered in snow throughout most of the year. Vegetation is
+	 extremely limited to only a few species that thrive on silica
+	 soils (WP, https://goo.gl/GQGR3m).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Nivale</rdfs:label>
    </owl:Class>
 
@@ -14335,9 +14335,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Alpine">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#oroBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    The zone that stretches between the tree line and snowline
-	    (WP, https://goo.gl/GQGR3m)
-	  </rdfs:comment>
+	 The zone that stretches between the tree line and snowline
+	 (WP, https://goo.gl/GQGR3m)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Alpine</rdfs:label>
    </owl:Class>
 
@@ -14345,15 +14345,15 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Subalpine">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#oroBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    The subalpine zone is the biotic zone immediately below the tree
-	    line around the world. In tropical regions of Southeast Asia the
-	    tree line may be above 4,000 m (13,000 ft), whereas in Scotland
-	    it may be as low as 450 m (1,480 ft). Species that occur in
-	    this zone depend on the location of the zone on the Earth, for
-	    example, snow gum in Australia, or subalpine larch, mountain
-	    hemlock and subalpine fir in western North America (WP,
-	    https://goo.gl/ZvpVBf).
-	  </rdfs:comment>
+	 The subalpine zone is the biotic zone immediately below the tree
+	 line around the world. In tropical regions of Southeast Asia the
+	 tree line may be above 4,000 m (13,000 ft), whereas in Scotland
+	 it may be as low as 450 m (1,480 ft). Species that occur in
+	 this zone depend on the location of the zone on the Earth, for
+	 example, snow gum in Australia, or subalpine larch, mountain
+	 hemlock and subalpine fir in western North America (WP,
+	 https://goo.gl/ZvpVBf).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Subalpine</rdfs:label>
    </owl:Class>
 
@@ -14361,14 +14361,14 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Montane">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#oroBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Extends from the mid-altitude forests to the tree line. The exact level
-	    of the tree line varies with local climate, but typically the tree line
-	    is found where mean monthly soil temperatures never exceed 10.0 degrees
-	    C and the mean annual soil temperatures are around 6.7 degrees C. In
-	    the tropics, this region is typified by montane rain forest (above
-	    3,000 ft) while at higher latitudes coniferous forests often dominate
-	    (WP, https://goo.gl/ZvpVBf).
-	  </rdfs:comment>
+	 Extends from the mid-altitude forests to the tree line. The exact level
+	 of the tree line varies with local climate, but typically the tree line
+	 is found where mean monthly soil temperatures never exceed 10.0 degrees
+	 C and the mean annual soil temperatures are around 6.7 degrees C. In
+	 the tropics, this region is typified by montane rain forest (above
+	 3,000 ft) while at higher latitudes coniferous forests often dominate
+	 (WP, https://goo.gl/ZvpVBf).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Montane</rdfs:label>
    </owl:Class>
 
@@ -14376,12 +14376,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Planar">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#oroBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    This lowest section of mountains varies distinctly across climates
-	    and is referred to by a wide range of names depending on the
-	    surrounding landscape. Colline zones are found in tropical regions
-	    and Encinal zones and desert grasslands are found in desert regions
-	    (WP, https://goo.gl/ZvpVBf).
-	  </rdfs:comment>
+	 This lowest section of mountains varies distinctly across climates
+	 and is referred to by a wide range of names depending on the
+	 surrounding landscape. Colline zones are found in tropical regions
+	 and Encinal zones and desert grasslands are found in desert regions
+	 (WP, https://goo.gl/ZvpVBf).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Planar</rdfs:label>
    </owl:Class>
 
@@ -14389,9 +14389,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Amphibiome">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pedoBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Amphibiomes are pedobiomes with changing wet or temporarily flooded
-	    soils.
-	  </rdfs:comment>
+	 Amphibiomes are pedobiomes with changing wet or temporarily flooded
+	 soils.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Amphibiome</rdfs:label>
    </owl:Class>
 
@@ -14399,8 +14399,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Halobiome">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pedoBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Halobiomes are pedobiomes with salty soils
-	  </rdfs:comment>
+	 Halobiomes are pedobiomes with salty soils
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Halobiome</rdfs:label>
    </owl:Class>
 
@@ -14408,9 +14408,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Helobiome">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pedoBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Helobiomes are pedobiomes with soils containing a high amount of
-	    humus (moor)
-	  </rdfs:comment>
+	 Helobiomes are pedobiomes with soils containing a high amount of
+	 humus (moor)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Helobiome</rdfs:label>
    </owl:Class>
 
@@ -14418,9 +14418,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hydrobiome">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pedoBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Hydrobiomes are pedobiomes where the soil is continously under
-	    water.
-	  </rdfs:comment>
+	 Hydrobiomes are pedobiomes where the soil is continously under
+	 water.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Hydrobiome</rdfs:label>
    </owl:Class>
 
@@ -14428,9 +14428,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lithobiome">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pedoBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Lithobiomes are pedobiomes where the soil is characterized by
-	    skelletal stone structures.
-	  </rdfs:comment>
+	 Lithobiomes are pedobiomes where the soil is characterized by
+	 skelletal stone structures.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Lithobiome</rdfs:label>
    </owl:Class>
 
@@ -14438,8 +14438,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Peinobiome">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pedoBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Peinobiomes are pedobiomes with nutrient-poor soils.
-	  </rdfs:comment>
+	 Peinobiomes are pedobiomes with nutrient-poor soils.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Peinobiome</rdfs:label>
    </owl:Class>
 
@@ -14447,8 +14447,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Psammobiome">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#pedoBiomeType"/>
       <rdfs:comment xml:lang="en">
-	    Psammobiomes are pedobiomes whith sandy soils (e.g. dunes)
-	  </rdfs:comment>
+	 Psammobiomes are pedobiomes whith sandy soils (e.g. dunes)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Psammobiome</rdfs:label>
    </owl:Class>
 
@@ -14464,10 +14464,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Evergreen Needleleaf Forest">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands dominated by trees with a canopy cover of more than 60% and height
-	    exceeding 2 m. Almost all trees remain green all year. Canopy is never without
-	    green foliage. Woodward et al. (2004).
-	  </rdfs:comment>
+	 Lands dominated by trees with a canopy cover of more than 60% and height
+	 exceeding 2 m. Almost all trees remain green all year. Canopy is never without
+	 green foliage. Woodward et al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Evergreen Needleleaf Forest</rdfs:label>
    </owl:Class>
 
@@ -14475,10 +14475,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Deciduous Needleleaf Forest">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands dominated by trees with a canopy cover of more than 60% and height
-	    exceeding 2 m. Consists of seasonal needleleaf tree communities with an annual
-	    cycle of leaf-on and leaf-off periods. Woodward et al. (2004).
-	  </rdfs:comment>
+	 Lands dominated by trees with a canopy cover of more than 60% and height
+	 exceeding 2 m. Consists of seasonal needleleaf tree communities with an annual
+	 cycle of leaf-on and leaf-off periods. Woodward et al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Deciduous Needleleaf Forest</rdfs:label>
    </owl:Class>
 
@@ -14486,10 +14486,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Evergreen Broadleaf Forest">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands dominated by trees with a canopy cover of more than 60% and height
-	    exceeding 2 m. Almost all trees remain green all year. Canopy is never without
-	    green foliage. Woodward et al. (2004).
-	  </rdfs:comment>
+	 Lands dominated by trees with a canopy cover of more than 60% and height
+	 exceeding 2 m. Almost all trees remain green all year. Canopy is never without
+	 green foliage. Woodward et al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Evergreen Broadleaf Forest</rdfs:label>
    </owl:Class>
 
@@ -14497,10 +14497,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Deciduous Broadleaf Forest">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands dominated by trees with a canopy cover of more than 60% and height
-	    exceeding 2 m. Consists of seasonal broadleaf tree communities with an annual
-	    cycle of leaf-on and leaf-off periods. Woodward et al. (2004).
-	  </rdfs:comment>
+	 Lands dominated by trees with a canopy cover of more than 60% and height
+	 exceeding 2 m. Consists of seasonal broadleaf tree communities with an annual
+	 cycle of leaf-on and leaf-off periods. Woodward et al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Deciduous Broadleaf Forest</rdfs:label>
    </owl:Class>
 
@@ -14508,11 +14508,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mixed Forest">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands dominated by trees with a canopy cover of more than 60% and height
-	    exceeding 2 m. Consists of tree communities with interspersed mixtures or
-	    mosaics of the other four forest cover types. None of the forest types exceeds
-	    60% of the landscape. Woodward et al. (2004).
-	  </rdfs:comment>
+	 Lands dominated by trees with a canopy cover of more than 60% and height
+	 exceeding 2 m. Consists of tree communities with interspersed mixtures or
+	 mosaics of the other four forest cover types. None of the forest types exceeds
+	 60% of the landscape. Woodward et al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Mixed Forest</rdfs:label>
    </owl:Class>
 
@@ -14529,10 +14529,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Savannah">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands with herbaceous and other understorey systems, and with forest canopy
-	    cover between 10 and 30%. The forest cover height exceeds 2 m. Woodward et al.
-	    (2004).
-	  </rdfs:comment>
+	 Lands with herbaceous and other understorey systems, and with forest canopy
+	 cover between 10 and 30%. The forest cover height exceeds 2 m. Woodward et al.
+	 (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Savannah</rdfs:label>
    </owl:Class>
 
@@ -14540,10 +14540,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Woody Savannah">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands with herbaceous and other understorey systems, and with forest canopy
-	    cover of between 30 and 60%. The forest cover height exceeds 2 m. Woodward et
-	    al. (2004).
-	  </rdfs:comment>
+	 Lands with herbaceous and other understorey systems, and with forest canopy
+	 cover of between 30 and 60%. The forest cover height exceeds 2 m. Woodward et
+	 al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Woody Savannah</rdfs:label>
    </owl:Class>
 
@@ -14560,10 +14560,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Closed Shrubland">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands with woody vegetation less than 2 m tall and with shrub canopy cover more
-	    than 60%. The shrub foliage can be either evergreen or deciduous. Woodward et
-	    al. (2004).
-	  </rdfs:comment>
+	 Lands with woody vegetation less than 2 m tall and with shrub canopy cover more
+	 than 60%. The shrub foliage can be either evergreen or deciduous. Woodward et
+	 al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Closed Shrubland</rdfs:label>
    </owl:Class>
 
@@ -14571,10 +14571,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Open Shrubland">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands with woody vegetation less than 2 m tall and with shrub canopy cover
-	    between 10 and 60%. The shrub foliage can be either evergreen or deciduous.
-	    Woodward et al. (2004).
-	  </rdfs:comment>
+	 Lands with woody vegetation less than 2 m tall and with shrub canopy cover
+	 between 10 and 60%. The shrub foliage can be either evergreen or deciduous.
+	 Woodward et al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Open Shrubland</rdfs:label>
    </owl:Class>
 
@@ -14591,9 +14591,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Grassland">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Lands with herbaceous types of cover. Tree and shrub cover is less than 10%.
-	    Woodward et al. (2004).
-	  </rdfs:comment>
+	 Lands with herbaceous types of cover. Tree and shrub cover is less than 10%.
+	 Woodward et al. (2004).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Grassland</rdfs:label>
    </owl:Class>
 
@@ -14631,14 +14631,14 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mire">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#semiAquaticPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    A mire or quagmire, sometimes called a peatland, is a wetland
-	    terrain without forest cover dominated by living, peat-forming
-	    plants. For botanists and ecologists, the term peatland is a more
-	    general term for any terrain dominated by peat to a depth of at
-	    least 30 cm (12 in), even if it has been completely drained (i.e.,
-	    a peatland can be dry, but a mire by definition must be wet)
-	    (WP, https://goo.gl/Viw6mV).
-	  </rdfs:comment>
+	 A mire or quagmire, sometimes called a peatland, is a wetland
+	 terrain without forest cover dominated by living, peat-forming
+	 plants. For botanists and ecologists, the term peatland is a more
+	 general term for any terrain dominated by peat to a depth of at
+	 least 30 cm (12 in), even if it has been completely drained (i.e.,
+	 a peatland can be dry, but a mire by definition must be wet)
+	 (WP, https://goo.gl/Viw6mV).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Mire</rdfs:label>
    </owl:Class>
 
@@ -14646,15 +14646,15 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Bog">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#semiAquaticPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    A bog is a wetland that accumulates peat, a deposit of dead plant
-	    material—often mosses, and in a majority of cases, sphagnum
-	    moss. It is one of the four main types of wetlands. Other names
-	    for bogs include mire, quagmire, and muskeg; alkaline mires are
-	    called fens. They are frequently covered in ericaceous shrubs
-	    rooted in the sphagnum moss and peat. The gradual accumulation of
-	    decayed plant material in a bog functions as a carbon sink. (WP,
-	    https://goo.gl/RTPvv)
-	  </rdfs:comment>
+	 A bog is a wetland that accumulates peat, a deposit of dead plant
+	 material—often mosses, and in a majority of cases, sphagnum
+	 moss. It is one of the four main types of wetlands. Other names
+	 for bogs include mire, quagmire, and muskeg; alkaline mires are
+	 called fens. They are frequently covered in ericaceous shrubs
+	 rooted in the sphagnum moss and peat. The gradual accumulation of
+	 decayed plant material in a bog functions as a carbon sink. (WP,
+	 https://goo.gl/RTPvv)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Bog</rdfs:label>
    </owl:Class>
 
@@ -14662,21 +14662,21 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Fen">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#semiAquaticPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    A fen is one of the main types of wetland, the others being grassy
-	    marshes, forested swamps, and peaty bogs. Along with bogs, fens are
-	    a kind of mire. Fens are usually fed by mineral-rich surface water
-	    or groundwater. They are characterised by their water chemistry,
-	    which is pH neutral or alkaline, with relatively high dissolved
-	    mineral levels but few other plant nutrients. They are usually
-	    dominated by grasses and sedges, and typically have brown mosses in
-	    general including Scorpidium or Drepanocladus. Fens frequently
-	    have a high diversity of other plant species including carnivorous
-	    plants such as Pinguicula. They may also occur along large
-	    lakes and rivers where seasonal changes in water level maintain wet
-	    soils with few woody plants. The distribution of individual
-	    species of fen plants is often closely connected to water regimes
-	    and nutrient concentrations (WP, https://goo.gl/CyBBHb).
-	  </rdfs:comment>
+	 A fen is one of the main types of wetland, the others being grassy
+	 marshes, forested swamps, and peaty bogs. Along with bogs, fens are
+	 a kind of mire. Fens are usually fed by mineral-rich surface water
+	 or groundwater. They are characterised by their water chemistry,
+	 which is pH neutral or alkaline, with relatively high dissolved
+	 mineral levels but few other plant nutrients. They are usually
+	 dominated by grasses and sedges, and typically have brown mosses in
+	 general including Scorpidium or Drepanocladus. Fens frequently
+	 have a high diversity of other plant species including carnivorous
+	 plants such as Pinguicula. They may also occur along large
+	 lakes and rivers where seasonal changes in water level maintain wet
+	 soils with few woody plants. The distribution of individual
+	 species of fen plants is often closely connected to water regimes
+	 and nutrient concentrations (WP, https://goo.gl/CyBBHb).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Fen</rdfs:label>
    </owl:Class>
 
@@ -14684,15 +14684,15 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Saltmarsh">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#semiAquaticPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    A salt marsh or saltmarsh, also known as a coastal salt marsh or a
-	    tidal marsh, is a coastal ecosystem in the upper coastal intertidal
-	    zone between land and open salt water or brackish water that is
-	    regularly flooded by the tides. It is dominated by dense stands of
-	    salt-tolerant plants such as herbs, grasses, or low shrubs. These
-	    plants are terrestrial in origin and are essential to the stability
-	    of the salt marsh in trapping and binding sediments (WP,
-	    https://goo.gl/SgJHEb)
-	  </rdfs:comment>
+	 A salt marsh or saltmarsh, also known as a coastal salt marsh or a
+	 tidal marsh, is a coastal ecosystem in the upper coastal intertidal
+	 zone between land and open salt water or brackish water that is
+	 regularly flooded by the tides. It is dominated by dense stands of
+	 salt-tolerant plants such as herbs, grasses, or low shrubs. These
+	 plants are terrestrial in origin and are essential to the stability
+	 of the salt marsh in trapping and binding sediments (WP,
+	 https://goo.gl/SgJHEb)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Saltmarsh</rdfs:label>
    </owl:Class>
 
@@ -14701,11 +14701,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Emergent Aquatic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#plantCharacterizedAquaticPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Emergent aquatic plants (vascular and non-vascular) are rooted or attacached
-	    and their leaves and stems extend out of the water surface (Alberta
-	    conservation information management system ecological community tracking,
-	    modified)
-	  </rdfs:comment>
+	 Emergent aquatic plants (vascular and non-vascular) are rooted or attacached
+	 and their leaves and stems extend out of the water surface (Alberta
+	 conservation information management system ecological community tracking,
+	 modified)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Emergent Aquatic</rdfs:label>
    </owl:Class>
 
@@ -14713,11 +14713,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Floating Leave Aquatic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#plantCharacterizedAquaticPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Rooted or attached aquatic plants (vascular and non-vascular) with uppermost
-	    leaves floating on the water surface. Flowers and flowering structures may be
-	    emergent above or floating on the water surface (Alberta conservation
-	    information management system ecological community tracking).
-	  </rdfs:comment>
+	 Rooted or attached aquatic plants (vascular and non-vascular) with uppermost
+	 leaves floating on the water surface. Flowers and flowering structures may be
+	 emergent above or floating on the water surface (Alberta conservation
+	 information management system ecological community tracking).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Floating Leave Aquatic</rdfs:label>
    </owl:Class>
 
@@ -14725,11 +14725,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Submergent Aquatic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#plantCharacterizedAquaticPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Rooted or attached aquatic plants (vascular and non-vascular) with uppermost
-	    leaves submerged below the water surface. Flowers and flowering structures may
-	    be emergent above or floating on the water surface (Alberta conservation
-	    information management system ecological community tracking)
-	  </rdfs:comment>
+	 Rooted or attached aquatic plants (vascular and non-vascular) with uppermost
+	 leaves submerged below the water surface. Flowers and flowering structures may
+	 be emergent above or floating on the water surface (Alberta conservation
+	 information management system ecological community tracking)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Submergent Aquatic</rdfs:label>
    </owl:Class>
 
@@ -14737,8 +14737,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Free Floating Aquatic">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#plantCharacterizedAquaticPhysiognomyType"/>
       <rdfs:comment xml:lang="en">
-	    Non rooted or attached aquatic plants (vascular and non-vascular)
-	  </rdfs:comment>
+	 Non rooted or attached aquatic plants (vascular and non-vascular)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Free Floating Aquatic</rdfs:label>
    </owl:Class>
 
@@ -14747,17 +14747,17 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Estuary">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy"/>
       <rdfs:comment xml:lang="en">
-	    An estuary is a partially enclosed coastal body of brackish water
-	    with one or more rivers or streams flowing into it, and with a free
-	    connection to the open sea. Estuaries form a transition zone
-	    between river environments and maritime environments. They are
-	    subject both to marine influences—such as tides, waves, and the
-	    influx of saline water—and to riverine influences—such as flows of
-	    fresh water and sediment. The inflows of both sea water and fresh
-	    water provide high levels of nutrients both in the water column and
-	    in sediment, making estuaries among the most productive natural
-	    habitats in the world (WP, https://goo.gl/gcp6Pn)
-	  </rdfs:comment>
+	 An estuary is a partially enclosed coastal body of brackish water
+	 with one or more rivers or streams flowing into it, and with a free
+	 connection to the open sea. Estuaries form a transition zone
+	 between river environments and maritime environments. They are
+	 subject both to marine influences—such as tides, waves, and the
+	 influx of saline water—and to riverine influences—such as flows of
+	 fresh water and sediment. The inflows of both sea water and fresh
+	 water provide high levels of nutrients both in the water column and
+	 in sediment, making estuaries among the most productive natural
+	 habitats in the world (WP, https://goo.gl/gcp6Pn)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Estuary</rdfs:label>
    </owl:Class>
 
@@ -14765,21 +14765,21 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Kelp Forest">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy"/>
       <rdfs:comment xml:lang="en">
-	    Kelp forests are underwater areas with a high density of kelp. They
-	    are recognized as one of the most productive and dynamic ecosystems
-	    on Earth. Smaller areas of anchored kelp are called kelp beds.
-	    Kelp forests occur worldwide throughout temperate and polar coastal
-	    oceans. In 2007, kelp forests were also discovered in tropical
-	    waters near Ecuador. Physically formed by brown macroalgae of
-	    the order Laminariales, kelp forests provide a unique
-	    three-dimensional habitat for marine organisms and are a source
-	    for understanding many ecological processes. Over the last century,
-	    they have been the focus of extensive research, particularly in
-	    trophic ecology, and continue to provoke important ideas that are
-	    relevant beyond this unique ecosystem. For example, kelp forests
-	    can influence coastal oceanographic patterns and provide many
-	    ecosystem services (WP, https://goo.gl/wtd9sP).
-	  </rdfs:comment>
+	 Kelp forests are underwater areas with a high density of kelp. They
+	 are recognized as one of the most productive and dynamic ecosystems
+	 on Earth. Smaller areas of anchored kelp are called kelp beds.
+	 Kelp forests occur worldwide throughout temperate and polar coastal
+	 oceans. In 2007, kelp forests were also discovered in tropical
+	 waters near Ecuador. Physically formed by brown macroalgae of
+	 the order Laminariales, kelp forests provide a unique
+	 three-dimensional habitat for marine organisms and are a source
+	 for understanding many ecological processes. Over the last century,
+	 they have been the focus of extensive research, particularly in
+	 trophic ecology, and continue to provoke important ideas that are
+	 relevant beyond this unique ecosystem. For example, kelp forests
+	 can influence coastal oceanographic patterns and provide many
+	 ecosystem services (WP, https://goo.gl/wtd9sP).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Kelp Forest</rdfs:label>
    </owl:Class>
 
@@ -14787,17 +14787,17 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Coral Reef">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy"/>
       <rdfs:comment xml:lang="en">
-	    Coral reefs are diverse underwater ecosystems held together by
-	    calcium carbonate structures secreted by corals. Coral reefs are
-	    built by colonies of tiny animals found in marine waters that
-	    contain few nutrients. Most coral reefs are built from stony
-	    corals, which in turn consist of polyps that cluster in groups. The
-	    polyps belong to a group of animals known as Cnidaria, which also
-	    includes sea anemones and jellyfish. Unlike sea anemones, corals
-	    secrete hard carbonate exoskeletons which support and protect the
-	    coral polyps. Most reefs grow best in warm, shallow, clear, sunny
-	    and agitated waters (WP, https://goo.gl/dPY0Jv).
-	  </rdfs:comment>
+	 Coral reefs are diverse underwater ecosystems held together by
+	 calcium carbonate structures secreted by corals. Coral reefs are
+	 built by colonies of tiny animals found in marine waters that
+	 contain few nutrients. Most coral reefs are built from stony
+	 corals, which in turn consist of polyps that cluster in groups. The
+	 polyps belong to a group of animals known as Cnidaria, which also
+	 includes sea anemones and jellyfish. Unlike sea anemones, corals
+	 secrete hard carbonate exoskeletons which support and protect the
+	 coral polyps. Most reefs grow best in warm, shallow, clear, sunny
+	 and agitated waters (WP, https://goo.gl/dPY0Jv).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Coral Reef</rdfs:label>
    </owl:Class>
 
@@ -14805,11 +14805,11 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ocean Bank">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy"/>
       <rdfs:comment xml:lang="en">
-	    An ocean bank, sometimes referred to as a fishing bank or simply
-	    bank, is a part of the sea which is shallow compared to its
-	    surrounding area, such as a shoal or the top of an underwater hill.
-	    (WP, https://goo.gl/ZHMzUb).
-	  </rdfs:comment>
+	 An ocean bank, sometimes referred to as a fishing bank or simply
+	 bank, is a part of the sea which is shallow compared to its
+	 surrounding area, such as a shoal or the top of an underwater hill.
+	 (WP, https://goo.gl/ZHMzUb).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Ocean Bank</rdfs:label>
    </owl:Class>
 
@@ -14817,14 +14817,14 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Strait">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy"/>
       <rdfs:comment xml:lang="en">
-	    A strait is a naturally formed, narrow, typically navigable
-	    waterway that connects two larger bodies of water. It most commonly
-	    refers to a channel of water that lies between two land masses, but
-	    it may also refer to a body of water that is otherwise not
-	    navigable, for example because it is too shallow, or because it
-	    contains an unnavigable reef or archipelago (WP,
-	    https://goo.gl/x4fWKU)
-	  </rdfs:comment>
+	 A strait is a naturally formed, narrow, typically navigable
+	 waterway that connects two larger bodies of water. It most commonly
+	 refers to a channel of water that lies between two land masses, but
+	 it may also refer to a body of water that is otherwise not
+	 navigable, for example because it is too shallow, or because it
+	 contains an unnavigable reef or archipelago (WP,
+	 https://goo.gl/x4fWKU)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Strait</rdfs:label>
    </owl:Class>
 
@@ -14832,21 +14832,21 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Seamount">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy"/>
       <rdfs:comment xml:lang="en">
-	    A seamount is a mountain rising from the ocean seafloor that does
-	    not reach to the water's surface (sea level), and thus is not an
-	    island. Seamounts are typically formed from extinct volcanoes that
-	    rise abruptly and are usually found rising from the seafloor to
-	    1,000–4,000 metres (3,300–13,100 ft) in height. They are defined by
-	    oceanographers as independent features that rise to at least 1,000
-	    metres (3,281 ft) above the seafloor, characteristically of conical
-	    form. The peaks are often found hundreds to thousands of meters
-	    below the surface, and are therefore considered to be within the
-	    deep sea. During their evolution over geologic time, the largest
-	    seamounts may reach the sea surface where wave action erodes the
-	    summit to form a flat surface. After they have subsided and sunk
-	    below the sea surface such flat-top seamounts are called "guyots"
-	    or "tablemounts" (WP, https://goo.gl/JQayU5).
-	  </rdfs:comment>
+	 A seamount is a mountain rising from the ocean seafloor that does
+	 not reach to the water's surface (sea level), and thus is not an
+	 island. Seamounts are typically formed from extinct volcanoes that
+	 rise abruptly and are usually found rising from the seafloor to
+	 1,000–4,000 metres (3,300–13,100 ft) in height. They are defined by
+	 oceanographers as independent features that rise to at least 1,000
+	 metres (3,281 ft) above the seafloor, characteristically of conical
+	 form. The peaks are often found hundreds to thousands of meters
+	 below the surface, and are therefore considered to be within the
+	 deep sea. During their evolution over geologic time, the largest
+	 seamounts may reach the sea surface where wave action erodes the
+	 summit to form a flat surface. After they have subsided and sunk
+	 below the sea surface such flat-top seamounts are called "guyots"
+	 or "tablemounts" (WP, https://goo.gl/JQayU5).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Seamount</rdfs:label>
    </owl:Class>
 
@@ -14854,12 +14854,12 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hydrothermal Vent">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy"/>
       <rdfs:comment xml:lang="en">
-	    A hydrothermal vent is a fissure in a planet's surface from which
-	    geothermally heated water issues. Hydrothermal vents are commonly
-	    found near volcanically active places, areas where tectonic plates
-	    are moving apart, ocean basins, and hotspots (WP,
-	    https://goo.gl/eRMZXy)
-	  </rdfs:comment>
+	 A hydrothermal vent is a fissure in a planet's surface from which
+	 geothermally heated water issues. Hydrothermal vents are commonly
+	 found near volcanically active places, areas where tectonic plates
+	 are moving apart, ocean basins, and hotspots (WP,
+	 https://goo.gl/eRMZXy)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Hydrothermal Vent</rdfs:label>
    </owl:Class>
 
@@ -14867,14 +14867,14 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cold Seep">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy"/>
       <rdfs:comment xml:lang="en">
-	    A cold seep (sometimes called a cold vent) is an area of the ocean
-	    floor where hydrogen sulfide, methane and other hydrocarbon-rich
-	    fluid seepage occurs, often in the form of a brine pool. "Cold"
-	    does not mean that the temperature of the seepage is lower than
-	    that of the surrounding sea water. On the contrary, its temperature
-	    is often slightly higher. Cold seeps constitute a biome
-	    supporting several endemic species (WP, https://goo.gl/okK26y)
-	  </rdfs:comment>
+	 A cold seep (sometimes called a cold vent) is an area of the ocean
+	 floor where hydrogen sulfide, methane and other hydrocarbon-rich
+	 fluid seepage occurs, often in the form of a brine pool. "Cold"
+	 does not mean that the temperature of the seepage is lower than
+	 that of the surrounding sea water. On the contrary, its temperature
+	 is often slightly higher. Cold seeps constitute a biome
+	 supporting several endemic species (WP, https://goo.gl/okK26y)
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Cold Seep</rdfs:label>
    </owl:Class>
 
@@ -14882,8 +14882,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Natural">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#landUseType"/>
       <rdfs:comment xml:lang="en">
-	    Natural is every land that is not managed in any way.
-	  </rdfs:comment>
+	 Natural is every land that is not managed in any way.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Natural</rdfs:label>
    </owl:Class>
 
@@ -14891,9 +14891,9 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Semi Natural">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#landUseType"/>
       <rdfs:comment xml:lang="en">
-	    Semi natural is every land that is managed or used for food creating other
-	    resources.
-	  </rdfs:comment>
+	 Semi natural is every land that is managed or used for food creating other
+	 resources.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Semi Natural</rdfs:label>
    </owl:Class>
 
@@ -14901,8 +14901,8 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Urban">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#landUseType"/>
       <rdfs:comment xml:lang="en">
-	    Areas with human settlement.
-	  </rdfs:comment>
+	 Areas with human settlement.
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Urban</rdfs:label>
    </owl:Class>
 
@@ -14910,10 +14910,10 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Agriculture">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#landUseForm"/>
       <rdfs:comment xml:lang="en">
-	    Agriculture is the cultivation of animals, plants and fungi for
-	    food, fiber, biofuel, medicinal plants and other products used to
-	    sustain and enhance human life (WP, https://goo.gl/HWul0C).
-	  </rdfs:comment>
+	 Agriculture is the cultivation of animals, plants and fungi for
+	 food, fiber, biofuel, medicinal plants and other products used to
+	 sustain and enhance human life (WP, https://goo.gl/HWul0C).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Agriculture</rdfs:label>
    </owl:Class>
 
@@ -14921,13 +14921,13 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Agroforestry">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#landUseForm"/>
       <rdfs:comment xml:lang="en">
-	    Agroforestry or agro-sylviculture is a land use management system
-	    in which trees or shrubs are grown around or among crops or
-	    pastureland. It combines shrubs and trees in agricultural and
-	    forestry technologies to create more diverse, productive,
-	    profitable, healthy, ecologically sound, and sustainable land-use
-	    systems (WP, https://goo.gl/4yyFxT).
-	  </rdfs:comment>
+	 Agroforestry or agro-sylviculture is a land use management system
+	 in which trees or shrubs are grown around or among crops or
+	 pastureland. It combines shrubs and trees in agricultural and
+	 forestry technologies to create more diverse, productive,
+	 profitable, healthy, ecologically sound, and sustainable land-use
+	 systems (WP, https://goo.gl/4yyFxT).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Agroforestry</rdfs:label>
    </owl:Class>
 
@@ -14935,14 +14935,14 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Forestry">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#landUseForm"/>
       <rdfs:comment xml:lang="en">
-	    Forestry is the science and craft of creating, managing, using,
-	    conserving, and repairing forests and associated resources to meet
-	    desired goals, needs, and values for human and environment
-	    benefits. Forestry is practiced in plantations and natural
-	    stands. The science of forestry has elements that belong to the
-	    biological, physical, social, political and managerial sciences
-	    (WP, https://goo.gl/cOr6zu).
-	  </rdfs:comment>
+	 Forestry is the science and craft of creating, managing, using,
+	 conserving, and repairing forests and associated resources to meet
+	 desired goals, needs, and values for human and environment
+	 benefits. Forestry is practiced in plantations and natural
+	 stands. The science of forestry has elements that belong to the
+	 biological, physical, social, political and managerial sciences
+	 (WP, https://goo.gl/cOr6zu).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Forestry</rdfs:label>
    </owl:Class>
 
@@ -14950,13 +14950,13 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Aquaculture">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#landUseForm"/>
       <rdfs:comment xml:lang="en">
-	    Aquaculture, also known as aquafarming, is the farming of aquatic
-	    organisms such as fish, crustaceans, molluscs and aquatic
-	    plants. Aquaculture involves cultivating freshwater and
-	    saltwater populations under controlled conditions, and can be
-	    contrasted with commercial fishing, which is the harvesting of wild
-	    fish (WP, https://goo.gl/GMCNbS).
-	  </rdfs:comment>
+	 Aquaculture, also known as aquafarming, is the farming of aquatic
+	 organisms such as fish, crustaceans, molluscs and aquatic
+	 plants. Aquaculture involves cultivating freshwater and
+	 saltwater populations under controlled conditions, and can be
+	 contrasted with commercial fishing, which is the harvesting of wild
+	 fish (WP, https://goo.gl/GMCNbS).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Aquaculture</rdfs:label>
    </owl:Class>
 
@@ -14964,16 +14964,16 @@
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Fishery">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#landUseForm"/>
       <rdfs:comment xml:lang="en">
-	    Generally, a fishery is an entity engaged in raising or harvesting
-	    fish which is determined by some authority to be a fishery.
-	    According to the FAO, a fishery is typically defined in terms of
-	    the "people involved, species or type of fish, area of water or
-	    seabed, method of fishing, class of boats, purpose of the
-	    activities or a combination of the foregoing features". The
-	    definition often includes a combination of fish and fishers in a
-	    region, the latter fishing for similar species with similar gear
-	    types (WP, https://goo.gl/SPBFxk).
-	  </rdfs:comment>
+	 Generally, a fishery is an entity engaged in raising or harvesting
+	 fish which is determined by some authority to be a fishery.
+	 According to the FAO, a fishery is typically defined in terms of
+	 the "people involved, species or type of fish, area of water or
+	 seabed, method of fishing, class of boats, purpose of the
+	 activities or a combination of the foregoing features". The
+	 definition often includes a combination of fish and fishers in a
+	 region, the latter fishing for similar species with similar gear
+	 types (WP, https://goo.gl/SPBFxk).
+      </rdfs:comment>
       <rdfs:label xml:lang="en">Fishery</rdfs:label>
    </owl:Class>
 
