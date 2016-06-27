@@ -8417,37 +8417,338 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Extinction"/>
-      <xs:enumeration value="Birth"/>
-      <xs:enumeration value="Growth"/>
-      <xs:enumeration value="Death"/>
-      <xs:enumeration value="Migration"/>
-      <xs:enumeration value="Competition"/>
-      <xs:enumeration value="Facilitation"/>
-      <xs:enumeration value="Consumption"/>
-      <xs:enumeration value="Communication"/>
-      <xs:enumeration value="Assimilation"/>
-      <xs:enumeration value="Dissimilation"/>
-      <xs:enumeration value="Carbon Cycle"/>
-      <xs:enumeration value="Nutrient Cycle"/>
-      <xs:enumeration value="Water Cycle"/>
-      <xs:enumeration value="Energy Exchange"/>
-      <xs:enumeration value="Demography"/>
-      <xs:enumeration value="Evolution"/>
-      <xs:enumeration value="Disruption"/>
-      <xs:enumeration value="Natural Disturbance"/>
-      <xs:enumeration value="Land Use Change"/>
-      <xs:enumeration value="Climate Change"/>
-      <xs:enumeration value="Pollution"/>
-      <xs:enumeration value="Invasion"/>
-      <xs:enumeration value="Ersosion"/>
-      <xs:enumeration value="Deposition"/>
-      <xs:enumeration value="Succession"/>
-      <xs:enumeration value="Photosynthesis"/>
+      <xs:enumeration value="Extinction">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In biology and ecology, extinction is the end of an organism or of a
+	    group of organisms (taxon), normally a species. The moment of
+	    extinction is generally considered to be the death of the last
+	    individual of the species, although the capacity to breed and recover
+	    may have been lost before this point. Because a species' potential
+	    range may be very large, determining this moment is difficult, and is
+	    usually done retrospectively. This difficulty leads to phenomena such
+	    as Lazarus taxa, where a species presumed extinct abruptly "reappears"
+	    (typically in the fossil record) after a period of apparent absence
+	    (WP, https://goo.gl/JfeHV3)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Birth">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Birth, also known as parturition, is the act or process of bearing
+	    or bringing forth offspring.[1] In mammals, the process is
+	    initiated by hormones which cause the muscular walls of the uterus
+	    to contract, expelling the fetus at a developmental stage when it
+	    is ready to feed and breathe. In some species the offspring is
+	    precocial and can move around almost immediately after birth but in
+	    others it is altricial and completely dependent on parenting. In
+	    marsupials, the fetus is born at a very immature stage after a
+	    short gestational period and develops further in its mother's
+	    pouch (WP, https://goo.gl/VKbgE6).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      </xs:enumeration>
+      <xs:enumeration value="Growth">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Death">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Death is the termination of all biological functions that sustain
+	    an organism. Phenomena which commonly bring about death include
+	    biological aging (senescence), predation, malnutrition, disease,
+	    suicide, homicide, starvation, dehydration, and accidents or trauma
+	    resulting in terminal injury.[1] Bodies of living organisms begin
+	    to decompose shortly after death. Death has commonly been
+	    considered a sad or unpleasant occasion, particularly for humans,
+	    due to the affection for the being that has died and/or the
+	    termination of social and familial bonds with the deceased. Other
+	    concerns include fear of death, necrophobia, anxiety, sorrow,
+	    grief, emotional pain, depression, sympathy, compassion, solitude,
+	    or saudade. The potential for an afterlife is of concern for humans
+	    and the possibility of reward or judgement and punishment for past
+	    sin with people of certain religions (WP, https://goo.gl/rW1Ic).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Migration">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Animal migration is the relatively long-distance movement of
+	    individuals, usually on a seasonal basis. It is found in all major
+	    animal groups, including birds, mammals, fish, reptiles,
+	    amphibians, insects, and crustaceans.[1] The trigger for the
+	    migration may be local climate, local availability of food, the
+	    season of the year or for matting reasons.[2] To be counted as a
+	    true migration, and not just a local dispersal or irruption, the
+	    movement of the animals should be an annual or seasonal occurrence,
+	    such as Northern hemisphere birds migrating south for the winter;
+	    wildebeest migrating annually for seasonal grazing; or a major
+	    habitat change as part of their life, such as young Atlantic salmon
+	    leaving the river of their birth when they have reached a few
+	    inches in size (WP, https://goo.gl/aT4d5D).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Competition">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Competition in biology and sociology, is a contest between two or
+	    more organisms, animals, individuals, groups, etc., for territory,
+	    a niche, for a location of resources, for resources and goods, for
+	    mates, for prestige, for recognition, for awards, for group or
+	    social status, or for leadership. Competition is the opposite of
+	    cooperation.[1] It arises whenever at least two parties strive for
+	    a goal which cannot be shared or which is desired individually but
+	    not in sharing and cooperation (WP, https://goo.gl/KKrgSP).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Facilitation">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Ecological facilitation or probiosis describes species interactions
+	    that benefit at least one of the participants and cause harm to
+	    neither.[1] Facilitations can be categorized as mutualisms, in
+	    which both species benefit, or commensalisms, in which one species
+	    benefits and the other is unaffected. Much of classic ecological
+	    theory (e.g., natural selection, niche separation, metapopulation
+	    dynamics) has focused on negative interactions such as predation
+	    and competition, but positive interactions (facilitation) are
+	    receiving increasing focus in ecological research.[1][2][3][4][5]
+	    This article addresses both the mechanisms of facilitation and the
+	    increasing information available concerning the impacts of
+	    facilitation on community ecology (WP, https://goo.gl/4usCL6).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Consumption">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Consumers are organisms of an ecological food chain which receive
+	    energy by consuming other organisms. These organisms are formally
+	    referred to as heterotrophs, which include animals, bacteria and
+	    fungi. Such organisms may consume by various means, including
+	    predation, parasitization, and biodegradation (WP,
+	    https://goo.gl/SsH2Na).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Communication">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Assimilation">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Biological assimilation, is the combination of two processes to
+	    supply cells with nutrients. The first is the process of absorbing
+	    vitamins, minerals, and other chemicals from food within the
+	    gastrointestinal tract. In humans this is done with a chemical
+	    breakdown (enzymes and acids) and physical breakdown (oral
+	    mastication and stomach churning.) The second process of bio
+	    assimilation is the chemical alteration of substances in the
+	    bloodstream by the liver or cellular secretions. Although a few
+	    similar compounds can be absorbed in digestion bio assimilation,
+	    the bio-availability of many compounds is dictated by this second
+	    process since both the liver and cellular secretions can be very
+	    specific in their metabolic action (see chirality.) This second
+	    process is where the absorbed food reaches the cells via the liver
+	    (WP, https://goo.gl/t1R5aL)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Dissimilation">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The breakdown of more complex substances into simpler ones together
+	    with release of energy in organisms.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Carbon Cycle">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The carbon cycle is the biogeochemical cycle by which carbon is
+	    exchanged among the biosphere, pedosphere, geosphere, hydrosphere,
+	    and atmosphere of the Earth (WP, https://goo.gl/bgxEM4).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Nutrient Cycle">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A nutrient cycle (or ecological recycling) is the movement and
+	    exchange of organic and inorganic matter back into the production
+	    of living matter. The process is regulated by food web pathways
+	    that decompose matter into mineral nutrients (WP,
+	    https://goo.gl/2XOwMR)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Water Cycle">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The water cycle, also known as the hydrological cycle or the H2O
+	    cycle, describes the continuous movement of water on, above and
+	    below the surface of the Earth (WP, https://goo.gl/EOeTNu)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Energy Exchange">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Demography">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Demography [...] is the statistical study of populations,
+	    especially human beings. As a very general science, it can analyze
+	    any kind of dynamic living population, i.e., one that changes over
+	    time or space (see population dynamics). Demography encompasses the
+	    study of the size, structure, and distribution of these
+	    populations, and spatial or temporal changes in them in response to
+	    birth, migration, ageing, and death (WP, https://goo.gl/PqDS1B).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Evolution">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Evolution is change in the heritable traits of biological
+	    populations over successive generations.[1][2] Evolutionary
+	    processes give rise to diversity at every level of biological
+	    organisation, including the levels of species, individual
+	    organisms, and molecules (WP, https://goo.gl/OZzIz).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Disruption">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Natural Disturbance">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Land Use Change">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Climate Change">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Climate change is a change in the statistical distribution of
+	    weather patterns when that change lasts for an extended period of
+	    time (i.e., decades to millions of years). Climate change may refer
+	    to a change in average weather conditions, or in the time variation
+	    of weather around longer-term average conditions (i.e., more or
+	    fewer extreme weather events). Climate change is caused by factors
+	    such as biotic processes, variations in solar radiation received by
+	    Earth, plate tectonics, and volcanic eruptions. Certain human
+	    activities have also been identified as significant causes of
+	    recent climate change, often referred to as global warming (WP,
+	    https://goo.gl/jDVPm9)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Pollution">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Pollution is the introduction of contaminants into the natural
+	    environment that cause adverse change.[1] Pollution can take the
+	    form of chemical substances or energy, such as noise, heat or
+	    light. Pollutants, the components of pollution, can be either
+	    foreign substances/energies or naturally occurring contaminants.
+	    Pollution is often classed as point source or nonpoint source
+	    pollution (WP, https://goo.gl/86S9Qw).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Invasion">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Ersosion">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In earth science, erosion is the action of surface processes (such
+	    as water flow or wind) that remove soil, rock, or dissolved
+	    material from one location on the Earth's crust, then transport it
+	    away to another location.[1] The particulate breakdown of rock or
+	    soil into clastic sediment is referred to as physical or mechanical
+	    erosion; this contrasts with chemical erosion, where soil or rock
+	    material is removed from an area by its dissolving into a solvent
+	    (typically water), followed by the flow away of that solution.
+	    Eroded sediment or solutes may be transported just a few
+	    millimetres, or for thousands of kilometres (WP,
+	    https://goo.gl/XI8r9Y)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Deposition">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Succession">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Succession is the act or process of following in order or sequence.
+	    (WP, https://goo.gl/NKDUMR)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Photosynthesis">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Photosynthesis is a process used by plants and other organisms to
+	    convert light energy, normally from the Sun, into chemical energy
+	    that can be later released to fuel the organisms' activities
+	    (energy transformation). This chemical energy is stored in
+	    carbohydrate molecules, such as sugars, which are synthesized from
+	    carbon dioxide and water – hence the name photosynthesis, from the
+	    Greek φῶς, phōs, "light", and σύνθεσις, synthesis, "putting
+	    together".[1][2][3] In most cases, oxygen is also released as a
+	    waste product. Most plants, most algae, and cyanobacteria perform
+	    photosynthesis; such organisms are called photoautotrophs.
+	    Photosynthesis maintains atmospheric oxygen levels and supplies all
+	    of the organic compounds and most of the energy necessary for life
+	    on Earth (WP, https://goo.gl/hLE4bR).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ProcessSubject">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -8463,6 +8764,7 @@
       <xs:pattern value="[A-zäöüÄÖÜß ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
   <xs:simpleType name="ProcessType">
     <xs:annotation>
       <xs:documentation xml:lang="en">
