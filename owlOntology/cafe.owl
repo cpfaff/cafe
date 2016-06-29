@@ -9450,7 +9450,7 @@
       <rdfs:label xml:lang="en">Kilometre</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#MeanSeaLevel">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Mean Sea Level">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#elevationDatum"/>
       <rdfs:comment xml:lang="en">
 	 NA
@@ -9553,7 +9553,7 @@
       <rdfs:label xml:lang="en">Forest</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#StudySite">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Study Site">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#locationType"/>
       <rdfs:comment xml:lang="en">
 	 If the study site has a dedicated name (e.g. Jena Experiment)
@@ -9953,12 +9953,12 @@
       <rdfs:label xml:lang="en">Colombia</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#CostaRica">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Costa Rica">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#countryName"/>
       <rdfs:comment xml:lang="en">
 	 NA
       </rdfs:comment>
-      <rdfs:label xml:lang="en">CostaRica</rdfs:label>
+      <rdfs:label xml:lang="en">Costa Rica</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Cuba">
@@ -10745,12 +10745,12 @@
       <rdfs:label xml:lang="en">Macau</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Northern MarianaIslands">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Northern Mariana Islands">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#countryName"/>
       <rdfs:comment xml:lang="en">
 	 NA
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Northern MarianaIslands</rdfs:label>
+      <rdfs:label xml:lang="en">Northern Mariana Islands</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Martinique">
@@ -14100,14 +14100,6 @@
 	 conversion. Conversion (AB to/from B + A)
       </rdfs:comment>
       <rdfs:label xml:lang="en">Conversion</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TheConcept">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#processType"/>
-      <rdfs:comment xml:lang="en">
-	 TheComment
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">TheConcept</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Plantae">

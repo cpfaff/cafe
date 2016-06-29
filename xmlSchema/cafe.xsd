@@ -175,7 +175,7 @@
 					</xs:annotation>
 					<xs:complexType>
 					  <xs:sequence>
-					    <xs:element name="geologicalTimePeriod" minOccurs="1" maxOccurs="unbounded">
+					    <xs:element name="GeologicalTimePeriod" minOccurs="1" maxOccurs="unbounded">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The geological age is a container that holds one of the possible geological
@@ -9821,7 +9821,7 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="CostaRica">
+      <xs:enumeration value="Costa Rica">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    NA
@@ -10514,7 +10514,7 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Northern MarianaIslands">
+      <xs:enumeration value="Northern Mariana Islands">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    NA
