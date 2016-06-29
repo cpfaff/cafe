@@ -174,7 +174,7 @@
       <rdfs:label xml:lang="en">timezone</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalTimePeriod">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod">
       <rdfs:subClassOf>
 	 <owl:Restriction>
 	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/cafe#isPartOf"/>
@@ -186,11 +186,11 @@
 	 ages which is relevant for describing the search object. E.g. a sample that
 	 comes from the ordovician time period.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">geologicalTimePeriod</rdfs:label>
+      <rdfs:label xml:lang="en">GeologicalTimePeriod</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalEon">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalTimePeriod"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
       <rdfs:comment xml:lang="en">
 	 The geological eon contextualizing the search object. For example: Phanerozoic,
 	 Precambrian.
@@ -199,7 +199,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalEra">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalTimePeriod"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
       <rdfs:comment xml:lang="en">
 	 The geological era contextualizing the search object. For example: Cenozoic,
 	 Mesozoic, Paleozoic.
@@ -208,7 +208,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalTimePeriod"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
       <rdfs:comment xml:lang="en">
 	 The geological period contextualizing the search object. For example:
 	 Quaternary, Neogene, Paleogene.
@@ -217,7 +217,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalTimePeriod"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
       <rdfs:comment xml:lang="en">
 	 The geological epoch contextualizing the search object. For example: Holocene,
 	 Pleistocene, Pilocene.
@@ -226,7 +226,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalAge">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#geologicalTimePeriod"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod"/>
       <rdfs:comment xml:lang="en">
 	 The geological age contextualizing the search object. For example: Calabrian,
 	 Gelasian, Piacenzian.
