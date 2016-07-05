@@ -3,62 +3,63 @@
 ### General
 
 Ecology has become a data intensive science where researchers integrate data
-across spatial and temporal scales in order to answer questions of global
-interest. An efficient data annotation and discovery mechanism is crucial to
-support researchers finding relevant data to answer their questions more
-easily.  This GitHub repository serves as a platform for the development of a
-standard that provides an annotation tool of ecological data. The standard
-consists of a vocabulary in form of an SKOS thesaurus and a XML schema.
-
-The vocabulary is designed along 8 broad categories of information crucial for
-the description and the discovery of ecological data. These categories or
-dimensions are namely time, space, sphere, biome, method, process and
-chemicals. The XML schema allows to capture annotations drawn from the
-vocabulary. Using the schema for the annotation allows to turn the information
-into a search facet serving as a filter which can speeds up the discovery of
-specific research data.
+across spatial, temporal and organismic scales in order to answer questions of
+global interest. The annotation of data and the efficient discovery are crucial
+to support researchers finding relevant data suitable to answer their questions.
+This GitHub repository serves as a platform for the development of standards and
+tools that help with the annotation and the discovery of ecological data. This
+includes an ecological vocabulary, an XML schema and an OWL ontology as well as
+a tool for the annotation, the discovery and the sharing of data.
 
 ### Contents
 
 #### The vocabulary
 
-The [vocabulary](http://tematres.befdata.biow.uni-leipzig.de/vocab/index.php)
-has been designed in discussion with domain experts of ecology and adjacent
-fields. It is designed along 8 dimensions which are essential for describing
-data in the context of ecology. The vocabulary adheres to the following design
+A vocabulary that describes ecological search objects has been created in close
+collaboration with ecological domain experts as well as experts from closely
+related disciplines. The vocabulary in a top down manner where the top most
+concepts have been defined first before the vocabulary was extended for more
+detail.
+
+The top level concepts are namely time, space, sphere, biome, method, process
+and chemicals. Next to expert knowledge, scientific literature, textbooks,
+existing metadata standards (Access To Biological Collection Data, Darwin Core,
+Ecological Metadata Language), ontologies (e.g. CheBi, ENVO), and established
+standards (e.g. International Chronostratigraphic Chart) served as source of
+information for the vocabulary. The vocabulary adheres to the following design
 principles.
 
 * Parsimony
 
-That basically means that we do not get to detailed in terms of information we
-ask for. This principle is driven by the idea that annotations are typical done
-in manual fashion and potentially by someone who is not the author of the data
-(e.g. a data curator).
-
+It does not provide too much detailed concepts to cover a specific type of
+information. The idea behind that is that the vocabulary should be easy to use
+by somebody with a bit of background in ecology or with a little bit of
+training (e.g. data curator).
 
 * Comprehensiveness
 
-Despite the fact that the vocabulary on one hand strifes to be parsimonious we
-also aim for a good and descriptive annotation. This basically means to extend
-the vocabulary for more detail if there is a good reason to do so but always
-keep the first principle in mind.
+Despite the fact that the vocabulary on one hand aims to be parsimonious, on
+the other hand it aims for a comprehensive description of ecological search
+objects. Thus the vocabulary provides more detail to cover a specific topic if
+there is a good reason to do so.
 
 * Orthogonality
 
-The orthogonality is an important criteria for the axes of the vocabulary. This
-just means that concepts found on one of the axes do not appear somewhere else
-and stand in their place for a certain reason. Before a new concept is going to
-be added first we have to check if the vocabulary could express the same by a
-combination of existing concepts.
+Concepts that can be found in one part of the vocabulary do not appear
+somewhere else again. Before a new concept is going to be added first it is
+checked from an annotation perspective if a combination of concepts from
+different parts of the vocabulary could express the same meaning.
 
 #### The schema
 
-The schema provides an information storage and transport vehicle for the
-vocabulary. It stores annotations for search objects and allows to exchange the
-annotation in a machine readable way. The schema also adheres to some desing
-principles
+The XML schema provides a simple annotation format capturing metadata based on
+concepts specified in the vocabulary. The exposure of this metadata in faceted
+search approach provides a filter which significantly speeds up the discovery of
+specific research data.
 
-* Be semantic
+The schema also adheres to some desing principles
+
+* Be semantic (This is just an example)
 
 Do not do:
 
@@ -67,8 +68,8 @@ Do not do:
 	<location>
 		<range>
 			<item>
-			  <locationType>country</locationType>
-			  <locationName>Andorra</locationName>
+			  <type>country</type>
+			  <name>Andorra</name>
 		  </item>
 		</range>
 	</location>
@@ -79,27 +80,28 @@ But rather do:
 
 ```XML
 <space>
-	<locationRange>
-		<locationItem>
+	<locations>
+		<location>
 		  <locationType>country</locationType>
 		  <locationName>Andorra</locationName>
+		  ...
 	  </locationItem>
 	</locationRange>
 </space>
 ```
 
-* Do not provide full-text fields!
+* Do not provide full-text fields for annotation!
 
-Full-text fields are useful in general and often contain valuable information.
-They often provide information we might need to create a facet for a search but
-the problem is that no information is granted to be in the full text for sure.
-We aim at generic structures and fields that only contain clearly defined bits
-and pieces of information.
+Full-text fields are useful in general and are used in all existing metadata
+standards like Ecological Metadata Language (EML) or the Access to Biological
+Collection Data (ABCD). The information in full text fields however is hard to
+extract and make use for a facet data discovery.
 
 #### Tagging tool
 
-There is a tagging tool on its way that allows to create valid annotations
-based on the schema. You can browse the mock-ups here
+An annotation tool on its way which will allow to create annotations based on
+the schema. The tool will also provide search and data sharing features. You
+can browse the mock-ups that show the annotation part of the tool here
 [here](https://invis.io/MB5Y0E2PG).
 
 #### Compatibility with other schemata
