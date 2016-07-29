@@ -69,7 +69,7 @@
 	 The time context allows to capture the quantitative and qualitative temporal
 	 aspects that describe the the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">TimeContext</rdfs:label>
+      <rdfs:label xml:lang="en">Time Context</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TimeRange">
@@ -84,7 +84,7 @@
 	 object. If both the start and the end date are equal this
 	 represents a point in time.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">TimeRange</rdfs:label>
+      <rdfs:label xml:lang="en">Time Range</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#RangeStart">
@@ -98,7 +98,7 @@
 	 The start of the time range in form of a local date and local time associated
 	 with a timezone. This can be e.g. the start of the data aquisition.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">RangeStart</rdfs:label>
+      <rdfs:label xml:lang="en">Range Start</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#RangeEnd">
@@ -112,7 +112,7 @@
 	 The start of the time range in form of a local date and local time associated
 	 with a timezone. This can be e.g. the start of the data aquisition.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">RangeEnd</rdfs:label>
+      <rdfs:label xml:lang="en">Range End</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DateTime">
@@ -131,7 +131,7 @@
       <rdfs:comment xml:lang="en">
 	 This element captures a local time range with date, time and olson timezone
       </rdfs:comment>
-      <rdfs:label xml:lang="en">DateTime</rdfs:label>
+      <rdfs:label xml:lang="en">Date Time</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#date">
@@ -144,7 +144,7 @@
       <rdfs:comment xml:lang="en">
 	 A single date in form YYYY-MM-DD conform to iso 8601.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">date</rdfs:label>
+      <rdfs:label xml:lang="en">Date</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#time">
@@ -157,7 +157,7 @@
       <rdfs:comment xml:lang="en">
 	 A single time in form HH:MM:SS conform to iso 8601.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">time</rdfs:label>
+      <rdfs:label xml:lang="en">Time</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Timezone">
@@ -171,7 +171,7 @@
 	 The olson timezone to capture the timezone of the given date and time in the
 	 range (e.g. Europe/Berlin)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">timezone</rdfs:label>
+      <rdfs:label xml:lang="en">Timezone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#GeologicalTimePeriod">
@@ -186,7 +186,7 @@
 	 ages which is relevant for describing the search object. E.g. a sample that
 	 comes from the ordovician time period.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">GeologicalTimePeriod</rdfs:label>
+      <rdfs:label xml:lang="en">Geological Time Period</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalEon">
@@ -195,7 +195,7 @@
 	 The geological eon contextualizing the search object. For example: Phanerozoic,
 	 Precambrian.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">geologicalEon</rdfs:label>
+      <rdfs:label xml:lang="en">Geological Eon</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalEra">
@@ -204,7 +204,7 @@
 	 The geological era contextualizing the search object. For example: Cenozoic,
 	 Mesozoic, Paleozoic.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">geologicalEra</rdfs:label>
+      <rdfs:label xml:lang="en">Geological Era</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalPeriod">
@@ -213,7 +213,7 @@
 	 The geological period contextualizing the search object. For example:
 	 Quaternary, Neogene, Paleogene.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">geologicalPeriod</rdfs:label>
+      <rdfs:label xml:lang="en">Geological Period</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalEpoch">
@@ -222,7 +222,7 @@
 	 The geological epoch contextualizing the search object. For example: Holocene,
 	 Pleistocene, Pilocene.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">geologicalEpoch</rdfs:label>
+      <rdfs:label xml:lang="en">Geological Epoch</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#geologicalAge">
@@ -231,7 +231,7 @@
 	 The geological age contextualizing the search object. For example: Calabrian,
 	 Gelasian, Piacenzian.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">geologicalAge</rdfs:label>
+      <rdfs:label xml:lang="en">Geological Age</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TemporalResolution">
@@ -245,7 +245,7 @@
 	 The temporal resolution caputres the temporal aspects of the setup or
 	 study the search object comes from.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">TemporalResolution</rdfs:label>
+      <rdfs:label xml:lang="en">Temporal Resolution</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#temporalExtentType">
@@ -260,7 +260,7 @@
 	 the setup the search object comes from (e.g. Second, Minute, Hour, Day, Week,
 	 ...).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">temporalExtentType</rdfs:label>
+      <rdfs:label xml:lang="en">Temporal Extent Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#temporalResolutionType">
@@ -275,7 +275,7 @@
 	 the setup the search object comes from (e.g. Second, Minute, Hour, Day, Week,
 	 ...).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">temporalResolutionType</rdfs:label>
+      <rdfs:label xml:lang="en">Temporal Resolution Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SpaceContext">
@@ -284,7 +284,7 @@
 	 The space context allows to capture the quantitative and qualitative spatial
 	 aspects that describe the the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">SpaceContext</rdfs:label>
+      <rdfs:label xml:lang="en">Space Context</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BoundingBox">
@@ -298,7 +298,7 @@
 	 The bounding box captures the spatial extent by four geographic coordinates
 	 (N,E,S,W) in decimal degree.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">BoundingBox</rdfs:label>
+      <rdfs:label xml:lang="en">Bounding Box</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#northBoundingCoordinate">
@@ -312,7 +312,7 @@
 	 The north most geographic coordinate that signifies the boundary of the data.
 	 It has to be given in decimal degree between -90 and +90 degree.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">northBoundingCoordinate</rdfs:label>
+      <rdfs:label xml:lang="en">North Bounding Coordinate</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#southBoundingCoordinate">
@@ -326,7 +326,7 @@
 	 The soutch most geographic coordinate that signifies the boundary of the data.
 	 It has to be given in decimal degree between -90 and +90 degree.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">southBoundingCoordinate</rdfs:label>
+      <rdfs:label xml:lang="en">South Bounding Coordinate</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#eastBoundingCoordinate">
@@ -340,7 +340,7 @@
 	 The east most geographic coordinate that signifies the boundary of the data. It
 	 has to be given in decimal degree between -180 and +180 degree.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">eastBoundingCoordinate</rdfs:label>
+      <rdfs:label xml:lang="en">East Bounding Coordinate</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#westBoundingCoordinate">
@@ -354,7 +354,7 @@
 	 The west most geographic coordinate that signifies the boundary of the data. It
 	 has to be given in decimal degree between -180 and +180 degree.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">westBoundingCoordinate</rdfs:label>
+      <rdfs:label xml:lang="en">West Bounding Coordinate</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Elevation">
@@ -381,7 +381,7 @@
       <rdfs:comment xml:lang="en">
 	 The maximum elevation contextualizing the search object
       </rdfs:comment>
-      <rdfs:label xml:lang="en">maximumElevation</rdfs:label>
+      <rdfs:label xml:lang="en">Maximum Elevation</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#maximumElevationUnit">
@@ -394,7 +394,7 @@
       <rdfs:comment xml:lang="en">
 	 The unit the maximum elevation is given in (e.g. Meters)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">maximumElevationUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Maximum Elevation Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#minimumElevation">
@@ -407,7 +407,7 @@
       <rdfs:comment xml:lang="en">
 	 The minimum elevation contextualizing the search object
       </rdfs:comment>
-      <rdfs:label xml:lang="en">minimumElevation</rdfs:label>
+      <rdfs:label xml:lang="en">Minimum Elevation</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#minimumElevationUnit">
@@ -420,7 +420,7 @@
       <rdfs:comment xml:lang="en">
 	 The unit the minimum elevation is given in (e.g. Meters)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">minimumElevationUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Minimum Elevation Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#elevationDatum">
@@ -433,7 +433,7 @@
       <rdfs:comment xml:lang="en">
 	 The reference point for the given elevation
       </rdfs:comment>
-      <rdfs:label xml:lang="en">elevationDatum</rdfs:label>
+      <rdfs:label xml:lang="en">Elevation Datum</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Coordinate">
@@ -455,7 +455,7 @@
 	 The utm coordinate is a container that holds one utm coordinate relevant for
 	 the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">UtmCoordinate</rdfs:label>
+      <rdfs:label xml:lang="en">Utm Coordinate</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#utmCoordinateZone">
@@ -468,7 +468,7 @@
       <rdfs:comment xml:lang="en">
 	 The numerical zone corresponding to the central meridian
       </rdfs:comment>
-      <rdfs:label xml:lang="en">utmCoordinateZone</rdfs:label>
+      <rdfs:label xml:lang="en">Utm Coordinate Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#utmCoordinateSubZone">
@@ -482,7 +482,8 @@
 	 The subzone letter corresponding to one of the 20 north-south divisions of the
 	 UTM grid system
       </rdfs:comment>
-      <rdfs:label xml:lang="en">utmCoordinateSubZone</rdfs:label>
+ 
+      <rdfs:label xml:lang="en">Utm Coordinate Sub Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#utmCoordinateHemisphere">
@@ -495,7 +496,7 @@
       <rdfs:comment xml:lang="en">
 	 The hemisphere. This can be N (North) or S (South)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">utmCoordinateHemisphere</rdfs:label>
+      <rdfs:label xml:lang="en">Utm Coordinate Hemisphere</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#utmCoordinateEasting">
@@ -508,7 +509,7 @@
       <rdfs:comment xml:lang="en">
 	 The distance east of the origin of the UTM zone
       </rdfs:comment>
-      <rdfs:label xml:lang="en">utmCoordinateEasting</rdfs:label>
+      <rdfs:label xml:lang="en">Utm Coordinate Easting</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#utmCoordinateEastingUnit">
@@ -521,7 +522,7 @@
       <rdfs:comment xml:lang="en">
 	 The unit of the distance of the easting (Meter, Kilometer)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">utmCoordinateEastingUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Utm Coordinate Easting Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#utmCoordinateNorthing">
@@ -534,7 +535,7 @@
       <rdfs:comment xml:lang="en">
 	 The distance north of the origin of the UTM zone
       </rdfs:comment>
-      <rdfs:label xml:lang="en">utmCoordinateNorthing</rdfs:label>
+      <rdfs:label xml:lang="en">Utm Coordinate Northing</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#utmCoordinateNorthingUnit">
@@ -547,7 +548,7 @@
       <rdfs:comment xml:lang="en">
 	 The unit of the distance of the northing (Meter, Kilometer)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">utmCoordinateNorthingUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Utm Coordinate Northing Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#utmCoordinateGeodeticDatum">
@@ -560,7 +561,7 @@
       <rdfs:comment xml:lang="en">
 	 The datum (e.g. wgs84)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">utmCoordinateGeodeticDatum</rdfs:label>
+      <rdfs:label xml:lang="en">Utm Coordinate Geodetic Datum</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Location">
@@ -587,7 +588,7 @@
       <rdfs:comment xml:lang="en">
 	 The name of the location (e.g. Leipzig, Cospudener See, Mount Everest)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">locationName</rdfs:label>
+      <rdfs:label xml:lang="en">Location Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#locationType">
@@ -600,7 +601,7 @@
       <rdfs:comment xml:lang="en">
 	 The type of the location. This could be e.g. City, Lake, Study Site etc.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">locationType</rdfs:label>
+      <rdfs:label xml:lang="en">Location Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#countryName">
@@ -613,7 +614,7 @@
       <rdfs:comment xml:lang="en">
 	 Name of the country of the given location name.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">countryName</rdfs:label>
+      <rdfs:label xml:lang="en">Country Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#continentName">
@@ -626,7 +627,7 @@
       <rdfs:comment xml:lang="en">
 	 Name of the continent of the given location.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">continentName</rdfs:label>
+      <rdfs:label xml:lang="en">Continent Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SpatialResolution">
@@ -640,7 +641,7 @@
 	 The spatial resolution caputres the spatial aspects of the setup or study the
 	 search object comes from.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">SpatialResolution</rdfs:label>
+      <rdfs:label xml:lang="en">Spatial Resolution</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#spatialExtentType">
@@ -655,7 +656,7 @@
 	 resolution of the setup the search object comes from (e.g. Point, Plot, Region,
 	 Continent, Global).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">spatialExtentType</rdfs:label>
+      <rdfs:label xml:lang="en">Spatial Extent Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#spatialResolutionType">
@@ -670,7 +671,7 @@
 	 extent of the setup the search object comes from (e.g. Point, Plot, Region,
 	 Continent, Global).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">spatialResolutionType</rdfs:label>
+      <rdfs:label xml:lang="en">Spatial Resolution Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SphereContext">
@@ -679,7 +680,7 @@
 	 The sphere context allows to capture the quantitative and qualitative sphere
 	 related aspects that describe the the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">SphereContext</rdfs:label>
+      <rdfs:label xml:lang="en">Sphere Context</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sphere">
@@ -716,7 +717,7 @@
 	 object. E.g. Troposphere when air temperature measures have been taken. (also.
 	 Strato-, Meso-, Ionosphere)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NamedAtmosphereLayer</rdfs:label>
+      <rdfs:label xml:lang="en">Named Atmosphere Layer</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#atmosphereLayerName">
@@ -730,7 +731,7 @@
 	 The name of an atmopshere layer. This can be for example strato, tropo, meso,
 	 ionosphere
       </rdfs:comment>
-      <rdfs:label xml:lang="en">atmosphereLayerName</rdfs:label>
+      <rdfs:label xml:lang="en">Atmosphere Layer Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NumericAtmosphereLayer">
@@ -744,7 +745,7 @@
 	 Numeric atmosphere layer allows to specify an atmospheric layer relevant for
 	 the data in a numeric form.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NumericAtmosphereLayer</rdfs:label>
+      <rdfs:label xml:lang="en">Numeric Atmosphere Layer</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#minimumAtmosphereHeight">
@@ -757,7 +758,7 @@
       <rdfs:comment xml:lang="en">
 	 The minimum height in the atmosphere relevant for the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">minimumAtmosphereHeight</rdfs:label>
+      <rdfs:label xml:lang="en">Minimum Atmosphere Height</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#minimumAtmosphereHeightUnit">
@@ -770,7 +771,7 @@
       <rdfs:comment xml:lang="en">
 	 The unit the minimum height in atmosphere is given in (Meters, Kilometers).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">minimumAtmosphereHeightUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Minimum Atmosphere Height Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#maximumAtmosphereHeight">
@@ -783,7 +784,7 @@
       <rdfs:comment xml:lang="en">
 	 The maximum height in the atmosphere relevant for the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">maximumAtmosphereHeight</rdfs:label>
+      <rdfs:label xml:lang="en">Maximum Atmosphere Height</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#maximumAtmosphereHeightUnit">
@@ -796,7 +797,7 @@
       <rdfs:comment xml:lang="en">
 	 The unit the maximum height in atmosphere is given in (Meters, Kilometers).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">maximumAtmosphereHeightUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Maximum Atmosphere Height Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Hydrosphere">
@@ -818,7 +819,7 @@
       <rdfs:comment xml:lang="en">
 	 The hydrosphere compartment documents hydrosphere compartments
       </rdfs:comment>
-      <rdfs:label xml:lang="en">HydrosphereCompartment</rdfs:label>
+      <rdfs:label xml:lang="en">Hydrosphere Compartment</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#River">
@@ -841,7 +842,7 @@
       <rdfs:comment xml:lang="en">
 	 The river zone contains one possible river zone.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NamedRiverZone</rdfs:label>
+      <rdfs:label xml:lang="en">Named River Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#longitudinalRiverZone">
@@ -856,7 +857,7 @@
 	 vertical river zone describing the search
 	 object (Rhitron, Crenon or Potamon)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">longitudinalRiverZone</rdfs:label>
+      <rdfs:label xml:lang="en">Longitudinal River Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#verticalRiverZone">
@@ -872,7 +873,7 @@
 	 describing the search object (Floodplain,
 	 River bank, River Water, River Bed)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">verticalRiverZone</rdfs:label>
+      <rdfs:label xml:lang="en">Vertical River Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Lake">
@@ -895,7 +896,7 @@
 	 A lake zone contains one possible lake zone
 	 describing the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NamedLakeZone</rdfs:label>
+      <rdfs:label xml:lang="en">Named Lake Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#benthicLakeZone">
@@ -911,7 +912,7 @@
 	 object (lithoral, benthic,
 	 profundal).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">benthicLakeZone</rdfs:label>
+      <rdfs:label xml:lang="en">Benthic Lake Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#pelagicLakeZone">
@@ -926,7 +927,7 @@
 	 describing the search object (epilimnion, metalimnion,
 	 hypolimnion).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">pelagicLakeZone</rdfs:label>
+      <rdfs:label xml:lang="en">Pelagic Lake Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Sea">
@@ -948,7 +949,7 @@
       <rdfs:comment xml:lang="en">
 	 The sea zones contains one possible sea zone.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NamedSeaZone</rdfs:label>
+      <rdfs:label xml:lang="en">Named Sea Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#benthicSeaZone">
@@ -962,7 +963,7 @@
 	 A benthic sea zone (litoral, neritic,
 	 bathyal, abyssal, hadal)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">benthicSeaZone</rdfs:label>
+      <rdfs:label xml:lang="en">Benthic Sea Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#pelagicSeaZone">
@@ -976,7 +977,7 @@
 	 A pelagic sea zone (epipelagic,
 	 mesopelagic, bathypelagic).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">pelagicSeaZone</rdfs:label>
+      <rdfs:label xml:lang="en">Pelagic Sea Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Pedosphere">
@@ -999,7 +1000,7 @@
 	 The pedosphere compartment
 	 documents one pedosphere compartment
       </rdfs:comment>
-      <rdfs:label xml:lang="en">PedosphereCompartment</rdfs:label>
+      <rdfs:label xml:lang="en">Pedosphere Compartment</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Soil">
@@ -1023,7 +1024,7 @@
 	 Captures one named
 	 soil layer
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NamedSoilLayer</rdfs:label>
+      <rdfs:label xml:lang="en">Named Soil Layer</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#soilHorizon">
@@ -1037,7 +1038,7 @@
 	 The name of a soil horizon.
 	 O, A, B, C, R horizon
       </rdfs:comment>
-      <rdfs:label xml:lang="en">soilHorizon</rdfs:label>
+      <rdfs:label xml:lang="en">Soil Horizon</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NumericSoilLayer">
@@ -1050,7 +1051,7 @@
       <rdfs:comment xml:lang="en"> 
 	 Captures a numeric soil layer
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NumericSoilLayer</rdfs:label>
+      <rdfs:label xml:lang="en">Numeric Soil Layer</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#minimumSoilDepth">
@@ -1063,7 +1064,7 @@
       <rdfs:comment xml:lang="en">
 	 A decimal number of the minimum depth of the layer.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">minimumSoilDepth</rdfs:label>
+      <rdfs:label xml:lang="en">Minimum Soil Depth</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#minimumSoilDepthUnit">
@@ -1078,7 +1079,7 @@
 	 of the layer is given in
 	 (Meters, Centimeters).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">minimumSoilDepthUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Minimum Soil Depth Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#maximumSoilDepth">
@@ -1092,7 +1093,7 @@
 	 A decimal number of the
 	 maximum depth of the layer.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">maximumSoilDepth</rdfs:label>
+      <rdfs:label xml:lang="en">Maximum Soil Depth</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#maximumSoilDepthUnit">
@@ -1107,7 +1108,7 @@
 	 of the layer is given in
 	 (Meters, Centimeters).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">maximumSoilDepthUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Maximum Soil Depth Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SoilTexture">
@@ -1120,7 +1121,7 @@
       <rdfs:comment xml:lang="en">
 	 The soil texture captures a single soil texture
       </rdfs:comment>
-      <rdfs:label xml:lang="en">SoilTexture</rdfs:label>
+      <rdfs:label xml:lang="en">Soil Texture</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sandPercent">
@@ -1133,7 +1134,7 @@
       <rdfs:comment xml:lang="en">
 	 The percentage of sand present in the soil
       </rdfs:comment>
-      <rdfs:label xml:lang="en">sandPercent</rdfs:label>
+      <rdfs:label xml:lang="en">Sand Percent</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#siltPercent">
@@ -1146,7 +1147,7 @@
       <rdfs:comment xml:lang="en">
 	 The percentage of silt present in the soil
       </rdfs:comment>
-      <rdfs:label xml:lang="en">siltPercent</rdfs:label>
+      <rdfs:label xml:lang="en">Silt Percent</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#loamPercent">
@@ -1159,7 +1160,7 @@
       <rdfs:comment xml:lang="en">
 	 The percentage of loam present in the soil
       </rdfs:comment>
-      <rdfs:label xml:lang="en">loamPercent</rdfs:label>
+      <rdfs:label xml:lang="en">Loam Percent</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SoilMorphology">
@@ -1173,7 +1174,7 @@
 	 The soil morphology according to the
 	 World Reference Base for Soil Resources
       </rdfs:comment>
-      <rdfs:label xml:lang="en">SoilMorphology</rdfs:label>
+      <rdfs:label xml:lang="en">Soil Morphology</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#soilMorphologyType">
@@ -1187,7 +1188,7 @@
 	 A soil type as defined in the World Reference Base
 	 for Soil Resources.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">soilMorphologyType</rdfs:label>
+      <rdfs:label xml:lang="en">Soil Morphology Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SoilAcidity">
@@ -1200,7 +1201,7 @@
       <rdfs:comment xml:lang="en">
 	 The soil acidity captures one soil acidity
       </rdfs:comment>
-      <rdfs:label xml:lang="en">SoilAcidity</rdfs:label>
+      <rdfs:label xml:lang="en">Soil Acidity</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#soilAcidityType">
@@ -1214,7 +1215,7 @@
 	 The soil acidity is a categorical element that captures the acidity of the
 	 soil. It can be Acidic, Neutral or Alkaline.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">soilAcidityType</rdfs:label>
+      <rdfs:label xml:lang="en">Soil Acidity Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Ecosphere">
@@ -1237,7 +1238,7 @@
       <rdfs:comment xml:lang="en">
 	 A named ecosphere layer
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NamedEcosphereLayer</rdfs:label>
+      <rdfs:label xml:lang="en">Named Ecosphere Layer</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ecosphereLayerName">
@@ -1250,7 +1251,7 @@
       <rdfs:comment xml:lang="en">
 	 A named layer in the ecosphere (Tree- , Shrub-, Herb-, Moss-, Ground Layer)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">ecosphereLayerName</rdfs:label>
+      <rdfs:label xml:lang="en">Ecosphere Layer Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#NumericEcosphereLayer">
@@ -1263,7 +1264,7 @@
       <rdfs:comment xml:lang="en">
 	 A numeric ecosphere layer
       </rdfs:comment>
-      <rdfs:label xml:lang="en">NumericEcosphereLayer</rdfs:label>
+      <rdfs:label xml:lang="en">Numeric Ecosphere Layer</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#minimumVegetationHeight">
@@ -1277,7 +1278,7 @@
 	 A decimal number of the minimum depth
 	 of the vegetation height.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">minimumVegetationHeight</rdfs:label>
+      <rdfs:label xml:lang="en">Minimum Vegetation Height</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#minimumVegetationHeightUnit">
@@ -1291,7 +1292,7 @@
 	 The unit the minimum height of the layer
 	 is given in (e.g. Meters, Centimeters).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">minimumVegetationHeightUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Minimum Vegetation Height Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#maximumVegetationHeight">
@@ -1305,7 +1306,7 @@
 	 A decimal number of the maximum depth
 	 of the vegetation height.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">maximumVegetationHeight</rdfs:label>
+      <rdfs:label xml:lang="en">Maximum Vegetation Height</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#maximumVegetationHeightUnit">
@@ -1319,7 +1320,7 @@
 	 The unit the maximum height of the layer
 	 is given in (e.g. Meters, Centimeters).
       </rdfs:comment>
-      <rdfs:label xml:lang="en">maximumVegetationHeightUnit</rdfs:label>
+      <rdfs:label xml:lang="en">Maximum Vegetation Height Unit</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#OrganizationalHierarchy">
@@ -1332,7 +1333,7 @@
       <rdfs:comment xml:lang="en">
 	 A organizational hierarchy
       </rdfs:comment>
-      <rdfs:label xml:lang="en">OrganizationalHierarchy</rdfs:label>
+      <rdfs:label xml:lang="en">Organizational Hierarchy</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#organizationHierarchyName">
@@ -1346,7 +1347,7 @@
 	 A named organizational hierarchy of life (Atom
 	 Level, Molecule Level, Cell Level, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">organizationHierarchyName</rdfs:label>
+      <rdfs:label xml:lang="en">Organization Hierarchy Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BiomeContext">
@@ -1355,7 +1356,7 @@
 	 The biome context allows to capture the quantitative and qualitative biome
 	 related aspects that describe the the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">BiomeContext</rdfs:label>
+      <rdfs:label xml:lang="en">Biome Context</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ZonoBiome">
@@ -1368,7 +1369,7 @@
       <rdfs:comment xml:lang="en">
 	 A zono biome to provide the general biome context
       </rdfs:comment>
-      <rdfs:label xml:lang="en">ZonoBiome</rdfs:label>
+      <rdfs:label xml:lang="en">Zono Biome</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#biomeType">
@@ -1381,7 +1382,7 @@
       <rdfs:comment xml:lang="en">
 	 The biome type (Terrestrial, Freshwater, Marine)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">biomeType</rdfs:label>
+      <rdfs:label xml:lang="en">Biome Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#biomeZone">
@@ -1394,7 +1395,7 @@
       <rdfs:comment xml:lang="en">
 	 The name of a biome zone (Polar, Boreal, Temperate, Subtropic, Tropic)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">biomeZone</rdfs:label>
+      <rdfs:label xml:lang="en">Biome Zone</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#biomeHumidityType">
@@ -1407,7 +1408,7 @@
       <rdfs:comment xml:lang="en">
 	 The water availability within the biome (Semi Humid, Humid, Arid, Semi Arid)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">biomeHumidityType</rdfs:label>
+      <rdfs:label xml:lang="en">Biome Humidity Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#biomeContinentalityType">
@@ -1420,7 +1421,7 @@
       <rdfs:comment xml:lang="en">
 	 The influence to the biome (Continental, Maritime)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">biomeContinentalityType</rdfs:label>
+      <rdfs:label xml:lang="en">Biome Continentality Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#biomeHemisphere">
@@ -1433,7 +1434,7 @@
       <rdfs:comment xml:lang="en">
 	 The hemisphere the biome is located in (North, South)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">biomeHemisphere</rdfs:label>
+      <rdfs:label xml:lang="en">Biome Hemisphere</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#OroBiome">
@@ -1446,7 +1447,7 @@
       <rdfs:comment xml:lang="en">
 	 An oro biome.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">OroBiome</rdfs:label>
+      <rdfs:label xml:lang="en">Oro Biome</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#oroBiomeType">
@@ -1459,7 +1460,7 @@
       <rdfs:comment xml:lang="en">
 	 The type of oro biome (Nivale, Subalpine, Alpine, Montane, Submontane, Planar)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">oroBiomeType</rdfs:label>
+      <rdfs:label xml:lang="en">Oro Biome Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#PedoBiome">
@@ -1472,7 +1473,7 @@
       <rdfs:comment xml:lang="en">
 	 A pedo biome
       </rdfs:comment>
-      <rdfs:label xml:lang="en">PedoBiome</rdfs:label>
+      <rdfs:label xml:lang="en">Pedo Biome</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#pedoBiomeType">
@@ -1486,7 +1487,7 @@
 	 A type of pedo biome (Amphibiome, Halobiome, Helobiome, Hydrobiome, Lithobiome,
 	 Peinobiome, Psammobiome)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">pedoBiomeType</rdfs:label>
+      <rdfs:label xml:lang="en">Pedo Biome Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Physiognomy">
@@ -1512,7 +1513,7 @@
       <rdfs:comment xml:lang="en">
 	 A physiognomy type
       </rdfs:comment>
-      <rdfs:label xml:lang="en">PhysiognomyType</rdfs:label>
+      <rdfs:label xml:lang="en">Physiognomy Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#TerrestrialPhysiognomy">
@@ -1525,7 +1526,7 @@
       <rdfs:comment xml:lang="en">
 	 A terrestrial physiognomy
       </rdfs:comment>
-      <rdfs:label xml:lang="en">TerrestrialPhysiognomy</rdfs:label>
+      <rdfs:label xml:lang="en">Terrestrial Physiognomy</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#terrestrialPhysiognomyType">
@@ -1539,7 +1540,7 @@
 	 A type of terrestrial physiognomy (Evergreen Needleleaf Forest, Evergreen
 	 Broadleaf Forest, Deciduous Needleleaf Forest, Deciduous Broadleaf Forest)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">terrestrialPhysiognomyType</rdfs:label>
+      <rdfs:label xml:lang="en">Terrestrial Physiognomy Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#SemiAquaticPhysiognomy">
@@ -1552,7 +1553,7 @@
       <rdfs:comment xml:lang="en">
 	 A semi aquatic physiognomy
       </rdfs:comment>
-      <rdfs:label xml:lang="en">SemiAquaticPhysiognomy</rdfs:label>
+      <rdfs:label xml:lang="en">Semi Aquatic Physiognomy</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#semiAquaticPhysiognomyType">
@@ -1565,7 +1566,7 @@
       <rdfs:comment xml:lang="en">
 	 A type of semi aquatic physiognomy (Mire, Bog, Fan, Saltmarsh)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">semiAquaticPhysiognomyType</rdfs:label>
+      <rdfs:label xml:lang="en">Semi Aquatic Physiognomy Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#AquaticPhysiognomy">
@@ -1578,7 +1579,7 @@
       <rdfs:comment xml:lang="en">
 	 An aquatic physiognomy
       </rdfs:comment>
-      <rdfs:label xml:lang="en">AquaticPhysiognomy</rdfs:label>
+      <rdfs:label xml:lang="en">Aquatic Physiognomy</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#plantCharacterizedAquaticPhysiognomyType">
@@ -1592,7 +1593,7 @@
 	 A plant characterized aquatic physiognomy type (Emergent Aquatic, Floating
 	 Leave Aquatic ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">plantCharacterizedAquaticPhysiognomyType</rdfs:label>
+      <rdfs:label xml:lang="en">Plant Characterized Aquatic Physiognomy Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#habitatCharacterizedAquaticPhysiognomy">
@@ -1606,7 +1607,7 @@
 	 A habitat characterized aquatic physiognomy type (Estuary, Kelp Forest, Coral
 	 Reef, Cold Seep, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">habitatCharacterizedAquaticPhysiognomy</rdfs:label>
+      <rdfs:label xml:lang="en">Habitat Characterized Aquatic Physiognomy</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#LandUse">
@@ -1619,7 +1620,7 @@
       <rdfs:comment xml:lang="en">
 	 A land use
       </rdfs:comment>
-      <rdfs:label xml:lang="en">LandUse</rdfs:label>
+      <rdfs:label xml:lang="en">Land Use</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#landUseType">
@@ -1632,7 +1633,7 @@
       <rdfs:comment xml:lang="en">
 	 A type of land use (Natural, Semi Natural, Urban)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">landUseType</rdfs:label>
+      <rdfs:label xml:lang="en">Land Use Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#landUseForm">
@@ -1645,7 +1646,7 @@
       <rdfs:comment xml:lang="en">
 	 A type of land use form (Agriculture, Agroforestry, Forestry, Aquaculture)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">landUseForm</rdfs:label>
+      <rdfs:label xml:lang="en">Land Use Form</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#OrganismContext">
@@ -1654,7 +1655,7 @@
 	 The organism context captures the quantitative and qualitative organism related
 	 aspects that describe the the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">OrganismContext</rdfs:label>
+      <rdfs:label xml:lang="en">Organism Context</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Organism">
@@ -1693,7 +1694,7 @@
       <rdfs:comment xml:lang="en">
 	 The kingdom of the organism
       </rdfs:comment>
-      <rdfs:label xml:lang="en">kingdom</rdfs:label>
+      <rdfs:label xml:lang="en">Kingdom</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#division">
@@ -1706,7 +1707,7 @@
       <rdfs:comment xml:lang="en">
 	 The division of the organism
       </rdfs:comment>
-      <rdfs:label xml:lang="en">division</rdfs:label>
+      <rdfs:label xml:lang="en">Division</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#class">
@@ -1719,7 +1720,7 @@
       <rdfs:comment xml:lang="en">
 	 The class of the organism
       </rdfs:comment>
-      <rdfs:label xml:lang="en">class</rdfs:label>
+      <rdfs:label xml:lang="en">Class</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#order">
@@ -1732,7 +1733,7 @@
       <rdfs:comment xml:lang="en">
 	 The order of the organism
       </rdfs:comment>
-      <rdfs:label xml:lang="en">order</rdfs:label>
+      <rdfs:label xml:lang="en">Order</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#family">
@@ -1745,7 +1746,7 @@
       <rdfs:comment xml:lang="en">
 	 The family of the organism
       </rdfs:comment>
-      <rdfs:label xml:lang="en">family</rdfs:label>
+      <rdfs:label xml:lang="en">Family</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#OrganismName">
@@ -1758,7 +1759,7 @@
       <rdfs:comment xml:lang="en">
 	 The name of an organism
       </rdfs:comment>
-      <rdfs:label xml:lang="en">OrganismName</rdfs:label>
+      <rdfs:label xml:lang="en">Organism Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BacterialName">
@@ -1772,7 +1773,7 @@
 	 Atomised name with elements according to the International Code of Nomenclature
 	 of Prokaryotes (ABCD)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">BacterialName</rdfs:label>
+      <rdfs:label xml:lang="en">Bacterial Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullBacterialName">
@@ -1785,7 +1786,7 @@
       <rdfs:comment xml:lang="en">
 	 An element that captures the full name of the bacteria in one string.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fullBacterialName</rdfs:label>
+      <rdfs:label xml:lang="en">Full Bacterial Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial">
@@ -1798,7 +1799,7 @@
       <rdfs:comment xml:lang="en">
 	 Genus name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label>
+      <rdfs:label xml:lang="en">Genus Or Monomial</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenus">
@@ -1811,7 +1812,7 @@
       <rdfs:comment xml:lang="en">
 	 Subgenus name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">subgenus</rdfs:label>
+      <rdfs:label xml:lang="en">Subgenus</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenusAuthorAndYear">
@@ -1824,7 +1825,7 @@
       <rdfs:comment xml:lang="en">
 	 Author team and year of the subgenus name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">subgenusAuthorAndYear</rdfs:label>
+      <rdfs:label xml:lang="en">Subgenus Author And Year</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#speciesEpithet">
@@ -1838,7 +1839,7 @@
 	 A name element dependent on a genus or a species name under the
 	 bacteriological, botanical, and zoological code.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">speciesEpithet</rdfs:label>
+      <rdfs:label xml:lang="en">Species Epithet</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subspeciesEpithet">
@@ -1851,7 +1852,7 @@
       <rdfs:comment xml:lang="en">
 	 The subsphecies epithet (Maps to Darwin Core 2: Subspecies)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">subspeciesEpithet</rdfs:label>
+      <rdfs:label xml:lang="en">Subspecies Epithet</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#parentheticalAuthorTeamAndYear">
@@ -1864,7 +1865,7 @@
       <rdfs:comment xml:lang="en">
 	 Author team and year of the basionym of a species or subspecies combination
       </rdfs:comment>
-      <rdfs:label xml:lang="en">parentheticalAuthorTeamAndYear</rdfs:label>
+      <rdfs:label xml:lang="en">Parenthetical Author Team And Year</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamAndYear">
@@ -1877,7 +1878,7 @@
       <rdfs:comment xml:lang="en">
 	 The author(s) who published the full name as it stands and its year
       </rdfs:comment>
-      <rdfs:label xml:lang="en">authorTeamAndYear</rdfs:label>
+      <rdfs:label xml:lang="en">Author Team And Year</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#nameApprobation">
@@ -1891,7 +1892,7 @@
 	 Approbation of name according to approved list, validation list,or validly
 	 published, paper in IJSB after 1980
       </rdfs:comment>
-      <rdfs:label xml:lang="en">nameApprobation</rdfs:label>
+      <rdfs:label xml:lang="en">Name Approbation</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#BotanicalName">
@@ -1906,7 +1907,7 @@
 	 Nomenclature or the International Code of Nomenclature for Cultivated Plants
 	 (ABCD)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">BotanicalName</rdfs:label>
+      <rdfs:label xml:lang="en">Botanical Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullBotanicalName">
@@ -1919,7 +1920,7 @@
       <rdfs:comment xml:lang="en">
 	 An element that captures the full botanical name in one string.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fullBotanicalName</rdfs:label>
+      <rdfs:label xml:lang="en">Full Botanical Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial">
@@ -1932,7 +1933,7 @@
       <rdfs:comment xml:lang="en">
 	 Genus or higher taxon name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label>
+      <rdfs:label xml:lang="en">Genus Or Monomial</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#firstEpithet">
@@ -1946,7 +1947,7 @@
 	 The first epithet in a botanical name combination (species epithet or the
 	 epithet of the subdivision of a genus
       </rdfs:comment>
-      <rdfs:label xml:lang="en">firstEpithet</rdfs:label>
+      <rdfs:label xml:lang="en">First Epithet</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#infraspecificEpithet">
@@ -1959,7 +1960,7 @@
       <rdfs:comment xml:lang="en">
 	 The final epithet of a botanical name of infraspecific rank
       </rdfs:comment>
-      <rdfs:label xml:lang="en">infraspecificEpithet</rdfs:label>
+      <rdfs:label xml:lang="en">Infraspecific Epithet</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#rank">
@@ -1972,7 +1973,7 @@
       <rdfs:comment xml:lang="en">
 	 The rank of the name where needed to form it.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">rank</rdfs:label>
+      <rdfs:label xml:lang="en">Rank</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#hybridFlag">
@@ -1988,7 +1989,7 @@
 	 qualifier should be inserted (1 = before entire name, 2= before first epithet,
 	 3 = before rank designation for second epithet.)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">hybridFlag</rdfs:label>
+      <rdfs:label xml:lang="en">Hybrid Flag</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamParenthesis">
@@ -2001,7 +2002,7 @@
       <rdfs:comment xml:lang="en">
 	 Author team of the basionym of a combination
       </rdfs:comment>
-      <rdfs:label xml:lang="en">authorTeamParenthesis</rdfs:label>
+      <rdfs:label xml:lang="en">Author Team Parenthesis</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeam">
@@ -2014,7 +2015,7 @@
       <rdfs:comment xml:lang="en">
 	 The author(s) who published the full name as it stands
       </rdfs:comment>
-      <rdfs:label xml:lang="en">authorTeam</rdfs:label>
+      <rdfs:label xml:lang="en">Author Team</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#cultivarGroupName">
@@ -2027,7 +2028,7 @@
       <rdfs:comment xml:lang="en">
 	 Cultivar group name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">cultivarGroupName</rdfs:label>
+      <rdfs:label xml:lang="en">Cultivar Group Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#cultivarName">
@@ -2040,7 +2041,7 @@
       <rdfs:comment xml:lang="en">
 	 Cultivar name according to the ICNCP
       </rdfs:comment>
-      <rdfs:label xml:lang="en">cultivarName</rdfs:label>
+      <rdfs:label xml:lang="en">Cultivar Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tradeDesignationNames">
@@ -2053,7 +2054,7 @@
       <rdfs:comment xml:lang="en">
 	 Container for trade names
       </rdfs:comment>
-      <rdfs:label xml:lang="en">tradeDesignationNames</rdfs:label>
+      <rdfs:label xml:lang="en">Trade Designation Names</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tradeDesignationName">
@@ -2066,7 +2067,7 @@
       <rdfs:comment xml:lang="en">
 	 Trade name used for a specific cultivar
       </rdfs:comment>
-      <rdfs:label xml:lang="en">tradeDesignationName</rdfs:label>
+      <rdfs:label xml:lang="en">Trade Designation Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ZoologicalName">
@@ -2080,7 +2081,7 @@
 	 Atomised name with elements according to the International Code of Zoological
 	 Nomenclature (ABCD)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">ZoologicalName</rdfs:label>
+      <rdfs:label xml:lang="en">Zoological Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullZoologicalName">
@@ -2093,7 +2094,7 @@
       <rdfs:comment xml:lang="en">
 	 An element that captures the full zoological name in one string.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fullZoologicalName</rdfs:label>
+      <rdfs:label xml:lang="en">Full Zoological Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial">
@@ -2106,7 +2107,7 @@
       <rdfs:comment xml:lang="en">
 	 Genus or higher taxon name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label>
+      <rdfs:label xml:lang="en">Genus Or Monomial</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subgenus">
@@ -2119,7 +2120,7 @@
       <rdfs:comment xml:lang="en">
 	 Subgenus name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">subgenus</rdfs:label>
+      <rdfs:label xml:lang="en">Subgenus</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#speciesEpithet">
@@ -2132,7 +2133,7 @@
       <rdfs:comment xml:lang="en">
 	 Species epithet
       </rdfs:comment>
-      <rdfs:label xml:lang="en">speciesEpithet</rdfs:label>
+      <rdfs:label xml:lang="en">Species Epithet</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#subspeciesEpithet">
@@ -2145,7 +2146,7 @@
       <rdfs:comment xml:lang="en">
 	 Maps to Darwin Core 2: Subspecies
       </rdfs:comment>
-      <rdfs:label xml:lang="en">subspeciesEpithet</rdfs:label>
+      <rdfs:label xml:lang="en">Subspecies Epithet</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamOriginalAndYear">
@@ -2159,7 +2160,7 @@
 	 The first person(s) who validly published a species-group name and the year of
 	 publication
       </rdfs:comment>
-      <rdfs:label xml:lang="en">authorTeamOriginalAndYear</rdfs:label>
+      <rdfs:label xml:lang="en">Author Team Original And Year</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#authorTeamParenthesisAndYear">
@@ -2173,7 +2174,7 @@
 	 The parenthetical citation of the original author when a species-group was
 	 transferred to another genus and the year of the original publication
       </rdfs:comment>
-      <rdfs:label xml:lang="en">authorTeamParenthesisAndYear</rdfs:label>
+      <rdfs:label xml:lang="en">Author Team Parenthesis And Year</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#combinationAuthorTeamAndYear">
@@ -2187,7 +2188,7 @@
 	 The citation of the authors responsible for the new combination and the year of
 	 its publication
       </rdfs:comment>
-      <rdfs:label xml:lang="en">combinationAuthorTeamAndYear</rdfs:label>
+      <rdfs:label xml:lang="en">Combination Author Team And Year</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#breed">
@@ -2200,7 +2201,7 @@
       <rdfs:comment xml:lang="en">
 	 Name of the breed of an animal
       </rdfs:comment>
-      <rdfs:label xml:lang="en">breed</rdfs:label>
+      <rdfs:label xml:lang="en">Breed</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#namedIndividual">
@@ -2214,7 +2215,7 @@
 	 Atomised name with elements according to the International Committee on
 	 Taxonomy of Viruses
       </rdfs:comment>
-      <rdfs:label xml:lang="en">namedIndividual</rdfs:label>
+      <rdfs:label xml:lang="en">Named Individual</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ViralName">
@@ -2228,7 +2229,7 @@
 	 Atomised name with elements according to the International Committee on
 	 Taxonomy of Viruses
       </rdfs:comment>
-      <rdfs:label xml:lang="en">ViralName</rdfs:label>
+      <rdfs:label xml:lang="en">Viral Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fullViralName">
@@ -2241,7 +2242,7 @@
       <rdfs:comment xml:lang="en">
 	 An element that captures the full viral name in one string.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fullViralName</rdfs:label>
+      <rdfs:label xml:lang="en">Full Viral Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genusOrMonomial">
@@ -2255,7 +2256,7 @@
 	 Genus or higher taxon name formed according to the code and representing the
 	 result of the identification. E.g. Comovirus
       </rdfs:comment>
-      <rdfs:label xml:lang="en">genusOrMonomial</rdfs:label>
+      <rdfs:label xml:lang="en">Genus Or Monomial</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#viralSpeciesDesignation">
@@ -2270,7 +2271,7 @@
 	 virus 2 (herpes simplex virus 2); poliovirus 1; Saccharomyces cerevisiae virus
 	 L-A; enterobacteria phage PRD1 [Source: ICTV]
       </rdfs:comment>
-      <rdfs:label xml:lang="en">viralSpeciesDesignation</rdfs:label>
+      <rdfs:label xml:lang="en">Viral Species Designation</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#acronym">
@@ -2283,7 +2284,7 @@
       <rdfs:comment xml:lang="en">
 	 The accepted acronym for the Virus, e.g. PCV for Peanut Clump Virus
       </rdfs:comment>
-      <rdfs:label xml:lang="en">acronym</rdfs:label>
+      <rdfs:label xml:lang="en">Acronym</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ProcessContext">
@@ -2292,7 +2293,7 @@
 	 The process context captures the quantitative and qualitative process related
 	 aspects that describe the the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">ProcessContext</rdfs:label>
+      <rdfs:label xml:lang="en">Process Context</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Process">
@@ -2318,7 +2319,7 @@
       <rdfs:comment xml:lang="en">
 	 A named process  (Adaption, Speciation, Migration, Birth, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">processName</rdfs:label>
+      <rdfs:label xml:lang="en">Process Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#processSubject">
@@ -2331,7 +2332,7 @@
       <rdfs:comment xml:lang="en">
 	 The subject of the process given under process name (e.g. Organism, Chemical, Matter, Energy)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">processSubject</rdfs:label>
+      <rdfs:label xml:lang="en">Process Subject</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#processType">
@@ -2345,7 +2346,7 @@
 	 The process type of the process given under Process Name for classification
 	 (e.g. Motion, Uptake, Release, Exchange)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">processType</rdfs:label>
+      <rdfs:label xml:lang="en">Process Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Interaction">
@@ -2371,7 +2372,7 @@
       <rdfs:comment xml:lang="en">
 	 A named interaction (Predation, Parasisitm, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">interactionName</rdfs:label>
+      <rdfs:label xml:lang="en">Interaction Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionPartnerOne">
@@ -2385,7 +2386,7 @@
 	 A type of interaction partner covers kingdoms and the envoriment
 	 (Plant, Animal, Fungi, Bacteria, Archaea, Virus, Environment)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">interactionPartnerOne</rdfs:label>
+      <rdfs:label xml:lang="en">Interaction Partner One</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionDirection">
@@ -2399,7 +2400,7 @@
 	 A direction of the interaction (Acts On, Is Affected By, Mutually Interacts
 	 With)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">interactionDirection</rdfs:label>
+      <rdfs:label xml:lang="en">Interaction Direction</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionQuality">
@@ -2412,7 +2413,7 @@
       <rdfs:comment xml:lang="en">
 	 An interaction quality (Neutralism, Amensalism, Commensalism, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">interactionQuality</rdfs:label>
+      <rdfs:label xml:lang="en">Interaction Quality</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#interactionPartnerTwo">
@@ -2426,7 +2427,7 @@
 	 A type of interaction partner covers kingdoms and the envoriment
 	 (Plant, Animal, Fungi, Bacteria, Archaea, Virus, Environment)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">interactionPartnerTwo</rdfs:label>
+      <rdfs:label xml:lang="en">Interaction Partner Two</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#ChemicalContext">
@@ -2435,7 +2436,7 @@
 	 The chemical context allows to capture the quantitative and qualitative
 	 chemical related aspects that describe the the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">ChemicalContext</rdfs:label>
+      <rdfs:label xml:lang="en">Chemical Context</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Element">
@@ -2461,7 +2462,7 @@
       <rdfs:comment xml:lang="en">
 	 A named chemical element
       </rdfs:comment>
-      <rdfs:label xml:lang="en">elementName</rdfs:label>
+      <rdfs:label xml:lang="en">Element Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Isotope">
@@ -2487,7 +2488,7 @@
       <rdfs:comment xml:lang="en">
 	 A named chemical isotope
       </rdfs:comment>
-      <rdfs:label xml:lang="en">isotopeName</rdfs:label>
+      <rdfs:label xml:lang="en">Isotope Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Compound">
@@ -2513,7 +2514,7 @@
       <rdfs:comment xml:lang="en">
 	 A name of a chemical compound
       </rdfs:comment>
-      <rdfs:label xml:lang="en">compoundName</rdfs:label>
+      <rdfs:label xml:lang="en">Compound Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#compoundClass">
@@ -2527,7 +2528,7 @@
 	 A compound class for the chemical compound given under compund name as coarse
 	 classification (Biomolecule, Aromatic, Aliphatic, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">compoundClass</rdfs:label>
+      <rdfs:label xml:lang="en">Compound Class</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#compoundType">
@@ -2542,7 +2543,7 @@
 	 serves as detailed classification (e.g. Nucleosides, Nucleotides, Amino Acid,
 	 Protein, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">compoundType</rdfs:label>
+      <rdfs:label xml:lang="en">Compound Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Function">
@@ -2569,7 +2570,7 @@
 	 A chemical function type (Repellent, Reservoir, Stimulator, Structure,
 	 Antibody, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">chemicalFunctionType</rdfs:label>
+      <rdfs:label xml:lang="en">Chemical Function Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#MethodContext">
@@ -2578,7 +2579,7 @@
 	 The method context allows to capture the quantitative and qualitative method
 	 related aspects that describe the the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">MethodContext</rdfs:label>
+      <rdfs:label xml:lang="en">Method Context</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Approach">
@@ -2604,7 +2605,7 @@
       <rdfs:comment xml:lang="en">
 	 A type of approach used (Virtual, Manipulative, Observational)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">approachType</rdfs:label>
+      <rdfs:label xml:lang="en">Approach Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#approachLocalization">
@@ -2617,7 +2618,7 @@
       <rdfs:comment xml:lang="en">
 	 A type of approach localization (Microcosm, Mesocosm, Macrocosm)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">approachLocalization</rdfs:label>
+      <rdfs:label xml:lang="en">Approach Localization</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Factor">
@@ -2644,14 +2645,14 @@
 	 A name of a factor used in the study or setup (Producer Diversity, Consumer
 	 Density, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">factorName</rdfs:label>
+      <rdfs:label xml:lang="en">Factor Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#factorType">
       <rdfs:comment xml:lang="en">
 	 The type of factor given with Factor Name (Biotic, Abiotic, Disturbance, ...)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">factorType</rdfs:label>
+      <rdfs:label xml:lang="en">Factor Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DataFormat">
@@ -2679,7 +2680,7 @@
 	 The file type of the data described with the annotation. For example (Audio,
 	 Image, Table, Video)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">formatType</rdfs:label>
+      <rdfs:label xml:lang="en">Format Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#DataSource">
@@ -2707,7 +2708,7 @@
 	 The type of source the data has been derived from that is described with this
 	 annotation.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">formatType</rdfs:label>
+      <rdfs:label xml:lang="en">Format Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Reference">
@@ -2747,7 +2748,7 @@
       <rdfs:comment xml:lang="en">
 	 The name of the hoster (e.g. SNSB, KNB)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">hosterName</rdfs:label>
+      <rdfs:label xml:lang="en">Hoster Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Person">
@@ -2774,7 +2775,7 @@
       <rdfs:comment xml:lang="en">
 	 The function of the person in the context of the data (e.g. Contact, Author)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">position</rdfs:label>
+      <rdfs:label xml:lang="en">Position</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#salutation">
@@ -2787,7 +2788,7 @@
       <rdfs:comment xml:lang="en">
 	 The salutation
       </rdfs:comment>
-      <rdfs:label xml:lang="en">salutation</rdfs:label>
+      <rdfs:label xml:lang="en">Salutation</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#givenName">
@@ -2800,7 +2801,7 @@
       <rdfs:comment xml:lang="en">
 	 The given name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">givenName</rdfs:label>
+      <rdfs:label xml:lang="en">Given Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#surName">
@@ -2813,7 +2814,7 @@
       <rdfs:comment xml:lang="en">
 	 The sur name
       </rdfs:comment>
-      <rdfs:label xml:lang="en">surName</rdfs:label>
+      <rdfs:label xml:lang="en">Sur Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#emailAddress">
@@ -2826,7 +2827,7 @@
       <rdfs:comment xml:lang="en">
 	 The email address of the person
       </rdfs:comment>
-      <rdfs:label xml:lang="en">emailAddress</rdfs:label>
+      <rdfs:label xml:lang="en">Email Address</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#phoneNumber">
@@ -2839,7 +2840,7 @@
       <rdfs:comment xml:lang="en">
 	 Phone number of the person
       </rdfs:comment>
-      <rdfs:label xml:lang="en">phoneNumber</rdfs:label>
+      <rdfs:label xml:lang="en">Phone Number</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Description">
@@ -2865,7 +2866,7 @@
       <rdfs:comment xml:lang="en">
 	 A title for the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">title</rdfs:label>
+      <rdfs:label xml:lang="en">Title</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#abstract">
@@ -2884,7 +2885,7 @@
 	 about all aspects that characterize the
 	 data (e.g. condidtions, setup, organisms)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">abstract</rdfs:label>
+      <rdfs:label xml:lang="en">Abstract</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Resource">
@@ -2903,7 +2904,7 @@
 	 The object uris is a wrapper that contains all sorts of uris that are needed to
 	 reference the search object.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">OnlineResource</rdfs:label>
+      <rdfs:label xml:lang="en">Online Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Uri">
@@ -2927,7 +2928,7 @@
 	 The URL to the download of the data. Using this URL with a download manager
 	 should return the raw data e.g. csv or whatever kind of data type is described.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">downloadUrl</rdfs:label>
+      <rdfs:label xml:lang="en">Download Url</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#referenceUrl">
@@ -2937,7 +2938,7 @@
 	 information for example the project homepage with more extensive metadata of
 	 the search object described with the annotation.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">referenceUrl</rdfs:label>
+      <rdfs:label xml:lang="en">Reference Url</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#EmbeddedResource">
@@ -2945,7 +2946,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded audio resource
       </rdfs:comment>
-      <rdfs:label xml:lang="en">EmbeddedResource</rdfs:label>
+      <rdfs:label xml:lang="en">Embedded Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64AudioResource">
@@ -2953,7 +2954,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded audio resource
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64AudioResource</rdfs:label>
+      <rdfs:label xml:lang="en">Base64 Audio Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
@@ -2967,7 +2968,7 @@
 	 The file name without the mime type. Fore example '19.11.1996_audio1'. This is
 	 useful to reconstruct the file for processing.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fileName</rdfs:label>
+      <rdfs:label xml:lang="en">File Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#audioMimeType">
@@ -2980,7 +2981,7 @@
       <rdfs:comment xml:lang="en">
 	 The mime type of the base64 encoded audio data
       </rdfs:comment>
-      <rdfs:label xml:lang="en">audioMimeType</rdfs:label>
+      <rdfs:label xml:lang="en">Audio Mime Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#audioData">
@@ -2993,7 +2994,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded string containing the audio
       </rdfs:comment>
-      <rdfs:label xml:lang="en">audioData</rdfs:label>
+      <rdfs:label xml:lang="en">Audio Data</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
@@ -3006,7 +3007,7 @@
       <rdfs:comment xml:lang="en">
 	 The date of audio encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
@@ -3019,7 +3020,7 @@
       <rdfs:comment xml:lang="en">
 	 The time of audio encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
@@ -3032,7 +3033,7 @@
       <rdfs:comment xml:lang="en">
 	 The sha2 hash of the base64 encoded audio data for verification
       </rdfs:comment>
-      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64ImageResource">
@@ -3040,7 +3041,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded image resource
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64ImageResource</rdfs:label>
+      <rdfs:label xml:lang="en">Base64 Image Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
@@ -3054,7 +3055,7 @@
 	 The file name without the mime type. Fore example '19.11.1996_image1'. This is
 	 useful to reconstruct the file for processing.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fileName</rdfs:label>
+      <rdfs:label xml:lang="en">File Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#imageMimeType">
@@ -3067,7 +3068,7 @@
       <rdfs:comment xml:lang="en">
 	 The mime type of the base64 encoded image data
       </rdfs:comment>
-      <rdfs:label xml:lang="en">imageMimeType</rdfs:label>
+      <rdfs:label xml:lang="en">Image Mime Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#imageData">
@@ -3080,7 +3081,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded string containing the image
       </rdfs:comment>
-      <rdfs:label xml:lang="en">imageData</rdfs:label>
+      <rdfs:label xml:lang="en">Image Data</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
@@ -3093,7 +3094,7 @@
       <rdfs:comment xml:lang="en">
 	 The date of image encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
@@ -3106,7 +3107,7 @@
       <rdfs:comment xml:lang="en">
 	 The time of image encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
@@ -3119,7 +3120,7 @@
       <rdfs:comment xml:lang="en">
 	 The sha2 hash of the base64 encoded image data for verification
       </rdfs:comment>
-      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64VideoResource">
@@ -3127,7 +3128,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded video resource
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64VideoResource</rdfs:label>
+      <rdfs:label xml:lang="en">Base64 Video Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
@@ -3141,7 +3142,7 @@
 	 The file name without the mime type. Fore example '19.11.1996_video1'. This is
 	 useful to reconstruct the file for processing.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fileName</rdfs:label>
+      <rdfs:label xml:lang="en">File Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#videoMimeType">
@@ -3154,7 +3155,7 @@
       <rdfs:comment xml:lang="en">
 	 The mime type of the base64 encoded video data
       </rdfs:comment>
-      <rdfs:label xml:lang="en">videoMimeType</rdfs:label>
+      <rdfs:label xml:lang="en">Video Mime Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#videoData">
@@ -3167,7 +3168,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded string containing the video
       </rdfs:comment>
-      <rdfs:label xml:lang="en">videoData</rdfs:label>
+      <rdfs:label xml:lang="en">Video Data</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
@@ -3180,7 +3181,7 @@
       <rdfs:comment xml:lang="en">
 	 The date of video encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
@@ -3193,7 +3194,7 @@
       <rdfs:comment xml:lang="en">
 	 The time of video encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
@@ -3206,7 +3207,7 @@
       <rdfs:comment xml:lang="en">
 	 The sha2 hash of the base64 encoded video data for verification
       </rdfs:comment>
-      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64TableResource">
@@ -3214,7 +3215,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded table resource
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64TableResource</rdfs:label>
+      <rdfs:label xml:lang="en">Base64 Table Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
@@ -3228,7 +3229,7 @@
 	 The file name without the mime type. Fore example '19.11.1996_table1'. This is
 	 useful to reconstruct the file for processing.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fileName</rdfs:label>
+      <rdfs:label xml:lang="en">File Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tableMimeType">
@@ -3241,7 +3242,7 @@
       <rdfs:comment xml:lang="en">
 	 The mime type of the base64 encoded table data
       </rdfs:comment>
-      <rdfs:label xml:lang="en">tableMimeType</rdfs:label>
+      <rdfs:label xml:lang="en">Table Mime Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#tableData">
@@ -3254,7 +3255,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded string containing the table
       </rdfs:comment>
-      <rdfs:label xml:lang="en">tableData</rdfs:label>
+      <rdfs:label xml:lang="en">Table Data</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
@@ -3267,7 +3268,7 @@
       <rdfs:comment xml:lang="en">
 	 The date of table encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
@@ -3280,7 +3281,7 @@
       <rdfs:comment xml:lang="en">
 	 The time of table encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
@@ -3293,7 +3294,7 @@
       <rdfs:comment xml:lang="en">
 	 The sha2 hash of the base64 encoded table data for verification
       </rdfs:comment>
-      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64MetadataResource">
@@ -3301,7 +3302,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded metadata resource
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64MetadataResource</rdfs:label>
+      <rdfs:label xml:lang="en">Base64 Metadata Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
@@ -3316,7 +3317,7 @@
 	 '19.11.1996_video1_eml_metadata'. This is useful to reconstruct the file for
 	 processing.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fileName</rdfs:label>
+      <rdfs:label xml:lang="en">File Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#metadataMimeType">
@@ -3329,7 +3330,7 @@
       <rdfs:comment xml:lang="en">
 	 The mime type of the base64 encoded metadata data (e.g. xml)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">metadataMimeType</rdfs:label>
+      <rdfs:label xml:lang="en">Metadata Mime Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#metadataData">
@@ -3342,7 +3343,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded string containing the metadata
       </rdfs:comment>
-      <rdfs:label xml:lang="en">metadataData</rdfs:label>
+      <rdfs:label xml:lang="en">Metadata Data</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
@@ -3355,7 +3356,7 @@
       <rdfs:comment xml:lang="en">
 	 The date of metadata encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
@@ -3368,7 +3369,7 @@
       <rdfs:comment xml:lang="en">
 	 The time of metadata encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
@@ -3381,7 +3382,7 @@
       <rdfs:comment xml:lang="en">
 	 The sha2 hash of the base64 encoded metadata data for verification
       </rdfs:comment>
-      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Base64GenericResource">
@@ -3389,7 +3390,7 @@
       <rdfs:comment xml:lang="en">
 	 An arbitrary format base 64 encoded resource file
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64GenericResource</rdfs:label>
+      <rdfs:label xml:lang="en">Base64 Generic Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#fileName">
@@ -3403,7 +3404,7 @@
 	 The file name without the mime type. Fore example '19.11.1996_notes'. This is
 	 useful to reconstruct the file for processing.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">fileName</rdfs:label>
+      <rdfs:label xml:lang="en">File Name</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genericMimeType">
@@ -3416,7 +3417,7 @@
       <rdfs:comment xml:lang="en">
 	 The mime type of the base64 encoded metadata data (e.g. .txt)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">genericMimeType</rdfs:label>
+      <rdfs:label xml:lang="en">Generic Mime Type</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#genericData">
@@ -3429,7 +3430,7 @@
       <rdfs:comment xml:lang="en">
 	 A base 64 encoded string containing the data
       </rdfs:comment>
-      <rdfs:label xml:lang="en">genericData</rdfs:label>
+      <rdfs:label xml:lang="en">Generic Data</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingDate">
@@ -3442,7 +3443,7 @@
       <rdfs:comment xml:lang="en">
 	 The date of data encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingDate</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#encodingTime">
@@ -3455,7 +3456,7 @@
       <rdfs:comment xml:lang="en">
 	 The time of data encoding
       </rdfs:comment>
-      <rdfs:label xml:lang="en">encodingTime</rdfs:label>
+      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#sha2hash">
@@ -3468,7 +3469,7 @@
       <rdfs:comment xml:lang="en">
 	 The sha2 hash of the base64 encoded data for verification
       </rdfs:comment>
-      <rdfs:label xml:lang="en">sha2hash</rdfs:label>
+      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
    </owl:Class>
 
    <!-- timezones  -->
@@ -9479,7 +9480,7 @@
       <rdfs:comment xml:lang="en">
 	 A geodetic datum
       </rdfs:comment>
-      <rdfs:label xml:lang="en">wgs84</rdfs:label>
+      <rdfs:label xml:lang="en">Wgs 84</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#City">
@@ -11563,30 +11564,6 @@
 	 https://goo.gl/6O0z0l)
       </rdfs:comment>
       <rdfs:label xml:lang="en">Africa</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/cafe#continentName"/>
-      <rdfs:comment xml:lang="en">
-	 Asia is the Earth's largest and most populous continent, located
-	 primarily in the eastern and northern hemispheres. Asia covers an
-	 area of 44,579,000 square kilometers, about 30% of Earth's total
-	 land area and 8.7% of the Earth's total surface area. The
-	 continent, which has long been home to the majority of the human
-	 population[not in citation given], was the site of many of the
-	 first civilizations. Asia is notable for not only its overall large
-	 size and population, but unusually dense and large settlements as
-	 well as vast barely populated regions within the continent of 4.4
-	 billion people. The boundaries of Asia are traditionally determined
-	 as that of Eurasia, as there is no significant geographical
-	 separation between Asia and Europe. The most commonly accepted
-	 boundaries place Asia to the east of the Suez Canal, the Ural
-	 River, and the Ural Mountains, and south of the Caucasus Mountains
-	 and the Caspian and Black Seas. It is bounded on the east by the
-	 Pacific Ocean, on the south by the Indian Ocean and on the north by
-	 the Arctic Ocean (WP, https://goo.gl/tDYz2W).
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Asia</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#Asia">
