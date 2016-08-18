@@ -43,10 +43,10 @@
         <SpaceContext>
           <BoundingBoxes>
             <BoundingBox>
-              <northBoundingCoordinate>123.45</northBoundingCoordinate>
-              <southBoundingCoordinate>123.45</southBoundingCoordinate>
-              <eastBoundingCoordinate>123.45</eastBoundingCoordinate>
-              <westBoundingCoordinate>123.45</westBoundingCoordinate>
+              <northBoundingCoordinate>80</northBoundingCoordinate>
+              <southBoundingCoordinate>80</southBoundingCoordinate>
+              <eastBoundingCoordinate>80</eastBoundingCoordinate>
+              <westBoundingCoordinate>80</westBoundingCoordinate>
             </BoundingBox>
           </BoundingBoxes>
           <Elevations>
@@ -154,9 +154,9 @@
                       </NumericSoilLayers>
                       <SoilTextures>
                         <SoilTexture>
-                          <sandPercent>1234</sandPercent>
-                          <siltPercent>1234</siltPercent>
-                          <loamPercent>1234</loamPercent>
+                          <sandPercent>12</sandPercent>
+                          <siltPercent>12</siltPercent>
+                          <loamPercent>12</loamPercent>
                         </SoilTexture>
                       </SoilTextures>
                       <SoilMorphologies>
@@ -251,9 +251,9 @@
           <Organisms>
             <Organism>
               <Taxonomy>
+                <domain>str1234</domain>
                 <kingdom>Plantae</kingdom>
                 <division>str1234</division>
-                <class>str1234</class>
                 <order>str1234</order>
                 <family>str1234</family>
                 <OrganismName>
@@ -268,13 +268,16 @@
                     <authorTeamAndYear>str1234</authorTeamAndYear>
                     <nameApprobation>str1234</nameApprobation>
                   </BacterialName>
+                  <FungalName>
+                    <fullFungalName>str1234</fullFungalName>
+                  </FungalName>
                   <BotanicalName>
                     <fullBotanicalName>str1234</fullBotanicalName>
                     <genusOrMonomial>str1234</genusOrMonomial>
                     <firstEpithet>str1234</firstEpithet>
                     <infraspecificEpithet>str1234</infraspecificEpithet>
                     <rank>subgen.</rank>
-                    <hybridFlag insertionpoint="1234">str1234</hybridFlag>
+                    <hybridFlag insertionpoint="1">1</hybridFlag>
                     <authorTeamParenthesis>str1234</authorTeamParenthesis>
                     <authorTeam>str1234</authorTeam>
                     <cultivarGroupName>str1234</cultivarGroupName>
@@ -386,7 +389,7 @@
           <salutation>str1234</salutation>
           <givenName>str1234</givenName>
           <surName>str1234</surName>
-          <emailAddress>str1234</emailAddress>
+          <emailAddress>test@mail.de</emailAddress>
           <phoneNumber>str1234</phoneNumber>
         </Person>
       </Persons>
