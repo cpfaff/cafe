@@ -19611,16 +19611,4 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- attributes -->
-  <!-- at the moment non functional an easy way to specify attributes on simple types would be amazing -->
-  <!-- then the uri could be captured as metadata to the actual concept. -->
-  <!-- <xs:attribute name="URI" type="xs:anyURI"> -->
-    <!-- <xs:annotation> -->
-      <!-- <xs:documentation xml:lang="en"> -->
-	<!-- This attribute allows to capture the uri to concepts -->
-	<!-- if they have been taken from an online service during -->
-	<!-- the annotation process. -->
-	<!-- </xs:documentation> -->
-      <!-- </xs:annotation> -->
-    <!-- </xs:attribute> -->
 </xs:schema>
