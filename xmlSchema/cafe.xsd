@@ -1633,7 +1633,7 @@
 					      </xs:annotation>
 					      <xs:complexType>
 						<xs:sequence>
-						  <xs:element name="domain" type="xs:string" minOccurs="0" maxOccurs="1">
+						  <xs:element name="domain" type="Domain" minOccurs="0" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
 							The kingdom of the organism
@@ -1648,7 +1648,7 @@
 						    </xs:annotation>
 						  </xs:element>
 						  <xs:choice>
-						    <xs:element name="division" type="xs:string" minOccurs="0" maxOccurs="1">
+						    <xs:element name="division" type="Division" minOccurs="0" maxOccurs="1">
 						      <xs:annotation>
 							<xs:documentation xml:lang="en">
 							  The division of the organism
@@ -3029,7 +3029,7 @@
   <xs:complexType name="GeologicalEon">
     <xs:simpleContent>
       <xs:extension base="GeologicalEonVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -3209,7 +3209,7 @@
   <xs:complexType name="GeologicalEra">
     <xs:simpleContent>
       <xs:extension base="GeologicalEraVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -3524,7 +3524,7 @@
   <xs:complexType name="GeologicalPeriod">
     <xs:simpleContent>
       <xs:extension base="GeologicalPeriodVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -3827,7 +3827,7 @@
   <xs:complexType name="GeologicalEpoch">
     <xs:simpleContent>
       <xs:extension base="GeologicalEpochVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -4974,7 +4974,7 @@
   <xs:complexType name="GeologicalAge">
     <xs:simpleContent>
       <xs:extension base="GeologicalAgeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9100,7 +9100,7 @@
   <xs:complexType name="Timezone">
     <xs:simpleContent>
       <xs:extension base="TimezoneVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9215,7 +9215,7 @@
   <xs:complexType name="TemporalExtentType">
     <xs:simpleContent>
       <xs:extension base="TemporalExtentTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9330,7 +9330,7 @@
   <xs:complexType name="TemporalResolutionType">
     <xs:simpleContent>
       <xs:extension base="TemporalResolutionTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9437,7 +9437,7 @@
   <xs:complexType name="ElevationUnit">
     <xs:simpleContent>
       <xs:extension base="ElevationUnitVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9464,7 +9464,7 @@
   <xs:complexType name="ElevationDatum">
     <xs:simpleContent>
       <xs:extension base="ElevationDatumVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9501,7 +9501,7 @@
   <xs:complexType name="UtmCoordinateHemisphere">
     <xs:simpleContent>
       <xs:extension base="UtmCoordinateHemisphereVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9548,7 +9548,7 @@
   <xs:complexType name="UtmCoordinateUnit">
     <xs:simpleContent>
       <xs:extension base="UtmCoordinateUnitVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9579,7 +9579,7 @@
   <xs:complexType name="UtmCoordinateGeodeticDatum">
     <xs:simpleContent>
       <xs:extension base="UtmCoordinateGeodeticDatumVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -9671,7 +9671,7 @@
   <xs:complexType name="LocationType">
     <xs:simpleContent>
       <xs:extension base="LocationTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -11432,7 +11432,7 @@
   <xs:complexType name="CountryName">
     <xs:simpleContent>
       <xs:extension base="CountryNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -11589,7 +11589,7 @@
   <xs:complexType name="ContinentName">
     <xs:simpleContent>
       <xs:extension base="ContinentNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -11642,7 +11642,7 @@
   <xs:complexType name="SpatialResolutionType">
     <xs:simpleContent>
       <xs:extension base="SpatialResolutionTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -11776,7 +11776,7 @@
   <xs:complexType name="AtmosphereLayerName">
     <xs:simpleContent>
       <xs:extension base="AtmosphereLayerNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -11823,7 +11823,7 @@
   <xs:complexType name="AtmosphereHeightUnit">
     <xs:simpleContent>
       <xs:extension base="AtmosphereHeightUnitVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -11875,7 +11875,7 @@
   <xs:complexType name="LongitudinalRiverZone">
     <xs:simpleContent>
       <xs:extension base="LongitudinalRiverZoneVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -11935,7 +11935,7 @@
   <xs:complexType name="VerticalRiverZone">
     <xs:simpleContent>
       <xs:extension base="VerticalRiverZoneVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -11996,7 +11996,7 @@
   <xs:complexType name="BenthicLakeZone">
     <xs:simpleContent>
       <xs:extension base="BenthicLakeZoneVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12043,7 +12043,7 @@
   <xs:complexType name="PelagicLakeZone">
     <xs:simpleContent>
       <xs:extension base="PelagicLakeZoneVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12121,7 +12121,7 @@
   <xs:complexType name="BenthicSeaZone">
     <xs:simpleContent>
       <xs:extension base="BenthicSeaZoneVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12217,7 +12217,7 @@
   <xs:complexType name="PelagicSeaZone">
     <xs:simpleContent>
       <xs:extension base="PelagicSeaZoneVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12370,7 +12370,7 @@
   <xs:complexType name="SoilHorizon">
     <xs:simpleContent>
       <xs:extension base="SoilHorizonVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12428,7 +12428,7 @@
   <xs:complexType name="SoilDepthUnit">
     <xs:simpleContent>
       <xs:extension base="SoilDepthUnitVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12716,7 +12716,7 @@
   <xs:complexType name="SoilMorphologyType">
     <xs:simpleContent>
       <xs:extension base="SoilMorphologyTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12763,7 +12763,7 @@
   <xs:complexType name="SoilAcidityType">
     <xs:simpleContent>
       <xs:extension base="SoilAcidityTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12853,7 +12853,7 @@
   <xs:complexType name="EcosphereLayerName">
     <xs:simpleContent>
       <xs:extension base="EcosphereLayerNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -12911,7 +12911,7 @@
   <xs:complexType name="VegetationHeightUnit">
     <xs:simpleContent>
       <xs:extension base="VegetationHeightUnitVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13061,7 +13061,7 @@
   <xs:complexType name="OrganizationHierarchyName">
     <xs:simpleContent>
       <xs:extension base="OrganizationHierarchyNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13105,7 +13105,7 @@
   <xs:complexType name="BiomeType">
     <xs:simpleContent>
       <xs:extension base="BiomeTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13189,7 +13189,7 @@
   <xs:complexType name="BiomeZone">
     <xs:simpleContent>
       <xs:extension base="BiomeZoneVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13244,7 +13244,7 @@
   <xs:complexType name="BiomeHumidityType">
     <xs:simpleContent>
       <xs:extension base="BiomeHumidityTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13281,7 +13281,7 @@
   <xs:complexType name="BiomeContinentalityType">
     <xs:simpleContent>
       <xs:extension base="BiomeContinentalityTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13318,7 +13318,7 @@
   <xs:complexType name="BiomeHemisphere">
     <xs:simpleContent>
       <xs:extension base="BiomeHemisphereVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13401,7 +13401,7 @@
   <xs:complexType name="OroBiomeType">
     <xs:simpleContent>
       <xs:extension base="OroBiomeTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13477,7 +13477,7 @@
   <xs:complexType name="PedoBiomeType">
     <xs:simpleContent>
       <xs:extension base="PedoBiomeTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13619,7 +13619,7 @@
   <xs:complexType name="TerrestrialPhysiognomyType">
     <xs:simpleContent>
       <xs:extension base="TerrestrialPhysiognomyTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13705,7 +13705,7 @@
   <xs:complexType name="SemiAquaticPhysiognomyType">
     <xs:simpleContent>
       <xs:extension base="SemiAquaticPhysiognomyTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13767,7 +13767,7 @@
   <xs:complexType name="PlantCharacterizedAquaticPhysiognomyType">
     <xs:simpleContent>
       <xs:extension base="PlantCharacterizedAquaticPhysiognomyTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13911,7 +13911,7 @@
   <xs:complexType name="HabitatCharacterizedAquaticPhysiognomy">
     <xs:simpleContent>
       <xs:extension base="HabitatCharacterizedAquaticPhysiognomyVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -13956,7 +13956,7 @@
   <xs:complexType name="LandUseType">
     <xs:simpleContent>
       <xs:extension base="LandUseTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -14042,7 +14042,7 @@
   <xs:complexType name="LandUseForm">
     <xs:simpleContent>
       <xs:extension base="LandUseFormVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -14411,7 +14411,7 @@
   <xs:complexType name="ProcessName">
     <xs:simpleContent>
       <xs:extension base="ProcessNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -14491,7 +14491,7 @@
   <xs:complexType name="ProcessSubject">
     <xs:simpleContent>
       <xs:extension base="ProcessSubjectVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -14625,7 +14625,7 @@
   <xs:complexType name="ProcessType">
     <xs:simpleContent>
       <xs:extension base="ProcessTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -14755,7 +14755,7 @@
   <xs:complexType name="InteractionPartner">
     <xs:simpleContent>
       <xs:extension base="InteractionPartnerVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -14814,7 +14814,7 @@
   <xs:complexType name="InteractionDirection">
     <xs:simpleContent>
       <xs:extension base="InteractionDirectionVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -14941,7 +14941,7 @@
   <xs:complexType name="InteractionQuality">
     <xs:simpleContent>
       <xs:extension base="InteractionQualityVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -15908,7 +15908,7 @@
   <xs:complexType name="ElementName">
     <xs:simpleContent>
       <xs:extension base="ElementNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -16431,7 +16431,7 @@
   <xs:complexType name="IsotopeName">
     <xs:simpleContent>
       <xs:extension base="IsotopeNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -16531,7 +16531,7 @@
   <xs:complexType name="CompoundClass">
     <xs:simpleContent>
       <xs:extension base="CompoundClassVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -17538,7 +17538,7 @@
   <xs:complexType name="CompoundType">
     <xs:simpleContent>
       <xs:extension base="CompoundTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -17802,7 +17802,7 @@
   <xs:complexType name="ChemicalFunctionType">
     <xs:simpleContent>
       <xs:extension base="ChemicalFunctionTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -17847,7 +17847,7 @@
   <xs:complexType name="ApproachType">
     <xs:simpleContent>
       <xs:extension base="ApproachTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -17892,7 +17892,7 @@
   <xs:complexType name="ApproachLocalization">
     <xs:simpleContent>
       <xs:extension base="ApproachLocalizationVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -18156,13 +18156,32 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="FactorName">
     <xs:simpleContent>
       <xs:extension base="FactorNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+	<xs:attribute name="type" default="measured">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:string">
+	      <xs:enumeration value="manipulated">
+		<xs:annotation>
+		  <xs:documentation xml:lang="en">
+		    A variable that has been manipulated as part of the study setup
+		  </xs:documentation>
+		</xs:annotation>
+	      </xs:enumeration>
+	      <xs:enumeration value="measured">
+		<xs:annotation>
+		  <xs:documentation xml:lang="en">
+		    A variable that has been measured due to
+		  </xs:documentation>
+		</xs:annotation>
+	      </xs:enumeration>
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
@@ -18242,7 +18261,7 @@
   <xs:complexType name="FactorType">
     <xs:simpleContent>
       <xs:extension base="FactorTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -18339,6 +18358,19 @@
       <xs:maxInclusive value="3"/>
     </xs:restriction>
   </xs:simpleType>
+
+  <xs:complexType name="Domain">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute name="uri">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
 
   <xs:simpleType name="KingdomVocabulary">
     <xs:annotation>
@@ -18442,11 +18474,10 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="Kingdom">
     <xs:simpleContent>
       <xs:extension base="KingdomVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -18455,6 +18486,20 @@
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
+
+  <xs:complexType name="Division">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute name="uri">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
 
   <!-- for the references -->
   <xs:simpleType name="DataSourceTypeVocabulary">
@@ -18499,7 +18544,7 @@
   <xs:complexType name="DataSourceType">
     <xs:simpleContent>
       <xs:extension base="DataSourceTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -18553,7 +18598,7 @@
   <xs:complexType name="DataFormatType">
     <xs:simpleContent>
       <xs:extension base="DataFormatTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -18660,7 +18705,7 @@
   <xs:complexType name="HosterName">
     <xs:simpleContent>
       <xs:extension base="HosterNameVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -18699,7 +18744,7 @@
   <xs:complexType name="Position">
     <xs:simpleContent>
       <xs:extension base="PositionVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -18925,7 +18970,7 @@
   <xs:complexType name="AudioMimeType">
     <xs:simpleContent>
       <xs:extension base="AudioMimeTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -19247,7 +19292,7 @@
   <xs:complexType name="ImageMimeType">
     <xs:simpleContent>
       <xs:extension base="ImageMimeTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -19507,11 +19552,10 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="VideoMimeType">
     <xs:simpleContent>
       <xs:extension base="VideoMimeTypeVocabulary">
-	<xs:attribute name="URI">
+	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
 	    </xs:restriction>
@@ -19610,5 +19654,4 @@
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
 </xs:schema>
