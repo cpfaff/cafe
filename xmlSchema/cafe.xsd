@@ -1655,7 +1655,7 @@
 							</xs:documentation>
 						      </xs:annotation>
 						    </xs:element>
-						    <xs:element name="class" type="xs:string" minOccurs="0" maxOccurs="1">
+						    <xs:element name="class" type="Class" minOccurs="0" maxOccurs="1">
 						      <xs:annotation>
 							<xs:documentation xml:lang="en">
 							  The class of the organism
@@ -1663,14 +1663,14 @@
 						      </xs:annotation>
 						    </xs:element>
 						  </xs:choice>
-						  <xs:element name="order" type="xs:string" minOccurs="0" maxOccurs="1">
+						  <xs:element name="order" type="Order" minOccurs="0" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
 							The order of the organism
 						      </xs:documentation>
 						    </xs:annotation>
 						  </xs:element>
-						  <xs:element name="family" type="xs:string" minOccurs="0" maxOccurs="1">
+						  <xs:element name="family" type="Family" minOccurs="0" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
 							The family of the organism
@@ -2364,7 +2364,7 @@
 					    <xs:element name="factorType" type="FactorType" minOccurs="1" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
-						  The type of factor given with Factor Name (Biotic, Abiotic, Disturbance, ...)
+						  The type of given factor (Biotic, Abiotic, Disturbance, ...)
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
@@ -2532,20 +2532,20 @@
 			  <xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
-				A title for the search object.
+				A title for the data which is describe.
 			      </xs:documentation>
 			    </xs:annotation>
 			  </xs:element>
 			  <xs:element name="abstract" type="xs:string" minOccurs="1" maxOccurs="1">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
-				An abstract that describes the object in
-				all its details. This can contain any
-				information that is suitable to inform
-				somebody who does not know your data nor
-				your research. Write in great detail
-				about all aspects that characterize the
-				data (e.g. condidtions, setup, organisms)
+				An abstract that describes the object in all
+				its details. This can contain any information
+				that is suitable to inform somebody who does
+				not know your data nor your research. Write in
+				great detail about all aspects that
+				characterize the data (e.g. condidtions, setup,
+				organism, notes).
 			      </xs:documentation>
 			    </xs:annotation>
 			  </xs:element>
@@ -2555,6 +2555,7 @@
 		  </xs:sequence>
 		</xs:complexType>
 	      </xs:element>
+
 	      <xs:element name="Resources" minOccurs="1" maxOccurs="1">
 		<xs:annotation>
 		  <xs:documentation xml:lang="en">
@@ -2573,6 +2574,7 @@
 		      </xs:annotation>
 		      <xs:complexType>
 			<xs:sequence>
+
 			  <xs:element name="OnlineResources" minOccurs="0" maxOccurs="1">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
@@ -2604,25 +2606,23 @@
 					      </xs:annotation>
 					      <xs:complexType>
 						<xs:sequence>
-						  <xs:choice>
-						    <xs:element name="downloadUrl" type="xs:anyURI" maxOccurs="1">
-						      <xs:annotation>
-							<xs:documentation xml:lang="en">
-							  The URL to the download of the data. Using this URL with a download manager
-							  should return the raw data e.g. csv or whatever kind of data type is described.
-							</xs:documentation>
-						      </xs:annotation>
-						    </xs:element>
-						    <xs:element name="referenceUrl" type="xs:anyURI" maxOccurs="1">
-						      <xs:annotation>
-							<xs:documentation xml:lang="en">
-							  The object reference URL can be used to link the annotation to more contextual
-							  information for example the project homepage with more extensive metadata of
-							  the search object described with the annotation.
-							</xs:documentation>
-						      </xs:annotation>
-						    </xs:element>
-						  </xs:choice>
+						  <xs:element name="downloadUrl" type="xs:anyURI" maxOccurs="1">
+						    <xs:annotation>
+						      <xs:documentation xml:lang="en">
+							The URL to the download of the data. Using this URL with a download manager
+							should return the raw data e.g. csv or whatever kind of data type is described.
+						      </xs:documentation>
+						    </xs:annotation>
+						  </xs:element>
+						  <xs:element name="referenceUrl" type="xs:anyURI" maxOccurs="1">
+						    <xs:annotation>
+						      <xs:documentation xml:lang="en">
+							The object reference URL can be used to link the annotation to more contextual
+							information for example the project homepage with more extensive metadata of
+							the search object described with the annotation.
+						      </xs:documentation>
+						    </xs:annotation>
+						  </xs:element>
 						</xs:sequence>
 					      </xs:complexType>
 					    </xs:element>
@@ -2635,6 +2635,54 @@
 			      </xs:sequence>
 			    </xs:complexType>
 			  </xs:element>
+
+			  <xs:element name="OfflineResources" minOccurs="0" maxOccurs="1">
+			    <xs:annotation>
+			      <xs:documentation xml:lang="en">
+				An offline resource references the file in a
+				database by id or by a local file path.
+			      </xs:documentation>
+			    </xs:annotation>
+			    <xs:complexType>
+			      <xs:sequence>
+				<xs:element name="OfflineResource" minOccurs="1" maxOccurs="unbounded">
+				  <xs:complexType>
+				    <xs:sequence>
+				      <xs:element name="fileID" type="xs:integer" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+					  <xs:documentation xml:lang="en">
+					    A database id as reference to a dataset which is described.
+					  </xs:documentation>
+					</xs:annotation>
+				      </xs:element>
+				      <xs:element name="fileName" type="xs:string" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+					  <xs:documentation xml:lang="en">
+					    The file name. Fore example '19.11.1996_audio1.mp3'.
+					  </xs:documentation>
+					</xs:annotation>
+				      </xs:element>
+				      <xs:element name="filePath" type="xs:string" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+					  <xs:documentation xml:lang="en">
+					    The file name including the path. Fore example '/tmp/19.11.1996_image1.png'.
+					  </xs:documentation>
+					</xs:annotation>
+				      </xs:element>
+				      <xs:element name="mimeType" type="MimeType" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+					  <xs:documentation xml:lang="en">
+					    The mime type of the base64 encoded audio data
+					  </xs:documentation>
+					</xs:annotation>
+				      </xs:element>
+				    </xs:sequence>
+				  </xs:complexType>
+				</xs:element>
+			      </xs:sequence>
+			    </xs:complexType>
+			  </xs:element>
+
 			  <xs:element name="EmbeddedResources" minOccurs="0" maxOccurs="1">
 			    <xs:complexType>
 			      <xs:sequence>
@@ -2642,10 +2690,10 @@
 				  <xs:complexType>
 				    <xs:sequence>
 				      <xs:choice>
-					<xs:element name="Base64AudioResource" minOccurs="0" maxOccurs="1">
+					<xs:element name="Base64Resource" minOccurs="0" maxOccurs="1">
 					  <xs:annotation>
 					    <xs:documentation xml:lang="en">
-					      A base 64 encoded audio resource
+					      A base 64 encoded resource
 					    </xs:documentation>
 					  </xs:annotation>
 					  <xs:complexType>
@@ -2653,19 +2701,19 @@
 					      <xs:element name="fileName" type="xs:string" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
 						  <xs:documentation xml:lang="en">
-						    The file name without the mime type. Fore example '19.11.1996_audio1'. This is
+						    The file name. Fore example '19.11.1996_audio1.mp3'. This is
 						    useful to reconstruct the file for processing.
 						  </xs:documentation>
 						</xs:annotation>
 					      </xs:element>
-					      <xs:element name="audioMimeType" type="AudioMimeType" minOccurs="1" maxOccurs="1">
+					      <xs:element name="mimeType" type="MimeType" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
 						  <xs:documentation xml:lang="en">
 						    The mime type of the base64 encoded audio data
 						  </xs:documentation>
 						</xs:annotation>
 					      </xs:element>
-					      <xs:element name="audioData" type="xs:base64Binary" minOccurs="1" maxOccurs="1">
+					      <xs:element name="data" type="xs:base64Binary" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
 						  <xs:documentation xml:lang="en">
 						    A base 64 encoded string containing the audio
@@ -2690,277 +2738,6 @@
 						<xs:annotation>
 						  <xs:documentation xml:lang="en">
 						    The sha2 hash of the base64 encoded audio data for verification
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					    </xs:sequence>
-					  </xs:complexType>
-					</xs:element>
-					<xs:element name="Base64ImageResource" minOccurs="0" maxOccurs="1">
-					  <xs:annotation>
-					    <xs:documentation xml:lang="en">
-					      A base 64 encoded image resource
-					    </xs:documentation>
-					  </xs:annotation>
-					  <xs:complexType>
-					    <xs:sequence>
-					      <xs:element name="fileName" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The file name without the mime type. Fore example '19.11.1996_image1'. This is
-						    useful to reconstruct the file for processing.
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="imageMimeType" type="ImageMimeType" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The mime type of the base64 encoded image data
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="imageData" type="xs:base64Binary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    A base 64 encoded string containing the image
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingDate" type="xs:date" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The date of image encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingTime" type="xs:time" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The time of image encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="sha2hash" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The sha2 hash of the base64 encoded image data for verification
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					    </xs:sequence>
-					  </xs:complexType>
-					</xs:element>
-					<xs:element name="Base64VideoResource" minOccurs="0" maxOccurs="1">
-					  <xs:annotation>
-					    <xs:documentation xml:lang="en">
-					      A base 64 encoded video resource
-					    </xs:documentation>
-					  </xs:annotation>
-					  <xs:complexType>
-					    <xs:sequence>
-					      <xs:element name="fileName" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The file name without the mime type. Fore example '19.11.1996_video1'. This is
-						    useful to reconstruct the file for processing.
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="videoMimeType" type="VideoMimeType" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The mime type of the base64 encoded video data
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="videoData" type="xs:base64Binary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    A base 64 encoded string containing the video
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingDate" type="xs:date" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The date of video encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingTime" type="xs:time" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The time of video encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="sha2hash" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The sha2 hash of the base64 encoded video data for verification
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					    </xs:sequence>
-					  </xs:complexType>
-					</xs:element>
-					<xs:element name="Base64TableResource" minOccurs="0" maxOccurs="1">
-					  <xs:annotation>
-					    <xs:documentation xml:lang="en">
-					      A base 64 encoded table resource
-					    </xs:documentation>
-					  </xs:annotation>
-					  <xs:complexType>
-					    <xs:sequence>
-					      <xs:element name="fileName" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The file name without the mime type. Fore example '19.11.1996_table1'. This is
-						    useful to reconstruct the file for processing.
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="tableMimeType" type="TableMimeType" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The mime type of the base64 encoded table data
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="tableData" type="xs:base64Binary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    A base 64 encoded string containing the table
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingDate" type="xs:date" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The date of table encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingTime" type="xs:time" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The time of table encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="sha2hash" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The sha2 hash of the base64 encoded table data for verification
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					    </xs:sequence>
-					  </xs:complexType>
-					</xs:element>
-					<xs:element name="Base64MetadataResource" minOccurs="0" maxOccurs="1">
-					  <xs:annotation>
-					    <xs:documentation xml:lang="en">
-					      A base 64 encoded metadata resource
-					    </xs:documentation>
-					  </xs:annotation>
-					  <xs:complexType>
-					    <xs:sequence>
-					      <xs:element name="fileName" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The file name without the mime type. Fore example
-						    '19.11.1996_video1_eml_metadata'. This is useful to reconstruct the file for
-						    processing.
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="metadataMimeType" type="MetadataMimeType" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The mime type of the base64 encoded metadata data (e.g. xml)
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="metadataData" type="xs:base64Binary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    A base 64 encoded string containing the metadata
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingDate" type="xs:date" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The date of metadata encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingTime" type="xs:time" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The time of metadata encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="sha2hash" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The sha2 hash of the base64 encoded metadata data for verification
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					    </xs:sequence>
-					  </xs:complexType>
-					</xs:element>
-					<xs:element name="Base64GenericResource" minOccurs="0" maxOccurs="1">
-					  <xs:annotation>
-					    <xs:documentation xml:lang="en">
-					      An arbitrary format base 64 encoded resource file
-					    </xs:documentation>
-					  </xs:annotation>
-					  <xs:complexType>
-					    <xs:sequence>
-					      <xs:element name="fileName" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The file name without the mime type. Fore example '19.11.1996_notes'. This is
-						    useful to reconstruct the file for processing.
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="genericMimeType" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The mime type of the base64 encoded metadata data (e.g. .txt)
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="genericData" type="xs:base64Binary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    A base 64 encoded string containing the data
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingDate" type="xs:date" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The date of data encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="encodingTime" type="xs:time" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The time of data encoding
-						  </xs:documentation>
-						</xs:annotation>
-					      </xs:element>
-					      <xs:element name="sha2hash" type="xs:string" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-						  <xs:documentation xml:lang="en">
-						    The sha2 hash of the base64 encoded data for verification
 						  </xs:documentation>
 						</xs:annotation>
 					      </xs:element>
@@ -18165,7 +17942,7 @@
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
-	<xs:attribute name="type" default="measured">
+	<xs:attribute name="was" default="measured">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:string">
 	      <xs:enumeration value="manipulated">
@@ -18257,7 +18034,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="FactorType">
     <xs:simpleContent>
       <xs:extension base="FactorTypeVocabulary">
@@ -18270,6 +18046,7 @@
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
+
 <!-- organism -->
 
   <xs:simpleType name="RankAbbreviation">
@@ -18500,6 +18277,44 @@
     </xs:simpleContent>
   </xs:complexType>
 
+  <xs:complexType name="Class">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute name="uri">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="Order">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute name="uri">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="Family">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute name="uri">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
 
   <!-- for the references -->
   <xs:simpleType name="DataSourceTypeVocabulary">
@@ -18766,6 +18581,16 @@
   </xs:simpleType>
 
   <!-- for the resources -->
+
+  <xs:simpleType name="MimeType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+	A mime type of a file
+      </xs:documentation>
+    </xs:annotation>
+    <xs:union memberTypes="AudioMimeTypeVocabulary VideoMimeTypeVocabulary TableMimeTypeVocabulary MetadataMimeTypeVocabulary"/>
+  </xs:simpleType>
+
   <xs:simpleType name="AudioMimeTypeVocabulary">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -19565,7 +19390,7 @@
     </xs:simpleContent>
   </xs:complexType>
 
-  <xs:simpleType name="TableMimeType">
+  <xs:simpleType name="TableMimeTypeVocabulary">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A mime type for tabular files
@@ -19622,7 +19447,20 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:simpleType name="MetadataMimeType">
+  <xs:complexType name="TableMimeType">
+    <xs:simpleContent>
+      <xs:extension base="TableMimeTypeVocabulary">
+	<xs:attribute name="uri">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="MetadataMimeTypeVocabulary">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A mime type for metadata files
@@ -19654,4 +19492,18 @@
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
+  <xs:complexType name="MetadataMimeType">
+    <xs:simpleContent>
+      <xs:extension base="MetadataMimeTypeVocabulary">
+	<xs:attribute name="uri">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
 </xs:schema>
