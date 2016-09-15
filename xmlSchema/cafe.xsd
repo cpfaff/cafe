@@ -243,7 +243,7 @@
 				  </xs:annotation>
 				  <xs:complexType>
 				    <xs:sequence>
-				      <xs:element name="TemporalResolution" minOccurs="1" maxOccurs="1">
+				      <xs:element name="TemporalResolution" minOccurs="1" maxOccurs="unbounded">
 					<xs:annotation>
 					  <xs:documentation xml:lang="en">
 					    The temporal resolution caputres the temporal aspects of the setup or study the
@@ -554,7 +554,7 @@
 				  </xs:annotation>
 				  <xs:complexType>
 				    <xs:sequence>
-				      <xs:element name="SpatialResolution" minOccurs="1" maxOccurs="1">
+				      <xs:element name="SpatialResolution" minOccurs="1" maxOccurs="unbounded">
 					<xs:annotation>
 					  <xs:documentation xml:lang="en">
 					    The spatial resolution caputres the spatial aspects of the setup or study the
@@ -12930,18 +12930,19 @@
 	    The north temperate zone extends from the Tropic of Cancer
 	    (approximately 23.5° north latitude) to the Arctic Circle
 	    (approximately 66.5° north latitude). The south temperate zone
-	    extends from the Tropic of Capricorn (approximately 23.5°
-	    south latitude) to the Antarctic Circle (at approximately
-	    66.5° south latitude). (WP, http://bit.ly/20qmLLS)
+	    extends from the Tropic of Capricorn (approximately 23.5° south
+	    latitude) to the Antarctic Circle (at approximately 66.5° south
+	    latitude). (WP, http://bit.ly/20qmLLS)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Subtropic">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The subtropics are geographic and climate zones located roughly between the
-	    tropic circle of latitude (the Tropic of Cancer and Tropic of Capricorn) and
-	    the 38th parallel in each hemisphere (WP, http://bit.ly/1S8mImK)
+	    The subtropics are geographic and climate zones located roughly
+	    between the tropic circle of latitude (the Tropic of Cancer and
+	    Tropic of Capricorn) and the 38th parallel in each hemisphere (WP,
+	    http://bit.ly/1S8mImK)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
