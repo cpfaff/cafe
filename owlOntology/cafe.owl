@@ -2666,7 +2666,7 @@
 	 The file type of the data described with the annotation. For example (Audio,
 	 Image, Table, Video)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Format</rdfs:label>
+      <rdfs:label xml:lang="en">Data Format</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#dataFormatType">
@@ -2694,7 +2694,7 @@
 	 The type of source the data has been derived from that is described with this
 	 annotation.
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Format</rdfs:label>
+      <rdfs:label xml:lang="en">Data Source</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/cafe#dataSourceType">
