@@ -14150,7 +14150,16 @@
       <xs:enumeration value="Deposition">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    NA
+	    In aerosol physics, deposition is the process by which aerosol
+	    particles collect or deposit themselves on solid surfaces,
+	    decreasing the concentration of the particles in the air. It can be
+	    divided into two sub-processes: dry and wet deposition. The rate of
+	    deposition, or the deposition velocity, is slowest for particles of
+	    an intermediate size. Mechanisms for deposition are most effective
+	    for either very small or very large particles. Very large particles
+	    will settle out quickly through sedimentation (settling) or
+	    impaction processes, while Brownian diffusion has the greatest
+	    influence on small particles (WP, https://goo.gl/0j0VC3)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -16205,7 +16214,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="IsotopeName">
     <xs:simpleContent>
       <xs:extension base="IsotopeNameVocabulary">
@@ -16304,7 +16312,6 @@
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
-
 
   <xs:complexType name="CompoundClass">
     <xs:simpleContent>
@@ -17312,7 +17319,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="CompoundType">
     <xs:simpleContent>
       <xs:extension base="CompoundTypeVocabulary">
@@ -17576,7 +17582,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="ChemicalFunctionType">
     <xs:simpleContent>
       <xs:extension base="ChemicalFunctionTypeVocabulary">
@@ -17621,7 +17626,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="ApproachType">
     <xs:simpleContent>
       <xs:extension base="ApproachTypeVocabulary">
@@ -17665,7 +17669,6 @@
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-
 
   <xs:complexType name="ApproachLocalization">
     <xs:simpleContent>
@@ -19506,5 +19509,4 @@
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
-
 </xs:schema>
