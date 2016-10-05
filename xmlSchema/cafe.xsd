@@ -2800,6 +2800,43 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+      <xs:enumeration value="Proterozoic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Proterozoic is a geological eon representing the time just
+	    before the proliferation of complex life on Earth. The name
+	    Proterozoic comes from Greek and means "earlier life",the Greek
+	    root protero-,means "former, earlier" and zoic-,means "animal,
+	    living being". The Proterozoic Eon extended from 2500 Ma to
+	    542.0±1.0 Ma (million years ago), and is the most recent part of
+	    the Precambrian. It is subdivided into three geologic eras (from
+	    oldest to youngest): the Paleoproterozoic, Mesoproterozoic, and
+	    Neoproterozoic (WP, https://goo.gl/sUu8Tg)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Archean">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Archean Eon is a geologic eon, 4,000 to 2,500 million years ago
+	    (that is, 4 to 2.5 billion years ago), following the Hadean Eon and
+	    preceding the Proterozoic Eon. During the Archean, the earth's
+	    crust and layers had just formed, making the Earth much cooler than
+	    it was during the Hadean and allowing the formation of continents
+	    (WP, https://goo.gl/zPqxU)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Hadean">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The Hadean is a geologic eon of the Earth, and lies before the
+	    Archean. It began with the formation of the Earth about 4.6 billion
+	    years ago and ended, as defined by the ICS, 4 billion years ago
+	    (WP, https://goo.gl/0tvynG)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
 
@@ -2864,21 +2901,6 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Proterozoic">
-	<xs:annotation>
-	  <xs:documentation xml:lang="en">
-	    The Proterozoic is a geological eon representing the time just
-	    before the proliferation of complex life on Earth. The name
-	    Proterozoic comes from Greek and means "earlier life",the Greek
-	    root protero-,means "former, earlier" and zoic-,means "animal,
-	    living being". The Proterozoic Eon extended from 2500 Ma to
-	    542.0±1.0 Ma (million years ago), and is the most recent part of
-	    the Precambrian. It is subdivided into three geologic eras (from
-	    oldest to youngest): the Paleoproterozoic, Mesoproterozoic, and
-	    Neoproterozoic (WP, https://goo.gl/sUu8Tg )
-	  </xs:documentation>
-	</xs:annotation>
-      </xs:enumeration>
       <xs:enumeration value="Neoproterozoic">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -2911,18 +2933,6 @@
 	    of the Proterozoic occurring 2,500 to 1,600 million years ago
 	    (2.5–1.6 Ga). This is when the continents first stabilized (WP,
 	    https://goo.gl/6pC2zs )
-	  </xs:documentation>
-	</xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="Archean">
-	<xs:annotation>
-	  <xs:documentation xml:lang="en">
-	    The Archean Eon is a geologic eon, 4,000 to 2,500 million years ago
-	    (that is, 4 to 2.5 billion years ago), following the Hadean Eon and
-	    preceding the Proterozoic Eon. During the Archean, the earth's
-	    crust and layers had just formed, making the Earth much cooler than
-	    it was during the Hadean and allowing the formation of continents
-	    (WP, https://goo.gl/zPqxU )
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
