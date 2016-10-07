@@ -9378,26 +9378,73 @@
 
   <xs:simpleType name="LocationTypeVocabulary">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="City">
+      <xs:enumeration value="Country">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A city is a large and permanent human settlement. Although there is
-	    no agreement on how a city is distinguished from a town in general
-	    English language meanings, many cities have a particular
-	    administrative, legal, or historical status based on local law (WP,
-	    http://bit.ly/1UokPQa)
+	    A country is a region that is identified as a distinct national
+	    entity in political geography. A country may be an independent
+	    sovereign state or one that is occupied by another state, as a
+	    non-sovereign or formerly sovereign political division, or a
+	    geographic region associated with sets of previously independent or
+	    differently associated people with distinct political
+	    characteristics. Regardless of the physical geography, in the
+	    modern internationally accepted legal definition as defined by the
+	    League of Nations in 1937 and reaffirmed by the United Nations in
+	    1945, a resident of a country is subject to the independent
+	    exercise of legal jurisdiction (Wikipedia, https://goo.gl/7j9rFh).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="State">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A state is a type of polity that is an organized political
+	    community living under a single system of government. States may or
+	    may not be sovereign. For instance, federated states are members of
+	    a federal union, and may have only partial sovereignty, but are,
+	    nonetheless, states. Some states are subject to external
+	    sovereignty or hegemony, in which ultimate sovereignty lies in
+	    another state. States that are sovereign are known as sovereign
+	    states (Wikipedia, https://goo.gl/c88kso).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Region">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In geography, regions are areas broadly divided by physical
+	    characteristics (physical geography), human impact characteristics
+	    (human geography), and the interaction of humanity and the
+	    environment (environmental geography). Geographic regions and
+	    sub-regions are mostly described by their imprecisely defined, and
+	    sometimes transitory boundaries, except in human geography, where
+	    jurisdiction areas such as national borders are defined in law
+	    (Wikipedia, https://goo.gl/SjH2D).
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Human Settlement">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    In geography, statistics and archaeology, a settlement, locality or
+	    populated place is a community in which people live. A settlement
+	    can range in size from a small number of dwellings grouped together
+	    to the largest of cities with surrounding urbanized areas.
+	    Settlements may include hamlets, villages, towns and cities
+	    (Wikipedia, https://goo.gl/GFWOx5).
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Mountain">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A mountain is a large landform that stretches above the surrounding land in a
-	    limited area, usually in the form of a peak. A mountain is generally steeper
-	    than a hill. Mountains are formed through tectonic forces or volcanism. These
-	    forces can locally raise the surface of the earth. Mountains erode slowly
-	    through the action of rivers, weather conditions, and glaciers. A few mountains
-	    are isolated summits, but most occur in huge mountain ranges
+	    A mountain is a large landform that stretches above the surrounding
+	    land in a limited area, usually in the form of a peak. A mountain
+	    is generally steeper than a hill. Mountains are formed through
+	    tectonic forces or volcanism. These forces can locally raise the
+	    surface of the earth. Mountains erode slowly through the action of
+	    rivers, weather conditions, and glaciers. A few mountains are
+	    isolated summits, but most occur in huge mountain ranges
 	    (WP,http://bit.ly/1PA8Q42)
 	  </xs:documentation>
 	</xs:annotation>
@@ -9409,8 +9456,8 @@
 	    and banks. Depending on its location or certain characteristics, a
 	    stream may be referred to as a branch, brook, beck, burn, creek,
 	    crick, ghyll, gill, kill, lick, mill race, race, rill, river, syke,
-	    bayou, rivulet, streamage, wash, run, or runnel.
-
+	    bayou, rivulet, streamage, wash, run, or runnel. (Wikipedia,
+	    https://goo.gl/zP1tA9)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -9429,28 +9476,49 @@
       <xs:enumeration value="Sea">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A sea is a large body of salt water that is surrounded in whole or in part by
-	    land. More broadly, "the sea" is the interconnected system of Earth's salty,
-	    oceanic waters are considered as one global ocean or as several principal oceanic
-	    divisions (WP, http://bit.ly/1nMOfgy)
+	    A sea is a large body of salt water that is surrounded in whole or
+	    in part by land. More broadly, "the sea" is the interconnected
+	    system of Earth's salty, oceanic waters are considered as one
+	    global ocean or as several principal oceanic divisions (WP,
+	    http://bit.ly/1nMOfgy)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Undersea">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A place which is located below the surface of the sea.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Forest">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A forest is a large area of land covered with trees or other woody vegetation.
-	    ( Wikipedia, https://goo.gl/z9v3my )
+	    A forest is a large area of land covered with trees or other woody
+	    vegetation. (Wikipedia, https://goo.gl/z9v3my)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Park">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A park is an area of natural, semi-natural, or planted space set
+	    aside for human enjoyment and recreation or for the protection of
+	    wildlife or natural habitats. It may consist of grassy areas,
+	    rocks, soil, and trees, but may also contain buildings and other
+	    artifacts such as monuments, fountains or playground structures.
+	    (Wikipedia, https://goo.gl/prF8qX)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Study Site">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    If the study site has a dedicated name (e.g. Jena Experiment)
+	    A study site (e.g. Jena Experiment)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
