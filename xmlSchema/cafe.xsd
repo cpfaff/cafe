@@ -9402,14 +9402,15 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="River">
+      <xs:enumeration value="Stream">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    A river is a natural flowing watercourse, usually freshwater, flowing towards
-	    an ocean, sea, lake or another river. In some cases a river flows into the
-	    ground and becomes dry at the end of its course without reaching another body
-	    of water. Small rivers can be referred to using names such as stream, creek,
-	    brook, rivulet, and rill (WP, http://bit.ly/1Lh8CaF)
+	    A stream is a body of water with a current, confined within a bed
+	    and banks. Depending on its location or certain characteristics, a
+	    stream may be referred to as a branch, brook, beck, burn, creek,
+	    crick, ghyll, gill, kill, lick, mill race, race, rill, river, syke,
+	    bayou, rivulet, streamage, wash, run, or runnel.
+
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
