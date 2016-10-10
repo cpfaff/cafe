@@ -147,9 +147,9 @@ If you want to get involved please contact:
 ## How to contribute (technically)
 
 Contributing content to the repository is simple given you have a GitHub
-account. You can read into the [issues](https://github.com/cpfaff/cafe/issues)
+account. You can read into the [issues](https://github.com/cpfaff/ease/issues)
 to get you started with existing tasks. However you can also create a
-[new](https://github.com/cpfaff/cafe/issues/new) issue to discuss your ideas or
+[new](https://github.com/cpfaff/ease/issues/new) issue to discuss your ideas or
 just to give us feedback if something is missing or needs improvement.  The
 issues are then referenced in the commit messages to track the changes and the
 progress so always stay up to date with the development around certain
