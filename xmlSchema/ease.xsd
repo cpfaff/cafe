@@ -9484,13 +9484,6 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Undersea">
-	<xs:annotation>
-	  <xs:documentation xml:lang="en">
-	    A place which is located below the surface of the sea.
-	  </xs:documentation>
-	</xs:annotation>
-      </xs:enumeration>
       <xs:enumeration value="Forest">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
