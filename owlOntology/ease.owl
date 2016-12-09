@@ -2287,6 +2287,33 @@
       <rdfs:label xml:lang="en">Acronym</rdfs:label>
    </owl:Class>
 
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#FungalName">
+      <rdfs:subClassOf>
+	 <owl:Restriction>
+	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
+	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#OrganismName"/>
+	 </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The ame of a fungi
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Fungal Name</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fullFungalName">
+      <rdfs:subClassOf>
+	 <owl:Restriction>
+	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
+	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#FullFungalName"/>
+	 </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 An element that captures the full scientific name of the bacteria in one string.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Full Fungal Name</rdfs:label>
+   </owl:Class>
+
+
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ProcessContext">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#Context"/>
       <rdfs:comment xml:lang="en">
@@ -2941,6 +2968,68 @@
       <rdfs:label xml:lang="en">Reference Url</rdfs:label>
    </owl:Class>
 
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#OfflineResource">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#Resource"/>
+      <rdfs:comment xml:lang="en">
+	 An offline resource references the file in a
+	 database by id or by a local file path.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Offline Resource</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fileID">
+      <rdfs:subClassOf>
+	 <owl:Restriction>
+	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
+	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#OfflineResource"/>
+	 </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 A database id as reference to a dataset which is described.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">File ID</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fileName">
+      <rdfs:subClassOf>
+	 <owl:Restriction>
+	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
+	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#OfflineResource"/>
+	 </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file name. Fore example '19.11.1996_audio1.mp3'.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">File Name</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#filePath">
+      <rdfs:subClassOf>
+	 <owl:Restriction>
+	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
+	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#OfflineResource"/>
+	 </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The file name including the path. Fore example '/tmp/19.11.1996_image1.png'.
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">File Path</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mimeType">
+      <rdfs:subClassOf>
+	 <owl:Restriction>
+	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
+	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#OfflineResource"/>
+	 </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:comment xml:lang="en">
+	 The mime type of the base64 encoded audio data
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Mime Type</rdfs:label>
+   </owl:Class>
+
+
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#EmbeddedResource">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#Resource"/>
       <rdfs:comment xml:lang="en">
@@ -2949,12 +3038,12 @@
       <rdfs:label xml:lang="en">Embedded Resource</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Base64AudioResource">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Base64Resource">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#EmbeddedResource"/>
       <rdfs:comment xml:lang="en">
-	 A base 64 encoded audio resource
+	 A base 64 encoded resource
       </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64 Audio Resource</rdfs:label>
+      <rdfs:label xml:lang="en">Base64 Resource</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fileName">
@@ -2971,7 +3060,7 @@
       <rdfs:label xml:lang="en">File Name</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#audioMimeType">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mimeType">
       <rdfs:subClassOf>
 	 <owl:Restriction>
 	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
@@ -2979,12 +3068,12 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	 The mime type of the base64 encoded audio data
+	 The mime type of the base64 encoded data
       </rdfs:comment>
       <rdfs:label xml:lang="en">Audio Mime Type</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#audioData">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#data">
       <rdfs:subClassOf>
 	 <owl:Restriction>
 	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
@@ -2992,7 +3081,7 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	 A base 64 encoded string containing the audio
+	 A base 64 encoded string containing the data 
       </rdfs:comment>
       <rdfs:label xml:lang="en">Audio Data</rdfs:label>
    </owl:Class>
@@ -3005,7 +3094,7 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	 The date of audio encoding
+	 The date of encoding
       </rdfs:comment>
       <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
    </owl:Class>
@@ -3018,7 +3107,7 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	 The time of audio encoding
+	 The time of encoding
       </rdfs:comment>
       <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
    </owl:Class>
@@ -3031,7 +3120,7 @@
 	 </owl:Restriction>
       </rdfs:subClassOf>
       <rdfs:comment xml:lang="en">
-	 The sha2 hash of the base64 encoded audio data for verification
+	 The sha2 hash of the base64 encoded data for verification
       </rdfs:comment>
       <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
    </owl:Class>
@@ -3042,434 +3131,6 @@
 	 A base 64 encoded image resource
       </rdfs:comment>
       <rdfs:label xml:lang="en">Base64 Image Resource</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fileName">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64ImageResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The file name without the mime type. Fore example '19.11.1996_image1'. This is
-	 useful to reconstruct the file for processing.
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">File Name</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#imageMimeType">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64ImageResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The mime type of the base64 encoded image data
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Image Mime Type</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#imageData">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64ImageResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 A base 64 encoded string containing the image
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Image Data</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingDate">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64ImageResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The date of image encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingTime">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64ImageResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The time of image encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#sha2hash">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64ImageResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The sha2 hash of the base64 encoded image data for verification
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Base64VideoResource">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#EmbeddedResource"/>
-      <rdfs:comment xml:lang="en">
-	 A base 64 encoded video resource
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64 Video Resource</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fileName">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64VideoResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The file name without the mime type. Fore example '19.11.1996_video1'. This is
-	 useful to reconstruct the file for processing.
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">File Name</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#videoMimeType">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64VideoResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The mime type of the base64 encoded video data
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Video Mime Type</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#videoData">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64VideoResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 A base 64 encoded string containing the video
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Video Data</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingDate">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64VideoResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The date of video encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingTime">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64VideoResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The time of video encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#sha2hash">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64VideoResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The sha2 hash of the base64 encoded video data for verification
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Base64TableResource">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#EmbeddedResource"/>
-      <rdfs:comment xml:lang="en">
-	 A base 64 encoded table resource
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64 Table Resource</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fileName">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64TableResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The file name without the mime type. Fore example '19.11.1996_table1'. This is
-	 useful to reconstruct the file for processing.
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">File Name</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#tableMimeType">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64TableResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The mime type of the base64 encoded table data
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Table Mime Type</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#tableData">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64TableResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 A base 64 encoded string containing the table
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Table Data</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingDate">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64TableResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The date of table encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingTime">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64TableResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The time of table encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#sha2hash">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64TableResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The sha2 hash of the base64 encoded table data for verification
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Base64MetadataResource">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#EmbeddedResource"/>
-      <rdfs:comment xml:lang="en">
-	 A base 64 encoded metadata resource
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64 Metadata Resource</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fileName">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64MetadataResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The file name without the mime type. Fore example
-	 '19.11.1996_video1_eml_metadata'. This is useful to reconstruct the file for
-	 processing.
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">File Name</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#metadataMimeType">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64MetadataResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The mime type of the base64 encoded metadata data (e.g. xml)
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Metadata Mime Type</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#metadataData">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64MetadataResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 A base 64 encoded string containing the metadata
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Metadata Data</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingDate">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64MetadataResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The date of metadata encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingTime">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64MetadataResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The time of metadata encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#sha2hash">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64MetadataResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The sha2 hash of the base64 encoded metadata data for verification
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Base64GenericResource">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#EmbeddedResource"/>
-      <rdfs:comment xml:lang="en">
-	 An arbitrary format base 64 encoded resource file
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Base64 Generic Resource</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fileName">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64GenericResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The file name without the mime type. Fore example '19.11.1996_notes'. This is
-	 useful to reconstruct the file for processing.
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">File Name</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#genericMimeType">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64GenericResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The mime type of the base64 encoded metadata data (e.g. .txt)
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Generic Mime Type</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#genericData">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64GenericResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 A base 64 encoded string containing the data
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Generic Data</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingDate">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64GenericResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The date of data encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Date</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#encodingTime">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64GenericResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The time of data encoding
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Encoding Time</rdfs:label>
-   </owl:Class>
-
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#sha2hash">
-      <rdfs:subClassOf>
-	 <owl:Restriction>
-	    <owl:onProperty rdf:resource="http://terminologies.gfbio.org/terms/ease#isPartOf"/>
-	    <owl:someValuesFrom rdf:resource="http://terminologies.gfbio.org/terms/ease#Base64GenericResource"/>
-	 </owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:comment xml:lang="en">
-	 The sha2 hash of the base64 encoded data for verification
-      </rdfs:comment>
-      <rdfs:label xml:lang="en">Sha2 Hash</rdfs:label>
    </owl:Class>
 
    <!-- timezones  -->
@@ -9483,16 +9144,65 @@
       <rdfs:label xml:lang="en">Wgs 84</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#City">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Country">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#locationType"/>
       <rdfs:comment xml:lang="en">
-	 A city is a large and permanent human settlement. Although there is
-	 no agreement on how a city is distinguished from a town in general
-	 English language meanings, many cities have a particular
-	 administrative, legal, or historical status based on local law (WP,
-	 http://bit.ly/1UokPQa)
+	 A country is a region that is identified as a distinct national
+	 entity in political geography. A country may be an independent
+	 sovereign state or one that is occupied by another state, as a
+	 non-sovereign or formerly sovereign political division, or a
+	 geographic region associated with sets of previously independent or
+	 differently associated people with distinct political
+	 characteristics. Regardless of the physical geography, in the
+	 modern internationally accepted legal definition as defined by the
+	 League of Nations in 1937 and reaffirmed by the United Nations in
+	 1945, a resident of a country is subject to the independent
+	 exercise of legal jurisdiction (Wikipedia, https://goo.gl/7j9rFh).
       </rdfs:comment>
       <rdfs:label xml:lang="en">City</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#State">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#locationType"/>
+      <rdfs:comment xml:lang="en">
+	 A state is a type of polity that is an organized political
+	 community living under a single system of government. States may or
+	 may not be sovereign. For instance, federated states are members of
+	 a federal union, and may have only partial sovereignty, but are,
+	 nonetheless, states. Some states are subject to external
+	 sovereignty or hegemony, in which ultimate sovereignty lies in
+	 another state. States that are sovereign are known as sovereign
+	 states (Wikipedia, https://goo.gl/c88kso).
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">State</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Region">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#locationType"/>
+      <rdfs:comment xml:lang="en">
+	 In geography, regions are areas broadly divided by physical
+	 characteristics (physical geography), human impact characteristics
+	 (human geography), and the interaction of humanity and the
+	 environment (environmental geography). Geographic regions and
+	 sub-regions are mostly described by their imprecisely defined, and
+	 sometimes transitory boundaries, except in human geography, where
+	 jurisdiction areas such as national borders are defined in law
+	 (Wikipedia, https://goo.gl/SjH2D).
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">State</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#HumanSettlement">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#locationType"/>
+      <rdfs:comment xml:lang="en">
+	 In geography, statistics and archaeology, a settlement, locality or
+	 populated place is a community in which people live. A settlement
+	 can range in size from a small number of dwellings grouped together
+	 to the largest of cities with surrounding urbanized areas.
+	 Settlements may include hamlets, villages, towns and cities
+	 (Wikipedia, https://goo.gl/GFWOx5).
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Human Settlement</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Mountain">
@@ -9509,16 +9219,17 @@
       <rdfs:label xml:lang="en">Mountain</rdfs:label>
    </owl:Class>
 
-   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#River">
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Stream">
       <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#locationType"/>
       <rdfs:comment xml:lang="en">
-	 A river is a natural flowing watercourse, usually freshwater, flowing towards
-	 an ocean, sea, lake or another river. In some cases a river flows into the
-	 ground and becomes dry at the end of its course without reaching another body
-	 of water. Small rivers can be referred to using names such as stream, creek,
-	 brook, rivulet, and rill (WP, http://bit.ly/1Lh8CaF)
+	 A stream is a body of water with a current, confined within a bed
+	 and banks. Depending on its location or certain characteristics, a
+	 stream may be referred to as a branch, brook, beck, burn, creek,
+	 crick, ghyll, gill, kill, lick, mill race, race, rill, river, syke,
+	 bayou, rivulet, streamage, wash, run, or runnel. (Wikipedia,
+	 https://goo.gl/zP1tA9)
       </rdfs:comment>
-      <rdfs:label xml:lang="en">River</rdfs:label>
+      <rdfs:label xml:lang="en">Stream</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Lake">
@@ -9552,6 +9263,19 @@
 	 ( Wikipedia, https://goo.gl/z9v3my )
       </rdfs:comment>
       <rdfs:label xml:lang="en">Forest</rdfs:label>
+   </owl:Class>
+
+   <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Park">
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#locationType"/>
+      <rdfs:comment xml:lang="en">
+	 A park is an area of natural, semi-natural, or planted space set
+	 aside for human enjoyment and recreation or for the protection of
+	 wildlife or natural habitats. It may consist of grassy areas,
+	 rocks, soil, and trees, but may also contain buildings and other
+	 artifacts such as monuments, fountains or playground structures.
+	 (Wikipedia, https://goo.gl/prF8qX)
+      </rdfs:comment>
+      <rdfs:label xml:lang="en">Park</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#Study Site">
@@ -18205,7 +17929,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mp3">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 MP3 audio file (audio/mpeg3, audio/x-mpeg-3, video/mpeg, video/x-mpeg)
       </rdfs:comment>
@@ -18213,7 +17937,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#adp">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Adaptive differential pulse-code modulation (audio/adpcm)
       </rdfs:comment>
@@ -18221,7 +17945,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#au">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Sun Audio - Au file format (audio/basic)
       </rdfs:comment>
@@ -18229,7 +17953,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mid">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 MIDI - Musical Instrument Digital Interface (audio/midi)
       </rdfs:comment>
@@ -18237,7 +17961,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mp4a">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 MPEG-4 Audio (audio/mp4)
       </rdfs:comment>
@@ -18245,7 +17969,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mpga">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 MPEG Audio (audio/mpeg)
       </rdfs:comment>
@@ -18253,7 +17977,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#oga">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Ogg Audio (audio/ogg)
       </rdfs:comment>
@@ -18261,7 +17985,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#uva">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DECE Audio (audio/vnd.dece.audio)
       </rdfs:comment>
@@ -18269,7 +17993,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#eol">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Digital Winds Music (audio/vnd.digital-winds)
       </rdfs:comment>
@@ -18277,7 +18001,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#dra">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DRA Audio (audio/vnd.dra)
       </rdfs:comment>
@@ -18285,7 +18009,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#dts">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DTS Audio (audio/vnd.dts)
       </rdfs:comment>
@@ -18293,7 +18017,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#dtshd">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DTS High Definition Audio (audio/vnd.dts.hd)
       </rdfs:comment>
@@ -18301,7 +18025,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#lvp">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Lucent Voice (audio/vnd.lucent.voice)
       </rdfs:comment>
@@ -18309,7 +18033,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#pya">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft PlayReady Ecosystem (audio/vnd.ms-playready.media.pya)
       </rdfs:comment>
@@ -18317,7 +18041,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ecelp4800">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Nuera ECELP 4800 (audio/vnd.nuera.ecelp4800)
       </rdfs:comment>
@@ -18325,7 +18049,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ecelp7470">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Nuera ECELP 7470 (audio/vnd.nuera.ecelp7470)
       </rdfs:comment>
@@ -18333,7 +18057,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ecelp9600">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Nuera ECELP 9600 (audio/vnd.nuera.ecelp9600)
       </rdfs:comment>
@@ -18341,7 +18065,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#rip">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Hit'n'Mix (audio/vnd.rip)
       </rdfs:comment>
@@ -18349,7 +18073,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#weba">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Open Web Media Project - Audio (audio/webm)
       </rdfs:comment>
@@ -18357,7 +18081,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#aac">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Advanced Audio Coding (AAC) (audio/x-aac)
       </rdfs:comment>
@@ -18365,7 +18089,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#aif">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Audio Interchange File Format (audio/x-aiff)
       </rdfs:comment>
@@ -18373,7 +18097,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#m3u">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 M3U (Multimedia Playlist) (audio/x-mpegurl)
       </rdfs:comment>
@@ -18381,7 +18105,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#wax">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Windows Media Audio Redirector (audio/x-ms-wax)
       </rdfs:comment>
@@ -18389,7 +18113,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#wma">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Windows Media Audio (audio/x-ms-wma)
       </rdfs:comment>
@@ -18397,7 +18121,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ram">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Real Audio Sound (audio/x-pn-realaudio)
       </rdfs:comment>
@@ -18405,7 +18129,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#rmp">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Real Audio Sound (audio/x-pn-realaudio-plugin)
       </rdfs:comment>
@@ -18413,7 +18137,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#wav">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#audioMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Waveform Audio File Format (WAV) (audio/x-wav)
       </rdfs:comment>
@@ -18421,7 +18145,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#bmp">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Bitmap Image File (image/bmp)
       </rdfs:comment>
@@ -18429,7 +18153,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#cgm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Computer Graphics Metafile (image/cgm)
       </rdfs:comment>
@@ -18437,7 +18161,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#g3">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 G3 Fax Image (image/g3fax)
       </rdfs:comment>
@@ -18445,7 +18169,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#gif">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Graphics Interchange Format (image/gif)
       </rdfs:comment>
@@ -18453,7 +18177,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ief">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Image Exchange Format (image/ief)
       </rdfs:comment>
@@ -18461,7 +18185,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#jpeg">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 JPEG Image (image/jpeg)
       </rdfs:comment>
@@ -18469,7 +18193,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#jpg">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 JPEG Image (image/jpeg)
       </rdfs:comment>
@@ -18477,7 +18201,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ktx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 OpenGL Textures (KTX) (image/ktx)
       </rdfs:comment>
@@ -18485,7 +18209,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#png">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Portable Network Graphics (PNG) (image/png)
       </rdfs:comment>
@@ -18493,7 +18217,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#btif">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 BTIF (image/prs.btif)
       </rdfs:comment>
@@ -18501,7 +18225,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#svg">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Scalable Vector Graphics (SVG) (image/svg+xml)
       </rdfs:comment>
@@ -18509,7 +18233,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#tiff">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Tagged Image File Format (image/tiff)
       </rdfs:comment>
@@ -18517,7 +18241,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#psd">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Photoshop Document (image/vnd.adobe.photoshop)
       </rdfs:comment>
@@ -18525,7 +18249,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#uvi">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DECE Graphic (image/vnd.dece.graphic)
       </rdfs:comment>
@@ -18533,7 +18257,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#djvu">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DjVu (image/vnd.djvu)
       </rdfs:comment>
@@ -18541,7 +18265,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#sub">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Close Captioning - Subtitle (image/vnd.dvb.subtitle)
       </rdfs:comment>
@@ -18549,7 +18273,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#dwg">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DWG Drawing (image/vnd.dwg)
       </rdfs:comment>
@@ -18557,7 +18281,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#dxf">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 AutoCAD DXF (image/vnd.dxf)
       </rdfs:comment>
@@ -18565,7 +18289,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fbs">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 FastBid Sheet (image/vnd.fastbidsheet)
       </rdfs:comment>
@@ -18573,7 +18297,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fpx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 FlashPix (image/vnd.fpx)
       </rdfs:comment>
@@ -18581,7 +18305,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fst">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 FAST Search and Transfer ASA (image/vnd.fst)
       </rdfs:comment>
@@ -18589,7 +18313,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mmr">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 EDMICS 2000 (image/vnd.fujixerox.edmics-mmr)
       </rdfs:comment>
@@ -18597,7 +18321,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#rlc">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 EDMICS 2000 (image/vnd.fujixerox.edmics-rlc)
       </rdfs:comment>
@@ -18605,7 +18329,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mdi">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Document Imaging Format (image/vnd.ms-modi)
       </rdfs:comment>
@@ -18613,7 +18337,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#npx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 FlashPix (image/vnd.net-fpx)
       </rdfs:comment>
@@ -18621,7 +18345,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#wbmp">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 WAP Bitamp (WBMP) (image/vnd.wap.wbmp)
       </rdfs:comment>
@@ -18629,7 +18353,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#xif">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 eXtended Image File Format (XIFF)
 	 (image/vnd.xiff)
@@ -18638,14 +18362,14 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#webp">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en"> WebP Image (image/webp)
       </rdfs:comment>
       <rdfs:label xml:lang="en">webp</rdfs:label>
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ras">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en"> CMU Image
 	 (image/x-cmu-raster)
       </rdfs:comment>
@@ -18653,7 +18377,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#cmx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en"> Corel Metafile
 	 Exchange (CMX) (image/x-cmx)
       </rdfs:comment>
@@ -18661,7 +18385,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fh">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 FreeHand MX
 	 (image/x-freehand)
@@ -18670,7 +18394,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ico">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Icon Image (image/x-icon)
       </rdfs:comment>
@@ -18678,7 +18402,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#pcx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 PCX Image (image/x-pcx)
       </rdfs:comment>
@@ -18686,7 +18410,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#pic">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 PICT Image (image/x-pict)
       </rdfs:comment>
@@ -18694,7 +18418,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#pnm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Portable Anymap Image (image/x-portable-anymap)
       </rdfs:comment>
@@ -18702,7 +18426,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#pbm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Portable Bitmap Format (image/x-portable-bitmap)
       </rdfs:comment>
@@ -18710,7 +18434,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#pgm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Portable Graymap Format
 	 (image/x-portable-graymap)
@@ -18719,7 +18443,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ppm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Portable Pixmap Format
 	 (image/x-portable-pixmap)
@@ -18728,7 +18452,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#rgb">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Silicon Graphics RGB Bitmap (image/x-rgb)
       </rdfs:comment>
@@ -18736,7 +18460,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#xbm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 X BitMap (image/x-xbitmap)
       </rdfs:comment>
@@ -18744,7 +18468,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#xpm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 X PixMap (image/x-xpixmap)
       </rdfs:comment>
@@ -18752,7 +18476,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#xwd">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#imageMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 X Window Dump (image/x-xwindowdump)
       </rdfs:comment>
@@ -18760,7 +18484,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#3gp">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 3GP (video/3gpp)
       </rdfs:comment>
@@ -18768,7 +18492,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#3g2">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 3GP2 (video/3gpp2)
       </rdfs:comment>
@@ -18776,7 +18500,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#h261">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 H.261 (video/h261)
       </rdfs:comment>
@@ -18784,7 +18508,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#h263">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 H.263 (video/h263)
       </rdfs:comment>
@@ -18792,7 +18516,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#h264">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 H.264 (video/h264)
       </rdfs:comment>
@@ -18800,7 +18524,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#jpgv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 JPGVideo (video/jpeg)
       </rdfs:comment>
@@ -18808,7 +18532,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#jpm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 JPEG 2000 Compound Image File Format (video/jpm)
       </rdfs:comment>
@@ -18816,7 +18540,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mj2">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Motion JPEG 2000 (video/mj2)
       </rdfs:comment>
@@ -18824,7 +18548,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mp4">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 MPEG-4 Video (video/mp4)
       </rdfs:comment>
@@ -18832,7 +18556,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mpeg">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 MPEG Video (video/mpeg)
       </rdfs:comment>
@@ -18840,7 +18564,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#ogv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Ogg Video (video/ogg)
       </rdfs:comment>
@@ -18848,7 +18572,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#qt">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Quicktime Video (video/quicktime)
       </rdfs:comment>
@@ -18856,7 +18580,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#uvh">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DECE High Definition Video (video/vnd.dece.hd)
       </rdfs:comment>
@@ -18864,7 +18588,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#uvm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DECE Mobile Video (video/vnd.dece.mobile)
       </rdfs:comment>
@@ -18872,7 +18596,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#uvp">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DECE PD Video (video/vnd.dece.pd)
       </rdfs:comment>
@@ -18880,7 +18604,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#uvs">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DECE SD Video (video/vnd.dece.sd)
       </rdfs:comment>
@@ -18888,7 +18612,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#uvv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DECE Video (video/vnd.dece.video)
       </rdfs:comment>
@@ -18896,7 +18620,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fvt">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 FAST Search and Transfer ASA (video/vnd.fvt)
       </rdfs:comment>
@@ -18904,7 +18628,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#mxu">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 MPEG Url (video/vnd.mpegurl)
       </rdfs:comment>
@@ -18912,7 +18636,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#pyv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft PlayReady Ecosystem Video (video/vnd.ms-playready.media.pyv)
       </rdfs:comment>
@@ -18920,7 +18644,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#uvu">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 DECE MP4 (video/vnd.uvvu.mp4)
       </rdfs:comment>
@@ -18928,7 +18652,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#viv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Vivo (video/vnd.vivo)
       </rdfs:comment>
@@ -18936,7 +18660,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#webm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Open Web Media Project - Video (video/webm)
       </rdfs:comment>
@@ -18944,7 +18668,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#f4v">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Flash Video (video/x-f4v)
       </rdfs:comment>
@@ -18952,7 +18676,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#fli">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 FLI/FLC Animation Format (video/x-fli)
       </rdfs:comment>
@@ -18960,7 +18684,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#flv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Flash Video (video/x-flv)
       </rdfs:comment>
@@ -18968,7 +18692,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#m4v">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 M4v (video/x-m4v)
       </rdfs:comment>
@@ -18976,7 +18700,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#asf">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Advanced Systems Format (ASF) (video/x-ms-asf)
       </rdfs:comment>
@@ -18984,7 +18708,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#wm">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Windows Media (video/x-ms-wm)
       </rdfs:comment>
@@ -18992,7 +18716,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#wmv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Windows Media Video (video/x-ms-wmv)
       </rdfs:comment>
@@ -19000,7 +18724,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#wmx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Windows Media Audio/Video Playlist (video/x-ms-wmx)
       </rdfs:comment>
@@ -19008,7 +18732,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#wvx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Windows Media Video Playlist (video/x-ms-wvx)
       </rdfs:comment>
@@ -19016,7 +18740,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#avi">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Audio Video Interleave (AVI) (video/x-msvideo)
       </rdfs:comment>
@@ -19024,7 +18748,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#movie">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#videoMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 SGI Movie (video/x-sgi-movie)
       </rdfs:comment>
@@ -19032,7 +18756,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#xlsx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#tableMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Office - OOXML - Spreadsheet
 	 (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)
@@ -19041,7 +18765,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#xltx">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#tableMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Microsoft Office - OOXML - Spreadsheet Teplate
 	 (application/vnd.openxmlformats-officedocument.spreadsheetml.template)
@@ -19050,7 +18774,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#csv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#tableMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Comma-Seperated Values (text/csv)
       </rdfs:comment>
@@ -19058,7 +18782,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#tsv">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#tableMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Tab Seperated Values (text/tab-separated-values)
       </rdfs:comment>
@@ -19066,7 +18790,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#sxc">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#tableMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 OpenOffice - Calc (Spreadsheet) (application/vnd.sun.xml.calc)
       </rdfs:comment>
@@ -19074,7 +18798,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#stc">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#tableMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 OpenOffice - Calc Template (Spreadsheet)
 	 (application/vnd.sun.xml.calc.template)
@@ -19083,7 +18807,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#eml">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#metadataMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Ecological Metadata Language file
       </rdfs:comment>
@@ -19091,7 +18815,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#abcd">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#metadataMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Access To Biological Collection Data file
       </rdfs:comment>
@@ -19099,7 +18823,7 @@
    </owl:Class>
 
    <owl:Class rdf:about="http://terminologies.gfbio.org/terms/ease#dwc">
-      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#metadataMimeType"/>
+      <rdfs:subClassOf rdf:resource="http://terminologies.gfbio.org/terms/ease#mimeType"/>
       <rdfs:comment xml:lang="en">
 	 Darwin Core file
       </rdfs:comment>
