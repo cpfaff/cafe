@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Cafe>
+<Ease>
   <Object>
     <Contexts>
       <!--1 or more repetitions:-->
@@ -30,9 +30,9 @@
             <TimePeriod>
               <!--1 or more repetitions:-->
               <GeologicalTimePeriod>
-                <geologicalEon uri="http://www.company.edu/profundum/bella">Precambrian</geologicalEon>
+                <geologicalEon uri="http://www.company.edu/profundum/bella">Archean</geologicalEon>
                 <!--Optional:-->
-                <geologicalEra uri="http://www.corp.gov/hoc/rapidum">Paleoarchean</geologicalEra>
+                <geologicalEra uri="http://www.corp.gov/hoc/rapidum">Mesoproterozoic</geologicalEra>
                 <!--Optional:-->
                 <geologicalPeriod uri="http://www.my.org/circum/aris">Siderian</geologicalPeriod>
                 <!--Optional:-->
@@ -44,6 +44,7 @@
           </TimePeriods>
           <!--Optional:-->
           <TemporalResolutions>
+            <!--1 or more repetitions:-->
             <TemporalResolution>
               <temporalExtentType uri="http://www.test.org/pectore/talia">Day</temporalExtentType>
               <temporalResolutionType uri="http://www.sample.gov/sciret/certo">Century</temporalResolutionType>
@@ -91,13 +92,14 @@
             <!--1 or more repetitions:-->
             <Location>
               <locationName>string</locationName>
-              <locationType uri="http://www.any.org/insuper/molemque">Sea</locationType>
+              <locationType uri="http://www.any.org/insuper/molemque">Country</locationType>
               <countryName uri="http://www.sample.edu/circum/vasto">Bosnia and Herzegovina</countryName>
               <continentName uri="http://www.sample.org/tempestatesque/aris">North America</continentName>
             </Location>
           </Locations>
           <!--Optional:-->
           <SpatialResolutions>
+            <!--1 or more repetitions:-->
             <SpatialResolution>
               <spatialExtentType uri="http://www.your.org/ac/iras">Point</spatialExtentType>
               <spatialResolutionType uri="http://www.any.edu/austris/dedit">Region</spatialResolutionType>
@@ -507,7 +509,7 @@
           <Approaches>
             <!--1 or more repetitions:-->
             <Approach>
-              <ApproachType uri="http://www.any.edu/in/premit">Manipulative</ApproachType>
+              <approachType uri="http://www.any.edu/in/premit">Manipulative</approachType>
               <approachLocalization uri="http://www.your.org/sonoras/et">Mesocosm</approachLocalization>
             </Approach>
           </Approaches>
@@ -612,4 +614,4 @@
       </Resource>
     </Resources>
   </Object>
-</Cafe>
+</Ease>
