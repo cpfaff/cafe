@@ -434,6 +434,7 @@
 						      </xs:documentation>
 						    </xs:annotation>
 						  </xs:element>
+						  <!-- todo: subzone should be optional  -->
 						  <xs:element name="utmCoordinateSubZone" type="xs:integer" minOccurs="1" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
@@ -603,7 +604,8 @@
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
 				      Spheres is a wrapper that holds all sorts of information about spheres that
-				      describe the search object.
+				      describe the search object. Basically it describes where the measurements have
+				      been taken thus this is somewhat complementing the location part.
 				    </xs:documentation>
 				  </xs:annotation>
 				  <xs:complexType>
@@ -658,6 +660,8 @@
 						      </xs:sequence>
 						    </xs:complexType>
 						  </xs:element>
+						  <!-- todo: that is somewhat redundant to the envelope set with the elevation and might be
+						       removed except it means somehitng significantly different -->
 						  <xs:element name="NumericAtmosphereLayers" minOccurs="0" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
@@ -2403,8 +2407,8 @@
 					    <xs:element name="dataSourceType" type="DataSourceType" minOccurs="1" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
-						  The type of source the data has been derived from that is described with this
-						  annotation.
+						  The type of source the data has been derived from which is described with this
+						  annotation. E.g. meta analyses based on collection specimen, or literature.
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
@@ -9236,7 +9240,7 @@
 
   <xs:simpleType name="ElevationDatumVocabulary">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Mean Sea Level">
+      <xs:enumeration value="Above Mean Sea Level">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    NA
@@ -9440,7 +9444,6 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      </xs:enumeration>
       <xs:enumeration value="Nature Reserve">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -9458,7 +9461,6 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-
       <xs:enumeration value="Human Settlement">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -9547,7 +9549,6 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
@@ -16407,15 +16408,6 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Functional Group">
-	<xs:annotation>
-	  <xs:documentation xml:lang="en">
-	    The functional group is an atom or a group of atoms, which defines the
-	    characteristic physical and chemical properties of families of organic
-	    compounds. (http://goldbook.iupac.org/F02555.html)
-	  </xs:documentation>
-	</xs:annotation>
-      </xs:enumeration>
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
@@ -18067,10 +18059,11 @@
 	      <xs:enumeration value="measured">
 		<xs:annotation>
 		  <xs:documentation xml:lang="en">
-		    A variable that has been measured due to
+		    A variable that has been measured
 		  </xs:documentation>
 		</xs:annotation>
 	      </xs:enumeration>
+	      <!-- todo: estimated might be good to have as well -->
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
@@ -18081,6 +18074,7 @@
   <xs:simpleType name="FactorTypeVocabulary">
     <xs:restriction base="xs:string">
       <!-- biotic -->
+      <!-- the ones are rather a factor attributes   -->
       <xs:enumeration value="Biotic">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -18104,6 +18098,9 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+
+      <!-- todo: the two above and the ones below are somewhat of a different quality. This
+	   feels odd during the annotation: These are factor types -->
       <xs:enumeration value="Disturbance">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -18432,9 +18429,9 @@
   <xs:simpleType name="DataSourceTypeVocabulary">
     <xs:annotation>
       <xs:documentation xml:lang="en">
-	The base object describes the type of source scientific data is derived from
-	(e.g. Specimen, Literature, Multimedia (e.g. audio, video), Material Sample:
-	e.g Tissue; Mineral, Image: Photo or Drawing)
+	The source the scientific data is derived from (e.g. Specimen,
+	Literature, Multimedia (e.g. audio, video), Material Sample: e.g
+	Tissue; Mineral, Image: Photo or Drawing)
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
