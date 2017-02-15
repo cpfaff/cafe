@@ -86,14 +86,14 @@
 							    </xs:documentation>
 							  </xs:annotation>
 							</xs:element>
-							<xs:element name="time" type="xs:time" minOccurs="1" maxOccurs="1">
+							<xs:element name="time" type="xs:time" minOccurs="0" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      A single time in form HH:MM:SS conform to iso 8601.
 							    </xs:documentation>
 							  </xs:annotation>
 							</xs:element>
-							<xs:element name="timezone" type="Timezone" minOccurs="1" maxOccurs="1">
+							<xs:element name="timezone" type="Timezone" minOccurs="0" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      The olson timezone to capture the timezone of the given date and time in the
@@ -131,14 +131,14 @@
 							    </xs:documentation>
 							  </xs:annotation>
 							</xs:element>
-							<xs:element name="time" type="xs:time" minOccurs="1" maxOccurs="1">
+							<xs:element name="time" type="xs:time" minOccurs="0" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      A single time in form HH:MM:SS conform to iso 8601.
 							    </xs:documentation>
 							  </xs:annotation>
 							</xs:element>
-							<xs:element name="timezone" type="Timezone" minOccurs="1" maxOccurs="1">
+							<xs:element name="timezone" type="Timezone" minOccurs="0" maxOccurs="1">
 							  <xs:annotation>
 							    <xs:documentation xml:lang="en">
 							      The olson timezone to capture the timezone of the given date and time in the
@@ -252,7 +252,7 @@
 					</xs:annotation>
 					<xs:complexType>
 					  <xs:sequence>
-					    <xs:element name="temporalExtentType" type="TemporalExtentType" minOccurs="1" maxOccurs="1">
+					    <xs:element name="temporalExtentType" type="TemporalExtentType" minOccurs="0" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The temporal extent type is a categorical value that describes the extent of
@@ -261,7 +261,7 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="temporalResolutionType" type="TemporalResolutionType" minOccurs="1" maxOccurs="1">
+					    <xs:element name="temporalResolutionType" type="TemporalResolutionType" minOccurs="0" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The temporal resolution is a categorical value that describes the resolution of
@@ -2072,7 +2072,7 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="processType" type="ProcessType" minOccurs="1" maxOccurs="unbounded">
+					    <xs:element name="processType" type="ProcessType" minOccurs="0" maxOccurs="unbounded">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The process type of the process given under Process Name for classification
@@ -2378,7 +2378,7 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-				<xs:element name="DataFormats">
+				<xs:element name="DataFormats" minOccurs="0" maxOccurs="1">
 				  <xs:complexType>
 				    <xs:sequence>
 				      <xs:element name="DataFormat" minOccurs="1" maxOccurs="unbounded">
@@ -2398,7 +2398,7 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-				<xs:element name="DataSources">
+				<xs:element name="DataSources" minOccurs="0" maxOccurs="1">
 				  <xs:complexType>
 				    <xs:sequence>
 				      <xs:element name="DataSource" minOccurs="1" maxOccurs="unbounded">
@@ -2512,7 +2512,7 @@
 				    </xs:documentation>
 				  </xs:annotation>
 				</xs:element>
-				<xs:element name="phoneNumber" type="xs:string" minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="phoneNumber" type="xs:string" minOccurs="0" maxOccurs="unbounded">
 				  <xs:annotation>
 				    <xs:documentation xml:lang="en">
 				      Phone number of the person
