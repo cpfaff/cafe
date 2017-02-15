@@ -16453,7 +16453,7 @@
       <xs:enumeration value="Nucleic Acid">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Nucleic acids are biopolymers essenttial fpor all known forms of life. Nucleic
+	    Nucleic acids are biopolymers essenttial for all known forms of life. Nucleic
 	    acids, which include DNA and RNA are made of monomers known as nucleotides.
 	    (https://en.wikipedia.org/wiki/Nucleic_acid)
 	  </xs:documentation>
@@ -17789,7 +17789,7 @@
       <xs:enumeration value="Producer Diversity">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This includes richness, functional diversity, shannon diversity
+	    This includes richness, functional diversity, shannon diversity, rarefaction
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -17803,22 +17803,23 @@
       <xs:enumeration value="Producer Density">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    All density or packing related manipulation of consumers. Ammount
-	    of certain individuals per plot.
+	    All density or packing related to consumers. E.g. ammount
+	    of certain individuals per plot or coverage.
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Producer Structure">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    The size, height, leaf area index, age structure
+	    The size, height, leaf area index, wood density, age structure of a
+	    stand, leaf mass ratio, biomass
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Consumer Diversity">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    All diversity related factor of consumers, richness, shannon
+	    This includes richness, functional diversity, shannon diversity, rarefaction
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -17832,7 +17833,7 @@
       <xs:enumeration value="Consumer Density">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    All spatial related manipulations to consumers (e.g. density of
+	    E.g. spatial related manipulations to consumers (e.g. density of
 	    grashoppers per plot)
 	  </xs:documentation>
 	</xs:annotation>
@@ -18026,7 +18027,7 @@
       <xs:enumeration value="Space">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    Time as an experimental design parameter. For example plots are selected with a
+	    Space as an experimental design parameter. For example plots are selected with a
 	    specific distance to road to see if dear browsing is affected by disturbances
 	    coming from that roads.
 	  </xs:documentation>
@@ -18063,7 +18064,7 @@
 		  </xs:documentation>
 		</xs:annotation>
 	      </xs:enumeration>
-	      <!-- todo: estimated might be good to have as well -->
+	      <!-- todo: an estimate might be good to have as well -->
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
