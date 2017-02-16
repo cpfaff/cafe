@@ -2419,6 +2419,7 @@
 		  </xs:sequence>
 		</xs:complexType>
 	      </xs:element>
+
 	      <xs:element name="References" minOccurs="1" maxOccurs="1">
 		<xs:annotation>
 		  <xs:documentation xml:lang="en">
@@ -2517,7 +2518,8 @@
 			</xs:sequence>
 		      </xs:complexType>
 		    </xs:element>
-		    <xs:element name="Descriptions" minOccurs="1" maxOccurs="1">
+
+		    <xs:element name="Descriptions" minOccurs="0" maxOccurs="1">
 		      <xs:annotation>
 			<xs:documentation xml:lang="en">
 			  All types of descriptions related to the data described with the annotation
@@ -2525,25 +2527,36 @@
 		      </xs:annotation>
 		      <xs:complexType>
 			<xs:sequence>
-			  <xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1">
+			  <xs:element name="Description" minOccurs="1" maxOccurs="unbounded">
 			    <xs:annotation>
 			      <xs:documentation xml:lang="en">
-				A title for the data which is describe.
+				All types of descriptions related to the data described with the annotation
 			      </xs:documentation>
 			    </xs:annotation>
-			  </xs:element>
-			  <xs:element name="abstract" type="xs:string" minOccurs="1" maxOccurs="1">
-			    <xs:annotation>
-			      <xs:documentation xml:lang="en">
-				An abstract that describes the object in all
-				its details. This can contain any information
-				that is suitable to inform somebody who does
-				not know your data nor your research. Write in
-				great detail about all aspects that
-				characterize the data (e.g. condidtions, setup,
-				organism, notes).
-			      </xs:documentation>
-			    </xs:annotation>
+			    <xs:complexType>
+			      <xs:sequence>
+				<xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1">
+				  <xs:annotation>
+				    <xs:documentation xml:lang="en">
+				      A title for the data which is describe.
+				    </xs:documentation>
+				  </xs:annotation>
+				</xs:element>
+				<xs:element name="abstract" type="xs:string" minOccurs="1" maxOccurs="1">
+				  <xs:annotation>
+				    <xs:documentation xml:lang="en">
+				      An abstract that describes the object in all
+				      its details. This can contain any information
+				      that is suitable to inform somebody who does
+				      not know your data nor your research. Write in
+				      great detail about all aspects that
+				      characterize the data (e.g. condidtions, setup,
+				      organism, notes).
+				    </xs:documentation>
+				  </xs:annotation>
+				</xs:element>
+			      </xs:sequence>
+			    </xs:complexType>
 			  </xs:element>
 			</xs:sequence>
 		      </xs:complexType>
