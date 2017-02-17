@@ -1725,6 +1725,9 @@
 						      </xs:documentation>
 						    </xs:annotation>
 						  </xs:element>
+						  <!-- note: I am not sure anymore if this is really required. Maybe the linnean  -->
+						  <!-- topology provided above will suffice for the description and discovery  -->
+						  <!-- purposes -->
 						  <xs:element name="OrganismName" minOccurs="0" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
@@ -9019,6 +9022,12 @@
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
+	<xs:attribute name="modifyer" default="1">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:integer">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
@@ -9131,6 +9140,12 @@
 	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+	<xs:attribute name="modifyer" default="1">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:integer">
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
