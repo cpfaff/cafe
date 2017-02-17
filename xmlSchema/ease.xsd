@@ -1,4 +1,4 @@
-﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" version="0.0.1">
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0.0">
   <xs:element name="Ease">
     <xs:annotation>
       <xs:documentation xml:lang="en">
