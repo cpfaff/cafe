@@ -17947,7 +17947,13 @@
 		  </xs:documentation>
 		</xs:annotation>
 	      </xs:enumeration>
-	      <!-- todo: an estimate might be good to have as well -->
+	      <xs:enumeration value="estimated">
+		<xs:annotation>
+		  <xs:documentation xml:lang="en">
+		    A variable that has been estimated
+		  </xs:documentation>
+		</xs:annotation>
+	      </xs:enumeration>
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
