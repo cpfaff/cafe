@@ -13928,6 +13928,16 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+      <xs:enumeration value="Experiments">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A the locatoin is mainly used as experimental site e.g. a
+	    plantation which has semi natural character and is used only for
+	    experimental purposes.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
       <!-- extension -->
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
