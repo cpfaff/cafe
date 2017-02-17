@@ -2414,46 +2414,6 @@
 				    </xs:sequence>
 				  </xs:complexType>
 				</xs:element>
-				<xs:element name="DataFormats" minOccurs="0" maxOccurs="1">
-				  <xs:complexType>
-				    <xs:sequence>
-				      <xs:element name="DataFormat" minOccurs="1" maxOccurs="unbounded">
-					<xs:complexType>
-					  <xs:sequence>
-					    <xs:element name="dataFormatType" type="DataFormatType" minOccurs="1" maxOccurs="1">
-					      <xs:annotation>
-						<xs:documentation xml:lang="en">
-						  The file type of the data described with the annotation. For example (Audio,
-						  Image, Table, Video)
-						</xs:documentation>
-					      </xs:annotation>
-					    </xs:element>
-					  </xs:sequence>
-					</xs:complexType>
-				      </xs:element>
-				    </xs:sequence>
-				  </xs:complexType>
-				</xs:element>
-				<xs:element name="DataSources" minOccurs="0" maxOccurs="1">
-				  <xs:complexType>
-				    <xs:sequence>
-				      <xs:element name="DataSource" minOccurs="1" maxOccurs="unbounded">
-					<xs:complexType>
-					  <xs:sequence>
-					    <xs:element name="dataSourceType" type="DataSourceType" minOccurs="1" maxOccurs="1">
-					      <xs:annotation>
-						<xs:documentation xml:lang="en">
-						  The type of source the data has been derived from which is described with this
-						  annotation. E.g. meta analyses based on collection specimen, or literature.
-						</xs:documentation>
-					      </xs:annotation>
-					    </xs:element>
-					  </xs:sequence>
-					</xs:complexType>
-				      </xs:element>
-				    </xs:sequence>
-				  </xs:complexType>
-				</xs:element>
 			      </xs:sequence>
 			    </xs:complexType>
 			  </xs:element>
@@ -2639,47 +2599,30 @@
 				<xs:element name="OnlineResource" minOccurs="0" maxOccurs="unbounded">
 				  <xs:complexType>
 				    <xs:sequence>
-				      <xs:element name="Uris" minOccurs="1" maxOccurs="1">
+				      <xs:element name="downloadUrl" type="xs:anyURI" maxOccurs="1">
 					<xs:annotation>
 					  <xs:documentation xml:lang="en">
-					    The object uris is a wrapper that contains all sorts of uris that are needed to
-					    reference the search object.
+					    The URL to the download of the data. Using this URL with a download manager
+					    should return the raw data e.g. csv or whatever kind of data type is described.
 					  </xs:documentation>
 					</xs:annotation>
-					<xs:complexType>
-					  <xs:sequence>
-					    <xs:element name="Uri" minOccurs="1" maxOccurs="unbounded">
-					      <xs:annotation>
-						<xs:documentation xml:lang="en">
-						  The object uri is a container that holds one uri type of all potentially
-						  possible uri types associated with an object. This element exists for
-						  extendability of the schema and provides a semantic anchor.
-						</xs:documentation>
-					      </xs:annotation>
-					      <xs:complexType>
-						<xs:sequence>
-						  <xs:element name="downloadUrl" type="xs:anyURI" maxOccurs="1">
-						    <xs:annotation>
-						      <xs:documentation xml:lang="en">
-							The URL to the download of the data. Using this URL with a download manager
-							should return the raw data e.g. csv or whatever kind of data type is described.
-						      </xs:documentation>
-						    </xs:annotation>
-						  </xs:element>
-						  <xs:element name="referenceUrl" type="xs:anyURI" maxOccurs="1">
-						    <xs:annotation>
-						      <xs:documentation xml:lang="en">
-							The object reference URL can be used to link the annotation to more contextual
-							information for example the project homepage with more extensive metadata of
-							the search object described with the annotation.
-						      </xs:documentation>
-						    </xs:annotation>
-						  </xs:element>
-						</xs:sequence>
-					      </xs:complexType>
-					    </xs:element>
-					  </xs:sequence>
-					</xs:complexType>
+				      </xs:element>
+				      <xs:element name="referenceUrl" type="xs:anyURI" maxOccurs="1">
+					<xs:annotation>
+					  <xs:documentation xml:lang="en">
+					    The object reference URL can be used to link the annotation to more contextual
+					    information for example the project homepage with more extensive metadata of
+					    the object described with the annotation.
+					  </xs:documentation>
+					</xs:annotation>
+				      </xs:element>
+				      <xs:element name="dataFormat" type="DataFormat" minOccurs="1" maxOccurs="1">
+					<xs:annotation>
+					  <xs:documentation xml:lang="en">
+					    The file type of the data described with the annotation. For example (Audio,
+					    Image, Table, Video)
+					  </xs:documentation>
+					</xs:annotation>
 				      </xs:element>
 				    </xs:sequence>
 				  </xs:complexType>
@@ -2725,6 +2668,14 @@
 					<xs:annotation>
 					  <xs:documentation xml:lang="en">
 					    The mime type of the base64 encoded audio data
+					  </xs:documentation>
+					</xs:annotation>
+				      </xs:element>
+				      <xs:element name="dataFormat" type="DataFormat" minOccurs="1" maxOccurs="1">
+					<xs:annotation>
+					  <xs:documentation xml:lang="en">
+					    The file type of the data described with the annotation. For example (Audio,
+					    Image, Table, Video)
 					  </xs:documentation>
 					</xs:annotation>
 				      </xs:element>
@@ -2790,6 +2741,14 @@
 						<xs:annotation>
 						  <xs:documentation xml:lang="en">
 						    The sha2 hash of the base64 encoded audio data for verification
+						  </xs:documentation>
+						</xs:annotation>
+					      </xs:element>
+					      <xs:element name="dataFormat" type="DataFormat" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+						  <xs:documentation xml:lang="en">
+						    The file type of the data described with the annotation. For example (Audio,
+						    Image, Table, Video)
 						  </xs:documentation>
 						</xs:annotation>
 					      </xs:element>
@@ -18393,7 +18352,7 @@
     </xs:simpleContent>
   </xs:complexType>
 
-  <xs:simpleType name="DataFormatTypeVocabulary">
+  <xs:simpleType name="DataFormatVocabulary">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The data type provides information about the type of object. It is an
@@ -18434,9 +18393,9 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:complexType name="DataFormatType">
+  <xs:complexType name="DataFormat">
     <xs:simpleContent>
-      <xs:extension base="DataFormatTypeVocabulary">
+      <xs:extension base="DataFormatVocabulary">
 	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
