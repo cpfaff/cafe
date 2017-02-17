@@ -325,7 +325,7 @@
 				  </xs:annotation>
 				  <xs:complexType>
 				    <xs:sequence>
-				      <xs:element name="BoundingBox" minOccurs="1" maxOccurs="1">
+				      <xs:element name="BoundingBox" minOccurs="1" maxOccurs="unbounded">
 					<xs:annotation>
 					  <xs:documentation xml:lang="en">
 					    The bounding box captures the spatial extent by four geographic coordinates
@@ -380,7 +380,7 @@
 				  </xs:annotation>
 				  <xs:complexType>
 				    <xs:sequence>
-				      <xs:element name="Elevation" minOccurs="1" maxOccurs="1">
+				      <xs:element name="Elevation" minOccurs="1" maxOccurs="unbounded">
 					<xs:annotation>
 					  <xs:documentation xml:lang="en">
 					    The elevation complements the
@@ -1374,14 +1374,14 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="biomeHumidityType" type="BiomeHumidityType" minOccurs="1" maxOccurs="1">
+					    <xs:element name="biomeHumidityType" type="BiomeHumidityType" minOccurs="0" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The water availability within the biome (Semi Humid, Humid, Arid, Semi Arid)
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="biomeContinentalityType" type="BiomeContinentalityType" minOccurs="1" maxOccurs="1">
+					    <xs:element name="biomeContinentalityType" type="BiomeContinentalityType" minOccurs="0" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The influence to the biome (Continental, Maritime)
@@ -2101,7 +2101,7 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="processSubject" type="ProcessSubject" minOccurs="1" maxOccurs="unbounded">
+					    <xs:element name="processSubject" type="ProcessSubject" minOccurs="0" maxOccurs="unbounded">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The subject of the process given under process name (e.g. Organism, Chemical, Matter, Energy)
@@ -2267,7 +2267,7 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="compoundClass" type="CompoundClass" minOccurs="1" maxOccurs="unbounded">
+					    <xs:element name="compoundClass" type="CompoundClass" minOccurs="0" maxOccurs="unbounded">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  A compound class for the chemical compound given under compund name as coarse
@@ -2275,7 +2275,7 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="compoundType" type="CompoundType" minOccurs="1" maxOccurs="unbounded">
+					    <xs:element name="compoundType" type="CompoundType" minOccurs="0" maxOccurs="unbounded">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  A compound type for the chemical compound given under the compund name. It
@@ -2393,7 +2393,7 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="factorType" type="FactorType" minOccurs="1" maxOccurs="1">
+					    <xs:element name="factorType" type="FactorType" minOccurs="0" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The type of given factor (Biotic, Abiotic, Disturbance, ...)
