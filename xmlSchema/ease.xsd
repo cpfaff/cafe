@@ -17947,6 +17947,15 @@
 	</xs:annotation>
       </xs:enumeration>
       <!-- extension -->
+
+      <xs:enumeration value="Chemical Composition">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -18059,6 +18068,15 @@
 	</xs:annotation>
       </xs:enumeration>
       <!-- extension -->
+
+      <xs:enumeration value="Chemical">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
