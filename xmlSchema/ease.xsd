@@ -17910,8 +17910,22 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- topo -->
       <xs:enumeration value="Elevation">
+      <!-- topo -->
+      <xs:enumeration value="Land Form Characteristic">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    A landform is a natural feature of the solid surface of the Earth
+	    or other planetary body. Landforms together make up a given
+	    terrain, and their arrangement in the landscape is known as
+	    topography. Typical landforms include hills, mountains, plateaus,
+	    canyons, valleys, as well as shoreline features such as bays,
+	    peninsulas, and seas, including submerged features such as
+	    mid-ocean ridges, volcanoes, and the great ocean basins.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    The plot selection creates an elevation gradient. Or plots of a certain
