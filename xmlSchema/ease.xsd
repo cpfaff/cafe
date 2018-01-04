@@ -8902,6 +8902,7 @@
     </xs:restriction>
   </xs:simpleType>
 
+
   <xs:complexType name="ElevationUnit">
     <xs:simpleContent>
       <xs:extension base="ElevationUnitVocabulary">
@@ -17341,6 +17342,7 @@
   <xs:simpleType name="FactorNameVocabulary">
     <xs:restriction base="xs:string">
       <!-- biotic -->
+
       <xs:enumeration value="Producer Diversity">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -17401,6 +17403,7 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+
       <!-- abiotic -->
       <xs:enumeration value="Radiation Intensity">
 	<xs:annotation>
@@ -17459,6 +17462,7 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+
       <xs:enumeration value="Precipitation">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -17469,6 +17473,7 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+
       <xs:enumeration value="Nutrient Availability">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -17608,6 +17613,7 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+
       <xs:enumeration value="Space">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -17617,6 +17623,7 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+
       <!-- extension -->
       <xs:enumeration value="Air Pressure">
 	<xs:annotation>
@@ -18008,6 +18015,7 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+
       <xs:enumeration value="Topography">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
