@@ -471,7 +471,7 @@
 						    </xs:annotation>
 						  </xs:element>
 						  <!-- todo: subzone should be optional  -->
-						  <xs:element name="utmCoordinateSubZone" type="xs:integer" minOccurs="1" maxOccurs="1">
+						  <xs:element name="utmCoordinateSubZone" type="xs:string" minOccurs="1" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
 							The subzone letter corresponding to one of the 20 north-south divisions of the
