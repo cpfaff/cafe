@@ -2039,6 +2039,33 @@
 					    </xs:element>
 					  </xs:sequence>
 					<xs:attribute name="id" type="xs:integer"/>
+					<xs:attribute name="was" default="manipulated">
+					  <xs:simpleType>
+					    <xs:restriction base="xs:string">
+					      <xs:enumeration value="manipulated">
+						<xs:annotation>
+						  <xs:documentation xml:lang="en">
+						    A variable that has been manipulated as part of the study setup
+						  </xs:documentation>
+						</xs:annotation>
+					      </xs:enumeration>
+					      <xs:enumeration value="measured">
+						<xs:annotation>
+						  <xs:documentation xml:lang="en">
+						    A variable that has been measured
+						  </xs:documentation>
+						</xs:annotation>
+					      </xs:enumeration>
+					      <xs:enumeration value="estimated">
+						<xs:annotation>
+						  <xs:documentation xml:lang="en">
+						    A variable that has been estimated
+						  </xs:documentation>
+						</xs:annotation>
+					      </xs:enumeration>
+					    </xs:restriction>
+					  </xs:simpleType>
+					</xs:attribute>
 					</xs:complexType>
 				      </xs:element>
 				    </xs:sequence>
@@ -18107,33 +18134,6 @@
 	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">
-	    </xs:restriction>
-	  </xs:simpleType>
-	</xs:attribute>
-	<xs:attribute name="was" default="measured">
-	  <xs:simpleType>
-	    <xs:restriction base="xs:string">
-	      <xs:enumeration value="manipulated">
-		<xs:annotation>
-		  <xs:documentation xml:lang="en">
-		    A variable that has been manipulated as part of the study setup
-		  </xs:documentation>
-		</xs:annotation>
-	      </xs:enumeration>
-	      <xs:enumeration value="measured">
-		<xs:annotation>
-		  <xs:documentation xml:lang="en">
-		    A variable that has been measured
-		  </xs:documentation>
-		</xs:annotation>
-	      </xs:enumeration>
-	      <xs:enumeration value="estimated">
-		<xs:annotation>
-		  <xs:documentation xml:lang="en">
-		    A variable that has been estimated
-		  </xs:documentation>
-		</xs:annotation>
-	      </xs:enumeration>
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
