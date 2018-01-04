@@ -8902,7 +8902,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-
   <xs:complexType name="ElevationUnit">
     <xs:simpleContent>
       <xs:extension base="ElevationUnitVocabulary">
@@ -8917,15 +8916,38 @@
   </xs:complexType>
 
   <xs:simpleType name="ElevationDatumVocabulary">
+      <xs:union memberTypes="ElevationDatumVocabularyBase ElevationDatumVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="ElevationDatumVocabularyBase">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Above Mean Sea Level">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    NA
+	    A "mean sea level" is imaginary. It is not possible to know the
+	    average sea level for the entire planet. The sea level also changes
+	    over time when measured in the same place. The sea moves, high and
+	    low pressure zones affect the height, tides change the sea level,
+	    and local difference in gravity all affect the sea level. People
+	    can only pick a spot and calculate the mean sea level at that point
+	    and use it as a datum. For example, the British Ordnance Survey
+	    uses a datum based on the measurements of mean sea level at a gauge
+	    at Newlyn, Cornwall from 1915 to 1921[1] for their maps of Great
+	    Britain. This datum is actually about 80 cm different from the mean
+	    sea level reading on the other side of the country. An alternative
+	    is to base height measurements on an ellipsoid of the entire earth.
+	    GPS and other satellite systems do this. In aviation, the ellipsoid
+	    known as World Geodetic System 84 is increasingly used to define
+	    mean sea level. (Wikipedia,
+	    https://simple.wikipedia.org/wiki/Above_mean_sea_level)
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ElevationDatumVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
