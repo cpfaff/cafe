@@ -9090,6 +9090,10 @@
   </xs:complexType>
 
   <xs:simpleType name="LocationTypeVocabulary">
+      <xs:union memberTypes="LocationTypeVocabularyBase LocationTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="LocationTypeVocabularyBase">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Country">
 	<xs:annotation>
@@ -9258,7 +9262,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="LocationTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -9277,6 +9285,10 @@
   </xs:complexType>
 
   <xs:simpleType name="CountryNameVocabulary">
+      <xs:union memberTypes="CountryNameVocabularyBase CountryNameVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="CountryNameVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A country name
@@ -11019,7 +11031,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="CountryNameVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -11038,6 +11054,10 @@
   </xs:complexType>
 
   <xs:simpleType name="ContinentNameVocabulary">
+      <xs:union memberTypes="ContinentNameVocabularyBase ContinentNameVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="ContinentNameVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A continent name
@@ -11176,7 +11196,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ContinentNameVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -11825,6 +11849,10 @@
   </xs:complexType>
 
   <xs:simpleType name="SoilHorizonVocabulary">
+      <xs:union memberTypes="SoilHorizonVocabularyBase SoilHorizonVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="SoilHorizonVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A soil horizon
@@ -11959,7 +11987,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="SoilHorizonVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -13228,6 +13260,11 @@
   </xs:complexType>
 
   <xs:simpleType name="SemiAquaticPhysiognomyTypeVocabulary">
+      <xs:union memberTypes="SemiAquaticPhysiognomyTypeVocabularyBase SemiAquaticPhysiognomyTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+
+  <xs:simpleType name="SemiAquaticPhysiognomyTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A type of semi aquatic physiognomy
@@ -13295,7 +13332,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="SemiAquaticPhysiognomyTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -13314,6 +13355,10 @@
   </xs:complexType>
 
   <xs:simpleType name="PlantCharacterizedAquaticPhysiognomyTypeVocabulary">
+      <xs:union memberTypes="PlantCharacterizedAquaticPhysiognomyTypeVocabularyBase PlantCharacterizedAquaticPhysiognomyTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="PlantCharacterizedAquaticPhysiognomyTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A type of plant characterized aquatic physiognomy
@@ -13357,7 +13402,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="PlantCharacterizedAquaticPhysiognomyTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -13376,6 +13425,10 @@
   </xs:complexType>
 
   <xs:simpleType name="HabitatCharacterizedAquaticPhysiognomyVocabulary">
+      <xs:union memberTypes="HabitatCharacterizedAquaticPhysiognomyVocabularyBase HabitatCharacterizedAquaticPhysiognomyVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="HabitatCharacterizedAquaticPhysiognomyVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A type of habitat characterized aquatic physiognomy
@@ -13501,7 +13554,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="HabitatCharacterizedAquaticPhysiognomyVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -13565,6 +13622,10 @@
   </xs:complexType>
 
   <xs:simpleType name="LandUseFormVocabulary">
+      <xs:union memberTypes="LandUseFormVocabularyBase LandUseFormVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="LandUseFormVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A type of land use form
@@ -13641,8 +13702,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
 
-      <!-- extension -->
+  <xs:simpleType name="LandUseFormVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -13661,13 +13725,16 @@
   </xs:complexType>
 
   <xs:simpleType name="ProcessNameVocabulary">
+      <xs:union memberTypes="ProcessNameVocabularyBase ProcessNameVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="ProcessNameVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The name of a process.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-
       <xs:enumeration value="Adaptation">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
@@ -14020,7 +14087,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ProcessNameVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -14039,6 +14110,10 @@
   </xs:complexType>
 
   <xs:simpleType name="ProcessSubjectVocabulary">
+      <xs:union memberTypes="ProcessSubjectVocabularyBase ProcessSubjectVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="ProcessSubjectVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The focus of a process.
@@ -14100,7 +14175,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ProcessSubjectVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -14119,6 +14198,10 @@
   </xs:complexType>
 
   <xs:simpleType name="InteractionPartnerVocabulary">
+      <xs:union memberTypes="InteractionPartnerVocabularyBase InteractionPartnerVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="InteractionPartnerVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A type of interaction partner
@@ -14230,7 +14313,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="InteractionPartnerVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -14249,6 +14336,10 @@
   </xs:complexType>
 
   <xs:simpleType name="InteractionDirectionVocabulary">
+      <xs:union memberTypes="InteractionDirectionVocabularyBase InteractionDirectionVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="InteractionDirectionVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A direction type for an interaction. It is obvious that real world
@@ -14289,7 +14380,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="InteractionDirectionVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -14308,6 +14403,10 @@
   </xs:complexType>
 
   <xs:simpleType name="InteractionQualityVocabulary">
+      <xs:union memberTypes="InteractionQualityVocabularyBase InteractionQualityVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="InteractionQualityVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The quality of interaction that was in the focus of a study
@@ -14416,7 +14515,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="InteractionQualityVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -15402,6 +15505,10 @@
   </xs:complexType>
 
   <xs:simpleType name="IsotopeNameVocabulary">
+      <xs:union memberTypes="IsotopeNameVocabularyBase IsotopeNameVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="IsotopeNameVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	An isotope name
@@ -15905,7 +16012,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="IsotopeNameVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -15924,6 +16035,10 @@
   </xs:complexType>
 
   <xs:simpleType name="CompoundClassVocabulary">
+      <xs:union memberTypes="CompoundClassVocabularyBase CompoundClassVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="CompoundClassVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A compound class
@@ -15995,7 +16110,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="CompoundClassVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -17020,6 +17139,10 @@
   </xs:complexType>
 
   <xs:simpleType name="ChemicalFunctionTypeVocabulary">
+      <xs:union memberTypes="ChemicalFunctionTypeVocabularyBase ChemicalFunctionTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="ChemicalFunctionTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A chemical function type
@@ -17264,7 +17387,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ChemicalFunctionTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -17370,7 +17497,12 @@
     </xs:simpleContent>
   </xs:complexType>
 
+
   <xs:simpleType name="FactorNameVocabulary">
+      <xs:union memberTypes="FactorNameVocabularyBase FactorNameVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="FactorNameVocabularyBase">
     <xs:restriction base="xs:string">
       <!-- biotic -->
 
@@ -17960,7 +18092,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
 
+  <xs:simpleType name="FactorNameVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -18006,6 +18142,10 @@
   </xs:complexType>
 
   <xs:simpleType name="FactorTypeVocabulary">
+      <xs:union memberTypes="FactorTypeVocabularyBase FactorTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="FactorTypeVocabularyBase">
     <xs:restriction base="xs:string">
       <!-- biotic -->
       <!-- the ones are rather a factor attributes   -->
@@ -18082,10 +18222,15 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
 
+  <xs:simpleType name="FactorTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
+
 
   <xs:complexType name="FactorType">
     <xs:simpleContent>
@@ -18203,6 +18348,10 @@
   </xs:complexType>
 
   <xs:simpleType name="KingdomVocabulary">
+      <xs:union memberTypes="KingdomVocabularyBase KingdomVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="KingdomVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The kingdoms of life
@@ -18299,7 +18448,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="KingdomVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -18370,7 +18523,12 @@
   </xs:complexType>
 
   <!-- for the references -->
+
   <xs:simpleType name="DataSourceTypeVocabulary">
+      <xs:union memberTypes="DataSourceTypeVocabularyBase DataSourceTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="DataSourceTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The source the scientific data is derived from (e.g. Specimen,
@@ -18404,7 +18562,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="DataSourceTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -18423,6 +18585,10 @@
   </xs:complexType>
 
   <xs:simpleType name="DataFormatVocabulary">
+      <xs:union memberTypes="DataFormatVocabularyBase DataFormatVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="DataFormatVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The data type provides information about the type of object. It is an
@@ -18458,7 +18624,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="DataFormatVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -18477,6 +18647,10 @@
   </xs:complexType>
 
   <xs:simpleType name="HosterNameVocabulary">
+      <xs:union memberTypes="HosterNameVocabularyBase HosterNameVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="HosterNameVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The data center where the downloadable data and the metadat is hosted at. For
@@ -18485,7 +18659,7 @@
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="PANGEAE">
+      <xs:enumeration value="PANGAEA">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    PANGAEA: Data Publisher for Earth and Environmental Science, Bremen/Bremerhaven
@@ -18565,7 +18739,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="HosterNameVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -18584,6 +18762,10 @@
   </xs:complexType>
 
   <xs:simpleType name="PositionVocabulary">
+      <xs:union memberTypes="PositionVocabularyBase PositionVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="PositionVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	The function of a person
@@ -18611,7 +18793,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="PositionVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -18652,6 +18838,10 @@
   </xs:simpleType>
 
   <xs:simpleType name="AudioMimeTypeVocabulary">
+      <xs:union memberTypes="AudioMimeTypeVocabularyBase AudioMimeTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="AudioMimeTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A mime type for audio files
@@ -18847,7 +19037,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AudioMimeTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -18866,6 +19060,10 @@
   </xs:complexType>
 
   <xs:simpleType name="ImageMimeTypeVocabulary">
+      <xs:union memberTypes="ImageMimeTypeVocabularyBase ImageMimeTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="ImageMimeTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A mime type for image files
@@ -19169,7 +19367,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ImageMimeTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -19188,6 +19390,10 @@
   </xs:complexType>
 
   <xs:simpleType name="VideoMimeTypeVocabulary">
+      <xs:union memberTypes="VideoMimeTypeVocabularyBase VideoMimeTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="VideoMimeTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A mime type for video files
@@ -19432,7 +19638,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="VideoMimeTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -19451,6 +19661,10 @@
   </xs:complexType>
 
   <xs:simpleType name="TableMimeTypeVocabulary">
+      <xs:union memberTypes="TableMimeTypeVocabularyBase TableMimeTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="TableMimeTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A mime type for tabular files
@@ -19502,7 +19716,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="TableMimeTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
@@ -19521,6 +19739,10 @@
   </xs:complexType>
 
   <xs:simpleType name="MetadataMimeTypeVocabulary">
+      <xs:union memberTypes="MetadataMimeTypeVocabularyBase MetadataMimeTypeVocabularyExtension"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="MetadataMimeTypeVocabularyBase">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A mime type for metadata files
@@ -19548,7 +19770,11 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <!-- extension -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="MetadataMimeTypeVocabularyExtension">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[A-zäöüÄÖÜß0-9 ]*"/>
     </xs:restriction>
   </xs:simpleType>
