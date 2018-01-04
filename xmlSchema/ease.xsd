@@ -17962,8 +17962,304 @@
 	</xs:annotation>
       </xs:enumeration>
       <!-- extension -->
+      <xs:enumeration value="Air Pressure">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Wind Speed">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
 
       <xs:enumeration value="Chemical Composition">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Chemical Element">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Plant Trait">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Wood Trait">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Root Trait">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Leaf Trait">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Carbon Nitrogen Ratio">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Identity">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    An identity assigned to an object of measurement for later
+	    identification. For example tags on trees or coarse woody
+	    debirs elements which lay on a forest floor or plots.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Wood Density">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Bulk Density">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Bulk density is a property of powders, granules, and other
+	    "divided" solids, especially used in reference to mineral
+	    components (soil, gravel), chemical substances, (pharmaceutical)
+	    ingredients, foodstuff, or any other masses of corpuscular or
+	    particulate matter. It is defined as the weight of many particles
+	    of the material divided by the total volume they occupy. The total
+	    volume includes particle volume, inter-particle void volume, and
+	    internal pore volume (WP, https://goo.gl/RvdJ9J)
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Producer Status">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Living, Dead, Broken, Mature, Juvenile...
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Producer Age">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Age of producers
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Canopy Structure">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Producer Abundance">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Consumer Abundance">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Gravimetric Water Content">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The gravimetric water content e.g of soil
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Plant Height">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Bifurcation Point Height">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Canopy Height">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Stem Morphology">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Crown Architecture">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Dry Weight">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Wet Weight">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Synonymous with Fresh Weight
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Leaf Habit">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Decidious, Evergreen
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Leaf Toughness">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Specific Leaf Area">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Leaf Dry Matter Content">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Leaf Structure">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    All sorts of structural aspects of leafes.
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Stomatal Size">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    Size of stomata e.g. length, width
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Stomatal Density">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    The density of stomata
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Shannon Diversity">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Species Richness">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Functional Diversity">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Functional Dissimilarity">
+	<xs:annotation>
+	  <xs:documentation xml:lang="en">
+	    NA
+	  </xs:documentation>
+	</xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="Functional Evenness">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    NA
