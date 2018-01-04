@@ -1,423 +1,522 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <Ease>
   <Object>
     <Contexts>
+      <!--1 or more repetitions:-->
       <Context>
+        <!--Optional:-->
         <TimeContext>
+          <!--Optional:-->
           <TimeRanges>
             <TimeRange>
               <RangeStart>
                 <DateTime>
-                  <date>2012-12-13</date>
-                  <time>12:12:12</time>
-                  <timezone uri="http://www.xsd2xml.com">str1234</timezone>
+                  <date>2008-09-29</date>
+                  <!--Optional:-->
+                  <time>01:18:33</time>
+                  <!--Optional:-->
+                  <timezone uri="http://www.corp.org/temperat/per">America/Tegucigalpa</timezone>
                 </DateTime>
               </RangeStart>
               <RangeEnd>
                 <DateTime>
-                  <date>2012-12-13</date>
-                  <time>12:12:12</time>
-                  <timezone uri="http://www.xsd2xml.com">str1234</timezone>
+                  <date>2017-05-15</date>
+                  <!--Optional:-->
+                  <time>12:32:42+01:00</time>
+                  <!--Optional:-->
+                  <timezone uri="http://www.corp.org/et/turbine">America/Argentina/Catamarca</timezone>
                 </DateTime>
               </RangeEnd>
             </TimeRange>
           </TimeRanges>
+          <!--Optional:-->
           <TimePeriods>
             <TimePeriod>
+              <!--1 or more repetitions:-->
               <GeologicalTimePeriod>
-                <geologicalEon uri="http://www.xsd2xml.com">str1234</geologicalEon>
-                <geologicalEra uri="http://www.xsd2xml.com">str1234</geologicalEra>
-                <geologicalPeriod uri="http://www.xsd2xml.com">str1234</geologicalPeriod>
-                <geologicalEpoch uri="http://www.xsd2xml.com">str1234</geologicalEpoch>
-                <geologicalAge uri="http://www.xsd2xml.com">str1234</geologicalAge>
+                <geologicalEon uri="http://www.company.edu/profundum/bella">Archean</geologicalEon>
+                <geologicalEra uri="http://www.corp.gov/hoc/rapidum">Mesoproterozoic</geologicalEra>
+                <!--Optional:-->
+                <geologicalPeriod uri="http://www.my.org/circum/aris">Siderian</geologicalPeriod>
+                <!--Optional:-->
+                <geologicalEpoch uri="http://www.any.com/claustra/circum">Pridoli</geologicalEpoch>
+                <!--Optional:-->
+                <geologicalAge uri="http://www.test.org/et/ac">Carnian</geologicalAge>
               </GeologicalTimePeriod>
             </TimePeriod>
           </TimePeriods>
+          <!--Optional:-->
           <TemporalResolutions>
-            <TemporalResolution>
-              <temporalExtentType uri="http://www.xsd2xml.com" modifyer="1234">str1234</temporalExtentType>
-              <temporalResolutionType uri="http://www.xsd2xml.com" modifyer="1234">str1234</temporalResolutionType>
+            <!--1 or more repetitions:-->
+            <TemporalResolution factor.id="100">
+              <!--Optional:-->
+              <temporalExtentType uri="http://www.test.org/pectore/talia" modifyer="1">Day</temporalExtentType>
+              <!--Optional:-->
+              <temporalResolutionType uri="http://www.sample.gov/sciret/certo" modifyer="1">Century</temporalResolutionType>
             </TemporalResolution>
           </TemporalResolutions>
         </TimeContext>
+        <!--Optional:-->
         <SpaceContext>
           <BoundingBoxes>
+            <!--1 or more repetitions:-->
             <BoundingBox>
-              <northBoundingCoordinate>123.45</northBoundingCoordinate>
-              <southBoundingCoordinate>123.45</southBoundingCoordinate>
-              <eastBoundingCoordinate>123.45</eastBoundingCoordinate>
-              <westBoundingCoordinate>123.45</westBoundingCoordinate>
+              <northBoundingCoordinate>90</northBoundingCoordinate>
+              <southBoundingCoordinate>90</southBoundingCoordinate>
+              <eastBoundingCoordinate>180</eastBoundingCoordinate>
+              <westBoundingCoordinate>180</westBoundingCoordinate>
             </BoundingBox>
           </BoundingBoxes>
+          <!--Optional:-->
           <Elevations>
+            <!--1 or more repetitions:-->
             <Elevation>
-              <maximumElevation>123.45</maximumElevation>
-              <maximumElevationUnit uri="http://www.xsd2xml.com">str1234</maximumElevationUnit>
-              <minimumElevation>123.45</minimumElevation>
-              <minimumElevationUnit uri="http://www.xsd2xml.com">str1234</minimumElevationUnit>
-              <elevationDatum uri="http://www.xsd2xml.com">str1234</elevationDatum>
+              <maximumElevation>1000.00</maximumElevation>
+              <maximumElevationUnit uri="http://www.any.com/volutans/dedit">Metre</maximumElevationUnit>
+              <minimumElevation>1000.00</minimumElevation>
+              <minimumElevationUnit uri="http://www.sample.org/ac/et">Kilometre</minimumElevationUnit>
+              <elevationDatum uri="http://www.your.com/ventos/tenens">Above Mean Sea Level</elevationDatum>
             </Elevation>
           </Elevations>
+          <!--Optional:-->
           <Coordinates>
+            <!--1 or more repetitions:-->
             <Coordinate>
               <UtmCoordinate>
-                <utmCoordinateZone>1234</utmCoordinateZone>
-                <utmCoordinateSubZone>1234</utmCoordinateSubZone>
-                <utmCoordinateHemisphere uri="http://www.xsd2xml.com">str1234</utmCoordinateHemisphere>
-                <utmCoordinateEasting>123.45</utmCoordinateEasting>
-                <utmCoordinateEastingUnit uri="http://www.xsd2xml.com">str1234</utmCoordinateEastingUnit>
-                <utmCoordinateNorthing>123.45</utmCoordinateNorthing>
-                <utmCoordinateNorthingUnit uri="http://www.xsd2xml.com">str1234</utmCoordinateNorthingUnit>
-                <utmCoordinateGeodeticDatum uri="http://www.xsd2xml.com">str1234</utmCoordinateGeodeticDatum>
+                <utmCoordinateZone>100</utmCoordinateZone>
+                <utmCoordinateSubZone>string</utmCoordinateSubZone>
+                <utmCoordinateHemisphere uri="http://www.sample.com/insuper/mollitque">S</utmCoordinateHemisphere>
+                <utmCoordinateEasting>1000.00</utmCoordinateEasting>
+                <utmCoordinateEastingUnit uri="http://www.sample.edu/soror/abdidit">Metre</utmCoordinateEastingUnit>
+                <utmCoordinateNorthing>1000.00</utmCoordinateNorthing>
+                <utmCoordinateNorthingUnit uri="http://www.any.gov/ipsa/illum">Metre</utmCoordinateNorthingUnit>
+                <utmCoordinateGeodeticDatum uri="http://www.sample.com/aris/mollitque">wgs84</utmCoordinateGeodeticDatum>
               </UtmCoordinate>
             </Coordinate>
           </Coordinates>
+          <!--Optional:-->
           <Locations>
+            <!--1 or more repetitions:-->
             <Location>
-              <locationName>str1234</locationName>
-              <locationType uri="http://www.xsd2xml.com">str1234</locationType>
-              <countryName uri="http://www.xsd2xml.com">str1234</countryName>
-              <continentName uri="http://www.xsd2xml.com">str1234</continentName>
+              <locationName>string</locationName>
+              <locationType uri="http://www.company.edu/ferant/gero">Forest</locationType>
+              <countryName uri="http://www.your.org/flammato/aris">Mali</countryName>
+              <continentName uri="http://www.sample.gov/premit/ac">string</continentName>
             </Location>
           </Locations>
+          <!--Optional:-->
           <SpatialResolutions>
+            <!--1 or more repetitions:-->
             <SpatialResolution>
-              <spatialExtentType uri="http://www.xsd2xml.com">str1234</spatialExtentType>
-              <spatialResolutionType uri="http://www.xsd2xml.com">str1234</spatialResolutionType>
+              <spatialExtentType uri="http://www.company.com/et/austris">Plot</spatialExtentType>
+              <spatialResolutionType uri="http://www.my.com/atris/imposuit">Continent</spatialResolutionType>
             </SpatialResolution>
           </SpatialResolutions>
         </SpaceContext>
+        <!--Optional:-->
         <SphereContext>
           <Spheres>
+            <!--1 or more repetitions:-->
             <Sphere>
+              <!--Optional:-->
               <Atmosphere>
+                <!--Optional:-->
                 <NamedAtmosphereLayers>
+                  <!--1 or more repetitions:-->
                   <NamedAtmosphereLayer>
-                    <atmosphereLayerName uri="http://www.xsd2xml.com">str1234</atmosphereLayerName>
+                    <atmosphereLayerName uri="http://www.test.com/iras/sonoras">Exosphere</atmosphereLayerName>
                   </NamedAtmosphereLayer>
                 </NamedAtmosphereLayers>
+                <!--Optional:-->
                 <NumericAtmosphereLayers>
+                  <!--1 or more repetitions:-->
                   <NumericAtmosphereLayer>
-                    <minimumAtmosphereHeight>123.45</minimumAtmosphereHeight>
-                    <minimumAtmosphereHeightUnit uri="http://www.xsd2xml.com">str1234</minimumAtmosphereHeightUnit>
-                    <maximumAtmosphereHeight>123.45</maximumAtmosphereHeight>
-                    <maximumAtmosphereHeightUnit uri="http://www.xsd2xml.com">str1234</maximumAtmosphereHeightUnit>
+                    <minimumAtmosphereHeight>1000.00</minimumAtmosphereHeight>
+                    <minimumAtmosphereHeightUnit uri="http://www.corp.org/montis/dare">Metre</minimumAtmosphereHeightUnit>
+                    <maximumAtmosphereHeight>1000.00</maximumAtmosphereHeight>
+                    <maximumAtmosphereHeightUnit uri="http://www.sample.com/sceptra/volutans">Metre</maximumAtmosphereHeightUnit>
                   </NumericAtmosphereLayer>
                 </NumericAtmosphereLayers>
               </Atmosphere>
+              <!--Optional:-->
               <Hydrosphere>
                 <HydrosphereCompartments>
+                  <!--1 or more repetitions:-->
                   <HydrosphereCompartment>
+                    <!--Optional:-->
                     <River>
                       <NamedRiverZones>
+                        <!--1 or more repetitions:-->
                         <NamedRiverZone>
-                          <longitudinalRiverZone uri="http://www.xsd2xml.com">str1234</longitudinalRiverZone>
-                          <verticalRiverZone uri="http://www.xsd2xml.com">str1234</verticalRiverZone>
+                          <!--Optional:-->
+                          <longitudinalRiverZone uri="http://www.sample.org/vinclis/rapidum">Rhitron</longitudinalRiverZone>
+                          <!--Optional:-->
+                          <verticalRiverZone uri="http://www.your.org/auras/sciret">River Water Column</verticalRiverZone>
                         </NamedRiverZone>
                       </NamedRiverZones>
                     </River>
+                    <!--Optional:-->
                     <Lake>
                       <NamedLakeZones>
+                        <!--1 or more repetitions:-->
                         <NamedLakeZone>
-                          <benthicLakeZone uri="http://www.xsd2xml.com">str1234</benthicLakeZone>
-                          <pelagicLakeZone uri="http://www.xsd2xml.com">str1234</pelagicLakeZone>
+                          <!--Optional:-->
+                          <benthicLakeZone uri="http://www.my.org/ipsa/et">Profundal</benthicLakeZone>
+                          <!--Optional:-->
+                          <pelagicLakeZone uri="http://www.my.com/hic/arce">Epilimnion</pelagicLakeZone>
                         </NamedLakeZone>
                       </NamedLakeZones>
                     </Lake>
+                    <!--Optional:-->
                     <Sea>
                       <NamedSeaZones>
+                        <!--1 or more repetitions:-->
                         <NamedSeaZone>
-                          <benthicSeaZone uri="http://www.xsd2xml.com">str1234</benthicSeaZone>
-                          <pelagicSeaZone uri="http://www.xsd2xml.com">str1234</pelagicSeaZone>
+                          <!--Optional:-->
+                          <benthicSeaZone uri="http://www.corp.com/circum/ego">Hadal</benthicSeaZone>
+                          <!--Optional:-->
+                          <pelagicSeaZone uri="http://www.my.com/molemque/temperat">Mesopelagic</pelagicSeaZone>
                         </NamedSeaZone>
                       </NamedSeaZones>
                     </Sea>
                   </HydrosphereCompartment>
                 </HydrosphereCompartments>
               </Hydrosphere>
+              <!--Optional:-->
               <Pedosphere>
                 <PedosphereCompartments>
+                  <!--1 or more repetitions:-->
                   <PedosphereCompartment>
                     <Soil>
+                      <!--Optional:-->
                       <NamedSoilLayers>
+                        <!--1 or more repetitions:-->
                         <NamedSoilLayer>
-                          <soilHorizon uri="http://www.xsd2xml.com">str1234</soilHorizon>
+                          <soilHorizon uri="http://www.sample.gov/gero/altos">string</soilHorizon>
                         </NamedSoilLayer>
                       </NamedSoilLayers>
+                      <!--Optional:-->
                       <NumericSoilLayers>
+                        <!--1 or more repetitions:-->
                         <NumericSoilLayer>
-                          <minimumSoilDepth>123.45</minimumSoilDepth>
-                          <minimumSoilDepthUnit uri="http://www.xsd2xml.com">str1234</minimumSoilDepthUnit>
-                          <maximumSoilDepth>123.45</maximumSoilDepth>
-                          <maximumSoilDepthUnit uri="http://www.xsd2xml.com">str1234</maximumSoilDepthUnit>
+                          <minimumSoilDepth>1000.00</minimumSoilDepth>
+                          <minimumSoilDepthUnit uri="http://www.sample.org/hic/iovisque">Metre</minimumSoilDepthUnit>
+                          <maximumSoilDepth>1000.00</maximumSoilDepth>
+                          <maximumSoilDepthUnit uri="http://www.test.org/imposuit/murmure">Millimetre</maximumSoilDepthUnit>
                         </NumericSoilLayer>
                       </NumericSoilLayers>
+                      <!--Optional:-->
                       <SoilTextures>
+                        <!--1 or more repetitions:-->
                         <SoilTexture>
-                          <sandPercent>1234</sandPercent>
-                          <siltPercent>1234</siltPercent>
-                          <loamPercent>1234</loamPercent>
+                          <sandPercent>100</sandPercent>
+                          <siltPercent>100</siltPercent>
+                          <loamPercent>100</loamPercent>
                         </SoilTexture>
                       </SoilTextures>
+                      <!--Optional:-->
                       <SoilMorphologies>
+                        <!--1 or more repetitions:-->
                         <SoilMorphology>
-                          <soilMorphologyType uri="http://www.xsd2xml.com">str1234</soilMorphologyType>
+                          <soilMorphologyType uri="http://www.your.edu/imponet/ipsa">Calcisols</soilMorphologyType>
                         </SoilMorphology>
                       </SoilMorphologies>
+                      <!--Optional:-->
                       <SoilAcidities>
+                        <!--1 or more repetitions:-->
                         <SoilAcidity>
-                          <soilAcidityType uri="http://www.xsd2xml.com">str1234</soilAcidityType>
+                          <soilAcidityType uri="http://www.your.org/maria/et">Neutral</soilAcidityType>
                         </SoilAcidity>
                       </SoilAcidities>
                     </Soil>
                   </PedosphereCompartment>
                 </PedosphereCompartments>
               </Pedosphere>
+              <!--Optional:-->
               <Ecosphere>
+                <!--Optional:-->
                 <NamedEcosphereLayers>
+                  <!--1 or more repetitions:-->
                   <NamedEcosphereLayer>
-                    <ecosphereLayerName uri="http://www.xsd2xml.com">str1234</ecosphereLayerName>
+                    <ecosphereLayerName uri="http://www.your.com/ego/rapidi">Herb Layer</ecosphereLayerName>
                   </NamedEcosphereLayer>
                 </NamedEcosphereLayers>
+                <!--Optional:-->
                 <NumericEcosphereLayers>
+                  <!--1 or more repetitions:-->
                   <NumericEcosphereLayer>
-                    <minimumVegetationHeight>123.45</minimumVegetationHeight>
-                    <minimumVegetationHeightUnit uri="http://www.xsd2xml.com">str1234</minimumVegetationHeightUnit>
-                    <maximumVegetationHeight>123.45</maximumVegetationHeight>
-                    <maximumVegetationHeightUnit uri="http://www.xsd2xml.com">str1234</maximumVegetationHeightUnit>
+                    <minimumVegetationHeight>1000.00</minimumVegetationHeight>
+                    <minimumVegetationHeightUnit uri="http://www.test.edu/et/premere">Millimetre</minimumVegetationHeightUnit>
+                    <maximumVegetationHeight>1000.00</maximumVegetationHeight>
+                    <maximumVegetationHeightUnit uri="http://www.company.com/terras/vasto">Centimetre</maximumVegetationHeightUnit>
                   </NumericEcosphereLayer>
                 </NumericEcosphereLayers>
-                <OrganizationalHierarchies>
-                  <OrganizationalHierarchy>
-                    <organizationHierarchyName uri="http://www.xsd2xml.com">str1234</organizationHierarchyName>
-                  </OrganizationalHierarchy>
-                </OrganizationalHierarchies>
               </Ecosphere>
             </Sphere>
           </Spheres>
         </SphereContext>
+        <!--Optional:-->
         <BiomeContext>
+          <!--Optional:-->
           <ZonoBiomes>
+            <!--1 or more repetitions:-->
             <ZonoBiome>
-              <biomeType uri="http://www.xsd2xml.com">str1234</biomeType>
-              <biomeZone uri="http://www.xsd2xml.com">str1234</biomeZone>
-              <biomeHumidityType uri="http://www.xsd2xml.com">str1234</biomeHumidityType>
-              <biomeContinentalityType uri="http://www.xsd2xml.com">str1234</biomeContinentalityType>
-              <biomeHemisphere uri="http://www.xsd2xml.com">str1234</biomeHemisphere>
+              <biomeType uri="http://www.corp.gov/premit/vasto">Freshwater</biomeType>
+              <biomeZone uri="http://www.your.com/luctantis/rapidum">Subtropic</biomeZone>
+              <!--Optional:-->
+              <biomeHumidityType uri="http://www.any.edu/rapidi/imposuit">Semi Humid</biomeHumidityType>
+              <!--Optional:-->
+              <biomeContinentalityType uri="http://www.company.org/et/vinclis">Maritime</biomeContinentalityType>
+              <biomeHemisphere uri="http://www.corp.com/sonoras/rapidi">North</biomeHemisphere>
             </ZonoBiome>
           </ZonoBiomes>
+          <!--Optional:-->
           <OroBiomes>
+            <!--1 or more repetitions:-->
             <OroBiome>
-              <oroBiomeType uri="http://www.xsd2xml.com">str1234</oroBiomeType>
+              <oroBiomeType uri="http://www.test.com/premere/transfixo">Planar</oroBiomeType>
             </OroBiome>
           </OroBiomes>
+          <!--Optional:-->
           <PedoBiomes>
+            <!--1 or more repetitions:-->
             <PedoBiome>
-              <pedoBiomeType uri="http://www.xsd2xml.com">str1234</pedoBiomeType>
+              <pedoBiomeType uri="http://www.any.org/cum/rates">Helobiome</pedoBiomeType>
             </PedoBiome>
           </PedoBiomes>
+          <!--Optional:-->
           <Physiognomies>
+            <!--1 or more repetitions:-->
             <Physiognomy>
               <PhysiognomyTypes>
+                <!--1 or more repetitions:-->
                 <PhysiognomyType>
+                  <!--Optional:-->
                   <TerrestrialPhysiognomies>
+                    <!--1 or more repetitions:-->
                     <TerrestrialPhysiognomy>
-                      <terrestrialPhysiognomyType uri="http://www.xsd2xml.com">str1234</terrestrialPhysiognomyType>
+                      <terrestrialPhysiognomyType uri="http://www.company.org/indignantes/ventis">Closed Shrubland</terrestrialPhysiognomyType>
                     </TerrestrialPhysiognomy>
                   </TerrestrialPhysiognomies>
+                  <!--Optional:-->
                   <SemiAquaticPhysiognomies>
+                    <!--1 or more repetitions:-->
                     <SemiAquaticPhysiognomy>
-                      <semiAquaticPhysiognomyType uri="http://www.xsd2xml.com">str1234</semiAquaticPhysiognomyType>
+                      <semiAquaticPhysiognomyType uri="http://www.company.edu/secum/auras">string</semiAquaticPhysiognomyType>
                     </SemiAquaticPhysiognomy>
                   </SemiAquaticPhysiognomies>
+                  <!--Optional:-->
                   <AquaticPhysiognomies>
+                    <!--1 or more repetitions:-->
                     <AquaticPhysiognomy>
-                      <plantCharacterizedAquaticPhysiognomyType uri="http://www.xsd2xml.com">str1234</plantCharacterizedAquaticPhysiognomyType>
-                      <habitatCharacterizedAquaticPhysiognomy uri="http://www.xsd2xml.com">str1234</habitatCharacterizedAquaticPhysiognomy>
+                      <!--Optional:-->
+                      <plantCharacterizedAquaticPhysiognomyType uri="http://www.sample.com/flammato/secum">string</plantCharacterizedAquaticPhysiognomyType>
+                      <!--Optional:-->
+                      <habitatCharacterizedAquaticPhysiognomy uri="http://www.corp.org/terras/altos">Hydrothermal Vent</habitatCharacterizedAquaticPhysiognomy>
                     </AquaticPhysiognomy>
                   </AquaticPhysiognomies>
                 </PhysiognomyType>
               </PhysiognomyTypes>
             </Physiognomy>
           </Physiognomies>
+          <!--Optional:-->
           <LandUses>
+            <!--1 or more repetitions:-->
             <LandUse>
-              <landUseType uri="http://www.xsd2xml.com">str1234</landUseType>
-              <landUseForm uri="http://www.xsd2xml.com">str1234</landUseForm>
+              <!--Optional:-->
+              <landUseType uri="http://www.sample.org/certo/luctantis">Urban</landUseType>
+              <!--Optional:-->
+              <landUseForm uri="http://www.corp.org/nubibus/altos">string</landUseForm>
             </LandUse>
           </LandUses>
         </BiomeContext>
+        <!--Optional:-->
         <OrganismContext>
           <Organisms>
+            <!--1 or more repetitions:-->
             <Organism>
               <Taxonomy>
-                <domain uri="http://www.xsd2xml.com">str1234</domain>
-                <kingdom uri="http://www.xsd2xml.com">str1234</kingdom>
-                <division uri="http://www.xsd2xml.com">str1234</division>
-                <order uri="http://www.xsd2xml.com">str1234</order>
-                <family uri="http://www.xsd2xml.com">str1234</family>
-                <name>str1234</name>
-                <OrganismName>
-                  <BacterialName>
-                    <fullBacterialName>str1234</fullBacterialName>
-                    <genusOrMonomial>str1234</genusOrMonomial>
-                    <subgenus>str1234</subgenus>
-                    <subgenusAuthorAndYear>str1234</subgenusAuthorAndYear>
-                    <speciesEpithet>str1234</speciesEpithet>
-                    <subspeciesEpithet>str1234</subspeciesEpithet>
-                    <parentheticalAuthorTeamAndYear>str1234</parentheticalAuthorTeamAndYear>
-                    <authorTeamAndYear>str1234</authorTeamAndYear>
-                    <nameApprobation>str1234</nameApprobation>
-                  </BacterialName>
-                  <FungalName>
-                    <fullFungalName>str1234</fullFungalName>
-                  </FungalName>
-                  <BotanicalName>
-                    <fullBotanicalName>str1234</fullBotanicalName>
-                    <genusOrMonomial>str1234</genusOrMonomial>
-                    <firstEpithet>str1234</firstEpithet>
-                    <infraspecificEpithet>str1234</infraspecificEpithet>
-                    <rank>subgen.</rank>
-                    <hybridFlag insertionpoint="1234">str1234</hybridFlag>
-                    <authorTeamParenthesis>str1234</authorTeamParenthesis>
-                    <authorTeam>str1234</authorTeam>
-                    <cultivarGroupName>str1234</cultivarGroupName>
-                    <cultivarName>str1234</cultivarName>
-                    <tradeDesignationNames>
-                      <tradeDesignationName>str1234</tradeDesignationName>
-                    </tradeDesignationNames>
-                  </BotanicalName>
-                  <ZoologicalName>
-                    <fullZoologicalName>str1234</fullZoologicalName>
-                    <genusOrMonomial>str1234</genusOrMonomial>
-                    <subgenus>str1234</subgenus>
-                    <speciesEpithet>str1234</speciesEpithet>
-                    <subspeciesEpithet>str1234</subspeciesEpithet>
-                    <authorTeamOriginalAndYear>str1234</authorTeamOriginalAndYear>
-                    <authorTeamParenthesisAndYear>str1234</authorTeamParenthesisAndYear>
-                    <combinationAuthorTeamAndYear>str1234</combinationAuthorTeamAndYear>
-                    <breed>str1234</breed>
-                    <namedIndividual>str1234</namedIndividual>
-                  </ZoologicalName>
-                  <ViralName>
-                    <fullViralName>str1234</fullViralName>
-                    <genusOrMonomial>str1234</genusOrMonomial>
-                    <viralSpeciesDesignation>str1234</viralSpeciesDesignation>
-                    <acronym>str1234</acronym>
-                  </ViralName>
-                </OrganismName>
+                <!--Optional:-->
+                <domain uri="http://www.your.gov/tot/ignem">string</domain>
+                <kingdom uri="http://www.company.com/supplex/molemque">string</kingdom>
+                <!--You have a CHOICE of the next 2 items at this level-->
+                <!--Optional:-->
+                <!-- <division uri="http://www.sample.org/profundum/adorat">string</division> -->
+                <!--Optional:-->
+                <class uri="http://www.my.com/incedo/animos">string</class>
+                <!--Optional:-->
+                <order uri="http://www.your.edu/et/secum">string</order>
+                <!--Optional:-->
+                <family uri="http://www.test.com/transfixo/hic">string</family>
+                <!--Optional:-->
+                <species>string</species>
               </Taxonomy>
             </Organism>
           </Organisms>
         </OrganismContext>
+        <!--Optional:-->
         <ProcessContext>
+          <!--Optional:-->
           <Processes>
+            <!--1 or more repetitions:-->
             <Process>
-              <processName uri="http://www.xsd2xml.com">str1234</processName>
-              <processSubject uri="http://www.xsd2xml.com">str1234</processSubject>
+              <processName uri="http://www.your.org/una/iunonis">Ersosion</processName>
+              <!--Zero or more repetitions:-->
+              <processSubject uri="http://www.sample.org/quae/ac">string</processSubject>
             </Process>
           </Processes>
+          <!--Optional:-->
           <Interactions>
+            <!--1 or more repetitions:-->
             <Interaction>
-              <interactionName>str1234</interactionName>
-              <interactionPartnerOne uri="http://www.xsd2xml.com">str1234</interactionPartnerOne>
-              <interactionDirection uri="http://www.xsd2xml.com">str1234</interactionDirection>
-              <interactionQuality uri="http://www.xsd2xml.com">str1234</interactionQuality>
-              <interactionPartnerTwo uri="http://www.xsd2xml.com">str1234</interactionPartnerTwo>
+              <interactionName>string</interactionName>
+              <interactionPartnerOne uri="http://www.my.org/sceptra/volutans">string</interactionPartnerOne>
+              <!--Optional:-->
+              <interactionDirection uri="http://www.test.com/et/regemque">string</interactionDirection>
+              <!--Optional:-->
+              <interactionQuality uri="http://www.company.com/austris/ignem">string</interactionQuality>
+              <interactionPartnerTwo uri="http://www.company.org/sedet/vasto">Protozoa</interactionPartnerTwo>
             </Interaction>
           </Interactions>
         </ProcessContext>
+        <!--Optional:-->
         <ChemicalContext>
+          <!--Optional:-->
           <Elements>
+            <!--1 or more repetitions:-->
             <Element>
-              <elementName uri="http://www.xsd2xml.com">str1234</elementName>
+              <elementName uri="http://www.company.org/bella/et">Fermium</elementName>
             </Element>
           </Elements>
+          <!--Optional:-->
           <Isotopes>
+            <!--1 or more repetitions:-->
             <Isotope>
-              <isotopeName uri="http://www.xsd2xml.com">str1234</isotopeName>
+              <isotopeName uri="http://www.your.edu/divum/aut">23Na</isotopeName>
             </Isotope>
           </Isotopes>
+          <!--Optional:-->
           <Compounds>
+            <!--1 or more repetitions:-->
             <Compound>
-              <compoundName>str1234</compoundName>
-              <compoundClass uri="http://www.xsd2xml.com">str1234</compoundClass>
-              <compoundType uri="http://www.xsd2xml.com">str1234</compoundType>
+              <compoundName>string</compoundName>
+              <!--Zero or more repetitions:-->
+              <compoundClass uri="http://www.corp.com/hic/imposuit">Biomolecule</compoundClass>
+              <!--Zero or more repetitions:-->
+              <compoundType uri="http://www.my.com/tot/quippe">Sulfides</compoundType>
             </Compound>
           </Compounds>
+          <!--Optional:-->
           <Functions>
+            <!--1 or more repetitions:-->
             <Function>
-              <chemicalFunctionType uri="http://www.xsd2xml.com">str1234</chemicalFunctionType>
+              <chemicalFunctionType uri="http://www.your.com/exspirantem/murmure">string</chemicalFunctionType>
             </Function>
           </Functions>
         </ChemicalContext>
+        <!--Optional:-->
         <MethodContext>
+          <!--Optional:-->
           <Approaches>
+            <!--1 or more repetitions:-->
             <Approach>
-              <approachType uri="http://www.xsd2xml.com">str1234</approachType>
-              <approachLocalization uri="http://www.xsd2xml.com">str1234</approachLocalization>
+              <approachType uri="http://www.test.com/ventos/rates">Virtual</approachType>
+              <approachLocalization uri="http://www.company.org/quippe/sedet">Macrocosm</approachLocalization>
             </Approach>
           </Approaches>
+          <!--Optional:-->
           <Factors>
-            <Factor>
-              <factorName uri="http://www.xsd2xml.com" was="manipulated">str1234</factorName>
-              <factorType uri="http://www.xsd2xml.com">str1234</factorType>
+            <!--1 or more repetitions:-->
+            <Factor id="100" was="manipulated">
+              <factorName uri="http://www.company.com/ventos/ventos">string</factorName>
+              <!--Optional:-->
+              <factorType uri="http://www.corp.com/mollitque/scopuloque">Temporal Scale</factorType>
             </Factor>
           </Factors>
+          <!--Optional:-->
+          <OrganizationalHierarchies>
+            <!--1 or more repetitions:-->
+            <OrganizationalHierarchy>
+              <organizationHierarchyName uri="http://www.your.com/circum/magno">Atmom Level</organizationHierarchyName>
+            </OrganizationalHierarchy>
+          </OrganizationalHierarchies>
         </MethodContext>
       </Context>
     </Contexts>
     <References>
+      <!--Optional:-->
       <Hosters>
+        <!--1 or more repetitions:-->
         <Hoster>
-          <hosterName uri="http://www.xsd2xml.com">str1234</hosterName>
+          <hosterName uri="http://www.my.com/sciret/ac">ZFMK</hosterName>
         </Hoster>
       </Hosters>
       <Persons>
+        <!--1 or more repetitions:-->
         <Person>
-          <position uri="http://www.xsd2xml.com">str1234</position>
-          <salutation>str1234</salutation>
-          <givenName>str1234</givenName>
-          <surName>str1234</surName>
-          <emailAddress>str1234</emailAddress>
-          <phoneNumber>str1234</phoneNumber>
+          <!--1 or more repetitions:-->
+          <position uri="http://www.your.com/profundum/ipsa">string</position>
+          <!--Zero or more repetitions:-->
+          <salutation>string</salutation>
+          <!--1 or more repetitions:-->
+          <givenName>string</givenName>
+          <!--1 or more repetitions:-->
+          <surName>string</surName>
+          <!--1 or more repetitions:-->
+          <emailAddress>test@best.de</emailAddress>
+          <!--Zero or more repetitions:-->
+          <phoneNumber>string</phoneNumber>
         </Person>
       </Persons>
+      <!--Optional:-->
       <Descriptions>
+        <!--1 or more repetitions:-->
         <Description>
-          <title>str1234</title>
-          <abstract>str1234</abstract>
+          <title>string</title>
+          <abstract>string</abstract>
         </Description>
       </Descriptions>
     </References>
     <Resources>
+      <!--1 or more repetitions:-->
       <Resource>
+        <!--Optional:-->
         <OnlineResources>
+          <!--Zero or more repetitions:-->
           <OnlineResource>
-            <downloadUrl>http://www.xsd2xml.com</downloadUrl>
-            <referenceUrl>http://www.xsd2xml.com</referenceUrl>
-            <dataFormat uri="http://www.xsd2xml.com">str1234</dataFormat>
+            <downloadUrl>http://www.corp.gov/frenat/dare</downloadUrl>
+            <referenceUrl>http://www.your.edu/in/aeolus</referenceUrl>
+            <dataFormat uri="http://www.any.com/auras/ventis">Image</dataFormat>
           </OnlineResource>
         </OnlineResources>
+        <!--Optional:-->
         <OfflineResources>
+          <!--1 or more repetitions:-->
           <OfflineResource>
-            <fileID>1234</fileID>
-            <fileName>str1234</fileName>
-            <filePath>str1234</filePath>
-            <mimeType>???</mimeType>
-            <dataFormat uri="http://www.xsd2xml.com">str1234</dataFormat>
+            <!--Optional:-->
+            <fileID>100</fileID>
+            <!--Optional:-->
+            <fileName>string</fileName>
+            <!--Optional:-->
+            <filePath>string</filePath>
+            <!--Optional:-->
+            <mimeType>uvh</mimeType>
+            <dataFormat uri="http://www.any.org/ignem/caelumque">Image</dataFormat>
           </OfflineResource>
         </OfflineResources>
+        <!--Optional:-->
         <EmbeddedResources>
+          <!--1 or more repetitions:-->
           <EmbeddedResource>
+            <!--Optional:-->
             <Base64Resource>
-              <fileName>str1234</fileName>
-              <mimeType>???</mimeType>
-              <data>AAAAZg==</data>
-              <encodingDate>2012-12-13</encodingDate>
-              <encodingTime>12:12:12</encodingTime>
-              <sha2hash>str1234</sha2hash>
-              <dataFormat uri="http://www.xsd2xml.com">str1234</dataFormat>
+              <fileName>string</fileName>
+              <mimeType>string</mimeType>
+              <data>cmF0ZXM=</data>
+              <encodingDate>2011-04-25</encodingDate>
+              <encodingTime>07:17:31+01:00</encodingTime>
+              <sha2hash>string</sha2hash>
+              <dataFormat uri="http://www.company.com/aequora/molemque">Table</dataFormat>
             </Base64Resource>
           </EmbeddedResource>
         </EmbeddedResources>
