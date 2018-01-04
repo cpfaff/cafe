@@ -17927,7 +17927,7 @@
       </xs:enumeration>
 
       <xs:enumeration value="Elevation">
-	  <xs:annotation>
+	<xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    The plot selection creates an elevation gradient. Or plots of a certain
 	    elevation only are selected.
