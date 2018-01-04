@@ -11,7 +11,7 @@
 	  <xs:annotation>
 	    <xs:documentation xml:lang="en">
 	      The Object wraps all information stored in an annotation.
-	      It contains context information for the data but also the
+	      It links context information for the data but also the
 	      references and the resources which allow to acccess the
 	      data described.
 	    </xs:documentation>
@@ -31,9 +31,8 @@
 		    <xs:element name="Context" minOccurs="1" maxOccurs="unbounded">
 		      <xs:annotation>
 			<xs:documentation xml:lang="en">
-			  The Context captures biologcial context information
-			  in different categories like time, space, sphere,
-			  orgnism, biome, chemical, method and process.
+			  The Contexts capture biologcial links information in different
+			  categories. These categories are time, space, sphere, orgnism, biome,
 			</xs:documentation>
 		      </xs:annotation>
 		      <xs:complexType>
@@ -43,7 +42,7 @@
 			      <xs:documentation xml:lang="en">
 				The time context allows to capture the
 				quantitative and qualitative temporal aspects
-				that describe the the object.
+				that describe a search object.
 			      </xs:documentation>
 			    </xs:annotation>
 			    <xs:complexType>
@@ -12039,6 +12038,8 @@
     </xs:simpleContent>
   </xs:complexType>
 
+
+
   <xs:simpleType name="PelagicSeaZoneVocabulary">
     <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -17687,7 +17688,7 @@
       <xs:enumeration value="Producer Diversity">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
-	    This includes richness, functional diversity, shannon diversity, rarefaction
+	    This includes e.g. richness, functional diversity, shannon diversity, rarefaction
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
@@ -17910,7 +17911,6 @@
 	  </xs:documentation>
 	</xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Elevation">
       <!-- topo -->
       <xs:enumeration value="Land Form Characteristic">
 	<xs:annotation>
@@ -17926,7 +17926,8 @@
 	</xs:annotation>
       </xs:enumeration>
 
-	<xs:annotation>
+      <xs:enumeration value="Elevation">
+	  <xs:annotation>
 	  <xs:documentation xml:lang="en">
 	    The plot selection creates an elevation gradient. Or plots of a certain
 	    elevation only are selected.
