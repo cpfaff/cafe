@@ -299,6 +299,7 @@
 					      </xs:annotation>
 					    </xs:element>
 					  </xs:sequence>
+					<xs:attribute name="factor.id" type="xs:integer"/>
 					</xs:complexType>
 				      </xs:element>
 				    </xs:sequence>
@@ -2037,6 +2038,7 @@
 					      </xs:annotation>
 					    </xs:element>
 					  </xs:sequence>
+					<xs:attribute name="id" type="xs:integer"/>
 					</xs:complexType>
 				      </xs:element>
 				    </xs:sequence>
@@ -17497,7 +17499,6 @@
     </xs:simpleContent>
   </xs:complexType>
 
-
   <xs:simpleType name="FactorNameVocabulary">
       <xs:union memberTypes="FactorNameVocabularyBase FactorNameVocabularyExtension"/>
   </xs:simpleType>
@@ -17505,7 +17506,6 @@
   <xs:simpleType name="FactorNameVocabularyBase">
     <xs:restriction base="xs:string">
       <!-- biotic -->
-
       <xs:enumeration value="Producer Diversity">
 	<xs:annotation>
 	  <xs:documentation xml:lang="en">
