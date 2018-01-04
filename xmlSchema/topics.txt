@@ -1,0 +1,107 @@
+Agriculture
+Chemistry
+Biological Classification
+Land Surface
+Human Dimensions
+Lakes & Rivers
+Oceans
+Geophysics
+Geography
+Anthropology
+Archaeology
+Law
+Water Resources
+Tropical Medicine
+Toxicology
+Thermodynamics
+Statistics & Probability
+Soil Science
+Robotics
+Reproductive Biology
+Remote Sensing
+Plant Sciences
+Physiology
+Physics, Particles & Fields
+Physics, Nuclear
+Physics, Multidisciplinary
+Physics, Mathematical
+Physics, Fluids & Plasmas
+Physics, Condensed Matter
+Physics, Atomic, Molecular & Chemical
+Physics, Applied
+Pathology
+Optics
+Operations Research & Management Science
+Oceanography
+Nuclear Science & Technology
+Neurosciences
+Nanoscience & Nanotechnology
+Multidisciplinary Sciences
+Mining & Mineral Processing
+Mineralogy
+Microscopy
+Microbiology
+Meteorology & Atmospheric Sciences
+Medicine, Research & Experimental
+Medical Laboratory Technology
+Medical Informatics
+Mathematics, Interdisciplinary Applications
+Mathematics, Applied
+Mathematics
+Mathematical & Computational Biology
+Marine Biology
+Limnology
+Instruments & Instrumentation
+Immunology
+Imaging Science & Photographic Technology
+Horticulture
+History & Philosophy of Science
+Hematology
+Health Care Sciences & Services
+Geosciences, Multidisciplinary
+Geology
+Geography
+Geochemistry
+Genetics & Heredity
+Forestry
+Food Science & Technology
+Fisheries
+Evolutionary Biology
+Environmental Sciences
+Entomology
+Energy & Fuels
+Electrochemistry
+Ecology
+Developmental Biology
+Crystallography
+Chemistry, Physical
+Chemistry, Organic
+Chemistry, Multidisciplinary
+Chemistry, Medicinal
+Chemistry, Inorganic & Nuclear
+Chemistry, Applied
+Chemistry, Analytical
+Cell Biology
+Cell & Tissue Engineering
+Biotechnology & Applied Microbiology
+Biophysics
+Biology
+Biodiversity Conservation
+Biochemistry & Molecular Biology
+Biochemical Research Methods
+Behavioural Sciences
+Astronomy
+Anatomy & Morphology
+Agriculture, Multidisciplinary
+Agriculture, Dairy & Animal Science
+Agricultural Engineering
+Agricultural Economics & Policy
+Acoustics
+Anthroposphere
+Lithosphere
+Pedosphere
+Biosphere
+Cryosphere
+Atmosphere
+Hydrosphere
+Environment

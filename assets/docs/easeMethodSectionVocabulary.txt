@@ -1,0 +1,48 @@
+* Approach Type:
+      + Virtual
+      + Manipulative
+      + Observational
+
+* Approach Localization:
+      + Microcosm
+      + Mesocosm
+      + Macrocosm
+
+* Factor Name:
+      + Producer Diversity
+      + Producer Composition
+      + Producer Density
+      + Producer Structure
+      + Consumer Diversity
+      + Consumer Composition
+      + Consumer Density
+      + Consumer Structure
+      + Radiation Intensity
+      + Radiation Quality
+      + Soil Temperature
+      + Air Temperature
+      + Humidity
+      + Water Content
+      + Xenobiotics
+      + Precipitation
+      + Nutrient Availability
+      + Soil Texture
+      + pH Value
+      + Management
+      + Biomass Removal
+      + Pathogen Infection
+      + Fire Disturbance
+      + Wind Disturbance
+      + Flooding
+      + Elevation
+      + Inclination
+      + Time
+      + Space
+
+* Factor Type:
+     + Biotic
+     + Abiotic
+     + Disturbance
+     + Topography
+     + Temporal Scale
+     + Spatial Scale

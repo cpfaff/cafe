@@ -1,0 +1,386 @@
+﻿Title: Organismic Vocabulary Branch
+
+Authors: Claas-Thido Pfaff and the Ecological Vocabulary Development Group
+formed by members of the GFBio project and related collaborators from the
+University of Leipzig and the iDiv see below.
+
+	* Christian Wirth (Uni Leipzig, iDiv)
+	* Daniel Mara (Uni Leipzig)
+	* Frank Haunschild (Uni Leipzig)
+	* Kristin Baber (Uni Leipzig)
+	* Martin Freiberg (Uni Leipzig)
+	* Rolf Engelmann (Uni Leipzig)
+
+Notes:
+
+* Workshop 27 Feb 2015
+
+	+ Clarify which classification schema has been used (Methodological)
+
+	+ Organism Name: free text field, Author sometimes is part of the species name!
+
+	+ Do not do detailed traits/attributes but rather link against available
+	  services/vocabularies (~ easy if the name is right!?)
+
+	+ Physiological Attributes might be hard to look up in some cases. But also
+	  other attributes are hard.
+
+References:
+
+	+ Web
+		* http://bit.ly/17pMCgq (Schmoop)
+		* http://bit.ly/1FLxpBJ (ToLweb)
+	+ Book
+		* Köpcke (http://de.wikipedia.org/wiki/Hans-Wilhelm_Koepcke)
+
+Organism
+	Organism Instance
+		# input field (filled by auto completion from the list below)
+		# specify the species name (can include name of author)
+
+		Plantago lanceolata
+		Acer rubrum
+		Pinus taeda
+		Liquidambar styraciflua
+		Pseudotsuga menziesii
+		Populus tremuloides
+		Acer saccharum
+		Abies balsamea
+		Cornus florida
+		Pinus contorta
+		Quercus alba
+
+		... other
+		# you name it!
+
+	Organism Attributes
+
+		# After the discussion in the last workshop this part is questionable.
+		# We discussed attributes as entry point to describe the identity of an
+		# organism. We noticed that this approach grows very complex rather sooner than
+		# later to a point where it is hard to look up and decide which components of
+		# the vocabulary fit for a certain organism. Additionally this part of the
+		# vocabulary mimics available trait databases which list thousands of possible
+		# characteristics of organisms that could serve as markers for an
+		# identification and we do not want to reinvent the wheel!
+
+		# => thus my question! What is the most important traits of animal/plants by
+		#    your experience
+
+		Morphological Attribute
+			Size
+				# Organism size was agreed to be useful but should be more detailed which is
+				# now changed hopefully to your satisfaction
+
+				# picking two is a range
+				1nm Organism Size
+				1µm Organism Size
+				1mm Organism Size
+				1cm Organism Size
+				1m Organism Size
+				10m Organism Size
+				30m Organism Size
+				50m Organism Size
+				100m Organism Size
+
+			# Shape
+			# Structure
+			# Colour
+
+		Physiological Attribute
+			Nutrition Modes
+				Autotrophic Nutrition Mode
+					Photoautotrophic
+						# e.g. Green Plants, purple-, red-, green bacteria
+					Chemoautotrophic
+						# e.g. Nitrifying bacteria, Iron Bacteria, Sulphur Bacteria
+
+				Heterotrophic Nutrition
+					Holozoic
+						# Holozoic nutrition is a method of nutrition that involves the ingestion of
+						# liquid or solid organic material, digestion, absorption and assimilation of
+						# it to utilize it. It includes taking in the complex substances and converting
+						# them into simpler forms. For example, proteins can be broken into amino
+						# acids.
+
+						# e.g. Insectivorous
+							# Drosera, Dionea, Nepenthes, Chameleons, Birds, Bats
+
+					Saprotrophic
+						# Saprotrophic nutrition is a process of chemo-hetero-trophic extracellular
+						# digestion involved in the processing of dead or decayed organic matter.
+
+						# eating dead organic material
+						# e.g. Monotropa, Neottia, Agaricus, Rhizopus
+						# Get nourishment by the absorption of dissolved organic and inorganic
+						# materials e.g. protozoans and nematodes
+
+					Parasitic/Symbiotic
+						# Total Parasitic (e.g. Cuscuta, Orobanche)
+						# Partial Parasitic (e.g. Loranthus, Rhinantus)
+						# Ectoparasitic
+						# Endoparasitic
+						# e.g. lichens, root nodules: Rhizobiaceae
+
+		# others could be...
+		# Anatomical Attribute
+		# Phenological Attribute
+		# Biochemical Attribute
+
+	Organism Classification
+
+		# The classification below does not follow a strict taxonomical classification
+		# schema. Especially the part below Eukaryota breaks up the classical
+		# categories of taxonomy and defines classes in a wider sense (senso lato) with
+		# the goal to optimize for a faster data annotation and discovery. The drawback
+		# with this method is that it leads to duplicate entries in some of the classes
+		# For example the Chlorophyta appear under Archaeplastida as well as under
+		# Algae. In this case the subclasses are further disambiguated with a note in
+		# brackets e.g. Chlorophyta (Algae). The classification further follows a 90
+		# percent rule. Thus it covers first the most important 90 percent of families
+		# in a class before it lists the rest.
+
+		# @martin
+			# It would be really great if you could go over the structure and contents below
+			# and check if everything is fine. At some lines I placed a note as I did not
+			# find the family name somewhere (TOLWEB, WIKI, Google) to spell-check it. For
+			# the rest I did a spell-check so the names should be fine.
+
+		Kingdom
+			Eubacteria Kingdom
+				Eubacteria Phylum
+					Acidobacteria
+					Actinobacteria
+					Aquificae
+					Bacteroidetes
+					Chlamydiae
+					Chlorobi
+					Chloroflexi
+					Chrysiogenetes
+					Cyanobacteria
+					Deferribacteres
+					DeinococcusThermus
+					Dictyoglomi
+					Fibrobacteres
+					Firmicutes
+					Fusobacteria
+					Gemmatimonadetes
+					Lentisphaerae
+					Nitrospira
+					Planctomycetes
+					Proteobacteria
+					Spirochaetes
+					Thermomicrobia
+					Thermotogae
+					Verrucomicrobia
+
+			Archaea Kingdom
+				Archaea Phylum
+					Crenarchaeota
+					Euryarchaeota
+
+			Eukaryota
+				Protista s.l.
+					# mixes levels phyla, rei
+					# @martin: does "rei" mean Reich? take subkingdom, rei is mine...
+
+					# phyla
+					Cercozoa
+					Choanoflagellata
+					Euglenozoa
+					Filasterea
+					Foraminifera
+					Hacrobia
+					Ichthyosporea
+					Nucleariidae
+
+					# rei
+					Chromalveolata
+
+				Algae s.l.
+					# 90 percent
+						# mixes levels: phyla, rei, phylum
+
+						# phyla,
+						Alveolata
+
+						# rei archaeplastida
+						Chlorophyta (Algae)
+						Rhodophyta (Algae)
+
+						# sub phyla
+						Bacillariophytina (Algae)
+						Chrysophytes (Algae)
+						Oomycetes (Algae)
+						Phaeophytes (Algae)
+
+					# rest
+						# rei archaeplastida
+						Glaucophyta (Algae)
+
+						# phylum stramenopila
+						Blastocystiphytes (Algae)
+						Bolidophyta (Algae)
+						Chrysomerophytes (Algae)
+						Developayellaphytes (Algae)
+						Dictyophytes (Algae)
+						Eustigmatophytes (Algae)
+						Hyphochytriomycota (Algae)
+						Labyrinthulomycetes (Algae)
+						Opalinids (Algae)
+						Pelagophyta (Algae)
+						Phaeothamniophyceae (Algae)
+						Pinguiophytes (Algae)
+						Raphidophytes (Algae)
+						Sagenistophytes (Algae)
+						Synurophytes (Algae)
+						Xanthophytes (Algae)
+
+				Fungi s.l.
+					# phylum stramenopila
+					Oomycetes (Fungi)
+
+					# stamm
+					Basidiomycota
+					Ascomycota
+					Glomeromycota
+					Zygomycota
+					Olpidiomycota
+					Blastocladiomycota
+					Chytridiomycota
+					Neocallimastigomycota
+					Microsporidia
+					Rozellamycota
+
+				Amoebozoa (+ formerly Myxomycota)
+
+				Archaeplastida (Vascular Plant)
+					# phylum
+					Rhodophyta
+					Glaucophyta
+					Chlorophyta
+					Equisetopsida
+						Bryophyta (Moss)
+							Anthocerotiidae
+							Marchantiidae
+							Brytiidae
+
+						Pteridophyta (Fern)
+							Lycopodiopsida
+							Psilotiidae (Psilotopsida @martin: no information found so no spell check yet)
+							Equisetiidae
+							Maratiidae
+							Poplypotiidae (Polypodiopsida @martin: no information found so no spell check yet)
+
+						Gymnosperms (Coniferales, Gymnospermae)
+							Cycadiidae (Cycadopsida @martin: no information found so no spell check yet)
+							Ginkgotiidae (Ginkgopsida @martin: no information found so no spell check yet)
+							Pintiidae (Pinopsida @martin: no information found so no spell check yet)
+							Gnetiidae (Gnetopsida @martin: no information found so no spell check yet)
+
+						Angiosperms (Angiosperm, Magnoltiidae)
+							Magnoliidae (basal angiosperms)
+							Liliidae (Monocotyls)
+							Rosidae (Dicotyls s.l.)
+
+				Metazoa (Animalia)
+					# 90 percent
+						# stamm
+						Chordata
+							# 90 percent
+								Actinopterygii
+								Chondrichthyes
+								Amphibia
+								Mammalia
+								Reptilia
+								Aves (Ornithes, Birds)
+
+							# rest
+								Urochordata (Tunicata, Tunicates)
+								Cephalochordata
+								Hyperotreti (Hagfishes)
+								Cephalaspidomorphi
+								Dipnoi
+
+						# sub class
+						Hexapoda (Insects)
+							# 90 percent
+
+								Coleoptera
+								Dermaptera
+								Diptera
+								Hemiptera
+								Hymenoptera
+								Lepidoptera
+								Neuroptera
+								Odonata
+								Orthoptera
+								Phasmida
+								Trichoptera
+
+							# rest
+								Archaeognatha
+								Collembola
+								Dictyoptera
+								Embioptera
+								Entognatha
+								Ephemeroptera
+								Grylloblattodea
+								Mantophasmatodea
+								Mecoptera
+								Megaloptera
+								Plecoptera
+								Psocodea
+								Raphidioptera
+								Siphonaptera
+								Strepsiptera
+								Thysanoptera
+								Thysanura
+								Zoraptera
+
+						Arachnida
+							Acari (Mites)
+							Arachniformes
+							Opiliones (Harvestmen)
+							Pseudoscorpiones
+							Scorpiones (Scorpions)
+							Solifugae
+
+						# sub phylum
+						Cnidaria
+						Ctenophora
+						Porifera
+
+						# sub class
+						Crustacea
+
+						# sub stamm
+						Lophotrochozoa
+
+						# stamm
+						Nematoda
+
+					# rest
+						# stamm
+						Echinodermata
+						Hemichordata
+						Kinorhyncha
+						Loricifera
+						Merostomata
+						Nematomorpha
+						Onychophora
+						Priapulida
+						Tardigrada
+						Xenoturbellida
+
+						# sub class
+						Myriapoda
+
+						# sub phylum
+						Myxozoa
+						Placozoa
+
+						# sub stamm
+						Platyzoa
+
+						Pycnogonida

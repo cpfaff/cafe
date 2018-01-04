@@ -1,0 +1,1051 @@
+Process #{{{
+	o abb:
+	o syn:
+	o imp:
+	o des: According to the Elsevier Dictionary of Biology (Tirri et al., 1998) a process
+               is defined as a series of events, reactions or operations, achieving a certain
+               definite result. Ecosystem processes are seen therefore as the complex
+               interactions among biotic and abiotic elements of ecosystems, encompassing in
+               broad terms material cycles and the flow of energy (Lyons et al., 2005).
+	o std:
+	o lan:
+	o src:
+	o lit:
+	o mat:
+
+	Process Instances #{{{
+		o abb:
+		o syn:
+		o imp:
+		o des: Process instances lists important processes of ecological interest
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+		# top process instances
+
+		Assimilation
+		Birth
+		Carbon Cycle
+		Communication
+		Competition
+		Consumption
+		Death
+		Dissimilation
+		Disturbance
+		Energy Exchange
+		Extinction
+		Facilitation
+		Growth
+		Immigration
+		Land use change
+		Migration
+		Nutrient Cycle
+		Speciation
+		Water Cycle
+
+		# more process instances (free field: type, auto complete, most important appear first)
+
+		Abiotic decomposition
+		Abrasion
+		Advection (Transport of air and moisture that is in gaseous state)
+		Ammonification (Organic Nitrogen to Ammonium)
+		Animal migration
+		Assimilation (Nitrate in soil {NO3-} ---converted to---> Nitrite {NO2-} Ammonium {NH4-} ---put into---> Asparagine, Glutamine)
+		Autotroph Carbon Assimilation
+		Bioaccumulation
+		Biotic decomposition
+		Branch Shedding
+		Breathing
+		Browsing
+		Carbon Assimilation
+		Carbon Exchange
+		Carbon Storage (Trees or Forest)
+		Carbon emission
+		Carbon sequestration
+		Chemosynthesis
+		Combustion
+		Condensation
+		Decay
+		Decomposition (Organic material to more simple chemicals)
+		Defecation
+		Denitrification (Reduction of nitrates to Nitrogen)
+		Desorption
+		Desublimation
+		Dispersal
+		Dissimilation (Mobilization of stored energy Fats, Carbohydrates)
+		Drinking
+		Ecosystem degradation
+		Enzymatic transformation of organic molecules. Today often refers to any
+		Erosion
+		Eutrophication
+		Eutrophication (may be rather a state!)
+		Evaporation
+		Evapotranspiration
+		Extinction
+		Exudation (ecology: excretion of amino acids, mono-saccharides and other organic molecules)
+		Exuding (often excretion of amino acids, mono-saccharides and other organic molecules)
+		Fermentation
+		Filtration
+		Fossilisation
+		Fragmentation
+		Freezing
+		Gene loss
+		Gene transfer
+		Genetic Drift (Composition of a gene pool)
+		Grazing
+		Groundwater Flow (Flux of ground water)
+		Groundwater Recharge (Flux of surface water to the water table surface)
+		Groundwater flow (Flux of ground water)
+		Growth
+		Guttation
+		Habitat Fragmentation
+		Habitat Loss
+		Heterotroph Carbon Assimilation
+		Humification
+		Hunting
+		Infiltration (Uptake of falling precipitation into the soil)
+		Internal Respiration (Heterotroph respiration, Autotroph Respiration)
+		Leaching
+		Leaf Shedding
+		Litter Production
+		Melting
+		Migration
+		Mutation
+		Nectar secretion
+		Nitrification
+		Nitrification (Conversion of ammonium to nitrate)
+		Nitrogen Assimilation (External to internal Nitrogen)
+		Nitrogen Fixation (Nitrogen in the atmosphere to Ammonium)
+		Nitrogen Release
+		Nitrogen storage
+		Ocean-Atmosphere Carbon Exchange
+		Percolation (Downward movement of soil moisture)
+		Phosphate assimilation (Uptake of phosphate over root used as a substrate for e.g. ATP)
+		Phosphor Release
+		Photosynthesis
+		Plant Water Absorption
+		Pollination
+		Pollution
+		Precipitation (Falling water)
+		Predation
+		Primary Growth
+		Primary production
+		Pyrolysis
+		Reproduction
+		Respiration
+		Salt secreting
+		Scavenging
+		Secondary Growth
+		Sedimentation (Sinking of particles in a fluid medium)
+		Seed Dispersal
+		Soil formation
+		Soil-Atmosphere Carbon Exchange
+		Speciation
+		Sublimation
+		Subsurface Flow (Flux of sub surface water)
+		Succession
+		Sulfur Assimilation
+		Sulfur Release
+		Surface Runoff (Water running of the surface)
+		Survival
+		Symbiosis
+		Thermochemical decomposition of organic material at elevated temperature and in
+		Transpiration (Plant driven movement of water from the soil to the atmosphere)
+		UV-Degradation
+		Volatile Emission
+		Water - Atmosphere Carbon Exchange
+		Water Exchange
+		Water Uptake
+		Climate change
+
+		# Biotic Interaction
+
+	#}}}
+
+	Process Attributes #{{{
+		o abb:
+		o syn:
+		o imp:
+		o des: The process attributes made up of the specification of the general type of a
+                       process the process context and the components that are involved. It allows for
+                       a detailed breakdown of the process dimensions and thus for a more versatile
+                       access to processes on the discovery of data.
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+		Process Type #{{{
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std: The generic types of processes describing the ecological process of interest
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+			Transport Process #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: Transport processes embrace the uptake, the storage, the release and the plain
+				       and simple movements of matter and energy that appear across all scales of
+				       ecological interest.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				Uptake Process
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Release Process
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Exchange Process
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Movement Process
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+			#}}}
+
+			Transformation Process #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: Transformation processes enclose the addition, the removal the loss, the change
+				       of state of matter as well as structural and compositional changes that appear
+				       across all scales of ecological interest.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				Removal Process
+					o abb:
+					o syn:
+					o imp:
+					o des: Describes the removal of something from an object of observation. For example
+					       if we observe water moving through a filter material like sand then the filter
+					       will remove certain contents e.g. pollutants from the water and it gets
+					       cleaned (Filtration).
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Addition Process
+					o abb:
+					o syn:
+					o imp:
+					o des: Describes the addition of something to an object of observation. For example
+					       the discharge of nutrients from nearby fields into a standing body of water
+					       (Pollution).
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Increase Process
+					o abb:
+					o syn:
+					o imp:
+					o des: Describes the increase of something in the ecosystem context. For example growth of a tree due to
+					       an increase in biomass.
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Decrease Process
+					o abb:
+					o syn:
+					o imp:
+					o des: Describes the decrease of something in the ecosystem context. This can be e.g.
+					       habitats (habitat loss), species (extinction), or anatomic parts (branch shedding) or a loss of biomass due to disturbances. (A -> a)
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Transition Process
+					o abb:
+					o syn:
+					o imp:
+					o des: Transitions mean processes with a transition from one thing into another. This
+                                               embraces physical state changes of chemical compounds (Evaporation,
+                                               Condensation, Sublimation, Desublimation, Melting, Freezing), the genesis of
+                                               new species as well as the exchange of bases in DNA on mutation (A -> B).
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Conversion Process
+					o abb:
+					o syn:
+					o imp:
+					o des: Conversions describe processes that combine and form or break down things for
+                                               example chemical compounds e.g. in anabolic and catabolic processes.
+                                               Furthermore this embraces e.g assimilation, dissimilation (AB -> C, C -> AB)
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+			#}}}
+
+			Interaction Process #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: Comprises all sorts interactions appearing across and in between the
+				       scales of interest in ecology (Trophic Interactions, Predation, Herbivory,
+				       Pollination, Communication)
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				# Neutralism (0 / 0)
+				# Amensalism (0 / -)
+				# Ecological facilitation
+					# Commensalism (+ / 0)
+					# Mutualism (+ / +) (syn. Symbiosis)
+				# Competition (- / -)
+				# Antagonism (+ / -)
+					# Predation
+					# Herbivory
+					# Parasitism (Host survives)
+					# Parasitoism (Host dies)
+
+			#}}}
+
+		#}}}
+
+		Process Component #{{{
+			o abb:
+			o syn:
+			o imp:
+			o des: Members of the process components represent active as well as the passive parts
+			       involved in a process. This includes e.g. organisms and spheres but also parts
+			       of these like particles and anatomical entities. Additionally this includes
+			       chemical and physical influences that are involved in, modify or drive process
+			       like solar radiation, heat or humidity.
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+			Sphere Component #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: A Sphere component describes the spheres involved in a process. They usually
+				       have a passive role in a process e.g. as source or sink.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+			#}}}
+
+			Organism Component #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: Organism agents capture the type of organisms and organism roles involved in the process
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				# Eubacteria Component
+				# Archaea Component
+				# Eukaryota Component
+
+			#}}}
+
+			Partial Component #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: The partial agent captures assertiona about parts of spheres and organisms that are involved in
+				       the process.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				Particle Component
+					o abb:
+					o syn:
+					o imp:
+					o des: The particle agent is a part of a compartment or an actor involved in the
+					       process.
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+					# e.g. Soil Particle
+					# e.g. Sediment Particle
+
+				Anatomic Component
+					o abb:
+					o syn:
+					o imp:
+					o des: Captures anatomical parts of plants and animals involved in the
+					       process (e.g. useful for branch-, leaf shedding)
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				#}}}
+
+			Chemical Component #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: The chemical agents represent abiotic factors involved in an ecological process
+				       like elements, compounds, complexes as well as chemical roles that reference a
+				       group of chemicals in a certain context.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				# Element Component (N, C, P)
+				# Compound Component (Carbohydrates, Fats)
+				# Complex Component (Charcoal, Humus)
+				# Roles Component (Nutrient, Attractant)
+
+			#}}}
+
+			Physical Component #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: A physical agent represents abiotic factors of physical nature involved or
+				       influencing an ecological process.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				Solar Radiation Component
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Heat Component
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Humidity Component
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+			#}}}
+
+		#}}}
+
+		Process Orientation #{{{
+			The process orientation is an essential part of the process context. It allows to
+			capture the general orientation of the underlying mechanisms of the process. An
+			example for this would be physical erosion, chemical erosion, biological
+			erosion.
+
+			Physical Orientation
+				o abb:
+				o syn:
+				o imp:
+				o des:
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+			Chemical Orientation
+				o abb:
+				o syn:
+				o imp:
+				o des:
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+			Biological Orientation
+				o abb:
+				o syn:
+				o imp:
+				o des:
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+		#}}}
+
+		Process Relation #{{{
+			o abb:
+			o syn:
+			o imp:
+			o des: Links processes to other important concepts e.g. services
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+			Service Type
+				Supporting Service
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Provisioning Service
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Regulating Service
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Cultural Service
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+			#}}}
+
+	#}}}
+
+#}}}
+
+
+
+
+
+
+# is something on its own
+Process Trigger
+	o abb:
+	o syn:
+	o imp:
+	o des: Process triggers caputre assertions about events that triggered the process described
+	o std:
+	o lan:
+	o src:
+	o lit:
+	o mat:
+
+	Disturbance Event
+		Earthquake
+		Firestorms
+		Flooding
+		Insect Outbreaks
+		Trampling
+		Tsunami
+		Volcanic eruption
+		Windstorms
+		Air Pollution
+		CO2 emission
+		Clear-cutting
+		Invasion
+		Land use change
+		Light Pollution
+		Nitrogen deposition
+		Pollution
+
+
+# this goes under organisms
+Anatomic Entitiy
+	Plant Anatomic Component
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+		Root Component
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+		Stem Component
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+		Branch Component
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+		Leaf Component
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+		Flower Component
+			o abb:
+			o syn:
+			o imp:
+			o des:
+			o std:
+			o lan:
+			o src:
+			o lit:
+			o mat:
+
+	Animal Anatomical Component
+		o abb:
+		o syn:
+		o imp:
+		o des:
+		o std:
+		o lan:
+		o src:
+		o lit:
+		o mat:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# saved away:
+
+# This has been removed as it represents rather metadata about the process. I
+# think however that this can be handled differently when creating an ontology.
+# Then we can define cardinalities that describe processes to have a portion of
+# these generic dimensions!
+
+=> Ask Naouel on Monday
+
+			Process Time Scale #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: The time scale is an essential part of the process context. It describes the
+				       the time range a process takes to develop visible impacts on actors and
+				       compartments in a described system. If no general information is available on
+				       how long the process takes to become visible in the literature the time of
+				       observation can be used as an value of thumb as this time scale already allowed
+				       to show a process.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				< Second Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Second Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Minute Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Day Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Month Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Year Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Decade Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Century Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				> Century Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+			#}}}
+
+			Process Organization Scale #{{{
+				o abb:
+				o syn:
+				o imp:
+				o des: The organization scale is an essential part of the process context. It shows
+				       the organizational focus the process is observed in. While the organizational
+				       scale ranges from galaxies over the solar system down to organism and molecular
+				       levels, ecology is focused on the intermediate levels in the organizational
+				       hierarchy.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				## to large
+				# Galaxy Scale
+				# Solar System Scale
+				# Earth Scale
+
+				# important for ecology
+
+				Biosphere Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Ecosystem Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Community Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Population Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Organism Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				## to small
+				# Organs Scale
+				# Tissues Scale
+				# Cells Scale
+				# Protoplasm Scale
+				# Molecules Scale
+			# }}}
+
+			Process Spatial Scale # {{{
+				o abb:
+				o syn:
+				o imp:
+				o des: The time scale is an essential part of the process context. It describes the
+				       two dimensional frame the process acts in. If no general information about the
+				       spatial scale of a process is available in the literature the spatial scale of
+				       a particular observation can be used instead.
+				o std:
+				o lan:
+				o src:
+				o lit:
+				o mat:
+
+				Point Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Plot Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Region Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Continent Scale
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+
+				Global Scale # {{{
+					o abb:
+					o syn:
+					o imp:
+					o des:
+					o std:
+					o lan:
+					o src:
+					o lit:
+					o mat:
+					# }}}
+				# }}}

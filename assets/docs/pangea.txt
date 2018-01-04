@@ -1,0 +1,73 @@
+# Spheres
+	Biosphere
+	Atmosphere
+	Lithosphere
+
+# Locations (Identifyer)
+	Oceans
+	Land Surface
+
+# Scientific Disciplines/Domains
+	Environmental Sciences
+	Multidisciplinary Sciences
+	Biology
+	Chemistry
+	Ecology
+	Evolutionary Biology
+	Geochemistry
+	Geography
+	Geology
+	Geophysics
+	Geosciences, Multidisciplinary
+	Marine Biology
+	Meteorology & Atmospheric Sciences
+	Oceanography
+	Paleontology
+
+
+# Taxonomy
+	Biological Classification
+		Animalia
+		Annelida
+		Anthozoa
+		Appendicularia
+		Arthropoda
+		Ascidiacea
+		Bacillariophyta
+		Bacteria
+		Bivalvia
+		Bolboforma
+		Bryophyta
+		Bryozoa
+		Cephalopoda
+		Chaetognatha
+		Chordata
+		Chromista
+		Ciliophora
+		Cnidaria
+		Copepoda
+		Crinoidea
+		Crustacea
+		Dinoflagellata
+		Echinodermata
+		Foraminifera
+		Fungi
+		Gastropoda
+		Holothuroidea
+		Hydrozoa
+		Insecta
+		Isopoda
+		Mollusca
+		Myzozoa
+		Ochrophyta
+		Oligochaeta
+		Ostracoda
+		Pisces
+		Plantae
+		Polychaeta
+		Porifera
+		Protozoa
+		Pteropoda
+		Radiozoa
+		Rhodophyta
+		Tunicata

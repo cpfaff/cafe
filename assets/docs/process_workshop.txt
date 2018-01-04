@@ -1,0 +1,307 @@
+Title: Process Vocabulary Branch
+
+Authors: Claas-Thido Pfaff and the Ecological Vocabulary Development Group
+	formed by members of the GFBio project and other related collaborators.
+
+	* Alexandra Weigelt (Uni Leipzig, iDiv)
+	* Bettina Ohse (Uni Leipzig, iDiv)
+	* Christian Wirth (Uni Leipzig, iDiv)
+	* David Eichenberg (Uni Leipzig)
+	* Mario Liebergesell (Uni Leipzig, FUN-Div)
+	* Nico Eisenhauer (iDiv)
+
+
+#2 Workshop
+
+* Books
+	+ Wörterbuch der Ökologie (Mattias Schaefer, ISBN: 978-3-8274-2561-4)
+
+* Notes
+
+	+ Time Scale, Organization Scale, Spatial Scale have been identified to be
+	  more general concepts. The group argued that this needs to go into an own
+	  top level dimension
+
+		I argue that a derived form of these base dimensions is important to keep in
+		the process facet for more semantically more powerful assertions about
+		processes. Thus I added Process Time Scale, Process Organization Scale and
+		Process Spatial Scale.
+
+
+	=> Update:
+		Further Discussions with Mario and David convinced me to put the scales aside.
+		They are important for the processes but rather represent descriptive information
+		about the process (metadata) if we use them in their derived process specific version.
+		This information is highly valuable but might be hard to provide by the person
+		tagging the data as either the information is missing yet or incomplete (e.g. Which
+		organizational levels does a process act on, or which time does it take to
+		develop visible impacts on parts of the ecosystem in general.)
+
+* Agreements/Changelog
+
+	+ The Process Type and the cycle type need to be merged as the represent together
+	  important process types. (check)
+
+		=> Now cycles appear in the list of process instances!
+
+	+ The concept of Service type does not fit well enough. We rather call it Process
+	  identity (check)
+
+		=> Restructured the vocabulary to make the identity broader not it fits
+
+	+ While the Transport processes types are intuitive the transformation process types
+	  are not. They have to be refined. (check)
+
+		=> have been reworked according to the workshop discussions
+			(Addition [A] -> [AB] , Removal [AB] -> [A], Increase (a -> A), Decrease (A -> a), Transition (A -> B), Conversion (AB <-> B + A))
+
+	+ In Process Agents, the Agent implies an active participant or driver of the process
+	  this does not all the sub-categories e.g. chemicals or spheres. This needs rework (check)
+
+		=> Now this is called "Process Component" to get rid of the implication of an active
+		   participation
+
+	+ A list of processes needs to be accessible as well. The group was collecting instances
+	  of processes in a top 20 list. This will be implemented as free field with auto completion
+	  in the tagging framework and as a top 20 list to pick from (self sorting by importance) in
+	  the faceted search
+
+		=> lists top 20 now and many more below it (these need to be checked, cleaned, described and
+		   mapped into the process vocabulary by a student helper.
+
+Process
+	Process Instance
+		# top 20 process instances
+		Assimilation
+		Birth
+		Carbon Cycle
+		Communication
+		Competition
+		Consumption
+		Death
+		Dissimilation
+		Disturbance
+		Energy Exchange
+		Extinction
+		Facilitation
+		Growth
+		Immigration
+		Land use change
+		Migration
+		Nutrient Cycle
+		Speciation
+		Water Cycle
+
+		... Other
+
+		# you name them:
+		# I have more on a list that could be mapped by a student helper into this system (see all the way down in this file!)
+
+	Process Identity
+		Process Type
+			Transport Process
+				Uptake
+				Release
+				Exchange
+				Movement
+			Transformation Process
+				Removal
+				Addition
+				Increase
+				Decrease
+				Transition
+				Conversion
+			Interaction Process
+
+		Process Orientation
+			Physical Orientation
+			Chemical Orientation
+			Biological Orientation
+
+		Process Relation
+			Supporting Service
+			Provisioning Service
+			Regulating Service
+			Cultural Service
+
+		Process Component
+			Sphere Component
+				Biosphere Component
+				Hydrosphere Component
+				Atmosphere Component
+				Pedosphere Component
+				Lithosphere Component
+
+			Organism Component
+				Eubacteria Component
+				Archaea Component
+				Eukaryota Component
+
+			Partial Component
+				Particle Component
+				Anatomic Component
+					Root Component
+					Stem Component
+					Branch Component
+					Leaf Component
+					Flower Component
+
+			Chemical Component
+				Element Component (N, C, P)
+				Compound Component (Carbohydrates, Fats)
+				Complex Component (Charcoal, Humus)
+				Roles Component (Nutrient, Attractant)
+
+			Physical Component
+				Solar Radiation Component
+				Heat Component
+				Humidity Component
+
+				... Other
+
+
+# more process instances (free field: type, auto complete, most important appear first)
+
+Abiotic decomposition
+Abrasion
+Advection (Transport of air and moisture that is in gaseous state)
+Ammonification (Organic Nitrogen to Ammonium)
+Animal migration
+Assimilation (Nitrate in soil {NO3-} ---converted to---> Nitrite {NO2-} Ammonium {NH4-} ---put into---> Asparagine, Glutamine)
+Autotroph Carbon Assimilation
+Bioaccumulation
+Biotic decomposition
+Branch Shedding
+Breathing
+Browsing
+Carbon Assimilation
+Carbon Exchange
+Carbon Storage (Trees or Forest)
+Carbon emission
+Carbon sequestration
+Chemosynthesis
+Combustion
+Condensation
+Decay
+Decomposition (Organic material to more simple chemicals)
+Defecation
+Denitrification (Reduction of nitrates to Nitrogen)
+Desorption
+Desublimation
+Dispersal
+Dissimilation (Mobilization of stored energy Fats, Carbohydrates)
+Drinking
+Ecosystem degradation
+Enzymatic transformation of organic molecules. Today often refers to any
+Erosion
+Eutrophication
+Eutrophication (may be rather a state!)
+Evaporation
+Evapotranspiration
+Extinction
+Exudation (ecology: excretion of amino acids, mono-saccharides and other organic molecules)
+Exuding (often excretion of amino acids, mono-saccharides and other organic molecules)
+Fermentation
+Filtration
+Fossilisation
+Fragmentation
+Freezing
+Gene loss
+Gene transfer
+Genetic Drift (Composition of a gene pool)
+Grazing
+Groundwater Flow (Flux of ground water)
+Groundwater Recharge (Flux of surface water to the water table surface)
+Groundwater flow (Flux of ground water)
+Growth
+Guttation
+Habitat Fragmentation
+Habitat Loss
+Heterotroph Carbon Assimilation
+Humification
+Hunting
+Infiltration (Uptake of falling precipitation into the soil)
+Internal Respiration (Heterotroph respiration, Autotroph Respiration)
+Leaching
+Leaf Shedding
+Litter Production
+Melting
+Migration
+Mutation
+Nectar secretion
+Nitrification
+Nitrification (Conversion of ammonium to nitrate)
+Nitrogen Assimilation (External to internal Nitrogen)
+Nitrogen Fixation (Nitrogen in the atmosphere to Ammonium)
+Nitrogen Release
+Nitrogen storage
+Ocean-Atmosphere Carbon Exchange
+Percolation (Downward movement of soil moisture)
+Phosphate assimilation (Uptake of phosphate over root used as a substrate for e.g. ATP)
+Phosphor Release
+Photosynthesis
+Plant Water Absorption
+Pollination
+Pollution
+Precipitation (Falling water)
+Predation
+Primary Growth
+Primary production
+Pyrolysis
+Reproduction
+Respiration
+Salt secreting
+Scavenging
+Secondary Growth
+Sedimentation (Sinking of particles in a fluid medium)
+Seed Dispersal
+Soil formation
+Soil-Atmosphere Carbon Exchange
+Speciation
+Sublimation
+Subsurface Flow (Flux of sub surface water)
+Succession
+Sulfur Assimilation
+Sulfur Release
+Surface Runoff (Water running of the surface)
+Survival
+Symbiosis
+Thermochemical decomposition of organic material at elevated temperature and in
+Transpiration (Plant driven movement of water from the soil to the atmosphere)
+UV-Degradation
+Volatile Emission
+Water - Atmosphere Carbon Exchange
+Water Exchange
+Water Uptake
+Climate change
+# disturbances
+Earthquake
+Firestorms
+Flooding
+Insect Outbreaks
+Trampling
+Tsunami
+Volcanic eruptions
+Windstorms
+Air Pollution
+CO2 emission
+Clear-cutting
+Invasion
+Land use change
+Light Pollution
+Nitrogen deposition
+Pollution
+# Biotic Interaction
+Neutralism (0 / 0)
+Amensalism (0 / -)
+Ecological facilitation
+	Commensalism (+ / 0)
+	Mutualism (+ / +) (syn. Symbiosis)
+Competition (- / -)
+Antagonism (+ / -)
+	Predation
+	Herbivory
+	Parasitism (Host survives)
+	Parasitoism (Host dies)
+
+

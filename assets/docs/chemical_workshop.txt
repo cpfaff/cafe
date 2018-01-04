@@ -1,0 +1,350 @@
+Chemical Elements
+
+	# The Big 4 Elements
+	Carbon
+	Hydrogen
+	Oxygen
+	Nitrogen
+
+	# More Major Elements
+
+	Phosphorus
+	Sulfur
+	Sodium
+	Chlorine
+	Potassium
+	Calcium
+	Magnesium
+
+	# Important Trace Elements
+
+	Iron
+	Iodine
+	Manganese
+	Molybdenum
+	Selenium
+	Silicon
+	Vanadium
+	Boron
+	Cobalt
+	Copper
+	Fluorine
+	Zinc
+
+	Other Elements #{{{
+		Helium
+		Lithium
+		Beryllium
+		Neon
+		Aluminium
+		Argon
+		Scandium
+		Titanium
+		Chromium
+		Nickel
+		Gallium
+		Germanium
+		Arsenic
+		Bromine
+		Krypton
+		Rubidium
+		Strontium
+		Yttrium
+		Zirconium
+		Niobium
+		Technetium
+		Ruthenium
+		Rhodium
+		Palladium
+		Silver
+		Cadmium
+		Indium
+		Tin
+		Antimony
+		Tellurium
+		Xenon
+		Caesium
+		Barium
+		Lanthanum
+		Cerium
+		Praseodymium
+		Neodymium
+		Promethium
+		Samarium
+		Europium
+		Gadolinium
+		Terbium
+		Dysprosium
+		Holmium
+		Erbium
+		Thulium
+		Ytterbium
+		Lutetium
+		Hafnium
+		Tantalum
+		Tungsten
+		Rhenium
+		Osmium
+		Iridium
+		Platinum
+		Gold
+		Hydrargyrum
+		Thallium
+		Lead
+		Bismuth
+		Polonium
+		Astatine
+		Radon
+		Francium
+		Radium
+		Actinium
+		Thorium
+		Protactinium
+		Uranium
+		Neptunium
+		Plutonium
+		Americium
+		Curium
+		Berkelium
+		Californium
+		Einsteinium
+		Fermium
+		Mendelevium
+		Nobelium
+		Lawrencium
+		Rutherfordium
+		Dubnium
+		Seaborgium
+		Bohrium
+		Hassium
+		Meitnerium
+		Darmstadtium
+		Roentgenium
+		Ununbium
+	#}}}
+
+Chemical Compounds
+	Inorganic Compounds
+		Carbon dioxide
+		Water
+		Hydrogen sulfide
+
+	Organic Compounds
+		# the big 4
+		Carbohydrates
+                               carbon (C), hydrogen (H), and oxygen (O) atoms (WP, M)
+			Saccharides
+				Mono-saccharides
+					Glucose
+					Fructose
+					Galactose
+					Ribose
+				Di-saccharides
+					Sucrose
+					Lactose
+					Maltose
+					Cellobiose
+					Trehalose
+				Polysaccharides
+					Cellulose
+					Starch
+						Amylose
+						Amylopectin
+					Glycogen
+		Lipids
+			Membrane lipids
+				Phospholipids
+				Glycolipids
+				Sphingolipids
+				Sterols
+					Cholesterol
+			Storage lipids
+				Triacylglycerol
+		Proteins
+		Nucleic Acids
+			DNA
+			RNA
+				Messenger RNA
+				Transfer RNA
+				Ribosomal RNA
+
+		# Other major compounds
+		Secondary Metabolites
+			Polyphenols
+				Flavonoids
+					Anthocyanins
+					Chalcones
+					Dihydrochalcones
+					Flavones
+					Flavonols
+					Dihydroflavonols
+					Flavanones
+						Butin
+						Eriodictyol
+						Hesperetin
+						Hesperidin
+						Homoeriodictyol
+						Isosakuranetin
+						Naringenin
+						Naringin
+						Pinocembrin
+						Poncirin
+						Sakuranetin
+						Sakuranin
+						Sterubin
+					Isoflavonoids
+				Lignans
+				Phenolic acids
+					Hydroxybenzoic acids
+					Hydroxycinnamic acids
+					Hydroxyphenylacetic acids
+					Hydroxyphenyllactic acids
+					Hydroxyphenylpropanoic acids
+				Stilbenoids
+				Other polyphenols
+					Alkylmethoxyphenols
+					Alkylphenols
+					Betacyanins
+					Capsaicinoids
+					Curcuminoids
+					Dihydrocapsaicins
+					Furanocoumarins
+					Hydroxybenzaldehydes
+					Hydroxybenzoketones
+					Hydroxycinnamaldehydes
+					Hydroxycoumarins
+					Hydroxyphenylalcohols
+					Hydroxyphenylpropenes
+					Methoxyphenols
+					Naphtoquinones
+					Phenolic terpenes
+					Tyrosols
+			Alkaloids
+				Codeine
+				Morphine
+				Cocaine
+				Tetrodotoxin
+				Atropein
+				Solanin
+			Terpenes
+				Hemiterpenes
+				Monoterpenes
+					Limonene
+					Piinene
+				Sesquiterpenes
+				Diterpenes
+					Taxol
+					Aphidicolin
+				Triterpenes
+				Tetraterpenes
+				Polyterpenes
+			Tannin
+		Soil compounds
+			Humines
+			Humic Acid
+			Fulvic Acids
+
+		# Other important compounds
+		Other compounds
+			Amino Acids
+				Histidine
+				Isoleucine
+				Leucine
+				Lysine
+				Methionine
+				Phenylalanine
+				Threonine
+				Tryptophan
+				Valine
+				Alanine
+				Arginine
+				Asparagine
+				Aspartic acid
+				Cysteine
+				Glutamic acid
+				Glutamine
+				Glycine
+				Ornithine
+				Proline
+				Selenocysteine
+				Serine
+				Tyrosine
+			Nucleobases
+				Purines
+					Adenosine
+					Guanine
+				Pyrimidines
+					Thymidine
+					Cytidine
+					Uridine
+			Peptides
+				Monopeptides
+				Dipeptides
+				Tripeptides
+				Tetrapeptides
+				Oligopeptide
+Ions
+	H+
+	OH-
+	K+
+	Ca2+
+	Mg2+
+	NH4-
+	NO2-
+	NO3-
+	SO32-
+	SO42-
+	H2PO4-
+	HPO42-
+Role
+	Signal
+	Phytoalexin
+	Enzyme
+	Growth
+	Stimulator
+	Inhibitor
+	Nutrient
+	Hormone
+	Pheromone
+	Volatile
+	Pigment
+	Assimilation
+	Dissimilation
+	Stability
+	Protection
+	Transport
+	Poison
+	Cuticula
+	Antibody
+	Co-Factor
+	Interaction
+	Respiration
+	Metabolism
+	Transformation
+	Vitamin
+	Reservoir
+	Dietary fiber
+	Structure
+	Allelopathic
+	Supporting
+	Inhibiting
+	Mineral
+	Trace-Element
+	Application
+		Pesticide
+		Manure
+		Tracer
+		Fodder
+	Fragment
+	Precursor
+	Metabolite
+		Primary metabolite
+		Secondary metabolite
+	Attractant
+	Repellent
+	Protection/Defense
+	Anti-fouling (Marine, Allelopathic)
+	Toxin
+	Etho-botany (Traditional Medicinal Use)
+	Contents in plant parts
+		Trichom Content
