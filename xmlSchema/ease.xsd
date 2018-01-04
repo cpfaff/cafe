@@ -1292,36 +1292,6 @@
 						      </xs:sequence>
 						    </xs:complexType>
 						  </xs:element>
-						  <xs:element name="OrganizationalHierarchies" minOccurs="0" maxOccurs="1">
-						    <xs:annotation>
-						      <xs:documentation xml:lang="en">
-							A wrapper around organizational hierarchies
-						      </xs:documentation>
-						    </xs:annotation>
-						    <xs:complexType>
-						      <xs:sequence>
-							<xs:element name="OrganizationalHierarchy" minOccurs="1" maxOccurs="unbounded">
-							  <xs:annotation>
-							    <xs:documentation xml:lang="en">
-							      A organizational hierarchy
-							    </xs:documentation>
-							  </xs:annotation>
-							  <xs:complexType>
-							    <xs:sequence>
-							      <xs:element name="organizationHierarchyName" type="OrganizationHierarchyName" minOccurs="1" maxOccurs="1">
-								<xs:annotation>
-								  <xs:documentation xml:lang="en">
-								    A named organizational hierarchy of life (Atom
-								    Level, Molecule Level, Cell Level, ...)
-								  </xs:documentation>
-								</xs:annotation>
-							      </xs:element>
-							    </xs:sequence>
-							  </xs:complexType>
-							</xs:element>
-						      </xs:sequence>
-						    </xs:complexType>
-						  </xs:element>
 						</xs:sequence>
 					      </xs:complexType>
 					    </xs:element>
@@ -2407,6 +2377,36 @@
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The type of given factor (Biotic, Abiotic, Disturbance, ...)
+						</xs:documentation>
+					      </xs:annotation>
+					    </xs:element>
+					  </xs:sequence>
+					</xs:complexType>
+				      </xs:element>
+				    </xs:sequence>
+				  </xs:complexType>
+				</xs:element>
+				<xs:element name="OrganizationalHierarchies" minOccurs="0" maxOccurs="1">
+				  <xs:annotation>
+				    <xs:documentation xml:lang="en">
+				      A wrapper around organizational hierarchies
+				    </xs:documentation>
+				  </xs:annotation>
+				  <xs:complexType>
+				    <xs:sequence>
+				      <xs:element name="OrganizationalHierarchy" minOccurs="1" maxOccurs="unbounded">
+					<xs:annotation>
+					  <xs:documentation xml:lang="en">
+					    A organizational hierarchy
+					  </xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+					  <xs:sequence>
+					    <xs:element name="organizationHierarchyName" type="OrganizationHierarchyName" minOccurs="1" maxOccurs="1">
+					      <xs:annotation>
+						<xs:documentation xml:lang="en">
+						  A named organizational hierarchy of life (Atom
+						  Level, Molecule Level, Cell Level, ...)
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
