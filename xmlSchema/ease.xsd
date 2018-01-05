@@ -1337,7 +1337,7 @@
 						</xs:documentation>
 					      </xs:annotation>
 					    </xs:element>
-					    <xs:element name="biomeZone" type="BiomeZone" minOccurs="1" maxOccurs="1">
+					    <xs:element name="biomeLatitudinalZone" type="BiomeLatitudinalZone" minOccurs="1" maxOccurs="1">
 					      <xs:annotation>
 						<xs:documentation xml:lang="en">
 						  The name of a biome zone (Polar, Boreal, Temperate, Subtropic, Tropic)
@@ -12773,7 +12773,7 @@
     </xs:simpleContent>
   </xs:complexType>
 
-  <xs:simpleType name="BiomeZoneVocabulary">
+  <xs:simpleType name="BiomeLatitudinalZoneVocabulary">
     <xs:annotation>
       <xs:documentation xml:lang="en">
 	A biome zone name
@@ -12845,9 +12845,9 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:complexType name="BiomeZone">
+  <xs:complexType name="BiomeLatitudinalZone">
     <xs:simpleContent>
-      <xs:extension base="BiomeZoneVocabulary">
+      <xs:extension base="BiomeLatitudinalZoneVocabulary">
 	<xs:attribute name="uri">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:anyURI">

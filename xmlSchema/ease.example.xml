@@ -262,7 +262,7 @@
             <!--1 or more repetitions:-->
             <ZonoBiome>
               <biomeType uri="http://www.corp.gov/premit/vasto">Freshwater</biomeType>
-              <biomeZone uri="http://www.your.com/luctantis/rapidum">Subtropic</biomeZone>
+              <biomeLatitudinalZone uri="http://www.your.com/luctantis/rapidum">Subtropic</biomeLatitudinalZone>
               <!--Optional:-->
               <biomeHumidityType uri="http://www.any.edu/rapidi/imposuit">Semi Humid</biomeHumidityType>
               <!--Optional:-->
