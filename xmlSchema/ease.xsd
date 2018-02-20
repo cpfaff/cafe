@@ -1687,6 +1687,13 @@
 						      </xs:documentation>
 						    </xs:annotation>
 						  </xs:element>
+						  <xs:element name="genus" type="Genus" minOccurs="0" maxOccurs="1">
+						    <xs:annotation>
+						      <xs:documentation xml:lang="en">
+							The genus of the organism
+						      </xs:documentation>
+						    </xs:annotation>
+						  </xs:element>
 						  <xs:element name="species" type="xs:string" minOccurs="0" maxOccurs="1">
 						    <xs:annotation>
 						      <xs:documentation xml:lang="en">
@@ -18510,6 +18517,19 @@
   </xs:complexType>
 
   <xs:complexType name="Family">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute name="uri">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:anyURI">
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="Genus">
     <xs:simpleContent>
       <xs:extension base="xs:string">
 	<xs:attribute name="uri">
