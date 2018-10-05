@@ -1,4 +1,8 @@
-## Introduction
+## Introduction 
+
+The documentation is very outdated and needs to be fixed:
+
+See: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0186170
 
 ### General
 
